@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react"
-import pokemonData from "../../pokedex.json"
+import { applyFilters } from "./applyFilters"
+import pokemonData from "../../pokedex-enriched.json"
+import PokemonEntry from "./PokemonEntry"
 
 export default function DisplayPokemon(props) {
     const [filtered, setFiltered] = useState([])
@@ -17,19 +19,11 @@ export default function DisplayPokemon(props) {
                     body: JSON.stringify({ userQuery: props.prompt })
                 })
                 const rules = await response.json()
+                console.log(rules)
 
-                const results = pokemonData.filter(pokemon => {
-                    if (rules.types?.length > 0) {
-                        const hasType = rules.types.some(t => pokemon.type.includes(t))
-                        if (!hasType) return false
-                    }
-                    if (rules.minStats) {
-                        for (const [stat, value] of Object.entries(rules.minStats)) {
-                            if (pokemon.base[stat] < value) return false
-                        }
-                    }
-                    return true
-                })
+                const results = applyFilters(pokemonData, rules)
+                console.log(`matches found...maybe: ${results.length}`)
+
                 setFiltered(results)
             } catch (err) {
                 console.error("awww mannn there was an error, dont give up Ben!", err)
@@ -42,13 +36,13 @@ export default function DisplayPokemon(props) {
     }, [props.prompt])
 
     const toDisplay = filtered.map(pokemon => (
-        <p key={pokemon.id}>{pokemon.name.english}</p>
+        <PokemonEntry key={pokemon.id} pokemon={pokemon} />
     ))
 
     return (
         <section className="display-pokemon">
             {loading && <p>loading</p>}
-            {toDisplay}
+            {toDisplay.length > 0 && toDisplay}
         </section>
     )
 }
