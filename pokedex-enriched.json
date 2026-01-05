@@ -1,0 +1,3089 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "english": "bulbasaur"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 49,
+      "Defense": 49,
+      "Special Attack": 65,
+      "Special Defense": 65,
+      "Speed": 45
+    },
+    "color": "green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+    "weight": 69
+  },
+  {
+    "id": 2,
+    "name": {
+      "english": "ivysaur"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 62,
+      "Defense": 63,
+      "Special Attack": 80,
+      "Special Defense": 80,
+      "Speed": 60
+    },
+    "color": "green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+    "weight": 130
+  },
+  {
+    "id": 3,
+    "name": {
+      "english": "venusaur"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 82,
+      "Defense": 83,
+      "Special Attack": 100,
+      "Special Defense": 100,
+      "Speed": 80
+    },
+    "color": "green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+    "weight": 1000
+  },
+  {
+    "id": 4,
+    "name": {
+      "english": "charmander"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 39,
+      "Attack": 52,
+      "Defense": 43,
+      "Special Attack": 60,
+      "Special Defense": 50,
+      "Speed": 65
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+    "weight": 85
+  },
+  {
+    "id": 5,
+    "name": {
+      "english": "charmeleon"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 58,
+      "Attack": 64,
+      "Defense": 58,
+      "Special Attack": 80,
+      "Special Defense": 65,
+      "Speed": 80
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+    "weight": 190
+  },
+  {
+    "id": 6,
+    "name": {
+      "english": "charizard"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "base": {
+      "HP": 78,
+      "Attack": 84,
+      "Defense": 78,
+      "Special Attack": 109,
+      "Special Defense": 85,
+      "Speed": 100
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+    "weight": 905
+  },
+  {
+    "id": 7,
+    "name": {
+      "english": "squirtle"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 44,
+      "Attack": 48,
+      "Defense": 65,
+      "Special Attack": 50,
+      "Special Defense": 64,
+      "Speed": 43
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+    "weight": 90
+  },
+  {
+    "id": 8,
+    "name": {
+      "english": "wartortle"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 59,
+      "Attack": 63,
+      "Defense": 80,
+      "Special Attack": 65,
+      "Special Defense": 80,
+      "Speed": 58
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+    "weight": 225
+  },
+  {
+    "id": 9,
+    "name": {
+      "english": "blastoise"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 79,
+      "Attack": 83,
+      "Defense": 100,
+      "Special Attack": 85,
+      "Special Defense": 105,
+      "Speed": 78
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+    "weight": 855
+  },
+  {
+    "id": 10,
+    "name": {
+      "english": "caterpie"
+    },
+    "type": [
+      "Bug"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 30,
+      "Defense": 35,
+      "Special Attack": 20,
+      "Special Defense": 20,
+      "Speed": 45
+    },
+    "color": "green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+    "weight": 29
+  },
+  {
+    "id": 11,
+    "name": {
+      "english": "metapod"
+    },
+    "type": [
+      "Bug"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 20,
+      "Defense": 55,
+      "Special Attack": 25,
+      "Special Defense": 25,
+      "Speed": 30
+    },
+    "color": "green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png",
+    "weight": 99
+  },
+  {
+    "id": 12,
+    "name": {
+      "english": "butterfree"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 45,
+      "Defense": 50,
+      "Special Attack": 90,
+      "Special Defense": 80,
+      "Speed": 70
+    },
+    "color": "white",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png",
+    "weight": 320
+  },
+  {
+    "id": 13,
+    "name": {
+      "english": "weedle"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 35,
+      "Defense": 30,
+      "Special Attack": 20,
+      "Special Defense": 20,
+      "Speed": 50
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png",
+    "weight": 32
+  },
+  {
+    "id": 14,
+    "name": {
+      "english": "kakuna"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 25,
+      "Defense": 50,
+      "Special Attack": 25,
+      "Special Defense": 25,
+      "Speed": 35
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png",
+    "weight": 100
+  },
+  {
+    "id": 15,
+    "name": {
+      "english": "beedrill"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 90,
+      "Defense": 40,
+      "Special Attack": 45,
+      "Special Defense": 80,
+      "Speed": 75
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+    "weight": 295
+  },
+  {
+    "id": 16,
+    "name": {
+      "english": "pidgey"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 45,
+      "Defense": 40,
+      "Special Attack": 35,
+      "Special Defense": 35,
+      "Speed": 56
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png",
+    "weight": 18
+  },
+  {
+    "id": 17,
+    "name": {
+      "english": "pidgeotto"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "HP": 63,
+      "Attack": 60,
+      "Defense": 55,
+      "Special Attack": 50,
+      "Special Defense": 50,
+      "Speed": 71
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png",
+    "weight": 300
+  },
+  {
+    "id": 18,
+    "name": {
+      "english": "pidgeot"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "HP": 83,
+      "Attack": 80,
+      "Defense": 75,
+      "Special Attack": 70,
+      "Special Defense": 70,
+      "Speed": 101
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
+    "weight": 395
+  },
+  {
+    "id": 19,
+    "name": {
+      "english": "rattata"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 30,
+      "Attack": 56,
+      "Defense": 35,
+      "Special Attack": 25,
+      "Special Defense": 35,
+      "Speed": 72
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png",
+    "weight": 35
+  },
+  {
+    "id": 20,
+    "name": {
+      "english": "raticate"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 55,
+      "Attack": 81,
+      "Defense": 60,
+      "Special Attack": 50,
+      "Special Defense": 70,
+      "Speed": 97
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png",
+    "weight": 185
+  },
+  {
+    "id": 21,
+    "name": {
+      "english": "spearow"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 60,
+      "Defense": 30,
+      "Special Attack": 31,
+      "Special Defense": 31,
+      "Speed": 70
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png",
+    "weight": 20
+  },
+  {
+    "id": 22,
+    "name": {
+      "english": "fearow"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 90,
+      "Defense": 65,
+      "Special Attack": 61,
+      "Special Defense": 61,
+      "Speed": 100
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png",
+    "weight": 380
+  },
+  {
+    "id": 23,
+    "name": {
+      "english": "ekans"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 35,
+      "Attack": 60,
+      "Defense": 44,
+      "Special Attack": 40,
+      "Special Defense": 54,
+      "Speed": 55
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png",
+    "weight": 69
+  },
+  {
+    "id": 24,
+    "name": {
+      "english": "arbok"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 95,
+      "Defense": 69,
+      "Special Attack": 65,
+      "Special Defense": 79,
+      "Speed": 80
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png",
+    "weight": 650
+  },
+  {
+    "id": 25,
+    "name": {
+      "english": "pikachu"
+    },
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "HP": 35,
+      "Attack": 55,
+      "Defense": 40,
+      "Special Attack": 50,
+      "Special Defense": 50,
+      "Speed": 90
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+    "weight": 60
+  },
+  {
+    "id": 26,
+    "name": {
+      "english": "raichu"
+    },
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 90,
+      "Defense": 55,
+      "Special Attack": 90,
+      "Special Defense": 80,
+      "Speed": 110
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
+    "weight": 300
+  },
+  {
+    "id": 27,
+    "name": {
+      "english": "sandshrew"
+    },
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 75,
+      "Defense": 85,
+      "Special Attack": 20,
+      "Special Defense": 30,
+      "Speed": 40
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png",
+    "weight": 120
+  },
+  {
+    "id": 28,
+    "name": {
+      "english": "sandslash"
+    },
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "HP": 75,
+      "Attack": 100,
+      "Defense": 110,
+      "Special Attack": 45,
+      "Special Defense": 55,
+      "Speed": 65
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png",
+    "weight": 295
+  },
+  {
+    "id": 29,
+    "name": {
+      "english": "nidoran-f"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 55,
+      "Attack": 47,
+      "Defense": 52,
+      "Special Attack": 40,
+      "Special Defense": 40,
+      "Speed": 41
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png",
+    "weight": 70
+  },
+  {
+    "id": 30,
+    "name": {
+      "english": "nidorina"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 70,
+      "Attack": 62,
+      "Defense": 67,
+      "Special Attack": 55,
+      "Special Defense": 55,
+      "Speed": 56
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png",
+    "weight": 200
+  },
+  {
+    "id": 31,
+    "name": {
+      "english": "nidoqueen"
+    },
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 92,
+      "Defense": 87,
+      "Special Attack": 75,
+      "Special Defense": 85,
+      "Speed": 76
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
+    "weight": 600
+  },
+  {
+    "id": 32,
+    "name": {
+      "english": "nidoran-m"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 46,
+      "Attack": 57,
+      "Defense": 40,
+      "Special Attack": 40,
+      "Special Defense": 40,
+      "Speed": 50
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png",
+    "weight": 90
+  },
+  {
+    "id": 33,
+    "name": {
+      "english": "nidorino"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 61,
+      "Attack": 72,
+      "Defense": 57,
+      "Special Attack": 55,
+      "Special Defense": 55,
+      "Speed": 65
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png",
+    "weight": 195
+  },
+  {
+    "id": 34,
+    "name": {
+      "english": "nidoking"
+    },
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "base": {
+      "HP": 81,
+      "Attack": 102,
+      "Defense": 77,
+      "Special Attack": 85,
+      "Special Defense": 75,
+      "Speed": 85
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png",
+    "weight": 620
+  },
+  {
+    "id": 35,
+    "name": {
+      "english": "clefairy"
+    },
+    "type": [
+      "Fairy"
+    ],
+    "base": {
+      "HP": 70,
+      "Attack": 45,
+      "Defense": 48,
+      "Special Attack": 60,
+      "Special Defense": 65,
+      "Speed": 35
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png",
+    "weight": 75
+  },
+  {
+    "id": 36,
+    "name": {
+      "english": "clefable"
+    },
+    "type": [
+      "Fairy"
+    ],
+    "base": {
+      "HP": 95,
+      "Attack": 70,
+      "Defense": 73,
+      "Special Attack": 95,
+      "Special Defense": 90,
+      "Speed": 60
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png",
+    "weight": 400
+  },
+  {
+    "id": 37,
+    "name": {
+      "english": "vulpix"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 38,
+      "Attack": 41,
+      "Defense": 40,
+      "Special Attack": 50,
+      "Special Defense": 65,
+      "Speed": 65
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png",
+    "weight": 99
+  },
+  {
+    "id": 38,
+    "name": {
+      "english": "ninetales"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 73,
+      "Attack": 76,
+      "Defense": 75,
+      "Special Attack": 81,
+      "Special Defense": 100,
+      "Speed": 100
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png",
+    "weight": 199
+  },
+  {
+    "id": 39,
+    "name": {
+      "english": "jigglypuff"
+    },
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    "base": {
+      "HP": 115,
+      "Attack": 45,
+      "Defense": 20,
+      "Special Attack": 45,
+      "Special Defense": 25,
+      "Speed": 20
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png",
+    "weight": 55
+  },
+  {
+    "id": 40,
+    "name": {
+      "english": "wigglytuff"
+    },
+    "type": [
+      "Normal",
+      "Fairy"
+    ],
+    "base": {
+      "HP": 140,
+      "Attack": 70,
+      "Defense": 45,
+      "Special Attack": 85,
+      "Special Defense": 50,
+      "Speed": 45
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png",
+    "weight": 120
+  },
+  {
+    "id": 41,
+    "name": {
+      "english": "zubat"
+    },
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 45,
+      "Defense": 35,
+      "Special Attack": 30,
+      "Special Defense": 40,
+      "Speed": 55
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
+    "weight": 75
+  },
+  {
+    "id": 42,
+    "name": {
+      "english": "golbat"
+    },
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "base": {
+      "HP": 75,
+      "Attack": 80,
+      "Defense": 70,
+      "Special Attack": 65,
+      "Special Defense": 75,
+      "Speed": 90
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
+    "weight": 550
+  },
+  {
+    "id": 43,
+    "name": {
+      "english": "oddish"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 50,
+      "Defense": 55,
+      "Special Attack": 75,
+      "Special Defense": 65,
+      "Speed": 30
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png",
+    "weight": 54
+  },
+  {
+    "id": 44,
+    "name": {
+      "english": "gloom"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 65,
+      "Defense": 70,
+      "Special Attack": 85,
+      "Special Defense": 75,
+      "Speed": 40
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
+    "weight": 86
+  },
+  {
+    "id": 45,
+    "name": {
+      "english": "vileplume"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 75,
+      "Attack": 80,
+      "Defense": 85,
+      "Special Attack": 110,
+      "Special Defense": 90,
+      "Speed": 50
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png",
+    "weight": 186
+  },
+  {
+    "id": 46,
+    "name": {
+      "english": "paras"
+    },
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "base": {
+      "HP": 35,
+      "Attack": 70,
+      "Defense": 55,
+      "Special Attack": 45,
+      "Special Defense": 55,
+      "Speed": 25
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+    "weight": 54
+  },
+  {
+    "id": 47,
+    "name": {
+      "english": "parasect"
+    },
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 95,
+      "Defense": 80,
+      "Special Attack": 60,
+      "Special Defense": 80,
+      "Speed": 30
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png",
+    "weight": 295
+  },
+  {
+    "id": 48,
+    "name": {
+      "english": "venonat"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 55,
+      "Defense": 50,
+      "Special Attack": 40,
+      "Special Defense": 55,
+      "Speed": 45
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png",
+    "weight": 300
+  },
+  {
+    "id": 49,
+    "name": {
+      "english": "venomoth"
+    },
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "base": {
+      "HP": 70,
+      "Attack": 65,
+      "Defense": 60,
+      "Special Attack": 90,
+      "Special Defense": 75,
+      "Speed": 90
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png",
+    "weight": 125
+  },
+  {
+    "id": 50,
+    "name": {
+      "english": "diglett"
+    },
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "HP": 10,
+      "Attack": 55,
+      "Defense": 25,
+      "Special Attack": 35,
+      "Special Defense": 45,
+      "Speed": 95
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+    "weight": 8
+  },
+  {
+    "id": 51,
+    "name": {
+      "english": "dugtrio"
+    },
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "HP": 35,
+      "Attack": 100,
+      "Defense": 50,
+      "Special Attack": 50,
+      "Special Defense": 70,
+      "Speed": 120
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png",
+    "weight": 333
+  },
+  {
+    "id": 52,
+    "name": {
+      "english": "meowth"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 45,
+      "Defense": 35,
+      "Special Attack": 40,
+      "Special Defense": 40,
+      "Speed": 90
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png",
+    "weight": 42
+  },
+  {
+    "id": 53,
+    "name": {
+      "english": "persian"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 70,
+      "Defense": 60,
+      "Special Attack": 65,
+      "Special Defense": 65,
+      "Speed": 115
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
+    "weight": 320
+  },
+  {
+    "id": 54,
+    "name": {
+      "english": "psyduck"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 52,
+      "Defense": 48,
+      "Special Attack": 65,
+      "Special Defense": 50,
+      "Speed": 55
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png",
+    "weight": 196
+  },
+  {
+    "id": 55,
+    "name": {
+      "english": "golduck"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 82,
+      "Defense": 78,
+      "Special Attack": 95,
+      "Special Defense": 80,
+      "Speed": 85
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png",
+    "weight": 766
+  },
+  {
+    "id": 56,
+    "name": {
+      "english": "mankey"
+    },
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 80,
+      "Defense": 35,
+      "Special Attack": 35,
+      "Special Defense": 45,
+      "Speed": 70
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+    "weight": 280
+  },
+  {
+    "id": 57,
+    "name": {
+      "english": "primeape"
+    },
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 105,
+      "Defense": 60,
+      "Special Attack": 60,
+      "Special Defense": 70,
+      "Speed": 95
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+    "weight": 320
+  },
+  {
+    "id": 58,
+    "name": {
+      "english": "growlithe"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 55,
+      "Attack": 70,
+      "Defense": 45,
+      "Special Attack": 70,
+      "Special Defense": 50,
+      "Speed": 60
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png",
+    "weight": 190
+  },
+  {
+    "id": 59,
+    "name": {
+      "english": "arcanine"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 110,
+      "Defense": 80,
+      "Special Attack": 100,
+      "Special Defense": 80,
+      "Speed": 95
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png",
+    "weight": 1550
+  },
+  {
+    "id": 60,
+    "name": {
+      "english": "poliwag"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 50,
+      "Defense": 40,
+      "Special Attack": 40,
+      "Special Defense": 40,
+      "Speed": 90
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png",
+    "weight": 124
+  },
+  {
+    "id": 61,
+    "name": {
+      "english": "poliwhirl"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 65,
+      "Defense": 65,
+      "Special Attack": 50,
+      "Special Defense": 50,
+      "Speed": 90
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png",
+    "weight": 200
+  },
+  {
+    "id": 62,
+    "name": {
+      "english": "poliwrath"
+    },
+    "type": [
+      "Water",
+      "Fighting"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 95,
+      "Defense": 95,
+      "Special Attack": 70,
+      "Special Defense": 90,
+      "Speed": 70
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
+    "weight": 540
+  },
+  {
+    "id": 63,
+    "name": {
+      "english": "abra"
+    },
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "HP": 25,
+      "Attack": 20,
+      "Defense": 15,
+      "Special Attack": 105,
+      "Special Defense": 55,
+      "Speed": 90
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png",
+    "weight": 195
+  },
+  {
+    "id": 64,
+    "name": {
+      "english": "kadabra"
+    },
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 35,
+      "Defense": 30,
+      "Special Attack": 120,
+      "Special Defense": 70,
+      "Speed": 105
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png",
+    "weight": 565
+  },
+  {
+    "id": 65,
+    "name": {
+      "english": "alakazam"
+    },
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "HP": 55,
+      "Attack": 50,
+      "Defense": 45,
+      "Special Attack": 135,
+      "Special Defense": 95,
+      "Speed": 120
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
+    "weight": 480
+  },
+  {
+    "id": 66,
+    "name": {
+      "english": "machop"
+    },
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "HP": 70,
+      "Attack": 80,
+      "Defense": 50,
+      "Special Attack": 35,
+      "Special Defense": 35,
+      "Speed": 35
+    },
+    "color": "gray",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png",
+    "weight": 195
+  },
+  {
+    "id": 67,
+    "name": {
+      "english": "machoke"
+    },
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 100,
+      "Defense": 70,
+      "Special Attack": 50,
+      "Special Defense": 60,
+      "Speed": 45
+    },
+    "color": "gray",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png",
+    "weight": 705
+  },
+  {
+    "id": 68,
+    "name": {
+      "english": "machamp"
+    },
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 130,
+      "Defense": 80,
+      "Special Attack": 65,
+      "Special Defense": 85,
+      "Speed": 55
+    },
+    "color": "gray",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+    "weight": 1300
+  },
+  {
+    "id": 69,
+    "name": {
+      "english": "bellsprout"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 75,
+      "Defense": 35,
+      "Special Attack": 70,
+      "Special Defense": 30,
+      "Speed": 40
+    },
+    "color": "green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png",
+    "weight": 40
+  },
+  {
+    "id": 70,
+    "name": {
+      "english": "weepinbell"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 90,
+      "Defense": 50,
+      "Special Attack": 85,
+      "Special Defense": 45,
+      "Speed": 55
+    },
+    "color": "green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png",
+    "weight": 64
+  },
+  {
+    "id": 71,
+    "name": {
+      "english": "victreebel"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 105,
+      "Defense": 65,
+      "Special Attack": 100,
+      "Special Defense": 70,
+      "Speed": 70
+    },
+    "color": "green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png",
+    "weight": 155
+  },
+  {
+    "id": 72,
+    "name": {
+      "english": "tentacool"
+    },
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 40,
+      "Defense": 35,
+      "Special Attack": 50,
+      "Special Defense": 100,
+      "Speed": 70
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png",
+    "weight": 455
+  },
+  {
+    "id": 73,
+    "name": {
+      "english": "tentacruel"
+    },
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 70,
+      "Defense": 65,
+      "Special Attack": 80,
+      "Special Defense": 120,
+      "Speed": 100
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png",
+    "weight": 550
+  },
+  {
+    "id": 74,
+    "name": {
+      "english": "geodude"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 80,
+      "Defense": 100,
+      "Special Attack": 30,
+      "Special Defense": 30,
+      "Speed": 20
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png",
+    "weight": 200
+  },
+  {
+    "id": 75,
+    "name": {
+      "english": "graveler"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "base": {
+      "HP": 55,
+      "Attack": 95,
+      "Defense": 115,
+      "Special Attack": 45,
+      "Special Defense": 45,
+      "Speed": 35
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png",
+    "weight": 1050
+  },
+  {
+    "id": 76,
+    "name": {
+      "english": "golem"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 120,
+      "Defense": 130,
+      "Special Attack": 55,
+      "Special Defense": 65,
+      "Speed": 45
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png",
+    "weight": 3000
+  },
+  {
+    "id": 77,
+    "name": {
+      "english": "ponyta"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 85,
+      "Defense": 55,
+      "Special Attack": 65,
+      "Special Defense": 65,
+      "Speed": 90
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png",
+    "weight": 300
+  },
+  {
+    "id": 78,
+    "name": {
+      "english": "rapidash"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 100,
+      "Defense": 70,
+      "Special Attack": 80,
+      "Special Defense": 80,
+      "Speed": 105
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png",
+    "weight": 950
+  },
+  {
+    "id": 79,
+    "name": {
+      "english": "slowpoke"
+    },
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 65,
+      "Defense": 65,
+      "Special Attack": 40,
+      "Special Defense": 40,
+      "Speed": 15
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png",
+    "weight": 360
+  },
+  {
+    "id": 80,
+    "name": {
+      "english": "slowbro"
+    },
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "base": {
+      "HP": 95,
+      "Attack": 75,
+      "Defense": 110,
+      "Special Attack": 100,
+      "Special Defense": 80,
+      "Speed": 30
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
+    "weight": 785
+  },
+  {
+    "id": 81,
+    "name": {
+      "english": "magnemite"
+    },
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    "base": {
+      "HP": 25,
+      "Attack": 35,
+      "Defense": 70,
+      "Special Attack": 95,
+      "Special Defense": 55,
+      "Speed": 45
+    },
+    "color": "gray",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png",
+    "weight": 60
+  },
+  {
+    "id": 82,
+    "name": {
+      "english": "magneton"
+    },
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 60,
+      "Defense": 95,
+      "Special Attack": 120,
+      "Special Defense": 70,
+      "Speed": 70
+    },
+    "color": "gray",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
+    "weight": 600
+  },
+  {
+    "id": 83,
+    "name": {
+      "english": "farfetchd"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "HP": 52,
+      "Attack": 90,
+      "Defense": 55,
+      "Special Attack": 58,
+      "Special Defense": 62,
+      "Speed": 60
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+    "weight": 150
+  },
+  {
+    "id": 84,
+    "name": {
+      "english": "doduo"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "HP": 35,
+      "Attack": 85,
+      "Defense": 45,
+      "Special Attack": 35,
+      "Special Defense": 35,
+      "Speed": 75
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png",
+    "weight": 392
+  },
+  {
+    "id": 85,
+    "name": {
+      "english": "dodrio"
+    },
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 110,
+      "Defense": 70,
+      "Special Attack": 60,
+      "Special Defense": 60,
+      "Speed": 110
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png",
+    "weight": 852
+  },
+  {
+    "id": 86,
+    "name": {
+      "english": "seel"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 45,
+      "Defense": 55,
+      "Special Attack": 45,
+      "Special Defense": 70,
+      "Speed": 45
+    },
+    "color": "white",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png",
+    "weight": 900
+  },
+  {
+    "id": 87,
+    "name": {
+      "english": "dewgong"
+    },
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 70,
+      "Defense": 80,
+      "Special Attack": 70,
+      "Special Defense": 95,
+      "Speed": 70
+    },
+    "color": "white",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png",
+    "weight": 1200
+  },
+  {
+    "id": 88,
+    "name": {
+      "english": "grimer"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 80,
+      "Defense": 50,
+      "Special Attack": 40,
+      "Special Defense": 50,
+      "Speed": 25
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png",
+    "weight": 300
+  },
+  {
+    "id": 89,
+    "name": {
+      "english": "muk"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 105,
+      "Attack": 105,
+      "Defense": 75,
+      "Special Attack": 65,
+      "Special Defense": 100,
+      "Speed": 50
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png",
+    "weight": 300
+  },
+  {
+    "id": 90,
+    "name": {
+      "english": "shellder"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 30,
+      "Attack": 65,
+      "Defense": 100,
+      "Special Attack": 45,
+      "Special Defense": 25,
+      "Speed": 40
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png",
+    "weight": 40
+  },
+  {
+    "id": 91,
+    "name": {
+      "english": "cloyster"
+    },
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 95,
+      "Defense": 180,
+      "Special Attack": 85,
+      "Special Defense": 45,
+      "Speed": 70
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png",
+    "weight": 1325
+  },
+  {
+    "id": 92,
+    "name": {
+      "english": "gastly"
+    },
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "base": {
+      "HP": 30,
+      "Attack": 35,
+      "Defense": 30,
+      "Special Attack": 100,
+      "Special Defense": 35,
+      "Speed": 80
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png",
+    "weight": 1
+  },
+  {
+    "id": 93,
+    "name": {
+      "english": "haunter"
+    },
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 50,
+      "Defense": 45,
+      "Special Attack": 115,
+      "Special Defense": 55,
+      "Speed": 95
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+    "weight": 1
+  },
+  {
+    "id": 94,
+    "name": {
+      "english": "gengar"
+    },
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 65,
+      "Defense": 60,
+      "Special Attack": 130,
+      "Special Defense": 75,
+      "Speed": 110
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
+    "weight": 405
+  },
+  {
+    "id": 95,
+    "name": {
+      "english": "onix"
+    },
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "base": {
+      "HP": 35,
+      "Attack": 45,
+      "Defense": 160,
+      "Special Attack": 30,
+      "Special Defense": 45,
+      "Speed": 70
+    },
+    "color": "gray",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png",
+    "weight": 2100
+  },
+  {
+    "id": 96,
+    "name": {
+      "english": "drowzee"
+    },
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 48,
+      "Defense": 45,
+      "Special Attack": 43,
+      "Special Defense": 90,
+      "Speed": 42
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+    "weight": 324
+  },
+  {
+    "id": 97,
+    "name": {
+      "english": "hypno"
+    },
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "HP": 85,
+      "Attack": 73,
+      "Defense": 70,
+      "Special Attack": 73,
+      "Special Defense": 115,
+      "Speed": 67
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
+    "weight": 756
+  },
+  {
+    "id": 98,
+    "name": {
+      "english": "krabby"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 30,
+      "Attack": 105,
+      "Defense": 90,
+      "Special Attack": 25,
+      "Special Defense": 25,
+      "Speed": 50
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png",
+    "weight": 65
+  },
+  {
+    "id": 99,
+    "name": {
+      "english": "kingler"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 55,
+      "Attack": 130,
+      "Defense": 115,
+      "Special Attack": 50,
+      "Special Defense": 50,
+      "Speed": 75
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png",
+    "weight": 600
+  },
+  {
+    "id": 100,
+    "name": {
+      "english": "voltorb"
+    },
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 30,
+      "Defense": 50,
+      "Special Attack": 55,
+      "Special Defense": 55,
+      "Speed": 100
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+    "weight": 104
+  },
+  {
+    "id": 101,
+    "name": {
+      "english": "electrode"
+    },
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 50,
+      "Defense": 70,
+      "Special Attack": 80,
+      "Special Defense": 80,
+      "Speed": 150
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+    "weight": 666
+  },
+  {
+    "id": 102,
+    "name": {
+      "english": "exeggcute"
+    },
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 40,
+      "Defense": 80,
+      "Special Attack": 60,
+      "Special Defense": 45,
+      "Speed": 40
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png",
+    "weight": 25
+  },
+  {
+    "id": 103,
+    "name": {
+      "english": "exeggutor"
+    },
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    "base": {
+      "HP": 95,
+      "Attack": 95,
+      "Defense": 85,
+      "Special Attack": 125,
+      "Special Defense": 75,
+      "Speed": 55
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+    "weight": 1200
+  },
+  {
+    "id": 104,
+    "name": {
+      "english": "cubone"
+    },
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 50,
+      "Defense": 95,
+      "Special Attack": 40,
+      "Special Defense": 50,
+      "Speed": 35
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png",
+    "weight": 65
+  },
+  {
+    "id": 105,
+    "name": {
+      "english": "marowak"
+    },
+    "type": [
+      "Ground"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 80,
+      "Defense": 110,
+      "Special Attack": 50,
+      "Special Defense": 80,
+      "Speed": 45
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
+    "weight": 450
+  },
+  {
+    "id": 106,
+    "name": {
+      "english": "hitmonlee"
+    },
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 120,
+      "Defense": 53,
+      "Special Attack": 35,
+      "Special Defense": 110,
+      "Speed": 87
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png",
+    "weight": 498
+  },
+  {
+    "id": 107,
+    "name": {
+      "english": "hitmonchan"
+    },
+    "type": [
+      "Fighting"
+    ],
+    "base": {
+      "HP": 50,
+      "Attack": 105,
+      "Defense": 79,
+      "Special Attack": 35,
+      "Special Defense": 110,
+      "Speed": 76
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
+    "weight": 502
+  },
+  {
+    "id": 108,
+    "name": {
+      "english": "lickitung"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 55,
+      "Defense": 75,
+      "Special Attack": 60,
+      "Special Defense": 75,
+      "Speed": 30
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png",
+    "weight": 655
+  },
+  {
+    "id": 109,
+    "name": {
+      "english": "koffing"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 65,
+      "Defense": 95,
+      "Special Attack": 60,
+      "Special Defense": 45,
+      "Speed": 35
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png",
+    "weight": 10
+  },
+  {
+    "id": 110,
+    "name": {
+      "english": "weezing"
+    },
+    "type": [
+      "Poison"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 90,
+      "Defense": 120,
+      "Special Attack": 85,
+      "Special Defense": 70,
+      "Speed": 60
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png",
+    "weight": 95
+  },
+  {
+    "id": 111,
+    "name": {
+      "english": "rhyhorn"
+    },
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 85,
+      "Defense": 95,
+      "Special Attack": 30,
+      "Special Defense": 30,
+      "Speed": 25
+    },
+    "color": "gray",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png",
+    "weight": 1150
+  },
+  {
+    "id": 112,
+    "name": {
+      "english": "rhydon"
+    },
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    "base": {
+      "HP": 105,
+      "Attack": 130,
+      "Defense": 120,
+      "Special Attack": 45,
+      "Special Defense": 45,
+      "Speed": 40
+    },
+    "color": "gray",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png",
+    "weight": 1200
+  },
+  {
+    "id": 113,
+    "name": {
+      "english": "chansey"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 250,
+      "Attack": 5,
+      "Defense": 5,
+      "Special Attack": 35,
+      "Special Defense": 105,
+      "Speed": 50
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png",
+    "weight": 346
+  },
+  {
+    "id": 114,
+    "name": {
+      "english": "tangela"
+    },
+    "type": [
+      "Grass"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 55,
+      "Defense": 115,
+      "Special Attack": 100,
+      "Special Defense": 40,
+      "Speed": 60
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+    "weight": 350
+  },
+  {
+    "id": 115,
+    "name": {
+      "english": "kangaskhan"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 105,
+      "Attack": 95,
+      "Defense": 80,
+      "Special Attack": 40,
+      "Special Defense": 80,
+      "Speed": 90
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png",
+    "weight": 800
+  },
+  {
+    "id": 116,
+    "name": {
+      "english": "horsea"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 30,
+      "Attack": 40,
+      "Defense": 70,
+      "Special Attack": 70,
+      "Special Defense": 25,
+      "Speed": 60
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png",
+    "weight": 80
+  },
+  {
+    "id": 117,
+    "name": {
+      "english": "seadra"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 55,
+      "Attack": 65,
+      "Defense": 95,
+      "Special Attack": 95,
+      "Special Defense": 45,
+      "Speed": 85
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png",
+    "weight": 250
+  },
+  {
+    "id": 118,
+    "name": {
+      "english": "goldeen"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 67,
+      "Defense": 60,
+      "Special Attack": 35,
+      "Special Defense": 50,
+      "Speed": 63
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png",
+    "weight": 150
+  },
+  {
+    "id": 119,
+    "name": {
+      "english": "seaking"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 92,
+      "Defense": 65,
+      "Special Attack": 65,
+      "Special Defense": 80,
+      "Speed": 68
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png",
+    "weight": 390
+  },
+  {
+    "id": 120,
+    "name": {
+      "english": "staryu"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 30,
+      "Attack": 45,
+      "Defense": 55,
+      "Special Attack": 70,
+      "Special Defense": 55,
+      "Speed": 85
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png",
+    "weight": 345
+  },
+  {
+    "id": 121,
+    "name": {
+      "english": "starmie"
+    },
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 75,
+      "Defense": 85,
+      "Special Attack": 100,
+      "Special Defense": 85,
+      "Speed": 115
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
+    "weight": 800
+  },
+  {
+    "id": 122,
+    "name": {
+      "english": "mr-mime"
+    },
+    "type": [
+      "Psychic",
+      "Fairy"
+    ],
+    "base": {
+      "HP": 40,
+      "Attack": 45,
+      "Defense": 65,
+      "Special Attack": 100,
+      "Special Defense": 120,
+      "Speed": 90
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
+    "weight": 545
+  },
+  {
+    "id": 123,
+    "name": {
+      "english": "scyther"
+    },
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "base": {
+      "HP": 70,
+      "Attack": 110,
+      "Defense": 80,
+      "Special Attack": 55,
+      "Special Defense": 80,
+      "Speed": 105
+    },
+    "color": "green",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
+    "weight": 560
+  },
+  {
+    "id": 124,
+    "name": {
+      "english": "jynx"
+    },
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 50,
+      "Defense": 35,
+      "Special Attack": 115,
+      "Special Defense": 95,
+      "Speed": 95
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+    "weight": 406
+  },
+  {
+    "id": 125,
+    "name": {
+      "english": "electabuzz"
+    },
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 83,
+      "Defense": 57,
+      "Special Attack": 95,
+      "Special Defense": 85,
+      "Speed": 105
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
+    "weight": 300
+  },
+  {
+    "id": 126,
+    "name": {
+      "english": "magmar"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 95,
+      "Defense": 57,
+      "Special Attack": 100,
+      "Special Defense": 85,
+      "Speed": 93
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+    "weight": 445
+  },
+  {
+    "id": 127,
+    "name": {
+      "english": "pinsir"
+    },
+    "type": [
+      "Bug"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 125,
+      "Defense": 100,
+      "Special Attack": 55,
+      "Special Defense": 70,
+      "Speed": 85
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png",
+    "weight": 550
+  },
+  {
+    "id": 128,
+    "name": {
+      "english": "tauros"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 75,
+      "Attack": 100,
+      "Defense": 95,
+      "Special Attack": 40,
+      "Special Defense": 70,
+      "Speed": 110
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+    "weight": 884
+  },
+  {
+    "id": 129,
+    "name": {
+      "english": "magikarp"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 20,
+      "Attack": 10,
+      "Defense": 55,
+      "Special Attack": 15,
+      "Special Defense": 20,
+      "Speed": 80
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png",
+    "weight": 100
+  },
+  {
+    "id": 130,
+    "name": {
+      "english": "gyarados"
+    },
+    "type": [
+      "Water",
+      "Flying"
+    ],
+    "base": {
+      "HP": 95,
+      "Attack": 125,
+      "Defense": 79,
+      "Special Attack": 60,
+      "Special Defense": 100,
+      "Speed": 81
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png",
+    "weight": 2350
+  },
+  {
+    "id": 131,
+    "name": {
+      "english": "lapras"
+    },
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "base": {
+      "HP": 130,
+      "Attack": 85,
+      "Defense": 80,
+      "Special Attack": 85,
+      "Special Defense": 95,
+      "Speed": 60
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png",
+    "weight": 2200
+  },
+  {
+    "id": 132,
+    "name": {
+      "english": "ditto"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 48,
+      "Attack": 48,
+      "Defense": 48,
+      "Special Attack": 48,
+      "Special Defense": 48,
+      "Speed": 48
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png",
+    "weight": 40
+  },
+  {
+    "id": 133,
+    "name": {
+      "english": "eevee"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 55,
+      "Attack": 55,
+      "Defense": 50,
+      "Special Attack": 45,
+      "Special Defense": 65,
+      "Speed": 55
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png",
+    "weight": 65
+  },
+  {
+    "id": 134,
+    "name": {
+      "english": "vaporeon"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 130,
+      "Attack": 65,
+      "Defense": 60,
+      "Special Attack": 110,
+      "Special Defense": 95,
+      "Speed": 65
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+    "weight": 290
+  },
+  {
+    "id": 135,
+    "name": {
+      "english": "jolteon"
+    },
+    "type": [
+      "Electric"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 65,
+      "Defense": 60,
+      "Special Attack": 110,
+      "Special Defense": 95,
+      "Speed": 130
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png",
+    "weight": 245
+  },
+  {
+    "id": 136,
+    "name": {
+      "english": "flareon"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 130,
+      "Defense": 60,
+      "Special Attack": 95,
+      "Special Defense": 110,
+      "Speed": 65
+    },
+    "color": "red",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png",
+    "weight": 250
+  },
+  {
+    "id": 137,
+    "name": {
+      "english": "porygon"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 65,
+      "Attack": 60,
+      "Defense": 70,
+      "Special Attack": 85,
+      "Special Defense": 75,
+      "Speed": 40
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
+    "weight": 365
+  },
+  {
+    "id": 138,
+    "name": {
+      "english": "omanyte"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "base": {
+      "HP": 35,
+      "Attack": 40,
+      "Defense": 100,
+      "Special Attack": 90,
+      "Special Defense": 55,
+      "Speed": 35
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
+    "weight": 75
+  },
+  {
+    "id": 139,
+    "name": {
+      "english": "omastar"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "base": {
+      "HP": 70,
+      "Attack": 60,
+      "Defense": 125,
+      "Special Attack": 115,
+      "Special Defense": 70,
+      "Speed": 55
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png",
+    "weight": 350
+  },
+  {
+    "id": 140,
+    "name": {
+      "english": "kabuto"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "base": {
+      "HP": 30,
+      "Attack": 80,
+      "Defense": 90,
+      "Special Attack": 55,
+      "Special Defense": 45,
+      "Speed": 55
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png",
+    "weight": 115
+  },
+  {
+    "id": 141,
+    "name": {
+      "english": "kabutops"
+    },
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 115,
+      "Defense": 105,
+      "Special Attack": 65,
+      "Special Defense": 70,
+      "Speed": 80
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
+    "weight": 405
+  },
+  {
+    "id": 142,
+    "name": {
+      "english": "aerodactyl"
+    },
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 105,
+      "Defense": 65,
+      "Special Attack": 60,
+      "Special Defense": 75,
+      "Speed": 130
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png",
+    "weight": 590
+  },
+  {
+    "id": 143,
+    "name": {
+      "english": "snorlax"
+    },
+    "type": [
+      "Normal"
+    ],
+    "base": {
+      "HP": 160,
+      "Attack": 110,
+      "Defense": 65,
+      "Special Attack": 65,
+      "Special Defense": 110,
+      "Speed": 30
+    },
+    "color": "black",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
+    "weight": 4600
+  },
+  {
+    "id": 144,
+    "name": {
+      "english": "articuno"
+    },
+    "type": [
+      "Ice",
+      "Flying"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 85,
+      "Defense": 100,
+      "Special Attack": 95,
+      "Special Defense": 125,
+      "Speed": 85
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png",
+    "weight": 554
+  },
+  {
+    "id": 145,
+    "name": {
+      "english": "zapdos"
+    },
+    "type": [
+      "Electric",
+      "Flying"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 90,
+      "Defense": 85,
+      "Special Attack": 125,
+      "Special Defense": 90,
+      "Speed": 100
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+    "weight": 526
+  },
+  {
+    "id": 146,
+    "name": {
+      "english": "moltres"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "base": {
+      "HP": 90,
+      "Attack": 100,
+      "Defense": 90,
+      "Special Attack": 125,
+      "Special Defense": 85,
+      "Speed": 90
+    },
+    "color": "yellow",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+    "weight": 600
+  },
+  {
+    "id": 147,
+    "name": {
+      "english": "dratini"
+    },
+    "type": [
+      "Dragon"
+    ],
+    "base": {
+      "HP": 41,
+      "Attack": 64,
+      "Defense": 45,
+      "Special Attack": 50,
+      "Special Defense": 50,
+      "Speed": 50
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+    "weight": 33
+  },
+  {
+    "id": 148,
+    "name": {
+      "english": "dragonair"
+    },
+    "type": [
+      "Dragon"
+    ],
+    "base": {
+      "HP": 61,
+      "Attack": 84,
+      "Defense": 65,
+      "Special Attack": 70,
+      "Special Defense": 70,
+      "Speed": 70
+    },
+    "color": "blue",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
+    "weight": 165
+  },
+  {
+    "id": 149,
+    "name": {
+      "english": "dragonite"
+    },
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
+    "base": {
+      "HP": 91,
+      "Attack": 134,
+      "Defense": 95,
+      "Special Attack": 100,
+      "Special Defense": 100,
+      "Speed": 80
+    },
+    "color": "brown",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
+    "weight": 2100
+  },
+  {
+    "id": 150,
+    "name": {
+      "english": "mewtwo"
+    },
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "HP": 106,
+      "Attack": 110,
+      "Defense": 90,
+      "Special Attack": 154,
+      "Special Defense": 90,
+      "Speed": 130
+    },
+    "color": "purple",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
+    "weight": 1220
+  },
+  {
+    "id": 151,
+    "name": {
+      "english": "mew"
+    },
+    "type": [
+      "Psychic"
+    ],
+    "base": {
+      "HP": 100,
+      "Attack": 100,
+      "Defense": 100,
+      "Special Attack": 100,
+      "Special Defense": 100,
+      "Speed": 100
+    },
+    "color": "pink",
+    "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png",
+    "weight": 40
+  }
+]
