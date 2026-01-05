@@ -2,7 +2,7 @@ import fs from "fs"
 
 async function fetchAllPokemon() {
     const allPokemon = []
-    const totalCount = 151
+    const totalCount = 1026
 
     for (let id = 1; id <= totalCount; id++) {
         console.log(`Processing Pokemon #${id}`)

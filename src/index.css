@@ -1,7 +1,9 @@
 body {
+    font-family: "DynaPuff";
     width: 100vw;
     height: 100vh;
     margin: 0px;
+    background-color: antiquewhite;
 }
 main {
     height: 100vh;
@@ -10,17 +12,50 @@ main {
 }
 
 .inputbar {
-    background-color: red;
     height: 100%;
     width: 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
 }
-.inputbar > h1 {
+.inputbar-display {
+    background-color: rgb(48, 45, 43);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inputbar-display > h1 {
+    font-size: clamp(1rem, 3.5vw, 6rem);
     margin: 0px;
+    color: antiquewhite
 }
+.enter-description-label {
+    font-size: clamp(0.6rem, 0.8rem, 4rem);
+    padding-top: clamp(20px, 2vw, 60px);
+    padding-bottom: 5px;
+    color: rgb(240, 224, 222);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enter-description-input {
+    width: clamp(80px, 25vw, 600px);
+    height: clamp(20px, 3vw, 60px);
+    padding: 0px 15px 0px 15px;
+    font-family: "Sour Gummy";
+    font-weight: 200;
+    font-size: clamp(1rem, 1.4vw, 1.7rem);
+    border-radius: 15px;
+    border: none;
+    color: rgb(48, 45, 43);
+    background-color: antiquewhite;
+}
+
 
 .display-prompt-and-pokemon {
     display: flex;
@@ -28,21 +63,37 @@ main {
     width: 65%;
     height: 100%;
 }
-
-.display-prompt-bar {
-    background-color: pink;
+.promptbar {
+    width: 100%;
+    height: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.promptbar-display {
     width: 100%;
-    height: 15%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:rgb(48, 45, 43);
 }
 
 .display-pokemon {
-    background-color: antiquewhite;
     width: 100%;
     height: 85%;
     display: flex;
     flex-direction: column;
+    overflow: auto;
+    gap: 5px;
+}
+.pokemon-entry {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: right;
+    width: clamp(100px, 50vw, 1000px);
 }

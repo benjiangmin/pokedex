@@ -7,11 +7,18 @@ export default function InputBar(props) {
 
     return (
         <section className="inputbar">
-            <h1>pokedex</h1>
-            <form action={handleSubmit}>
-                <label htmlFor="description">enter description:</label>
-                <input id="description" name="description" type="text"/>
-            </form>
+            <section className="inputbar-display">
+                <h1>pokédex</h1>
+                <form style={{display: "flex", flexDirection: "column"}}action={handleSubmit}>
+                    <label className="enter-description-label" htmlFor="description">enter description:</label>
+                    <input className="enter-description-input" 
+                           id="description" 
+                           name="description" 
+                           type="text"
+                           placeholder="e.g. blue pokemon with a speed greater than 100"
+                    />
+                </form>
+            </section>
         </section>
     )
 }

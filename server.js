@@ -22,6 +22,7 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 ### DATA SCHEMA:
 - "types": Array of strings. Use capitalized first letter (e.g., ["Fire", "Water"]).
 - "minStats": Object with keys: "HP", "Attack", "Defense", "Special Attack", "Special Defense", "Speed". Values must be integers.
+- "maxStats": Same as minStats but for maximum values. Values must be integers.
 - "color": String. Must be lowercase (e.g., "blue", "red", "green").
 
 ### LOGIC RULES:
