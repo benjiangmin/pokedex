@@ -29,6 +29,7 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 - "color": String. Must be lowercase (e.g., "blue", "red", "green").
 - "abilities": Array of strings. Capitalized. (e.g ["Intimidate", "Levitate"])
 - "region": String. (e.g "Kanto", "Sinnoh")
+- "moves": Array of strings. Capitalized. (e.g ["Tackle", "Double Team"])
 
 ### LOGIC RULES:
 1. Only include fields the user explicitly mentions or implies.
@@ -44,6 +45,7 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 11. If the user asks for slow pokemon or "trick room" pokemon, the maximum speed is 50.
 12. If the user mentions a region (e.g "Johto pokemon" or "from Sinnoh"), return that region name in the "region" field, capitalized.
 13. "pokemon" is never assigned to name.
+14. If the user asks for pokemon "that can learn" or "that know" a certain move(s), return that move in the "moves" field, capitalized.
 
 ### EXAMPLES:
 User: "fast fire types"

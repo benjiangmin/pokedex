@@ -30,6 +30,13 @@ async function fetchAllPokemon() {
             const pokeData = await pokeRes.json()
             const speciesData = await speciesRes.json()
 
+            const moveNames = pokeData.moves.map(m =>
+                m.move.name
+                    .split("-")
+                    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                    .join(" ")
+            )
+
             allPokemon.push({
                 id: id,
                 name: {english: pokeData.name},
@@ -48,7 +55,8 @@ async function fetchAllPokemon() {
                 abilities: pokeData.abilities.map(a => (
                     a.ability.name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
                 )),
-                region: getRegion(pokeData.id)
+                region: getRegion(pokeData.id),
+                moves: moveNames
             })
         } catch (err) {
             console.log(`Error for Pokemon #${id}`)

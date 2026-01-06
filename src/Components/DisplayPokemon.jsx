@@ -11,7 +11,9 @@ export default function DisplayPokemon(props) {
         if (!props.prompt) return
 
         const search = async () => {
+            setFiltered([])
             setLoading(true)
+
             try {
                 const response = await fetch("http://localhost:3001/api/search", {
                     method: "POST",
@@ -42,7 +44,7 @@ export default function DisplayPokemon(props) {
     return (
         <section className="display-pokemon">
             <section className="display-pokemon-container">
-                {loading && <p>loading</p>}
+                {loading && <p style={{textAlign:"center"}}>loading...</p>}
                 {toDisplay.length > 0 && toDisplay}
             </section>
         </section>
