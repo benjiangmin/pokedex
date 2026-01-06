@@ -9,10 +9,17 @@ export const applyFilters = (data, rules) => {
 
         // Types Check
         if (rules.types && rules.types.length > 0) {
-            const hasType = rules.types.some(t =>
-                pokemon.type.some(pt => pt.toLowerCase() === t.toLowerCase())
-            );
-            if (!hasType) return false
+            if (rules.strictTypes) {
+                const hasAllTypes = rules.types.every(t => (
+                    pokemon.type.some(pt => pt.toLowerCase() === t.toLowerCase())
+                ))
+                if (!hasAllTypes) return false
+            } else {
+                const hasAnyType = rules.types.some(t => (
+                    pokemon.type.some(pt => pt.toLowerCase() === t.toLowerCase())
+                ))
+                if (!hasAnyType) return false
+            }
         }
 
         // Stats Check (minimum)
@@ -33,12 +40,36 @@ export const applyFilters = (data, rules) => {
             }
         }
 
+        // Weight Check (minimum/maxiumum)
+        if (rules.minWeight) {
+            if (pokemon.weight < rules.minWeight) return false
+        }
+        if (rules.maxWeight) {
+            if (pokemon.weight > rules.maxWeight) return false
+        }
+
         // Color Check
         if (rules.color && rules.color.trim() !== "") {
             if (pokemon.color.toLowerCase() !== rules.color.toLowerCase()) {
                 return false
             }
         }
+
+        // Abilities Check
+        if (rules.abilities) {
+            const hasAbility = rules.abilities.some(a => (
+                pokemon.abilities.some(pa => pa.toLowerCase() === a.toLowerCase())
+            ))
+            if (!hasAbility) return false;
+        }
+
+        // Region Check (based on pokemon id)
+        if (rules.region) {
+            if (pokemon.region.toLowerCase() !== rules.region.toLowerCase()) {
+                return false
+            }
+        }
+        
 
         return true;
     });

@@ -4,6 +4,20 @@ async function fetchAllPokemon() {
     const allPokemon = []
     const totalCount = 1026
 
+    // Mapping of Gen to Region (kinda useless but whatver), also not accurate yet.
+    const getRegion = (id) => {
+        if (id <= 151) return "Kanto";
+        if (id <= 251) return "Johto";
+        if (id <= 386) return "Hoenn";
+        if (id <= 493) return "Sinnoh";
+        if (id <= 649) return "Unova";
+        if (id <= 721) return "Kalos";
+        if (id <= 809) return "Alola";
+        if (id <= 898) return "Galar";
+        if (id <= 1025) return "Paldea";
+        return "Unknown";
+    }
+
     for (let id = 1; id <= totalCount; id++) {
         console.log(`Processing Pokemon #${id}`)
 
@@ -30,7 +44,11 @@ async function fetchAllPokemon() {
                 },
                 color: speciesData.color.name,
                 sprite: pokeData.sprites.front_default,
-                weight: pokeData.weight
+                weight: pokeData.weight,
+                abilities: pokeData.abilities.map(a => (
+                    a.ability.name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
+                )),
+                region: getRegion(pokeData.id)
             })
         } catch (err) {
             console.log(`Error for Pokemon #${id}`)

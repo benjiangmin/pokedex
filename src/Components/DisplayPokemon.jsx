@@ -41,8 +41,10 @@ export default function DisplayPokemon(props) {
 
     return (
         <section className="display-pokemon">
-            {loading && <p>loading</p>}
-            {toDisplay.length > 0 && toDisplay}
+            <section className="display-pokemon-container">
+                {loading && <p>loading</p>}
+                {toDisplay.length > 0 && toDisplay}
+            </section>
         </section>
     )
 }

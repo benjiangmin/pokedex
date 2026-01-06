@@ -21,14 +21,28 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 
 ### DATA SCHEMA:
 - "types": Array of strings. Use capitalized first letter (e.g., ["Fire", "Water"]).
+- "strictTypes": Boolean. Set to true ONLY if the user implies the Pokemon must have ALL mentioned types (e.g "dual type", "both"). 
 - "minStats": Object with keys: "HP", "Attack", "Defense", "Special Attack", "Special Defense", "Speed". Values must be integers.
 - "maxStats": Same as minStats but for maximum values. Values must be integers.
+- "minWeight": Integer. Weight in hectograms (ex: 100 = 10kg).
+- "maxWeight: Integer. Weight in hectograms.
 - "color": String. Must be lowercase (e.g., "blue", "red", "green").
+- "abilities": Array of strings. Capitalized. (e.g ["Intimidate", "Levitate"])
+- "region": String. (e.g "Kanto", "Sinnoh")
 
 ### LOGIC RULES:
 1. Only include fields the user explicitly mentions or implies.
-5. If the user mentions a color, map it to the "color" field using lowercase.
-6. If the user asks for a specific Pokemon by name, return a "name" key with the name in lowercase.
+2. If the user wants to find heavy pokemon, set "minWeight" to 2500.
+3. If the user says light pokemon (in terms of weight) set "maxWeight" to 10. 
+4. If the user asks for "Electric and Fairy", set "strictTypes": false.
+5. If the user asks for "Electric and Fairy dual type" or "both types", set "strictTypes": true.
+6. If the user mentions a color, map it to the "color" field using lowercase.
+7. If the user asks for a specific Pokemon by name, return a "name" key with the name in lowercase.
+8. If the user mentions dual types, then there should be two types. 
+9. If the user mentions a specific power or ability (e.g "pokemon that can fly or are intimidating") map it to the "abilities" array.
+10. If the user asks for fast pokemon, the minimum speed is 100.
+11. If the user asks for slow pokemon or "trick room" pokemon, the maximum speed is 50.
+12. If the user mentions a region (e.g "Johto pokemon" or "from Sinnoh"), return that region name in the "region" field, capitalized.
 
 ### EXAMPLES:
 User: "fast fire types"
