@@ -11,6 +11,9 @@ main {
     display: flex;
 }
 
+
+
+
 .inputbar {
     height: 100%;
     width: 35%;
@@ -48,8 +51,8 @@ main {
     height: clamp(20px, 3vw, 60px);
     padding: 0px 15px 0px 15px;
     font-family: "Sour Gummy";
-    font-weight: 200;
     font-size: clamp(1rem, 1.4vw, 1.5rem);
+    font-weight: 500;
     border-radius: 15px;
     border: 5px solid rgb(247, 231, 216);
     color: rgb(70, 66, 60);
@@ -57,12 +60,17 @@ main {
     margin: 0px;
     transition: border 0.2s ease
 }
+.enter-description-input::placeholder {
+    color: lightgray;
+}
 .enter-description-input:hover {
     border: 5px solid rgb(189, 175, 163)
 }
 .enter-description-input:focus {
     outline: none;
 }
+
+
 
 
 .display-prompt-and-pokemon {
@@ -93,11 +101,34 @@ main {
     color:rgb(48, 45, 43);
     box-sizing: border-box;
     padding: 0px 15px;
+    overflow: hidden;
 }
 .promptbar-display > h1 {
     margin: 0px; 
     font-size: clamp(1rem, 2.5vw, 3rem);
+    text-align: center;
 }
+@keyframes squashRelease {
+    0% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+    40% {
+        transform: scaleY(0.1);
+        opacity: 0.5;
+    }
+    60% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
+.animate-squash {
+    transform-origin: center;
+    animation: squashRelease 0.5s ease-in-out
+}
+
+
+
 
 .display-pokemon {
     box-sizing: border-box;
