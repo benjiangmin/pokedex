@@ -43,6 +43,7 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 10. If the user asks for fast pokemon, the minimum speed is 100.
 11. If the user asks for slow pokemon or "trick room" pokemon, the maximum speed is 50.
 12. If the user mentions a region (e.g "Johto pokemon" or "from Sinnoh"), return that region name in the "region" field, capitalized.
+13. "pokemon" is never assigned to name.
 
 ### EXAMPLES:
 User: "fast fire types"

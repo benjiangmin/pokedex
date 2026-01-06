@@ -35,8 +35,8 @@ export default function DisplayPokemon(props) {
         search()
     }, [props.prompt])
 
-    const toDisplay = filtered.map(pokemon => (
-        <PokemonEntry key={pokemon.id} pokemon={pokemon} />
+    const toDisplay = filtered.map((pokemon, index) => (
+        <PokemonEntry key={pokemon.id} pokemon={pokemon} index={index}/>
     ))
 
     return (

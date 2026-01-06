@@ -103,29 +103,29 @@ main {
     padding: 0px 15px;
     overflow: hidden;
 }
+.animate-slide {    
+    transform: translateY(-150%);
+    opacity: 0;
+    animation: slideDown 1.5s cubic-bezier(0.22, 1, 0.36, 1) forwards
+}
+@keyframes slideDown {
+    0% { transform: translateY(-150%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
+.animate-squash-cycle {
+    animation: squashAndRelease 0.5s ease-in-out !important;
+}
+@keyframes squashAndRelease {
+    0% { transform: scaleY(1); opacity: 1; }
+    50% { transform: scaleY(0); opacity: 0; } 
+    100% { transform: scaleY(1); opacity: 1; }   
+}
 .promptbar-display > h1 {
     margin: 0px; 
     font-size: clamp(1rem, 2.5vw, 3rem);
     text-align: center;
 }
-@keyframes squashRelease {
-    0% {
-        transform: scaleY(1);
-        opacity: 1;
-    }
-    40% {
-        transform: scaleY(0.1);
-        opacity: 0.5;
-    }
-    60% {
-        transform: scaleY(1);
-        opacity: 1;
-    }
-}
-.animate-squash {
-    transform-origin: center;
-    animation: squashRelease 0.5s ease-in-out
-}
+
 
 
 
@@ -157,9 +157,43 @@ main {
     justify-content: right;
     border-radius: 20px;
     margin-bottom: 15px;
-    transition: background-color 0.2s ease, color 0.2s ease
+    gap:5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    opacity: 0; 
+    transform: translateY(20px);
+    
+    animation: cardEntrance 0.4s ease-out;
+    animation-delay: var(--delay, 0s);
+    animation-fill-mode: forwards; 
 }
 .pokemon-entry:hover {
-    background-color: rgb(121, 104, 97);
+    background-color: rgb(128, 115, 103);
+    outline: 2px solid;
     cursor: pointer;
+}
+@keyframes cardEntrance {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
+
+.extra-details {
+    background-color: rgb(155, 142, 130);
+    padding: 10px;
+    margin: 8px;
+    border-radius: 20px;
+    border: 2px solid;
+}
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.stat-row > span {
+    margin: 0px;
+    font-family: "Sour Gummy"
 }
