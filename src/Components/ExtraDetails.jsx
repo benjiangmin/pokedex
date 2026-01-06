@@ -1,10 +1,8 @@
 export default function ExtraDetails(props) {
     const stats = props.pokemon.base
+
     const details = (
-        <div className="extra-details"> 
-            <section style={{textAlign:"center"}}>
-                <span>{props.pokemon.type.join(", ")}</span>
-            </section>
+        <div className="extra-details-stats">
             <div className="stat-row"><span>HP</span> <span>{stats.HP}</span></div>
             <div className="stat-row"><span>ATK</span> <span>{stats.Attack}</span></div>
             <div className="stat-row"><span>DEF</span> <span>{stats.Defense}</span></div>

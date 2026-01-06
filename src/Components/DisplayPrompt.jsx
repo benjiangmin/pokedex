@@ -36,7 +36,7 @@ export default function DisplayPrompt(props) {
                         promptbar-display 
                         ${entranceClass}
                         ${isAnimating ? "animate-squash-cycle" : ""}`}>
-                <p style={{margin:"0px", fontFamily:"Sour Gummy"}}>{text}</p>
+                <p style={{margin:"0px", color: "rgb(129, 110, 94)"}}>{text}</p>
                 <h1>{displayPrompt}</h1>
             </section>
         </section>

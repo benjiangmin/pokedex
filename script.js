@@ -37,6 +37,9 @@ async function fetchAllPokemon() {
                     .join(" ")
             )
 
+            const animatedSprite = pokeData.sprites.other.showdown.front_default 
+            const staticSprite = pokeData.sprites.front_default
+
             allPokemon.push({
                 id: id,
                 name: {english: pokeData.name},
@@ -50,13 +53,17 @@ async function fetchAllPokemon() {
                     "Speed": pokeData.stats[5].base_stat
                 },
                 color: speciesData.color.name,
-                sprite: pokeData.sprites.front_default,
+                sprite: animatedSprite,
                 weight: pokeData.weight,
                 abilities: pokeData.abilities.map(a => (
                     a.ability.name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
                 )),
                 region: getRegion(pokeData.id),
-                moves: moveNames
+                moves: moveNames,
+                sprites: {
+                    static: staticSprite,
+                    animated: animatedSprite
+                }
             })
         } catch (err) {
             console.log(`Error for Pokemon #${id}`)
