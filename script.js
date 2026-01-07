@@ -7,7 +7,7 @@ async function fetchAllPokemon() {
     const getVariant = (slug) => {
         return {
             isMega: slug.includes("-mega"),
-            isAlolan: slug.includes("-alola"),
+            isAlolan: slug.includes("-alola") && !slug.includes("-totem"),
             isHisuian: slug.includes("-hisui"),
             isGalarian: slug.includes("-galar"),
             isPaldean: slug.includes("-paldea"),
@@ -26,8 +26,7 @@ async function fetchAllPokemon() {
             const allEntries = speciesData.flavor_text_entries.filter(entry => entry.language.name === "en")
             const rawEntry = allEntries.length > 0 ? allEntries[allEntries.length - 1].flavor_text : ""
             const desiredEntry = rawEntry
-                .replace(/[\x00-\x1f\x7f-\x9f\xad]/g, "") 
-                .replace(/[\n\f\r]/g, " ")
+                .replace(/[\n\f]/g, " ")
                 .trim();
 
             for (const variety of speciesData.varieties) {

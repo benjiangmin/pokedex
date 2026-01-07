@@ -6,6 +6,8 @@ export const applyFilters = (data, rules) => {
                 return false
             }
         }
+        //Delete the Pikachu cap variants here too
+        if (pokemon.slug.includes("-cap")) return false
 
         // Types Check
         if (rules.types && rules.types.length > 0) {
