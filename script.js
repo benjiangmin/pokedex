@@ -2,7 +2,7 @@ import fs from "fs"
 
 async function fetchAllPokemon() {
     const allPokemon = []
-    const totalCount = 1026
+    const totalCount = 1025
 
     // Mapping of Gen to Region (kinda useless but whatver), also not accurate yet.
     const getRegion = (id) => {
@@ -44,19 +44,7 @@ async function fetchAllPokemon() {
                 entry.language.name === "en"
             ))
             const desiredEntry = allEntries[allEntries.length - 1].flavor_text
-                // 1. Completely REMOVE invisible "letter-eaters" (don't replace with space)
-                .replace(/[\x00-\x1f\x7f-\x9f\xad]/g, "")
-
-                // 2. Turn actual line breaks and form feeds into a single space
-                .replace(/[\n\f\r\u000c]/g, " ")
-
-                // 3. Fix the Poké spelling
-                .replace(/POKé/g, "Poké")
-
-                // 4. NOW collapse any double spaces created by step 2 into one
-                .replace(/\s+/g, " ")
-
-                // 5. Clean the edges
+                .replace(/[\n\f]/g, " ")
                 .trim();
 
             allPokemon.push({
