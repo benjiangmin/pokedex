@@ -57,23 +57,23 @@ export default function PokemonEntry(props) {
             onClick={handleMouseClick}
             onMouseLeave={handleMouseLeave}
         >
-            <p>{props.pokemon.name.english}</p>
 
-            <section>{showDetails && <ExtraDetails pokemon={props.pokemon} />}</section>
-            <img
-                className={showDetails ? "animated-image" : ""}
-                style={{ marginLeft: "10px" }}
-                src={currentImage}
-                alt={props.pokemon.name.english}
-            />
-            <div className="type-icon-bar">
-                {showDetails && props.pokemon.type.map(type => (
-                    <img
-                        key={type}
-                        src={typeImages[type]}
-                        alt={type}
-                    />
-                ))}
+            <div className="entry-left">
+                {!showDetails && <p style={{marginLeft:`${!showDetails ? "20px" : "0px"}`}}>{props.pokemon.name.english}</p>}
+                {showDetails && <ExtraDetails pokemon={props.pokemon} />}
+            </div>
+
+            <div className="entry-right">
+                <img
+                    className={showDetails ? "animated-image" : ""}
+                    src={currentImage}
+                    alt={props.pokemon.name.english}
+                />
+                <div className="type-icon-bar">
+                    {showDetails && props.pokemon.type.map(type => (
+                        <img key={type} src={typeImages[type]} alt={type} />
+                    ))}
+                </div>
             </div>
         </div>
     )

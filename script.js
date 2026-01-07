@@ -40,6 +40,25 @@ async function fetchAllPokemon() {
             const animatedSprite = pokeData.sprites.other.showdown.front_default 
             const staticSprite = pokeData.sprites.front_default
 
+            const allEntries = speciesData.flavor_text_entries.filter(entry => (
+                entry.language.name === "en"
+            ))
+            const desiredEntry = allEntries[allEntries.length - 1].flavor_text
+                // 1. Completely REMOVE invisible "letter-eaters" (don't replace with space)
+                .replace(/[\x00-\x1f\x7f-\x9f\xad]/g, "")
+
+                // 2. Turn actual line breaks and form feeds into a single space
+                .replace(/[\n\f\r\u000c]/g, " ")
+
+                // 3. Fix the Poké spelling
+                .replace(/POKé/g, "Poké")
+
+                // 4. NOW collapse any double spaces created by step 2 into one
+                .replace(/\s+/g, " ")
+
+                // 5. Clean the edges
+                .trim();
+
             allPokemon.push({
                 id: id,
                 name: {english: pokeData.name},
@@ -63,7 +82,8 @@ async function fetchAllPokemon() {
                 sprites: {
                     static: staticSprite,
                     animated: animatedSprite
-                }
+                },
+                description: desiredEntry
             })
         } catch (err) {
             console.log(`Error for Pokemon #${id}`)

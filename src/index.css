@@ -153,12 +153,11 @@ main {
 }
 .pokemon-entry {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(247, 231, 216);
-    justify-content: right;
     border-radius: 20px;
     margin-bottom: 15px;
-    gap:5px;
     transition: background-color 0.2s ease, color 0.2s ease;
 
     opacity: 0; 
@@ -167,6 +166,13 @@ main {
     animation: cardEntrance 0.4s ease-out;
     animation-delay: var(--delay, 0s);
     animation-fill-mode: forwards; 
+}
+.entry-left {
+    flex: 1;
+}
+.entry-right {
+    display: flex;
+    align-items: center;
 }
 .pokemon-entry:hover {
     background-color: rgb(206, 190, 176);
@@ -182,12 +188,21 @@ main {
     width: 75px;
     object-fit: contain;
     display: block;
-    margin-right: 20px;
 }
 
 
 
-
+.extra-details-main-container {
+    display: flex;
+    align-items: center;
+}
+.extra-details-main-container > p {
+    text-align: left;
+    font-family: "Sour Gummy";
+    font-size: 1.2rem;
+    margin: 0px 15px;
+    color: rgb(48, 45, 43);
+}
 .extra-details-types {
     display: flex;
     align-items: center;
