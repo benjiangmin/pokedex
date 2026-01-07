@@ -45,7 +45,8 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 11. If the user asks for slow pokemon or "trick room" pokemon, the maximum speed is 50.
 12. If the user mentions a region (e.g "Johto pokemon" or "from Sinnoh"), return that region name in the "region" field, capitalized.
 13. "pokemon" is never assigned to name.
-14. If the user asks for pokemon "that can learn" or "that know" a certain move(s), return that move in the "moves" field, capitalized.
+14. If the user asks for pokemon "that can learn" or "that know" or "can use" certain move(s), return that move in the "moves" field, capitalized.
+15. If the user asks for pokemon "that can use" a certain thing, they are refering to abilites. Map it to the "abilities" array.
 
 ### EXAMPLES:
 User: "fast fire types"

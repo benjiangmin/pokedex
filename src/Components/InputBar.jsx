@@ -1,3 +1,5 @@
+import HelpfulData from "./HelpfulData"
+
 export default function InputBar(props) {
 
     function handleSubmit(formData) {
@@ -18,6 +20,7 @@ export default function InputBar(props) {
                            placeholder="e.g. blue pokemon with a speed greater than 100..."
                     />
                 </form>
+                <HelpfulData />
             </section>
         </section>
     )
