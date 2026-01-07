@@ -63,13 +63,6 @@ export const applyFilters = (data, rules) => {
             if (!hasAbility) return false;
         }
 
-        // Region Check (based on pokemon id)
-        if (rules.region) {
-            if (pokemon.region.toLowerCase() !== rules.region.toLowerCase()) {
-                return false
-            }
-        }
-
         // Moves Check
         if (rules.moves) {
             const canLearn = rules.moves.some(m => (
@@ -78,6 +71,20 @@ export const applyFilters = (data, rules) => {
             if (!canLearn) return false
         }
         
+        // Variants check
+        const variantRules = [
+            { key: "isMega", rule: rules.isMega },
+            { key: "isAlolan", rule: rules.isAlolan },
+            { key: "isHisuian", rule: rules.isHisuian },
+            { key: "isGalarian", rule: rules.isGalarian },
+            { key: "isPaldean", rule: rules.isPaldean },
+            { key: "isGmax", rule: rules.isGmax }
+        ];
+        for (const variant of variantRules) {
+            if (variant.rule !== undefined && pokemon[variant.key] !== variant.rule) {
+                return false;
+            }
+        }
 
         return true;
     });

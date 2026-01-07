@@ -34,7 +34,7 @@ main {
 }
 .pokedex-sprites-container > img {
     margin: 0px;
-    height: 3.8vw;
+    height: clamp(20px, 3.8vw, 65px);
 }
 .pokedex-sprites-container > img:hover {
     height: 4.5vw;

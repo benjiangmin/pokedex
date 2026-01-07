@@ -28,8 +28,8 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 - "maxWeight: Integer. Weight in hectograms.
 - "color": String. Must be lowercase (e.g., "blue", "red", "green").
 - "abilities": Array of strings. Capitalized. (e.g ["Intimidate", "Levitate"])
-- "region": String. (e.g "Kanto", "Sinnoh")
 - "moves": Array of strings. Capitalized. (e.g ["Tackle", "Double Team"])
+- "isMega", "isAlolan", "isHisuian", "isGalarian", "isPaldean", "isGmax": Boolean. 
 
 ### LOGIC RULES:
 1. Only include fields the user explicitly mentions or implies.
@@ -43,10 +43,11 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 9. If the user mentions a specific power or ability, map it to the "abilities" array.
 10. If the user asks for fast pokemon, the minimum speed is 100.
 11. If the user asks for slow pokemon or "trick room" pokemon, the maximum speed is 50.
-12. If the user mentions a region (e.g "Johto pokemon" or "from Sinnoh"), return that region name in the "region" field, capitalized.
 13. "pokemon" is never assigned to name.
 14. If the user asks for pokemon "that can learn" or "that knows" or "can use" certain move(s), return that move in the "moves" field, capitalized.
 15. If the user asks for pokemon "that have" a certain ability, map it the "abilities" array.
+16. If the user asks for "Mega pokemon", set "isMega" to true. Similarly, set "isAlolan" and "isPaldean" to true if the use asks for "Alolan pokemon" and "Paldean pokemon" respectively.
+
 
 ### EXAMPLES:
 User: "fast fire types"

@@ -20,6 +20,8 @@ import rock from "./Images/rock.png"
 import steel from "./Images/steel.png"
 import water from "./Images/water.png"
 
+import missing from "./Images/missing.png"
+
 export default function PokemonEntry(props) {
     const [showDetails, setShowDetails] = useState(false)
     const handleMouseClick = () => setShowDetails(true)
@@ -50,6 +52,7 @@ export default function PokemonEntry(props) {
         ? props.pokemon.sprites.animated
         : props.pokemon.sprites.static
 
+    
     return (
         <div
             className="pokemon-entry"
@@ -66,7 +69,7 @@ export default function PokemonEntry(props) {
             <div className="entry-right">
                 <img
                     className={showDetails ? "animated-image" : ""}
-                    src={currentImage}
+                    src={currentImage ? currentImage : missing}
                     alt={props.pokemon.name.english}
                 />
                 <div className="type-icon-bar">

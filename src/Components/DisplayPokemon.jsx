@@ -39,7 +39,7 @@ export default function DisplayPokemon(props) {
     }, [props.prompt])
 
     const toDisplay = filtered.map((pokemon, index) => (
-        <PokemonEntry key={pokemon.id} pokemon={pokemon} index={index}/>
+        <PokemonEntry key={pokemon.slug} pokemon={pokemon} index={index}/>
     ))
 
     return (
