@@ -17,7 +17,7 @@ export default function DisplayPrompt(props) {
 
             const animTimer = setTimeout(() => {
                 setIsAnimating(false)
-            }, 500)
+            }, 500) 
 
             return (() => {
                 clearTimeout(textTimer)
@@ -27,7 +27,8 @@ export default function DisplayPrompt(props) {
         
     }, [props.prompt])
 
-    const text = (displayPrompt?.length || 0) > 0 ? "results for" : "enter a search to get started!"
+    const numResults = props.results?.length
+    const text = (displayPrompt?.length || 0) > 0 ? `${numResults} results for` : "enter a search to get started!"
     const entranceClass = !hasLoaded.current ? "animate-slide" : ""
 
     return (

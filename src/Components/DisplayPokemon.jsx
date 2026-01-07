@@ -24,6 +24,7 @@ export default function DisplayPokemon(props) {
                 console.log(rules)
 
                 const results = applyFilters(pokemonData, rules)
+                props.fetchResults(results)
                 console.log(`matches found...maybe: ${results.length}`)
 
                 setFiltered(results)
