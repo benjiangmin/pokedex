@@ -40,13 +40,13 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 6. If the user mentions a color, map it to the "color" field using lowercase.
 7. If the user asks for a specific Pokemon by name, return a "name" key with the name in lowercase.
 8. If the user mentions dual types, then there should be two types. 
-9. If the user mentions a specific power or ability (e.g "pokemon that can fly or are intimidating") map it to the "abilities" array.
+9. If the user mentions a specific power or ability, map it to the "abilities" array.
 10. If the user asks for fast pokemon, the minimum speed is 100.
 11. If the user asks for slow pokemon or "trick room" pokemon, the maximum speed is 50.
 12. If the user mentions a region (e.g "Johto pokemon" or "from Sinnoh"), return that region name in the "region" field, capitalized.
 13. "pokemon" is never assigned to name.
-14. If the user asks for pokemon "that can learn" or "that know" or "can use" certain move(s), return that move in the "moves" field, capitalized.
-15. If the user asks for pokemon "that can use" a certain thing, they are refering to abilites. Map it to the "abilities" array.
+14. If the user asks for pokemon "that can learn" or "that knows" or "can use" certain move(s), return that move in the "moves" field, capitalized.
+15. If the user asks for pokemon "that have" a certain ability, map it the "abilities" array.
 
 ### EXAMPLES:
 User: "fast fire types"

@@ -1,3 +1,11 @@
+import P from "../Components/Images/unown-p.gif"
+import O from "../Components/Images/unown-o.gif"
+import K from "../Components/Images/unown-k.gif"
+import E from "../Components/Images/unown-e.gif"
+import D from "../Components/Images/unown-d.gif"
+import E_SHINY from "../Components/Images/unown-e-shiny.gif"
+import X from "../Components/Images/unown-x.gif"
+
 import HelpfulData from "./HelpfulData"
 
 export default function InputBar(props) {
@@ -10,7 +18,15 @@ export default function InputBar(props) {
     return (
         <section className="inputbar">
             <section className="inputbar-display">
-                <h1>pokédex</h1>
+                <section className="pokedex-sprites-container">
+                    <img src={P}/>
+                    <img src={O}/>
+                    <img src={K}/>
+                    <img src={E}/>
+                    <img src={D}/>
+                    <img src={E_SHINY}/>
+                    <img src={X}/>
+                </section>
                 <form style={{display: "flex", flexDirection: "column"}}action={handleSubmit}>
                     <label className="enter-description-label">enter description:</label>
                     <input className="enter-description-input" 
