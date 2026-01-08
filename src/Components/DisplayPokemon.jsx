@@ -3,12 +3,17 @@ import { applyFilters } from "./applyFilters"
 import pokemonData from "../../pokedex-enriched.json"
 import PokemonEntry from "./PokemonEntry"
 
+import pokeballLoading from "./Images/pokeballLoadingV4.gif"
+
 export default function DisplayPokemon(props) {
     const [filtered, setFiltered] = useState([])
     const [loading, setLoading] = useState(false)
 
     useEffect(() => {
-        if (!props.prompt) return
+        if (!props.prompt) {
+            setFiltered([])
+            return
+        }
 
         const search = async () => {
             setFiltered([])
@@ -38,14 +43,26 @@ export default function DisplayPokemon(props) {
         search()
     }, [props.prompt])
 
+    useEffect(() => {
+        setFiltered(props.results || [])
+    }, [props.results])
+
     const toDisplay = filtered.map((pokemon, index) => (
         <PokemonEntry key={pokemon.slug} pokemon={pokemon} index={index}/>
     ))
 
+    const filler = (
+        <section style={{display:"flex", flexDirection:"column", alignItems:"center"}}>    
+            <img className="loading-pokeball" src={pokeballLoading}/>
+            <p style={{textAlign:"center"}}>results will be displayed here!</p>
+        </section>
+    )
+
     return (
         <section className="display-pokemon">
-            <section className="display-pokemon-container">
+            <section className={toDisplay.length > 0 ? "display-pokemon-container" : "display-pokemon-container centered"}>
                 {loading && <p style={{textAlign:"center"}}>loading...</p>}
+                {toDisplay.length === 0 && !loading && filler}
                 {toDisplay.length > 0 && toDisplay}
             </section>
         </section>

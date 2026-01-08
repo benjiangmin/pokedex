@@ -6,7 +6,7 @@ import D from "../Components/Images/unown-d.gif"
 import E_SHINY from "../Components/Images/unown-e-shiny.gif"
 import X from "../Components/Images/unown-x.gif"
 
-import HelpfulData from "./HelpfulData"
+import HelpfulBar from "./HelpfulBar"
 
 export default function InputBar(props) {
 
@@ -36,7 +36,11 @@ export default function InputBar(props) {
                            placeholder="e.g. blue pokemon with a speed greater than 100..."
                     />
                 </form>
-                <HelpfulData />
+                <HelpfulBar 
+                    results={props.results} 
+                    setResults={props.setResults}
+                    resetSearch={props.resetSearch} 
+                />
             </section>
         </section>
     )

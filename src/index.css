@@ -37,7 +37,7 @@ main {
     height: clamp(20px, 3.8vw, 65px);
 }
 .pokedex-sprites-container > img:hover {
-    height: 4.5vw;
+    height: clamp(25px, 4.2vw, 75px);
     cursor: pointer;
 }
 .enter-description-label {
@@ -191,6 +191,15 @@ main {
     width: 75px;
     object-fit: contain;
     display: block;
+}
+.loading-pokeball {
+    height: clamp(50px, 30vw, 500px);
+}
+.centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 
