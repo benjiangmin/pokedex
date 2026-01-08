@@ -31,12 +31,12 @@ async function fetchAllPokemon() {
 
             for (const variety of speciesData.varieties) {
                 console.log(`  - Fetching variety: ${variety.pokemon.name}`)
-                
+
                 const pokeRes = await fetch(variety.pokemon.url)
                 const pokeData = await pokeRes.json()
 
                 const variants = getVariant(pokeData.name)
-                
+
                 const moveNames = pokeData.moves.map(m =>
                     m.move.name
                         .split("-")
@@ -44,16 +44,34 @@ async function fetchAllPokemon() {
                         .join(" ")
                 )
 
-                const animatedSprite = pokeData.sprites.other.showdown.front_default 
+                const specialNames = {
+                    "ho-oh": "Ho-Oh",
+                    "porygon-z": "Porygon-Z",
+                    "type-null": "Type: Null",
+                    "jangmo-o": "Jangmo-o",
+                    "hakamo-o": "Hakamo-o",
+                    "kommo-o": "Kommo-o"
+                };
+                let nameFormatted
+                if (specialNames[pokeData.name]) {
+                    nameFormatted = specialNames[pokeData.name]
+                } else {
+                    const name = pokeData.name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                    if (name.length <= 1) nameFormatted = name[0]
+                    else nameFormatted = `${name[0]} (${name.slice(1).join(" ")})`
+                }
+
+
+                const animatedSprite = pokeData.sprites.other.showdown.front_default
                 const staticSprite = pokeData.sprites.front_default
 
                 allPokemon.push({
                     id: id,
-                    slug: pokeData.name, 
+                    slug: pokeData.name,
                     isDefault: variety.is_default,
                     ...variants,
-                    name: { 
-                        english: pokeData.name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+                    name: {
+                        english: nameFormatted
                     },
                     type: pokeData.types.map(t => t.type.name.charAt(0).toUpperCase() + t.type.name.slice(1)),
                     base: {
