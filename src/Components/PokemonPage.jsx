@@ -11,8 +11,12 @@ export default function PokemonPage() {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
+
+    const moves = pokemon.moves.map(move => (
+        <p>{move}</p>
+    ))
     
     return (
-        <h1>{pokemon.name.english}</h1>
+        <p>{moves}</p>
     )
 }
