@@ -30,6 +30,7 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 - "abilities": Array of strings. Capitalized. (e.g ["Intimidate", "Levitate"])
 - "moves": Array of strings. Capitalized. (e.g ["Tackle", "Double Team"])
 - "isMega", "isAlolan", "isHisuian", "isGalarian", "isPaldean", "isGmax": Boolean. 
+- "isLegendary", "isMythical": Boolean.
 
 ### LOGIC RULES:
 1. Only include fields the user explicitly mentions or implies.
@@ -48,6 +49,8 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 15. If the user asks for pokemon "that have" a certain ability, map it the "abilities" array.
 16. If the user asks for "Mega pokemon", set "isMega" to true. Similarly, set "isAlolan" and "isPaldean" to true if the use asks for "Alolan pokemon" and "Paldean pokemon" respectively.
 17. If the user asks for "Gigantamax pokemon", they are also refering to "gmax" pokemon.
+18. If the user asks for "Legendary" or "Legendaries", or pokemon that are "not legendary" or "not legendaries", set isLegendary to true or false, respectively.
+19. If the user asks for "Mythical" or "Mythicals", or pokemon that are "not mythical" or "not mythicals", set isMythical to true or false, respectively. 
 
 
 ### EXAMPLES:

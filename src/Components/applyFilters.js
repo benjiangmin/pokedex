@@ -73,7 +73,7 @@ export const applyFilters = (data, rules) => {
             if (!canLearn) return false
         }
         
-        // Variants check
+        // Variants Check
         const variantRules = [
             { key: "isMega", rule: rules.isMega },
             { key: "isAlolan", rule: rules.isAlolan },
@@ -84,6 +84,20 @@ export const applyFilters = (data, rules) => {
         ];
         for (const variant of variantRules) {
             if (variant.rule !== undefined && pokemon[variant.key] !== variant.rule) {
+                return false;
+            }
+        }
+
+        // Mythical Check
+        if (rules.isMythical !== undefined) {
+            if (pokemon.isMythical !== rules.isMythical) {
+                return false;
+            }
+        }
+
+        // Legendary Check
+        if (rules.isLegendary !== undefined) {
+            if (pokemon.isLegendary !== rules.isLegendary) {
                 return false;
             }
         }

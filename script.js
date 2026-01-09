@@ -30,7 +30,7 @@ async function fetchAllPokemon() {
                 .trim();
 
             for (const variety of speciesData.varieties) {
-                if (variety.pokemon.name.includes("-totem")) {
+                if (variety.pokemon.name.includes("-totem") || variety.pokemon.name.includes("-cap")) {
                     console.log(`  - Skipping unwanted variety: ${variety.pokemon.name}`);
                     continue;
                 }
@@ -97,7 +97,9 @@ async function fetchAllPokemon() {
                         static: staticSprite,
                         animated: animatedSprite
                     },
-                    description: desiredEntry
+                    description: desiredEntry,
+                    isLegendary: speciesData.is_legendary,
+                    isMythical: speciesData.is_mythical
                 })
             }
         } catch (err) {
