@@ -30,6 +30,10 @@ async function fetchAllPokemon() {
                 .trim();
 
             for (const variety of speciesData.varieties) {
+                if (variety.pokemon.name.includes("-totem")) {
+                    console.log(`  - Skipping unwanted variety: ${variety.pokemon.name}`);
+                    continue;
+                }
                 console.log(`  - Fetching variety: ${variety.pokemon.name}`)
 
                 const pokeRes = await fetch(variety.pokemon.url)
