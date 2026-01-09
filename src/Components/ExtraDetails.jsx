@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { useNavigate } from "react-router-dom"
 
 const Typewriter = ({text, speed = 15}) => {
     const [displayedText, setDisplayedText] = useState("")
@@ -25,10 +26,16 @@ const Typewriter = ({text, speed = 15}) => {
 
 export default function ExtraDetails(props) {
     const stats = props.pokemon.base
+    const navigate = useNavigate()
+
+    const handleClick = (e) => {
+        e.stopPropagation()
+        navigate(`/pokemon/${props.pokemon.slug}`)
+    }
 
     const details = (
         <section className="extra-details-main-container">
-            <div className="extra-details-stats">
+            <div className="extra-details-stats" onClick={handleClick}>
                 <div className="stat-row"><span style={{color:"rgb(129, 110, 94)"}}>HP</span> <span>{stats.HP}</span></div>
                 <div className="stat-row"><span style={{color:"rgb(129, 110, 94)"}}>ATK</span> <span>{stats.Attack}</span></div>
                 <div className="stat-row"><span style={{color:"rgb(129, 110, 94)"}}>DEF</span> <span>{stats.Defense}</span></div>

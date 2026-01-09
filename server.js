@@ -45,8 +45,8 @@ Return ONLY a valid JSON object. No preamble, no markdown formatting, no explana
 10. If the user asks for fast pokemon, the minimum speed is 100.
 11. If the user asks for slow pokemon or "trick room" pokemon, the maximum speed is 50.
 13. "pokemon" is never assigned to name.
-14. If the user asks for pokemon "that can learn" or "that knows" or "can use" certain move(s), return that move in the "moves" field, capitalized.
-15. If the user asks for pokemon "that have" a certain ability, map it the "abilities" array.
+14. If the user asks for pokemon "that can learn" or "that knows" or "can use" somthing, they are refering to a certain move, return that move in the "moves" field, capitalized.
+15. If the user asks for pokemon "that have" something, they are refering to a certain ability, map it the "abilities" array, capitalized.
 16. If the user asks for "Mega pokemon", set "isMega" to true. Similarly, set "isAlolan" and "isPaldean" to true if the use asks for "Alolan pokemon" and "Paldean pokemon" respectively.
 17. If the user asks for "Gigantamax pokemon", they are also refering to "gmax" pokemon.
 18. If the user asks for "Legendary" or "Legendaries", or pokemon that are "not legendary" or "not legendaries", set isLegendary to true or false, respectively.

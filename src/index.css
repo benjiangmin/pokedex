@@ -226,6 +226,10 @@ main {
     margin: 8px;
     border-radius: 20px;
     border: 2px solid;
+    transition: border 0.3s ease;
+}
+.extra-details-stats:hover {
+    border: 2px solid rgb(240, 218, 200);
 }
 .stat-row {
     display: flex;
