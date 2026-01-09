@@ -13,6 +13,7 @@ export default function InputBar(props) {
     function handleSubmit(formData) {
         const description = formData.get("description")
         props.setQuery(description)
+        props.setCurrentFilter("")
     }
 
     return (
@@ -40,6 +41,8 @@ export default function InputBar(props) {
                     results={props.results} 
                     setResults={props.setResults}
                     resetSearch={props.resetSearch} 
+                    currentFilter={props.currentFilter}
+                    setCurrentFilter={props.setCurrentFilter}
                 />
             </section>
         </section>
