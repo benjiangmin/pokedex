@@ -46,7 +46,7 @@ export default function PokemonEntry(props) {
         Rock: rock,
         Steel: steel,
         Water: water
-    };
+    }
 
     const currentImage = showDetails 
         ? props.pokemon.sprites.animated

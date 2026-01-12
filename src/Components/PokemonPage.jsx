@@ -1,7 +1,12 @@
+import { useParams, useNavigate } from "react-router-dom"
+
+import pokemonData from "../../pokedex-enriched.json"
 import Header from "./PageComponents/Header"
 import InformationBody from "./PageComponents/InformationBody"
 
 export default function PokemonPage() {
+    const { slug } = useParams()
+    const pokemon = pokemonData.find(pokemon => pokemon.slug === slug)
 
     return (
         <section style={{display:"flex", 
@@ -11,7 +16,7 @@ export default function PokemonPage() {
             height:"100%"}}
         >
             <Header />
-            <InformationBody />
+            <InformationBody pokemon={pokemon}/>
         </section>
     )
 }
