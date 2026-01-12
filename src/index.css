@@ -354,16 +354,18 @@ main {
 .name-index-container {
     background-color: rgb(61, 57, 53);
     height: clamp(200px, 35vw, 550px);
-    width: clamp(75px, 15vw, 450px);
+    width: clamp(75px, 13vw, 450px);
     border-radius: 30px 0px 0px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
 }
 .name-index-container > h3 {
     margin: 0px;
-    font-size: clamp(1rem, 2.2vw, 3rem);
+    font-size: clamp(0.7rem, 1.8vw, 2.7rem);
     color: rgb(255, 239, 218);
     text-align: center;
 }
@@ -375,10 +377,53 @@ main {
 .stats-container {
     background-color: rgb(61, 57, 53);
     height: clamp(200px, 35vw, 550px);
-    width: clamp(200px, 45vw, 1300px);
+    width: clamp(200px, 47vw, 1300px);
     border-radius: 0px 30px 30px 0px;
 }
-
+.statbars-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px 45px 20px 20px;
+}
+.statbars-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.statbar-label {
+    width: clamp(40px, 45vw, 200px);
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.statbar-label > h3 {
+    margin: 0px;
+    font-size: 1.2rem;
+    color: rgb(228, 213, 195);
+}
+.statbar-label > p {
+    color: rgb(146, 136, 123);
+    font-size: 0.7rem;
+    margin-right: 6px;
+}
+.bar-background {
+    flex-grow: 1;
+    height: 50%;
+    overflow: hidden;
+}
+.bar-fill {
+    height: 100%;
+    background-color: rgb(141, 185, 127);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 5px;
+}
 
 
 
