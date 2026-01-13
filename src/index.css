@@ -418,8 +418,8 @@ main {
     margin: 0px;
 }
 .statbar-label > h3 {
-    margin: 0px;
-    font-size: clamp(0.8rem, 1.1vw, 2rem);
+    margin: 5px 0px;
+    font-size: clamp(0.8rem, 1.1vw, 1.3rem);
     color: rgb(228, 213, 195);
     font-weight: 200;
 }
@@ -449,7 +449,7 @@ main {
     padding-left: 20px;
 }
 .weights-heights-container > p {
-    margin: 3px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
     color: rgb(128, 121, 113);
     font-family: "Sour Gummy";
 }
@@ -464,7 +464,7 @@ main {
 .types-container {
     background-color: rgb(133, 120, 112);
     border-radius: 15px;
-    border: 4px solid black;
+    border: 4px solid rgb(71, 66, 62);
     display: flex;
     align-items: center;
     height: 50px;
@@ -524,7 +524,7 @@ main {
     font-weight: 100;
     color:antiquewhite;
     padding-left: 20px;
-    border: 4px solid black;
+    border: 4px solid rgb(71, 66, 62);
 }
 .ability-row {
     display: flex;
@@ -557,7 +557,6 @@ main {
     width: 100%;
     box-sizing: border-box;
     padding: 30px;
-    background-color: rgb(110, 105, 100);
     display: flex;
     flex-direction: column;
     gap: 10px;

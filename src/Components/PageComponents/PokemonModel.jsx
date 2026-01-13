@@ -60,7 +60,7 @@ export default function PokemonModel({ pokemon }) {
 
     return (
         <div className="three-d-model-container">
-            <Canvas shadows camera={{ position: [0, 0, 3], fov: 35 }}>
+            <Canvas shadows camera={{ position: [0, 0, 1], fov: 35 }}>
                 <Suspense fallback={null}>
                     <Stage environment="city" intensity={0.6} adjustCamera={1.2}>
                         <Model url={modelUrl} />
