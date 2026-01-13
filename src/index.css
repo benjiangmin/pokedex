@@ -346,11 +346,17 @@ main {
     width: 35%;
     border-radius: 30px;
     border: 8px solid black;
-    transition: border 0.2s ease;
+    transition: border 0.3s ease;
 }
 .three-d-model-container:hover {
     cursor: pointer;
     border: 8px solid rgb(92, 84, 76);
+}
+.fallback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .name-index-container {
     background-color: rgb(61, 57, 53);
@@ -373,6 +379,12 @@ main {
 .name-index-container > p {
     margin: 0px;
     color: rgb(179, 165, 148);
+    font-family: "Sour Gummy";
+}
+.category-text {
+    text-align: center;
+    color: rgb(128, 121, 113);
+    font-size: clamp(0.4rem, 1vw, 1rem);
     font-family: "Sour Gummy";
 }
 .stats-container {
@@ -428,35 +440,107 @@ main {
     justify-content: flex-end;
     border-radius: 5px;
 }
+.weights-heights-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.weights-heights-container > p {
+    margin: 0px;
+    color: rgb(128, 121, 113);
+    font-family: "Sour Gummy";
+}
 
 
 
 .type-logic-wrapper {
-    background-color: red;
+    background-color: rgb(61, 57, 53);
+    padding: 5px;
+    border-radius: 15px;
 }
 .types-container {
-    background-color: rgb(228, 211, 200);
-    padding: 6px 6px;
+    background-color: rgb(133, 120, 112);
     border-radius: 15px;
-    border: 3px solid black;
+    border: 4px solid black;
     display: flex;
     align-items: center;
-    font-size: 1.3rem;
     height: 50px;
     padding: 0px 20px;
+    color: antiquewhite;
+}
+.types-container > h2 {
+    font-size: 1.3rem;
+    font-weight: 100;
 }
 
 .display-type-effectiveness-row {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+.display-type-effectiveness-row > p {
+    font-family: "Sour Gummy";
+    margin: 3px;
+    color: rgb(214, 196, 183);
+}
+.type-list {
+    display: flex;
+    align-items: center;
+    margin: 0px;
 }
 .type-list > img {
-    height: 30px;
-    margin: 3px;
+    height: 15px;
+    margin-right: 3px;
 }
 .pokemon-types-icons {
     height: 20px;
     margin: 0px 2px;
+}
+
+
+
+
+
+
+.abilities-logic-container {
+    background-color: rgb(61, 57, 53);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.abilities-logic-container > h2 {
+    background-color: rgb(133, 120, 112);
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color:antiquewhite;
+    padding-left: 20px;
+    border: 4px solid black;
+}
+.ability-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.ability-row > h3 {
+    margin: 5px;
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgb(214, 196, 183);
+}
+.ability-row > p {
+    margin: 0px;
+    color: rgb(214, 196, 183);
+    font-family: "Sour Gummy";
 }
 
 
@@ -469,5 +553,11 @@ main {
 
 
 .information-body-container {
-    
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: rgb(110, 105, 100);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

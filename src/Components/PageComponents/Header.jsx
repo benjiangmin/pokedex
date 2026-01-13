@@ -1,17 +1,11 @@
 import { useParams } from "react-router-dom"
-import { useEffect, Suspense } from "react"
-import { Canvas } from "@react-three/fiber"
-import { useGLTF, OrbitControls, Stage } from "@react-three/drei"
+import { useEffect } from "react"
 
 import pokemonData from "../../../pokedex-enriched.json"
 import DetailedStatsBar from "./DetailedStatsBar"
+import PokemonModel from "./PokemonModel"
 
 export default function Header() {
-    function Model({ url }) {
-        const { scene } = useGLTF(url)
-        return <primitive object={scene} />
-    }
-
     const { slug } = useParams()
     const pokemon = pokemonData.find(pokemon => pokemon.slug === slug)
 
@@ -19,7 +13,8 @@ export default function Header() {
         window.scrollTo(0, 0)
     }, [])
 
-    const modelUrl = `https://raw.githubusercontent.com/Sudhanshu-Ambastha/Pokemon-3D-api/main/models/glb/regular/${pokemon.id}.glb`
+    const toFeet = (pokemon.height*3.28).toFixed(2)
+    const toPounds = (pokemon.weight*2.205).toFixed(2)
 
     return (
         <section className="header-container">
@@ -27,21 +22,17 @@ export default function Header() {
                 <img src={pokemon.sprites.static}/>
                 <h3>{pokemon.name.english}</h3>
                 <p>#{pokemon.id}</p>
+                <h4 className="category-text">The {pokemon.category}</h4>
             </div>
 
-            <div className="three-d-model-container">
-                <Canvas shadows camera={{ position: [0, 0, 5], fov: 50 }}>
-                    <Suspense fallback={null}>
-                        <Stage environment="city" intensity={0.6}>
-                            <Model url={modelUrl} />
-                        </Stage>
-                    </Suspense>
-                    <OrbitControls autoRotate={false} />
-                </Canvas>
-            </div>
+            <PokemonModel pokemon={pokemon}/>
 
             <div className="stats-container">
-                <DetailedStatsBar stats={pokemon.base}/>                
+                <DetailedStatsBar stats={pokemon.base}/>    
+                <div className="weights-heights-container">
+                    <p>{pokemon.weight} kg/{toPounds} lb</p>            
+                    <p>{pokemon.height} m/{toFeet} ft</p>            
+                </div>
             </div>
         </section>
     )

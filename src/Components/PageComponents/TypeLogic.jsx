@@ -116,17 +116,17 @@ if (!props.pokemon || !props.pokemon.type) return null;
     return (
         <section className="type-logic-wrapper">
             <div className="types-container">
-                {`type effectiveness on ${props.pokemon.name.english} (`} 
+                <h2>{`type effectiveness on ${props.pokemon.name.english} (`}</h2> 
                 {props.pokemon.type.map(type => (
                     <img key={type} alt={type} src={typeImages[type]} className="pokemon-types-icons" />
                 ))}
-                {`)`}
+                <h2>{`)`}</h2>
             </div>
 
             <div className="effectiveness-summary">
                 {weaknesses4x.length > 0 && (
                     <section className="display-type-effectiveness-row">
-                        <h4>takes 4x from</h4>
+                        <p>takes 4x from</p>
                         <div className="type-list">
                             {weaknesses4x.map(weakness => (
                                 <img key={weakness} src={typeImages[weakness]} alt={weakness} className="type-icon-small" />
@@ -137,7 +137,7 @@ if (!props.pokemon || !props.pokemon.type) return null;
 
                 {weaknesses2x.length > 0 && (
                     <section className="display-type-effectiveness-row">
-                        <h4>takes 2x from</h4>
+                        <p>takes 2x from</p>
                         <div className="type-list">
                             {weaknesses2x.map(weakness => (
                                 <img key={weakness} src={typeImages[weakness]} alt={weakness} className="type-icon-small" />
@@ -147,7 +147,7 @@ if (!props.pokemon || !props.pokemon.type) return null;
                 )}
                 {immunities.length > 0 && (
                     <section className="display-type-effectiveness-row">
-                        <h4>immune to</h4>
+                        <p>immune to</p>
                         <div className="type-list">
                             {immunities.map(weakness => (
                                 <img key={weakness} src={typeImages[weakness]} alt={weakness} className="type-icon-small" />

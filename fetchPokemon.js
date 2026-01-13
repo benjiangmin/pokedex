@@ -2,7 +2,7 @@ import fs from "fs"
 
 async function fetchAllPokemon() {
     const allPokemon = []
-    const totalCount = 1025
+    const totalCount = 1026
 
     const getVariant = (slug) => {
         return {
@@ -69,6 +69,12 @@ async function fetchAllPokemon() {
                 const animatedSprite = pokeData.sprites.other.showdown.front_default
                 const staticSprite = pokeData.sprites.front_default
 
+                const genusEntry = speciesData.genera.find(genera => genera.language.name === "en")
+                const category = genusEntry.genus
+
+                const heightMeters = pokeData.height/10
+                const weightKilograms = pokeData.weight/10
+
                 allPokemon.push({
                     id: id,
                     slug: pokeData.name,
@@ -88,7 +94,8 @@ async function fetchAllPokemon() {
                     },
                     color: speciesData.color.name,
                     sprite: animatedSprite,
-                    weight: pokeData.weight,
+                    weight: weightKilograms,
+                    height: heightMeters,
                     abilities: pokeData.abilities.map(a => (
                         a.ability.name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
                     )),
@@ -99,7 +106,8 @@ async function fetchAllPokemon() {
                     },
                     description: desiredEntry,
                     isLegendary: speciesData.is_legendary,
-                    isMythical: speciesData.is_mythical
+                    isMythical: speciesData.is_mythical,
+                    category: category
                 })
             }
         } catch (err) {
