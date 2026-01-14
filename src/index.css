@@ -1,9 +1,9 @@
 body {
     font-family: "DynaPuff";
     width: 100vw;
-    height: 100vh;
     margin: 0px;
     background-color: antiquewhite;
+    overflow-x: hidden;
 }
 main {
     height: 100vh;
@@ -40,6 +40,9 @@ main {
 .pokedex-sprites-container > img:hover {
     height: clamp(25px, 4.2vw, 75px);
     cursor: pointer;
+}
+.pokedex-text-img {
+    height: clamp(30px, 4vw, 100px)
 }
 .enter-description-label {
     font-size: clamp(0.6rem, 0.8rem, 4rem);
@@ -338,12 +341,12 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 55%;
+    height: clamp(300px, 40vw, 700px);
 }
 .three-d-model-container {
-    background-color: rgb(211, 190, 176);
-    height: 85%;
-    width: 35%;
+    background-color: rgb(211, 193, 182);
+    height: clamp(200px, 35vw, 600px);
+    width: clamp(200px, 35vw, 600px);
     border-radius: 30px;
     border: 8px solid black;
     transition: border 0.3s ease;
@@ -360,8 +363,8 @@ main {
 }
 .name-index-container {
     background-color: rgb(61, 57, 53);
-    height: clamp(200px, 35vh, 550px);
-    width: clamp(75px, 13vw, 450px);
+    height: clamp(150px, 32vh, 550px);
+    width: clamp(75px, 13vw, 500px);
     border-radius: 30px 0px 0px 30px;
     display: flex;
     flex-direction: column;
@@ -389,7 +392,7 @@ main {
 }
 .stats-container {
     background-color: rgb(61, 57, 53);
-    height: clamp(200px, 35vh, 550px);
+    height: clamp(100px, 32vh, 550px);
     width: clamp(200px, 47vw, 1300px);
     border-radius: 0px 30px 30px 0px;
     display: flex;
@@ -457,19 +460,20 @@ main {
 
 
 .type-logic-wrapper {
-    background-color: rgb(61, 57, 53);
-    padding: 5px;
     border-radius: 15px;
+    border: 4px solid black;
+    padding: 5px;
 }
 .types-container {
-    background-color: rgb(133, 120, 112);
-    border-radius: 15px;
-    border: 4px solid rgb(71, 66, 62);
+    background-color: #2a2a2a;
+    border-radius: 12px;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 50px;
-    padding: 0px 20px;
     color: antiquewhite;
+    box-sizing: border-box;
+    padding: 0px 25px;
 }
 .types-container > h2 {
     font-size: 1.3rem;
@@ -481,7 +485,10 @@ main {
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    padding: 0px 20px;
+    padding: 20px;
+    background-color: rgb(117, 107, 100);
+    border-radius: 12px;
+    margin-top: 5px;
 }
 .display-type-effectiveness-row > p {
     font-family: "Sour Gummy";
@@ -492,14 +499,18 @@ main {
     display: flex;
     align-items: center;
     margin: 0px;
+    background-color: rgb(73, 70, 67);
+    box-sizing: border-box;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 50px;
 }
 .type-list > img {
-    height: 15px;
-    margin-right: 3px;
+    height: 20px;
 }
 .pokemon-types-icons {
-    height: 20px;
-    margin: 0px 2px;
+    height: 25px;
+    margin: 3px;    
 }
 
 
@@ -508,42 +519,47 @@ main {
 
 
 .abilities-logic-container {
-    background-color: rgb(61, 57, 53);
     border-radius: 15px;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 5px 5px 0px 5px;
+    border: 4px solid black;
 }
 .abilities-logic-container > h2 {
-    background-color: rgb(133, 120, 112);
+    background-color: #2a2a2a;
     height: 50px;
-    border-radius: 15px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
-    margin: 0px;
+    justify-content: center;
+    margin: 0px 0px 5px 0px;
     font-size: 1.3rem;
     font-weight: 100;
-    color:antiquewhite;
-    padding-left: 20px;
-    border: 4px solid rgb(71, 66, 62);
+    color: antiquewhite;
+    box-sizing: border-box;
+    padding: 0px 25px;
 }
 .ability-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
+    background-color: rgb(117, 107, 100);
+    border-radius: 12px;
+    margin-bottom: 5px;
 }
 .ability-row > h3 {
     margin: 5px;
+    margin-right: 70px;
     font-size: 0.9rem;
     font-weight: 100;
     color: rgb(214, 196, 183);
 }
 .ability-row > p {
-    margin: 0px;
+    margin: 5px;
     color: rgb(214, 196, 183);
     font-family: "Sour Gummy";
+    text-align: right;
 }
-
 
 
 
@@ -558,6 +574,14 @@ main {
     box-sizing: border-box;
     padding: 30px;
     display: flex;
+    gap: 50px;
+    background-color: rgb(216, 197, 176);
+    border-radius: 30px 30px 0px 0px;
+}
+
+.information-left {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 50px;
+    width: clamp(200px, 45vw, 600px);
 }

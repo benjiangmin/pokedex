@@ -19,14 +19,17 @@ export default function PokemonPage() {
     }, [])
 
     return (
-        <section style={{display:"flex", 
-            flexDirection:"column", 
-            alignItems:"center", 
-            width:"100%",
-            height:"100%"}}
+        <section style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            width: "100%",
+            gap: "40px"
+        }}
         >
             <Header />
-            <InformationBody pokemon={pokemon}/>
+            <InformationBody pokemon={pokemon} />
+
         </section>
     )
 }

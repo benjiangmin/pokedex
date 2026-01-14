@@ -17,9 +17,9 @@ export default function PokemonModel({ pokemon }) {
     let fileName = pokemon.id
 
     if (pokemon.isMega) folder = "mega"
-    if (pokemon.isAlolan) folder = "alolan" 
+    if (pokemon.isAlolan) folder = "alolan"
     if (pokemon.isGalarian) folder = "galar"
-    if (pokemon.isHisuian) folder = "hisuian" 
+    if (pokemon.isHisuian) folder = "hisuian"
     if (pokemon.isGmax) folder = "gmax"
 
     if (pokemon.slug.endsWith("-x")) folder = "x"
@@ -48,10 +48,10 @@ export default function PokemonModel({ pokemon }) {
     if (!modelExists && !isLoading) {
         return (
             <div className="three-d-model-container fallback">
-                <img 
-                    src={pokemon.sprites.static} 
-                    alt={pokemon.name.english} 
-                    style={{height:"60px"}} 
+                <img
+                    src={pokemon.sprites.static}
+                    alt={pokemon.name.english}
+                    style={{ height: "60px" }}
                 />
                 <p style={{ color: '#000000', fontSize: '0.8rem' }}>3D model unavailable</p>
             </div>
@@ -60,14 +60,26 @@ export default function PokemonModel({ pokemon }) {
 
     return (
         <div className="three-d-model-container">
-            <Canvas shadows camera={{ position: [0, 0, 1], fov: 35 }}>
+            <Canvas
+                shadows
+                camera={{
+                    position: [5, 5, 10],
+                    fov: 35,
+                }}
+            >
                 <Suspense fallback={null}>
-                    <Stage environment="city" intensity={0.6} adjustCamera={1.2}>
+                    <Stage
+                        environment="city"
+                        intensity={0.6}
+                        adjustCamera={false}
+                    >
                         <Model url={modelUrl} />
                     </Stage>
                 </Suspense>
-                <OrbitControls autoRotate={false} />
+
+                <OrbitControls />
             </Canvas>
+
         </div>
     )
 }
