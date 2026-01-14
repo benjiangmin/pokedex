@@ -67,9 +67,11 @@ export const applyFilters = (data, rules) => {
 
         // Moves Check
         if (rules.moves) {
-            const canLearn = rules.moves.some(m => (
-                pokemon.moves.some(pm => pm.toLowerCase() === m.toLowerCase())
-            ))
+            const canLearn = rules.moves.some(m => {
+                return Object.values(pokemon.moves).some(genMoves =>
+                    genMoves.some(pm => pm.name.toLowerCase() === m.toLowerCase())
+                )
+            })
             if (!canLearn) return false
         }
         

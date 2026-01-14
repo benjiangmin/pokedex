@@ -2,7 +2,7 @@ import fs from "fs"
 
 async function fetchAllPokemon() {
     const allPokemon = []
-    const totalCount = 1026
+    const totalCount = 100
 
     const getVariant = (slug) => {
         return {
@@ -15,6 +15,21 @@ async function fetchAllPokemon() {
         }
     }
 
+    const generationMapping = {
+        "red-blue": "Gen 1", "yellow": "Gen 1",
+        "gold-silver": "Gen 2", "crystal": "Gen 2",
+        "ruby-sapphire": "Gen 3", "emerald": "Gen 3", "firered-leafgreen": "Gen 3",
+        "diamond-pearl": "Gen 4", "platinum": "Gen 4", "heartgold-soulsilver": "Gen 4",
+        "black-white": "Gen 5", "black-2-white-2": "Gen 5",
+        "x-y": "Gen 6", "omega-ruby-alpha-sapphire": "Gen 6",
+        "sun-moon": "Gen 7", "ultra-sun-ultra-moon": "Gen 7", "lets-go-pikachu-lets-go-eevee": "Gen 7",
+        "sword-shield": "Gen 8", "brilliant-diamond-shining-pearl": "Gen 8",
+        "scarlet-violet": "Gen 9",
+
+        "legends-arceus": "Legends: Arceus",
+        "legends-za": "Legends: Z-A"
+    };
+
     for (let id = 1; id <= totalCount; id++) {
         console.log(`Processing Species #${id}`)
 
@@ -22,7 +37,6 @@ async function fetchAllPokemon() {
             const speciesRes = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`)
             const speciesData = await speciesRes.json()
 
-            // Shared description for all varieties of this species...
             const allEntries = speciesData.flavor_text_entries.filter(entry => entry.language.name === "en")
             const rawEntry = allEntries.length > 0 ? allEntries[allEntries.length - 1].flavor_text : ""
             const desiredEntry = rawEntry
@@ -41,12 +55,38 @@ async function fetchAllPokemon() {
 
                 const variants = getVariant(pokeData.name)
 
-                const moveNames = pokeData.moves.map(m =>
-                    m.move.name
-                        .split("-")
-                        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                        .join(" ")
-                )
+                const movesByGeneration = {}
+                pokeData.moves.forEach(m => {
+                    m.version_group_details.forEach(detail => {
+                        const apiVersionName = detail.version_group.name
+                        const genName = generationMapping[apiVersionName] 
+
+                        if (!genName) return;
+
+                        if (!movesByGeneration[genName]) {
+                            movesByGeneration[genName] = []
+                        }
+
+                        const moveNameFormatted = m.move.name
+                            .split("-")
+                            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+                            .join(" ")
+
+                        const isDuplicate = movesByGeneration[genName].some(
+                            existing => existing.name === moveNameFormatted &&
+                            existing.learn_method === detail.move_learn_method.name &&
+                            existing.level_learned === detail.level_learned_at
+                        )
+
+                        if (!isDuplicate) {
+                            movesByGeneration[genName].push({
+                                name: moveNameFormatted,
+                                learn_method: detail.move_learn_method.name,
+                                level_learned: detail.level_learned_at
+                            })
+                        }
+                    })
+                })
 
                 const specialNames = {
                     "ho-oh": "Ho-Oh",
@@ -72,8 +112,8 @@ async function fetchAllPokemon() {
                 const genusEntry = speciesData.genera.find(genera => genera.language.name === "en")
                 const category = genusEntry.genus
 
-                const heightMeters = pokeData.height/10
-                const weightKilograms = pokeData.weight/10
+                const heightMeters = pokeData.height / 10
+                const weightKilograms = pokeData.weight / 10
 
                 allPokemon.push({
                     id: id,
@@ -99,7 +139,7 @@ async function fetchAllPokemon() {
                     abilities: pokeData.abilities.map(a => (
                         a.ability.name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
                     )),
-                    moves: moveNames,
+                    moves: movesByGeneration,
                     sprites: {
                         static: staticSprite,
                         animated: animatedSprite
