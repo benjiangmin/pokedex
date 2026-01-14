@@ -2,7 +2,7 @@ import fs from "fs"
 
 async function fetchAllPokemon() {
     const allPokemon = []
-    const totalCount = 100
+    const totalCount = 1026
 
     const getVariant = (slug) => {
         return {
