@@ -29,6 +29,29 @@
     "Torrent",
     "Rain Dish"
   ],
+  "evolutionChain": [
+    {
+      "from": "Squirtle",
+      "to": "Wartortle",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Wartortle",
+      "to": "Blastoise",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/7.gif"
@@ -2864,85 +2887,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Yellow": [
-      {
-        "location": "Vermilion City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Red": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "X": [
-      {
-        "location": "Lumiose City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Y": [
-      {
-        "location": "Lumiose City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Seaward Cave Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Seaward Cave Area",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

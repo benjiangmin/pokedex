@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Blastoise (Gmax)"
+    "english": "Blastoise Gmax"
   },
   "type": [
     "Water"
@@ -29,6 +29,29 @@
     "Torrent",
     "Rain Dish"
   ],
+  "evolutionChain": [
+    {
+      "from": "Squirtle",
+      "to": "Wartortle",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Wartortle",
+      "to": "Blastoise",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10197.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10197.gif"
@@ -37,6 +60,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Shellfish Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

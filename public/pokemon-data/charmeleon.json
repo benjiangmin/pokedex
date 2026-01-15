@@ -29,6 +29,29 @@
     "Blaze",
     "Solar Power"
   ],
+  "evolutionChain": [
+    {
+      "from": "Charmander",
+      "to": "Charmeleon",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Charmeleon",
+      "to": "Charizard",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/5.gif"
@@ -2486,6 +2509,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

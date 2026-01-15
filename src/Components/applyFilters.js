@@ -6,8 +6,9 @@ export const applyFilters = (data, rules) => {
                 return false
             }
         }
-        //Delete the Pikachu cap variants here too
+        //Delete the Pikachu cap variants here too, and ash greninja
         if (pokemon.slug.includes("-cap")) return false
+        if (pokemon.slug.includes("-ash")) return false
 
         // Types Check
         if (rules.types && rules.types.length > 0) {

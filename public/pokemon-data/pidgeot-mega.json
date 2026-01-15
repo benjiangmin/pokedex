@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Pidgeot (Mega)"
+    "english": "Pidgeot Mega"
   },
   "type": [
     "Normal",
@@ -29,6 +29,29 @@
   "abilities": [
     "No Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pidgey",
+      "to": "Pidgeotto",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pidgeotto",
+      "to": "Pidgeot",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10073.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10073.gif"
@@ -602,6 +625,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

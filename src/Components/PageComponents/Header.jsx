@@ -23,6 +23,8 @@ import { useEffect } from "react"
 import pokemonData from "../../../public/pokedex-master.json"
 import DetailedStatsBar from "./DetailedStatsBar"
 import PokemonModel from "./PokemonModel"
+import PreviousEvolution from "./PreviousEvolution"
+import NextEvolution from "./NextEvolution"
 
 export default function Header() {
     const { slug } = useParams()
@@ -49,11 +51,12 @@ export default function Header() {
                 <h3>{pokemon.name.english}</h3>
                 <p>#{pokemon.id}</p>
                 <h4 className="category-text">The {pokemon.category}</h4>
-                <section style={{display:"flex"}}>
+                <section style={{ display: "flex" }}>
                     {pokemon.type.map(type => (
                         <img key={type} alt={type} src={typeImages[type]} className="pokemon-types-icons" />
                     ))}
                 </section>
+                <PreviousEvolution pokemon={pokemon} />
             </div>
 
             <PokemonModel pokemon={pokemon} />
@@ -64,7 +67,9 @@ export default function Header() {
                     <p>{pokemon.weight} kg/{toPounds} lb</p>
                     <p>{pokemon.height} m/{toFeet} ft</p>
                 </div>
+                <NextEvolution pokemon={pokemon} />
             </div>
+
         </section>
     )
 }

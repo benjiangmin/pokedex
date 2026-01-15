@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Charizard (Mega Y)"
+    "english": "Charizard Mega Y"
   },
   "type": [
     "Fire",
@@ -29,6 +29,29 @@
   "abilities": [
     "Drought"
   ],
+  "evolutionChain": [
+    {
+      "from": "Charmander",
+      "to": "Charmeleon",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Charmeleon",
+      "to": "Charizard",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10035.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10035.gif"
@@ -922,6 +945,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

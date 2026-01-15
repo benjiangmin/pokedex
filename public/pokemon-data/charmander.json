@@ -29,6 +29,29 @@
     "Blaze",
     "Solar Power"
   ],
+  "evolutionChain": [
+    {
+      "from": "Charmander",
+      "to": "Charmeleon",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Charmeleon",
+      "to": "Charizard",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/4.gif"
@@ -2789,85 +2812,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Red": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Kanto Route 24 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "X": [
-      {
-        "location": "Lumiose City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Y": [
-      {
-        "location": "Lumiose City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 3 Main",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 3 Main",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

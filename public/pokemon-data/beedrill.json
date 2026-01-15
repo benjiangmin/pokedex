@@ -30,6 +30,29 @@
     "Swarm",
     "Sniper"
   ],
+  "evolutionChain": [
+    {
+      "from": "Weedle",
+      "to": "Kakuna",
+      "details": [
+        {
+          "min_level": 7,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Kakuna",
+      "to": "Beedrill",
+      "details": [
+        {
+          "min_level": 10,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/15.gif"
@@ -1953,255 +1976,6 @@
         "name": "Sunny Day",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Silver": [
-      {
-        "location": "Ilex Forest Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Ilex Forest Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Ilex Forest Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 34 Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 34 Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 34 Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 35 Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 35 Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 35 Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 36 Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 36 Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 36 Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 37 Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 37 Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 37 Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 38 Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 38 Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 38 Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 39 Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 39 Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 39 Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Lake Of Rage Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Lake Of Rage Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Lake Of Rage Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 26 Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 26 Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 26 Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 27 Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 27 Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 27 Area",
-        "method": "Headbutt High",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 2 South Towards Viridian City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Azalea Town Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Azalea Town Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      },
-      {
-        "location": "Azalea Town Area",
-        "method": "Headbutt High",
-        "chance": 5
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Ilex Forest Area",
-        "method": "Headbutt Low",
-        "chance": 5
-      },
-      {
-        "location": "Ilex Forest Area",
-        "method": "Headbutt Normal",
-        "chance": 5
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 2 South Towards Viridian City",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 2 South Towards Viridian City",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 2 South Towards Viridian City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 2 North Towards Pewter City",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 2 North Towards Pewter City",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 2 North Towards Pewter City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Viridian Forest Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Viridian Forest Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Black": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Grass Spots",
-        "chance": 5
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

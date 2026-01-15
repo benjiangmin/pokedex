@@ -374,6 +374,7 @@ main {
     align-items: center;
     box-sizing: border-box;
     padding: 30px;
+    position: relative;
 }
 .name-index-container > h3 {
     margin: 0px;
@@ -392,6 +393,47 @@ main {
     font-size: clamp(0.4rem, 1vw, 1rem);
     font-family: "Sour Gummy";
 }
+
+.evolution-logic-container {
+    padding: 5px;
+    position: absolute;
+    top: calc(100% + 1px); 
+    left: -15px;
+    width: 100%; 
+}
+.link-to-evo-container {
+    text-decoration: none;
+}
+.prev-evolution-link {
+    color: antiquewhite;
+    font-family: "Sour Gummy";
+    margin: 0px;
+    text-align: right;
+    font-size: clamp(0.2rem, 1.3vw, 0.9rem);
+    background-color: red;
+}
+.prev-evolution-requirements {
+    text-align: right;
+}
+.requirements-container {
+    font-size: clamp(0.1rem, 0.8vw, 0.9rem);
+    margin: 0px;
+    color: rgb(218, 204, 186);
+    font-family: "Sour Gummy";
+    font-weight: 200;
+}
+.left-arrow {
+    background-color: white;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
 .stats-container {
     background-color: rgb(61, 57, 53);
     height: clamp(150px, 25vw, 500px);
@@ -868,3 +910,10 @@ main {
     font-family: "Sour Gummy";
     font-weight: 100
 }
+
+
+
+
+
+
+

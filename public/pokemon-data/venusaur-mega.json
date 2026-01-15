@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Venusaur (Mega)"
+    "english": "Venusaur Mega"
   },
   "type": [
     "Grass",
@@ -29,6 +29,29 @@
   "abilities": [
     "Thick Fat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Bulbasaur",
+      "to": "Ivysaur",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Ivysaur",
+      "to": "Venusaur",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10033.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10033.gif"
@@ -752,6 +775,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

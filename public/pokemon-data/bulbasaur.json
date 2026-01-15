@@ -30,6 +30,29 @@
     "Overgrow",
     "Chlorophyll"
   ],
+  "evolutionChain": [
+    {
+      "from": "Bulbasaur",
+      "to": "Ivysaur",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Ivysaur",
+      "to": "Venusaur",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif"
@@ -2525,85 +2548,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Yellow": [
-      {
-        "location": "Cerulean City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Red": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Pallet Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "X": [
-      {
-        "location": "Lumiose City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Y": [
-      {
-        "location": "Lumiose City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 2 Main",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 2 Main",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

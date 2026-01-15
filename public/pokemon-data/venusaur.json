@@ -30,6 +30,29 @@
     "Overgrow",
     "Chlorophyll"
   ],
+  "evolutionChain": [
+    {
+      "from": "Bulbasaur",
+      "to": "Ivysaur",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Ivysaur",
+      "to": "Venusaur",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/3.gif"
@@ -2632,6 +2655,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

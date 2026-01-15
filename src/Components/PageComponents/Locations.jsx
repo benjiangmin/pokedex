@@ -1,6 +1,15 @@
 export default function Locations({ pokemon }) {
     const gameNames = Object.keys(pokemon.locations || {});
 
+    if (gameNames.length === 0) {
+        return (
+            <section className="locations-container">
+                <h2>locations</h2>
+                <p style={{ textAlign: "center", fontFamily: "Sour Gummy", margin: "3px" }}>no locations found</p>
+            </section>
+        );
+    }
+
     return (
         <section className="locations-container">
             <h2>locations</h2>
@@ -10,7 +19,7 @@ export default function Locations({ pokemon }) {
 
                     pokemon.locations[gameName].forEach(enc => {
                         let cleanName = enc.location
-                            .replace(/\sArea\b/gi, "") 
+                            .replace(/\sArea\b/gi, "")
                             .split(/\s(North|South|East|West)\b/i)[0]
                             .trim();
 
@@ -30,14 +39,15 @@ export default function Locations({ pokemon }) {
                                     <section className="location-and-percentage" key={i}>
                                         <h2>{locName}</h2>
                                         <p>
-                                            {range.min === range.max 
-                                                ? `${range.min}%` 
+                                            {range.min === range.max
+                                                ? `${range.min}%`
                                                 : `${range.min}% - ${range.max}%`}
                                         </p>
                                     </section>
                                 ))}
                             </section>
                         </section>
+
                     )
                 })}
             </section>

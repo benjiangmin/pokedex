@@ -31,6 +31,29 @@
     "Tangled Feet",
     "Big Pecks"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pidgey",
+      "to": "Pidgeotto",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pidgeotto",
+      "to": "Pidgeot",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/18.gif"
@@ -1789,22 +1812,6 @@
         "name": "Hurricane",
         "learn_method": "level-up",
         "level_learned": 68
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }
