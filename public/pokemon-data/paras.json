@@ -1,0 +1,2987 @@
+{
+  "id": 46,
+  "slug": "paras",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Paras"
+  },
+  "type": [
+    "Bug",
+    "Grass"
+  ],
+  "base": {
+    "HP": 35,
+    "Attack": 70,
+    "Defense": 55,
+    "Special Attack": 45,
+    "Special Defense": 55,
+    "Speed": 25
+  },
+  "color": "red",
+  "weight": 5.4,
+  "height": 0.3,
+  "abilities": [
+    "Effect Spore",
+    "Dry Skin",
+    "Damp"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/46.gif"
+  },
+  "description": "Sometimes seen at the foot of trees in humid forests. The mushrooms on its back—called tochukaso—are not present on infant specimens and instead emerge as Paras matures.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Mushroom Pokémon",
+  "moves": {
+    "Gen 1": [
+      {
+        "name": "Scratch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mega Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skull Bash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Life",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 2": [
+      {
+        "name": "Scratch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psybeam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Life",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 3": [
+      {
+        "name": "Scratch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Psybeam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Life",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aromatherapy",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 4": [
+      {
+        "name": "Scratch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psybeam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Life",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aromatherapy",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cross Poison",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "egg",
+        "level_learned": 0
+      }
+    ],
+    "Gen 5": [
+      {
+        "name": "Scratch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psybeam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Life",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Aromatherapy",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cross Poison",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hone Claws",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rage Powder",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "After You",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 6": [
+      {
+        "name": "Scratch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psybeam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Life",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nature Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aromatherapy",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cross Poison",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hone Claws",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wide Guard",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rage Powder",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "After You",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rototiller",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fell Stinger",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 7": [
+      {
+        "name": "Scratch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psybeam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Mega Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Sleep Powder",
+        "learn_method": "level-up",
+        "level_learned": 2
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Life",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Life",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Fury Swipes",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nature Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Aromatherapy",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cross Poison",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Wide Guard",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rage Powder",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "After You",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rototiller",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fell Stinger",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Grassy Terrain",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 8": [
+      {
+        "name": "Scratch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psybeam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aromatherapy",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cross Poison",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Wide Guard",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rage Powder",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Fell Stinger",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Grassy Terrain",
+        "learn_method": "egg",
+        "level_learned": 0
+      }
+    ],
+    "Legends: Arceus": [
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "level-up",
+        "level_learned": 15
+      }
+    ]
+  },
+  "locations": {
+    "Gold": [
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Silver": [
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon 2f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon 2f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Ilex Forest Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon 2f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon 2f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Swamp",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Red": [
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Kanto Safari Zone Area 1 East",
+        "method": "Walk",
+        "chance": 15
+      },
+      {
+        "location": "Kanto Safari Zone Area 2 North",
+        "method": "Walk",
+        "chance": 15
+      }
+    ],
+    "Blue": [
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Kanto Safari Zone Area 1 East",
+        "method": "Walk",
+        "chance": 15
+      },
+      {
+        "location": "Kanto Safari Zone Area 2 North",
+        "method": "Walk",
+        "chance": 15
+      }
+    ],
+    "Firered": [
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Kanto Safari Zone Area 1 East",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kanto Safari Zone Area 1 East",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Kanto Safari Zone Area 1 East",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Kanto Safari Zone Area 2 North",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kanto Safari Zone Area 2 North",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Kanto Safari Zone Area 2 North",
+        "method": "Walk",
+        "chance": 1
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Mt Moon 1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Kanto Safari Zone Area 1 East",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kanto Safari Zone Area 1 East",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Kanto Safari Zone Area 1 East",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Kanto Safari Zone Area 2 North",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kanto Safari Zone Area 2 North",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Kanto Safari Zone Area 2 North",
+        "method": "Walk",
+        "chance": 1
+      }
+    ],
+    "Yellow": [
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Walk",
+        "chance": 15
+      },
+      {
+        "location": "Kanto Safari Zone Middle",
+        "method": "Walk",
+        "chance": 5
+      }
+    ],
+    "Sun": [
+      {
+        "location": "Alola Route 11 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Lush Jungle North",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Lush Jungle South",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Lush Jungle West",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Moon": [
+      {
+        "location": "Alola Route 11 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Lush Jungle North",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Lush Jungle South",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Lush Jungle West",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Brooklet Hill North",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Lush Jungle North",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lush Jungle South",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lush Jungle West",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Brooklet Hill North",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Lush Jungle North",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lush Jungle South",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lush Jungle West",
+        "method": "Walk",
+        "chance": 10
+      }
+    ]
+  }
+}

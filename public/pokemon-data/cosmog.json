@@ -1,0 +1,107 @@
+{
+  "id": 789,
+  "slug": "cosmog",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Cosmog"
+  },
+  "type": [
+    "Psychic"
+  ],
+  "base": {
+    "HP": 43,
+    "Attack": 29,
+    "Defense": 31,
+    "Special Attack": 29,
+    "Special Defense": 31,
+    "Speed": 37
+  },
+  "color": "blue",
+  "weight": 0.1,
+  "height": 0.2,
+  "abilities": [
+    "Unaware"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/789.gif"
+  },
+  "description": "Cosmog is very curious but not very cautious, often placing itself in danger. If things start to look dicey, it teleports away.",
+  "isLegendary": true,
+  "isMythical": false,
+  "category": "Nebula Pokémon",
+  "moves": {
+    "Gen 7": [
+      {
+        "name": "Teleport",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Splash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "Gen 8": [
+      {
+        "name": "Teleport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Splash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "Gen 9": [
+      {
+        "name": "Teleport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Splash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ]
+  },
+  "locations": {
+    "Moon": [
+      {
+        "location": "Lake Of The Moone Area",
+        "method": "Gift",
+        "chance": 100
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Lake Of The Moone Area",
+        "method": "Gift",
+        "chance": 100
+      }
+    ],
+    "Sun": [
+      {
+        "location": "Lake Of The Sunne Area",
+        "method": "Gift",
+        "chance": 100
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Lake Of The Sunne Area",
+        "method": "Gift",
+        "chance": 100
+      }
+    ]
+  }
+}

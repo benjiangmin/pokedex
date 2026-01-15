@@ -1,0 +1,985 @@
+{
+  "id": 705,
+  "slug": "sliggoo",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Sliggoo"
+  },
+  "type": [
+    "Dragon"
+  ],
+  "base": {
+    "HP": 68,
+    "Attack": 75,
+    "Defense": 53,
+    "Special Attack": 83,
+    "Special Defense": 113,
+    "Speed": 60
+  },
+  "color": "purple",
+  "weight": 17.5,
+  "height": 0.8,
+  "abilities": [
+    "Sap Sipper",
+    "Hydration",
+    "Gooey"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/705.gif"
+  },
+  "description": "A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Soft Tissue Pokémon",
+  "moves": {
+    "Gen 6": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Muddy Water",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Infestation",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 7": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Muddy Water",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Infestation",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 8": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Muddy Water",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Muddy Water",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Shot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acid Spray",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Acid Spray",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skitter Smack",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 9": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acid Armor",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Curse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Muddy Water",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Muddy Water",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Shot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acid Spray",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Skitter Smack",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tera Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Chilling Water",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "X": [
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Yellow Flowers",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Yellow Flowers",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Purple Flowers",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Rough Terrain",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Rough Terrain",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Surf",
+        "chance": 15
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Surf",
+        "chance": 1
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Yellow Flowers",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Yellow Flowers",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Purple Flowers",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Rough Terrain",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Rough Terrain",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Surf",
+        "chance": 15
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Surf",
+        "chance": 1
+      }
+    ],
+    "Sun": [
+      {
+        "location": "Exeggutor Island Area",
+        "method": "Sos Encounter",
+        "chance": 10
+      }
+    ],
+    "Moon": [
+      {
+        "location": "Exeggutor Island Area",
+        "method": "Sos Encounter",
+        "chance": 10
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Exeggutor Island Area",
+        "method": "Sos Encounter",
+        "chance": 10
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Exeggutor Island Area",
+        "method": "Sos Encounter",
+        "chance": 10
+      }
+    ]
+  }
+}

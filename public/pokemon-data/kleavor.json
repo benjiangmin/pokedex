@@ -1,0 +1,404 @@
+{
+  "id": 900,
+  "slug": "kleavor",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Kleavor"
+  },
+  "type": [
+    "Bug",
+    "Rock"
+  ],
+  "base": {
+    "HP": 70,
+    "Attack": 135,
+    "Defense": 95,
+    "Special Attack": 45,
+    "Special Defense": 70,
+    "Speed": 85
+  },
+  "color": "brown",
+  "weight": 89,
+  "height": 1.8,
+  "abilities": [
+    "Swarm",
+    "Sheer Force",
+    "Sharpness"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/900.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/900.gif"
+  },
+  "description": "A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Axe Pokémon",
+  "moves": {
+    "Legends: Arceus": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Silver Wind",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Close Combat",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Stealth Rock",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Double Hit",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Stone Axe",
+        "learn_method": "level-up",
+        "level_learned": 29
+      }
+    ],
+    "Gen 9": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Agility",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Energy",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Swift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scary Face",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Baton Pass",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Cutter",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Close Combat",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Buzz",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Vacuum Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stealth Rock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Hit",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acrobatics",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Lunge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skitter Smack",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dual Wingbeat",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stone Axe",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Tera Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pounce",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trailblaze",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {}
+}

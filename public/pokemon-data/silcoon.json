@@ -1,0 +1,232 @@
+{
+  "id": 266,
+  "slug": "silcoon",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Silcoon"
+  },
+  "type": [
+    "Bug"
+  ],
+  "base": {
+    "HP": 50,
+    "Attack": 35,
+    "Defense": 55,
+    "Special Attack": 25,
+    "Special Defense": 25,
+    "Speed": 15
+  },
+  "color": "white",
+  "weight": 10,
+  "height": 0.6,
+  "abilities": [
+    "Shed Skin"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/266.gif"
+  },
+  "description": "Wraps itself in thin strings of silk while it stores energy for evolution. It can't extend its limbs and its movement is slow, but its eyes keep a sharp lookout—Silcoon is always on guard.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Cocoon Pokémon",
+  "moves": {
+    "Legends: Arceus": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Poison Sting",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 0
+      }
+    ],
+    "Gen 4": [
+      {
+        "name": "String Shot",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 3": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 7
+      }
+    ],
+    "Gen 5": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Electroweb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 6": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Electroweb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 7": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Electroweb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 8": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ]
+  },
+  "locations": {
+    "Diamond": [
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Ruby": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Sapphire": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Emerald": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ]
+  }
+}

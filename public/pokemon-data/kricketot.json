@@ -1,0 +1,538 @@
+{
+  "id": 401,
+  "slug": "kricketot",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Kricketot"
+  },
+  "type": [
+    "Bug"
+  ],
+  "base": {
+    "HP": 37,
+    "Attack": 25,
+    "Defense": 41,
+    "Special Attack": 25,
+    "Special Defense": 41,
+    "Speed": 25
+  },
+  "color": "red",
+  "weight": 2.2,
+  "height": 0.3,
+  "abilities": [
+    "Shed Skin",
+    "Run Away"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/401.gif"
+  },
+  "description": "When the trees take on new hues, more of these Pokémon appear. The tone they create by striking their antennae together resembles that of the marimba, an instrument of foreign lands.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Cricket Pokémon",
+  "moves": {
+    "Gen 8": [
+      {
+        "name": "Pound",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "level-up",
+        "level_learned": 6
+      }
+    ],
+    "Legends: Arceus": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "Gen 9": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Endeavor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Lunge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skitter Smack",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tera Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 4": [
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endeavor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 5": [
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endeavor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "level-up",
+        "level_learned": 6
+      }
+    ],
+    "Gen 6": [
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endeavor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 7": [
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endeavor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "level-up",
+        "level_learned": 6
+      }
+    ]
+  },
+  "locations": {
+    "Platinum": [
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 201 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 201 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 202 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 202 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Diamond": [
+      {
+        "location": "Sinnoh Route 202 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 202 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 202 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 206 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Sinnoh Route 202 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 202 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 202 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 206 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ]
+  }
+}

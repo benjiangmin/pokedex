@@ -1,0 +1,5122 @@
+{
+  "id": 93,
+  "slug": "haunter",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Haunter"
+  },
+  "type": [
+    "Ghost",
+    "Poison"
+  ],
+  "base": {
+    "HP": 45,
+    "Attack": 50,
+    "Defense": 45,
+    "Special Attack": 115,
+    "Special Defense": 55,
+    "Speed": 95
+  },
+  "color": "purple",
+  "weight": 0.1,
+  "height": 1.6,
+  "abilities": [
+    "Levitate"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/93.gif"
+  },
+  "description": "This frightful, malevolent spirit can glide through walls, appearing wherever it likes. According to rumor, victims of a Haunter's lick will wither to death day by day.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Gas Pokémon",
+  "moves": {
+    "Gen 4": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nightmare",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Spite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mean Look",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pain Split",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Skill Swap",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snatch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Punch",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Payback",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Embargo",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 5": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nightmare",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Spite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mean Look",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pain Split",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Skill Swap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Snatch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Punch",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Payback",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Embargo",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wonder Room",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Telekinesis",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 55
+      }
+    ],
+    "Gen 6": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nightmare",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Spite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mean Look",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pain Split",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Skill Swap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Snatch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Punch",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Payback",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Embargo",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wonder Room",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Infestation",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 7": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mega Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Smog",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Poison Gas",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nightmare",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Spite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mean Look",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pain Split",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Skill Swap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Snatch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Punch",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Payback",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Embargo",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wonder Room",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Telekinesis",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ally Switch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Infestation",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 8": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scary Face",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mean Look",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Encore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skill Swap",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Punch",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Payback",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wonder Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ally Switch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Hex",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skitter Smack",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Poltergeist",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Corrosive Gas",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 9": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Haze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metronome",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Curse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Spite",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scary Face",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mean Look",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pain Split",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Encore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skill Swap",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Imprison",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Punch",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Payback",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Toxic Spikes",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nasty Plot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gunk Shot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acid Spray",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Hex",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Phantom Force",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skitter Smack",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poltergeist",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tera Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 1": [
+      {
+        "name": "Mega Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Rage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psywave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 2": [
+      {
+        "name": "Thunderbolt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nightmare",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Curse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zap Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mean Look",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 3": [
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nightmare",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Curse",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Spite",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Mean Look",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Mean Look",
+        "learn_method": "level-up",
+        "level_learned": 64
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skill Swap",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snatch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Punch",
+        "learn_method": "level-up",
+        "level_learned": 25
+      }
+    ],
+    "Legends: Arceus": [
+      {
+        "name": "Hypnosis",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Poison Gas",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Astonish",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 11
+      }
+    ]
+  },
+  "locations": {
+    "Diamond": [
+      {
+        "location": "Turnback Cave Pillar 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Before Pillar 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Before Pillar 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Before Pillar 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Before Pillar 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Turnback Cave Pillar 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Before Pillar 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Before Pillar 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Before Pillar 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Before Pillar 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau Dining Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Private Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Leftmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Left Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Middle Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Right Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Old Chateau 2f Rightmost Room",
+        "method": "Walk",
+        "chance": 4
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 1 And 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave Between Pillars 2 And 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Turnback Cave After Pillar 3",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Rock Tunnel 1f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Rock Tunnel B1f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Gold": [
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Walk",
+        "chance": 30
+      }
+    ],
+    "Silver": [
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Walk",
+        "chance": 30
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Forest",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Forest",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Forest",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Forest",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Red": [
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 1
+      }
+    ],
+    "Blue": [
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 1
+      }
+    ],
+    "Yellow": [
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 1
+      }
+    ],
+    "Firered": [
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 1
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Pokemon Tower 7f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 1",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 2",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 3",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 4",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 5",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 6",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 7",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 8",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 9",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Room 10",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Lost Cave Item Rooms",
+        "method": "Walk",
+        "chance": 1
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 14 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Kalos Route 14 Area",
+        "method": "Rough Terrain",
+        "chance": 5
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Yellow Flowers",
+        "chance": 5
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Purple Flowers",
+        "chance": 5
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Rough Terrain",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 14 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Kalos Route 14 Area",
+        "method": "Rough Terrain",
+        "chance": 5
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Yellow Flowers",
+        "chance": 5
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Purple Flowers",
+        "chance": 5
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Rough Terrain",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Sun": [
+      {
+        "location": "Thrifty Megamart Abandoned Site",
+        "method": "Walk",
+        "chance": 40
+      }
+    ],
+    "Moon": [
+      {
+        "location": "Thrifty Megamart Abandoned Site",
+        "method": "Walk",
+        "chance": 40
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Thrifty Megamart Abandoned Site",
+        "method": "Walk",
+        "chance": 30
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Thrifty Megamart Abandoned Site",
+        "method": "Walk",
+        "chance": 30
+      }
+    ]
+  }
+}

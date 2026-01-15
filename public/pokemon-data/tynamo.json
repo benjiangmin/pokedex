@@ -1,0 +1,329 @@
+{
+  "id": 602,
+  "slug": "tynamo",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Tynamo"
+  },
+  "type": [
+    "Electric"
+  ],
+  "base": {
+    "HP": 35,
+    "Attack": 55,
+    "Defense": 40,
+    "Special Attack": 45,
+    "Special Defense": 40,
+    "Speed": 60
+  },
+  "color": "white",
+  "weight": 0.3,
+  "height": 0.2,
+  "abilities": [
+    "Levitate"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/602.gif"
+  },
+  "description": "One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "EleFish Pokémon",
+  "moves": {
+    "Gen 5": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "Gen 6": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 7": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 9": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tera Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Black": [
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4
+      }
+    ],
+    "White": [
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Seaside Cave 1f",
+        "method": "Walk",
+        "chance": 5
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Seaside Cave 1f",
+        "method": "Walk",
+        "chance": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,2901 @@
+{
+  "id": 100,
+  "slug": "voltorb",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Voltorb"
+  },
+  "type": [
+    "Electric"
+  ],
+  "base": {
+    "HP": 40,
+    "Attack": 30,
+    "Defense": 50,
+    "Special Attack": 55,
+    "Special Defense": 55,
+    "Speed": 100
+  },
+  "color": "red",
+  "weight": 10.4,
+  "height": 0.5,
+  "abilities": [
+    "Soundproof",
+    "Static",
+    "Aftermath"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/100.gif"
+  },
+  "description": "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Ball Pokémon",
+  "moves": {
+    "Gen 2": [
+      {
+        "name": "Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Swift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zap Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 41
+      }
+    ],
+    "Gen 4": [
+      {
+        "name": "Headbutt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Swift",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magic Coat",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Signal Beam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 7": [
+      {
+        "name": "Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Thunder Shock",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Teleport",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 3
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magic Coat",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Signal Beam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Discharge",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Electro Ball",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Volt Switch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Eerie Impulse",
+        "learn_method": "level-up",
+        "level_learned": 6
+      }
+    ],
+    "Gen 1": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Teleport",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Swift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 3": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Swift",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 5": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magic Coat",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Signal Beam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Electro Ball",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Volt Switch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 6": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magic Coat",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Signal Beam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Discharge",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Electro Ball",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Electro Ball",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Volt Switch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Eerie Impulse",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Eerie Impulse",
+        "learn_method": "level-up",
+        "level_learned": 6
+      }
+    ],
+    "Gen 8": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Shock",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Discharge",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Electro Ball",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Volt Switch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Eerie Impulse",
+        "learn_method": "level-up",
+        "level_learned": 6
+      }
+    ],
+    "Gen 9": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Shock",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Swift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Coat",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recycle",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Sound",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magnet Rise",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Discharge",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Electro Ball",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Electro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Volt Switch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Electroweb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Eerie Impulse",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Eerie Impulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Electric Terrain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tera Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Diamond": [
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Red": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 15
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Blue": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 15
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Gold": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Silver": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Firered": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Yellow": [
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "Power Plant Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Ruby": [
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Sapphire": [
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Emerald": [
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "New Mauville Entrance",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ],
+    "Sun": [
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Only One",
+        "chance": 100
+      }
+    ]
+  }
+}

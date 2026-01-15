@@ -84,7 +84,7 @@ export default function MovesLogicLevelUp({ pokemon }) {
                                 </section>
 
                                 <section className="type-and-category">
-                                    <img className="pokemon-types-icons" src={typeImages[moveDetails.type]} />
+                                    <img className="move-type-icons" src={typeImages[moveDetails.type]} />
                                     <img className="status-icons" src={categoryImages[moveDetails?.damage_class]} />
                                 </section>
 
@@ -102,7 +102,7 @@ export default function MovesLogicLevelUp({ pokemon }) {
                         );
                     })
                 ) : (
-                    <p>no level-up moves found for {currentGenName}.</p>
+                    <p style={{textAlign:"center", fontFamily:"Sour Gummy", margin:"3px"}}>no machine moves found for {currentGenName}</p>
                 )}
             </div>
         </section>

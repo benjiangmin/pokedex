@@ -116,11 +116,7 @@ if (!props.pokemon || !props.pokemon.type) return null;
     return (
         <section className="type-logic-wrapper">
             <div className="types-container">
-                <h2>{`type effectiveness on ${props.pokemon.name.english} (`}</h2> 
-                {props.pokemon.type.map(type => (
-                    <img key={type} alt={type} src={typeImages[type]} className="pokemon-types-icons" />
-                ))}
-                <h2>{`)`}</h2>
+                <h2>{`type effectiveness`}</h2> 
             </div>
 
             <div className="effectiveness-summary">

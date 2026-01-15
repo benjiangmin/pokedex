@@ -1,0 +1,470 @@
+{
+  "id": 265,
+  "slug": "wurmple",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Wurmple"
+  },
+  "type": [
+    "Bug"
+  ],
+  "base": {
+    "HP": 45,
+    "Attack": 45,
+    "Defense": 35,
+    "Special Attack": 20,
+    "Special Defense": 30,
+    "Speed": 20
+  },
+  "color": "red",
+  "weight": 3.6,
+  "height": 0.3,
+  "abilities": [
+    "Shield Dust",
+    "Run Away"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/265.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/265.gif"
+  },
+  "description": "Likes sap and is abundant in the wild. Why it evolves into various different forms is unknown. One cannot tell from a Wurmple's appearance which form it will take when it evolves.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Worm Pokémon",
+  "moves": {
+    "Gen 3": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Sting",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "Gen 4": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Sting",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 5": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Sting",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Electroweb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 6": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Sting",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Electroweb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 7": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Sting",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Electroweb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 8": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Sting",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      }
+    ],
+    "Legends: Arceus": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Poison Sting",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ]
+  },
+  "locations": {
+    "Diamond": [
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Ruby": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Hoenn Route 102 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Hoenn Route 102 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Hoenn Route 104 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Hoenn Route 104 Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Sapphire": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Hoenn Route 102 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Hoenn Route 102 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Hoenn Route 104 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Hoenn Route 104 Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Emerald": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Hoenn Route 102 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Hoenn Route 102 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Hoenn Route 104 Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ]
+  }
+}

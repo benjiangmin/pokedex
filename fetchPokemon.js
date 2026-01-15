@@ -1,8 +1,13 @@
 import fs from "fs"
 
 async function fetchAllPokemon() {
-    const allPokemon = []
+    const masterList = []
     const totalCount = 1026
+
+    const outputDir = "./public/pokemon-data"
+    if (!fs.existsSync(outputDir)) {
+        fs.mkdirSync(outputDir, { recursive: true });
+    }
 
     const getVariant = (slug) => {
         return {
@@ -38,47 +43,33 @@ async function fetchAllPokemon() {
             const speciesData = await speciesRes.json()
 
             const allEntries = speciesData.flavor_text_entries.filter(entry => entry.language.name === "en")
-            const rawEntry = allEntries.length > 0 ? allEntries[allEntries.length - 1].flavor_text : ""
-            const desiredEntry = rawEntry
-                .replace(/[\n\f]/g, " ")
-                .trim();
+            const desiredEntry = (allEntries.length > 0 ? allEntries[allEntries.length - 1].flavor_text : "")
+                .replace(/[\n\f]/g, " ").trim();
+
+            const genusEntry = speciesData.genera.find(genera => genera.language.name === "en")
+            const category = genusEntry ? genusEntry.genus : "Unknown"
 
             for (const variety of speciesData.varieties) {
                 if (variety.pokemon.name.includes("-totem") || variety.pokemon.name.includes("-cap")) {
-                    console.log(`  - Skipping unwanted variety: ${variety.pokemon.name}`);
                     continue;
                 }
-                console.log(`  - Fetching variety: ${variety.pokemon.name}`)
 
                 const pokeRes = await fetch(variety.pokemon.url)
                 const pokeData = await pokeRes.json()
-
                 const variants = getVariant(pokeData.name)
 
                 const movesByGeneration = {}
                 pokeData.moves.forEach(m => {
                     m.version_group_details.forEach(detail => {
-                        const apiVersionName = detail.version_group.name
-                        const genName = generationMapping[apiVersionName] 
-
+                        const genName = generationMapping[detail.version_group.name]
                         if (!genName) return;
 
-                        if (!movesByGeneration[genName]) {
-                            movesByGeneration[genName] = []
-                        }
+                        if (!movesByGeneration[genName]) movesByGeneration[genName] = []
 
                         const moveNameFormatted = m.move.name
-                            .split("-")
-                            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-                            .join(" ")
+                            .split("-").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")
 
-                        const isDuplicate = movesByGeneration[genName].some(
-                            existing => existing.name === moveNameFormatted &&
-                            existing.learn_method === detail.move_learn_method.name &&
-                            existing.level_learned === detail.level_learned_at
-                        )
-
-                        if (!isDuplicate) {
+                        if (!movesByGeneration[genName].some(e => e.name === moveNameFormatted && e.level_learned === detail.level_learned_at)) {
                             movesByGeneration[genName].push({
                                 name: moveNameFormatted,
                                 learn_method: detail.move_learn_method.name,
@@ -89,40 +80,69 @@ async function fetchAllPokemon() {
                 })
 
                 const specialNames = {
-                    "ho-oh": "Ho-Oh",
-                    "porygon-z": "Porygon-Z",
-                    "type-null": "Type: Null",
-                    "jangmo-o": "Jangmo-o",
-                    "hakamo-o": "Hakamo-o",
-                    "kommo-o": "Kommo-o"
+                    "ho-oh": "Ho-Oh", "porygon-z": "Porygon-Z", "type-null": "Type: Null",
+                    "jangmo-o": "Jangmo-o", "hakamo-o": "Hakamo-o", "kommo-o": "Kommo-o"
                 };
-                let nameFormatted
+                let nameFormatted;
                 if (specialNames[pokeData.name]) {
-                    nameFormatted = specialNames[pokeData.name]
+                    nameFormatted = specialNames[pokeData.name];
                 } else {
-                    const name = pokeData.name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1))
-                    if (name.length <= 1) nameFormatted = name[0]
-                    else nameFormatted = `${name[0]} (${name.slice(1).join(" ")})`
-                }
+                    const parts = pokeData.name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1));
 
+                    if (parts.length > 1) {
+                        nameFormatted = `${parts[0]} (${parts.slice(1).join(" ")})`;
+                    } else {
+                        nameFormatted = parts[0];
+                    }
+                }
 
                 const animatedSprite = pokeData.sprites.other.showdown.front_default
                 const staticSprite = pokeData.sprites.front_default
 
-                const genusEntry = speciesData.genera.find(genera => genera.language.name === "en")
-                const category = genusEntry.genus
+                const encountersRes = await fetch(pokeData.location_area_encounters)
+                const encountersData = await encountersRes.json()
+                const locationDataByVersion = {}
 
-                const heightMeters = pokeData.height / 10
-                const weightKilograms = pokeData.weight / 10
+                encountersData.forEach(encounter => {
+                    const locationName = encounter.location_area.name
+                        .split("-")
+                        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                        .join(" ")
 
-                allPokemon.push({
+                    encounter.version_details.forEach(vDetail => { 
+                        const versionRaw = vDetail.version.name
+                        const versionName = versionRaw
+                            .split("-")
+                            .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                            .join(" ")
+
+                        if (!locationDataByVersion[versionName]) {
+                            locationDataByVersion[versionName] = []
+                        }
+
+                        vDetail.encounter_details.forEach(eDetail => { 
+                            const methodFormatted = eDetail.method.name
+                                .split("-")
+                                .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+                                .join(" ")
+
+                            const entry = {
+                                location: locationName,
+                                method: methodFormatted,
+                                chance: eDetail.chance,
+                            }
+
+                            locationDataByVersion[versionName].push(entry)
+                        })
+                    })
+                })
+
+                const fullPokemonData = {
                     id: id,
                     slug: pokeData.name,
                     isDefault: variety.is_default,
                     ...variants,
-                    name: {
-                        english: nameFormatted
-                    },
+                    name: { english: nameFormatted },
                     type: pokeData.types.map(t => t.type.name.charAt(0).toUpperCase() + t.type.name.slice(1)),
                     base: {
                         "HP": pokeData.stats[0].base_stat,
@@ -133,13 +153,35 @@ async function fetchAllPokemon() {
                         "Speed": pokeData.stats[5].base_stat
                     },
                     color: speciesData.color.name,
-                    sprite: animatedSprite,
-                    weight: weightKilograms,
-                    height: heightMeters,
-                    abilities: pokeData.abilities.map(a => (
-                        a.ability.name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')
-                    )),
+                    weight: pokeData.weight / 10,
+                    height: pokeData.height / 10,
+                    abilities: pokeData.abilities.map(a => a.ability.name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')),
+                    sprites: { static: staticSprite, animated: animatedSprite },
+                    description: desiredEntry,
+                    isLegendary: speciesData.is_legendary,
+                    isMythical: speciesData.is_mythical,
+                    category: category,
                     moves: movesByGeneration,
+                    locations: locationDataByVersion
+                }
+
+                fs.writeFileSync(`${outputDir}/${pokeData.name}.json`, JSON.stringify(fullPokemonData, null, 2))
+
+                const flatMoveList = [...new Set(Object.values(movesByGeneration).flat().map(m => m.name))];
+
+                masterList.push({
+                    id: id,
+                    slug: pokeData.name,
+                    isDefault: variety.is_default,
+                    ...variants,
+                    name: { english: nameFormatted },
+                    type: fullPokemonData.type,
+                    base: fullPokemonData.base,
+                    color: fullPokemonData.color,
+                    weight: fullPokemonData.weight,
+                    height: fullPokemonData.height,
+                    abilities: fullPokemonData.abilities,
+                    moves: flatMoveList,
                     sprites: {
                         static: staticSprite,
                         animated: animatedSprite
@@ -151,12 +193,12 @@ async function fetchAllPokemon() {
                 })
             }
         } catch (err) {
-            console.log(`Error for Species #${id}`)
+            console.log(`Error for Species #${id}:`, err)
         }
     }
 
-    fs.writeFileSync("./pokedex-enriched.json", JSON.stringify(allPokemon, null, 2))
-    console.log("Enrichment complete!")
+    fs.writeFileSync("./public/pokedex-master.json", JSON.stringify(masterList, null, 2))
+    console.log("master list updated.")
 }
 
 fetchAllPokemon()

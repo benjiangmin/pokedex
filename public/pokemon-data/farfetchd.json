@@ -1,0 +1,2789 @@
+{
+  "id": 83,
+  "slug": "farfetchd",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Farfetchd"
+  },
+  "type": [
+    "Normal",
+    "Flying"
+  ],
+  "base": {
+    "HP": 52,
+    "Attack": 90,
+    "Defense": 55,
+    "Special Attack": 58,
+    "Special Defense": 62,
+    "Speed": 60
+  },
+  "color": "brown",
+  "weight": 15,
+  "height": 0.8,
+  "abilities": [
+    "Keen Eye",
+    "Inner Focus",
+    "Defiant"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/83.gif"
+  },
+  "description": "They use a plant stalk as a weapon, but not all of them use it in the same way. Several distinct styles of stalk fighting have been observed.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Wild Duck Pokémon",
+  "moves": {
+    "Gen 1": [
+      {
+        "name": "Razor Wind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Whirlwind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Rage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skull Bash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 2": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gust",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Foresight",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Detect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 3": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gust",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swift",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Foresight",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 4": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gust",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swift",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Foresight",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Heat Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Cutter",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Air Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Covet",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leaf Blade",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Pluck",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Last Resort",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Defog",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 5": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gust",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sky Attack",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Foresight",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Heat Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Revenge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Cutter",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Covet",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leaf Blade",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Pluck",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trump Card",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Last Resort",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Brave Bird",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acrobatics",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Acrobatics",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 6": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gust",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sky Attack",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Foresight",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Heat Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Revenge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Cutter",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Covet",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leaf Blade",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trump Card",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Last Resort",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Brave Bird",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Brave Bird",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Simple Beam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acrobatics",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Acrobatics",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 7": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Cut",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Gust",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Razor Leaf",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Energy",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sky Attack",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sky Attack",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Foresight",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Heat Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Revenge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Cutter",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Covet",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leaf Blade",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trump Card",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Last Resort",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Brave Bird",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Brave Bird",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Defog",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Simple Beam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acrobatics",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Acrobatics",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Final Gambit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "First Impression",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Laser Focus",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Throat Chop",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Brutal Swing",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "Gen 8": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gust",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Agility",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Energy",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sky Attack",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slash",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Baton Pass",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heat Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Revenge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Cutter",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Covet",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leaf Blade",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Leaf Blade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Pluck",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Close Combat",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brave Bird",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Brave Bird",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defog",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Simple Beam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acrobatics",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Final Gambit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "First Impression",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Blade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Throat Chop",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brutal Swing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dual Wingbeat",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Diamond": [
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ],
+    "Gold": [
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Silver": [
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Johto Route 48 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Johto Route 48 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Walk",
+        "chance": 5
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Johto Route 48 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Johto Route 48 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Johto Safari Zone Zone Wetland",
+        "method": "Walk",
+        "chance": 10
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Johto Route 43 Area",
+        "method": "Walk",
+        "chance": 20
+      },
+      {
+        "location": "Johto Route 43 Area",
+        "method": "Walk",
+        "chance": 20
+      }
+    ],
+    "Yellow": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Walk",
+        "chance": 1
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Walk",
+        "chance": 4
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Walk",
+        "chance": 1
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 22 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 22 Area",
+        "method": "Yellow Flowers",
+        "chance": 10
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 22 Area",
+        "method": "Walk",
+        "chance": 10
+      },
+      {
+        "location": "Kalos Route 22 Area",
+        "method": "Yellow Flowers",
+        "chance": 10
+      }
+    ]
+  }
+}

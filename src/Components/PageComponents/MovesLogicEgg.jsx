@@ -83,7 +83,7 @@ export default function MovesLogicEgg({ pokemon }) {
                                 </section>
 
                                 <section className="type-and-category">
-                                    <img className="pokemon-types-icons" src={typeImages[moveDetails.type]} />
+                                    <img className="move-type-icons" src={typeImages[moveDetails.type]} />
                                     <img className="status-icons" src={categoryImages[moveDetails?.damage_class]} />
                                 </section>
 

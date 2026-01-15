@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { applyFilters } from "./applyFilters"
-import pokemonData from "../../pokedex-enriched.json"
+import pokemonData from "../../public/pokedex-master.json"
 import PokemonEntry from "./PokemonEntry"
 
 import pokeballLoading from "./Images/pokeballLoadingV4.gif"

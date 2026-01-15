@@ -1,0 +1,409 @@
+{
+  "id": 100,
+  "slug": "voltorb-hisui",
+  "isDefault": false,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": true,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Voltorb (Hisui)"
+  },
+  "type": [
+    "Electric",
+    "Grass"
+  ],
+  "base": {
+    "HP": 40,
+    "Attack": 30,
+    "Defense": 50,
+    "Special Attack": 55,
+    "Special Defense": 55,
+    "Speed": 100
+  },
+  "color": "red",
+  "weight": 13,
+  "height": 0.5,
+  "abilities": [
+    "Soundproof",
+    "Static",
+    "Aftermath"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10231.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10231.gif"
+  },
+  "description": "An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Ball Pokémon",
+  "moves": {
+    "Legends: Arceus": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Thunder Shock",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Swift",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Ice Ball",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Magical Leaf",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 9": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Thunder Shock",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Self Destruct",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Swift",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Swift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recycle",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Discharge",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Leaf Storm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Electro Ball",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Electro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Foul Play",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Volt Switch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Electroweb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grassy Terrain",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Grassy Terrain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Electric Terrain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grassy Glide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tera Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {}
+}

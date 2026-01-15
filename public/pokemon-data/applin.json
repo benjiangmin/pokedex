@@ -1,0 +1,134 @@
+{
+  "id": 840,
+  "slug": "applin",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Applin"
+  },
+  "type": [
+    "Grass",
+    "Dragon"
+  ],
+  "base": {
+    "HP": 40,
+    "Attack": 40,
+    "Defense": 80,
+    "Special Attack": 40,
+    "Special Defense": 40,
+    "Speed": 20
+  },
+  "color": "green",
+  "weight": 0.5,
+  "height": 0.2,
+  "abilities": [
+    "Ripen",
+    "Gluttony",
+    "Bulletproof"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/840.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/840.gif"
+  },
+  "description": "As soon as it’s born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Apple Core Pokémon",
+  "moves": {
+    "Gen 8": [
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recycle",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Astonish",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Grassy Glide",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "Gen 9": [
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Recycle",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Astonish",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Tera Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pounce",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {}
+}

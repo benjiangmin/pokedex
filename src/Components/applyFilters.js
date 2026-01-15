@@ -66,15 +66,13 @@ export const applyFilters = (data, rules) => {
         }
 
         // Moves Check
-        if (rules.moves) {
-            const canLearn = rules.moves.some(m => {
-                return Object.values(pokemon.moves).some(genMoves =>
-                    genMoves.some(pm => pm.name.toLowerCase() === m.toLowerCase())
-                )
-            })
+        if (rules.moves && rules.moves.length > 0) {
+            const canLearn = rules.moves.some(m =>
+                pokemon.moves.some(pm => pm.toLowerCase() === m.toLowerCase())
+            )
             if (!canLearn) return false
         }
-        
+
         // Variants Check
         const variantRules = [
             { key: "isMega", rule: rules.isMega },

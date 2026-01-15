@@ -1,0 +1,71 @@
+{
+  "id": 824,
+  "slug": "blipbug",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Blipbug"
+  },
+  "type": [
+    "Bug"
+  ],
+  "base": {
+    "HP": 25,
+    "Attack": 20,
+    "Defense": 20,
+    "Special Attack": 25,
+    "Special Defense": 45,
+    "Speed": 45
+  },
+  "color": "blue",
+  "weight": 8,
+  "height": 0.4,
+  "abilities": [
+    "Swarm",
+    "Compound Eyes",
+    "Telepathy"
+  ],
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/824.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/824.gif"
+  },
+  "description": "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Larva Pokémon",
+  "moves": {
+    "Gen 8": [
+      {
+        "name": "Supersonic",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sticky Web",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Infestation",
+        "learn_method": "egg",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {}
+}
