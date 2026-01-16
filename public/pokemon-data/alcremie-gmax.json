@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Alcremie Gmax"
+    "english": "Alcremie (Gmax)"
   },
   "type": [
     "Fairy"
@@ -38,6 +38,15 @@
           "trigger": "Spin"
         }
       ]
+    },
+    {
+      "from": "Alcremie",
+      "to": "Alcremie (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -49,5 +58,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Cream Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

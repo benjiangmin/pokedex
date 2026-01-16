@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Rillaboom Gmax"
+    "english": "Rillaboom (Gmax)"
   },
   "type": [
     "Grass"
@@ -49,6 +49,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Rillaboom",
+      "to": "Rillaboom (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -60,5 +69,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Drummer Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

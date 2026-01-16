@@ -51,7 +51,149 @@
   "isMythical": false,
   "category": "Turn Tail Pokémon",
   "moves": {
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Life",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spikes",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Jet",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Wide Guard",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
       {
         "name": "Sand Attack",
         "learn_method": "level-up",
@@ -198,7 +340,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Sand Attack",
         "learn_method": "level-up",
@@ -353,6 +495,100 @@
         "name": "Skitter Smack",
         "learn_method": "tutor",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Sun": [
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 20
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 43
+      },
+      {
+        "location": "Poni Wilds Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 43
+      }
+    ],
+    "Moon": [
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 20
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 43
+      },
+      {
+        "location": "Poni Wilds Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 43
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dividing Peak Tunnel Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 20
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 44
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dividing Peak Tunnel Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 20
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 44
       }
     ]
   }

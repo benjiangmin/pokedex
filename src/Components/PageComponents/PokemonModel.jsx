@@ -1,5 +1,5 @@
 import { useState, useEffect, Suspense } from "react"
-import { useGLTF, OrbitControls, Stage } from "@react-three/drei"
+import { useGLTF, OrbitControls, Stage, Center } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 
 function Model({ url }) {
@@ -58,28 +58,33 @@ export default function PokemonModel({ pokemon }) {
         )
     }
 
-    return (
+return (
         <div className="three-d-model-container">
             <Canvas
                 shadows
-                camera={{
-                    position: [5, 5, 10],
-                    fov: 35,
-                }}
+                dpr={[1, 2]} // Performance optimization
+                camera={{ fov: 35 }} // Let Stage handle position
             >
                 <Suspense fallback={null}>
-                    <Stage
-                        environment="city"
-                        intensity={0.6}
-                        adjustCamera={false}
+                    {/* adjustCamera: Centers the camera on the object automatically.
+                        intensity: Light brightness.
+                        environment: Lighting style.
+                    */}
+                    <Stage 
+                        adjustCamera={1.5} // Higher number = zoomed further out
+                        intensity={0.5} 
+                        environment="city" 
+                        preset="rembrandt"
                     >
-                        <Model url={modelUrl} />
+                        <Center>
+                            <Model url={modelUrl} />
+                        </Center>
                     </Stage>
                 </Suspense>
 
-                <OrbitControls />
+                {/* makeDefault ensures OrbitControls doesn't fight with Stage */}
+                <OrbitControls makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 1.75} />
             </Canvas>
-
         </div>
     )
 }

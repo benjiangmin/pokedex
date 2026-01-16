@@ -2,14 +2,14 @@ import fs from "fs";
 
 async function fetchAllPokemon() {
     const masterList = [];
-    const totalCount = 1026
+    const totalCount = 1026;
 
     const outputDir = "./public/pokemon-data";
     if (!fs.existsSync(outputDir)) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    const formatName = (name) => {
+    const formatPokemonName = (name) => {
         const specialNames = {
             "ho-oh": "Ho-Oh", "porygon-z": "Porygon-Z", "type-null": "Type: Null",
             "jangmo-o": "Jangmo-o", "hakamo-o": "Hakamo-o", "kommo-o": "Kommo-o",
@@ -21,39 +21,41 @@ async function fetchAllPokemon() {
             "iron-valiant": "Iron Valiant", "iron-leaves": "Iron Leaves", "iron-crown": "Iron Crown", "iron-boulder": "Iron Boulder"
         };
         if (specialNames[name]) return specialNames[name];
-        return name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+        if (name.includes("-")) {
+            const parts = name.split("-");
+            const baseName = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+            const variantName = parts.slice(1).map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");
+            return `${baseName} (${variantName})`;
+        }
+        return name.charAt(0).toUpperCase() + name.slice(1);
     };
 
-    const getVariant = (slug) => {
-        return {
-            isMega: slug.includes("-mega"),
-            isAlolan: slug.includes("-alola") && !slug.includes("-totem"),
-            isHisuian: slug.includes("-hisui"),
-            isGalarian: slug.includes("-galar"),
-            isPaldean: slug.includes("-paldea"),
-            isGmax: slug.includes("-gmax")
-        };
-    };
+    const formatStandard = (name) => name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
+    const getVariant = (slug) => ({
+        isMega: slug.includes("-mega"),
+        isAlolan: slug.includes("-alola") && !slug.includes("-totem"),
+        isHisuian: slug.includes("-hisui"),
+        isGalarian: slug.includes("-galar"),
+        isPaldean: slug.includes("-paldea"),
+        isGmax: slug.includes("-gmax")
+    });
 
     const generationMapping = {
-        "red-blue": "Gen 1", "yellow": "Gen 1",
-        "gold-silver": "Gen 2", "crystal": "Gen 2",
-        "ruby-sapphire": "Gen 3", "emerald": "Gen 3", "firered-leafgreen": "Gen 3",
-        "diamond-pearl": "Gen 4", "platinum": "Gen 4", "heartgold-soulsilver": "Gen 4",
-        "black-white": "Gen 5", "black-2-white-2": "Gen 5",
-        "x-y": "Gen 6", "omega-ruby-alpha-sapphire": "Gen 6",
-        "sun-moon": "Gen 7", "ultra-sun-ultra-moon": "Gen 7", "lets-go-pikachu-lets-go-eevee": "Gen 7",
-        "sword-shield": "Gen 8", "brilliant-diamond-shining-pearl": "Gen 8",
-        "scarlet-violet": "Gen 9", "legends-arceus": "Legends: Arceus"
+        "red-blue": "RBY", "yellow": "RBY", "gold-silver": "GSC", "crystal": "GSC",
+        "ruby-sapphire": "RSE", "emerald": "RSE", "firered-leafgreen": "FRLG",
+        "diamond-pearl": "DPP", "platinum": "DPP", "heartgold-soulsilver": "HGSS",
+        "black-white": "BW", "black-2-white-2": "BW2", "x-y": "XY", "omega-ruby-alpha-sapphire": "ORAS",
+        "sun-moon": "SM", "ultra-sun-ultra-moon": "USUM", "lets-go-pikachu-lets-go-eevee": "let's go",
+        "sword-shield": "SWSH", "brilliant-diamond-shining-pearl": "BDSP",
+        "legends-arceus": "legends arceus", "scarlet-violet": "SV",
     };
 
     for (let id = 1; id <= totalCount; id++) {
         console.log(`Processing Species #${id}`);
-
         try {
             const speciesRes = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`);
             const speciesData = await speciesRes.json();
-
             const evoRes = await fetch(speciesData.evolution_chain.url);
             const evoChainData = await evoRes.json();
 
@@ -65,18 +67,13 @@ async function fetchAllPokemon() {
                             const cleanedDetail = {};
                             for (const [key, value] of Object.entries(detail)) {
                                 if (!value) continue;
-                                if (typeof value === "object" && value.name) {
-                                    cleanedDetail[key] = formatName(value.name);
-                                } else {
-                                    cleanedDetail[key] = value;
-                                }
+                                cleanedDetail[key] = (typeof value === "object" && value.name) ? formatStandard(value.name) : value;
                             }
                             return cleanedDetail;
                         });
-
                         evolutions.push({
-                            from: formatName(node.species.name),
-                            to: formatName(evolution.species.name),
+                            from: formatPokemonName(node.species.name),
+                            to: formatPokemonName(evolution.species.name),
                             details: allDetails
                         });
                         traverse(evolution);
@@ -86,19 +83,57 @@ async function fetchAllPokemon() {
                 return evolutions;
             };
 
-            const cleanedEvoData = parseEvolutionChain(evoChainData.chain);
-
             const allEntries = speciesData.flavor_text_entries.filter(entry => entry.language.name === "en");
             const desiredEntry = (allEntries.length > 0 ? allEntries[allEntries.length - 1].flavor_text : "").replace(/[\n\f]/g, " ").trim();
             const genusEntry = speciesData.genera.find(genera => genera.language.name === "en");
             const category = genusEntry ? genusEntry.genus : "Unknown";
 
+            const speciesVarietiesData = [];
             for (const variety of speciesData.varieties) {
                 if (variety.pokemon.name.includes("-totem") || variety.pokemon.name.includes("-cap")) continue;
-
                 const pokeRes = await fetch(variety.pokemon.url);
                 const pokeData = await pokeRes.json();
+                
+                // Fetch encounters
+                const encountersRes = await fetch(pokeData.location_area_encounters);
+                const encountersData = await encountersRes.json();
+
+                speciesVarietiesData.push({ variety, pokeData, encountersData });
+            }
+
+            const baseVarietyObj = speciesVarietiesData.find(v => v.variety.is_default) || speciesVarietiesData[0];
+
+            for (const item of speciesVarietiesData) {
+                const { variety, pokeData, encountersData } = item;
                 const variants = getVariant(pokeData.name);
+                
+                let currentEvoChain = parseEvolutionChain(evoChainData.chain);
+
+                if (variety.is_default) {
+                    speciesVarietiesData.forEach(other => {
+                        if (!other.variety.is_default) {
+                            const otherVariants = getVariant(other.pokeData.name);
+                            if (otherVariants.isMega || otherVariants.isGmax) {
+                                currentEvoChain.push({
+                                    from: formatPokemonName(pokeData.name),
+                                    to: formatPokemonName(other.pokeData.name),
+                                    details: [{ 
+                                        trigger: otherVariants.isMega ? "Mega Evolution" : "Gigantamax" 
+                                    }]
+                                });
+                            }
+                        }
+                    });
+                } else {
+                    const isMegaOrGmax = variants.isMega || variants.isGmax;
+                    if (isMegaOrGmax) {
+                        currentEvoChain.push({
+                            from: formatPokemonName(baseVarietyObj.pokeData.name),
+                            to: formatPokemonName(pokeData.name),
+                            details: [{ trigger: variants.isMega ? "mega Evolution" : "gigantamax" }]
+                        });
+                    }
+                }
 
                 const movesByGeneration = {};
                 pokeData.moves.forEach(m => {
@@ -106,7 +141,7 @@ async function fetchAllPokemon() {
                         const genName = generationMapping[detail.version_group.name];
                         if (!genName) return;
                         if (!movesByGeneration[genName]) movesByGeneration[genName] = [];
-                        const moveNameFormatted = formatName(m.move.name);
+                        const moveNameFormatted = formatStandard(m.move.name);
                         if (!movesByGeneration[genName].some(e => e.name === moveNameFormatted && e.level_learned === detail.level_learned_at)) {
                             movesByGeneration[genName].push({
                                 name: moveNameFormatted,
@@ -117,12 +152,33 @@ async function fetchAllPokemon() {
                     });
                 });
 
+                const locationDataByVersion = {};
+                encountersData.forEach(encounter => {
+                    const locationName = formatStandard(encounter.location_area.name);
+                    encounter.version_details.forEach(vDetail => {
+                        const versionName = formatStandard(vDetail.version.name);
+                        if (!locationDataByVersion[versionName]) locationDataByVersion[versionName] = [];
+                        vDetail.encounter_details.forEach(eDetail => {
+                            const entry = {
+                                location: locationName,
+                                method: formatStandard(eDetail.method.name),
+                                chance: eDetail.chance,
+                                minLevel: eDetail.min_level,
+                                maxLevel: eDetail.max_level
+                            };
+                            if (!locationDataByVersion[versionName].some(old => old.location === entry.location && old.method === entry.method && old.minLevel === entry.minLevel)) {
+                                locationDataByVersion[versionName].push(entry);
+                            }
+                        });
+                    });
+                });
+
                 const fullPokemonData = {
                     id: id,
                     slug: pokeData.name,
                     isDefault: variety.is_default,
                     ...variants,
-                    name: { english: formatName(pokeData.name) },
+                    name: { english: formatPokemonName(pokeData.name) },
                     type: pokeData.types.map(t => t.type.name.charAt(0).toUpperCase() + t.type.name.slice(1)),
                     base: {
                         "HP": pokeData.stats[0].base_stat,
@@ -135,25 +191,27 @@ async function fetchAllPokemon() {
                     color: speciesData.color.name,
                     weight: pokeData.weight / 10,
                     height: pokeData.height / 10,
-                    abilities: pokeData.abilities.map(a => formatName(a.ability.name)),
-                    evolutionChain: cleanedEvoData, 
+                    abilities: pokeData.abilities.map(a => formatStandard(a.ability.name)), 
+                    evolutionChain: currentEvoChain,
                     generation: speciesData.generation.name,
                     sprites: {
                         static: pokeData.sprites.front_default,
-                        animated: pokeData.sprites.other.showdown.front_default
+                        animated: pokeData.sprites.other?.showdown?.front_default || pokeData.sprites.front_default
                     },
                     description: desiredEntry,
                     isLegendary: speciesData.is_legendary,
                     isMythical: speciesData.is_mythical,
                     category: category,
-                    moves: movesByGeneration
+                    moves: movesByGeneration,
+                    locations: locationDataByVersion
                 };
 
                 fs.writeFileSync(`${outputDir}/${pokeData.name}.json`, JSON.stringify(fullPokemonData, null, 2));
-                
+
                 masterList.push({
                     ...fullPokemonData,
-                    moves: [...new Set(Object.values(movesByGeneration).flat().map(m => m.name))]
+                    moves: [...new Set(Object.values(movesByGeneration).flat().map(m => m.name))],
+                    locations: [] 
                 });
             }
         } catch (err) {

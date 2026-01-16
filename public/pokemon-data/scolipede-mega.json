@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Scolipede Mega"
+    "english": "Scolipede (Mega)"
   },
   "type": [
     "Bug",
@@ -47,6 +47,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Scolipede",
+      "to": "Scolipede (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-v",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Megapede Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

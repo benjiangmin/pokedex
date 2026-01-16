@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Skarmory Mega"
+    "english": "Skarmory (Mega)"
   },
   "type": [
     "Steel",
@@ -27,7 +27,17 @@
   "weight": 40.4,
   "height": 1.7,
   "abilities": [],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Skarmory",
+      "to": "Skarmory (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-ii",
   "sprites": {
     "static": null,
@@ -37,5 +47,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Armor Bird Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

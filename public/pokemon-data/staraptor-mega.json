@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Staraptor Mega"
+    "english": "Staraptor (Mega)"
   },
   "type": [
     "Fighting",
@@ -47,6 +47,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Staraptor",
+      "to": "Staraptor (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-iv",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Predator Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

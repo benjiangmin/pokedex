@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Butterfree Gmax"
+    "english": "Butterfree (Gmax)"
   },
   "type": [
     "Bug",
@@ -50,6 +50,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Butterfree",
+      "to": "Butterfree (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -61,5 +70,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Butterfly Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

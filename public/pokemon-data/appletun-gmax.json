@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Appletun Gmax"
+    "english": "Appletun (Gmax)"
   },
   "type": [
     "Grass",
@@ -61,6 +61,15 @@
       "from": "Dipplin",
       "to": "Hydrapple",
       "details": []
+    },
+    {
+      "from": "Appletun",
+      "to": "Appletun (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -72,5 +81,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Apple Nectar Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

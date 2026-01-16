@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Inteleon Gmax"
+    "english": "Inteleon (Gmax)"
   },
   "type": [
     "Water"
@@ -49,6 +49,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Inteleon",
+      "to": "Inteleon (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -60,5 +69,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Secret Agent Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

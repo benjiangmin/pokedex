@@ -416,6 +416,8 @@ main {
 }
 .prev-evolution-requirements {
     text-align: right;
+    display: flex;
+    justify-content: right;
 }
 .requirements-container {
     font-size: clamp(0.1rem, 0.8vw, 0.9rem);
@@ -441,7 +443,8 @@ main {
 
 .next-evolution-logic-container {
     display: flex;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 5px 5px 20px;
+    gap: 30px;
     box-sizing: border-box;
     position: absolute;
     width: 100%;
@@ -479,6 +482,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    padding-right: 20px;
     position: relative;
 }
 .statbars-container {
@@ -762,6 +767,7 @@ main {
     gap: 30px;
     background-color: rgb(216, 197, 176);
     border-radius: 30px 30px 0px 0px;
+    flex-grow: 1;
 }
 .information-left {
     display: flex;
@@ -948,6 +954,29 @@ main {
     color: rgb(190, 177, 160);
     font-family: "Sour Gummy";
     font-weight: 100
+}
+
+
+
+
+.home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #444;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-family: "Sour Gummy";
+    font-size: 1rem;
+    transition: background-color 0.2s ease
+}
+.home-button:hover {
+    cursor: pointer;
+    background-color: #cab8aa;
+    color: #2a2a2a;
 }
 
 

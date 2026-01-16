@@ -49,6 +49,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Cinderace",
+      "to": "Cinderace (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -61,7 +70,7 @@
   "isMythical": false,
   "category": "Striker Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Fire Punch",
         "learn_method": "machine",
@@ -393,7 +402,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Fire Punch",
         "learn_method": "machine",
@@ -750,5 +759,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

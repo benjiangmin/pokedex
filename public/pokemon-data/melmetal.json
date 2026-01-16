@@ -28,7 +28,17 @@
   "abilities": [
     "Iron Fist"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Melmetal",
+      "to": "Melmetal (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
+    }
+  ],
   "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/809.png",
@@ -39,7 +49,7 @@
   "isMythical": true,
   "category": "Hex Nut Pokémon",
   "moves": {
-    "Gen 7": [
+    "let's go": [
       {
         "name": "Mega Punch",
         "learn_method": "level-up",
@@ -216,7 +226,7 @@
         "level_learned": 72
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Mega Punch",
         "learn_method": "level-up",
@@ -483,5 +493,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

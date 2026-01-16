@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Duraludon Gmax"
+    "english": "Duraludon (Gmax)"
   },
   "type": [
     "Steel",
@@ -36,6 +36,15 @@
       "from": "Duraludon",
       "to": "Archaludon",
       "details": []
+    },
+    {
+      "from": "Duraludon",
+      "to": "Duraludon (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -47,5 +56,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Alloy Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

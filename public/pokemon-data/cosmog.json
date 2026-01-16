@@ -70,7 +70,7 @@
   "isMythical": false,
   "category": "Nebula Pokémon",
   "moves": {
-    "Gen 7": [
+    "SM": [
       {
         "name": "Teleport",
         "learn_method": "level-up",
@@ -82,7 +82,19 @@
         "level_learned": 1
       }
     ],
-    "Gen 8": [
+    "USUM": [
+      {
+        "name": "Teleport",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Splash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "SWSH": [
       {
         "name": "Teleport",
         "learn_method": "level-up",
@@ -94,7 +106,7 @@
         "level_learned": 1
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Teleport",
         "learn_method": "level-up",
@@ -104,6 +116,44 @@
         "name": "Splash",
         "learn_method": "level-up",
         "level_learned": 1
+      }
+    ]
+  },
+  "locations": {
+    "Moon": [
+      {
+        "location": "Lake Of The Moone Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Lake Of The Moone Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Sun": [
+      {
+        "location": "Lake Of The Sunne Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Lake Of The Sunne Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ]
   }

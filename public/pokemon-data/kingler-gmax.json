@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Kingler Gmax"
+    "english": "Kingler (Gmax)"
   },
   "type": [
     "Water"
@@ -40,6 +40,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Kingler",
+      "to": "Kingler (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -51,5 +60,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Pincer Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

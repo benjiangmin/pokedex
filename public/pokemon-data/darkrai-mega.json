@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Darkrai Mega"
+    "english": "Darkrai (Mega)"
   },
   "type": [
     "Dark"
@@ -26,7 +26,17 @@
   "weight": 240,
   "height": 3,
   "abilities": [],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Darkrai",
+      "to": "Darkrai (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-iv",
   "sprites": {
     "static": null,
@@ -36,5 +46,6 @@
   "isLegendary": false,
   "isMythical": true,
   "category": "Pitch-Black Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

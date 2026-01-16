@@ -40,6 +40,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Snorlax",
+      "to": "Snorlax (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -52,7 +61,7 @@
   "isMythical": false,
   "category": "Sleeping Pokémon",
   "moves": {
-    "Gen 1": [
+    "RBY": [
       {
         "name": "Mega Punch",
         "learn_method": "machine",
@@ -269,7 +278,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Mega Punch",
         "learn_method": "tutor",
@@ -299,11 +308,6 @@
         "name": "Headbutt",
         "learn_method": "level-up",
         "level_learned": 19
-      },
-      {
-        "name": "Headbutt",
-        "learn_method": "level-up",
-        "level_learned": 17
       },
       {
         "name": "Tackle",
@@ -354,11 +358,6 @@
         "name": "Hyper Beam",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Hyper Beam",
-        "learn_method": "level-up",
-        "level_learned": 53
       },
       {
         "name": "Counter",
@@ -431,11 +430,6 @@
         "level_learned": 0
       },
       {
-        "name": "Defense Curl",
-        "learn_method": "level-up",
-        "level_learned": 9
-      },
-      {
         "name": "Metronome",
         "learn_method": "tutor",
         "level_learned": 0
@@ -456,11 +450,6 @@
         "level_learned": 6
       },
       {
-        "name": "Amnesia",
-        "learn_method": "level-up",
-        "level_learned": 5
-      },
-      {
         "name": "Rest",
         "learn_method": "level-up",
         "level_learned": 28
@@ -469,11 +458,6 @@
         "name": "Rest",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Rest",
-        "learn_method": "level-up",
-        "level_learned": 25
       },
       {
         "name": "Rock Slide",
@@ -496,11 +480,6 @@
         "level_learned": 0
       },
       {
-        "name": "Snore",
-        "learn_method": "level-up",
-        "level_learned": 29
-      },
-      {
         "name": "Curse",
         "learn_method": "egg",
         "level_learned": 0
@@ -514,11 +493,6 @@
         "name": "Belly Drum",
         "learn_method": "level-up",
         "level_learned": 15
-      },
-      {
-        "name": "Belly Drum",
-        "learn_method": "level-up",
-        "level_learned": 13
       },
       {
         "name": "Mud Slap",
@@ -556,11 +530,6 @@
         "level_learned": 0
       },
       {
-        "name": "Rollout",
-        "learn_method": "level-up",
-        "level_learned": 49
-      },
-      {
         "name": "Swagger",
         "learn_method": "tutor",
         "level_learned": 0
@@ -574,11 +543,6 @@
         "name": "Sleep Talk",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Sleep Talk",
-        "learn_method": "level-up",
-        "level_learned": 37
       },
       {
         "name": "Return",
@@ -641,6 +605,298 @@
         "level_learned": 24
       },
       {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Block",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Covet",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "FRLG": [
+      {
+        "name": "Mega Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Mega Kick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fissure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Metronome",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Lick",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Rest",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belly Drum",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
         "name": "Yawn",
         "learn_method": "level-up",
         "level_learned": 21
@@ -658,17 +914,7 @@
       {
         "name": "Block",
         "learn_method": "level-up",
-        "level_learned": 37
-      },
-      {
-        "name": "Block",
-        "learn_method": "level-up",
         "level_learned": 41
-      },
-      {
-        "name": "Covet",
-        "learn_method": "level-up",
-        "level_learned": 42
       },
       {
         "name": "Covet",
@@ -686,7 +932,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Mega Punch",
         "learn_method": "machine",
@@ -710,11 +956,6 @@
       {
         "name": "Thunder Punch",
         "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Whirlwind",
-        "learn_method": "egg",
         "level_learned": 0
       },
       {
@@ -783,11 +1024,6 @@
         "level_learned": 0
       },
       {
-        "name": "Strength",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Solar Beam",
         "learn_method": "machine",
         "level_learned": 0
@@ -828,11 +1064,6 @@
         "level_learned": 0
       },
       {
-        "name": "Double Team",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Defense Curl",
         "learn_method": "level-up",
         "level_learned": 1
@@ -856,11 +1087,6 @@
         "name": "Lick",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Lick",
-        "learn_method": "egg",
-        "level_learned": 0
       },
       {
         "name": "Fire Blast",
@@ -953,11 +1179,6 @@
         "level_learned": 0
       },
       {
-        "name": "Swagger",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Attract",
         "learn_method": "machine",
         "level_learned": 0
@@ -1003,11 +1224,6 @@
         "level_learned": 0
       },
       {
-        "name": "Rock Smash",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Whirlpool",
         "learn_method": "machine",
         "level_learned": 0
@@ -1033,11 +1249,6 @@
         "level_learned": 0
       },
       {
-        "name": "Focus Punch",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Superpower",
         "learn_method": "machine",
         "level_learned": 0
@@ -1046,11 +1257,6 @@
         "name": "Recycle",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Recycle",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Brick Break",
@@ -1081,16 +1287,6 @@
         "name": "Covet",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Shock Wave",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Water Pulse",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Hammer Arm",
@@ -1143,11 +1339,6 @@
         "level_learned": 0
       },
       {
-        "name": "Rock Climb",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Gunk Shot",
         "learn_method": "machine",
         "level_learned": 0
@@ -1165,11 +1356,6 @@
       {
         "name": "Heavy Slam",
         "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "After You",
-        "learn_method": "egg",
         "level_learned": 0
       },
       {
@@ -1208,16 +1394,6 @@
         "level_learned": 52
       },
       {
-        "name": "Belch",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
-        "name": "Power Up Punch",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
         "name": "Darkest Lariat",
         "learn_method": "machine",
         "level_learned": 0
@@ -1253,7 +1429,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "let's go": [
       {
         "name": "Pay Day",
         "learn_method": "machine",
@@ -1261,22 +1437,17 @@
       },
       {
         "name": "Fire Punch",
-        "learn_method": "tutor",
+        "learn_method": "machine",
         "level_learned": 0
       },
       {
         "name": "Ice Punch",
-        "learn_method": "tutor",
+        "learn_method": "machine",
         "level_learned": 0
       },
       {
         "name": "Thunder Punch",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Whirlwind",
-        "learn_method": "egg",
+        "learn_method": "machine",
         "level_learned": 0
       },
       {
@@ -1297,17 +1468,7 @@
       {
         "name": "Body Slam",
         "learn_method": "level-up",
-        "level_learned": 25
-      },
-      {
-        "name": "Body Slam",
-        "learn_method": "level-up",
         "level_learned": 52
-      },
-      {
-        "name": "Double Edge",
-        "learn_method": "egg",
-        "level_learned": 0
       },
       {
         "name": "Flamethrower",
@@ -1332,11 +1493,6 @@
       {
         "name": "Hyper Beam",
         "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Counter",
-        "learn_method": "egg",
         "level_learned": 0
       },
       {
@@ -1365,11 +1521,6 @@
         "level_learned": 0
       },
       {
-        "name": "Fissure",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
         "name": "Toxic",
         "learn_method": "machine",
         "level_learned": 0
@@ -1383,16 +1534,6 @@
         "name": "Screech",
         "learn_method": "level-up",
         "level_learned": 39
-      },
-      {
-        "name": "Double Team",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Defense Curl",
-        "learn_method": "level-up",
-        "level_learned": 4
       },
       {
         "name": "Defense Curl",
@@ -1412,16 +1553,6 @@
       {
         "name": "Lick",
         "learn_method": "level-up",
-        "level_learned": 12
-      },
-      {
-        "name": "Lick",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
-        "name": "Lick",
-        "learn_method": "level-up",
         "level_learned": 19
       },
       {
@@ -1432,27 +1563,17 @@
       {
         "name": "Amnesia",
         "learn_method": "level-up",
-        "level_learned": 9
-      },
-      {
-        "name": "Amnesia",
-        "learn_method": "level-up",
         "level_learned": 45
       },
       {
         "name": "Rest",
         "learn_method": "level-up",
-        "level_learned": 28
+        "level_learned": 32
       },
       {
         "name": "Rest",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Rest",
-        "learn_method": "level-up",
-        "level_learned": 32
       },
       {
         "name": "Rock Slide",
@@ -1465,109 +1586,14 @@
         "level_learned": 0
       },
       {
-        "name": "Snore",
-        "learn_method": "level-up",
-        "level_learned": 28
-      },
-      {
-        "name": "Snore",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Curse",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
         "name": "Protect",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
-        "name": "Belly Drum",
-        "learn_method": "level-up",
-        "level_learned": 44
-      },
-      {
-        "name": "Icy Wind",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
         "name": "Outrage",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Sandstorm",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Charm",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
-        "name": "Rollout",
-        "learn_method": "level-up",
-        "level_learned": 36
-      },
-      {
-        "name": "Swagger",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Attract",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Sleep Talk",
-        "learn_method": "level-up",
-        "level_learned": 33
-      },
-      {
-        "name": "Sleep Talk",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Return",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Frustration",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Pursuit",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
-        "name": "Hidden Power",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Rain Dance",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Sunny Day",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Crunch",
-        "learn_method": "level-up",
-        "level_learned": 49
       },
       {
         "name": "Crunch",
@@ -1585,23 +1611,13 @@
         "level_learned": 0
       },
       {
-        "name": "Focus Punch",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Superpower",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
         "name": "Superpower",
         "learn_method": "level-up",
         "level_learned": 65
       },
       {
-        "name": "Recycle",
-        "learn_method": "tutor",
+        "name": "Superpower",
+        "learn_method": "machine",
         "level_learned": 0
       },
       {
@@ -1612,170 +1628,10 @@
       {
         "name": "Yawn",
         "learn_method": "level-up",
-        "level_learned": 20
-      },
-      {
-        "name": "Yawn",
-        "learn_method": "level-up",
         "level_learned": 13
-      },
-      {
-        "name": "Snatch",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Hyper Voice",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Rock Tomb",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Block",
-        "learn_method": "level-up",
-        "level_learned": 41
-      },
-      {
-        "name": "Block",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Covet",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Shock Wave",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Water Pulse",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Natural Gift",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
-        "name": "Fling",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Last Resort",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Seed Bomb",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Focus Blast",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Giga Impact",
-        "learn_method": "level-up",
-        "level_learned": 35
-      },
-      {
-        "name": "Giga Impact",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Zen Headbutt",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Gunk Shot",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Iron Head",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Smack Down",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Heavy Slam",
-        "learn_method": "level-up",
-        "level_learned": 50
-      },
-      {
-        "name": "After You",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
-        "name": "Round",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Chip Away",
-        "learn_method": "level-up",
-        "level_learned": 17
-      },
-      {
-        "name": "Bulldoze",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Work Up",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Wild Charge",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Belch",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
-        "name": "Confide",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Power Up Punch",
-        "learn_method": "egg",
-        "level_learned": 0
-      },
-      {
-        "name": "High Horsepower",
-        "learn_method": "level-up",
-        "level_learned": 57
-      },
-      {
-        "name": "Stomping Tantrum",
-        "learn_method": "tutor",
-        "level_learned": 0
       }
     ],
-    "Gen 2": [
+    "GSC": [
       {
         "name": "Fire Punch",
         "learn_method": "machine",
@@ -2042,7 +1898,404 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "DPP": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Whirlwind",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fissure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Lick",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Rest",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belly Drum",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Superpower",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Recycle",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Yawn",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Block",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Last Resort",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Climb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gunk Shot",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "HGSS": [
       {
         "name": "Fire Punch",
         "learn_method": "tutor",
@@ -2459,7 +2712,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW2": [
       {
         "name": "Fire Punch",
         "learn_method": "tutor",
@@ -2881,7 +3134,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "ORAS": [
       {
         "name": "Fire Punch",
         "learn_method": "tutor",
@@ -3333,7 +3586,454 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "USUM": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Whirlwind",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fissure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Lick",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Rest",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belly Drum",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Superpower",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Recycle",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Yawn",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Snatch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Voice",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Block",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Block",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Covet",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Last Resort",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Gunk Shot",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heavy Slam",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "After You",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Chip Away",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Up Punch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "High Horsepower",
+        "learn_method": "level-up",
+        "level_learned": 57
+      },
+      {
+        "name": "Stomping Tantrum",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "SV": [
       {
         "name": "Fire Punch",
         "learn_method": "machine",
@@ -3800,7 +4500,1420 @@
         "level_learned": 0
       }
     ],
-    "Legends: Arceus": [
+    "BW": [
+      {
+        "name": "Whirlwind",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fissure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Lick",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Rest",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belly Drum",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Yawn",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Block",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "level-up",
+        "level_learned": 57
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heavy Slam",
+        "learn_method": "level-up",
+        "level_learned": 52
+      },
+      {
+        "name": "After You",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Chip Away",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Incinerate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "XY": [
+      {
+        "name": "Whirlwind",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fissure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Lick",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Rest",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belly Drum",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Yawn",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Block",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "level-up",
+        "level_learned": 57
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heavy Slam",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "After You",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Chip Away",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Incinerate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Up Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "SM": [
+      {
+        "name": "Whirlwind",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fissure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Lick",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Rest",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belly Drum",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Yawn",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Block",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heavy Slam",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "After You",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Chip Away",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wild Charge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "High Horsepower",
+        "learn_method": "level-up",
+        "level_learned": 57
+      }
+    ],
+    "BDSP": [
+      {
+        "name": "Whirlwind",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fissure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Screech",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Metronome",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Lick",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Lick",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Rest",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Curse",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belly Drum",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stockpile",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swallow",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recycle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Recycle",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Yawn",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Block",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Covet",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hammer Arm",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Fling",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gastro Acid",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Last Resort",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Climb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heavy Slam",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "After You",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Belch",
+        "learn_method": "level-up",
+        "level_learned": 52
+      },
+      {
+        "name": "Belch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Up Punch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "High Horsepower",
+        "learn_method": "level-up",
+        "level_learned": 40
+      }
+    ],
+    "legends arceus": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -3850,6 +5963,183 @@
         "name": "High Horsepower",
         "learn_method": "level-up",
         "level_learned": 37
+      }
+    ]
+  },
+  "locations": {
+    "Red": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Blue": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Yellow": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Firered": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      }
+    ],
+    "Gold": [
+      {
+        "location": "Vermilion City Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      }
+    ],
+    "Silver": [
+      {
+        "location": "Vermilion City Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Vermilion City Area",
+        "method": "Pokeflute",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 7 Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 7 Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "Sun": [
+      {
+        "location": "Alola Route 1 South",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 13
+      }
+    ],
+    "Moon": [
+      {
+        "location": "Alola Route 1 South",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 13
       }
     ]
   }

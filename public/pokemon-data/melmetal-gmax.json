@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Melmetal Gmax"
+    "english": "Melmetal (Gmax)"
   },
   "type": [
     "Steel"
@@ -28,7 +28,17 @@
   "abilities": [
     "Iron Fist"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Melmetal",
+      "to": "Melmetal (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
+    }
+  ],
   "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10208.png",
@@ -38,5 +48,6 @@
   "isLegendary": false,
   "isMythical": true,
   "category": "Hex Nut Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

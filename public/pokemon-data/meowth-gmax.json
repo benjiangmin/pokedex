@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Meowth Gmax"
+    "english": "Meowth (Gmax)"
   },
   "type": [
     "Normal"
@@ -54,6 +54,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Meowth",
+      "to": "Meowth (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -65,5 +74,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Scratch Cat Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

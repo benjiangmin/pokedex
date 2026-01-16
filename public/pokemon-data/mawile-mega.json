@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Mawile Mega"
+    "english": "Mawile (Mega)"
   },
   "type": [
     "Steel",
@@ -29,7 +29,17 @@
   "abilities": [
     "Huge Power"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Mawile",
+      "to": "Mawile (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10052.png",
@@ -40,7 +50,7 @@
   "isMythical": false,
   "category": "Deceiver Pokémon",
   "moves": {
-    "Gen 6": [
+    "ORAS": [
       {
         "name": "Ice Punch",
         "learn_method": "tutor",
@@ -50,11 +60,6 @@
         "name": "Thunder Punch",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Vice Grip",
-        "learn_method": "level-up",
-        "level_learned": 21
       },
       {
         "name": "Vice Grip",
@@ -70,11 +75,6 @@
         "name": "Slam",
         "learn_method": "egg",
         "level_learned": 0
-      },
-      {
-        "name": "Bite",
-        "learn_method": "level-up",
-        "level_learned": 11
       },
       {
         "name": "Bite",
@@ -164,11 +164,6 @@
       {
         "name": "Feint Attack",
         "learn_method": "level-up",
-        "level_learned": 26
-      },
-      {
-        "name": "Feint Attack",
-        "learn_method": "level-up",
         "level_learned": 21
       },
       {
@@ -224,17 +219,7 @@
       {
         "name": "Baton Pass",
         "learn_method": "level-up",
-        "level_learned": 31
-      },
-      {
-        "name": "Baton Pass",
-        "learn_method": "level-up",
         "level_learned": 25
-      },
-      {
-        "name": "Sweet Scent",
-        "learn_method": "level-up",
-        "level_learned": 16
       },
       {
         "name": "Sweet Scent",
@@ -255,11 +240,6 @@
         "name": "Sunny Day",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Crunch",
-        "learn_method": "level-up",
-        "level_learned": 36
       },
       {
         "name": "Crunch",
@@ -289,27 +269,12 @@
       {
         "name": "Stockpile",
         "learn_method": "level-up",
-        "level_learned": 50
-      },
-      {
-        "name": "Stockpile",
-        "learn_method": "level-up",
         "level_learned": 41
       },
       {
         "name": "Spit Up",
         "learn_method": "level-up",
-        "level_learned": 50
-      },
-      {
-        "name": "Spit Up",
-        "learn_method": "level-up",
         "level_learned": 41
-      },
-      {
-        "name": "Swallow",
-        "learn_method": "level-up",
-        "level_learned": 50
       },
       {
         "name": "Swallow",
@@ -374,11 +339,6 @@
       {
         "name": "Fake Tears",
         "learn_method": "level-up",
-        "level_learned": 6
-      },
-      {
-        "name": "Fake Tears",
-        "learn_method": "level-up",
         "level_learned": 5
       },
       {
@@ -390,11 +350,6 @@
         "name": "Tickle",
         "learn_method": "egg",
         "level_learned": 0
-      },
-      {
-        "name": "Iron Defense",
-        "learn_method": "level-up",
-        "level_learned": 41
       },
       {
         "name": "Iron Defense",
@@ -444,17 +399,12 @@
       {
         "name": "Sucker Punch",
         "learn_method": "level-up",
-        "level_learned": 46
+        "level_learned": 37
       },
       {
         "name": "Sucker Punch",
         "learn_method": "egg",
         "level_learned": 0
-      },
-      {
-        "name": "Sucker Punch",
-        "learn_method": "level-up",
-        "level_learned": 37
       },
       {
         "name": "Magnet Rise",
@@ -500,11 +450,6 @@
         "name": "Iron Head",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Iron Head",
-        "learn_method": "level-up",
-        "level_learned": 56
       },
       {
         "name": "Iron Head",
@@ -569,11 +514,6 @@
       {
         "name": "Play Rough",
         "learn_method": "level-up",
-        "level_learned": 60
-      },
-      {
-        "name": "Play Rough",
-        "learn_method": "level-up",
         "level_learned": 49
       },
       {
@@ -592,7 +532,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "USUM": [
       {
         "name": "Ice Punch",
         "learn_method": "tutor",
@@ -1058,6 +998,791 @@
         "learn_method": "tutor",
         "level_learned": 0
       }
+    ],
+    "XY": [
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint Attack",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Baton Pass",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ancient Power",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stockpile",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Spit Up",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Swallow",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Fang",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Astonish",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fake Tears",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tickle",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Metal Burst",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Embargo",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Guard Swap",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Punishment",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Fang",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Fang",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Incinerate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Misty Terrain",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Play Rough",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Play Rough",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Fairy Wind",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Up Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "SM": [
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint Attack",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Baton Pass",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ancient Power",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stockpile",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Spit Up",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Swallow",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Fang",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Astonish",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fake Tears",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tickle",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Metal Burst",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Embargo",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Guard Swap",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Punishment",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Fang",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Fang",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Misty Terrain",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Play Rough",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Play Rough",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Fairy Wind",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
     ]
-  }
+  },
+  "locations": {}
 }

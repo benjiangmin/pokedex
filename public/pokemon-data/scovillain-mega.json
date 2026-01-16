@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Scovillain Mega"
+    "english": "Scovillain (Mega)"
   },
   "type": [
     "Grass",
@@ -37,6 +37,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Scovillain",
+      "to": "Scovillain (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-ix",
@@ -48,5 +57,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Spicy Pepper Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

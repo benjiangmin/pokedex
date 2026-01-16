@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Feraligatr Mega"
+    "english": "Feraligatr (Mega)"
   },
   "type": [
     "Water",
@@ -47,6 +47,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Feraligatr",
+      "to": "Feraligatr (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-ii",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Big Jaw Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

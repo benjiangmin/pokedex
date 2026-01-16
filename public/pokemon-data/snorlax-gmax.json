@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Snorlax Gmax"
+    "english": "Snorlax (Gmax)"
   },
   "type": [
     "Normal"
@@ -40,6 +40,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Snorlax",
+      "to": "Snorlax (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -51,5 +60,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Sleeping Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Baxcalibur Mega"
+    "english": "Baxcalibur (Mega)"
   },
   "type": [
     "Dragon",
@@ -47,6 +47,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Baxcalibur",
+      "to": "Baxcalibur (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-ix",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Ice Dragon Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

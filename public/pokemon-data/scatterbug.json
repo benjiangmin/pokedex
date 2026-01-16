@@ -62,7 +62,44 @@
   "isMythical": false,
   "category": "Scatterdust Pokémon",
   "moves": {
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Rage Powder",
+        "learn_method": "egg",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -104,7 +141,44 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Stun Spore",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "String Shot",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Rage Powder",
+        "learn_method": "egg",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -146,7 +220,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -196,6 +270,86 @@
         "name": "Pounce",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "X": [
+      {
+        "location": "Kalos Route 2 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Kalos Route 2 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 3,
+        "maxLevel": 3
+      },
+      {
+        "location": "Santalune Forest Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Santalune Forest Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 3,
+        "maxLevel": 3
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 2 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Kalos Route 2 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 3,
+        "maxLevel": 3
+      },
+      {
+        "location": "Santalune Forest Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Santalune Forest Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 3,
+        "maxLevel": 3
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Hauoli City Main",
+        "method": "Island Scan",
+        "chance": 100,
+        "minLevel": 9,
+        "maxLevel": 9
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Hauoli City Main",
+        "method": "Island Scan",
+        "chance": 100,
+        "minLevel": 9,
+        "maxLevel": 9
       }
     ]
   }

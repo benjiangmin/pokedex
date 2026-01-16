@@ -33,14 +33,14 @@
   "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png",
-    "animated": null
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png"
   },
   "description": "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning.",
   "isLegendary": true,
   "isMythical": false,
   "category": "Paradox Pokémon",
   "moves": {
-    "Gen 9": [
+    "SV": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -367,5 +367,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

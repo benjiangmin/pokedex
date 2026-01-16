@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Dragonite Mega"
+    "english": "Dragonite (Mega)"
   },
   "type": [
     "Dragon",
@@ -47,6 +47,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Dragonite",
+      "to": "Dragonite (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Dragon Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

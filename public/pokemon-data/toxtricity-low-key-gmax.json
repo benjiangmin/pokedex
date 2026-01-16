@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Toxtricity Low Key Gmax"
+    "english": "Toxtricity (Low Key Gmax)"
   },
   "type": [
     "Electric",
@@ -41,6 +41,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Toxtricity (Amped)",
+      "to": "Toxtricity (Low Key Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -52,5 +61,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Punk Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

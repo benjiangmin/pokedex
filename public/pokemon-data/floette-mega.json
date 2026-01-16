@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Floette Mega"
+    "english": "Floette (Mega)"
   },
   "type": [
     "Fairy"
@@ -46,6 +46,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Floette",
+      "to": "Floette (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-vi",
@@ -57,5 +66,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Single Bloom Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

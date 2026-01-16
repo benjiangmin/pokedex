@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Lapras Gmax"
+    "english": "Lapras (Gmax)"
   },
   "type": [
     "Water",
@@ -31,7 +31,17 @@
     "Shell Armor",
     "Hydration"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Lapras",
+      "to": "Lapras (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
+    }
+  ],
   "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10204.png",
@@ -41,5 +51,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Transport Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

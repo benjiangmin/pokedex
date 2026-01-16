@@ -29,7 +29,17 @@
   "abilities": [
     "Levitate"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Latias",
+      "to": "Latias (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/380.png",
@@ -40,7 +50,7 @@
   "isMythical": false,
   "category": "Eon Pokémon",
   "moves": {
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Cut",
         "learn_method": "machine",
@@ -357,7 +367,691 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "FRLG": [
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psywave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Wish",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Refresh",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist Ball",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "DPP": [
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swift",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psywave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Wish",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Refresh",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist Ball",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Healing Wish",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psycho Shift",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Last Resort",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sucker Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 70
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Defog",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "HGSS": [
       {
         "name": "Cut",
         "learn_method": "machine",
@@ -764,11 +1458,6 @@
         "level_learned": 0
       },
       {
-        "name": "Defog",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Draco Meteor",
         "learn_method": "tutor",
         "level_learned": 0
@@ -789,7 +1478,349 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW": [
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psywave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Wish",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Refresh",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist Ball",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Healing Wish",
+        "learn_method": "level-up",
+        "level_learned": 85
+      },
+      {
+        "name": "Psycho Shift",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 80
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hone Claws",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Guard Split",
+        "learn_method": "level-up",
+        "level_learned": 75
+      },
+      {
+        "name": "Psyshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Telekinesis",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heal Pulse",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Reflect Type",
+        "learn_method": "level-up",
+        "level_learned": 70
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BW2": [
       {
         "name": "Cut",
         "learn_method": "machine",
@@ -1206,7 +2237,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
       {
         "name": "Cut",
         "learn_method": "machine",
@@ -1278,11 +2309,6 @@
         "level_learned": 0
       },
       {
-        "name": "Psychic",
-        "learn_method": "level-up",
-        "level_learned": 51
-      },
-      {
         "name": "Double Team",
         "learn_method": "machine",
         "level_learned": 0
@@ -1291,6 +2317,383 @@
         "name": "Recover",
         "learn_method": "level-up",
         "level_learned": 45
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psywave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charm",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Wish",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Refresh",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Mist Ball",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Healing Wish",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Healing Wish",
+        "learn_method": "level-up",
+        "level_learned": 85
+      },
+      {
+        "name": "Psycho Shift",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 80
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hone Claws",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Guard Split",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Guard Split",
+        "learn_method": "level-up",
+        "level_learned": 75
+      },
+      {
+        "name": "Psyshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heal Pulse",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Heal Pulse",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Reflect Type",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Reflect Type",
+        "learn_method": "level-up",
+        "level_learned": 70
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
       },
       {
         "name": "Recover",
@@ -1365,16 +2768,6 @@
       {
         "name": "Charm",
         "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
-        "name": "Charm",
-        "learn_method": "level-up",
-        "level_learned": 55
-      },
-      {
-        "name": "Charm",
-        "learn_method": "level-up",
         "level_learned": 7
       },
       {
@@ -1410,17 +2803,12 @@
       {
         "name": "Safeguard",
         "learn_method": "level-up",
-        "level_learned": 15
+        "level_learned": 1
       },
       {
         "name": "Safeguard",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Safeguard",
-        "learn_method": "level-up",
-        "level_learned": 1
       },
       {
         "name": "Dragon Breath",
@@ -1460,11 +2848,6 @@
       {
         "name": "Helping Hand",
         "learn_method": "level-up",
-        "level_learned": 10
-      },
-      {
-        "name": "Helping Hand",
-        "learn_method": "level-up",
         "level_learned": 1
       },
       {
@@ -1485,22 +2868,12 @@
       {
         "name": "Wish",
         "learn_method": "level-up",
-        "level_learned": 5
-      },
-      {
-        "name": "Wish",
-        "learn_method": "level-up",
         "level_learned": 1
       },
       {
         "name": "Magic Coat",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Refresh",
-        "learn_method": "level-up",
-        "level_learned": 30
       },
       {
         "name": "Refresh",
@@ -1516,11 +2889,6 @@
         "name": "Dive",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Mist Ball",
-        "learn_method": "level-up",
-        "level_learned": 35
       },
       {
         "name": "Mist Ball",
@@ -1541,11 +2909,6 @@
         "name": "Covet",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Water Sport",
-        "learn_method": "level-up",
-        "level_learned": 25
       },
       {
         "name": "Water Sport",
@@ -1580,11 +2943,6 @@
       {
         "name": "Healing Wish",
         "learn_method": "level-up",
-        "level_learned": 85
-      },
-      {
-        "name": "Healing Wish",
-        "learn_method": "level-up",
         "level_learned": 61
       },
       {
@@ -1595,27 +2953,12 @@
       {
         "name": "Psycho Shift",
         "learn_method": "level-up",
-        "level_learned": 50
-      },
-      {
-        "name": "Psycho Shift",
-        "learn_method": "level-up",
         "level_learned": 28
       },
       {
         "name": "Last Resort",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Dragon Pulse",
-        "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
-        "name": "Dragon Pulse",
-        "learn_method": "level-up",
-        "level_learned": 80
       },
       {
         "name": "Dragon Pulse",
@@ -1641,11 +2984,6 @@
         "name": "Shadow Claw",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Zen Headbutt",
-        "learn_method": "level-up",
-        "level_learned": 40
       },
       {
         "name": "Zen Headbutt",
@@ -1680,16 +3018,6 @@
       {
         "name": "Guard Split",
         "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
-        "name": "Guard Split",
-        "learn_method": "level-up",
-        "level_learned": 75
-      },
-      {
-        "name": "Guard Split",
-        "learn_method": "level-up",
         "level_learned": 46
       },
       {
@@ -1715,27 +3043,7 @@
       {
         "name": "Heal Pulse",
         "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
-        "name": "Heal Pulse",
-        "learn_method": "level-up",
-        "level_learned": 65
-      },
-      {
-        "name": "Heal Pulse",
-        "learn_method": "level-up",
         "level_learned": 16
-      },
-      {
-        "name": "Reflect Type",
-        "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
-        "name": "Reflect Type",
-        "learn_method": "level-up",
-        "level_learned": 70
       },
       {
         "name": "Reflect Type",
@@ -1758,7 +3066,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "BDSP": [
       {
         "name": "Cut",
         "learn_method": "machine",
@@ -1766,11 +3074,6 @@
       },
       {
         "name": "Fly",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Body Slam",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1835,11 +3138,6 @@
         "level_learned": 0
       },
       {
-        "name": "Agility",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Double Team",
         "learn_method": "machine",
         "level_learned": 0
@@ -1865,11 +3163,6 @@
         "level_learned": 0
       },
       {
-        "name": "Swift",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Dream Eater",
         "learn_method": "machine",
         "level_learned": 0
@@ -1885,32 +3178,12 @@
         "level_learned": 0
       },
       {
-        "name": "Tri Attack",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Substitute",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
-        "name": "Snore",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Protect",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Icy Wind",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Outrage",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1928,11 +3201,6 @@
         "name": "Charm",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Charm",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Swagger",
@@ -1965,11 +3233,6 @@
         "level_learned": 25
       },
       {
-        "name": "Baton Pass",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Rain Dance",
         "learn_method": "machine",
         "level_learned": 0
@@ -1990,16 +3253,6 @@
         "level_learned": 0
       },
       {
-        "name": "Future Sight",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Whirlpool",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Facade",
         "learn_method": "machine",
         "level_learned": 0
@@ -2010,24 +3263,9 @@
         "level_learned": 5
       },
       {
-        "name": "Helping Hand",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Trick",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Wish",
         "learn_method": "level-up",
         "level_learned": 30
-      },
-      {
-        "name": "Dive",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Mist Ball",
@@ -2046,11 +3284,6 @@
       },
       {
         "name": "Calm Mind",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Dragon Dance",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -2085,16 +3318,6 @@
         "level_learned": 75
       },
       {
-        "name": "Aura Sphere",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Air Slash",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Dragon Pulse",
         "learn_method": "level-up",
         "level_learned": 45
@@ -2120,19 +3343,9 @@
         "level_learned": 0
       },
       {
-        "name": "Psycho Cut",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Zen Headbutt",
         "learn_method": "level-up",
         "level_learned": 40
-      },
-      {
-        "name": "Zen Headbutt",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Defog",
@@ -2160,34 +3373,9 @@
         "level_learned": 65
       },
       {
-        "name": "Psyshock",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Magic Room",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Round",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Stored Power",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Stored Power",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Ally Switch",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Heal Pulse",
@@ -2200,9 +3388,341 @@
         "level_learned": 55
       },
       {
-        "name": "Retaliate",
+        "name": "Bulldoze",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ],
+    "SM": [
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psywave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Wish",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Refresh",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Mist Ball",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Healing Wish",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Healing Wish",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Psycho Shift",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Guard Split",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Psyshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stored Power",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Heal Pulse",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Reflect Type",
+        "learn_method": "level-up",
+        "level_learned": 36
       },
       {
         "name": "Bulldoze",
@@ -2210,27 +3730,12 @@
         "level_learned": 0
       },
       {
-        "name": "Mystical Fire",
+        "name": "Confide",
         "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Breaking Swipe",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Scale Shot",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Dual Wingbeat",
-        "learn_method": "tutor",
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "USUM": [
       {
         "name": "Fly",
         "learn_method": "machine",
@@ -2667,7 +4172,414 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SWSH": [
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tri Attack",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Baton Pass",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Future Sight",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Whirlpool",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wish",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist Ball",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Dragon Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Healing Wish",
+        "learn_method": "level-up",
+        "level_learned": 70
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Psycho Shift",
+        "learn_method": "level-up",
+        "level_learned": 75
+      },
+      {
+        "name": "Aura Sphere",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psycho Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Guard Split",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Psyshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magic Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stored Power",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Stored Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ally Switch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heal Pulse",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Reflect Type",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mystical Fire",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Breaking Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scale Shot",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dual Wingbeat",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "SV": [
       {
         "name": "Fly",
         "learn_method": "machine",
@@ -3092,6 +5004,115 @@
         "name": "Alluring Voice",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "White 2": [
+      {
+        "location": "Dreamyard Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 68,
+        "maxLevel": 68
+      }
+    ],
+    "Ruby": [
+      {
+        "location": "Southern Island Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      }
+    ],
+    "Emerald": [
+      {
+        "location": "Southern Island Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Roaming Hoenn Area",
+        "method": "Roaming Grass",
+        "chance": 25,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Roaming Hoenn Area",
+        "method": "Roaming Water",
+        "chance": 25,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Southern Island Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Southern Island Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Southern Island Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Roaming Johto Area",
+        "method": "Roaming Grass",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 35
+      }
+    ],
+    "Sapphire": [
+      {
+        "location": "Roaming Hoenn Area",
+        "method": "Roaming Grass",
+        "chance": 25,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Roaming Hoenn Area",
+        "method": "Roaming Water",
+        "chance": 25,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Ultra Space Wilds Waterfall",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ultra Space Ultra Space Wilds Water",
+        "method": "Only One",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
       }
     ]
   }

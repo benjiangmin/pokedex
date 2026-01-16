@@ -40,7 +40,7 @@
   "isMythical": false,
   "category": "Fireworks Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Fire Punch",
         "learn_method": "machine",
@@ -317,7 +317,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "USUM": [
       {
         "name": "Ember",
         "learn_method": "level-up",
@@ -607,6 +607,24 @@
         "name": "Mind Blown",
         "learn_method": "level-up",
         "level_learned": 59
+      }
+    ]
+  },
+  "locations": {
+    "Ultra Sun": [
+      {
+        "location": "Poni Grove Area",
+        "method": "Walk",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Poni Grove Area",
+        "method": "Only One",
+        "chance": 15,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Garchomp Mega Z"
+    "english": "Garchomp (Mega Z)"
   },
   "type": [
     "Dragon"
@@ -46,6 +46,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Garchomp",
+      "to": "Garchomp (Mega Z)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-iv",
@@ -57,5 +66,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Mach Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

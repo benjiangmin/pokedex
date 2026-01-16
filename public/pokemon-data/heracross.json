@@ -31,7 +31,17 @@
     "Guts",
     "Moxie"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Heracross",
+      "to": "Heracross (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/214.png",
@@ -42,7 +52,7 @@
   "isMythical": false,
   "category": "Single Horn Pokémon",
   "moves": {
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Swords Dance",
         "learn_method": "tutor",
@@ -294,7 +304,556 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "FRLG": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Horn Attack",
+        "learn_method": "level-up",
+        "level_learned": 6
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Counter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "DPP": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Horn Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Revenge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Close Combat",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vacuum Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "HGSS": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -631,7 +1190,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -663,6 +1222,308 @@
         "level_learned": 31
       },
       {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Revenge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Close Combat",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BW2": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Horn Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
         "name": "Take Down",
         "learn_method": "level-up",
         "level_learned": 28
@@ -686,11 +1547,6 @@
         "name": "Low Kick",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Counter",
-        "learn_method": "level-up",
-        "level_learned": 25
       },
       {
         "name": "Counter",
@@ -815,17 +1671,12 @@
       {
         "name": "Megahorn",
         "learn_method": "level-up",
-        "level_learned": 55
+        "level_learned": 46
       },
       {
         "name": "Megahorn",
         "learn_method": "egg",
         "level_learned": 0
-      },
-      {
-        "name": "Megahorn",
-        "learn_method": "level-up",
-        "level_learned": 46
       },
       {
         "name": "Pursuit",
@@ -875,17 +1726,12 @@
       {
         "name": "Brick Break",
         "learn_method": "level-up",
-        "level_learned": 19
+        "level_learned": 25
       },
       {
         "name": "Brick Break",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Brick Break",
-        "learn_method": "level-up",
-        "level_learned": 25
       },
       {
         "name": "Knock Off",
@@ -900,17 +1746,12 @@
       {
         "name": "Aerial Ace",
         "learn_method": "level-up",
-        "level_learned": 13
+        "level_learned": 10
       },
       {
         "name": "Aerial Ace",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Aerial Ace",
-        "learn_method": "level-up",
-        "level_learned": 10
       },
       {
         "name": "Iron Defense",
@@ -924,16 +1765,6 @@
       },
       {
         "name": "Feint",
-        "learn_method": "level-up",
-        "level_learned": 49
-      },
-      {
-        "name": "Feint",
-        "learn_method": "level-up",
-        "level_learned": 37
-      },
-      {
-        "name": "Close Combat",
         "learn_method": "level-up",
         "level_learned": 37
       },
@@ -1018,7 +1849,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -1040,11 +1871,6 @@
         "level_learned": 7
       },
       {
-        "name": "Fury Attack",
-        "learn_method": "level-up",
-        "level_learned": 25
-      },
-      {
         "name": "Tackle",
         "learn_method": "level-up",
         "level_learned": 1
@@ -1053,6 +1879,343 @@
         "name": "Take Down",
         "learn_method": "level-up",
         "level_learned": 28
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Pin Missile",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Revenge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Arm Thrust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Blast",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Close Combat",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Chip Away",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Horn Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
       },
       {
         "name": "Take Down",
@@ -1162,11 +2325,6 @@
       {
         "name": "Reversal",
         "learn_method": "level-up",
-        "level_learned": 43
-      },
-      {
-        "name": "Reversal",
-        "learn_method": "level-up",
         "level_learned": 46
       },
       {
@@ -1212,17 +2370,12 @@
       {
         "name": "Megahorn",
         "learn_method": "level-up",
-        "level_learned": 46
+        "level_learned": 37
       },
       {
         "name": "Megahorn",
         "learn_method": "egg",
         "level_learned": 0
-      },
-      {
-        "name": "Megahorn",
-        "learn_method": "level-up",
-        "level_learned": 37
       },
       {
         "name": "Pursuit",
@@ -1272,17 +2425,12 @@
       {
         "name": "Brick Break",
         "learn_method": "level-up",
-        "level_learned": 25
+        "level_learned": 28
       },
       {
         "name": "Brick Break",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Brick Break",
-        "learn_method": "level-up",
-        "level_learned": 28
       },
       {
         "name": "Knock Off",
@@ -1337,17 +2485,7 @@
       {
         "name": "Feint",
         "learn_method": "level-up",
-        "level_learned": 37
-      },
-      {
-        "name": "Feint",
-        "learn_method": "level-up",
         "level_learned": 7
-      },
-      {
-        "name": "Close Combat",
-        "learn_method": "level-up",
-        "level_learned": 34
       },
       {
         "name": "Close Combat",
@@ -1430,7 +2568,329 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Horn Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Pin Missile",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Pursuit",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Revenge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Arm Thrust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Blast",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Close Combat",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Chip Away",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brutal Swing",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -1787,7 +3247,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Swords Dance",
         "learn_method": "level-up",
@@ -1795,11 +3255,6 @@
       },
       {
         "name": "Swords Dance",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Cut",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1874,22 +3329,12 @@
         "level_learned": 0
       },
       {
-        "name": "Strength",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Earthquake",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
         "name": "Dig",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Double Team",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1959,11 +3404,6 @@
         "level_learned": 0
       },
       {
-        "name": "Swagger",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Attract",
         "learn_method": "machine",
         "level_learned": 0
@@ -1994,17 +3434,7 @@
         "level_learned": 0
       },
       {
-        "name": "Rock Smash",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Facade",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Focus Punch",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -2042,11 +3472,6 @@
         "name": "Aerial Ace",
         "learn_method": "level-up",
         "level_learned": 15
-      },
-      {
-        "name": "Aerial Ace",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Iron Defense",
@@ -2169,7 +3594,299 @@
         "level_learned": 0
       }
     ],
-    "Legends: Arceus": [
+    "BDSP": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Horn Attack",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Pin Missile",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Megahorn",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Revenge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Blast",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Close Combat",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Slash",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Throat Chop",
+        "learn_method": "level-up",
+        "level_learned": 40
+      }
+    ],
+    "legends arceus": [
       {
         "name": "Swords Dance",
         "learn_method": "level-up",
@@ -2216,7 +3933,7 @@
         "level_learned": 47
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Swords Dance",
         "learn_method": "level-up",
@@ -2593,7 +4310,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 2": [
+    "GSC": [
       {
         "name": "Cut",
         "learn_method": "machine",
@@ -2763,6 +4480,414 @@
         "name": "Rock Smash",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Gold": [
+      {
+        "location": "Johto Route 29 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 30 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 31 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 32 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 33 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 42 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 43 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 44 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 45 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 46 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      }
+    ],
+    "Silver": [
+      {
+        "location": "Johto Route 29 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 30 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 31 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 32 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 33 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 42 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 43 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 44 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 45 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 46 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Johto Route 33 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 42 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 44 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 45 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 46 Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Azalea Town Area",
+        "method": "Headbutt High",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 10
+      }
+    ],
+    "Ruby": [
+      {
+        "location": "Hoenn Safari Zone Neacro Bike Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Hoenn Safari Zone Neacro Bike Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 29,
+        "maxLevel": 29
+      }
+    ],
+    "Sapphire": [
+      {
+        "location": "Hoenn Safari Zone Neacro Bike Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Hoenn Safari Zone Neacro Bike Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 29,
+        "maxLevel": 29
+      }
+    ],
+    "Emerald": [
+      {
+        "location": "Hoenn Safari Zone Neacro Bike Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Hoenn Safari Zone Neacro Bike Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 29,
+        "maxLevel": 29
+      }
+    ],
+    "Firered": [
+      {
+        "location": "Pattern Bush Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Pattern Bush Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Pattern Bush Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 25
+      },
+      {
+        "location": "Pattern Bush Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Pattern Bush Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Pattern Bush Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Pattern Bush Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 25
+      },
+      {
+        "location": "Pattern Bush Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Black": [
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Dark Grass",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      }
+    ],
+    "White": [
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Dark Grass",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Dark Grass",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Dark Grass",
+        "chance": 5,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Lostlorn Forest Area",
+        "method": "Dark Grass",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Lostlorn Forest Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 12 Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kalos Route 12 Area",
+        "method": "Yellow Flowers",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 27
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Poni Grove Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 52,
+        "maxLevel": 55
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Poni Grove Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 52,
+        "maxLevel": 55
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Chien Pao"
+    "english": "Chien (Pao)"
   },
   "type": [
     "Dark",
@@ -33,14 +33,14 @@
   "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png",
-    "animated": null
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png"
   },
   "description": "The hatred of those who perished by the sword long ago has clad itself in snow and become a Pokémon.",
   "isLegendary": true,
   "isMythical": false,
   "category": "Ruinous Pokémon",
   "moves": {
-    "Gen 9": [
+    "SV": [
       {
         "name": "Swords Dance",
         "learn_method": "level-up",
@@ -302,5 +302,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

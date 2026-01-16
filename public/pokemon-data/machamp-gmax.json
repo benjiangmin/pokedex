@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Machamp Gmax"
+    "english": "Machamp (Gmax)"
   },
   "type": [
     "Fighting"
@@ -49,6 +49,15 @@
           "trigger": "Trade"
         }
       ]
+    },
+    {
+      "from": "Machamp",
+      "to": "Machamp (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -60,5 +69,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Superpower Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Centiskorch Gmax"
+    "english": "Centiskorch (Gmax)"
   },
   "type": [
     "Fire",
@@ -41,6 +41,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Centiskorch",
+      "to": "Centiskorch (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -52,5 +61,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Radiator Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

@@ -29,7 +29,17 @@
     "Battle Armor",
     "Defiant"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Falinks",
+      "to": "Falinks (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/870.png",
@@ -40,7 +50,7 @@
   "isMythical": false,
   "category": "Formation Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -297,7 +307,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -569,5 +579,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

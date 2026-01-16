@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Eevee Gmax"
+    "english": "Eevee (Gmax)"
   },
   "type": [
     "Normal"
@@ -142,6 +142,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Eevee",
+      "to": "Eevee (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -153,5 +162,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Evolution Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

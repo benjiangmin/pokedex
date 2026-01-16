@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Urshifu Single Strike"
+    "english": "Urshifu (Single Strike)"
   },
   "type": [
     "Fighting",
@@ -41,6 +41,24 @@
           "trigger": "Tower Of Waters"
         }
       ]
+    },
+    {
+      "from": "Urshifu (Single Strike)",
+      "to": "Urshifu (Single Strike Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
+    },
+    {
+      "from": "Urshifu (Single Strike)",
+      "to": "Urshifu (Rapid Strike Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -53,7 +71,7 @@
   "isMythical": false,
   "category": "Wushu Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Mega Punch",
         "learn_method": "machine",
@@ -435,7 +453,7 @@
         "level_learned": 1
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Fire Punch",
         "learn_method": "machine",
@@ -787,5 +805,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

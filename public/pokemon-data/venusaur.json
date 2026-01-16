@@ -50,6 +50,24 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Venusaur",
+      "to": "Venusaur (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    },
+    {
+      "from": "Venusaur",
+      "to": "Venusaur (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -62,7 +80,7 @@
   "isMythical": false,
   "category": "Seed Pokémon",
   "moves": {
-    "Gen 1": [
+    "RBY": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -199,7 +217,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Swords Dance",
         "learn_method": "tutor",
@@ -439,6 +457,213 @@
         "name": "Bullet Seed",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ],
+    "FRLG": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Razor Leaf",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Sleep Powder",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "machine",
+        "level_learned": 0
       },
       {
         "name": "Frenzy Plant",
@@ -446,7 +671,304 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "DPP": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 3
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Razor Leaf",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Sleep Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Petal Dance",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frenzy Plant",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Climb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "HGSS": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -763,7 +1285,264 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 3
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Razor Leaf",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Sleep Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Petal Dance",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frenzy Plant",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Echoed Voice",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Pledge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BW2": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -1070,7 +1849,284 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 3
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Razor Leaf",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Sleep Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Petal Dance",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nature Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frenzy Plant",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Echoed Voice",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Pledge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Petal Blizzard",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -1397,15 +2453,10 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Bind",
-        "learn_method": "tutor",
         "level_learned": 0
       },
       {
@@ -1419,16 +2470,6 @@
         "level_learned": 9
       },
       {
-        "name": "Vine Whip",
-        "learn_method": "level-up",
-        "level_learned": 5
-      },
-      {
-        "name": "Headbutt",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Tackle",
         "learn_method": "level-up",
         "level_learned": 1
@@ -1439,19 +2480,9 @@
         "level_learned": 15
       },
       {
-        "name": "Take Down",
-        "learn_method": "level-up",
-        "level_learned": 22
-      },
-      {
         "name": "Double Edge",
         "learn_method": "level-up",
         "level_learned": 31
-      },
-      {
-        "name": "Double Edge",
-        "learn_method": "level-up",
-        "level_learned": 58
       },
       {
         "name": "Growl",
@@ -1474,11 +2505,6 @@
         "level_learned": 0
       },
       {
-        "name": "Mega Drain",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Leech Seed",
         "learn_method": "level-up",
         "level_learned": 1
@@ -1489,29 +2515,14 @@
         "level_learned": 7
       },
       {
-        "name": "Leech Seed",
-        "learn_method": "level-up",
-        "level_learned": 9
-      },
-      {
         "name": "Growth",
         "learn_method": "level-up",
         "level_learned": 28
       },
       {
-        "name": "Growth",
-        "learn_method": "level-up",
-        "level_learned": 44
-      },
-      {
         "name": "Razor Leaf",
         "learn_method": "level-up",
         "level_learned": 20
-      },
-      {
-        "name": "Razor Leaf",
-        "learn_method": "level-up",
-        "level_learned": 31
       },
       {
         "name": "Solar Beam",
@@ -1524,29 +2535,14 @@
         "level_learned": 0
       },
       {
-        "name": "Solar Beam",
-        "learn_method": "level-up",
-        "level_learned": 71
-      },
-      {
         "name": "Poison Powder",
-        "learn_method": "level-up",
-        "level_learned": 13
-      },
-      {
-        "name": "Poison Powder",
-        "learn_method": "level-up",
-        "level_learned": 14
-      },
-      {
-        "name": "Sleep Powder",
         "learn_method": "level-up",
         "level_learned": 13
       },
       {
         "name": "Sleep Powder",
         "learn_method": "level-up",
-        "level_learned": 14
+        "level_learned": 13
       },
       {
         "name": "Petal Dance",
@@ -1579,14 +2575,276 @@
         "level_learned": 0
       },
       {
-        "name": "Reflect",
+        "name": "Rest",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
-        "name": "Amnesia",
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nature Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frenzy Plant",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Echoed Voice",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Pledge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Petal Blizzard",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Vine Whip",
         "learn_method": "level-up",
         "level_learned": 1
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 3
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Razor Leaf",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Sleep Powder",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Petal Dance",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Petal Dance",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
       },
       {
         "name": "Rest",
@@ -1729,11 +2987,6 @@
         "level_learned": 0
       },
       {
-        "name": "Power Whip",
-        "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
         "name": "Grass Knot",
         "learn_method": "machine",
         "level_learned": 0
@@ -1784,7 +3037,314 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Razor Leaf",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "level-up",
+        "level_learned": 58
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Sleep Powder",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Petal Dance",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Weather Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bullet Seed",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frenzy Plant",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Magical Leaf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Worry Seed",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Seed Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earth Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leaf Storm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Whip",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Venoshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Pledge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Petal Blizzard",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Petal Blizzard",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Grassy Terrain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stomping Tantrum",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grassy Glide",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Terrain Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "BDSP": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -1804,11 +3364,6 @@
         "name": "Tackle",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Body Slam",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Take Down",
@@ -1901,11 +3456,6 @@
         "level_learned": 0
       },
       {
-        "name": "Amnesia",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Flash",
         "learn_method": "machine",
         "level_learned": 0
@@ -1921,11 +3471,6 @@
         "level_learned": 0
       },
       {
-        "name": "Snore",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Protect",
         "learn_method": "machine",
         "level_learned": 0
@@ -1936,22 +3481,12 @@
         "level_learned": 0
       },
       {
-        "name": "Outrage",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Giga Drain",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
         "name": "Endure",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Charm",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -2006,16 +3541,6 @@
         "level_learned": 0
       },
       {
-        "name": "Helping Hand",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Weather Ball",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Bullet Seed",
         "learn_method": "machine",
         "level_learned": 0
@@ -2023,11 +3548,6 @@
       {
         "name": "Frenzy Plant",
         "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Magical Leaf",
-        "learn_method": "machine",
         "level_learned": 0
       },
       {
@@ -2041,17 +3561,7 @@
         "level_learned": 20
       },
       {
-        "name": "Seed Bomb",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Energy Ball",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Earth Power",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -2066,33 +3576,8 @@
         "level_learned": 0
       },
       {
-        "name": "Leaf Storm",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Power Whip",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Grass Knot",
         "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Venoshock",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Round",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Grass Pledge",
-        "learn_method": "tutor",
         "level_learned": 0
       },
       {
@@ -2114,29 +3599,9 @@
         "name": "Petal Blizzard",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Grassy Terrain",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Stomping Tantrum",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Grassy Glide",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Terrain Pulse",
-        "learn_method": "tutor",
-        "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -2458,7 +3923,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 2": [
+    "GSC": [
       {
         "name": "Cut",
         "learn_method": "machine",
@@ -2654,6 +4119,164 @@
         "learn_method": "machine",
         "level_learned": 0
       }
+    ],
+    "let's go": [
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vine Whip",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "level-up",
+        "level_learned": 58
+      },
+      {
+        "name": "Growl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mega Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leech Seed",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Growth",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Razor Leaf",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "level-up",
+        "level_learned": 71
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poison Powder",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Sleep Powder",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Petal Dance",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Petal Dance",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
     ]
-  }
+  },
+  "locations": {}
 }

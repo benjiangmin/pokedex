@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Meowstic Mega"
+    "english": "Meowstic (Mega)"
   },
   "type": [
     "Psychic"
@@ -36,6 +36,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Meowstic (Male)",
+      "to": "Meowstic (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-vi",
@@ -47,5 +56,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Constraint Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

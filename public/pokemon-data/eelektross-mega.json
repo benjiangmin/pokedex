@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Eelektross Mega"
+    "english": "Eelektross (Mega)"
   },
   "type": [
     "Electric"
@@ -46,6 +46,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Eelektross",
+      "to": "Eelektross (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-v",
@@ -57,5 +66,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "EleFish Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

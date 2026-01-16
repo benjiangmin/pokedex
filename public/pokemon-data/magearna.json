@@ -29,7 +29,26 @@
   "abilities": [
     "Soul Heart"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Magearna",
+      "to": "Magearna (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    },
+    {
+      "from": "Magearna",
+      "to": "Magearna (Original Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/801.png",
@@ -40,7 +59,7 @@
   "isMythical": true,
   "category": "Artificial Pokémon",
   "moves": {
-    "Gen 9": [
+    "SV": [
       {
         "name": "Body Slam",
         "learn_method": "machine",
@@ -447,7 +466,274 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Sonic Boom",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psybeam",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Aurora Beam",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defense Curl",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Explosion",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mind Reader",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pain Split",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 57
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Embargo",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trump Card",
+        "learn_method": "level-up",
+        "level_learned": 97
+      },
+      {
+        "name": "Lucky Chant",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Heart Swap",
+        "learn_method": "level-up",
+        "level_learned": 89
+      },
+      {
+        "name": "Aura Sphere",
+        "learn_method": "level-up",
+        "level_learned": 81
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Shot",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Synchronoise",
+        "learn_method": "level-up",
+        "level_learned": 73
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Echoed Voice",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shift Gear",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Volt Switch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crafty Shield",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gear Up",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fleur Cannon",
+        "learn_method": "level-up",
+        "level_learned": 49
+      }
+    ],
+    "USUM": [
       {
         "name": "Sonic Boom",
         "learn_method": "level-up",
@@ -774,7 +1060,7 @@
         "level_learned": 49
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Ice Beam",
         "learn_method": "machine",
@@ -1104,6 +1390,26 @@
         "name": "Misty Explosion",
         "learn_method": "tutor",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Ultra Sun": [
+      {
+        "location": "Hauoli City Main",
+        "method": "Only One",
+        "chance": 15,
+        "minLevel": 50,
+        "maxLevel": 50
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Hauoli City Main",
+        "method": "Only One",
+        "chance": 15,
+        "minLevel": 50,
+        "maxLevel": 50
       }
     ]
   }

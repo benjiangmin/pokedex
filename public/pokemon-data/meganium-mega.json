@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Meganium Mega"
+    "english": "Meganium (Mega)"
   },
   "type": [
     "Grass",
@@ -47,6 +47,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Meganium",
+      "to": "Meganium (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-ii",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Herb Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

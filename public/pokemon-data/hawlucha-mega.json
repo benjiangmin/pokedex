@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Hawlucha Mega"
+    "english": "Hawlucha (Mega)"
   },
   "type": [
     "Fighting",
@@ -27,7 +27,17 @@
   "weight": 25,
   "height": 1,
   "abilities": [],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Hawlucha",
+      "to": "Hawlucha (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-vi",
   "sprites": {
     "static": null,
@@ -37,5 +47,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Wrestling Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

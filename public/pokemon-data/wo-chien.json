@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Wo Chien"
+    "english": "Wo (Chien)"
   },
   "type": [
     "Dark",
@@ -33,14 +33,14 @@
   "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png",
-    "animated": null
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png"
   },
   "description": "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
   "isLegendary": true,
   "isMythical": false,
   "category": "Ruinous Pokémon",
   "moves": {
-    "Gen 9": [
+    "SV": [
       {
         "name": "Body Slam",
         "learn_method": "machine",
@@ -337,5 +337,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

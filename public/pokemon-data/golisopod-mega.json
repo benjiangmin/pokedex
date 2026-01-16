@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Golisopod Mega"
+    "english": "Golisopod (Mega)"
   },
   "type": [
     "Bug",
@@ -37,6 +37,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Golisopod",
+      "to": "Golisopod (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-vii",
@@ -48,5 +57,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Hard Scale Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

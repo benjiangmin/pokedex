@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Pikachu Gmax"
+    "english": "Pikachu (Gmax)"
   },
   "type": [
     "Electric"
@@ -49,6 +49,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Pikachu",
+      "to": "Pikachu (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -60,5 +69,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Mouse Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

@@ -53,7 +53,54 @@
   "isMythical": false,
   "category": "Tiny Bee Pokémon",
   "moves": {
-    "Gen 4": [
+    "DPP": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swift",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Endeavor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "HGSS": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -115,7 +162,24 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 13
+      }
+    ],
+    "BW2": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -157,7 +221,29 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bug Buzz",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 13
+      }
+    ],
+    "ORAS": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -199,7 +285,29 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bug Buzz",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 13
+      }
+    ],
+    "USUM": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -241,7 +349,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -278,7 +386,34 @@
         "level_learned": 0
       }
     ],
-    "Legends: Arceus": [
+    "BDSP": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bug Buzz",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Struggle Bug",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "legends arceus": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -290,7 +425,7 @@
         "level_learned": 6
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -350,6 +485,160 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Black": [
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 47,
+        "maxLevel": 47
+      },
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 57,
+        "maxLevel": 57
+      }
+    ],
+    "White": [
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 47,
+        "maxLevel": 47
+      },
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 57,
+        "maxLevel": 57
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Lostlorn Forest Area",
+        "method": "Dark Grass",
+        "chance": 10,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Lostlorn Forest Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Unova Route 12 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Lostlorn Forest Area",
+        "method": "Dark Grass",
+        "chance": 10,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Lostlorn Forest Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 4 Area",
+        "method": "Yellow Flowers",
+        "chance": 10,
+        "minLevel": 6,
+        "maxLevel": 6
+      },
+      {
+        "location": "Kalos Route 4 Area",
+        "method": "Yellow Flowers",
+        "chance": 10,
+        "minLevel": 7,
+        "maxLevel": 7
+      },
+      {
+        "location": "Kalos Route 4 Area",
+        "method": "Yellow Flowers",
+        "chance": 10,
+        "minLevel": 8,
+        "maxLevel": 8
+      },
+      {
+        "location": "Kalos Route 4 Area",
+        "method": "Red Flowers",
+        "chance": 10,
+        "minLevel": 8,
+        "maxLevel": 8
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 4 Area",
+        "method": "Yellow Flowers",
+        "chance": 10,
+        "minLevel": 6,
+        "maxLevel": 6
+      },
+      {
+        "location": "Kalos Route 4 Area",
+        "method": "Yellow Flowers",
+        "chance": 10,
+        "minLevel": 7,
+        "maxLevel": 7
+      },
+      {
+        "location": "Kalos Route 4 Area",
+        "method": "Yellow Flowers",
+        "chance": 10,
+        "minLevel": 8,
+        "maxLevel": 8
+      },
+      {
+        "location": "Kalos Route 4 Area",
+        "method": "Red Flowers",
+        "chance": 10,
+        "minLevel": 8,
+        "maxLevel": 8
       }
     ]
   }
