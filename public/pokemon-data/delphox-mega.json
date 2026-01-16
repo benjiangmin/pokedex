@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Delphox Mega"
+    "english": "Delphox (Mega)"
   },
   "type": [
     "Fire",
@@ -47,6 +47,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Delphox",
+      "to": "Delphox (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-vi",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Fox Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

@@ -50,7 +50,7 @@
   "isMythical": false,
   "category": "Poison Pin Pokémon",
   "moves": {
-    "Gen 7": [
+    "USUM": [
       {
         "name": "Fury Attack",
         "learn_method": "level-up",
@@ -247,7 +247,7 @@
         "level_learned": 23
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Fury Attack",
         "learn_method": "level-up",
@@ -427,6 +427,26 @@
         "name": "Venom Drench",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Ultra Sun": [
+      {
+        "location": "Ultra Megalopolis Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Ultra Megalopolis Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
       }
     ]
   }

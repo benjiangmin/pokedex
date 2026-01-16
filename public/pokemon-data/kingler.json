@@ -40,6 +40,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Kingler",
+      "to": "Kingler (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -52,7 +61,7 @@
   "isMythical": false,
   "category": "Pincer Pokémon",
   "moves": {
-    "Gen 1": [
+    "RBY": [
       {
         "name": "Vice Grip",
         "learn_method": "level-up",
@@ -189,7 +198,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 2": [
+    "GSC": [
       {
         "name": "Vice Grip",
         "learn_method": "level-up",
@@ -371,7 +380,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Vice Grip",
         "learn_method": "level-up",
@@ -473,11 +482,6 @@
         "level_learned": 16
       },
       {
-        "name": "Harden",
-        "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
         "name": "Bubble",
         "learn_method": "level-up",
         "level_learned": 1
@@ -508,11 +512,6 @@
         "level_learned": 0
       },
       {
-        "name": "Flail",
-        "learn_method": "level-up",
-        "level_learned": 65
-      },
-      {
         "name": "Protect",
         "learn_method": "level-up",
         "level_learned": 49
@@ -521,11 +520,6 @@
         "name": "Protect",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Protect",
-        "learn_method": "level-up",
-        "level_learned": 42
       },
       {
         "name": "Mud Slap",
@@ -560,6 +554,218 @@
       {
         "name": "Sleep Talk",
         "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Shot",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "FRLG": [
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Guillotine",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stomp",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Crabhammer",
+        "learn_method": "level-up",
+        "level_learned": 57
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
         "level_learned": 0
       },
       {
@@ -628,7 +834,319 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "DPP": [
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Guillotine",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slam",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Stomp",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Crabhammer",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 63
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ancient Power",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Superpower",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Knock Off",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Shot",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Brine",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "HGSS": [
       {
         "name": "Vice Grip",
         "learn_method": "level-up",
@@ -945,7 +1463,274 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW": [
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Guillotine",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slam",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Stomp",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Crabhammer",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 63
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Shot",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hone Claws",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wide Guard",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Quash",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BW2": [
       {
         "name": "Vice Grip",
         "learn_method": "level-up",
@@ -1242,7 +2027,279 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Guillotine",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slam",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Stomp",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Crabhammer",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 63
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Shot",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hone Claws",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wide Guard",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Quash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
       {
         "name": "Vice Grip",
         "learn_method": "level-up",
@@ -1554,7 +2611,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
       {
         "name": "Vice Grip",
         "learn_method": "level-up",
@@ -1571,11 +2628,6 @@
         "level_learned": 37
       },
       {
-        "name": "Guillotine",
-        "learn_method": "level-up",
-        "level_learned": 56
-      },
-      {
         "name": "Swords Dance",
         "learn_method": "machine",
         "level_learned": 0
@@ -1586,24 +2638,9 @@
         "level_learned": 44
       },
       {
-        "name": "Slam",
-        "learn_method": "level-up",
-        "level_learned": 37
-      },
-      {
         "name": "Stomp",
         "learn_method": "level-up",
         "level_learned": 25
-      },
-      {
-        "name": "Stomp",
-        "learn_method": "level-up",
-        "level_learned": 23
-      },
-      {
-        "name": "Headbutt",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Leer",
@@ -1636,17 +2673,7 @@
         "level_learned": 15
       },
       {
-        "name": "Bubble Beam",
-        "learn_method": "level-up",
-        "level_learned": 18
-      },
-      {
         "name": "Hyper Beam",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Dig",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1654,11 +2681,6 @@
         "name": "Toxic",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Agility",
-        "learn_method": "level-up",
-        "level_learned": 1
       },
       {
         "name": "Double Team",
@@ -1671,21 +2693,6 @@
         "level_learned": 11
       },
       {
-        "name": "Harden",
-        "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
-        "name": "Harden",
-        "learn_method": "level-up",
-        "level_learned": 14
-      },
-      {
-        "name": "Amnesia",
-        "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
         "name": "Bubble",
         "learn_method": "level-up",
         "level_learned": 1
@@ -1696,9 +2703,251 @@
         "level_learned": 56
       },
       {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 63
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Shot",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wide Guard",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Quash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Guillotine",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slam",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Stomp",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
         "name": "Crabhammer",
         "learn_method": "level-up",
-        "level_learned": 41
+        "level_learned": 56
       },
       {
         "name": "Rest",
@@ -1739,11 +2988,6 @@
         "name": "Protect",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Protect",
-        "learn_method": "level-up",
-        "level_learned": 27
       },
       {
         "name": "Icy Wind",
@@ -1906,7 +3150,164 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "let's go": [
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Vice Grip",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Guillotine",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Slam",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Stomp",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Crabhammer",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Superpower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "SWSH": [
       {
         "name": "Guillotine",
         "learn_method": "level-up",
@@ -1919,11 +3320,6 @@
       },
       {
         "name": "Swords Dance",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Cut",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1983,22 +3379,12 @@
         "level_learned": 0
       },
       {
-        "name": "Strength",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Dig",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
         "name": "Agility",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Double Team",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -2073,11 +3459,6 @@
         "level_learned": 0
       },
       {
-        "name": "Swagger",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Attract",
         "learn_method": "machine",
         "level_learned": 0
@@ -2094,11 +3475,6 @@
       },
       {
         "name": "Rain Dance",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Rock Smash",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -2149,11 +3525,6 @@
       },
       {
         "name": "Mud Shot",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Water Pulse",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -2231,6 +3602,1013 @@
         "name": "Liquidation",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ],
+    "BDSP": [
+      {
+        "name": "Guillotine",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Swords Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Slam",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Stomp",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Crabhammer",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Shot",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hammer Arm",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Brine",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "X Scissor",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Wide Guard",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Razor Shell",
+        "learn_method": "level-up",
+        "level_learned": 36
+      }
+    ]
+  },
+  "locations": {
+    "Gold": [
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Union Cave B2f",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Route 34 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Olivine City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Sea Route 40 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands 1f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands B2f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands B3f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cianwood City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Silver": [
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Union Cave B2f",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Route 34 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Olivine City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Sea Route 40 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands 1f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands B2f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands B3f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cianwood City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Union Cave B2f",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Route 34 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Olivine City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Sea Route 40 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands 1f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands B2f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands B3f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cianwood City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Union Cave B2f",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Route 34 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Olivine City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Sea Route 40 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands 1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands B2f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cianwood City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Route 47 Inside Cave",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Johto Route 47 Inside Cave",
+        "method": "Rock Smash",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 31
+      },
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Rock Smash",
+        "chance": 90,
+        "minLevel": 28,
+        "maxLevel": 31
+      },
+      {
+        "location": "Johto Safari Zone Zone Rocky Beach",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Zone Rocky Beach",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Union Cave B2f",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Route 34 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Olivine City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Sea Route 40 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands 1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Whirl Islands B2f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cianwood City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Route 47 Inside Cave",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Johto Route 47 Inside Cave",
+        "method": "Rock Smash",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 31
+      },
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Rock Smash",
+        "chance": 90,
+        "minLevel": 28,
+        "maxLevel": 31
+      },
+      {
+        "location": "Johto Safari Zone Zone Rocky Beach",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Zone Rocky Beach",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      }
+    ],
+    "Blue": [
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Super Rod",
+        "chance": 17,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Super Rod",
+        "chance": 17,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Super Rod",
+        "chance": 17,
+        "minLevel": 23,
+        "maxLevel": 23
+      }
+    ],
+    "Yellow": [
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Seafoam Islands B2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Super Rod",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 25
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kanto Sea Route 20 Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Pallet Town Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Icefall Cave Waterfall",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kindle Road Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Treasure Beach Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Bond Bridge Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Resort Gorgeous Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Water Labyrinth Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Five Isle Meadow Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Memorial Pillar Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Outcast Island Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Green Path Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Water Path Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Trainer Tower Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Tanoby Ruins Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "One Island Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Five Island Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 25,
+        "maxLevel": 35
+      }
+    ],
+    "Red": [
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Super Rod",
+        "chance": 17,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Super Rod",
+        "chance": 17,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Super Rod",
+        "chance": 17,
+        "minLevel": 23,
+        "maxLevel": 23
+      }
+    ],
+    "Black": [
+      {
+        "location": "Driftveil City Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 70
+      },
+      {
+        "location": "Unova Route 4 Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 70
+      },
+      {
+        "location": "Unova Route 13 Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 70
+      }
+    ],
+    "White": [
+      {
+        "location": "Driftveil City Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 70
+      },
+      {
+        "location": "Unova Route 4 Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 70
+      },
+      {
+        "location": "Unova Route 13 Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 70
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Virbank City Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 50,
+        "maxLevel": 70
+      },
+      {
+        "location": "Virbank Complex Outer",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 50,
+        "maxLevel": 70
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Virbank City Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 50,
+        "maxLevel": 70
+      },
+      {
+        "location": "Virbank Complex Outer",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 50,
+        "maxLevel": 70
       }
     ]
   }

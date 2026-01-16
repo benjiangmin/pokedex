@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import allMoves from "../../../moves.json";
 
 import bug from "../Images/bug.png"
@@ -35,12 +35,28 @@ export default function MovesLogicLevelUp({ pokemon }) {
         special: special, physical: physical, status: status
     }
 
-    const generations = Object.keys(pokemon.moves).sort((a, b) => {
-        return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
-    });
+    const generations = Object.keys(pokemon.moves)
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }))
+        .filter(gen => pokemon.moves[gen].some(move => move.learn_method === "level-up"));
 
     const [genIndex, setGenIndex] = useState(generations.length - 1);
-    const currentGenName = generations[genIndex];
+
+    useEffect(() => {
+        setGenIndex(generations.length - 1);
+    }, [pokemon.slug, generations.length]);
+
+    if (generations.length === 0) {
+        return (
+            <section className="moves-logic-container">
+                <section className="moves-logic-header">
+                    <h2>moves learnt by level up</h2>
+                </section>
+                <p style={{ textAlign: "center", margin: "20px", fontFamily: "Sour Gummy" }}>No level up moves found for this form.</p>
+            </section>
+        );
+    }
+
+    const currentGenName = generations[genIndex] || generations[generations.length - 1];
     const rawMoves = pokemon.moves[currentGenName] || [];
 
     const processedMoves = (() => {
@@ -84,7 +100,7 @@ export default function MovesLogicLevelUp({ pokemon }) {
                                 </section>
 
                                 <section className="type-and-category">
-                                    <img className="move-type-icons" src={typeImages[moveDetails.type]} />
+                                    <img className="move-type-icons" src={typeImages[moveDetails?.type]} />
                                     <img className="status-icons" src={categoryImages[moveDetails?.damage_class]} />
                                 </section>
 
@@ -102,7 +118,7 @@ export default function MovesLogicLevelUp({ pokemon }) {
                         );
                     })
                 ) : (
-                    <p style={{textAlign:"center", fontFamily:"Sour Gummy", margin:"3px"}}>no machine moves found for {currentGenName}</p>
+                    <p style={{ textAlign: "center", fontFamily: "Sour Gummy", margin: "3px" }}>no level up moves found for {currentGenName}</p>
                 )}
             </div>
         </section>

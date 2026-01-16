@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Emboar Mega"
+    "english": "Emboar (Mega)"
   },
   "type": [
     "Fire",
@@ -47,6 +47,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Emboar",
+      "to": "Emboar (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-v",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Mega Fire Pig Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

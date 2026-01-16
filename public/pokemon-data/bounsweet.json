@@ -62,7 +62,7 @@
   "isMythical": false,
   "category": "Fruit Pokémon",
   "moves": {
-    "Gen 9": [
+    "SV": [
       {
         "name": "Take Down",
         "learn_method": "machine",
@@ -269,7 +269,199 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Razor Leaf",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Splash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charm",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rapid Spin",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Sweet Scent",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Synthesis",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nature Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Teeter Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Grass Whistle",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Magical Leaf",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Feint",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Acupressure",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Play Rough",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Play Nice",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aromatic Mist",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
       {
         "name": "Razor Leaf",
         "learn_method": "level-up",
@@ -506,7 +698,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Razor Leaf",
         "learn_method": "level-up",
@@ -706,6 +898,40 @@
         "name": "Grassy Glide",
         "learn_method": "tutor",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Sun": [
+      {
+        "location": "Alola Route 5 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 16,
+        "maxLevel": 16
+      },
+      {
+        "location": "Lush Jungle West",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 18,
+        "maxLevel": 21
+      }
+    ],
+    "Moon": [
+      {
+        "location": "Alola Route 5 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 16,
+        "maxLevel": 16
+      },
+      {
+        "location": "Lush Jungle West",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 18,
+        "maxLevel": 21
       }
     ]
   }

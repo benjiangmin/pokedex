@@ -1,13 +1,12 @@
-import { useParams } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 import { useEffect, useState } from "react"
-
 
 import Header from "./PageComponents/Header"
 import InformationBody from "./PageComponents/InformationBody"
 
 export default function PokemonPage() {
     const { slug } = useParams()
-    
+
     const [pokemon, setPokemon] = useState(null)
     const [loading, setLoading] = useState(true)
 
@@ -23,7 +22,7 @@ export default function PokemonPage() {
                 setLoading(false)
             })
             .catch(err => {
-                console.error("error fetching pokemon details." , err)
+                console.error("error fetching pokemon details.", err)
                 setLoading(false)
             })
 
@@ -31,15 +30,6 @@ export default function PokemonPage() {
             document.body.style.backgroundColor = originalColor
         }
     }, [slug])
-
-    if (loading) {
-        return (
-            <section style={{ color: "white", textAlign: "center", marginTop: "50px" }}>
-                <Header />
-                <p>loading data...</p>
-            </section>
-        )
-    }
 
     if (!pokemon) {
         return <p style={{ color: "white" }}>Pokemon not found.</p>
@@ -51,12 +41,12 @@ export default function PokemonPage() {
             flexDirection: "column",
             alignItems: "center",
             width: "100%",
-            gap: "40px"
-        }}
-        >
+            minHeight: "100vh",
+            gap: "40px",
+        }}>
+            <Link to="/" className="home-button">home</Link>
             <Header />
             <InformationBody pokemon={pokemon} />
-
         </section>
     )
 }

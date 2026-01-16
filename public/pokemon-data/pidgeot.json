@@ -51,6 +51,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Pidgeot",
+      "to": "Pidgeot (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -63,7 +72,7 @@
   "isMythical": false,
   "category": "Bird Pokémon",
   "moves": {
-    "Gen 1": [
+    "RBY": [
       {
         "name": "Razor Wind",
         "learn_method": "machine",
@@ -190,7 +199,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "let's go": [
       {
         "name": "Razor Wind",
         "learn_method": "level-up",
@@ -204,27 +213,12 @@
       {
         "name": "Gust",
         "learn_method": "level-up",
-        "level_learned": 9
-      },
-      {
-        "name": "Gust",
-        "learn_method": "level-up",
         "level_learned": 5
       },
       {
         "name": "Wing Attack",
         "learn_method": "level-up",
-        "level_learned": 38
-      },
-      {
-        "name": "Wing Attack",
-        "learn_method": "level-up",
         "level_learned": 15
-      },
-      {
-        "name": "Whirlwind",
-        "learn_method": "level-up",
-        "level_learned": 17
       },
       {
         "name": "Whirlwind",
@@ -240,11 +234,6 @@
         "name": "Sand Attack",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Sand Attack",
-        "learn_method": "level-up",
-        "level_learned": 5
       },
       {
         "name": "Sand Attack",
@@ -274,11 +263,6 @@
       {
         "name": "Agility",
         "learn_method": "level-up",
-        "level_learned": 32
-      },
-      {
-        "name": "Agility",
-        "learn_method": "level-up",
         "level_learned": 31
       },
       {
@@ -289,17 +273,7 @@
       {
         "name": "Quick Attack",
         "learn_method": "level-up",
-        "level_learned": 13
-      },
-      {
-        "name": "Quick Attack",
-        "learn_method": "level-up",
         "level_learned": 9
-      },
-      {
-        "name": "Double Team",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Reflect",
@@ -309,17 +283,7 @@
       {
         "name": "Mirror Move",
         "learn_method": "level-up",
-        "level_learned": 56
-      },
-      {
-        "name": "Mirror Move",
-        "learn_method": "level-up",
         "level_learned": 11
-      },
-      {
-        "name": "Sky Attack",
-        "learn_method": "tutor",
-        "level_learned": 0
       },
       {
         "name": "Sky Attack",
@@ -337,78 +301,8 @@
         "level_learned": 0
       },
       {
-        "name": "Thief",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Snore",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
         "name": "Protect",
         "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Swagger",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Steel Wing",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Attract",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Sleep Talk",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Return",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Frustration",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Hidden Power",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Twister",
-        "learn_method": "level-up",
-        "level_learned": 22
-      },
-      {
-        "name": "Rain Dance",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Sunny Day",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Uproar",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Heat Wave",
-        "learn_method": "tutor",
         "level_learned": 0
       },
       {
@@ -422,38 +316,13 @@
         "level_learned": 0
       },
       {
-        "name": "Feather Dance",
-        "learn_method": "level-up",
-        "level_learned": 27
-      },
-      {
-        "name": "Aerial Ace",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Roost",
-        "learn_method": "level-up",
-        "level_learned": 44
-      },
-      {
-        "name": "Roost",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Roost",
         "learn_method": "level-up",
         "level_learned": 17
       },
       {
-        "name": "Tailwind",
-        "learn_method": "level-up",
-        "level_learned": 50
-      },
-      {
-        "name": "Tailwind",
-        "learn_method": "tutor",
+        "name": "Roost",
+        "learn_method": "machine",
         "level_learned": 0
       },
       {
@@ -464,55 +333,10 @@
       {
         "name": "Air Slash",
         "learn_method": "level-up",
-        "level_learned": 62
-      },
-      {
-        "name": "Air Slash",
-        "learn_method": "level-up",
         "level_learned": 43
-      },
-      {
-        "name": "Giga Impact",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Defog",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Round",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Work Up",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Hurricane",
-        "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
-        "name": "Hurricane",
-        "learn_method": "level-up",
-        "level_learned": 68
-      },
-      {
-        "name": "Confide",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Laser Focus",
-        "learn_method": "tutor",
-        "level_learned": 0
       }
     ],
-    "Gen 2": [
+    "GSC": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -674,7 +498,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -866,7 +690,431 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "FRLG": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Wing Attack",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Whirlwind",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "level-up",
+        "level_learned": 62
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "DPP": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Wing Attack",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Whirlwind",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Swift",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Twister",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Heat Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Air Cutter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Roost",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pluck",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 62
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defog",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "HGSS": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -1123,11 +1371,6 @@
         "level_learned": 0
       },
       {
-        "name": "Defog",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Captivate",
         "learn_method": "machine",
         "level_learned": 0
@@ -1138,7 +1381,204 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Wing Attack",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Whirlwind",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Pluck",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 62
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 68
+      }
+    ],
+    "BW2": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -1370,7 +1810,219 @@
         "level_learned": 68
       }
     ],
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Wing Attack",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Whirlwind",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Roost",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 62
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 68
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -1612,7 +2264,476 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SM": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Wing Attack",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Whirlwind",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Roost",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 62
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 68
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Gust",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Wing Attack",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Whirlwind",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sand Attack",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Agility",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Quick Attack",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mirror Move",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Sky Attack",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thief",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Heat Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feather Dance",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Roost",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Tailwind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "U Turn",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Air Slash",
+        "learn_method": "level-up",
+        "level_learned": 62
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Defog",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 68
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Laser Focus",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "BDSP": [
       {
         "name": "Gust",
         "learn_method": "level-up",
@@ -1812,6 +2933,26 @@
         "name": "Hurricane",
         "learn_method": "level-up",
         "level_learned": 68
+      }
+    ]
+  },
+  "locations": {
+    "Ultra Sun": [
+      {
+        "location": "Alola Route 10 Area",
+        "method": "Island Scan",
+        "chance": 100,
+        "minLevel": 29,
+        "maxLevel": 29
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Alola Route 10 Area",
+        "method": "Island Scan",
+        "chance": 100,
+        "minLevel": 29,
+        "maxLevel": 29
       }
     ]
   }

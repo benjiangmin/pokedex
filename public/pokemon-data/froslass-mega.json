@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Froslass Mega"
+    "english": "Froslass (Mega)"
   },
   "type": [
     "Ice",
@@ -48,6 +48,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Froslass",
+      "to": "Froslass (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-iv",
@@ -59,5 +68,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Snow Land Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

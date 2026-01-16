@@ -60,7 +60,29 @@
   "isMythical": false,
   "category": "EleFish Pokémon",
   "moves": {
-    "Gen 5": [
+    "BW": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "BW2": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -87,7 +109,39 @@
         "level_learned": 1
       }
     ],
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -124,7 +178,39 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spark",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -161,7 +247,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -206,6 +292,114 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Black": [
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 27,
+        "maxLevel": 27
+      }
+    ],
+    "White": [
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 27,
+        "maxLevel": 27
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 31,
+        "maxLevel": 31
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 31,
+        "maxLevel": 31
+      },
+      {
+        "location": "Seaside Cave 1f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 37,
+        "maxLevel": 37
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Chargestone Cave 1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Chargestone Cave B1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 31,
+        "maxLevel": 31
+      },
+      {
+        "location": "Chargestone Cave B2f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 31,
+        "maxLevel": 31
+      },
+      {
+        "location": "Seaside Cave 1f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 37,
+        "maxLevel": 37
       }
     ]
   }

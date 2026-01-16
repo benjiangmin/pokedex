@@ -53,7 +53,7 @@
   "isMythical": false,
   "category": "Illuminating Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Hyper Beam",
         "learn_method": "machine",
@@ -270,7 +270,219 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Mega Drain",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Powder",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confuse Ray",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Spore",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Flash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Moonlight",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nature Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ingrain",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ingrain",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Astonish",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Astonish",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Charge Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Moonblast",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength Sap",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Spotlight",
+        "learn_method": "level-up",
+        "level_learned": 53
+      }
+    ],
+    "USUM": [
       {
         "name": "Absorb",
         "learn_method": "level-up",
@@ -540,6 +752,26 @@
         "name": "Spotlight",
         "learn_method": "level-up",
         "level_learned": 53
+      }
+    ]
+  },
+  "locations": {
+    "Ultra Sun": [
+      {
+        "location": "Alola Route 11 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 29
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Alola Route 11 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 29
       }
     ]
   }

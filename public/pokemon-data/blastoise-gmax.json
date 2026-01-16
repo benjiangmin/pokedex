@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Blastoise Gmax"
+    "english": "Blastoise (Gmax)"
   },
   "type": [
     "Water"
@@ -49,6 +49,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Blastoise",
+      "to": "Blastoise (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -60,5 +69,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Shellfish Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

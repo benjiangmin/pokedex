@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Victreebel Mega"
+    "english": "Victreebel (Mega)"
   },
   "type": [
     "Grass",
@@ -47,6 +47,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Victreebel",
+      "to": "Victreebel (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Flycatcher Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

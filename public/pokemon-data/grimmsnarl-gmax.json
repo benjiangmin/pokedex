@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Grimmsnarl Gmax"
+    "english": "Grimmsnarl (Gmax)"
   },
   "type": [
     "Dark",
@@ -51,6 +51,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Grimmsnarl",
+      "to": "Grimmsnarl (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -62,5 +71,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Bulk Up Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

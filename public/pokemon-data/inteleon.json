@@ -49,6 +49,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Inteleon",
+      "to": "Inteleon (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -61,7 +70,7 @@
   "isMythical": false,
   "category": "Secret Agent Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Pound",
         "learn_method": "level-up",
@@ -373,7 +382,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Pound",
         "learn_method": "level-up",
@@ -730,5 +739,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

@@ -49,6 +49,24 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Blastoise",
+      "to": "Blastoise (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    },
+    {
+      "from": "Blastoise",
+      "to": "Blastoise (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -61,7 +79,7 @@
   "isMythical": false,
   "category": "Shellfish Pokémon",
   "moves": {
-    "Gen 1": [
+    "RBY": [
       {
         "name": "Mega Punch",
         "learn_method": "machine",
@@ -248,7 +266,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Mega Punch",
         "learn_method": "tutor",
@@ -540,6 +558,253 @@
         "level_learned": 0
       },
       {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "FRLG": [
+      {
+        "name": "Mega Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Mega Kick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 68
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skull Bash",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rapid Spin",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
         "name": "Hydro Cannon",
         "learn_method": "tutor",
         "level_learned": 0
@@ -550,7 +815,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Mega Punch",
         "learn_method": "machine",
@@ -585,11 +850,6 @@
         "name": "Bite",
         "learn_method": "level-up",
         "level_learned": 12
-      },
-      {
-        "name": "Roar",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Water Gun",
@@ -627,22 +887,12 @@
         "level_learned": 0
       },
       {
-        "name": "Strength",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Earthquake",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
         "name": "Dig",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Double Team",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -712,11 +962,6 @@
         "level_learned": 0
       },
       {
-        "name": "Swagger",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Attract",
         "learn_method": "machine",
         "level_learned": 0
@@ -752,11 +997,6 @@
         "level_learned": 0
       },
       {
-        "name": "Rock Smash",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Whirlpool",
         "learn_method": "machine",
         "level_learned": 0
@@ -768,11 +1008,6 @@
       },
       {
         "name": "Facade",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Focus Punch",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -825,11 +1060,6 @@
         "name": "Water Pulse",
         "learn_method": "level-up",
         "level_learned": 15
-      },
-      {
-        "name": "Water Pulse",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Gyro Ball",
@@ -897,11 +1127,6 @@
         "level_learned": 1
       },
       {
-        "name": "Rock Climb",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Round",
         "learn_method": "machine",
         "level_learned": 0
@@ -952,7 +1177,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 2": [
+    "GSC": [
       {
         "name": "Ice Punch",
         "learn_method": "machine",
@@ -1189,14 +1414,9 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "DPP": [
       {
         "name": "Ice Punch",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Headbutt",
         "learn_method": "tutor",
         "level_learned": 0
       },
@@ -1431,6 +1651,373 @@
         "level_learned": 0
       },
       {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Cannon",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Signal Beam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brine",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Avalanche",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Climb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "HGSS": [
+      {
+        "name": "Ice Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skull Bash",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rollout",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rapid Spin",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
         "name": "Whirlpool",
         "learn_method": "machine",
         "level_learned": 0
@@ -1571,7 +2158,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW2": [
       {
         "name": "Ice Punch",
         "learn_method": "tutor",
@@ -1908,7 +2495,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "ORAS": [
       {
         "name": "Ice Punch",
         "learn_method": "tutor",
@@ -2280,20 +2867,10 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "USUM": [
       {
         "name": "Ice Punch",
         "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Headbutt",
-        "learn_method": "level-up",
-        "level_learned": 54
-      },
-      {
-        "name": "Headbutt",
-        "learn_method": "machine",
         "level_learned": 0
       },
       {
@@ -2312,19 +2889,9 @@
         "level_learned": 4
       },
       {
-        "name": "Tail Whip",
-        "learn_method": "level-up",
-        "level_learned": 5
-      },
-      {
         "name": "Bite",
         "learn_method": "level-up",
         "level_learned": 17
-      },
-      {
-        "name": "Bite",
-        "learn_method": "level-up",
-        "level_learned": 27
       },
       {
         "name": "Roar",
@@ -2342,19 +2909,9 @@
         "level_learned": 7
       },
       {
-        "name": "Water Gun",
-        "learn_method": "level-up",
-        "level_learned": 20
-      },
-      {
         "name": "Hydro Pump",
         "learn_method": "level-up",
         "level_learned": 60
-      },
-      {
-        "name": "Hydro Pump",
-        "learn_method": "level-up",
-        "level_learned": 65
       },
       {
         "name": "Surf",
@@ -2372,27 +2929,12 @@
         "level_learned": 0
       },
       {
-        "name": "Bubble Beam",
-        "learn_method": "level-up",
-        "level_learned": 33
-      },
-      {
         "name": "Hyper Beam",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
-        "name": "Seismic Toss",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Earthquake",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Dig",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -2417,16 +2959,6 @@
         "level_learned": 10
       },
       {
-        "name": "Withdraw",
-        "learn_method": "level-up",
-        "level_learned": 14
-      },
-      {
-        "name": "Reflect",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Waterfall",
         "learn_method": "machine",
         "level_learned": 0
@@ -2437,24 +2969,9 @@
         "level_learned": 40
       },
       {
-        "name": "Skull Bash",
-        "learn_method": "level-up",
-        "level_learned": 75
-      },
-      {
         "name": "Bubble",
         "learn_method": "level-up",
         "level_learned": 13
-      },
-      {
-        "name": "Bubble",
-        "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
-        "name": "Bubble",
-        "learn_method": "level-up",
-        "level_learned": 9
       },
       {
         "name": "Rest",
@@ -2485,11 +3002,6 @@
         "name": "Protect",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Protect",
-        "learn_method": "level-up",
-        "level_learned": 44
       },
       {
         "name": "Icy Wind",
@@ -2550,11 +3062,6 @@
         "name": "Rain Dance",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Fake Out",
-        "learn_method": "level-up",
-        "level_learned": 1
       },
       {
         "name": "Hail",
@@ -2667,11 +3174,6 @@
         "level_learned": 0
       },
       {
-        "name": "Aqua Jet",
-        "learn_method": "level-up",
-        "level_learned": 1
-      },
-      {
         "name": "Smack Down",
         "learn_method": "machine",
         "level_learned": 0
@@ -2717,7 +3219,219 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "let's go": [
+      {
+        "name": "Ice Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skull Bash",
+        "learn_method": "level-up",
+        "level_learned": 75
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fake Out",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Jet",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "SV": [
       {
         "name": "Ice Punch",
         "learn_method": "machine",
@@ -3098,6 +3812,1170 @@
         "learn_method": "machine",
         "level_learned": 0
       }
+    ],
+    "BW": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skull Bash",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rapid Spin",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Cannon",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pledge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "XY": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skull Bash",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rapid Spin",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Cannon",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pledge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Up Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "SM": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 60
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skull Bash",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rapid Spin",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Cannon",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pledge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BDSP": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Tail Whip",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Withdraw",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Skull Bash",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "False Swipe",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rapid Spin",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Cannon",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Gyro Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brine",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Avalanche",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Climb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shell Smash",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
     ]
-  }
+  },
+  "locations": {}
 }

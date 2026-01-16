@@ -5,7 +5,7 @@ export default function Locations({ pokemon }) {
         return (
             <section className="locations-container">
                 <h2>locations</h2>
-                <p style={{ textAlign: "center", fontFamily: "Sour Gummy", margin: "3px" }}>no locations found</p>
+                <p style={{ textAlign: "center", fontFamily: "Sour Gummy"}}>no locations found</p>
             </section>
         );
     }

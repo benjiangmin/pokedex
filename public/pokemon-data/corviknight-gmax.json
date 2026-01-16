@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Corviknight Gmax"
+    "english": "Corviknight (Gmax)"
   },
   "type": [
     "Flying",
@@ -51,6 +51,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Corviknight",
+      "to": "Corviknight (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -62,5 +71,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Raven Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

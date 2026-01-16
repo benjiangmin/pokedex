@@ -80,7 +80,7 @@
   "isMythical": false,
   "category": "Cocoon Pokémon",
   "moves": {
-    "Legends: Arceus": [
+    "legends arceus": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -97,7 +97,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "HGSS": [
       {
         "name": "String Shot",
         "learn_method": "tutor",
@@ -124,7 +124,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Harden",
         "learn_method": "level-up",
@@ -136,7 +136,48 @@
         "level_learned": 7
       }
     ],
-    "Gen 5": [
+    "FRLG": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 7
+      }
+    ],
+    "DPP": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "BW": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 7
+      }
+    ],
+    "BW2": [
       {
         "name": "Harden",
         "learn_method": "level-up",
@@ -163,7 +204,19 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 7
+      }
+    ],
+    "ORAS": [
       {
         "name": "Harden",
         "learn_method": "level-up",
@@ -190,7 +243,19 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "USUM": [
       {
         "name": "Harden",
         "learn_method": "level-up",
@@ -217,7 +282,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "BDSP": [
       {
         "name": "Harden",
         "learn_method": "level-up",
@@ -227,6 +292,60 @@
         "name": "Harden",
         "learn_method": "level-up",
         "level_learned": 1
+      }
+    ]
+  },
+  "locations": {
+    "Diamond": [
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 10,
+        "maxLevel": 10
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Eterna Forest Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 12,
+        "maxLevel": 12
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 14
+      }
+    ],
+    "Ruby": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Sapphire": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Emerald": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ]
   }

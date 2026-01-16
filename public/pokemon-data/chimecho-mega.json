@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Chimecho Mega"
+    "english": "Chimecho (Mega)"
   },
   "type": [
     "Psychic",
@@ -38,6 +38,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Chimecho",
+      "to": "Chimecho (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-iii",
@@ -49,5 +58,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Wind Chime Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

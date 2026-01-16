@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Raichu Mega X"
+    "english": "Raichu (Mega X)"
   },
   "type": [
     "Electric"
@@ -46,6 +46,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Raichu",
+      "to": "Raichu (Mega X)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -57,5 +66,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Mouse Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

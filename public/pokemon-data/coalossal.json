@@ -51,6 +51,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Coalossal",
+      "to": "Coalossal (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -63,7 +72,7 @@
   "isMythical": false,
   "category": "Coal Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Mega Punch",
         "learn_method": "machine",
@@ -370,7 +379,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Fire Punch",
         "learn_method": "machine",
@@ -682,5 +691,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

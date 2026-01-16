@@ -49,6 +49,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Rillaboom",
+      "to": "Rillaboom (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -61,7 +70,7 @@
   "isMythical": false,
   "category": "Drummer Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Mega Punch",
         "learn_method": "machine",
@@ -433,7 +442,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Scratch",
         "learn_method": "level-up",
@@ -820,5 +829,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

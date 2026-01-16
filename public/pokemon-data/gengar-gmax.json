@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Gengar Gmax"
+    "english": "Gengar (Gmax)"
   },
   "type": [
     "Ghost",
@@ -48,6 +48,15 @@
           "trigger": "Trade"
         }
       ]
+    },
+    {
+      "from": "Gengar",
+      "to": "Gengar (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -59,5 +68,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Shadow Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

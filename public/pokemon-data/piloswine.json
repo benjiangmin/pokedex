@@ -63,7 +63,7 @@
   "isMythical": false,
   "category": "Swine Pokémon",
   "moves": {
-    "Gen 2": [
+    "GSC": [
       {
         "name": "Headbutt",
         "learn_method": "machine",
@@ -245,7 +245,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "HGSS": [
       {
         "name": "Headbutt",
         "learn_method": "tutor",
@@ -552,7 +552,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Horn Attack",
         "learn_method": "level-up",
@@ -789,16 +789,21 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "FRLG": [
+      {
+        "name": "Horn Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
       {
         "name": "Fury Attack",
         "learn_method": "level-up",
         "level_learned": 33
       },
       {
-        "name": "Take Down",
-        "learn_method": "level-up",
-        "level_learned": 32
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
       },
       {
         "name": "Take Down",
@@ -806,9 +811,9 @@
         "level_learned": 28
       },
       {
-        "name": "Thrash",
-        "learn_method": "level-up",
-        "level_learned": 41
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
       },
       {
         "name": "Roar",
@@ -818,12 +823,7 @@
       {
         "name": "Mist",
         "learn_method": "level-up",
-        "level_learned": 48
-      },
-      {
-        "name": "Mist",
-        "learn_method": "level-up",
-        "level_learned": 37
+        "level_learned": 42
       },
       {
         "name": "Ice Beam",
@@ -841,9 +841,191 @@
         "level_learned": 0
       },
       {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 70
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Odor Sleuth",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "DPP": [
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
         "name": "Blizzard",
         "learn_method": "level-up",
-        "level_learned": 52
+        "level_learned": 56
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
       },
       {
         "name": "Hyper Beam",
@@ -869,11 +1051,6 @@
         "name": "Earthquake",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Earthquake",
-        "learn_method": "level-up",
-        "level_learned": 46
       },
       {
         "name": "Dig",
@@ -904,6 +1081,550 @@
         "name": "Amnesia",
         "learn_method": "level-up",
         "level_learned": 65
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ancient Power",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ancient Power",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Superpower",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Endeavor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Odor Sleuth",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earth Power",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Avalanche",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Mud Bomb",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stealth Rock",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BW": [
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ancient Power",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Odor Sleuth",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Mud Bomb",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BW2": [
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "level-up",
+        "level_learned": 52
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
       },
       {
         "name": "Amnesia",
@@ -948,17 +1669,7 @@
       {
         "name": "Mud Slap",
         "learn_method": "level-up",
-        "level_learned": 13
-      },
-      {
-        "name": "Mud Slap",
-        "learn_method": "level-up",
         "level_learned": 11
-      },
-      {
-        "name": "Icy Wind",
-        "learn_method": "level-up",
-        "level_learned": 25
       },
       {
         "name": "Icy Wind",
@@ -974,11 +1685,6 @@
         "name": "Sandstorm",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Endure",
-        "learn_method": "level-up",
-        "level_learned": 16
       },
       {
         "name": "Endure",
@@ -1058,11 +1764,6 @@
       {
         "name": "Mud Sport",
         "learn_method": "level-up",
-        "level_learned": 4
-      },
-      {
-        "name": "Mud Sport",
-        "learn_method": "level-up",
         "level_learned": 5
       },
       {
@@ -1088,17 +1789,7 @@
       {
         "name": "Ice Fang",
         "learn_method": "level-up",
-        "level_learned": 28
-      },
-      {
-        "name": "Ice Fang",
-        "learn_method": "level-up",
         "level_learned": 24
-      },
-      {
-        "name": "Mud Bomb",
-        "learn_method": "level-up",
-        "level_learned": 20
       },
       {
         "name": "Mud Bomb",
@@ -1126,7 +1817,264 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "level-up",
+        "level_learned": 52
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 58
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ancient Power",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Odor Sleuth",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Mud Bomb",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
       {
         "name": "Fury Attack",
         "learn_method": "level-up",
@@ -1418,7 +2366,254 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Fury Attack",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "level-up",
+        "level_learned": 52
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Peck",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "level-up",
+        "level_learned": 46
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 58
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 14
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ancient Power",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Odor Sleuth",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Mud Bomb",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
       {
         "name": "Fury Attack",
         "learn_method": "level-up",
@@ -1700,7 +2895,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -1720,11 +2915,6 @@
         "name": "Thrash",
         "learn_method": "level-up",
         "level_learned": 65
-      },
-      {
-        "name": "Roar",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Mist",
@@ -1752,11 +2942,6 @@
         "level_learned": 0
       },
       {
-        "name": "Strength",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Earthquake",
         "learn_method": "level-up",
         "level_learned": 51
@@ -1768,11 +2953,6 @@
       },
       {
         "name": "Dig",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Double Team",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1867,11 +3047,6 @@
         "level_learned": 0
       },
       {
-        "name": "Swagger",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Attract",
         "learn_method": "machine",
         "level_learned": 0
@@ -1890,11 +3065,6 @@
         "name": "Ancient Power",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Rock Smash",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Hail",
@@ -1992,7 +3162,234 @@
         "level_learned": 0
       }
     ],
-    "Legends: Arceus": [
+    "BDSP": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "level-up",
+        "level_learned": 58
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Amnesia",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Powder Snow",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ancient Power",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Avalanche",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Shard",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Stealth Rock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "legends arceus": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -2034,7 +3431,7 @@
         "level_learned": 25
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -2354,6 +3751,400 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Platinum": [
+      {
+        "location": "Sinnoh Route 217 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 34,
+        "maxLevel": 34
+      },
+      {
+        "location": "Sinnoh Route 217 Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 35,
+        "maxLevel": 35
+      }
+    ],
+    "Black": [
+      {
+        "location": "Giant Chasm Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 47,
+        "maxLevel": 47
+      },
+      {
+        "location": "Giant Chasm Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 49,
+        "maxLevel": 49
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 52,
+        "maxLevel": 52
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 54,
+        "maxLevel": 54
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 62,
+        "maxLevel": 62
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Dark Grass",
+        "chance": 4,
+        "minLevel": 64,
+        "maxLevel": 64
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 57,
+        "maxLevel": 57
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 59,
+        "maxLevel": 59
+      }
+    ],
+    "White": [
+      {
+        "location": "Giant Chasm Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 47,
+        "maxLevel": 47
+      },
+      {
+        "location": "Giant Chasm Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 49,
+        "maxLevel": 49
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 52,
+        "maxLevel": 52
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 54,
+        "maxLevel": 54
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 62,
+        "maxLevel": 62
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Dark Grass",
+        "chance": 4,
+        "minLevel": 64,
+        "maxLevel": 64
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 57,
+        "maxLevel": 57
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 59,
+        "maxLevel": 59
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Giant Chasm Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Giant Chasm Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 49,
+        "maxLevel": 49
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Dark Grass",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 49,
+        "maxLevel": 49
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Dark Grass",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Giant Chasm Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Giant Chasm Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 49,
+        "maxLevel": 49
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Dark Grass",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Giant Chasm Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Dark Grass",
+        "chance": 20,
+        "minLevel": 49,
+        "maxLevel": 49
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Dark Grass",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Giant Chasm Forest Cave",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      }
+    ],
+    "X": [
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      }
+    ],
+    "Y": [
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Frost Cavern Unknown Area 314",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Frost Cavern Unknown Area 315",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Frost Cavern Unknown Area 316",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Frost Cavern Unknown Area 317",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
       }
     ]
   }

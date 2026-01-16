@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Crabominable Mega"
+    "english": "Crabominable (Mega)"
   },
   "type": [
     "Fighting",
@@ -41,6 +41,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Crabominable",
+      "to": "Crabominable (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-vii",
@@ -52,5 +61,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Woolly Crab Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

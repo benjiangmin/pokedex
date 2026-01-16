@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Tatsugiri Curly"
+    "english": "Tatsugiri (Curly)"
   },
   "type": [
     "Dragon",
@@ -30,7 +30,35 @@
     "Commander",
     "Storm Drain"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Tatsugiri (Curly)",
+      "to": "Tatsugiri (Curly Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    },
+    {
+      "from": "Tatsugiri (Curly)",
+      "to": "Tatsugiri (Droopy Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    },
+    {
+      "from": "Tatsugiri (Curly)",
+      "to": "Tatsugiri (Stretchy Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png",
@@ -41,7 +69,7 @@
   "isMythical": false,
   "category": "Mimicry Pokémon",
   "moves": {
-    "Gen 9": [
+    "SV": [
       {
         "name": "Take Down",
         "learn_method": "machine",
@@ -253,5 +281,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

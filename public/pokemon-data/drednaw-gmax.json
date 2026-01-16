@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Drednaw Gmax"
+    "english": "Drednaw (Gmax)"
   },
   "type": [
     "Water",
@@ -41,6 +41,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Drednaw",
+      "to": "Drednaw (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -52,5 +61,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Bite Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Falinks Mega"
+    "english": "Falinks (Mega)"
   },
   "type": [
     "Fighting"
@@ -26,7 +26,17 @@
   "weight": 99,
   "height": 1.6,
   "abilities": [],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Falinks",
+      "to": "Falinks (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-viii",
   "sprites": {
     "static": null,
@@ -36,5 +46,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Formation Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

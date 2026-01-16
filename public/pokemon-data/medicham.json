@@ -40,6 +40,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Medicham",
+      "to": "Medicham (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-iii",
@@ -52,7 +61,7 @@
   "isMythical": false,
   "category": "Meditate Pokémon",
   "moves": {
-    "Gen 8": [
+    "BDSP": [
       {
         "name": "Pound",
         "learn_method": "level-up",
@@ -354,7 +363,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Mega Punch",
         "learn_method": "tutor",
@@ -471,11 +480,6 @@
         "level_learned": 54
       },
       {
-        "name": "Recover",
-        "learn_method": "level-up",
-        "level_learned": 56
-      },
-      {
         "name": "Light Screen",
         "learn_method": "machine",
         "level_learned": 0
@@ -504,11 +508,6 @@
         "name": "High Jump Kick",
         "learn_method": "level-up",
         "level_learned": 32
-      },
-      {
-        "name": "High Jump Kick",
-        "learn_method": "level-up",
-        "level_learned": 33
       },
       {
         "name": "Dream Eater",
@@ -541,11 +540,6 @@
         "level_learned": 22
       },
       {
-        "name": "Mind Reader",
-        "learn_method": "level-up",
-        "level_learned": 25
-      },
-      {
         "name": "Snore",
         "learn_method": "tutor",
         "level_learned": 0
@@ -554,11 +548,6 @@
         "name": "Reversal",
         "learn_method": "level-up",
         "level_learned": 46
-      },
-      {
-        "name": "Reversal",
-        "learn_method": "level-up",
-        "level_learned": 47
       },
       {
         "name": "Protect",
@@ -589,11 +578,6 @@
         "name": "Swagger",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Swagger",
-        "learn_method": "level-up",
-        "level_learned": 20
       },
       {
         "name": "Attract",
@@ -631,11 +615,6 @@
         "level_learned": 0
       },
       {
-        "name": "Hidden Power",
-        "learn_method": "level-up",
-        "level_learned": 17
-      },
-      {
         "name": "Rain Dance",
         "learn_method": "machine",
         "level_learned": 0
@@ -653,6 +632,273 @@
       {
         "name": "Psych Up",
         "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "FRLG": [
+      {
+        "name": "Mega Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Mega Kick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Seismic Toss",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 56
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Metronome",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "High Jump Kick",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Mind Reader",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
         "level_learned": 0
       },
       {
@@ -711,7 +957,374 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "DPP": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fire Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Swift",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "High Jump Kick",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mind Reader",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Helping Hand",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Recycle",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Signal Beam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Trick",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Force Palm",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Drain Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Vacuum Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "HGSS": [
       {
         "name": "Fire Punch",
         "learn_method": "level-up",
@@ -1108,7 +1721,314 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 62
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "High Jump Kick",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mind Reader",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Acupressure",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Trick",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Force Palm",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psyshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Telekinesis",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Low Sweep",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BW2": [
       {
         "name": "Fire Punch",
         "learn_method": "level-up",
@@ -1495,7 +2415,324 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 62
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "High Jump Kick",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mind Reader",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Acupressure",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Trick",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Force Palm",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psyshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Low Sweep",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Retaliate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Up Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
       {
         "name": "Fire Punch",
         "learn_method": "level-up",
@@ -1559,11 +2796,6 @@
       {
         "name": "Confusion",
         "learn_method": "level-up",
-        "level_learned": 8
-      },
-      {
-        "name": "Confusion",
-        "learn_method": "level-up",
         "level_learned": 7
       },
       {
@@ -1589,11 +2821,6 @@
       {
         "name": "Recover",
         "learn_method": "level-up",
-        "level_learned": 62
-      },
-      {
-        "name": "Recover",
-        "learn_method": "level-up",
         "level_learned": 47
       },
       {
@@ -1610,11 +2837,6 @@
         "name": "Bide",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "High Jump Kick",
-        "learn_method": "level-up",
-        "level_learned": 32
       },
       {
         "name": "High Jump Kick",
@@ -1649,22 +2871,12 @@
       {
         "name": "Mind Reader",
         "learn_method": "level-up",
-        "level_learned": 18
-      },
-      {
-        "name": "Mind Reader",
-        "learn_method": "level-up",
         "level_learned": 25
       },
       {
         "name": "Snore",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Reversal",
-        "learn_method": "level-up",
-        "level_learned": 55
       },
       {
         "name": "Reversal",
@@ -1680,11 +2892,6 @@
         "name": "Detect",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Detect",
-        "learn_method": "level-up",
-        "level_learned": 11
       },
       {
         "name": "Detect",
@@ -1729,17 +2936,12 @@
       {
         "name": "Hidden Power",
         "learn_method": "level-up",
-        "level_learned": 15
+        "level_learned": 20
       },
       {
         "name": "Hidden Power",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Hidden Power",
-        "learn_method": "level-up",
-        "level_learned": 20
       },
       {
         "name": "Rain Dance",
@@ -1754,17 +2956,12 @@
       {
         "name": "Psych Up",
         "learn_method": "level-up",
-        "level_learned": 36
+        "level_learned": 31
       },
       {
         "name": "Psych Up",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Psych Up",
-        "learn_method": "level-up",
-        "level_learned": 31
       },
       {
         "name": "Shadow Ball",
@@ -1839,17 +3036,12 @@
       {
         "name": "Calm Mind",
         "learn_method": "level-up",
-        "level_learned": 25
+        "level_learned": 23
       },
       {
         "name": "Calm Mind",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Calm Mind",
-        "learn_method": "level-up",
-        "level_learned": 23
       },
       {
         "name": "Gravity",
@@ -1859,17 +3051,7 @@
       {
         "name": "Feint",
         "learn_method": "level-up",
-        "level_learned": 22
-      },
-      {
-        "name": "Feint",
-        "learn_method": "level-up",
         "level_learned": 15
-      },
-      {
-        "name": "Acupressure",
-        "learn_method": "level-up",
-        "level_learned": 42
       },
       {
         "name": "Acupressure",
@@ -1884,17 +3066,7 @@
       {
         "name": "Power Trick",
         "learn_method": "level-up",
-        "level_learned": 49
-      },
-      {
-        "name": "Power Trick",
-        "learn_method": "level-up",
         "level_learned": 36
-      },
-      {
-        "name": "Force Palm",
-        "learn_method": "level-up",
-        "level_learned": 29
       },
       {
         "name": "Force Palm",
@@ -1972,7 +3144,314 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Fire Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Ice Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thunder Punch",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confusion",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Meditate",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Reflect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "High Jump Kick",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mind Reader",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Reversal",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Detect",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Endure",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulk Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Feint",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Acupressure",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Trick",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Force Palm",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Poison Jab",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psyshock",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Low Sweep",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
       {
         "name": "Fire Punch",
         "learn_method": "level-up",
@@ -2369,7 +3848,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Fire Punch",
         "learn_method": "level-up",
@@ -2769,6 +4248,687 @@
         "name": "Upper Hand",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Diamond": [
+      {
+        "location": "Mt Coronet 2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet 3f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet Exterior Snowfall",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet Exterior Snowfall",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet Exterior Blizzard",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet Exterior Blizzard",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet 4f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 4f Small Room",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 5f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Mt Coronet 6f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Mt Coronet 1f From Exterior",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Victory Road 1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Sinnoh Victory Road 1f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Sinnoh Victory Road 1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Sinnoh Victory Road 2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Sinnoh Victory Road 2f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 47,
+        "maxLevel": 47
+      },
+      {
+        "location": "Sinnoh Victory Road 2f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 52,
+        "maxLevel": 52
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Sinnoh Victory Road Inside",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Sinnoh Victory Road Inside",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 52,
+        "maxLevel": 52
+      },
+      {
+        "location": "Sinnoh Victory Road Inside",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Sinnoh Victory Road Inside Exit",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Sinnoh Victory Road Inside Exit",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 52,
+        "maxLevel": 52
+      },
+      {
+        "location": "Sinnoh Victory Road Inside Exit",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Acuity Lakefront Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Acuity Lakefront Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Sinnoh Route 217 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Sinnoh Route 217 Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 36,
+        "maxLevel": 36
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Mt Coronet 2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet 3f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet Exterior Snowfall",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet Exterior Snowfall",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet Exterior Blizzard",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet Exterior Blizzard",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet 4f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 4f Small Room",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 5f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Mt Coronet 6f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Mt Coronet 1f From Exterior",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Victory Road 1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Sinnoh Victory Road 1f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Sinnoh Victory Road 1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Sinnoh Victory Road 2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Sinnoh Victory Road 2f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 47,
+        "maxLevel": 47
+      },
+      {
+        "location": "Sinnoh Victory Road 2f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 52,
+        "maxLevel": 52
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Sinnoh Victory Road Inside",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Sinnoh Victory Road Inside",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 52,
+        "maxLevel": 52
+      },
+      {
+        "location": "Sinnoh Victory Road Inside",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Sinnoh Victory Road Inside Exit",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Sinnoh Victory Road Inside Exit",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 52,
+        "maxLevel": 52
+      },
+      {
+        "location": "Sinnoh Victory Road Inside Exit",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Acuity Lakefront Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Acuity Lakefront Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Sinnoh Route 217 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Sinnoh Route 217 Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 36,
+        "maxLevel": 36
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Mt Coronet 2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet 2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 3f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet 3f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 3f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mt Coronet Exterior Snowfall",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mt Coronet Exterior Snowfall",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet Exterior Blizzard",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mt Coronet Exterior Blizzard",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet 4f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet 4f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 4f Small Room",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet 4f Small Room",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 5f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet 5f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 6f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet 6f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      },
+      {
+        "location": "Mt Coronet 1f From Exterior",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Mt Coronet 1f From Exterior",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 39
+      }
+    ],
+    "Ruby": [
+      {
+        "location": "Hoenn Victory Road B1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hoenn Victory Road B2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hoenn Victory Road B2f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Hoenn Victory Road B2f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
+    "Sapphire": [
+      {
+        "location": "Hoenn Victory Road B1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hoenn Victory Road B2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hoenn Victory Road B2f",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Hoenn Victory Road B2f",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Ultra Space Wilds Cave",
+        "method": "Only One",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Ultra Space Wilds Cave",
+        "method": "Only One",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
       }
     ]
   }

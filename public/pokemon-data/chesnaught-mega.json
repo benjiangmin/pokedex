@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Chesnaught Mega"
+    "english": "Chesnaught (Mega)"
   },
   "type": [
     "Grass",
@@ -47,6 +47,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Chesnaught",
+      "to": "Chesnaught (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-vi",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Spiny Armor Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

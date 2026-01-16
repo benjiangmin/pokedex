@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Venusaur Gmax"
+    "english": "Venusaur (Gmax)"
   },
   "type": [
     "Grass",
@@ -50,6 +50,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Venusaur",
+      "to": "Venusaur (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -61,5 +70,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Seed Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

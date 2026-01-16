@@ -63,7 +63,34 @@
   "isMythical": false,
   "category": "Bagworm Pokémon",
   "moves": {
-    "Gen 4": [
+    "DPP": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      }
+    ],
+    "HGSS": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -100,7 +127,29 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "BW": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      }
+    ],
+    "BW2": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -137,7 +186,39 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      }
+    ],
+    "ORAS": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -184,7 +265,39 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bug Bite",
+        "learn_method": "level-up",
+        "level_learned": 15
+      }
+    ],
+    "USUM": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -231,7 +344,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "BDSP": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -258,11 +371,31 @@
         "level_learned": 15
       }
     ],
-    "Legends: Arceus": [
+    "legends arceus": [
       {
         "name": "Struggle Bug",
         "learn_method": "level-up",
         "level_learned": 1
+      }
+    ]
+  },
+  "locations": {
+    "X": [
+      {
+        "location": "Kalos Route 3 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 3 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ]
   }

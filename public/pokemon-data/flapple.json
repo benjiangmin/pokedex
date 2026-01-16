@@ -61,6 +61,15 @@
       "from": "Dipplin",
       "to": "Hydrapple",
       "details": []
+    },
+    {
+      "from": "Flapple",
+      "to": "Flapple (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -73,7 +82,7 @@
   "isMythical": false,
   "category": "Apple Wing Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Wing Attack",
         "learn_method": "level-up",
@@ -325,7 +334,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Wing Attack",
         "learn_method": "level-up",
@@ -602,5 +611,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

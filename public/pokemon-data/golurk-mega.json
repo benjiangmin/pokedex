@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Golurk Mega"
+    "english": "Golurk (Mega)"
   },
   "type": [
     "Ground",
@@ -37,6 +37,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Golurk",
+      "to": "Golurk (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-v",
@@ -48,5 +57,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Automaton Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

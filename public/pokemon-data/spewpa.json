@@ -61,7 +61,24 @@
   "isMythical": false,
   "category": "Scatterdust Pokémon",
   "moves": {
-    "Gen 6": [
+    "XY": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
       {
         "name": "Harden",
         "learn_method": "level-up",
@@ -93,7 +110,24 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "USUM": [
       {
         "name": "Harden",
         "learn_method": "level-up",
@@ -125,7 +159,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Harden",
         "learn_method": "level-up",
@@ -162,5 +196,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

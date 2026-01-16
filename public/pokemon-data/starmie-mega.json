@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Starmie Mega"
+    "english": "Starmie (Mega)"
   },
   "type": [
     "Water",
@@ -37,6 +37,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Starmie",
+      "to": "Starmie (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -48,5 +57,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Mysterious Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

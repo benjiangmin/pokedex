@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Zeraora Mega"
+    "english": "Zeraora (Mega)"
   },
   "type": [
     "Electric"
@@ -26,7 +26,17 @@
   "weight": 44.5,
   "height": 1.5,
   "abilities": [],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Zeraora",
+      "to": "Zeraora (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-vii",
   "sprites": {
     "static": null,
@@ -36,5 +46,6 @@
   "isLegendary": false,
   "isMythical": true,
   "category": "Thunderclap Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

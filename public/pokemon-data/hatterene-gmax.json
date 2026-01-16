@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Hatterene Gmax"
+    "english": "Hatterene (Gmax)"
   },
   "type": [
     "Psychic",
@@ -51,6 +51,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Hatterene",
+      "to": "Hatterene (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -62,5 +71,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Silent Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

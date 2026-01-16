@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import allMoves from "../../../moves.json";
 
 import bug from "../Images/bug.png"
@@ -35,19 +35,34 @@ export default function MovesLogicEgg({ pokemon }) {
         special: special, physical: physical, status: status
     }
 
-    const generations = Object.keys(pokemon.moves).sort((a, b) => {
-        return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
-    });
+    const generations = Object.keys(pokemon.moves)
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }))
+        .filter(gen => pokemon.moves[gen].some(move => move.learn_method === "egg"));
 
     const [genIndex, setGenIndex] = useState(generations.length - 1);
-    const currentGenName = generations[genIndex];
+
+    useEffect(() => {
+        setGenIndex(generations.length - 1);
+    }, [pokemon.slug, generations.length]);
+
+    if (generations.length === 0) {
+        return (
+            <section className="moves-logic-container">
+                <section className="moves-logic-header">
+                    <h2>moves learnt from egg</h2>
+                </section>
+                <p style={{ textAlign: "center", margin: "20px", fontFamily: "Sour Gummy" }}>No egg moves found for this form.</p>
+            </section>
+        );
+    }
+
+    const currentGenName = generations[genIndex] || generations[generations.length - 1];
     const rawMoves = pokemon.moves[currentGenName] || [];
 
     const processedMoves = (() => {
         const seen = new Set();
         return [...rawMoves]
             .filter(move => move.learn_method === "egg")
-            .sort((a, b) => a.level_learned - b.level_learned)
             .filter(move => {
                 const moveName = move.name.toLowerCase();
                 if (seen.has(moveName)) return false;
@@ -64,7 +79,7 @@ export default function MovesLogicEgg({ pokemon }) {
         <section className="moves-logic-container">
             <section onClick={handleCycleGen} className="moves-logic-header">
                 <h2 title="click to cycle generations" style={{ cursor: 'pointer' }}>
-                    moves learnt from egg
+                    moves learnt by egg
                 </h2>
                 <h3>{currentGenName}</h3>
             </section>
@@ -79,11 +94,11 @@ export default function MovesLogicEgg({ pokemon }) {
                         return (
                             <section className="move-row" key={`${currentGenName}-${move.name}-${index}`}>
                                 <section className="move-and-level">
-                                    <h4 style={{paddingLeft:"20px"}}>{move.name}</h4>
+                                    <h4 style={{ paddingLeft: "20px" }}>{move.name}</h4>
                                 </section>
 
                                 <section className="type-and-category">
-                                    <img className="move-type-icons" src={typeImages[moveDetails.type]} />
+                                    <img className="move-type-icons" src={typeImages[moveDetails?.type]} />
                                     <img className="status-icons" src={categoryImages[moveDetails?.damage_class]} />
                                 </section>
 
@@ -101,7 +116,7 @@ export default function MovesLogicEgg({ pokemon }) {
                         );
                     })
                 ) : (
-                    <p style={{textAlign:"center", fontFamily:"Sour Gummy", margin:"3px"}}>no egg moves found for {currentGenName}</p>
+                    <p style={{ textAlign: "center", fontFamily: "Sour Gummy", margin: "3px" }}>no egg moves found for {currentGenName}</p>
                 )}
             </div>
         </section>

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Charizard Gmax"
+    "english": "Charizard (Gmax)"
   },
   "type": [
     "Fire",
@@ -50,6 +50,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Charizard",
+      "to": "Charizard (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -61,5 +70,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Flame Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

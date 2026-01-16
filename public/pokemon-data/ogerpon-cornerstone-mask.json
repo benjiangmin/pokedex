@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Ogerpon Cornerstone Mask"
+    "english": "Ogerpon (Cornerstone Mask)"
   },
   "type": [
     "Grass",
@@ -33,14 +33,14 @@
   "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10275.png",
-    "animated": null
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10275.png"
   },
   "description": "This mischief-loving Pokémon is full of curiosity. It battles by drawing out the type-based energy contained within its masks.",
   "isLegendary": true,
   "isMythical": false,
   "category": "Mask Pokémon",
   "moves": {
-    "Gen 9": [
+    "SV": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -362,5 +362,6 @@
         "level_learned": 30
       }
     ]
-  }
+  },
+  "locations": {}
 }

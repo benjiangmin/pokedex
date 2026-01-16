@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Maushold Family Of Three"
+    "english": "Maushold (Family Of Three)"
   },
   "type": [
     "Normal"
@@ -45,14 +45,14 @@
   "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10257.png",
-    "animated": null
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10257.png"
   },
   "description": "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight.",
   "isLegendary": false,
   "isMythical": false,
   "category": "Family Pokémon",
   "moves": {
-    "Gen 9": [
+    "SV": [
       {
         "name": "Pound",
         "learn_method": "level-up",
@@ -334,5 +334,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

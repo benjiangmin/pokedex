@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Cinderace Gmax"
+    "english": "Cinderace (Gmax)"
   },
   "type": [
     "Fire"
@@ -49,6 +49,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Cinderace",
+      "to": "Cinderace (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -60,5 +69,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Striker Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

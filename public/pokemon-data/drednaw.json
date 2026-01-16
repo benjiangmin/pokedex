@@ -41,6 +41,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Drednaw",
+      "to": "Drednaw (Gmax)",
+      "details": [
+        {
+          "trigger": "Gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -53,7 +62,7 @@
   "isMythical": false,
   "category": "Bite Pokémon",
   "moves": {
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -410,7 +419,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Swords Dance",
         "learn_method": "machine",
@@ -732,5 +741,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

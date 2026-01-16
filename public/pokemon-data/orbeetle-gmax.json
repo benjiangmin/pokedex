@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Orbeetle Gmax"
+    "english": "Orbeetle (Gmax)"
   },
   "type": [
     "Bug",
@@ -51,6 +51,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Orbeetle",
+      "to": "Orbeetle (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-viii",
@@ -62,5 +71,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Seven Spot Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

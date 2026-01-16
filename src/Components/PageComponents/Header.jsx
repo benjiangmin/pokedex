@@ -44,6 +44,9 @@ export default function Header() {
         Rock: rock, Steel: steel, Water: water
     };
 
+    const bst = Object.values(pokemon.base).reduce((acc, stat) => acc + stat, 0)
+    const generation = (pokemon.generation.split("-")[1]).toUpperCase()
+
     return (
         <section className="header-container">
             <div className="name-index-container">
@@ -64,6 +67,8 @@ export default function Header() {
             <div className="stats-container">
                 <DetailedStatsBar stats={pokemon.base} />
                 <div className="weights-heights-container">
+                    <p>introduced in gen {generation}</p>
+                    <p>BST: {bst}</p>
                     <p>{pokemon.weight} kg/{toPounds} lb</p>
                     <p>{pokemon.height} m/{toFeet} ft</p>
                 </div>

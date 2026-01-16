@@ -33,14 +33,14 @@
   "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png",
-    "animated": null
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png"
   },
   "description": "According to an article in a dubious magazine, this Pokémon has some connection to a phenomenon that occurs in a certain region.",
   "isLegendary": false,
   "isMythical": false,
   "category": "Paradox Pokémon",
   "moves": {
-    "Gen 9": [
+    "SV": [
       {
         "name": "Fly",
         "learn_method": "level-up",
@@ -422,5 +422,6 @@
         "level_learned": 0
       }
     ]
-  }
+  },
+  "locations": {}
 }

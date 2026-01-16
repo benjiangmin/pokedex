@@ -52,7 +52,214 @@
   "isMythical": false,
   "category": "Donkey Pokémon",
   "moves": {
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Stomp",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Double Kick",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Mega Kick",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Body Slam",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Counter",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bide",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Magnitude",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Superpower",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Mud Sport",
+        "learn_method": "level-up",
+        "level_learned": 3
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Close Combat",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Bomb",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Heavy Slam",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Low Sweep",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rototiller",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "High Horsepower",
+        "learn_method": "level-up",
+        "level_learned": 24
+      }
+    ],
+    "USUM": [
       {
         "name": "Stomp",
         "learn_method": "level-up",
@@ -304,7 +511,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Stomp",
         "learn_method": "level-up",
@@ -536,7 +743,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "SV": [
       {
         "name": "Stomp",
         "learn_method": "level-up",
@@ -771,6 +978,156 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Sun": [
+      {
+        "location": "Alola Route 4 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Alola Route 6 North",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 14,
+        "maxLevel": 17
+      },
+      {
+        "location": "Alola Route 12 Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 26,
+        "maxLevel": 29
+      },
+      {
+        "location": "Blush Mountain Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 29
+      },
+      {
+        "location": "Paniola Ranch Area",
+        "method": "Walk",
+        "chance": 50,
+        "minLevel": 12,
+        "maxLevel": 15
+      }
+    ],
+    "Moon": [
+      {
+        "location": "Alola Route 4 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Alola Route 6 North",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 14,
+        "maxLevel": 17
+      },
+      {
+        "location": "Alola Route 12 Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 26,
+        "maxLevel": 29
+      },
+      {
+        "location": "Blush Mountain Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 29
+      },
+      {
+        "location": "Paniola Ranch Area",
+        "method": "Walk",
+        "chance": 50,
+        "minLevel": 12,
+        "maxLevel": 15
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Alola Route 4 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Alola Route 6 North",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 14,
+        "maxLevel": 17
+      },
+      {
+        "location": "Alola Route 12 Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 29,
+        "maxLevel": 32
+      },
+      {
+        "location": "Blush Mountain Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 29,
+        "maxLevel": 32
+      },
+      {
+        "location": "Paniola Ranch Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 12,
+        "maxLevel": 15
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Alola Route 4 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Alola Route 6 North",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 14,
+        "maxLevel": 17
+      },
+      {
+        "location": "Alola Route 12 Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 29,
+        "maxLevel": 32
+      },
+      {
+        "location": "Blush Mountain Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 29,
+        "maxLevel": 32
+      },
+      {
+        "location": "Paniola Ranch Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 12,
+        "maxLevel": 15
       }
     ]
   }

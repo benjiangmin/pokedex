@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Zygarde Mega"
+    "english": "Zygarde (Mega)"
   },
   "type": [
     "Dragon",
@@ -27,7 +27,17 @@
   "weight": 610,
   "height": 7.7,
   "abilities": [],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Zygarde (50)",
+      "to": "Zygarde (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-vi",
   "sprites": {
     "static": null,
@@ -37,5 +47,6 @@
   "isLegendary": true,
   "isMythical": false,
   "category": "Order Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

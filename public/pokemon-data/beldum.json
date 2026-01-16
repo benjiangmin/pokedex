@@ -62,7 +62,7 @@
   "isMythical": false,
   "category": "Iron Ball Pokémon",
   "moves": {
-    "Gen 4": [
+    "HGSS": [
       {
         "name": "Headbutt",
         "learn_method": "tutor",
@@ -89,7 +89,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -116,7 +116,14 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "BDSP": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "SV": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -153,14 +160,21 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Take Down",
         "learn_method": "level-up",
         "level_learned": 1
       }
     ],
-    "Gen 5": [
+    "FRLG": [
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "DPP": [
       {
         "name": "Take Down",
         "learn_method": "level-up",
@@ -182,7 +196,14 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "BW": [
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "BW2": [
       {
         "name": "Take Down",
         "learn_method": "level-up",
@@ -204,7 +225,14 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "XY": [
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "ORAS": [
       {
         "name": "Take Down",
         "learn_method": "level-up",
@@ -224,6 +252,166 @@
         "name": "Iron Head",
         "learn_method": "tutor",
         "level_learned": 0
+      }
+    ],
+    "SM": [
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 1
+      }
+    ],
+    "USUM": [
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Zen Headbutt",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Diamond": [
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 53,
+        "maxLevel": 53
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 53,
+        "maxLevel": 53
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 52,
+        "maxLevel": 52
+      }
+    ],
+    "Ruby": [
+      {
+        "location": "Mossdeep City Stevens House",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Sapphire": [
+      {
+        "location": "Mossdeep City Stevens House",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Emerald": [
+      {
+        "location": "Mossdeep City Stevens House",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mossdeep City Stevens House",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 1,
+        "maxLevel": 1
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mossdeep City Stevens House",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 1,
+        "maxLevel": 1
+      }
+    ],
+    "Sun": [
+      {
+        "location": "Mount Hokulani Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 28
+      }
+    ],
+    "Moon": [
+      {
+        "location": "Mount Hokulani Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 28
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Mount Hokulani East",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 27,
+        "maxLevel": 30
+      },
+      {
+        "location": "Mount Hokulani West",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 30
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Mount Hokulani East",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 27,
+        "maxLevel": 30
+      },
+      {
+        "location": "Mount Hokulani West",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 30
       }
     ]
   }

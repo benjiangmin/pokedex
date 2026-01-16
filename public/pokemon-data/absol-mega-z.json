@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Absol Mega Z"
+    "english": "Absol (Mega Z)"
   },
   "type": [
     "Dark",
@@ -27,7 +27,17 @@
   "weight": 49,
   "height": 1.2,
   "abilities": [],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Absol",
+      "to": "Absol (Mega Z)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-iii",
   "sprites": {
     "static": null,
@@ -37,5 +47,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Disaster Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

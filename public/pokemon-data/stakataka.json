@@ -40,7 +40,7 @@
   "isMythical": false,
   "category": "Rampart Pokémon",
   "moves": {
-    "Gen 7": [
+    "USUM": [
       {
         "name": "Bind",
         "learn_method": "tutor",
@@ -337,7 +337,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Stomp",
         "learn_method": "level-up",
@@ -627,6 +627,24 @@
         "name": "Meteor Beam",
         "learn_method": "tutor",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Ultra Moon": [
+      {
+        "location": "Poni Grove Area",
+        "method": "Walk",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Poni Grove Area",
+        "method": "Only One",
+        "chance": 15,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ]
   }

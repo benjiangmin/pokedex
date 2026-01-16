@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Garbodor Gmax"
+    "english": "Garbodor (Gmax)"
   },
   "type": [
     "Poison"
@@ -40,6 +40,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Garbodor",
+      "to": "Garbodor (Gmax)",
+      "details": [
+        {
+          "trigger": "gigantamax"
+        }
+      ]
     }
   ],
   "generation": "generation-v",
@@ -51,5 +60,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Trash Heap Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Malamar Mega"
+    "english": "Malamar (Mega)"
   },
   "type": [
     "Dark",
@@ -38,6 +38,15 @@
           "turn_upside_down": true
         }
       ]
+    },
+    {
+      "from": "Malamar",
+      "to": "Malamar (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-vi",
@@ -49,5 +58,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Overturning Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

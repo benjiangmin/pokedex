@@ -31,7 +31,17 @@
     "Sap Sipper",
     "Cloud Nine"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Drampa",
+      "to": "Drampa (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    }
+  ],
   "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/780.png",
@@ -42,7 +52,359 @@
   "isMythical": false,
   "category": "Placid Pokémon",
   "moves": {
-    "Gen 7": [
+    "SM": [
+      {
+        "name": "Razor Wind",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Fly",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Fly",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mist",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Rage",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Light Screen",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Glare",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Steel Wing",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Breath",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Nature Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Voice",
+        "learn_method": "level-up",
+        "level_learned": 49
+      },
+      {
+        "name": "Extrasensory",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Dragon Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Calm Mind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Roost",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Dragon Rush",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Draco Meteor",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Grass Knot",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Echoed Voice",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Echoed Voice",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Work Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Snarl",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Play Rough",
+        "learn_method": "egg",
+        "level_learned": 0
+      },
+      {
+        "name": "Play Nice",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
       {
         "name": "Razor Wind",
         "learn_method": "egg",
@@ -479,7 +841,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Fly",
         "learn_method": "level-up",
@@ -849,6 +1211,26 @@
         "name": "Lash Out",
         "learn_method": "tutor",
         "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Moon": [
+      {
+        "location": "Mount Lanakila Cave",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 45
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Mount Lanakila Cave",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 48,
+        "maxLevel": 51
       }
     ]
   }

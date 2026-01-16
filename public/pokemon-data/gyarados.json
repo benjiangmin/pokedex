@@ -40,6 +40,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Gyarados",
+      "to": "Gyarados (Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-i",
@@ -52,7 +61,7 @@
   "isMythical": false,
   "category": "Atrocious Pokémon",
   "moves": {
-    "Gen 7": [
+    "let's go": [
       {
         "name": "Bind",
         "learn_method": "level-up",
@@ -76,11 +85,6 @@
       {
         "name": "Leer",
         "learn_method": "level-up",
-        "level_learned": 21
-      },
-      {
-        "name": "Leer",
-        "learn_method": "level-up",
         "level_learned": 1
       },
       {
@@ -99,19 +103,9 @@
         "level_learned": 1
       },
       {
-        "name": "Roar",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Flamethrower",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Hydro Pump",
-        "learn_method": "level-up",
-        "level_learned": 42
       },
       {
         "name": "Hydro Pump",
@@ -136,22 +130,12 @@
       {
         "name": "Hyper Beam",
         "learn_method": "level-up",
-        "level_learned": 54
+        "level_learned": 51
       },
       {
         "name": "Hyper Beam",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Hyper Beam",
-        "learn_method": "level-up",
-        "level_learned": 51
-      },
-      {
-        "name": "Dragon Rage",
-        "learn_method": "level-up",
-        "level_learned": 36
       },
       {
         "name": "Dragon Rage",
@@ -194,11 +178,6 @@
         "level_learned": 21
       },
       {
-        "name": "Double Team",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Reflect",
         "learn_method": "machine",
         "level_learned": 0
@@ -210,13 +189,13 @@
       },
       {
         "name": "Waterfall",
-        "learn_method": "machine",
-        "level_learned": 0
+        "learn_method": "level-up",
+        "level_learned": 31
       },
       {
         "name": "Waterfall",
-        "learn_method": "level-up",
-        "level_learned": 31
+        "learn_method": "machine",
+        "level_learned": 0
       },
       {
         "name": "Rest",
@@ -229,33 +208,8 @@
         "level_learned": 0
       },
       {
-        "name": "Snore",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Spite",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
         "name": "Protect",
         "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Scary Face",
-        "learn_method": "level-up",
-        "level_learned": 33
-      },
-      {
-        "name": "Icy Wind",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Outrage",
-        "learn_method": "tutor",
         "level_learned": 0
       },
       {
@@ -264,84 +218,19 @@
         "level_learned": 41
       },
       {
-        "name": "Sandstorm",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Swagger",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Attract",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Sleep Talk",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Return",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Frustration",
+        "name": "Outrage",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
         "name": "Iron Tail",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Hidden Power",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Twister",
-        "learn_method": "level-up",
-        "level_learned": 24
-      },
-      {
-        "name": "Rain Dance",
-        "learn_method": "level-up",
-        "level_learned": 51
-      },
-      {
-        "name": "Rain Dance",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Crunch",
-        "learn_method": "level-up",
-        "level_learned": 39
       },
       {
         "name": "Crunch",
         "learn_method": "level-up",
         "level_learned": 36
-      },
-      {
-        "name": "Uproar",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Hail",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Torment",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Facade",
@@ -354,67 +243,12 @@
         "level_learned": 0
       },
       {
-        "name": "Bounce",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Dragon Dance",
-        "learn_method": "level-up",
-        "level_learned": 45
-      },
-      {
-        "name": "Water Pulse",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Payback",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Dark Pulse",
         "learn_method": "machine",
         "level_learned": 0
       },
       {
-        "name": "Aqua Tail",
-        "learn_method": "level-up",
-        "level_learned": 30
-      },
-      {
-        "name": "Aqua Tail",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
         "name": "Dragon Pulse",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Giga Impact",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Ice Fang",
-        "learn_method": "level-up",
-        "level_learned": 27
-      },
-      {
-        "name": "Iron Head",
-        "learn_method": "tutor",
-        "level_learned": 0
-      },
-      {
-        "name": "Stone Edge",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Round",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -424,37 +258,17 @@
         "level_learned": 0
       },
       {
-        "name": "Bulldoze",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Dragon Tail",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Dragon Tail",
         "learn_method": "level-up",
         "level_learned": 26
       },
       {
-        "name": "Hurricane",
-        "learn_method": "level-up",
-        "level_learned": 48
-      },
-      {
-        "name": "Confide",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Brutal Swing",
+        "name": "Dragon Tail",
         "learn_method": "machine",
         "level_learned": 0
       }
     ],
-    "Gen 2": [
+    "GSC": [
       {
         "name": "Headbutt",
         "learn_method": "machine",
@@ -656,7 +470,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 4": [
+    "HGSS": [
       {
         "name": "Headbutt",
         "learn_method": "tutor",
@@ -988,7 +802,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 1": [
+    "RBY": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -1155,7 +969,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 8": [
+    "SWSH": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -1185,11 +999,6 @@
         "name": "Bite",
         "learn_method": "level-up",
         "level_learned": 1
-      },
-      {
-        "name": "Roar",
-        "learn_method": "machine",
-        "level_learned": 0
       },
       {
         "name": "Flamethrower",
@@ -1232,11 +1041,6 @@
         "level_learned": 0
       },
       {
-        "name": "Strength",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Thunderbolt",
         "learn_method": "machine",
         "level_learned": 0
@@ -1253,11 +1057,6 @@
       },
       {
         "name": "Earthquake",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Double Team",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1337,11 +1136,6 @@
         "level_learned": 0
       },
       {
-        "name": "Swagger",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Attract",
         "learn_method": "machine",
         "level_learned": 0
@@ -1382,11 +1176,6 @@
         "level_learned": 0
       },
       {
-        "name": "Rock Smash",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
         "name": "Whirlpool",
         "learn_method": "level-up",
         "level_learned": 4
@@ -1403,11 +1192,6 @@
       },
       {
         "name": "Hail",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Torment",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1443,11 +1227,6 @@
       },
       {
         "name": "Dragon Dance",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Water Pulse",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -1557,7 +1336,304 @@
         "level_learned": 0
       }
     ],
-    "Gen 9": [
+    "BDSP": [
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "level-up",
+        "level_learned": 52
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Splash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flail",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scary Face",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Whirlpool",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Dance",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Brine",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Avalanche",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 44
+      }
+    ],
+    "SV": [
       {
         "name": "Tackle",
         "learn_method": "level-up",
@@ -1924,7 +2000,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 3": [
+    "RSE": [
       {
         "name": "Body Slam",
         "learn_method": "tutor",
@@ -2171,7 +2247,803 @@
         "level_learned": 0
       }
     ],
-    "Gen 5": [
+    "FRLG": [
+      {
+        "name": "Body Slam",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "level-up",
+        "level_learned": 55
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Rage",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mimic",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Dance",
+        "learn_method": "level-up",
+        "level_learned": 50
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "DPP": [
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Rage",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Spite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Twister",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Bounce",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Dance",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brine",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Natural Gift",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Avalanche",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Captivate",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BW": [
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 41
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "level-up",
+        "level_learned": 47
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Rage",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Dance",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Incinerate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "BW2": [
       {
         "name": "Thrash",
         "learn_method": "level-up",
@@ -2483,7 +3355,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 6": [
+    "XY": [
       {
         "name": "Thrash",
         "learn_method": "level-up",
@@ -2515,11 +3387,6 @@
         "level_learned": 41
       },
       {
-        "name": "Hydro Pump",
-        "learn_method": "level-up",
-        "level_learned": 44
-      },
-      {
         "name": "Surf",
         "learn_method": "machine",
         "level_learned": 0
@@ -2545,9 +3412,266 @@
         "level_learned": 0
       },
       {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Rage",
+        "learn_method": "level-up",
+        "level_learned": 23
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 38
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Dance",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Incinerate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "ORAS": [
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 26
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 44
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
         "name": "Hyper Beam",
         "learn_method": "level-up",
         "level_learned": 50
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
       },
       {
         "name": "Strength",
@@ -2742,11 +3866,6 @@
       {
         "name": "Dragon Dance",
         "learn_method": "level-up",
-        "level_learned": 44
-      },
-      {
-        "name": "Dragon Dance",
-        "learn_method": "level-up",
         "level_learned": 47
       },
       {
@@ -2830,7 +3949,606 @@
         "level_learned": 0
       }
     ],
-    "Legends: Arceus": [
+    "SM": [
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Rage",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scary Face",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Dance",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brutal Swing",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
+      {
+        "name": "Thrash",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Leer",
+        "learn_method": "level-up",
+        "level_learned": 21
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 0
+      },
+      {
+        "name": "Bite",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 42
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Rage",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Spite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scary Face",
+        "learn_method": "level-up",
+        "level_learned": 33
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Outrage",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Twister",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Crunch",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Uproar",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Torment",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bounce",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Dance",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "level-up",
+        "level_learned": 30
+      },
+      {
+        "name": "Aqua Tail",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Fang",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hurricane",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brutal Swing",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "legends arceus": [
       {
         "name": "Bite",
         "learn_method": "level-up",
@@ -2880,6 +4598,4231 @@
         "name": "Hurricane",
         "learn_method": "level-up",
         "level_learned": 37
+      }
+    ]
+  },
+  "locations": {
+    "Diamond": [
+      {
+        "location": "Canalave City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Eterna City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Eterna City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Pastoria City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Pastoria City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sunyshore City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Pokemon League Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Valley Windworks Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fuego Ironworks Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet 1f Route 207",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet 1f Route 207",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Mt Coronet 4f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet 4f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Mt Coronet B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 20,
+        "maxLevel": 50
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 20,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ravaged Path Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ravaged Path Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Oreburgh Gate B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Oreburgh Gate B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sendoff Spring Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sendoff Spring Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Iron Island Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Verity Before Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Verity Before Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Verity After Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Verity After Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Valor Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Valor Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Acuity Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Acuity Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 205 South Towards Floaroma Town",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 219 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 224 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 225 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 225 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 227 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 227 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 229 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 229 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 229 Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 20,
+        "maxLevel": 50
+      },
+      {
+        "location": "Twinleaf Town Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Twinleaf Town Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Celestic Town Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Resort Area Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Resort Area Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Sea Route 220 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Sea Route 223 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Sea Route 226 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Sea Route 230 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Canalave City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Eterna City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Eterna City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Pastoria City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Pastoria City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sunyshore City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Pokemon League Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Valley Windworks Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fuego Ironworks Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet 1f Route 207",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet 1f Route 207",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Mt Coronet 4f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet 4f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Mt Coronet B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Good Rod",
+        "chance": 4,
+        "minLevel": 15,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 20,
+        "maxLevel": 50
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 20,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ravaged Path Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ravaged Path Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Oreburgh Gate B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Oreburgh Gate B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sendoff Spring Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sendoff Spring Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Iron Island Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Verity Before Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Verity Before Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Verity After Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Verity After Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Valor Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Valor Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Acuity Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Acuity Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 205 South Towards Floaroma Town",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 219 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 224 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 225 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 225 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 227 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 227 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 229 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 229 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 229 Area",
+        "method": "Super Rod",
+        "chance": 4,
+        "minLevel": 20,
+        "maxLevel": 50
+      },
+      {
+        "location": "Twinleaf Town Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Twinleaf Town Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Celestic Town Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Resort Area Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Resort Area Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Sea Route 220 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Sea Route 223 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Sea Route 226 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Sea Route 230 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Canalave City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Eterna City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Eterna City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Pastoria City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Pastoria City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sunyshore City Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Pokemon League Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Valley Windworks Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Fuego Ironworks Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Mt Coronet 1f Route 207",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Mt Coronet 1f Route 207",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 20,
+        "maxLevel": 55
+      },
+      {
+        "location": "Mt Coronet 4f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Mt Coronet B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Coronet B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Victory Road B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Victory Road Inside B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Ravaged Path Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Ravaged Path Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Oreburgh Gate B1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Oreburgh Gate B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sendoff Spring Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sendoff Spring Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Iron Island Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Verity Before Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Verity Before Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Verity After Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Verity After Galactic Intervention",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Valor Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Valor Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Lake Acuity Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Acuity Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 203 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 204 South Towards Jubilife City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 204 North Towards Floaroma Town",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 205 South Towards Floaroma Town",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 219 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 219 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 224 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 225 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 225 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 227 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 227 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 228 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Route 229 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sinnoh Route 229 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Twinleaf Town Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 40
+      },
+      {
+        "location": "Twinleaf Town Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 55
+      },
+      {
+        "location": "Celestic Town Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Sea Route 220 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Sea Route 223 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Sea Route 226 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      },
+      {
+        "location": "Sinnoh Sea Route 230 Area",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 30,
+        "maxLevel": 55
+      }
+    ],
+    "Gold": [
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 19
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Silver": [
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 19
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 19
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Surf",
+        "chance": 5,
+        "minLevel": 10,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Silver 1f",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Mt Silver 1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Zone Marshland",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Johto Safari Zone Zone Marshland",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Surf",
+        "chance": 5,
+        "minLevel": 10,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Only One",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Mt Silver 1f",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Mt Silver 1f",
+        "method": "Super Rod",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Super Rod",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Zone Marshland",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Johto Safari Zone Zone Marshland",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      }
+    ],
+    "Firered": [
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Super Rod",
+        "chance": 1,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Super Rod",
+        "chance": 1,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Sea Route 20 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cinnabar Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Viridian City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cerulean City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Vermilion City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Pallet Town Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 4 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 6 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 22 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 24 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Super Rod",
+        "chance": 1,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Ss Anne Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Berry Forest Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Icefall Cave Entrance",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Icefall Cave Waterfall",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kindle Road Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Treasure Beach Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cape Brink Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Bond Bridge Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Resort Gorgeous Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Water Labyrinth Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Five Isle Meadow Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Memorial Pillar Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Outcast Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Green Path Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Water Path Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Ruin Valley Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Trainer Tower Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Tanoby Ruins Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "One Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Four Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Five Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Super Rod",
+        "chance": 1,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Super Rod",
+        "chance": 1,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Sea Route 20 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cinnabar Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Viridian City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cerulean City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Vermilion City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Fuchsia City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Pallet Town Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 4 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 6 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 22 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 24 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Super Rod",
+        "chance": 1,
+        "minLevel": 25,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Ss Anne Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Berry Forest Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Icefall Cave Entrance",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Icefall Cave Waterfall",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kindle Road Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Treasure Beach Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Cape Brink Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Bond Bridge Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Resort Gorgeous Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Water Labyrinth Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Five Isle Meadow Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Memorial Pillar Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Outcast Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Green Path Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Water Path Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Ruin Valley Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Trainer Tower Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Tanoby Ruins Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "One Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Four Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      },
+      {
+        "location": "Five Island Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 15,
+        "maxLevel": 25
+      }
+    ],
+    "Yellow": [
+      {
+        "location": "Fuchsia City Area",
+        "method": "Super Rod",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "Ruby": [
+      {
+        "location": "Sootopolis City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sootopolis City Area",
+        "method": "Super Rod",
+        "chance": 1,
+        "minLevel": 5,
+        "maxLevel": 45
+      }
+    ],
+    "Sapphire": [
+      {
+        "location": "Sootopolis City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sootopolis City Area",
+        "method": "Super Rod",
+        "chance": 1,
+        "minLevel": 5,
+        "maxLevel": 45
+      }
+    ],
+    "Emerald": [
+      {
+        "location": "Sootopolis City Area",
+        "method": "Super Rod",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Sootopolis City Area",
+        "method": "Super Rod",
+        "chance": 1,
+        "minLevel": 5,
+        "maxLevel": 45
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Nature Sanctuary Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 50,
+        "maxLevel": 70
+      },
+      {
+        "location": "Nature Sanctuary Area",
+        "method": "Super Rod Spots",
+        "chance": 1,
+        "minLevel": 1,
+        "maxLevel": 100
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Nature Sanctuary Area",
+        "method": "Super Rod Spots",
+        "chance": 15,
+        "minLevel": 50,
+        "maxLevel": 70
+      },
+      {
+        "location": "Nature Sanctuary Area",
+        "method": "Super Rod Spots",
+        "chance": 1,
+        "minLevel": 1,
+        "maxLevel": 100
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 3 Area",
+        "method": "Super Rod",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kalos Route 22 Area",
+        "method": "Super Rod",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Parfum Palace Area",
+        "method": "Super Rod",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 35
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 3 Area",
+        "method": "Super Rod",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Kalos Route 22 Area",
+        "method": "Super Rod",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 35
+      },
+      {
+        "location": "Parfum Palace Area",
+        "method": "Super Rod",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 35
+      }
+    ],
+    "Sun": [
+      {
+        "location": "Alola Route 7 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 19
+      },
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 20
+      },
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 25
+      },
+      {
+        "location": "Alola Route 9 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 23
+      },
+      {
+        "location": "Alola Route 13 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 30
+      },
+      {
+        "location": "Alola Route 14 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 31
+      },
+      {
+        "location": "Alola Route 14 Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 31
+      },
+      {
+        "location": "Alola Route 15 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Alola Route 15 Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill Totems Den",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill Totems Den",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Kalae Bay Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Kalae Bay Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 27
+      },
+      {
+        "location": "Melemele Sea Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Melemele Sea Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Paniola Town Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Paniola Town Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Poni Gauntlet Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 59
+      },
+      {
+        "location": "Poni Gauntlet Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 59
+      },
+      {
+        "location": "Poni Meadow Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 57
+      },
+      {
+        "location": "Poni Meadow Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 57
+      },
+      {
+        "location": "Poni Wilds Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Poni Wilds Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Seafolk Village Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Seafolk Village Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Seaward Cave Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Seaward Cave Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Secluded Shore Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 30
+      },
+      {
+        "location": "Tapu Village Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 31
+      },
+      {
+        "location": "Tapu Village Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 31
+      },
+      {
+        "location": "Vast Poni Canyon Northwest",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      },
+      {
+        "location": "Vast Poni Canyon Northwest",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      }
+    ],
+    "Moon": [
+      {
+        "location": "Alola Route 7 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 19
+      },
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 20
+      },
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 25
+      },
+      {
+        "location": "Alola Route 9 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 23
+      },
+      {
+        "location": "Alola Route 13 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 30
+      },
+      {
+        "location": "Alola Route 14 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 31
+      },
+      {
+        "location": "Alola Route 14 Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 31
+      },
+      {
+        "location": "Alola Route 15 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Alola Route 15 Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill Totems Den",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Brooklet Hill Totems Den",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Kalae Bay Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Kalae Bay Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 27
+      },
+      {
+        "location": "Melemele Sea Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Melemele Sea Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Paniola Town Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Paniola Town Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Poni Gauntlet Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 59
+      },
+      {
+        "location": "Poni Gauntlet Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 59
+      },
+      {
+        "location": "Poni Meadow Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 57
+      },
+      {
+        "location": "Poni Meadow Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 57
+      },
+      {
+        "location": "Poni Wilds Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Poni Wilds Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Seafolk Village Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Seafolk Village Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 43
+      },
+      {
+        "location": "Seaward Cave Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Seaward Cave Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Secluded Shore Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 30
+      },
+      {
+        "location": "Tapu Village Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 31
+      },
+      {
+        "location": "Tapu Village Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 31
+      },
+      {
+        "location": "Vast Poni Canyon Northwest",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      },
+      {
+        "location": "Vast Poni Canyon Northwest",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      }
+    ],
+    "Ultra Sun": [
+      {
+        "location": "Alola Route 7 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Alola Route 7 Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 23
+      },
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 25
+      },
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 20
+      },
+      {
+        "location": "Alola Route 9 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 23
+      },
+      {
+        "location": "Alola Route 13 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Alola Route 14 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 34
+      },
+      {
+        "location": "Alola Route 14 Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 39
+      },
+      {
+        "location": "Alola Route 15 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 35
+      },
+      {
+        "location": "Alola Route 15 Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 40
+      },
+      {
+        "location": "Akala Outskirts Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 24
+      },
+      {
+        "location": "Akala Outskirts Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 29
+      },
+      {
+        "location": "Ancient Poni Path Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      },
+      {
+        "location": "Ancient Poni Path Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 49
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 16
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 21
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 16
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 21
+      },
+      {
+        "location": "Brooklet Hill Totems Den",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 16
+      },
+      {
+        "location": "Brooklet Hill Totems Den",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 21
+      },
+      {
+        "location": "Hauoli City Beachfront",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Hauoli City Beachfront",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kalae Bay Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kalae Bay Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Bubbling Spots",
+        "chance": 35,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Super Rod",
+        "chance": 5,
+        "minLevel": 10,
+        "maxLevel": 28
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 28
+      },
+      {
+        "location": "Melemele Sea Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Melemele Sea Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Paniola Town Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Paniola Town Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 49
+      },
+      {
+        "location": "Poni Gauntlet Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 61
+      },
+      {
+        "location": "Poni Gauntlet Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 66
+      },
+      {
+        "location": "Poni Meadow Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 57
+      },
+      {
+        "location": "Poni Meadow Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 62
+      },
+      {
+        "location": "Seafolk Village Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafolk Village Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 49
+      },
+      {
+        "location": "Seaward Cave Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Seaward Cave Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Tapu Village Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 39
+      },
+      {
+        "location": "Tapu Village Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 34
+      },
+      {
+        "location": "Vast Poni Canyon Northwest",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 46
+      },
+      {
+        "location": "Vast Poni Canyon Northwest",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 51
+      }
+    ],
+    "Ultra Moon": [
+      {
+        "location": "Alola Route 7 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 18
+      },
+      {
+        "location": "Alola Route 7 Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 23
+      },
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 25
+      },
+      {
+        "location": "Alola Route 8 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 20
+      },
+      {
+        "location": "Alola Route 9 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 23
+      },
+      {
+        "location": "Alola Route 13 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Alola Route 14 Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 34
+      },
+      {
+        "location": "Alola Route 14 Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 39
+      },
+      {
+        "location": "Alola Route 15 Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 35
+      },
+      {
+        "location": "Alola Route 15 Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 40
+      },
+      {
+        "location": "Akala Outskirts Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 24
+      },
+      {
+        "location": "Akala Outskirts Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 29
+      },
+      {
+        "location": "Ancient Poni Path Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      },
+      {
+        "location": "Ancient Poni Path Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 49
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 16
+      },
+      {
+        "location": "Brooklet Hill North",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 21
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 16
+      },
+      {
+        "location": "Brooklet Hill South",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 21
+      },
+      {
+        "location": "Brooklet Hill Totems Den",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 16
+      },
+      {
+        "location": "Brooklet Hill Totems Den",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 21
+      },
+      {
+        "location": "Hauoli City Beachfront",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Hauoli City Beachfront",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kalae Bay Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kalae Bay Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Bubbling Spots",
+        "chance": 35,
+        "minLevel": 10,
+        "maxLevel": 33
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Super Rod",
+        "chance": 5,
+        "minLevel": 10,
+        "maxLevel": 28
+      },
+      {
+        "location": "Malie Garden Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 28
+      },
+      {
+        "location": "Melemele Sea Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Melemele Sea Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Paniola Town Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Paniola Town Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      },
+      {
+        "location": "Poni Breaker Coast Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 49
+      },
+      {
+        "location": "Poni Gauntlet Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 61
+      },
+      {
+        "location": "Poni Gauntlet Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 66
+      },
+      {
+        "location": "Poni Meadow Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 57
+      },
+      {
+        "location": "Poni Meadow Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 62
+      },
+      {
+        "location": "Seafolk Village Main",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafolk Village Main",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 49
+      },
+      {
+        "location": "Seaward Cave Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 22
+      },
+      {
+        "location": "Seaward Cave Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "Tapu Village Area",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 39
+      },
+      {
+        "location": "Tapu Village Area",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 34
+      },
+      {
+        "location": "Vast Poni Canyon Northwest",
+        "method": "Sos Encounter",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 46
+      },
+      {
+        "location": "Vast Poni Canyon Northwest",
+        "method": "Sos From Bubbling Spot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 51
       }
     ]
   }

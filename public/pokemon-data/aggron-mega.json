@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Aggron Mega"
+    "english": "Aggron (Mega)"
   },
   "type": [
     "Steel"
@@ -48,6 +48,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Aggron",
+      "to": "Aggron (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-iii",
@@ -60,7 +69,7 @@
   "isMythical": false,
   "category": "Iron Armor Pokémon",
   "moves": {
-    "Gen 6": [
+    "ORAS": [
       {
         "name": "Fire Punch",
         "learn_method": "tutor",
@@ -89,11 +98,6 @@
       {
         "name": "Headbutt",
         "learn_method": "level-up",
-        "level_learned": 8
-      },
-      {
-        "name": "Headbutt",
-        "learn_method": "level-up",
         "level_learned": 7
       },
       {
@@ -104,17 +108,7 @@
       {
         "name": "Take Down",
         "learn_method": "level-up",
-        "level_learned": 22
-      },
-      {
-        "name": "Take Down",
-        "learn_method": "level-up",
         "level_learned": 28
-      },
-      {
-        "name": "Double Edge",
-        "learn_method": "level-up",
-        "level_learned": 65
       },
       {
         "name": "Double Edge",
@@ -124,17 +118,12 @@
       {
         "name": "Roar",
         "learn_method": "level-up",
-        "level_learned": 18
+        "level_learned": 19
       },
       {
         "name": "Roar",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Roar",
-        "learn_method": "level-up",
-        "level_learned": 19
       },
       {
         "name": "Flamethrower",
@@ -228,13 +217,13 @@
       },
       {
         "name": "Rock Slide",
-        "learn_method": "machine",
-        "level_learned": 0
+        "learn_method": "level-up",
+        "level_learned": 25
       },
       {
         "name": "Rock Slide",
-        "learn_method": "level-up",
-        "level_learned": 25
+        "learn_method": "machine",
+        "level_learned": 0
       },
       {
         "name": "Substitute",
@@ -254,17 +243,12 @@
       {
         "name": "Protect",
         "learn_method": "level-up",
-        "level_learned": 29
+        "level_learned": 16
       },
       {
         "name": "Protect",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Protect",
-        "learn_method": "level-up",
-        "level_learned": 16
       },
       {
         "name": "Mud Slap",
@@ -319,22 +303,12 @@
       {
         "name": "Iron Tail",
         "learn_method": "level-up",
-        "level_learned": 40
-      },
-      {
-        "name": "Iron Tail",
-        "learn_method": "level-up",
         "level_learned": 35
       },
       {
         "name": "Iron Tail",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Metal Claw",
-        "learn_method": "level-up",
-        "level_learned": 11
       },
       {
         "name": "Metal Claw",
@@ -403,18 +377,13 @@
       },
       {
         "name": "Rock Tomb",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Rock Tomb",
         "learn_method": "level-up",
         "level_learned": 13
       },
       {
-        "name": "Metal Sound",
-        "learn_method": "level-up",
-        "level_learned": 34
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
       },
       {
         "name": "Metal Sound",
@@ -425,11 +394,6 @@
         "name": "Aerial Ace",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Iron Defense",
-        "learn_method": "level-up",
-        "level_learned": 15
       },
       {
         "name": "Iron Defense",
@@ -460,11 +424,6 @@
         "name": "Water Pulse",
         "learn_method": "tutor",
         "level_learned": 0
-      },
-      {
-        "name": "Metal Burst",
-        "learn_method": "level-up",
-        "level_learned": 74
       },
       {
         "name": "Metal Burst",
@@ -534,11 +493,6 @@
       {
         "name": "Iron Head",
         "learn_method": "level-up",
-        "level_learned": 25
-      },
-      {
-        "name": "Iron Head",
-        "learn_method": "level-up",
         "level_learned": 22
       },
       {
@@ -560,11 +514,6 @@
         "name": "Hone Claws",
         "learn_method": "machine",
         "level_learned": 0
-      },
-      {
-        "name": "Autotomize",
-        "learn_method": "level-up",
-        "level_learned": 48
       },
       {
         "name": "Autotomize",
@@ -612,7 +561,7 @@
         "level_learned": 0
       }
     ],
-    "Gen 7": [
+    "USUM": [
       {
         "name": "Fire Punch",
         "learn_method": "tutor",
@@ -1078,6 +1027,716 @@
         "learn_method": "tutor",
         "level_learned": 0
       }
+    ],
+    "XY": [
+      {
+        "name": "Cut",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 8
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "level-up",
+        "level_learned": 65
+      },
+      {
+        "name": "Roar",
+        "learn_method": "level-up",
+        "level_learned": 18
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Strength",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dig",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 29
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "level-up",
+        "level_learned": 40
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "level-up",
+        "level_learned": 11
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Smash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Sound",
+        "learn_method": "level-up",
+        "level_learned": 34
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 15
+      },
+      {
+        "name": "Dragon Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Burst",
+        "learn_method": "level-up",
+        "level_learned": 74
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Polish",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hone Claws",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Autotomize",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heavy Slam",
+        "learn_method": "level-up",
+        "level_learned": 57
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Incinerate",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Power Up Punch",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "SM": [
+      {
+        "name": "Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Headbutt",
+        "learn_method": "level-up",
+        "level_learned": 7
+      },
+      {
+        "name": "Tackle",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Take Down",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Double Edge",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Roar",
+        "learn_method": "level-up",
+        "level_learned": 19
+      },
+      {
+        "name": "Roar",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flamethrower",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Solar Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunderbolt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Thunder",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Earthquake",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Harden",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Fire Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "level-up",
+        "level_learned": 25
+      },
+      {
+        "name": "Rock Slide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Mud Slap",
+        "learn_method": "level-up",
+        "level_learned": 4
+      },
+      {
+        "name": "Sandstorm",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Tail",
+        "learn_method": "level-up",
+        "level_learned": 35
+      },
+      {
+        "name": "Metal Claw",
+        "learn_method": "level-up",
+        "level_learned": 10
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sunny Day",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brick Break",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Rock Tomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Sound",
+        "learn_method": "level-up",
+        "level_learned": 31
+      },
+      {
+        "name": "Aerial Ace",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Defense",
+        "learn_method": "level-up",
+        "level_learned": 39
+      },
+      {
+        "name": "Dragon Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Metal Burst",
+        "learn_method": "level-up",
+        "level_learned": 63
+      },
+      {
+        "name": "Payback",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Fling",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rock Polish",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Focus Blast",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Claw",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Flash Cannon",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Iron Head",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Stone Edge",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Autotomize",
+        "learn_method": "level-up",
+        "level_learned": 51
+      },
+      {
+        "name": "Smack Down",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Heavy Slam",
+        "learn_method": "level-up",
+        "level_learned": 57
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bulldoze",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dragon Tail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Smart Strike",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Brutal Swing",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
     ]
-  }
+  },
+  "locations": {}
 }

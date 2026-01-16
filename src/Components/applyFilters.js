@@ -1,11 +1,17 @@
 export const applyFilters = (data, rules) => {
     return data.filter(pokemon => {
-        // Name Check
-        if (rules.name) {
-            if (pokemon.name.english.toLowerCase() !== rules.name.toLowerCase()) {
+        if (rules.name && rules.name.trim() !== "") {
+            const searchTerm = rules.name.toLowerCase()
+            const selfMatches = pokemon.name.english.toLowerCase() === searchTerm
+            const evoLineMatches = pokemon.evolutionChain.some(link => (
+                link.from.toLowerCase() === searchTerm || link.to.toLowerCase() === searchTerm
+            ))
+
+            if (!selfMatches && !evoLineMatches) {
                 return false
             }
         }
+
         //Delete the Pikachu cap variants here too, and ash greninja
         if (pokemon.slug.includes("-cap")) return false
         if (pokemon.slug.includes("-ash")) return false

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Chandelure Mega"
+    "english": "Chandelure (Mega)"
   },
   "type": [
     "Ghost",
@@ -47,6 +47,15 @@
           "trigger": "Use Item"
         }
       ]
+    },
+    {
+      "from": "Chandelure",
+      "to": "Chandelure (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-v",
@@ -58,5 +67,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Luring Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }

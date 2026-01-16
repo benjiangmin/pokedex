@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Barbaracle Mega"
+    "english": "Barbaracle (Mega)"
   },
   "type": [
     "Rock",
@@ -37,6 +37,15 @@
           "trigger": "Level Up"
         }
       ]
+    },
+    {
+      "from": "Barbaracle",
+      "to": "Barbaracle (Mega)",
+      "details": [
+        {
+          "trigger": "mega Evolution"
+        }
+      ]
     }
   ],
   "generation": "generation-vi",
@@ -48,5 +57,6 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Collective Pokémon",
-  "moves": {}
+  "moves": {},
+  "locations": {}
 }
