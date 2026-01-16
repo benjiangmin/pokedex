@@ -31,6 +31,19 @@
     "Shell Armor",
     "Swift Swim"
   ],
+  "evolutionChain": [
+    {
+      "from": "Chewtle",
+      "to": "Drednaw",
+      "details": [
+        {
+          "min_level": 22,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/834.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/834.gif"
@@ -719,6 +732,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

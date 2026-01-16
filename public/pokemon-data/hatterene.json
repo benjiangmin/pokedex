@@ -31,6 +31,29 @@
     "Anticipation",
     "Magic Bounce"
   ],
+  "evolutionChain": [
+    {
+      "from": "Hatenna",
+      "to": "Hattrem",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Hattrem",
+      "to": "Hatterene",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/858.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/858.gif"
@@ -634,6 +657,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

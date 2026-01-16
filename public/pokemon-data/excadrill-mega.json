@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Excadrill (Mega)"
+    "english": "Excadrill Mega"
   },
   "type": [
     "Ground",
@@ -27,6 +27,19 @@
   "weight": 60,
   "height": 0.9,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Drilbur",
+      "to": "Excadrill",
+      "details": [
+        {
+          "min_level": 31,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +48,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Subterrene Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

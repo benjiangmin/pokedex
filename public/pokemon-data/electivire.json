@@ -29,6 +29,29 @@
     "Motor Drive",
     "Vital Spirit"
   ],
+  "evolutionChain": [
+    {
+      "from": "Elekid",
+      "to": "Electabuzz",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Electabuzz",
+      "to": "Electivire",
+      "details": [
+        {
+          "held_item": "Electirizer",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/466.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/466.gif"
@@ -2352,6 +2375,5 @@
         "level_learned": 11
       }
     ]
-  },
-  "locations": {}
+  }
 }

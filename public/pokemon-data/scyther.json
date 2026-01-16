@@ -31,6 +31,29 @@
     "Technician",
     "Steadfast"
   ],
+  "evolutionChain": [
+    {
+      "from": "Scyther",
+      "to": "Scizor",
+      "details": [
+        {
+          "held_item": "Metal Coat",
+          "trigger": "Trade"
+        }
+      ]
+    },
+    {
+      "from": "Scyther",
+      "to": "Kleavor",
+      "details": [
+        {
+          "item": "Black Augurite",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/123.gif"
@@ -2563,185 +2586,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Route 215 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 215 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Red": [
-      {
-        "location": "Kanto Safari Zone Middle",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Safari Zone Area 1 East",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Kanto Safari Zone Middle",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Safari Zone Area 1 East",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Kanto Safari Zone Area 1 East",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Safari Zone Area 2 North",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Purple Flowers",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Purple Flowers",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Purple Flowers",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Red Flowers",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Red Flowers",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Red Flowers",
-        "chance": 1
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Purple Flowers",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Purple Flowers",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Purple Flowers",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Red Flowers",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Red Flowers",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Red Flowers",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Bubbling Spots",
-        "chance": 30
-      },
-      {
-        "location": "Poke Pelago Elite Four Defeated",
-        "method": "Gift",
-        "chance": 7
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Bubbling Spots",
-        "chance": 30
-      },
-      {
-        "location": "Poke Pelago Elite Four Defeated",
-        "method": "Gift",
-        "chance": 7
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Bubbling Spots",
-        "chance": 30
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Bubbling Spots",
-        "chance": 30
       }
     ]
   }

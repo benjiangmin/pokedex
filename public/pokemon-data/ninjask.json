@@ -30,6 +30,28 @@
     "Speed Boost",
     "Infiltrator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Nincada",
+      "to": "Ninjask",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Nincada",
+      "to": "Shedinja",
+      "details": [
+        {
+          "trigger": "Shed"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/291.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/291.gif"
@@ -1741,6 +1763,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

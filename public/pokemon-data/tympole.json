@@ -30,6 +30,29 @@
     "Hydration",
     "Water Absorb"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tympole",
+      "to": "Palpitoad",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Palpitoad",
+      "to": "Seismitoad",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/535.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/535.gif"
@@ -995,112 +1018,6 @@
         "name": "Venom Drench",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 1
       }
     ]
   }

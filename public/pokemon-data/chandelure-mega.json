@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Chandelure (Mega)"
+    "english": "Chandelure Mega"
   },
   "type": [
     "Ghost",
@@ -27,6 +27,29 @@
   "weight": 69.6,
   "height": 2.5,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Litwick",
+      "to": "Lampent",
+      "details": [
+        {
+          "min_level": 41,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Lampent",
+      "to": "Chandelure",
+      "details": [
+        {
+          "item": "Dusk Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Luring Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

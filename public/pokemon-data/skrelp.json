@@ -31,6 +31,19 @@
     "Poison Touch",
     "Adaptability"
   ],
+  "evolutionChain": [
+    {
+      "from": "Skrelp",
+      "to": "Dragalge",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/690.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/690.gif"
@@ -1131,40 +1144,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Y": [
-      {
-        "location": "Ambrette Town Area",
-        "method": "Good Rod",
-        "chance": 60
-      },
-      {
-        "location": "Ambrette Town Area",
-        "method": "Good Rod",
-        "chance": 5
-      },
-      {
-        "location": "Cyllage City Area",
-        "method": "Good Rod",
-        "chance": 60
-      },
-      {
-        "location": "Cyllage City Area",
-        "method": "Good Rod",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Good Rod",
-        "chance": 60
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Good Rod",
-        "chance": 5
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Dudunsparce (Two Segment)"
+    "english": "Dudunsparce Two Segment"
   },
   "type": [
     "Normal"
@@ -30,6 +30,19 @@
     "Run Away",
     "Rattled"
   ],
+  "evolutionChain": [
+    {
+      "from": "Dunsparce",
+      "to": "Dudunsparce",
+      "details": [
+        {
+          "known_move": "Hyper Drill",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/982.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/982.gif"
@@ -496,6 +509,5 @@
         "level_learned": 32
       }
     ]
-  },
-  "locations": {}
+  }
 }

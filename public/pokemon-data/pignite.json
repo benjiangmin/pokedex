@@ -30,6 +30,29 @@
     "Blaze",
     "Thick Fat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tepig",
+      "to": "Pignite",
+      "details": [
+        {
+          "min_level": 17,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pignite",
+      "to": "Emboar",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/499.gif"
@@ -1502,6 +1525,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

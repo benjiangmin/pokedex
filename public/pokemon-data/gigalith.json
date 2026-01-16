@@ -30,6 +30,28 @@
     "Sand Stream",
     "Sand Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Roggenrola",
+      "to": "Boldore",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Boldore",
+      "to": "Gigalith",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/526.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/526.gif"
@@ -1112,6 +1134,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

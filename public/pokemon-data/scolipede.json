@@ -31,6 +31,29 @@
     "Swarm",
     "Speed Boost"
   ],
+  "evolutionChain": [
+    {
+      "from": "Venipede",
+      "to": "Whirlipede",
+      "details": [
+        {
+          "min_level": 22,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Whirlipede",
+      "to": "Scolipede",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/545.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/545.gif"
@@ -1286,22 +1309,6 @@
         "name": "Skitter Smack",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 5
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 5
       }
     ]
   }

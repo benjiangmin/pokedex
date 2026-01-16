@@ -28,6 +28,18 @@
   "abilities": [
     "Rattled"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gimmighoul",
+      "to": "Gholdengo",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/999.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/999.gif"
@@ -129,6 +141,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -31,6 +31,19 @@
     "Unburden",
     "Flare Boost"
   ],
+  "evolutionChain": [
+    {
+      "from": "Drifloon",
+      "to": "Drifblim",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/425.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/425.gif"
@@ -2237,121 +2250,6 @@
         "name": "Mystical Fire",
         "learn_method": "level-up",
         "level_learned": 25
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Valley Windworks Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Valley Windworks Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Valley Windworks Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 1 Trainers School",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Hauoli Cemetery Area",
-        "method": "Walk",
-        "chance": 40
-      },
-      {
-        "location": "Trainers School Area",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 1 Trainers School",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Hauoli Cemetery Area",
-        "method": "Walk",
-        "chance": 40
-      },
-      {
-        "location": "Trainers School Area",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Hauoli Cemetery Area",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Hauoli Cemetery Area",
-        "method": "Walk",
-        "chance": 30
       }
     ]
   }

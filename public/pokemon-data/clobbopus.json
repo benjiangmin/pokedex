@@ -29,6 +29,19 @@
     "Limber",
     "Technician"
   ],
+  "evolutionChain": [
+    {
+      "from": "Clobbopus",
+      "to": "Grapploct",
+      "details": [
+        {
+          "known_move": "Taunt",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/852.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/852.gif"
@@ -275,6 +288,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

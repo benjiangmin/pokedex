@@ -31,6 +31,19 @@
     "Sturdy",
     "Swift Swim"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tirtouga",
+      "to": "Carracosta",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/565.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/565.gif"
@@ -1358,6 +1371,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Gardevoir (Mega)"
+    "english": "Gardevoir Mega"
   },
   "type": [
     "Psychic",
@@ -29,6 +29,40 @@
   "abilities": [
     "Pixilate"
   ],
+  "evolutionChain": [
+    {
+      "from": "Ralts",
+      "to": "Kirlia",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Kirlia",
+      "to": "Gardevoir",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Kirlia",
+      "to": "Gallade",
+      "details": [
+        {
+          "gender": 2,
+          "item": "Dawn Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10051.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10051.gif"
@@ -992,6 +1026,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

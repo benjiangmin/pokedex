@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Scovillain (Mega)"
+    "english": "Scovillain Mega"
   },
   "type": [
     "Grass",
@@ -27,6 +27,19 @@
   "weight": 22,
   "height": 1.2,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Capsakid",
+      "to": "Scovillain",
+      "details": [
+        {
+          "item": "Fire Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +48,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Spicy Pepper Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

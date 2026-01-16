@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Gengar (Mega)"
+    "english": "Gengar Mega"
   },
   "type": [
     "Ghost",
@@ -29,6 +29,28 @@
   "abilities": [
     "Shadow Tag"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gastly",
+      "to": "Haunter",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Haunter",
+      "to": "Gengar",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10038.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10038.gif"
@@ -947,6 +969,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

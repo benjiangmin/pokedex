@@ -30,6 +30,29 @@
     "Sand Veil",
     "Rough Skin"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gible",
+      "to": "Gabite",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Gabite",
+      "to": "Garchomp",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/444.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/444.gif"
@@ -1766,118 +1789,6 @@
         "name": "Bulldoze",
         "learn_method": "level-up",
         "level_learned": 9
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Sinnoh Victory Road 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Victory Road 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Victory Road 2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Victory Road 2f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Victory Road B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Victory Road B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Victory Road Inside B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Victory Road Inside B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Victory Road Inside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Victory Road Inside",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Victory Road Inside Exit",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Victory Road Inside Exit",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 10
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 10
       }
     ]
   }

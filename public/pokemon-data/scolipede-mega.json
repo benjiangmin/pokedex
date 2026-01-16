@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Scolipede (Mega)"
+    "english": "Scolipede Mega"
   },
   "type": [
     "Bug",
@@ -27,6 +27,29 @@
   "weight": 230.5,
   "height": 3.2,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Venipede",
+      "to": "Whirlipede",
+      "details": [
+        {
+          "min_level": 22,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Whirlipede",
+      "to": "Scolipede",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Megapede Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

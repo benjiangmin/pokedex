@@ -31,6 +31,29 @@
     "Rivalry",
     "Sheer Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Nidoran F",
+      "to": "Nidorina",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Nidorina",
+      "to": "Nidoqueen",
+      "details": [
+        {
+          "item": "Moon Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/31.gif"
@@ -2976,6 +2999,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

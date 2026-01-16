@@ -29,6 +29,29 @@
     "Flame Body",
     "Vital Spirit"
   ],
+  "evolutionChain": [
+    {
+      "from": "Magby",
+      "to": "Magmar",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Magmar",
+      "to": "Magmortar",
+      "details": [
+        {
+          "held_item": "Magmarizer",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/126.gif"
@@ -2536,252 +2559,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Burned Tower B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Mt Silver 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Silver 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Silver 1f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Pokemon Mansion 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Pokemon Mansion B1f",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Mt Ember Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mt Ember Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

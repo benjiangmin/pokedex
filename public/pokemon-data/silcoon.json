@@ -28,6 +28,49 @@
   "abilities": [
     "Shed Skin"
   ],
+  "evolutionChain": [
+    {
+      "from": "Wurmple",
+      "to": "Silcoon",
+      "details": [
+        {
+          "min_level": 7,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Silcoon",
+      "to": "Beautifly",
+      "details": [
+        {
+          "min_level": 10,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Wurmple",
+      "to": "Cascoon",
+      "details": [
+        {
+          "min_level": 7,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Cascoon",
+      "to": "Dustox",
+      "details": [
+        {
+          "min_level": 10,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/266.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/266.gif"
@@ -184,48 +227,6 @@
         "name": "Harden",
         "learn_method": "level-up",
         "level_learned": 1
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

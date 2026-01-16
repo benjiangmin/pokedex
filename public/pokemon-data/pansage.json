@@ -29,6 +29,19 @@
     "Gluttony",
     "Overgrow"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pansage",
+      "to": "Simisage",
+      "details": [
+        {
+          "item": "Leaf Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/511.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/511.gif"
@@ -1122,80 +1135,6 @@
         "name": "Spiky Shield",
         "learn_method": "egg",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Gift",
-        "chance": 100
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 10
-      }
-    ],
-    "White": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Gift",
-        "chance": 100
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 10
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 10
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 10
-      }
-    ],
-    "X": [
-      {
-        "location": "Santalune Forest Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Santalune Forest Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

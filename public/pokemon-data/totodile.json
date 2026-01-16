@@ -29,6 +29,29 @@
     "Torrent",
     "Sheer Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Totodile",
+      "to": "Croconaw",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Croconaw",
+      "to": "Feraligatr",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/158.gif"
@@ -2627,78 +2650,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Gold": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Silver": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Omega Ruby": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Littleroot Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Seaward Cave Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Seaward Cave Area",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

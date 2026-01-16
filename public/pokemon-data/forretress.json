@@ -30,6 +30,19 @@
     "Sturdy",
     "Overcoat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pineco",
+      "to": "Forretress",
+      "details": [
+        {
+          "min_level": 31,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/205.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/205.gif"
@@ -2570,6 +2583,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

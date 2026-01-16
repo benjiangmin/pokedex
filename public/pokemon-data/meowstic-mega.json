@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Meowstic (Mega)"
+    "english": "Meowstic Mega"
   },
   "type": [
     "Psychic"
@@ -26,6 +26,19 @@
   "weight": 10.1,
   "height": 0.8,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Espurr",
+      "to": "Meowstic",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": null,
     "animated": null
@@ -34,6 +47,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Constraint Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

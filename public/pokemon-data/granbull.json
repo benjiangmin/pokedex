@@ -30,6 +30,19 @@
     "Quick Feet",
     "Rattled"
   ],
+  "evolutionChain": [
+    {
+      "from": "Snubbull",
+      "to": "Granbull",
+      "details": [
+        {
+          "min_level": 23,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/210.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/210.gif"
@@ -2988,108 +3001,6 @@
         "name": "Dazzling Gleam",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Crystal": [
-      {
-        "location": "Kanto Route 6 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 6 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 6 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 6 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Ancient Poni Path Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Ancient Poni Path Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Ancient Poni Path Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Ancient Poni Path Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Persian (Alola)"
+    "english": "Persian Alola"
   },
   "type": [
     "Dark"
@@ -30,6 +30,33 @@
     "Technician",
     "Rattled"
   ],
+  "evolutionChain": [
+    {
+      "from": "Meowth",
+      "to": "Persian",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        },
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Meowth",
+      "to": "Perrserker",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10108.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10108.gif"
@@ -1173,22 +1200,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Malie Garden Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Malie Garden Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

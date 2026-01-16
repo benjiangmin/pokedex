@@ -30,6 +30,29 @@
     "Early Bird",
     "Harvest"
   ],
+  "evolutionChain": [
+    {
+      "from": "Smoliv",
+      "to": "Dolliv",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Dolliv",
+      "to": "Arboliva",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/928.gif"
@@ -241,6 +264,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

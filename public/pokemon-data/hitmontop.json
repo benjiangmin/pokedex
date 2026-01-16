@@ -30,6 +30,41 @@
     "Technician",
     "Steadfast"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tyrogue",
+      "to": "Hitmonlee",
+      "details": [
+        {
+          "min_level": 20,
+          "relative_physical_stats": 1,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Tyrogue",
+      "to": "Hitmonchan",
+      "details": [
+        {
+          "min_level": 20,
+          "relative_physical_stats": -1,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Tyrogue",
+      "to": "Hitmontop",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/237.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/237.gif"
@@ -2205,6 +2240,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

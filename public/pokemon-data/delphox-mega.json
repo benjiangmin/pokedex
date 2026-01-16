@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Delphox (Mega)"
+    "english": "Delphox Mega"
   },
   "type": [
     "Fire",
@@ -27,6 +27,29 @@
   "weight": 39,
   "height": 1.5,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Fennekin",
+      "to": "Braixen",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Braixen",
+      "to": "Delphox",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Fox Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

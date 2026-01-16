@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Oinkologne (Male)"
+    "english": "Oinkologne Male"
   },
   "type": [
     "Normal"
@@ -30,6 +30,19 @@
     "Gluttony",
     "Thick Fat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Lechonk",
+      "to": "Oinkologne",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/916.gif"
@@ -311,6 +324,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

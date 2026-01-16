@@ -30,6 +30,29 @@
     "Blaze",
     "Speed Boost"
   ],
+  "evolutionChain": [
+    {
+      "from": "Torchic",
+      "to": "Combusken",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Combusken",
+      "to": "Blaziken",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/256.gif"
@@ -2391,22 +2414,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

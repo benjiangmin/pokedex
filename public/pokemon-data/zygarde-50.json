@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Zygarde (50)"
+    "english": "Zygarde 50"
   },
   "type": [
     "Dragon",
@@ -29,6 +29,8 @@
   "abilities": [
     "Aura Break"
   ],
+  "evolutionChain": [],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/718.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/718.gif"
@@ -977,60 +979,6 @@
         "name": "Scorching Sands",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Terminus Cave Zygardes Chamber",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Y": [
-      {
-        "location": "Terminus Cave Zygardes Chamber",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Gift",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Gift",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Resolution Cave Area",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Resolution Cave Area",
-        "method": "Only One",
-        "chance": 15
       }
     ]
   }

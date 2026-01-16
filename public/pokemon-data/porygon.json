@@ -30,6 +30,29 @@
     "Download",
     "Analytic"
   ],
+  "evolutionChain": [
+    {
+      "from": "Porygon",
+      "to": "Porygon2",
+      "details": [
+        {
+          "held_item": "Up Grade",
+          "trigger": "Trade"
+        }
+      ]
+    },
+    {
+      "from": "Porygon2",
+      "to": "Porygon-Z",
+      "details": [
+        {
+          "held_item": "Dubious Disc",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/137.gif"
@@ -2562,43 +2585,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Veilstone City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 15 Aether House",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 15 Aether House",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 15 Aether House",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 15 Aether House",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

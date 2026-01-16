@@ -29,6 +29,29 @@
     "Flame Body",
     "Vital Spirit"
   ],
+  "evolutionChain": [
+    {
+      "from": "Magby",
+      "to": "Magmar",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Magmar",
+      "to": "Magmortar",
+      "details": [
+        {
+          "held_item": "Magmarizer",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/467.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/467.gif"
@@ -2197,6 +2220,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

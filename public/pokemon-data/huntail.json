@@ -29,6 +29,29 @@
     "Swift Swim",
     "Water Veil"
   ],
+  "evolutionChain": [
+    {
+      "from": "Clamperl",
+      "to": "Huntail",
+      "details": [
+        {
+          "held_item": "Deep Sea Tooth",
+          "trigger": "Trade"
+        }
+      ]
+    },
+    {
+      "from": "Clamperl",
+      "to": "Gorebyss",
+      "details": [
+        {
+          "held_item": "Deep Sea Scale",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/367.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/367.gif"
@@ -1448,103 +1471,6 @@
         "name": "Shell Smash",
         "learn_method": "level-up",
         "level_learned": 1
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Route 4 Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 4 Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 4 Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 4 Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 12 Area",
-        "method": "Super Rod",
-        "chance": 5
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Beachfront",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Beachfront",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Beachfront",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Beachfront",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
       }
     ]
   }

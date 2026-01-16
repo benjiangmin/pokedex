@@ -30,6 +30,29 @@
     "Torrent",
     "Damp"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mudkip",
+      "to": "Marshtomp",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Marshtomp",
+      "to": "Swampert",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/260.gif"
@@ -2698,6 +2721,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -31,6 +31,19 @@
     "Shell Armor",
     "Weak Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Omanyte",
+      "to": "Omastar",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/138.gif"
@@ -2234,57 +2247,6 @@
         "name": "Substitute",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Red": [
-      {
-        "location": "Cinnabar Island Cinnabar Lab",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Cinnabar Island Cinnabar Lab",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Cinnabar Island Cinnabar Lab",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Cinnabar Island Cinnabar Lab",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Cinnabar Island Cinnabar Lab",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

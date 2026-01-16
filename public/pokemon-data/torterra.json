@@ -30,6 +30,29 @@
     "Overgrow",
     "Shell Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Turtwig",
+      "to": "Grotle",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Grotle",
+      "to": "Torterra",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/389.gif"
@@ -2148,6 +2171,5 @@
         "level_learned": 57
       }
     ]
-  },
-  "locations": {}
+  }
 }

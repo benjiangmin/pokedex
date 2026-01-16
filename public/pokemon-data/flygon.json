@@ -29,6 +29,29 @@
   "abilities": [
     "Levitate"
   ],
+  "evolutionChain": [
+    {
+      "from": "Trapinch",
+      "to": "Vibrava",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Vibrava",
+      "to": "Flygon",
+      "details": [
+        {
+          "min_level": 45,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/330.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/330.gif"
@@ -2742,6 +2765,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

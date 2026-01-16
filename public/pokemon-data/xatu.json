@@ -31,6 +31,19 @@
     "Early Bird",
     "Magic Bounce"
   ],
+  "evolutionChain": [
+    {
+      "from": "Natu",
+      "to": "Xatu",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/178.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/178.gif"
@@ -2292,58 +2305,6 @@
         "name": "Dual Wingbeat",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ruby": [
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

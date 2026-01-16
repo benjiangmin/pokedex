@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Meowth (Galar)"
+    "english": "Meowth Galar"
   },
   "type": [
     "Steel"
@@ -30,6 +30,33 @@
     "Tough Claws",
     "Unnerve"
   ],
+  "evolutionChain": [
+    {
+      "from": "Meowth",
+      "to": "Persian",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        },
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Meowth",
+      "to": "Perrserker",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10161.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10161.gif"
@@ -708,6 +735,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

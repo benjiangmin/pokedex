@@ -29,6 +29,29 @@
     "Overgrow",
     "Contrary"
   ],
+  "evolutionChain": [
+    {
+      "from": "Snivy",
+      "to": "Servine",
+      "details": [
+        {
+          "min_level": 17,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Servine",
+      "to": "Serperior",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/497.gif"
@@ -1354,22 +1377,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

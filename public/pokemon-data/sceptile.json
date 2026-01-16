@@ -29,6 +29,29 @@
     "Overgrow",
     "Unburden"
   ],
+  "evolutionChain": [
+    {
+      "from": "Treecko",
+      "to": "Grovyle",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Grovyle",
+      "to": "Sceptile",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/254.gif"
@@ -2852,6 +2875,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

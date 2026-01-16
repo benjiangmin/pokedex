@@ -31,6 +31,29 @@
     "Snow Cloak",
     "Thick Fat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Swinub",
+      "to": "Piloswine",
+      "details": [
+        {
+          "min_level": 33,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Piloswine",
+      "to": "Mamoswine",
+      "details": [
+        {
+          "known_move": "Ancient Power",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/473.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/473.gif"
@@ -2072,46 +2095,6 @@
         "name": "Confide",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Giant Chasm Forest",
-        "method": "Grass Spots",
-        "chance": 5
-      }
-    ],
-    "White": [
-      {
-        "location": "Giant Chasm Forest",
-        "method": "Grass Spots",
-        "chance": 5
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Giant Chasm Forest",
-        "method": "Grass Spots",
-        "chance": 5
-      },
-      {
-        "location": "Giant Chasm Forest Cave",
-        "method": "Grass Spots",
-        "chance": 5
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Giant Chasm Forest",
-        "method": "Grass Spots",
-        "chance": 5
-      },
-      {
-        "location": "Giant Chasm Forest Cave",
-        "method": "Grass Spots",
-        "chance": 5
       }
     ]
   }

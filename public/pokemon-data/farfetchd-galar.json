@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Farfetchd (Galar)"
+    "english": "Farfetchd Galar"
   },
   "type": [
     "Fighting"
@@ -29,6 +29,18 @@
     "Steadfast",
     "Scrappy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Farfetchd",
+      "to": "Sirfetchd",
+      "details": [
+        {
+          "trigger": "Three Critical Hits"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10166.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10166.gif"
@@ -315,6 +327,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

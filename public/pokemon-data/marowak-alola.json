@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Marowak (Alola)"
+    "english": "Marowak Alola"
   },
   "type": [
     "Fire",
@@ -31,6 +31,24 @@
     "Lightning Rod",
     "Rock Head"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cubone",
+      "to": "Marowak",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        },
+        {
+          "min_level": 28,
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10115.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10115.gif"
@@ -974,6 +992,5 @@
         "level_learned": 27
       }
     ]
-  },
-  "locations": {}
+  }
 }

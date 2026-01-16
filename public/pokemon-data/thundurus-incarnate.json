@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Thundurus (Incarnate)"
+    "english": "Thundurus Incarnate"
   },
   "type": [
     "Electric",
@@ -30,6 +30,8 @@
     "Prankster",
     "Defiant"
   ],
+  "evolutionChain": [],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/642.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/642.gif"
@@ -1894,34 +1896,6 @@
         "name": "Wildbolt Storm",
         "learn_method": "level-up",
         "level_learned": 52
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Moon": [
-      {
-        "location": "Ultra Space Wilds Cliff",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Ultra Space Ultra Space Wilds Cliff",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "White": [
-      {
-        "location": "Team Flare Secret Hq Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Soaring In The Sky Area",
-        "method": "Only One",
-        "chance": 100
       }
     ]
   }

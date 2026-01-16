@@ -30,6 +30,28 @@
     "Compound Eyes",
     "Run Away"
   ],
+  "evolutionChain": [
+    {
+      "from": "Nincada",
+      "to": "Ninjask",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Nincada",
+      "to": "Shedinja",
+      "details": [
+        {
+          "trigger": "Shed"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/290.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/290.gif"
@@ -1384,124 +1406,6 @@
         "name": "Skitter Smack",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 10
       }
     ]
   }

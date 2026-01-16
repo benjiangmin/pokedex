@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Muk (Alola)"
+    "english": "Muk Alola"
   },
   "type": [
     "Poison",
@@ -31,6 +31,19 @@
     "Gluttony",
     "Power Of Alchemy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Grimer",
+      "to": "Muk",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10113.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10113.gif"
@@ -889,6 +902,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

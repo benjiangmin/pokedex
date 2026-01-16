@@ -29,6 +29,19 @@
   "abilities": [
     "Iron Barbs"
   ],
+  "evolutionChain": [
+    {
+      "from": "Ferroseed",
+      "to": "Ferrothorn",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/597.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/597.gif"
@@ -1139,136 +1152,6 @@
         "name": "Steel Roller",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "White": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

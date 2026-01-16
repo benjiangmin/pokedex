@@ -29,6 +29,19 @@
     "Weak Armor",
     "Perish Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Corsola",
+      "to": "Cursola",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/864.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/864.gif"
@@ -395,6 +408,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

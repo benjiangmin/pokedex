@@ -28,6 +28,29 @@
   "abilities": [
     "Truant"
   ],
+  "evolutionChain": [
+    {
+      "from": "Slakoth",
+      "to": "Vigoroth",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Vigoroth",
+      "to": "Slaking",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/287.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/287.gif"
@@ -2294,80 +2317,6 @@
         "name": "Play Rough",
         "learn_method": "level-up",
         "level_learned": 38
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

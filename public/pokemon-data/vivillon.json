@@ -31,6 +31,29 @@
     "Compound Eyes",
     "Friend Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Scatterbug",
+      "to": "Spewpa",
+      "details": [
+        {
+          "min_level": 9,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Spewpa",
+      "to": "Vivillon",
+      "details": [
+        {
+          "min_level": 12,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/666.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/666.gif"
@@ -866,6 +889,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

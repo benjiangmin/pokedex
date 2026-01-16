@@ -29,6 +29,29 @@
     "Blaze",
     "Magician"
   ],
+  "evolutionChain": [
+    {
+      "from": "Fennekin",
+      "to": "Braixen",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Braixen",
+      "to": "Delphox",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/653.gif"
@@ -952,22 +975,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Aquacorde Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Y": [
-      {
-        "location": "Aquacorde Town Area",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

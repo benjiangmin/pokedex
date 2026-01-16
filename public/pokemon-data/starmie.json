@@ -31,6 +31,19 @@
     "Natural Cure",
     "Analytic"
   ],
+  "evolutionChain": [
+    {
+      "from": "Staryu",
+      "to": "Starmie",
+      "details": [
+        {
+          "item": "Water Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/121.gif"
@@ -2084,161 +2097,6 @@
         "name": "Dazzling Gleam",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 1
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 1
-      },
-      {
-        "location": "Humilau City Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Humilau City Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Surf Spots",
-        "chance": 1
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 1
-      },
-      {
-        "location": "Humilau City Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Humilau City Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Super Rod",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Hano Beach Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Hano Beach Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

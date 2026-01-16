@@ -31,6 +31,18 @@
     "Frisk",
     "Harvest"
   ],
+  "evolutionChain": [
+    {
+      "from": "Phantump",
+      "to": "Trevenant",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/708.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/708.gif"
@@ -1301,70 +1313,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Memorial Hill Area",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Memorial Hill Area",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Memorial Hill Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Npc Trade",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Memorial Hill Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Npc Trade",
-        "chance": 100
       }
     ]
   }

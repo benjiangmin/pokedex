@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Darmanitan (Zen)"
+    "english": "Darmanitan Zen"
   },
   "type": [
     "Fire",
@@ -30,6 +30,23 @@
     "Sheer Force",
     "Zen Mode"
   ],
+  "evolutionChain": [
+    {
+      "from": "Darumaka",
+      "to": "Darmanitan",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Ice Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10017.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10017.gif"
@@ -1547,6 +1564,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

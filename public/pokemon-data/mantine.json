@@ -31,6 +31,19 @@
     "Water Absorb",
     "Water Veil"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mantyke",
+      "to": "Mantine",
+      "details": [
+        {
+          "party_species": "Remoraid",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/226.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/226.gif"
@@ -2379,159 +2392,6 @@
         "name": "Air Slash",
         "learn_method": "level-up",
         "level_learned": 21
-      }
-    ]
-  },
-  "locations": {
-    "Gold": [
-      {
-        "location": "Johto Sea Route 41 Area",
-        "method": "Surf",
-        "chance": 10
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Johto Sea Route 41 Area",
-        "method": "Surf",
-        "chance": 10
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Johto Sea Route 41 Area",
-        "method": "Surf",
-        "chance": 5
-      },
-      {
-        "location": "Johto Sea Route 41 Area",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Johto Sea Route 41 Area",
-        "method": "Surf",
-        "chance": 1
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Trainer Tower Area",
-        "method": "Surf",
-        "chance": 5
-      },
-      {
-        "location": "Tanoby Ruins Area",
-        "method": "Surf",
-        "chance": 5
-      }
-    ],
-    "Black": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Undella Town Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 21 Area",
-        "method": "Surf Spots",
-        "chance": 5
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 21 Area",
-        "method": "Surf Spots",
-        "chance": 5
       }
     ]
   }

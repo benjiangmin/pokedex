@@ -29,6 +29,19 @@
     "Sand Veil",
     "Water Absorb"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cacnea",
+      "to": "Cacturne",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/331.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/331.gif"
@@ -2415,145 +2428,6 @@
         "name": "Power Up Punch",
         "learn_method": "egg",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

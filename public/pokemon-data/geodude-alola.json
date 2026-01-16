@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Geodude (Alola)"
+    "english": "Geodude Alola"
   },
   "type": [
     "Rock",
@@ -31,6 +31,28 @@
     "Sturdy",
     "Galvanize"
   ],
+  "evolutionChain": [
+    {
+      "from": "Geodude",
+      "to": "Graveler",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Graveler",
+      "to": "Golem",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10109.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10109.gif"
@@ -797,32 +819,6 @@
         "name": "Supercell Slam",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Walk",
-        "chance": 40
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Walk",
-        "chance": 40
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Walk",
-        "chance": 30
       }
     ]
   }

@@ -30,6 +30,19 @@
     "Run Away",
     "Bulletproof"
   ],
+  "evolutionChain": [
+    {
+      "from": "Wooloo",
+      "to": "Dubwool",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/831.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/831.gif"
@@ -201,6 +214,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

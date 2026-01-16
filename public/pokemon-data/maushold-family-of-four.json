@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Maushold (Family Of Four)"
+    "english": "Maushold Family Of Four"
   },
   "type": [
     "Normal"
@@ -30,6 +30,19 @@
     "Cheek Pouch",
     "Technician"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tandemaus",
+      "to": "Maushold",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/925.gif"
@@ -321,6 +334,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

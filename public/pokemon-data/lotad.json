@@ -31,6 +31,29 @@
     "Rain Dish",
     "Own Tempo"
   ],
+  "evolutionChain": [
+    {
+      "from": "Lotad",
+      "to": "Lombre",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Lombre",
+      "to": "Ludicolo",
+      "details": [
+        {
+          "item": "Water Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/270.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/270.gif"
@@ -2022,193 +2045,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 212 East Towards Pastoria City",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 212 East Towards Pastoria City",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 212 East Towards Pastoria City",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 102 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 102 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 102 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 102 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Grimer (Alola)"
+    "english": "Grimer Alola"
   },
   "type": [
     "Poison",
@@ -31,6 +31,19 @@
     "Gluttony",
     "Power Of Alchemy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Grimer",
+      "to": "Muk",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10112.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10112.gif"
@@ -887,76 +900,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 1 Hauoli Outskirts",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Malie City Outer Cape",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 1 Hauoli Outskirts",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Malie City Outer Cape",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 1 Trainers School",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Malie City Outer Cape",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 1 Trainers School",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Malie City Outer Cape",
-        "method": "Walk",
-        "chance": 30
       }
     ]
   }

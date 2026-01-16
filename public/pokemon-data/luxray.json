@@ -30,6 +30,29 @@
     "Intimidate",
     "Guts"
   ],
+  "evolutionChain": [
+    {
+      "from": "Shinx",
+      "to": "Luxio",
+      "details": [
+        {
+          "min_level": 15,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Luxio",
+      "to": "Luxray",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/405.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/405.gif"
@@ -1723,6 +1746,5 @@
         "level_learned": 37
       }
     ]
-  },
-  "locations": {}
+  }
 }

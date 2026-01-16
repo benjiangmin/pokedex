@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Mr (Rime)"
+    "english": "Mr Rime"
   },
   "type": [
     "Ice",
@@ -31,6 +31,29 @@
     "Screen Cleaner",
     "Ice Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mime Jr",
+      "to": "Mr Mime",
+      "details": [
+        {
+          "known_move": "Mimic",
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Mr Mime",
+      "to": "Mr Rime",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/866.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/866.gif"
@@ -547,6 +570,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

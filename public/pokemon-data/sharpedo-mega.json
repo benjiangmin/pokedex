@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Sharpedo (Mega)"
+    "english": "Sharpedo Mega"
   },
   "type": [
     "Water",
@@ -29,6 +29,19 @@
   "abilities": [
     "Strong Jaw"
   ],
+  "evolutionChain": [
+    {
+      "from": "Carvanha",
+      "to": "Sharpedo",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10070.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10070.gif"
@@ -707,6 +720,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

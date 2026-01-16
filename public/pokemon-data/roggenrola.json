@@ -30,6 +30,28 @@
     "Weak Armor",
     "Sand Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Roggenrola",
+      "to": "Boldore",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Boldore",
+      "to": "Gigalith",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/524.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/524.gif"
@@ -1030,238 +1052,6 @@
         "name": "Meteor Beam",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Relic Passage Castelia Sewers Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Relic Passage Castelia Sewers Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Passage Castelia Sewers Entrance",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Relic Passage Castelia Sewers Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Relic Passage Castelia Sewers Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Passage Castelia Sewers Entrance",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "X": [
-      {
-        "location": "Reflection Cave Unknown Area 305",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 305",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 306",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 306",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 307",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 307",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 308",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 308",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Reflection Cave Unknown Area 305",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 305",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 306",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 306",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 307",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 307",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 308",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 308",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Ten Carat Hill Farthest Hollow",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Ten Carat Hill Inside",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Ten Carat Hill Farthest Hollow",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Ten Carat Hill Inside",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Ten Carat Hill Farthest Hollow",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Ten Carat Hill Inside",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Ten Carat Hill Farthest Hollow",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Ten Carat Hill Inside",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

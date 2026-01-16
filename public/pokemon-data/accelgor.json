@@ -30,6 +30,19 @@
     "Sticky Hold",
     "Unburden"
   ],
+  "evolutionChain": [
+    {
+      "from": "Shelmet",
+      "to": "Accelgor",
+      "details": [
+        {
+          "trade_species": "Karrablast",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/617.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/617.gif"
@@ -1097,6 +1110,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

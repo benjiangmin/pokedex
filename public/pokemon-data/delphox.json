@@ -30,6 +30,29 @@
     "Blaze",
     "Magician"
   ],
+  "evolutionChain": [
+    {
+      "from": "Fennekin",
+      "to": "Braixen",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Braixen",
+      "to": "Delphox",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/655.gif"
@@ -1353,22 +1376,6 @@
         "name": "Psychic Noise",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Ancient Poni Path Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Ancient Poni Path Area",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

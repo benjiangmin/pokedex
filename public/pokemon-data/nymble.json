@@ -29,6 +29,19 @@
     "Swarm",
     "Tinted Lens"
   ],
+  "evolutionChain": [
+    {
+      "from": "Nymble",
+      "to": "Lokix",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/919.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/919.gif"
@@ -215,6 +228,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

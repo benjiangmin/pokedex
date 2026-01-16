@@ -28,6 +28,19 @@
   "abilities": [
     "Flower Gift"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cherubi",
+      "to": "Cherrim",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/421.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/421.gif"
@@ -1217,32 +1230,6 @@
         "name": "Draining Kiss",
         "learn_method": "level-up",
         "level_learned": 15
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 10
       }
     ]
   }

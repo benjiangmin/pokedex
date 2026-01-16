@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Scrafty (Mega)"
+    "english": "Scrafty Mega"
   },
   "type": [
     "Dark",
@@ -27,6 +27,19 @@
   "weight": 31,
   "height": 1.1,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Scraggy",
+      "to": "Scrafty",
+      "details": [
+        {
+          "min_level": 39,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +48,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Hoodlum Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Ponyta (Galar)"
+    "english": "Ponyta Galar"
   },
   "type": [
     "Psychic"
@@ -30,6 +30,19 @@
     "Pastel Veil",
     "Anticipation"
   ],
+  "evolutionChain": [
+    {
+      "from": "Ponyta",
+      "to": "Rapidash",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10162.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10162.gif"
@@ -281,6 +294,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

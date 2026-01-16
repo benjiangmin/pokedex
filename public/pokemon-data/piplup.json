@@ -29,6 +29,29 @@
     "Torrent",
     "Competitive"
   ],
+  "evolutionChain": [
+    {
+      "from": "Piplup",
+      "to": "Prinplup",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Prinplup",
+      "to": "Empoleon",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/393.gif"
@@ -1885,43 +1908,6 @@
         "name": "Liquidation",
         "learn_method": "level-up",
         "level_learned": 34
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Lake Verity Before Galactic Intervention",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Lake Verity Before Galactic Intervention",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 201 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Omega Ruby": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

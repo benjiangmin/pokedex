@@ -9,7 +9,7 @@
   "isPaldean": true,
   "isGmax": false,
   "name": {
-    "english": "Wooper (Paldea)"
+    "english": "Wooper Paldea"
   },
   "type": [
     "Poison",
@@ -31,6 +31,29 @@
     "Water Absorb",
     "Unaware"
   ],
+  "evolutionChain": [
+    {
+      "from": "Wooper",
+      "to": "Quagsire",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Wooper",
+      "to": "Clodsire",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10253.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10253.gif"
@@ -377,6 +400,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

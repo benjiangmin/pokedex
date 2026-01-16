@@ -31,6 +31,19 @@
     "Moxie",
     "Intimidate"
   ],
+  "evolutionChain": [
+    {
+      "from": "Scraggy",
+      "to": "Scrafty",
+      "details": [
+        {
+          "min_level": 39,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/560.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/560.gif"
@@ -2063,162 +2076,6 @@
         "name": "Upper Hand",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 15 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 15 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 15 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 15 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

@@ -30,6 +30,19 @@
     "Iron Barbs",
     "Anticipation"
   ],
+  "evolutionChain": [
+    {
+      "from": "Ferroseed",
+      "to": "Ferrothorn",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/598.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/598.gif"
@@ -1347,6 +1360,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

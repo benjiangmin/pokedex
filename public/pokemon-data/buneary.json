@@ -30,6 +30,19 @@
     "Klutz",
     "Limber"
   ],
+  "evolutionChain": [
+    {
+      "from": "Buneary",
+      "to": "Lopunny",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/427.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/427.gif"
@@ -1964,159 +1977,6 @@
         "name": "Baby Doll Eyes",
         "learn_method": "level-up",
         "level_learned": 5
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Route 25 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Kanto Route 25 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 25 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Kanto Route 25 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Castelia City Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Castelia City Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Castelia City Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Castelia City Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 1 East",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 1 West",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 1 East",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 1 West",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

@@ -30,6 +30,23 @@
     "Oblivious",
     "Adaptability"
   ],
+  "evolutionChain": [
+    {
+      "from": "Feebas",
+      "to": "Milotic",
+      "details": [
+        {
+          "min_beauty": 170,
+          "trigger": "Level Up"
+        },
+        {
+          "held_item": "Prism Scale",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/349.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/349.gif"
@@ -1401,195 +1418,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ruby": [
-      {
-        "location": "Hoenn Route 119 Area",
-        "method": "Feebas Tile Fishing",
-        "chance": 50
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 119 Area",
-        "method": "Feebas Tile Fishing",
-        "chance": 50
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 119 Area",
-        "method": "Feebas Tile Fishing",
-        "chance": 50
-      }
-    ],
-    "Black": [
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod Spots",
-        "chance": 40
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod Spots",
-        "chance": 40
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod Spots",
-        "chance": 40
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod Spots",
-        "chance": 15
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod Spots",
-        "chance": 40
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Super Rod Spots",
-        "chance": 15
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Brooklet Hill North",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Brooklet Hill North",
-        "method": "Bubbling Spots",
-        "chance": 5
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Bubbling Spots",
-        "chance": 5
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Brooklet Hill North",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Brooklet Hill North",
-        "method": "Bubbling Spots",
-        "chance": 5
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Bubbling Spots",
-        "chance": 5
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Brooklet Hill North",
-        "method": "Bubbling Spots",
-        "chance": 10
-      },
-      {
-        "location": "Brooklet Hill North",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Bubbling Spots",
-        "chance": 10
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Super Rod",
-        "chance": 1
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Brooklet Hill North",
-        "method": "Bubbling Spots",
-        "chance": 10
-      },
-      {
-        "location": "Brooklet Hill North",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Bubbling Spots",
-        "chance": 10
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Super Rod",
-        "chance": 1
       }
     ]
   }

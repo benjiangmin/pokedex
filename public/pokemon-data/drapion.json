@@ -31,6 +31,19 @@
     "Sniper",
     "Keen Eye"
   ],
+  "evolutionChain": [
+    {
+      "from": "Skorupi",
+      "to": "Drapion",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/452.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/452.gif"
@@ -2015,66 +2028,6 @@
         "name": "Venoshock",
         "learn_method": "level-up",
         "level_learned": 11
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Ultra Space Wilds Crag",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Ultra Space Wilds Crag",
-        "method": "Only One",
-        "chance": 15
       }
     ]
   }

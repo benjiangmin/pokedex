@@ -30,6 +30,29 @@
     "Queenly Majesty",
     "Sweet Veil"
   ],
+  "evolutionChain": [
+    {
+      "from": "Bounsweet",
+      "to": "Steenee",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Steenee",
+      "to": "Tsareena",
+      "details": [
+        {
+          "known_move": "Stomp",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/763.gif"
@@ -935,6 +958,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

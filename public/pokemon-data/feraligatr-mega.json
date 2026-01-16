@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Feraligatr (Mega)"
+    "english": "Feraligatr Mega"
   },
   "type": [
     "Water",
@@ -27,6 +27,29 @@
   "weight": 108.8,
   "height": 2.3,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Totodile",
+      "to": "Croconaw",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Croconaw",
+      "to": "Feraligatr",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": null,
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10283.gif"
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Big Jaw Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

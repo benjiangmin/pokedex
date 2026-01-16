@@ -31,6 +31,19 @@
     "Klutz",
     "Unnerve"
   ],
+  "evolutionChain": [
+    {
+      "from": "Stufful",
+      "to": "Bewear",
+      "details": [
+        {
+          "min_level": 27,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/760.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/760.gif"
@@ -662,56 +675,6 @@
         "name": "Stomping Tantrum",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Hauoli City Main",
-        "method": "Only One",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Hauoli City Main",
-        "method": "Only One",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

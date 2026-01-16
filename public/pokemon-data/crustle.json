@@ -31,6 +31,19 @@
     "Shell Armor",
     "Weak Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Dwebble",
+      "to": "Crustle",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/558.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/558.gif"
@@ -1171,80 +1184,6 @@
         "name": "Skitter Smack",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Seaside Cave 1f",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Seaside Cave 1f",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
-        "chance": 15
       }
     ]
   }

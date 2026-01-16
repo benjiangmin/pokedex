@@ -29,6 +29,19 @@
     "Shed Skin",
     "Run Away"
   ],
+  "evolutionChain": [
+    {
+      "from": "Kricketot",
+      "to": "Kricketune",
+      "details": [
+        {
+          "min_level": 10,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/401.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/401.gif"
@@ -300,238 +313,6 @@
         "name": "Struggle Bug",
         "learn_method": "level-up",
         "level_learned": 6
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 201 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 201 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 202 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 202 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 207 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 207 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 202 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 202 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 202 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 206 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 207 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 207 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 202 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 202 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 202 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 206 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 207 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 207 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Viridian Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Viridian Forest Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Viridian Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Viridian Forest Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

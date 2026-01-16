@@ -29,6 +29,29 @@
     "Overgrow",
     "Shell Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Turtwig",
+      "to": "Grotle",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Grotle",
+      "to": "Torterra",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/387.gif"
@@ -1890,43 +1913,6 @@
         "name": "Leafage",
         "learn_method": "level-up",
         "level_learned": 6
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Lake Verity Before Galactic Intervention",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Lake Verity Before Galactic Intervention",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 201 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Omega Ruby": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

@@ -31,6 +31,29 @@
     "Leaf Guard",
     "Infiltrator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Hoppip",
+      "to": "Skiploom",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Skiploom",
+      "to": "Jumpluff",
+      "details": [
+        {
+          "min_level": 27,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/188.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/188.gif"
@@ -1994,172 +2017,6 @@
         "name": "Sunny Day",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Pearl": [
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 205 East Towards Eterna City",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Meadow",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Meadow",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Meadow",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Meadow",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

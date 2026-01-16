@@ -29,6 +29,19 @@
   "abilities": [
     "Defeatist"
   ],
+  "evolutionChain": [
+    {
+      "from": "Archen",
+      "to": "Archeops",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/567.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/567.gif"
@@ -1486,6 +1499,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

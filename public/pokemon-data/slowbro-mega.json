@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Slowbro (Mega)"
+    "english": "Slowbro Mega"
   },
   "type": [
     "Water",
@@ -29,6 +29,37 @@
   "abilities": [
     "Shell Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Slowpoke",
+      "to": "Slowbro",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Galarica Cuff",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Slowpoke",
+      "to": "Slowking",
+      "details": [
+        {
+          "held_item": "Kings Rock",
+          "trigger": "Trade"
+        },
+        {
+          "item": "Galarica Wreath",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10071.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10071.gif"
@@ -977,6 +1008,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

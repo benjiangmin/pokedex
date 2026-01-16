@@ -30,6 +30,29 @@
     "Sand Rush",
     "Scrappy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Lillipup",
+      "to": "Herdier",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Herdier",
+      "to": "Stoutland",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/508.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/508.gif"
@@ -1235,176 +1258,6 @@
         "name": "Stomping Tantrum",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Cold Storage Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 10 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 10 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 10 Victory Road Gate",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 10 Victory Road Gate",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Cold Storage Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 10 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 10 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 10 Victory Road Gate",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 10 Victory Road Gate",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 2 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 2 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 3 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 3 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 1 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 2 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 2 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 3 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 3 Area",
-        "method": "Grass Spots",
-        "chance": 1
       }
     ]
   }

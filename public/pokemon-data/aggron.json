@@ -31,6 +31,29 @@
     "Rock Head",
     "Heavy Metal"
   ],
+  "evolutionChain": [
+    {
+      "from": "Aron",
+      "to": "Lairon",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Lairon",
+      "to": "Aggron",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/306.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/306.gif"
@@ -2965,22 +2988,6 @@
         "name": "Stomping Tantrum",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

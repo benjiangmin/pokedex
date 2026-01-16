@@ -29,6 +29,28 @@
   "abilities": [
     "Cursed Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gastly",
+      "to": "Haunter",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Haunter",
+      "to": "Gengar",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/94.gif"
@@ -3321,117 +3343,6 @@
         "name": "Hex",
         "learn_method": "level-up",
         "level_learned": 11
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Old Chateau 2f Right Room",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Thrifty Megamart Abandoned Site",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Thrifty Megamart Abandoned Site",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Thrifty Megamart Abandoned Site",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Thrifty Megamart Abandoned Site",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

@@ -30,6 +30,20 @@
     "Mold Breaker",
     "Scrappy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pancham",
+      "to": "Pangoro",
+      "details": [
+        {
+          "min_level": 32,
+          "party_type": "Dark",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/674.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/674.gif"
@@ -1188,110 +1202,6 @@
         "name": "Coaching",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

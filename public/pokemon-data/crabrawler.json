@@ -30,6 +30,23 @@
     "Iron Fist",
     "Anger Point"
   ],
+  "evolutionChain": [
+    {
+      "from": "Crabrawler",
+      "to": "Crabominable",
+      "details": [
+        {
+          "location": "Mount Lanakila",
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Ice Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/739.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/739.gif"
@@ -611,266 +628,6 @@
         "name": "Upper Hand",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 2 South",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 3 South",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Berry Fields Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Berry Piles",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 2 South",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 3 South",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Berry Fields Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Berry Piles",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 2 South",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 3 South",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Berry Fields Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Ulaula Beach Area",
-        "method": "Berry Piles",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 2 South",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 3 South",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Berry Fields Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Berry Piles",
-        "chance": 100
-      },
-      {
-        "location": "Ulaula Beach Area",
-        "method": "Berry Piles",
-        "chance": 100
       }
     ]
   }

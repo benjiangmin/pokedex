@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Dragonite (Mega)"
+    "english": "Dragonite Mega"
   },
   "type": [
     "Dragon",
@@ -27,6 +27,29 @@
   "weight": 290,
   "height": 5.5,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Dratini",
+      "to": "Dragonair",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Dragonair",
+      "to": "Dragonite",
+      "details": [
+        {
+          "min_level": 55,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10281.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10281.gif"
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Dragon Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

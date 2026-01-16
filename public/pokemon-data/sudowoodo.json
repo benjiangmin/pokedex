@@ -30,6 +30,19 @@
     "Rock Head",
     "Rattled"
   ],
+  "evolutionChain": [
+    {
+      "from": "Bonsly",
+      "to": "Sudowoodo",
+      "details": [
+        {
+          "known_move": "Mimic",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/185.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/185.gif"
@@ -2840,172 +2853,6 @@
         "name": "Head Smash",
         "learn_method": "level-up",
         "level_learned": 47
-      }
-    ]
-  },
-  "locations": {
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 221 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 221 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 221 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 221 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 221 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 221 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Johto Route 36 Area",
-        "method": "Squirt Bottle",
-        "chance": 100
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Johto Route 36 Area",
-        "method": "Squirt Bottle",
-        "chance": 100
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Johto Route 36 Area",
-        "method": "Squirt Bottle",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Johto Route 36 Area",
-        "method": "Squirt Bottle",
-        "chance": 100
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Johto Route 36 Area",
-        "method": "Squirt Bottle",
-        "chance": 100
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Battle Frontier Area",
-        "method": "Wailmer Pail",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Lush Jungle North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Lush Jungle North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

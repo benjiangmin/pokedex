@@ -30,6 +30,19 @@
     "Frisk",
     "Speed Boost"
   ],
+  "evolutionChain": [
+    {
+      "from": "Flittle",
+      "to": "Espathra",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/955.gif"
@@ -286,6 +299,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

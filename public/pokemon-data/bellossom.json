@@ -29,6 +29,39 @@
     "Chlorophyll",
     "Healer"
   ],
+  "evolutionChain": [
+    {
+      "from": "Oddish",
+      "to": "Gloom",
+      "details": [
+        {
+          "min_level": 21,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Gloom",
+      "to": "Vileplume",
+      "details": [
+        {
+          "item": "Leaf Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Gloom",
+      "to": "Bellossom",
+      "details": [
+        {
+          "item": "Sun Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/182.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/182.gif"
@@ -1894,6 +1927,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

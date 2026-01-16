@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Floette (Mega)"
+    "english": "Floette Mega"
   },
   "type": [
     "Fairy"
@@ -26,6 +26,29 @@
   "weight": 100.8,
   "height": 0.2,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Flabebe",
+      "to": "Floette",
+      "details": [
+        {
+          "min_level": 19,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Floette",
+      "to": "Florges",
+      "details": [
+        {
+          "item": "Shiny Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": null,
     "animated": null
@@ -34,6 +57,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Single Bloom Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

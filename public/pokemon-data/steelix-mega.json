@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Steelix (Mega)"
+    "english": "Steelix Mega"
   },
   "type": [
     "Steel",
@@ -29,6 +29,19 @@
   "abilities": [
     "Sand Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Onix",
+      "to": "Steelix",
+      "details": [
+        {
+          "held_item": "Metal Coat",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10072.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10072.gif"
@@ -787,6 +800,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

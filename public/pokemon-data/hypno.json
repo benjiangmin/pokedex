@@ -30,6 +30,19 @@
     "Forewarn",
     "Inner Focus"
   ],
+  "evolutionChain": [
+    {
+      "from": "Drowzee",
+      "to": "Hypno",
+      "details": [
+        {
+          "min_level": 26,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/97.gif"
@@ -3090,224 +3103,6 @@
         "name": "Psychic Noise",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Gold": [
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Swamp",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Swamp",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Swamp",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Swamp",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Red": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Berry Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Berry Forest Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Berry Forest Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Berry Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Berry Forest Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Berry Forest Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Hauoli City Main",
-        "method": "Only One",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Hauoli City Main",
-        "method": "Only One",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

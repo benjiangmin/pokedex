@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Pikachu (Gmax)"
+    "english": "Pikachu Gmax"
   },
   "type": [
     "Electric"
@@ -29,6 +29,29 @@
     "Static",
     "Lightning Rod"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pichu",
+      "to": "Pikachu",
+      "details": [
+        {
+          "min_happiness": 220,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pikachu",
+      "to": "Raichu",
+      "details": [
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10199.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10199.gif"
@@ -37,6 +60,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Mouse Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

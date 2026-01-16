@@ -31,6 +31,37 @@
     "Own Tempo",
     "Regenerator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Slowpoke",
+      "to": "Slowbro",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Galarica Cuff",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Slowpoke",
+      "to": "Slowking",
+      "details": [
+        {
+          "held_item": "Kings Rock",
+          "trigger": "Trade"
+        },
+        {
+          "item": "Galarica Wreath",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/80.gif"
@@ -3616,353 +3647,6 @@
         "name": "Psychic Noise",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Gold": [
-      {
-        "location": "Slowpoke Well B1f",
-        "method": "Surf",
-        "chance": 10
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Slowpoke Well B1f",
-        "method": "Surf",
-        "chance": 10
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Slowpoke Well B1f",
-        "method": "Surf",
-        "chance": 10
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Slowpoke Well B1f",
-        "method": "Surf",
-        "chance": 5
-      },
-      {
-        "location": "Slowpoke Well B1f",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Slowpoke Well B1f",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Surf",
-        "chance": 5
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Rocky Beach",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Rocky Beach",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Rocky Beach",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Slowpoke Well B1f",
-        "method": "Surf",
-        "chance": 5
-      },
-      {
-        "location": "Slowpoke Well B1f",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Slowpoke Well B1f",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Surf",
-        "chance": 5
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Rocky Beach",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Rocky Beach",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Rocky Beach",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Seafoam Islands 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Super Rod",
-        "chance": 25
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Super Rod",
-        "chance": 25
-      },
-      {
-        "location": "Kanto Route 23 Area",
-        "method": "Super Rod",
-        "chance": 25
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Seafoam Islands B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Seafoam Islands B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Seafoam Islands B2f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Seafoam Islands B2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Seafoam Islands B2f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Seafoam Islands B3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Seafoam Islands B3f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Seafoam Islands B3f",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Cinnabar Island Area",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Surf",
-        "chance": 30
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Surf",
-        "chance": 5
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Surf",
-        "chance": 30
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Surf",
-        "chance": 5
-      },
-      {
-        "location": "Berry Forest Area",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Berry Forest Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Surf",
-        "chance": 1
-      }
-    ],
-    "Red": [
-      {
-        "location": "Seafoam Islands B2f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Seafoam Islands B4f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Super Rod",
-        "chance": 25
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Super Rod",
-        "chance": 25
-      },
-      {
-        "location": "Kanto Route 23 Area",
-        "method": "Super Rod",
-        "chance": 25
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Seafoam Islands B2f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 13 Area",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 13 Area",
-        "method": "Surf",
-        "chance": 1
-      }
-    ],
-    "Black": [
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Surf Spots",
-        "chance": 5
-      }
-    ],
-    "White": [
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Surf Spots",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

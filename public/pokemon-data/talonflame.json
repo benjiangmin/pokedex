@@ -30,6 +30,29 @@
     "Flame Body",
     "Gale Wings"
   ],
+  "evolutionChain": [
+    {
+      "from": "Fletchling",
+      "to": "Fletchinder",
+      "details": [
+        {
+          "min_level": 17,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Fletchinder",
+      "to": "Talonflame",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/663.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/663.gif"
@@ -1165,22 +1188,6 @@
         "name": "Upper Hand",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Npc Trade",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Npc Trade",
-        "chance": 100
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Graveler (Alola)"
+    "english": "Graveler Alola"
   },
   "type": [
     "Rock",
@@ -31,6 +31,28 @@
     "Sturdy",
     "Galvanize"
   ],
+  "evolutionChain": [
+    {
+      "from": "Geodude",
+      "to": "Graveler",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Graveler",
+      "to": "Golem",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10110.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10110.gif"
@@ -822,56 +844,6 @@
         "name": "Supercell Slam",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

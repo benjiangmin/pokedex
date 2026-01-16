@@ -31,6 +31,19 @@
     "Battle Armor",
     "Weak Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Kabuto",
+      "to": "Kabutops",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/141.gif"
@@ -2521,6 +2534,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

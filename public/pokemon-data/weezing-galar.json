@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Weezing (Galar)"
+    "english": "Weezing Galar"
   },
   "type": [
     "Poison",
@@ -31,6 +31,19 @@
     "Neutralizing Gas",
     "Misty Surge"
   ],
+  "evolutionChain": [
+    {
+      "from": "Koffing",
+      "to": "Weezing",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10167.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10167.gif"
@@ -699,6 +712,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -30,6 +30,29 @@
     "Magic Guard",
     "Friend Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cleffa",
+      "to": "Clefairy",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Clefairy",
+      "to": "Clefable",
+      "details": [
+        {
+          "item": "Moon Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/173.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/173.gif"
@@ -2690,159 +2713,6 @@
         "name": "Baby Doll Eyes",
         "learn_method": "level-up",
         "level_learned": 9
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Mt Coronet 1f Route 207",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet 1f Route 207",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet 1f Route 207",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mt Coronet 1f Route 207",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Mt Coronet 1f Route 207",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet 1f Route 207",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet 1f Route 207",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mt Coronet 1f Route 207",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet 1f Route 211",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Johto Route 34 Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Mount Hokulani Main",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Mount Hokulani Main",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Mount Hokulani East",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Mount Hokulani East",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

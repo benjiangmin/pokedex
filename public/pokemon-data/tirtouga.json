@@ -31,6 +31,19 @@
     "Sturdy",
     "Swift Swim"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tirtouga",
+      "to": "Carracosta",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/564.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/564.gif"
@@ -1356,36 +1369,6 @@
         "name": "Meteor Beam",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

@@ -30,6 +30,19 @@
     "Guts",
     "Scrappy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Taillow",
+      "to": "Swellow",
+      "details": [
+        {
+          "min_level": 22,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/276.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/276.gif"
@@ -1494,164 +1507,6 @@
         "name": "Boomburst",
         "learn_method": "egg",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ruby": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Route 104 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 104 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Route 104 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 104 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Route 104 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 104 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 116 Area",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

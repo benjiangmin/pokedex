@@ -31,6 +31,49 @@
     "Sturdy",
     "Analytic"
   ],
+  "evolutionChain": [
+    {
+      "from": "Magnemite",
+      "to": "Magneton",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Magneton",
+      "to": "Magnezone",
+      "details": [
+        {
+          "location": "Mt Coronet",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Chargestone Cave",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Kalos Route 13",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Blush Mountain",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Vast Poni Canyon",
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/462.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/462.gif"
@@ -2132,22 +2175,6 @@
         "name": "Supercell Slam",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 5
-      }
-    ],
-    "White 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 5
       }
     ]
   }

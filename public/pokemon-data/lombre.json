@@ -31,6 +31,29 @@
     "Rain Dish",
     "Own Tempo"
   ],
+  "evolutionChain": [
+    {
+      "from": "Lotad",
+      "to": "Lombre",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Lombre",
+      "to": "Ludicolo",
+      "details": [
+        {
+          "item": "Water Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/271.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/271.gif"
@@ -2282,286 +2305,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 212 East Towards Pastoria City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 212 East Towards Pastoria City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 212 East Towards Pastoria City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "X": [
-      {
-        "location": "Couriway Town Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Couriway Town Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Couriway Town Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 15 Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Kalos Route 15 Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Route 15 Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Pokemon Village Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Pokemon Village Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Pokemon Village Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Victory Road Unknown Area 327",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Kalos Victory Road Unknown Area 327",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Victory Road Unknown Area 327",
-        "method": "Surf",
-        "chance": 1
-      }
-    ],
-    "Y": [
-      {
-        "location": "Couriway Town Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Couriway Town Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Couriway Town Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 15 Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Kalos Route 15 Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Route 15 Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Route 16 Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Pokemon Village Area",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Pokemon Village Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Pokemon Village Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Victory Road Unknown Area 327",
-        "method": "Surf",
-        "chance": 50
-      },
-      {
-        "location": "Kalos Victory Road Unknown Area 327",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Victory Road Unknown Area 327",
-        "method": "Surf",
-        "chance": 1
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Ultra Space Wilds Waterfall",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Ultra Space Wilds Waterfall",
-        "method": "Only One",
-        "chance": 15
       }
     ]
   }

@@ -31,6 +31,20 @@
     "Suction Cups",
     "Infiltrator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Inkay",
+      "to": "Malamar",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up",
+          "turn_upside_down": true
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/686.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/686.gif"
@@ -1301,116 +1315,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 5
-      },
-      {
-        "location": "Azure Bay Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Azure Bay Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 5
-      },
-      {
-        "location": "Azure Bay Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Azure Bay Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 1 Hauoli Outskirts",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Ancient Poni Path Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 15
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 1 Hauoli Outskirts",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Ancient Poni Path Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Walk",
-        "chance": 15
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

@@ -31,6 +31,29 @@
     "Skill Link",
     "Sheer Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pikipek",
+      "to": "Trumbeak",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Trumbeak",
+      "to": "Toucannon",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/733.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/733.gif"
@@ -637,72 +660,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Plains Center",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Plains East",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Plains Center",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Plains East",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Corsola (Galar)"
+    "english": "Corsola Galar"
   },
   "type": [
     "Ghost"
@@ -29,6 +29,19 @@
     "Weak Armor",
     "Cursed Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Corsola",
+      "to": "Cursola",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10173.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10173.gif"
@@ -385,6 +398,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

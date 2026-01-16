@@ -31,6 +31,29 @@
     "Compound Eyes",
     "Telepathy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Blipbug",
+      "to": "Dottler",
+      "details": [
+        {
+          "min_level": 10,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Dottler",
+      "to": "Orbeetle",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/825.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/825.gif"
@@ -257,6 +280,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

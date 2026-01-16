@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Mime (Jr)"
+    "english": "Mime Jr"
   },
   "type": [
     "Psychic",
@@ -31,6 +31,29 @@
     "Filter",
     "Technician"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mime Jr",
+      "to": "Mr Mime",
+      "details": [
+        {
+          "known_move": "Mimic",
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Mr Mime",
+      "to": "Mr Rime",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/439.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/439.gif"
@@ -2195,99 +2218,6 @@
         "name": "Zen Headbutt",
         "learn_method": "level-up",
         "level_learned": 18
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

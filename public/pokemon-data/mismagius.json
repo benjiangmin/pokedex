@@ -28,6 +28,19 @@
   "abilities": [
     "Levitate"
   ],
+  "evolutionChain": [
+    {
+      "from": "Misdreavus",
+      "to": "Mismagius",
+      "details": [
+        {
+          "item": "Dusk Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/429.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/429.gif"
@@ -1929,29 +1942,6 @@
         "name": "Hex",
         "learn_method": "level-up",
         "level_learned": 18
-      }
-    ]
-  },
-  "locations": {
-    "White": [
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Grass Spots",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poke Pelago Elite Four Defeated",
-        "method": "Gift",
-        "chance": 2
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poke Pelago Elite Four Defeated",
-        "method": "Gift",
-        "chance": 2
       }
     ]
   }

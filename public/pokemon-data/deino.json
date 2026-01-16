@@ -29,6 +29,29 @@
   "abilities": [
     "Hustle"
   ],
+  "evolutionChain": [
+    {
+      "from": "Deino",
+      "to": "Zweilous",
+      "details": [
+        {
+          "min_level": 50,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Zweilous",
+      "to": "Hydreigon",
+      "details": [
+        {
+          "min_level": 64,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/633.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/633.gif"
@@ -1531,106 +1554,6 @@
         "name": "Dragon Cheer",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Ten Carat Hill Inside",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Ten Carat Hill Inside",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

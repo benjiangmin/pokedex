@@ -30,6 +30,19 @@
     "Flame Body",
     "Swarm"
   ],
+  "evolutionChain": [
+    {
+      "from": "Larvesta",
+      "to": "Volcarona",
+      "details": [
+        {
+          "min_level": 59,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/636.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/636.gif"
@@ -1342,36 +1355,6 @@
         "name": "Skitter Smack",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 18 Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

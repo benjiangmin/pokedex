@@ -31,6 +31,40 @@
     "Trace",
     "Telepathy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Ralts",
+      "to": "Kirlia",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Kirlia",
+      "to": "Gardevoir",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Kirlia",
+      "to": "Gallade",
+      "details": [
+        {
+          "gender": 2,
+          "item": "Dawn Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/281.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/281.gif"
@@ -2664,69 +2698,6 @@
         "name": "Draining Kiss",
         "learn_method": "level-up",
         "level_learned": 11
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 209 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 212 North Towards Hearthome City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 212 North Towards Hearthome City",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Route 212 North Towards Hearthome City",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

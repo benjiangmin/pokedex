@@ -31,6 +31,19 @@
     "Shell Armor",
     "Overcoat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Karrablast",
+      "to": "Escavalier",
+      "details": [
+        {
+          "trade_species": "Shelmet",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/589.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/589.gif"
@@ -1158,6 +1171,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

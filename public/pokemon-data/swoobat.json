@@ -31,6 +31,19 @@
     "Klutz",
     "Simple"
   ],
+  "evolutionChain": [
+    {
+      "from": "Woobat",
+      "to": "Swoobat",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/528.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/528.gif"
@@ -1538,6 +1551,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

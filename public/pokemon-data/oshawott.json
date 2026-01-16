@@ -29,6 +29,29 @@
     "Torrent",
     "Shell Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Oshawott",
+      "to": "Dewott",
+      "details": [
+        {
+          "min_level": 17,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Dewott",
+      "to": "Samurott",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/501.gif"
@@ -1311,50 +1334,6 @@
         "name": "Aqua Cutter",
         "learn_method": "egg",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Omega Ruby": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Aspertia City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Aspertia City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Black": [
-      {
-        "location": "Nuvema Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "White": [
-      {
-        "location": "Nuvema Town Area",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

@@ -31,6 +31,22 @@
     "Swift Swim",
     "Intimidate"
   ],
+  "evolutionChain": [
+    {
+      "from": "Qwilfish",
+      "to": "Overqwil",
+      "details": [
+        {
+          "known_move": "Barb Barrage",
+          "trigger": "Strong Style Move"
+        },
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/904.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/904.gif"
@@ -414,6 +430,5 @@
         "level_learned": 15
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -30,6 +30,24 @@
     "Lightning Rod",
     "Battle Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cubone",
+      "to": "Marowak",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        },
+        {
+          "min_level": 28,
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/105.gif"
@@ -2698,289 +2716,6 @@
         "name": "Stomping Tantrum",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Crystal": [
-      {
-        "location": "Rock Tunnel 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Rock Tunnel 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Rock Tunnel 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Rock Tunnel 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Rock Tunnel B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Rock Tunnel B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Rock Tunnel B1f",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Rock Tunnel B1f",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Rock Tunnel B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Rock Tunnel B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Desert",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Desert",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Rock Tunnel B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Rock Tunnel B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Desert",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Desert",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Red": [
-      {
-        "location": "Cerulean Cave 2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Kanto Victory Road 2 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Victory Road 2 2f",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Cerulean Cave 2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Kanto Victory Road 2 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Victory Road 2 2f",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Kanto Victory Road 2 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Victory Road 2 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Victory Road 2 2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Victory Road 2 2f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Victory Road 2 3f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Victory Road 2 3f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sevault Canyon Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Kanto Victory Road 2 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Victory Road 2 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Victory Road 2 2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Victory Road 2 2f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Victory Road 2 3f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Victory Road 2 3f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sevault Canyon Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Kanto Safari Zone Area 1 East",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Safari Zone Area 3 West",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Black": [
-      {
-        "location": "Unova Route 15 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 15 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 15 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 15 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Heahea Beach Area",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

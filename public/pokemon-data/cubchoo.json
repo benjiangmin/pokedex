@@ -30,6 +30,19 @@
     "Slush Rush",
     "Rattled"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cubchoo",
+      "to": "Beartic",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/613.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/613.gif"
@@ -1507,206 +1520,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "White": [
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Twist Mountain B1f 3f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

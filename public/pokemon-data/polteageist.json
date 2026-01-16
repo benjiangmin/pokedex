@@ -29,6 +29,19 @@
     "Weak Armor",
     "Cursed Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sinistea",
+      "to": "Polteageist",
+      "details": [
+        {
+          "item": "Cracked Pot",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/855.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/855.gif"
@@ -542,6 +555,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

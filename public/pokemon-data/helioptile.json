@@ -31,6 +31,19 @@
     "Sand Veil",
     "Solar Power"
   ],
+  "evolutionChain": [
+    {
+      "from": "Helioptile",
+      "to": "Heliolisk",
+      "details": [
+        {
+          "item": "Sun Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/694.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/694.gif"
@@ -884,52 +897,6 @@
         "name": "Rising Voltage",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 1
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 1
       }
     ]
   }

@@ -30,6 +30,19 @@
     "Water Bubble",
     "Water Absorb"
   ],
+  "evolutionChain": [
+    {
+      "from": "Dewpider",
+      "to": "Araquanid",
+      "details": [
+        {
+          "min_level": 22,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/751.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/751.gif"
@@ -783,96 +796,6 @@
         "name": "Liquidation",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Brooklet Hill North",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Brooklet Hill North",
-        "method": "Surf",
-        "chance": 40
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Surf",
-        "chance": 40
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Brooklet Hill North",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Brooklet Hill North",
-        "method": "Surf",
-        "chance": 40
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Surf",
-        "chance": 40
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Brooklet Hill North",
-        "method": "Surf",
-        "chance": 40
-      },
-      {
-        "location": "Brooklet Hill North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Surf",
-        "chance": 40
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Brooklet Hill North",
-        "method": "Surf",
-        "chance": 40
-      },
-      {
-        "location": "Brooklet Hill North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Brooklet Hill South",
-        "method": "Surf",
-        "chance": 40
       }
     ]
   }

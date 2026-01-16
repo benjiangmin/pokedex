@@ -30,6 +30,29 @@
     "Compound Eyes",
     "Friend Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Scatterbug",
+      "to": "Spewpa",
+      "details": [
+        {
+          "min_level": 9,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Spewpa",
+      "to": "Vivillon",
+      "details": [
+        {
+          "min_level": 12,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/664.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/664.gif"
@@ -173,66 +196,6 @@
         "name": "Pounce",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 2 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 2 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Santalune Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Santalune Forest Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 2 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 2 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Santalune Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Santalune Forest Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Hauoli City Main",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Hauoli City Main",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

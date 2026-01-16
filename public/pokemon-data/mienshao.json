@@ -30,6 +30,19 @@
     "Regenerator",
     "Reckless"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mienfoo",
+      "to": "Mienshao",
+      "details": [
+        {
+          "min_level": 50,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/620.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/620.gif"
@@ -1752,206 +1765,6 @@
         "name": "Upper Hand",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black 2": [
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 23 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 23 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 23 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 23 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      }
-    ],
-    "Black": [
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Dark Grass",
-        "chance": 10
       }
     ]
   }

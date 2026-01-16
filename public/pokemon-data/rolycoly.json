@@ -30,6 +30,29 @@
     "Heatproof",
     "Flash Fire"
   ],
+  "evolutionChain": [
+    {
+      "from": "Rolycoly",
+      "to": "Carkol",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Carkol",
+      "to": "Coalossal",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/837.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/837.gif"
@@ -453,6 +476,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

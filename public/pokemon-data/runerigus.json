@@ -29,6 +29,28 @@
   "abilities": [
     "Wandering Spirit"
   ],
+  "evolutionChain": [
+    {
+      "from": "Yamask",
+      "to": "Cofagrigus",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Yamask",
+      "to": "Runerigus",
+      "details": [
+        {
+          "trigger": "Take Damage"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/867.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/867.gif"
@@ -410,6 +432,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

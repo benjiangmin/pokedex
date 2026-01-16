@@ -30,6 +30,19 @@
     "Sturdy",
     "Soundproof"
   ],
+  "evolutionChain": [
+    {
+      "from": "Shieldon",
+      "to": "Bastiodon",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/411.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/411.gif"
@@ -2043,6 +2056,5 @@
         "level_learned": 37
       }
     ]
-  },
-  "locations": {}
+  }
 }

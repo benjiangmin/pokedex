@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Sandslash (Alola)"
+    "english": "Sandslash Alola"
   },
   "type": [
     "Ice",
@@ -30,6 +30,23 @@
     "Snow Cloak",
     "Slush Rush"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sandshrew",
+      "to": "Sandslash",
+      "details": [
+        {
+          "min_level": 22,
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Ice Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10102.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10102.gif"
@@ -1065,6 +1082,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

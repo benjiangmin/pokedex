@@ -30,6 +30,19 @@
     "Thick Fat",
     "Gluttony"
   ],
+  "evolutionChain": [
+    {
+      "from": "Munchlax",
+      "to": "Snorlax",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/446.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/446.gif"
@@ -2531,36 +2544,6 @@
         "name": "High Horsepower",
         "learn_method": "level-up",
         "level_learned": 37
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

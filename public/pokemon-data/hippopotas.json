@@ -29,6 +29,19 @@
     "Sand Stream",
     "Sand Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Hippopotas",
+      "to": "Hippowdon",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/449.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/449.gif"
@@ -1645,193 +1658,6 @@
         "name": "High Horsepower",
         "learn_method": "level-up",
         "level_learned": 34
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Ruin Maniac Cave 0 9 Different Unown Caught",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Ruin Maniac Cave 0 9 Different Unown Caught",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Ruin Maniac Cave 0 9 Different Unown Caught",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Ruin Maniac Cave 0 9 Different Unown Caught",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Ruin Maniac Cave 0 9 Different Unown Caught",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Ruin Maniac Cave 0 9 Different Unown Caught",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Ruin Maniac Cave 10 25 Different Unown Caught",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Maniac Tunnel 26 Plus Different Unown Caught",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 9 Area",
-        "method": "Rough Terrain",
-        "chance": 10
       }
     ]
   }

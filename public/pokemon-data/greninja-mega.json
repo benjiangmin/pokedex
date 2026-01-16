@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Greninja (Mega)"
+    "english": "Greninja Mega"
   },
   "type": [
     "Water",
@@ -27,6 +27,29 @@
   "weight": 40,
   "height": 1.5,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Froakie",
+      "to": "Frogadier",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Frogadier",
+      "to": "Greninja",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Ninja Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

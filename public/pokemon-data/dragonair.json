@@ -29,6 +29,29 @@
     "Shed Skin",
     "Marvel Scale"
   ],
+  "evolutionChain": [
+    {
+      "from": "Dratini",
+      "to": "Dragonair",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Dragonair",
+      "to": "Dragonite",
+      "details": [
+        {
+          "min_level": 55,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/148.gif"
@@ -2419,335 +2442,6 @@
         "name": "Dragon Cheer",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Mt Coronet 4f",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Mt Coronet 4f",
-        "method": "Super Rod",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Mt Coronet 4f",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Mt Coronet 4f",
-        "method": "Super Rod",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Mt Coronet 4f",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Mt Coronet 4f",
-        "method": "Super Rod",
-        "chance": 1
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Dragons Den Area",
-        "method": "Super Rod",
-        "chance": 10
-      },
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Super Rod",
-        "chance": 10
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Dragons Den Area",
-        "method": "Super Rod",
-        "chance": 10
-      },
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Super Rod",
-        "chance": 10
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Dragons Den Area",
-        "method": "Super Rod",
-        "chance": 10
-      },
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Super Rod",
-        "chance": 10
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Dragons Den Area",
-        "method": "Super Rod",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Dragons Den Area",
-        "method": "Super Rod",
-        "chance": 10
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Kanto Safari Zone Middle",
-        "method": "Super Rod",
-        "chance": 10
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Kanto Safari Zone Middle",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Safari Zone Area 1 East",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Safari Zone Area 2 North",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Safari Zone Area 3 West",
-        "method": "Super Rod",
-        "chance": 1
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Kanto Safari Zone Middle",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Safari Zone Area 1 East",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Safari Zone Area 2 North",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Safari Zone Area 3 West",
-        "method": "Super Rod",
-        "chance": 1
-      }
-    ],
-    "Black": [
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 15
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 4
-      }
-    ],
-    "White": [
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod",
-        "chance": 1
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 15
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 4
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 15
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 4
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 15
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 4
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Super Rod",
-        "chance": 5
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 21 Area",
-        "method": "Super Rod",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Poni Meadow Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Meadow Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Vast Poni Canyon Northwest",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Vast Poni Canyon Northwest",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Poni Meadow Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Meadow Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Vast Poni Canyon Northwest",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Vast Poni Canyon Northwest",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Poni Meadow Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Meadow Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Poni Meadow Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Meadow Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
       }
     ]
   }

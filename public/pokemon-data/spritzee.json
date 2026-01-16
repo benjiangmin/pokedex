@@ -29,6 +29,19 @@
     "Healer",
     "Aroma Veil"
   ],
+  "evolutionChain": [
+    {
+      "from": "Spritzee",
+      "to": "Aromatisse",
+      "details": [
+        {
+          "held_item": "Sachet",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/682.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/682.gif"
@@ -902,25 +915,6 @@
         "name": "Misty Explosion",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Y": [
-      {
-        "location": "Kalos Route 7 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 7 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 7 Area",
-        "method": "Purple Flowers",
-        "chance": 10
       }
     ]
   }

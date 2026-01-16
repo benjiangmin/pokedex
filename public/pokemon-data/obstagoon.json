@@ -31,6 +31,30 @@
     "Guts",
     "Defiant"
   ],
+  "evolutionChain": [
+    {
+      "from": "Zigzagoon",
+      "to": "Linoone",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Linoone",
+      "to": "Obstagoon",
+      "details": [
+        {
+          "min_level": 35,
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/862.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/862.gif"
@@ -477,6 +501,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

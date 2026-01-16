@@ -30,6 +30,30 @@
     "Snow Cloak",
     "Cursed Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Snorunt",
+      "to": "Glalie",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Snorunt",
+      "to": "Froslass",
+      "details": [
+        {
+          "gender": 1,
+          "item": "Dawn Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/478.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/478.gif"
@@ -2223,6 +2247,5 @@
         "level_learned": 34
       }
     ]
-  },
-  "locations": {}
+  }
 }

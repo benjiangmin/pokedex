@@ -31,6 +31,19 @@
     "Solid Rock",
     "Anger Point"
   ],
+  "evolutionChain": [
+    {
+      "from": "Numel",
+      "to": "Camerupt",
+      "details": [
+        {
+          "min_level": 33,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/323.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/323.gif"
@@ -2212,175 +2225,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Stark Mountain Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Route 227 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Stark Mountain Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Route 227 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Stark Mountain Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Sinnoh Route 227 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 49",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 50",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 51",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 52",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 53",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 54",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 55",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 56",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 57",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 58",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 59",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 60",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Omega Ruby": [
-      {
-        "location": "Battle Resort Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Battle Resort Area",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

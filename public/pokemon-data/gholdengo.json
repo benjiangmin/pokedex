@@ -29,6 +29,18 @@
   "abilities": [
     "Good As Gold"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gimmighoul",
+      "to": "Gholdengo",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1000.gif"
@@ -300,6 +312,5 @@
         "level_learned": 56
       }
     ]
-  },
-  "locations": {}
+  }
 }

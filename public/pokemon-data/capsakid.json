@@ -30,6 +30,19 @@
     "Insomnia",
     "Klutz"
   ],
+  "evolutionChain": [
+    {
+      "from": "Capsakid",
+      "to": "Scovillain",
+      "details": [
+        {
+          "item": "Fire Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/951.gif"
@@ -266,6 +279,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

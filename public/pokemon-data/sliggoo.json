@@ -30,6 +30,30 @@
     "Hydration",
     "Gooey"
   ],
+  "evolutionChain": [
+    {
+      "from": "Goomy",
+      "to": "Sliggoo",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Sliggoo",
+      "to": "Goodra",
+      "details": [
+        {
+          "min_level": 50,
+          "needs_overworld_rain": true,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/705.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/705.gif"
@@ -875,110 +899,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Surf",
-        "chance": 1
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Surf",
-        "chance": 15
-      },
-      {
-        "location": "Kalos Route 19 Area",
-        "method": "Surf",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Sos Encounter",
-        "chance": 10
       }
     ]
   }

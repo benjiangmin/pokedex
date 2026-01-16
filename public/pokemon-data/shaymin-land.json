@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Shaymin (Land)"
+    "english": "Shaymin Land"
   },
   "type": [
     "Grass"
@@ -28,6 +28,8 @@
   "abilities": [
     "Natural Cure"
   ],
+  "evolutionChain": [],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/492.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/492.gif"
@@ -1382,29 +1384,6 @@
         "name": "Leafage",
         "learn_method": "level-up",
         "level_learned": 1
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Flower Paradise Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Flower Paradise Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Flower Paradise Area",
-        "method": "Only One",
-        "chance": 100
       }
     ]
   }

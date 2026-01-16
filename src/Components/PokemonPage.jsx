@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 
+
 import Header from "./PageComponents/Header"
 import InformationBody from "./PageComponents/InformationBody"
 
@@ -29,7 +30,7 @@ export default function PokemonPage() {
         return () => {
             document.body.style.backgroundColor = originalColor
         }
-    }, [])
+    }, [slug])
 
     if (loading) {
         return (

@@ -29,6 +29,29 @@
     "Soundproof",
     "Scrappy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Whismur",
+      "to": "Loudred",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Loudred",
+      "to": "Exploud",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/295.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/295.gif"
@@ -2405,6 +2428,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -30,6 +30,18 @@
     "Synchronize",
     "Telepathy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Rellor",
+      "to": "Rabsca",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/954.gif"
@@ -416,6 +428,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

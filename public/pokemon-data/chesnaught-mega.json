@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Chesnaught (Mega)"
+    "english": "Chesnaught Mega"
   },
   "type": [
     "Grass",
@@ -27,6 +27,29 @@
   "weight": 90,
   "height": 1.6,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Chespin",
+      "to": "Quilladin",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Quilladin",
+      "to": "Chesnaught",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Spiny Armor Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Urshifu (Rapid Strike Gmax)"
+    "english": "Urshifu Rapid Strike Gmax"
   },
   "type": [
     "Fighting",
@@ -29,6 +29,21 @@
   "abilities": [
     "Unseen Fist"
   ],
+  "evolutionChain": [
+    {
+      "from": "Kubfu",
+      "to": "Urshifu",
+      "details": [
+        {
+          "trigger": "Tower Of Darkness"
+        },
+        {
+          "trigger": "Tower Of Waters"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10227.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10227.gif"
@@ -37,6 +52,5 @@
   "isLegendary": true,
   "isMythical": false,
   "category": "Wushu Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

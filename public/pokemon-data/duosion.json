@@ -30,6 +30,29 @@
     "Magic Guard",
     "Regenerator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Solosis",
+      "to": "Duosion",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Duosion",
+      "to": "Reuniclus",
+      "details": [
+        {
+          "min_level": 41,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/578.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/578.gif"
@@ -1687,121 +1710,6 @@
         "name": "Infestation",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "White": [
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Strange House 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Strange House 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Strange House B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Strange House B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Strange House B1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 16 Main",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

@@ -30,6 +30,31 @@
     "Pressure",
     "Pickpocket"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sneasel",
+      "to": "Weavile",
+      "details": [
+        {
+          "held_item": "Razor Claw",
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Sneasel",
+      "to": "Sneasler",
+      "details": [
+        {
+          "held_item": "Razor Claw",
+          "time_of_day": "day",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/461.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/461.gif"
@@ -2538,6 +2563,5 @@
         "level_learned": 6
       }
     ]
-  },
-  "locations": {}
+  }
 }

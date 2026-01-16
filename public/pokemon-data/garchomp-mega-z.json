@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Garchomp (Mega Z)"
+    "english": "Garchomp Mega Z"
   },
   "type": [
     "Dragon"
@@ -26,6 +26,29 @@
   "weight": 99,
   "height": 1.9,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Gible",
+      "to": "Gabite",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Gabite",
+      "to": "Garchomp",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": null,
     "animated": null
@@ -34,6 +57,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Mach Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

@@ -30,6 +30,19 @@
     "Unburden",
     "Stakeout"
   ],
+  "evolutionChain": [
+    {
+      "from": "Nickit",
+      "to": "Thievul",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/828.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/828.gif"
@@ -306,6 +319,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

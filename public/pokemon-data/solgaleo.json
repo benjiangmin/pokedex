@@ -29,6 +29,39 @@
   "abilities": [
     "Full Metal Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cosmog",
+      "to": "Cosmoem",
+      "details": [
+        {
+          "min_level": 43,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Cosmoem",
+      "to": "Solgaleo",
+      "details": [
+        {
+          "min_level": 53,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Cosmoem",
+      "to": "Lunala",
+      "details": [
+        {
+          "min_level": 53,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/791.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/791.gif"
@@ -1187,32 +1220,6 @@
         "name": "Meteor Beam",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Altar Of The Sunne Area",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Altar Of The Sunne Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Mahalo Trail Area",
-        "method": "Gift",
-        "chance": 100
-      },
-      {
-        "location": "Mahalo Trail Area",
-        "method": "Only One",
-        "chance": 15
       }
     ]
   }

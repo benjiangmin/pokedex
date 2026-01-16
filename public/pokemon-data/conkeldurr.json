@@ -30,6 +30,28 @@
     "Sheer Force",
     "Iron Fist"
   ],
+  "evolutionChain": [
+    {
+      "from": "Timburr",
+      "to": "Gurdurr",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Gurdurr",
+      "to": "Conkeldurr",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/534.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/534.gif"
@@ -1687,22 +1709,6 @@
         "name": "Upper Hand",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

@@ -30,6 +30,29 @@
     "Serene Grace",
     "Super Luck"
   ],
+  "evolutionChain": [
+    {
+      "from": "Togepi",
+      "to": "Togetic",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Togetic",
+      "to": "Togekiss",
+      "details": [
+        {
+          "item": "Shiny Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/175.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/175.gif"
@@ -2503,142 +2526,6 @@
         "name": "Dazzling Gleam",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Eterna City West Gate",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Violet City Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Violet City Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Violet City Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Water Labyrinth Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Water Labyrinth Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Omega Ruby": [
-      {
-        "location": "Lavaridge Town Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Lavaridge Town Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Violet City Poke Mart",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Violet City Poke Mart",
-        "method": "Gift Egg",
-        "chance": 100
       }
     ]
   }

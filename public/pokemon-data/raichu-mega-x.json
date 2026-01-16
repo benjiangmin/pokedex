@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Raichu (Mega X)"
+    "english": "Raichu Mega X"
   },
   "type": [
     "Electric"
@@ -26,6 +26,29 @@
   "weight": 38,
   "height": 1.2,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Pichu",
+      "to": "Pikachu",
+      "details": [
+        {
+          "min_happiness": 220,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pikachu",
+      "to": "Raichu",
+      "details": [
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": null,
     "animated": null
@@ -34,6 +57,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Mouse Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

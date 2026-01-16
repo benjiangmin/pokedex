@@ -31,6 +31,19 @@
     "Effect Spore",
     "Rain Dish"
   ],
+  "evolutionChain": [
+    {
+      "from": "Morelull",
+      "to": "Shiinotic",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/756.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/756.gif"
@@ -527,22 +540,6 @@
         "name": "Spotlight",
         "learn_method": "level-up",
         "level_learned": 53
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

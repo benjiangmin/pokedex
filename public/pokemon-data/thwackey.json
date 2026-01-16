@@ -29,6 +29,29 @@
     "Overgrow",
     "Grassy Surge"
   ],
+  "evolutionChain": [
+    {
+      "from": "Grookey",
+      "to": "Thwackey",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Thwackey",
+      "to": "Rillaboom",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/811.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/811.gif"
@@ -557,6 +580,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

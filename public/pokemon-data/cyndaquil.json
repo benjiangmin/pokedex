@@ -29,6 +29,29 @@
     "Blaze",
     "Flash Fire"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cyndaquil",
+      "to": "Quilava",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Quilava",
+      "to": "Typhlosion",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/155.gif"
@@ -2134,78 +2157,6 @@
         "name": "Overheat",
         "learn_method": "level-up",
         "level_learned": 43
-      }
-    ]
-  },
-  "locations": {
-    "Gold": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Silver": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "New Bark Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Omega Ruby": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Hoenn Route 101 Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Littleroot Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 3 Main",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 3 Main",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

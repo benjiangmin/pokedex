@@ -31,6 +31,19 @@
     "Dry Skin",
     "Poison Touch"
   ],
+  "evolutionChain": [
+    {
+      "from": "Croagunk",
+      "to": "Toxicroak",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/454.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/454.gif"
@@ -2487,32 +2500,6 @@
         "name": "Venoshock",
         "learn_method": "level-up",
         "level_learned": 15
-      }
-    ]
-  },
-  "locations": {
-    "Black 2": [
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Outside",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

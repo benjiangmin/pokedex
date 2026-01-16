@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Samurott (Hisui)"
+    "english": "Samurott Hisui"
   },
   "type": [
     "Water",
@@ -30,6 +30,29 @@
     "Torrent",
     "Sharpness"
   ],
+  "evolutionChain": [
+    {
+      "from": "Oshawott",
+      "to": "Dewott",
+      "details": [
+        {
+          "min_level": 17,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Dewott",
+      "to": "Samurott",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10236.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10236.gif"
@@ -443,6 +466,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

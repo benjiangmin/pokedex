@@ -28,6 +28,29 @@
   "abilities": [
     "Levitate"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tynamo",
+      "to": "Eelektrik",
+      "details": [
+        {
+          "min_level": 39,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Eelektrik",
+      "to": "Eelektross",
+      "details": [
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/604.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/604.gif"
@@ -1378,36 +1401,6 @@
         "name": "Supercell Slam",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Poni Grove Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Grove Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Poni Grove Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Grove Area",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

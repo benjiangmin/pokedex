@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Gyarados (Mega)"
+    "english": "Gyarados Mega"
   },
   "type": [
     "Water",
@@ -29,6 +29,19 @@
   "abilities": [
     "Mold Breaker"
   ],
+  "evolutionChain": [
+    {
+      "from": "Magikarp",
+      "to": "Gyarados",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10041.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10041.gif"
@@ -787,6 +800,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

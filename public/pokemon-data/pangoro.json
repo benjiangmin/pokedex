@@ -31,6 +31,20 @@
     "Mold Breaker",
     "Scrappy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pancham",
+      "to": "Pangoro",
+      "details": [
+        {
+          "min_level": 32,
+          "party_type": "Dark",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/675.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/675.gif"
@@ -1469,76 +1483,6 @@
         "name": "Coaching",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Alcremie (Gmax)"
+    "english": "Alcremie Gmax"
   },
   "type": [
     "Fairy"
@@ -29,6 +29,18 @@
     "Sweet Veil",
     "Aroma Veil"
   ],
+  "evolutionChain": [
+    {
+      "from": "Milcery",
+      "to": "Alcremie",
+      "details": [
+        {
+          "trigger": "Spin"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10223.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10223.gif"
@@ -37,6 +49,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Cream Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

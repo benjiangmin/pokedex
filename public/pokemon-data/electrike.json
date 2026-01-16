@@ -30,6 +30,19 @@
     "Lightning Rod",
     "Minus"
   ],
+  "evolutionChain": [
+    {
+      "from": "Electrike",
+      "to": "Manectric",
+      "details": [
+        {
+          "min_level": 26,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/309.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/309.gif"
@@ -1784,139 +1797,6 @@
         "name": "Rising Voltage",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 118 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 118 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 118 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 118 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 118 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 118 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 10 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 10 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 10 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poke Pelago Poni Island Reached",
-        "method": "Gift",
-        "chance": 3
-      },
-      {
-        "location": "Poke Pelago Elite Four Defeated",
-        "method": "Gift",
-        "chance": 2
       }
     ]
   }

@@ -30,6 +30,29 @@
     "Soundproof",
     "Overcoat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Jangmo-o",
+      "to": "Hakamo-o",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Hakamo-o",
+      "to": "Kommo-o",
+      "details": [
+        {
+          "min_level": 45,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/782.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/782.gif"
@@ -903,36 +926,6 @@
         "name": "Dragon Cheer",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Vast Poni Canyon Outside",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Vast Poni Canyon Outside",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Vast Poni Canyon Outside",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Vast Poni Canyon Outside",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

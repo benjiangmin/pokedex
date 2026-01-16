@@ -31,6 +31,19 @@
     "Klutz",
     "Cute Charm"
   ],
+  "evolutionChain": [
+    {
+      "from": "Stufful",
+      "to": "Bewear",
+      "details": [
+        {
+          "min_level": 27,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/759.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/759.gif"
@@ -592,56 +605,6 @@
         "name": "Stomping Tantrum",
         "learn_method": "egg",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Walk",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Walk",
-        "chance": 15
       }
     ]
   }

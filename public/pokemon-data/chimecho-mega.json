@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Chimecho (Mega)"
+    "english": "Chimecho Mega"
   },
   "type": [
     "Psychic",
@@ -27,6 +27,20 @@
   "weight": 8,
   "height": 1.2,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Chingling",
+      "to": "Chimecho",
+      "details": [
+        {
+          "min_happiness": 220,
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +49,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Wind Chime Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

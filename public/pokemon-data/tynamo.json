@@ -28,6 +28,29 @@
   "abilities": [
     "Levitate"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tynamo",
+      "to": "Eelektrik",
+      "details": [
+        {
+          "min_level": 39,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Eelektrik",
+      "to": "Eelektross",
+      "details": [
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/602.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/602.gif"
@@ -183,146 +206,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "White": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Seaside Cave 1f",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Seaside Cave 1f",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

@@ -29,6 +29,29 @@
     "Static",
     "Vital Spirit"
   ],
+  "evolutionChain": [
+    {
+      "from": "Elekid",
+      "to": "Electabuzz",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Electabuzz",
+      "to": "Electivire",
+      "details": [
+        {
+          "held_item": "Electirizer",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/239.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/239.gif"
@@ -2454,139 +2477,6 @@
         "name": "Spark",
         "learn_method": "level-up",
         "level_learned": 11
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 South Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 South Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Valley Windworks Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 South Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 205 South Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Johto Route 34 Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Virbank Complex Outer",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Virbank Complex Outer",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Virbank Complex Inner",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Virbank Complex Inner",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Virbank Complex Inner",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Virbank Complex Inner",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Blush Mountain Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Blush Mountain Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

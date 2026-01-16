@@ -30,6 +30,19 @@
     "Regenerator",
     "Effect Spore"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gossifleur",
+      "to": "Eldegoss",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/830.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/830.gif"
@@ -251,6 +264,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

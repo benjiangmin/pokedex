@@ -31,6 +31,29 @@
     "Ice Body",
     "Oblivious"
   ],
+  "evolutionChain": [
+    {
+      "from": "Spheal",
+      "to": "Sealeo",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Sealeo",
+      "to": "Walrein",
+      "details": [
+        {
+          "min_level": 44,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/364.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/364.gif"
@@ -1677,79 +1700,6 @@
         "name": "Liquidation",
         "learn_method": "level-up",
         "level_learned": 25
-      }
-    ]
-  },
-  "locations": {
-    "Pearl": [
-      {
-        "location": "Sinnoh Sea Route 226 Area",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Sea Route 226 Area",
-        "method": "Surf",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Surf",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Surf",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Surf",
-        "chance": 60
-      }
-    ],
-    "Black": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 30
-      }
-    ],
-    "White": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 30
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 30
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 30
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Johto Safari Zone Zone Mountain",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Johto Safari Zone Zone Mountain",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

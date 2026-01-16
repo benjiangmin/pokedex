@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Medicham (Mega)"
+    "english": "Medicham Mega"
   },
   "type": [
     "Fighting",
@@ -29,6 +29,19 @@
   "abilities": [
     "Pure Power"
   ],
+  "evolutionChain": [
+    {
+      "from": "Meditite",
+      "to": "Medicham",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10054.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10054.gif"
@@ -912,6 +925,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

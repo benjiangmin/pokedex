@@ -30,6 +30,19 @@
     "Battle Armor",
     "Swift Swim"
   ],
+  "evolutionChain": [
+    {
+      "from": "Anorith",
+      "to": "Armaldo",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/347.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/347.gif"
@@ -1689,43 +1702,6 @@
         "name": "Meteor Beam",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ruby": [
-      {
-        "location": "Rustboro City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Rustboro City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Rustboro City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

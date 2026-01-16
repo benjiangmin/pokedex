@@ -30,6 +30,29 @@
     "Flash Fire",
     "Weak Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Charcadet",
+      "to": "Armarouge",
+      "details": [
+        {
+          "item": "Auspicious Armor",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Charcadet",
+      "to": "Ceruledge",
+      "details": [
+        {
+          "item": "Malicious Armor",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/937.gif"
@@ -361,6 +384,5 @@
         "level_learned": 48
       }
     ]
-  },
-  "locations": {}
+  }
 }

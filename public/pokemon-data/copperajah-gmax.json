@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Copperajah (Gmax)"
+    "english": "Copperajah Gmax"
   },
   "type": [
     "Steel"
@@ -29,6 +29,19 @@
     "Sheer Force",
     "Heavy Metal"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cufant",
+      "to": "Copperajah",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10224.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10224.gif"
@@ -37,6 +50,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Copperderm Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

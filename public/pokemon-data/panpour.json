@@ -29,6 +29,19 @@
     "Gluttony",
     "Torrent"
   ],
+  "evolutionChain": [
+    {
+      "from": "Panpour",
+      "to": "Simipour",
+      "details": [
+        {
+          "item": "Water Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/515.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/515.gif"
@@ -1147,80 +1160,6 @@
         "name": "Confide",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Gift",
-        "chance": 100
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 10
-      }
-    ],
-    "White": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Gift",
-        "chance": 100
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 10
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 10
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 10
-      }
-    ],
-    "X": [
-      {
-        "location": "Santalune Forest Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Santalune Forest Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

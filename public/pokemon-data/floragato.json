@@ -29,6 +29,29 @@
     "Overgrow",
     "Protean"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sprigatito",
+      "to": "Floragato",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Floragato",
+      "to": "Meowscarada",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/907.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/907.gif"
@@ -305,6 +328,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

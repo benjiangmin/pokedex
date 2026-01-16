@@ -31,6 +31,29 @@
     "Leaf Guard",
     "Infiltrator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Hoppip",
+      "to": "Skiploom",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Skiploom",
+      "to": "Jumpluff",
+      "details": [
+        {
+          "min_level": 27,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/189.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/189.gif"
@@ -2071,6 +2094,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

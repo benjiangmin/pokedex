@@ -29,6 +29,29 @@
     "Rock Head",
     "Overcoat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Bagon",
+      "to": "Shelgon",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Shelgon",
+      "to": "Salamence",
+      "details": [
+        {
+          "min_level": 50,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/372.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/372.gif"
@@ -1945,36 +1968,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

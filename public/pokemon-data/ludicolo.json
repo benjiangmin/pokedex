@@ -31,6 +31,29 @@
     "Rain Dish",
     "Own Tempo"
   ],
+  "evolutionChain": [
+    {
+      "from": "Lotad",
+      "to": "Lombre",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Lombre",
+      "to": "Ludicolo",
+      "details": [
+        {
+          "item": "Water Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/272.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/272.gif"
@@ -2204,6 +2227,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

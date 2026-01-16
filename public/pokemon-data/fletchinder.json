@@ -30,6 +30,29 @@
     "Flame Body",
     "Gale Wings"
   ],
+  "evolutionChain": [
+    {
+      "from": "Fletchling",
+      "to": "Fletchinder",
+      "details": [
+        {
+          "min_level": 17,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Fletchinder",
+      "to": "Talonflame",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/662.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/662.gif"
@@ -1010,46 +1033,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

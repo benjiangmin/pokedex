@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Froslass (Mega)"
+    "english": "Froslass Mega"
   },
   "type": [
     "Ice",
@@ -27,6 +27,30 @@
   "weight": 29.6,
   "height": 2.6,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Snorunt",
+      "to": "Glalie",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Snorunt",
+      "to": "Froslass",
+      "details": [
+        {
+          "gender": 1,
+          "item": "Dawn Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": null,
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10285.gif"
@@ -35,6 +59,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Snow Land Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

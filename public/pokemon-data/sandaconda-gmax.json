@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Sandaconda (Gmax)"
+    "english": "Sandaconda Gmax"
   },
   "type": [
     "Ground"
@@ -30,6 +30,19 @@
     "Shed Skin",
     "Sand Veil"
   ],
+  "evolutionChain": [
+    {
+      "from": "Silicobra",
+      "to": "Sandaconda",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10218.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10218.gif"
@@ -38,6 +51,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Sand Snake Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

@@ -30,6 +30,28 @@
     "Anger Point",
     "Defiant"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mankey",
+      "to": "Primeape",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Primeape",
+      "to": "Annihilape",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/57.gif"
@@ -3165,217 +3187,6 @@
         "name": "Stomping Tantrum",
         "learn_method": "level-up",
         "level_learned": 48
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 225 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 225 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 226 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 226 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 225 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 225 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 226 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 226 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 225 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 225 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 226 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 226 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 9 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 23 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Victory Road 2 2f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 23 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Victory Road 2 2f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Kanto Route 23 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 23 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poni Plains West",
-        "method": "Bubbling Spots",
-        "chance": 80
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Plains West",
-        "method": "Bubbling Spots",
-        "chance": 80
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Poni Plains West",
-        "method": "Bubbling Spots",
-        "chance": 60
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Plains West",
-        "method": "Bubbling Spots",
-        "chance": 60
       }
     ]
   }

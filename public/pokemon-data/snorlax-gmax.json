@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Snorlax (Gmax)"
+    "english": "Snorlax Gmax"
   },
   "type": [
     "Normal"
@@ -30,6 +30,19 @@
     "Thick Fat",
     "Gluttony"
   ],
+  "evolutionChain": [
+    {
+      "from": "Munchlax",
+      "to": "Snorlax",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10206.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10206.gif"
@@ -38,6 +51,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Sleeping Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

@@ -29,6 +29,121 @@
     "Synchronize",
     "Magic Bounce"
   ],
+  "evolutionChain": [
+    {
+      "from": "Eevee",
+      "to": "Vaporeon",
+      "details": [
+        {
+          "item": "Water Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Eevee",
+      "to": "Jolteon",
+      "details": [
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Eevee",
+      "to": "Flareon",
+      "details": [
+        {
+          "item": "Fire Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Eevee",
+      "to": "Espeon",
+      "details": [
+        {
+          "min_happiness": 160,
+          "time_of_day": "day",
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Eevee",
+      "to": "Umbreon",
+      "details": [
+        {
+          "min_happiness": 160,
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Eevee",
+      "to": "Leafeon",
+      "details": [
+        {
+          "location": "Eterna Forest",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Pinwheel Forest",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Kalos Route 20",
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Leaf Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Eevee",
+      "to": "Glaceon",
+      "details": [
+        {
+          "location": "Sinnoh Route 217",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Twist Mountain",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Frost Cavern",
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Ice Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Eevee",
+      "to": "Sylveon",
+      "details": [
+        {
+          "known_move_type": "Fairy",
+          "min_affection": 2,
+          "trigger": "Level Up"
+        },
+        {
+          "known_move_type": "Fairy",
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/196.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/196.gif"
@@ -2569,76 +2684,6 @@
         "name": "Baby Doll Eyes",
         "learn_method": "level-up",
         "level_learned": 18
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

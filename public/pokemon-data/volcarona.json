@@ -30,6 +30,19 @@
     "Flame Body",
     "Swarm"
   ],
+  "evolutionChain": [
+    {
+      "from": "Larvesta",
+      "to": "Volcarona",
+      "details": [
+        {
+          "min_level": 59,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/637.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/637.gif"
@@ -1672,60 +1685,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Relic Castle D",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "White": [
-      {
-        "location": "Relic Castle D",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Relic Castle D",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Relic Castle D",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Relic Castle D",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Relic Castle D",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

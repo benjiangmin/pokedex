@@ -31,6 +31,29 @@
     "Moxie",
     "Anger Point"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sandile",
+      "to": "Krokorok",
+      "details": [
+        {
+          "min_level": 29,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Krokorok",
+      "to": "Krookodile",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/552.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/552.gif"
@@ -1768,170 +1791,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 70
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Walk",
-        "chance": 70
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 70
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Walk",
-        "chance": 70
       }
     ]
   }

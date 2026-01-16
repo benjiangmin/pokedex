@@ -30,6 +30,19 @@
     "Ice Body",
     "Sturdy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Bergmite",
+      "to": "Avalugg",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/712.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/712.gif"
@@ -1077,92 +1090,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Frost Cavern Unknown Area 314",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 314",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 315",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 315",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 316",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 316",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 317",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 317",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Frost Cavern Unknown Area 314",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 314",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 315",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 315",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 316",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 316",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 317",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Frost Cavern Unknown Area 317",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

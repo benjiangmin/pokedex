@@ -30,6 +30,20 @@
     "Honey Gather",
     "Hustle"
   ],
+  "evolutionChain": [
+    {
+      "from": "Combee",
+      "to": "Vespiquen",
+      "details": [
+        {
+          "gender": 1,
+          "min_level": 21,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/415.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/415.gif"
@@ -336,120 +350,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 4 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 4 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 4 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 4 Area",
-        "method": "Red Flowers",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 4 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 4 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 4 Area",
-        "method": "Yellow Flowers",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 4 Area",
-        "method": "Red Flowers",
-        "chance": 10
       }
     ]
   }

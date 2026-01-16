@@ -31,6 +31,29 @@
     "Rock Head",
     "Heavy Metal"
   ],
+  "evolutionChain": [
+    {
+      "from": "Aron",
+      "to": "Lairon",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Lairon",
+      "to": "Aggron",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/304.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/304.gif"
@@ -2105,322 +2128,6 @@
         "name": "Confide",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Granite Cave B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Granite Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave B2f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Granite Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Granite Cave B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Granite Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave B2f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Granite Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Granite Cave B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Granite Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave B2f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Granite Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave B2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Granite Cave 1fsmall Room",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Mistralton Cave Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mistralton Cave Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Mistralton Cave Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mistralton Cave Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Guidance Chamber Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Guidance Chamber Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Guidance Chamber Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Guidance Chamber Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Mistralton Cave Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mistralton Cave Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Mistralton Cave Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mistralton Cave Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Guidance Chamber Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Guidance Chamber Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Guidance Chamber Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Guidance Chamber Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

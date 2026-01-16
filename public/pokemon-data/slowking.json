@@ -31,6 +31,37 @@
     "Own Tempo",
     "Regenerator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Slowpoke",
+      "to": "Slowbro",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Galarica Cuff",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Slowpoke",
+      "to": "Slowking",
+      "details": [
+        {
+          "held_item": "Kings Rock",
+          "trigger": "Trade"
+        },
+        {
+          "item": "Galarica Wreath",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/199.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/199.gif"
@@ -3344,46 +3375,6 @@
         "name": "Laser Focus",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

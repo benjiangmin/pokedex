@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Gengar (Gmax)"
+    "english": "Gengar Gmax"
   },
   "type": [
     "Ghost",
@@ -29,6 +29,28 @@
   "abilities": [
     "Cursed Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gastly",
+      "to": "Haunter",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Haunter",
+      "to": "Gengar",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10202.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10202.gif"
@@ -37,6 +59,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Shadow Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

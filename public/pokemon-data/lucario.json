@@ -31,6 +31,20 @@
     "Inner Focus",
     "Justified"
   ],
+  "evolutionChain": [
+    {
+      "from": "Riolu",
+      "to": "Lucario",
+      "details": [
+        {
+          "min_happiness": 160,
+          "time_of_day": "day",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/448.gif"
@@ -2587,50 +2601,6 @@
         "name": "Bullet Punch",
         "learn_method": "level-up",
         "level_learned": 5
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Tower Of Mastery Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Y": [
-      {
-        "location": "Tower Of Mastery Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poni Grove Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Grove Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Poni Grove Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Grove Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

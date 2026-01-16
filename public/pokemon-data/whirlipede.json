@@ -31,6 +31,29 @@
     "Swarm",
     "Speed Boost"
   ],
+  "evolutionChain": [
+    {
+      "from": "Venipede",
+      "to": "Whirlipede",
+      "details": [
+        {
+          "min_level": 22,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Whirlipede",
+      "to": "Scolipede",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/544.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/544.gif"
@@ -926,96 +949,6 @@
         "name": "Infestation",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 5
-      }
-    ],
-    "White": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 5
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 10
       }
     ]
   }

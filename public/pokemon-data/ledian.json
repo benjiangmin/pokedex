@@ -31,6 +31,19 @@
     "Early Bird",
     "Iron Fist"
   ],
+  "evolutionChain": [
+    {
+      "from": "Ledyba",
+      "to": "Ledian",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/166.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/166.gif"
@@ -1952,222 +1965,6 @@
         "name": "Struggle Bug",
         "learn_method": "level-up",
         "level_learned": 24
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Kanto Route 2 South Towards Viridian City",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Kanto Route 2 South Towards Viridian City",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 2 South Towards Viridian City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 2 South Towards Viridian City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 2 South Towards Viridian City",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 2 North Towards Pewter City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 2 North Towards Pewter City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 2 North Towards Pewter City",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Black": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 5
-      }
-    ],
-    "White": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Malie Garden Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Ulaula Meadow Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Malie Garden Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Ulaula Meadow Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Malie Garden Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Ulaula Meadow Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 10 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 17 West",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Malie Garden Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Ulaula Meadow Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Ampharos (Mega)"
+    "english": "Ampharos Mega"
   },
   "type": [
     "Electric",
@@ -29,6 +29,29 @@
   "abilities": [
     "Mold Breaker"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mareep",
+      "to": "Flaaffy",
+      "details": [
+        {
+          "min_level": 15,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Flaaffy",
+      "to": "Ampharos",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10045.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10045.gif"
@@ -747,6 +770,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

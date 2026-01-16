@@ -29,6 +29,19 @@
     "Sheer Force",
     "Heavy Metal"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cufant",
+      "to": "Copperajah",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/878.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/878.gif"
@@ -592,6 +605,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

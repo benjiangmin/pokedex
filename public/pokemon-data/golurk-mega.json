@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Golurk (Mega)"
+    "english": "Golurk Mega"
   },
   "type": [
     "Ground",
@@ -27,6 +27,19 @@
   "weight": 330,
   "height": 4,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Golett",
+      "to": "Golurk",
+      "details": [
+        {
+          "min_level": 43,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +48,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Automaton Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

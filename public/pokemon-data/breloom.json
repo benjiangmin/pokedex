@@ -31,6 +31,19 @@
     "Poison Heal",
     "Technician"
   ],
+  "evolutionChain": [
+    {
+      "from": "Shroomish",
+      "to": "Breloom",
+      "details": [
+        {
+          "min_level": 23,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/286.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/286.gif"
@@ -2384,6 +2397,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -31,6 +31,29 @@
     "Solid Rock",
     "Reckless"
   ],
+  "evolutionChain": [
+    {
+      "from": "Rhyhorn",
+      "to": "Rhydon",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Rhydon",
+      "to": "Rhyperior",
+      "details": [
+        {
+          "held_item": "Protector",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/464.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/464.gif"
@@ -2954,6 +2977,5 @@
         "level_learned": 34
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Typhlosion (Hisui)"
+    "english": "Typhlosion Hisui"
   },
   "type": [
     "Fire",
@@ -30,6 +30,29 @@
     "Blaze",
     "Frisk"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cyndaquil",
+      "to": "Quilava",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Quilava",
+      "to": "Typhlosion",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10233.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10233.gif"
@@ -563,6 +586,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Blaziken (Mega)"
+    "english": "Blaziken Mega"
   },
   "type": [
     "Fire",
@@ -29,6 +29,29 @@
   "abilities": [
     "Speed Boost"
   ],
+  "evolutionChain": [
+    {
+      "from": "Torchic",
+      "to": "Combusken",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Combusken",
+      "to": "Blaziken",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10050.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10050.gif"
@@ -907,6 +930,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

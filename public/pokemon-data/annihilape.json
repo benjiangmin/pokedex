@@ -31,6 +31,28 @@
     "Inner Focus",
     "Defiant"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mankey",
+      "to": "Primeape",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Primeape",
+      "to": "Annihilape",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/979.gif"
@@ -447,6 +469,5 @@
         "level_learned": 35
       }
     ]
-  },
-  "locations": {}
+  }
 }

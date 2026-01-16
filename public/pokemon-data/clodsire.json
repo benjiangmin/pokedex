@@ -31,6 +31,29 @@
     "Water Absorb",
     "Unaware"
   ],
+  "evolutionChain": [
+    {
+      "from": "Wooper",
+      "to": "Quagsire",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Wooper",
+      "to": "Clodsire",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/980.gif"
@@ -367,6 +390,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

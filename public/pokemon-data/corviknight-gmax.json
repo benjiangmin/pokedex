@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Corviknight (Gmax)"
+    "english": "Corviknight Gmax"
   },
   "type": [
     "Flying",
@@ -31,6 +31,29 @@
     "Unnerve",
     "Mirror Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Rookidee",
+      "to": "Corvisquire",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Corvisquire",
+      "to": "Corviknight",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10212.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10212.gif"
@@ -39,6 +62,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Raven Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

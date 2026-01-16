@@ -2,7 +2,7 @@ import fs from "fs";
 
 async function fetchAllPokemon() {
     const masterList = [];
-    const totalCount = 20;
+    const totalCount = 1026
 
     const outputDir = "./public/pokemon-data";
     if (!fs.existsSync(outputDir)) {

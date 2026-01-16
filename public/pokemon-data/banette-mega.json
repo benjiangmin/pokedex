@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Banette (Mega)"
+    "english": "Banette Mega"
   },
   "type": [
     "Ghost"
@@ -28,6 +28,19 @@
   "abilities": [
     "Prankster"
   ],
+  "evolutionChain": [
+    {
+      "from": "Shuppet",
+      "to": "Banette",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10056.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10056.gif"
@@ -831,6 +844,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

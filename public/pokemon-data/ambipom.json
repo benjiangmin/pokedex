@@ -30,6 +30,19 @@
     "Pickup",
     "Skill Link"
   ],
+  "evolutionChain": [
+    {
+      "from": "Aipom",
+      "to": "Ambipom",
+      "details": [
+        {
+          "known_move": "Double Hit",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/424.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/424.gif"
@@ -2276,22 +2289,6 @@
         "name": "Double Hit",
         "learn_method": "level-up",
         "level_learned": 25
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Poni Plains West",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Plains West",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
       }
     ]
   }

@@ -31,6 +31,19 @@
     "Aftermath",
     "Keen Eye"
   ],
+  "evolutionChain": [
+    {
+      "from": "Stunky",
+      "to": "Skuntank",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/434.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/434.gif"
@@ -2062,94 +2075,6 @@
         "name": "Acid Spray",
         "learn_method": "level-up",
         "level_learned": 6
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 206 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Sinnoh Route 206 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 206 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 206 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 206 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 206 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 206 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 214 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 221 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 11 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 11 Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

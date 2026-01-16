@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Darumaka (Galar)"
+    "english": "Darumaka Galar"
   },
   "type": [
     "Ice"
@@ -29,6 +29,23 @@
     "Hustle",
     "Inner Focus"
   ],
+  "evolutionChain": [
+    {
+      "from": "Darumaka",
+      "to": "Darmanitan",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Ice Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10176.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10176.gif"
@@ -365,6 +382,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

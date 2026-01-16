@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Lilligant (Hisui)"
+    "english": "Lilligant Hisui"
   },
   "type": [
     "Grass",
@@ -31,6 +31,19 @@
     "Hustle",
     "Leaf Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Petilil",
+      "to": "Lilligant",
+      "details": [
+        {
+          "item": "Sun Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10237.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10237.gif"
@@ -514,6 +527,5 @@
         "level_learned": 42
       }
     ]
-  },
-  "locations": {}
+  }
 }

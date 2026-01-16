@@ -29,6 +29,19 @@
     "Mold Breaker",
     "Sheer Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cranidos",
+      "to": "Rampardos",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/408.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/408.gif"
@@ -2170,36 +2183,6 @@
         "name": "Head Smash",
         "learn_method": "level-up",
         "level_learned": 47
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

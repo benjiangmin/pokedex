@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Diglett (Alola)"
+    "english": "Diglett Alola"
   },
   "type": [
     "Ground",
@@ -31,6 +31,19 @@
     "Tangling Hair",
     "Sand Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Diglett",
+      "to": "Dugtrio",
+      "details": [
+        {
+          "min_level": 26,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10105.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10105.gif"
@@ -969,146 +982,6 @@
         "name": "Scorching Sands",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Digletts Tunnel Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Digletts Tunnel Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Seaward Cave Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Ten Carat Hill Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Verdant Cavern Trial Site",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Digletts Tunnel Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Digletts Tunnel Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Seaward Cave Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Ten Carat Hill Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Verdant Cavern Trial Site",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Digletts Tunnel Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Digletts Tunnel Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Verdant Cavern Trial Site",
-        "method": "Walk",
-        "chance": 35
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Alola Route 7 Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Digletts Tunnel Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Digletts Tunnel Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Verdant Cavern Trial Site",
-        "method": "Walk",
-        "chance": 35
       }
     ]
   }

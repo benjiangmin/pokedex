@@ -29,6 +29,29 @@
   "abilities": [
     "No Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Honedge",
+      "to": "Doublade",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Doublade",
+      "to": "Aegislash",
+      "details": [
+        {
+          "item": "Dusk Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/679.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/679.gif"
@@ -787,60 +810,6 @@
         "name": "Steel Beam",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 5
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Akala Outskirts Area",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

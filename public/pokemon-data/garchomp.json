@@ -30,6 +30,29 @@
     "Sand Veil",
     "Rough Skin"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gible",
+      "to": "Gabite",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Gabite",
+      "to": "Garchomp",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/445.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/445.gif"
@@ -2178,6 +2201,5 @@
         "level_learned": 9
       }
     ]
-  },
-  "locations": {}
+  }
 }

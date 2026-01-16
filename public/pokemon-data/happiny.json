@@ -30,6 +30,30 @@
     "Serene Grace",
     "Friend Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Happiny",
+      "to": "Chansey",
+      "details": [
+        {
+          "held_item": "Oval Stone",
+          "time_of_day": "day",
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Chansey",
+      "to": "Blissey",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/440.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/440.gif"
@@ -1711,284 +1735,6 @@
         "name": "Baby Doll Eyes",
         "learn_method": "level-up",
         "level_learned": 11
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Hearthome City West Gate",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Hearthome City West Gate",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Nacrene City West Gate",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Nacrene City West Gate",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 1 East",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Mount Hokulani East",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Seaward Cave Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 1 East",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Mount Hokulani East",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Seaward Cave Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 1 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 1 West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Malie City Main",
-        "method": "Npc Trade",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 1 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 1 West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Malie City Main",
-        "method": "Npc Trade",
-        "chance": 100
       }
     ]
   }

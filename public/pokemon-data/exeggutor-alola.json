@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Exeggutor (Alola)"
+    "english": "Exeggutor Alola"
   },
   "type": [
     "Grass",
@@ -30,6 +30,19 @@
     "Frisk",
     "Harvest"
   ],
+  "evolutionChain": [
+    {
+      "from": "Exeggcute",
+      "to": "Exeggutor",
+      "details": [
+        {
+          "item": "Leaf Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10114.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10114.gif"
@@ -1163,46 +1176,6 @@
         "name": "Psychic Noise",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Exeggutor Island Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

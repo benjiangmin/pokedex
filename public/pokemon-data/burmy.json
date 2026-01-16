@@ -29,6 +29,31 @@
     "Shed Skin",
     "Overcoat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Burmy",
+      "to": "Wormadam",
+      "details": [
+        {
+          "gender": 1,
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Burmy",
+      "to": "Mothim",
+      "details": [
+        {
+          "gender": 2,
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/412.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/412.gif"
@@ -238,22 +263,6 @@
         "name": "Struggle Bug",
         "learn_method": "level-up",
         "level_learned": 1
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 3 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 3 Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

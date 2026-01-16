@@ -30,6 +30,29 @@
     "Intimidate",
     "Guts"
   ],
+  "evolutionChain": [
+    {
+      "from": "Shinx",
+      "to": "Luxio",
+      "details": [
+        {
+          "min_level": 15,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Luxio",
+      "to": "Luxray",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/404.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/404.gif"
@@ -1541,48 +1564,6 @@
         "name": "Wild Charge",
         "learn_method": "level-up",
         "level_learned": 37
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Fuego Ironworks Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

@@ -29,6 +29,18 @@
     "Compound Eyes",
     "Shed Skin"
   ],
+  "evolutionChain": [
+    {
+      "from": "Rellor",
+      "to": "Rabsca",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/953.gif"
@@ -235,6 +247,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

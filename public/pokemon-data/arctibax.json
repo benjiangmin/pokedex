@@ -30,6 +30,29 @@
     "Thermal Exchange",
     "Ice Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Frigibax",
+      "to": "Arctibax",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Arctibax",
+      "to": "Baxcalibur",
+      "details": [
+        {
+          "min_level": 54,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/997.gif"
@@ -251,6 +274,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

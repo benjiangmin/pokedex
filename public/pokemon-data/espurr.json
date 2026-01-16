@@ -30,6 +30,19 @@
     "Infiltrator",
     "Own Tempo"
   ],
+  "evolutionChain": [
+    {
+      "from": "Espurr",
+      "to": "Meowstic",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/677.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/677.gif"
@@ -1180,32 +1193,6 @@
         "name": "Psychic Noise",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 6 Area",
-        "method": "Rough Terrain",
-        "chance": 10
       }
     ]
   }

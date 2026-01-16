@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Aggron (Mega)"
+    "english": "Aggron Mega"
   },
   "type": [
     "Steel"
@@ -28,6 +28,29 @@
   "abilities": [
     "Filter"
   ],
+  "evolutionChain": [
+    {
+      "from": "Aron",
+      "to": "Lairon",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Lairon",
+      "to": "Aggron",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10053.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10053.gif"
@@ -1056,6 +1079,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

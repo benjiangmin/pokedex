@@ -30,6 +30,19 @@
     "Own Tempo",
     "Leaf Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Petilil",
+      "to": "Lilligant",
+      "details": [
+        {
+          "item": "Sun Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/549.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/549.gif"
@@ -1222,87 +1235,6 @@
         "name": "Alluring Voice",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "White": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Grass Spots",
-        "chance": 5
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Castelia City Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Castelia City Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 72",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 72",
-        "method": "Grass Spots",
-        "chance": 1
       }
     ]
   }

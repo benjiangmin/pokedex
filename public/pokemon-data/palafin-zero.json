@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Palafin (Zero)"
+    "english": "Palafin Zero"
   },
   "type": [
     "Water"
@@ -29,6 +29,19 @@
     "Zero To Hero",
     "Zero To Hero"
   ],
+  "evolutionChain": [
+    {
+      "from": "Finizen",
+      "to": "Palafin",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/964.gif"
@@ -375,6 +388,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

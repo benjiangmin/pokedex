@@ -31,6 +31,28 @@
     "Inner Focus",
     "Pressure"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pawniard",
+      "to": "Bisharp",
+      "details": [
+        {
+          "min_level": 52,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Bisharp",
+      "to": "Kingambit",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/625.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/625.gif"
@@ -1843,36 +1865,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Route 11 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 11 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 17 Northeast",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

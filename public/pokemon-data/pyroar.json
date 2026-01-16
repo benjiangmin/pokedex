@@ -31,6 +31,19 @@
     "Unnerve",
     "Moxie"
   ],
+  "evolutionChain": [
+    {
+      "from": "Litleo",
+      "to": "Pyroar",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/668.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/668.gif"
@@ -959,22 +972,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Bubbling Spots",
-        "chance": 30
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Bubbling Spots",
-        "chance": 30
       }
     ]
   }

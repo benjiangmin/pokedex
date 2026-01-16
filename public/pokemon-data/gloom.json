@@ -30,6 +30,39 @@
     "Chlorophyll",
     "Stench"
   ],
+  "evolutionChain": [
+    {
+      "from": "Oddish",
+      "to": "Gloom",
+      "details": [
+        {
+          "min_level": 21,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Gloom",
+      "to": "Vileplume",
+      "details": [
+        {
+          "item": "Leaf Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Gloom",
+      "to": "Bellossom",
+      "details": [
+        {
+          "item": "Sun Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/44.gif"
@@ -2065,416 +2098,6 @@
         "name": "Sunny Day",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 224 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 224 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 224 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sinnoh Sea Route 230 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Johto Route 47 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 48 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Route 48 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Route 5 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 5 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Johto Safari Zone Zone Marshland",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Marshland",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Johto Route 47 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 48 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Route 48 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Route 5 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 5 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Johto Safari Zone Zone Marshland",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Marshland",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Red": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 13 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 13 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 15 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 13 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 15 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave 2f",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 13 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 13 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 15 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 15 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Berry Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Bond Bridge Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Water Path Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Kanto Route 5 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Kanto Route 5 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Kanto Route 24 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 24 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Route 121 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 123 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Nwmach Bike Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Safari Zone Nwmach Bike Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Sw",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Se",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 121 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 123 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Nwmach Bike Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Safari Zone Nwmach Bike Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Sw",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Se",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 121 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 123 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Nwmach Bike Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Safari Zone Nwmach Bike Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Safari Zone Neacro Bike Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Sw",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Safari Zone Se",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

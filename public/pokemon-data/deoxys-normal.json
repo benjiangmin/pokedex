@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Deoxys (Normal)"
+    "english": "Deoxys Normal"
   },
   "type": [
     "Psychic"
@@ -28,6 +28,8 @@
   "abilities": [
     "Pressure"
   ],
+  "evolutionChain": [],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/386.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/386.gif"
@@ -2517,43 +2519,6 @@
         "name": "Psycho Boost",
         "learn_method": "level-up",
         "level_learned": 45
-      }
-    ]
-  },
-  "locations": {
-    "Omega Ruby": [
-      {
-        "location": "Sky Pillar Apex",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Sky Pillar Apex",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Birth Island Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Birth Island Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Birth Island Area",
-        "method": "Only One",
-        "chance": 100
       }
     ]
   }

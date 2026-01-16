@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Golisopod (Mega)"
+    "english": "Golisopod Mega"
   },
   "type": [
     "Bug",
@@ -27,6 +27,19 @@
   "weight": 148,
   "height": 2.3,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Wimpod",
+      "to": "Golisopod",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +48,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Hard Scale Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

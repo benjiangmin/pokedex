@@ -30,6 +30,29 @@
     "Snow Cloak",
     "Weak Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Vanillite",
+      "to": "Vanillish",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Vanillish",
+      "to": "Vanilluxe",
+      "details": [
+        {
+          "min_level": 47,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/582.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/582.gif"
@@ -1040,290 +1063,6 @@
         "name": "Aurora Veil",
         "learn_method": "egg",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Mount Lanakila Base",
-        "method": "Sos Encounter",
-        "chance": 11
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Mount Lanakila Base",
-        "method": "Sos Encounter",
-        "chance": 11
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Tapu Village Area",
-        "method": "Sos Encounter",
-        "chance": 10
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Tapu Village Area",
-        "method": "Sos Encounter",
-        "chance": 10
       }
     ]
   }

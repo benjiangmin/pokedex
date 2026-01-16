@@ -31,6 +31,20 @@
     "Suction Cups",
     "Infiltrator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Inkay",
+      "to": "Malamar",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up",
+          "turn_upside_down": true
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/687.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/687.gif"
@@ -1393,6 +1407,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

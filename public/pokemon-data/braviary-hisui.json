@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Braviary (Hisui)"
+    "english": "Braviary Hisui"
   },
   "type": [
     "Psychic",
@@ -31,6 +31,19 @@
     "Sheer Force",
     "Tinted Lens"
   ],
+  "evolutionChain": [
+    {
+      "from": "Rufflet",
+      "to": "Braviary",
+      "details": [
+        {
+          "min_level": 54,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10240.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10240.gif"
@@ -534,6 +547,5 @@
         "level_learned": 25
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -29,6 +29,20 @@
     "Pickup",
     "Fluffy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Greavard",
+      "to": "Houndstone",
+      "details": [
+        {
+          "min_level": 30,
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/971.gif"
@@ -345,6 +359,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Duraludon (Gmax)"
+    "english": "Duraludon Gmax"
   },
   "type": [
     "Steel",
@@ -31,6 +31,14 @@
     "Heavy Metal",
     "Stalwart"
   ],
+  "evolutionChain": [
+    {
+      "from": "Duraludon",
+      "to": "Archaludon",
+      "details": []
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10225.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10225.gif"
@@ -39,6 +47,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Alloy Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

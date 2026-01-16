@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Dragalge (Mega)"
+    "english": "Dragalge Mega"
   },
   "type": [
     "Poison",
@@ -27,6 +27,19 @@
   "weight": 100.3,
   "height": 2.1,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Skrelp",
+      "to": "Dragalge",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +48,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Mock Kelp Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

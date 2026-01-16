@@ -30,6 +30,29 @@
     "Unnerve",
     "Big Pecks"
   ],
+  "evolutionChain": [
+    {
+      "from": "Rookidee",
+      "to": "Corvisquire",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Corvisquire",
+      "to": "Corviknight",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/822.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/822.gif"
@@ -428,6 +451,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

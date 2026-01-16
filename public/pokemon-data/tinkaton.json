@@ -31,6 +31,29 @@
     "Own Tempo",
     "Pickpocket"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tinkatink",
+      "to": "Tinkatuff",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Tinkatuff",
+      "to": "Tinkaton",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/959.gif"
@@ -317,6 +340,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

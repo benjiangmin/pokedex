@@ -31,6 +31,19 @@
     "Infiltrator",
     "Telepathy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Noibat",
+      "to": "Noivern",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/714.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/714.gif"
@@ -1261,32 +1274,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Npc Trade",
-        "chance": 100
-      },
-      {
-        "location": "Verdant Cavern Trial Site",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 5 Area",
-        "method": "Npc Trade",
-        "chance": 100
-      },
-      {
-        "location": "Verdant Cavern Trial Site",
-        "method": "Walk",
-        "chance": 30
       }
     ]
   }

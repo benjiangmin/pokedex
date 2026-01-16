@@ -31,6 +31,49 @@
     "Sturdy",
     "Analytic"
   ],
+  "evolutionChain": [
+    {
+      "from": "Magnemite",
+      "to": "Magneton",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Magneton",
+      "to": "Magnezone",
+      "details": [
+        {
+          "location": "Mt Coronet",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Chargestone Cave",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Kalos Route 13",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Blush Mountain",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Vast Poni Canyon",
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/82.gif"
@@ -2548,333 +2591,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Sinnoh Victory Road 2f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Sinnoh Victory Road 2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Red": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 15
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 15
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Cerulean Cave 2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Cerulean Cave 2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cerulean Cave 2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Mountain",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Mountain",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cerulean Cave 2f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Peak",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Mountain",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Mountain",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 15
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "New Mauville Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "New Mauville Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "New Mauville Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "White 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "X": [
-      {
-        "location": "Lost Hotel Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Lost Hotel Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Lost Hotel Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Lost Hotel Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

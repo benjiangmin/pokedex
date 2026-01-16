@@ -30,6 +30,29 @@
     "Sturdy",
     "Clear Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Nacli",
+      "to": "Naclstack",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Naclstack",
+      "to": "Garganacl",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/932.gif"
@@ -276,6 +299,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

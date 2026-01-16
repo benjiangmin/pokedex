@@ -30,6 +30,19 @@
     "Sturdy",
     "Soundproof"
   ],
+  "evolutionChain": [
+    {
+      "from": "Shieldon",
+      "to": "Bastiodon",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/410.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/410.gif"
@@ -2061,36 +2074,6 @@
         "name": "Stealth Rock",
         "learn_method": "level-up",
         "level_learned": 37
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Fossil Restoration Center",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

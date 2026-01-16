@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Gourgeist (Small)"
+    "english": "Gourgeist Small"
   },
   "type": [
     "Ghost",
@@ -31,6 +31,18 @@
     "Frisk",
     "Insomnia"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pumpkaboo",
+      "to": "Gourgeist",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10030.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10030.gif"
@@ -1116,6 +1128,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

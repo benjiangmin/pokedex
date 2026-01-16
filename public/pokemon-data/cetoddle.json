@@ -30,6 +30,19 @@
     "Snow Cloak",
     "Sheer Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cetoddle",
+      "to": "Cetitan",
+      "details": [
+        {
+          "item": "Ice Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/974.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/974.gif"
@@ -321,6 +334,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

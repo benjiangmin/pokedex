@@ -30,6 +30,29 @@
     "Minus",
     "Clear Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Klink",
+      "to": "Klang",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Klang",
+      "to": "Klinklang",
+      "details": [
+        {
+          "min_level": 49,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/601.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/601.gif"
@@ -1110,32 +1133,6 @@
         "name": "Rising Voltage",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Grass Spots",
-        "chance": 1
       }
     ]
   }

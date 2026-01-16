@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Tyranitar (Mega)"
+    "english": "Tyranitar Mega"
   },
   "type": [
     "Rock",
@@ -29,6 +29,29 @@
   "abilities": [
     "Sand Stream"
   ],
+  "evolutionChain": [
+    {
+      "from": "Larvitar",
+      "to": "Pupitar",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pupitar",
+      "to": "Tyranitar",
+      "details": [
+        {
+          "min_level": 55,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10049.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10049.gif"
@@ -977,6 +1000,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

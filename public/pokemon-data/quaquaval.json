@@ -30,6 +30,29 @@
     "Torrent",
     "Moxie"
   ],
+  "evolutionChain": [
+    {
+      "from": "Quaxly",
+      "to": "Quaxwell",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Quaxwell",
+      "to": "Quaquaval",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/914.gif"
@@ -401,6 +424,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

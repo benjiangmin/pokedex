@@ -29,6 +29,29 @@
     "Static",
     "Lightning Rod"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pichu",
+      "to": "Pikachu",
+      "details": [
+        {
+          "min_happiness": 220,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pikachu",
+      "to": "Raichu",
+      "details": [
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/26.gif"
@@ -2376,42 +2399,6 @@
         "name": "Iron Tail",
         "learn_method": "level-up",
         "level_learned": 37
-      }
-    ]
-  },
-  "locations": {
-    "Red": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Cerulean Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

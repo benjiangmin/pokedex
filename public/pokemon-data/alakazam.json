@@ -30,6 +30,28 @@
     "Inner Focus",
     "Magic Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Abra",
+      "to": "Kadabra",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Kadabra",
+      "to": "Alakazam",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/65.gif"
@@ -2862,6 +2884,5 @@
         "level_learned": 25
       }
     ]
-  },
-  "locations": {}
+  }
 }

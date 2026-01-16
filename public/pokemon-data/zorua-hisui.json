@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Zorua (Hisui)"
+    "english": "Zorua Hisui"
   },
   "type": [
     "Normal",
@@ -29,6 +29,19 @@
   "abilities": [
     "Illusion"
   ],
+  "evolutionChain": [
+    {
+      "from": "Zorua",
+      "to": "Zoroark",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10238.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10238.gif"
@@ -442,6 +455,5 @@
         "level_learned": 18
       }
     ]
-  },
-  "locations": {}
+  }
 }

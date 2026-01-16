@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Toxtricity (Amped Gmax)"
+    "english": "Toxtricity Amped Gmax"
   },
   "type": [
     "Electric",
@@ -31,6 +31,19 @@
     "Plus",
     "Technician"
   ],
+  "evolutionChain": [
+    {
+      "from": "Toxel",
+      "to": "Toxtricity",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10219.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10219.gif"
@@ -39,6 +52,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Punk Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

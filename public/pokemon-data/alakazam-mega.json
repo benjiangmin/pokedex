@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Alakazam (Mega)"
+    "english": "Alakazam Mega"
   },
   "type": [
     "Psychic"
@@ -28,6 +28,28 @@
   "abilities": [
     "Trace"
   ],
+  "evolutionChain": [
+    {
+      "from": "Abra",
+      "to": "Kadabra",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Kadabra",
+      "to": "Alakazam",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10037.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10037.gif"
@@ -976,6 +998,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

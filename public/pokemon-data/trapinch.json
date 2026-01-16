@@ -30,6 +30,29 @@
     "Arena Trap",
     "Sheer Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Trapinch",
+      "to": "Vibrava",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Vibrava",
+      "to": "Flygon",
+      "details": [
+        {
+          "min_level": 45,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/328.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/328.gif"
@@ -1971,239 +1994,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 228 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 111 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Mirage Tower Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Mirage Tower Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mirage Tower Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mirage Tower Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Mirage Tower Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Mirage Tower Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Desert Resort Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Desert Resort Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Desert Resort Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Desert Resort Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Reversal Mountain Unknown Area 48",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 10
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 10
       }
     ]
   }

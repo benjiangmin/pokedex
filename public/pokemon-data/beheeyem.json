@@ -30,6 +30,19 @@
     "Synchronize",
     "Analytic"
   ],
+  "evolutionChain": [
+    {
+      "from": "Elgyem",
+      "to": "Beheeyem",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/606.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/606.gif"
@@ -1510,72 +1523,6 @@
         "name": "Meteor Beam",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Dark Grass",
-        "chance": 1
       }
     ]
   }

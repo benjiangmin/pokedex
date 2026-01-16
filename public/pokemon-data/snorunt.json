@@ -30,6 +30,30 @@
     "Ice Body",
     "Moody"
   ],
+  "evolutionChain": [
+    {
+      "from": "Snorunt",
+      "to": "Glalie",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Snorunt",
+      "to": "Froslass",
+      "details": [
+        {
+          "gender": 1,
+          "item": "Dawn Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/361.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/361.gif"
@@ -1798,298 +1822,6 @@
         "name": "Icicle Crash",
         "learn_method": "level-up",
         "level_learned": 34
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Lake Acuity Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Lake Acuity Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 216 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Diamond": [
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 216 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 216 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 216 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 216 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 216 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 216 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 216 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 216 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 217 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Shoal Cave B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Shoal Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Shoal Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Shoal Cave B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Shoal Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Shoal Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Shoal Cave B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Shoal Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Shoal Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 14 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Mount Lanakila Cave",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Mount Lanakila Outside",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 14 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Mount Lanakila Cave",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Mount Lanakila Outside",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 14 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Mount Lanakila Base",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 14 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Mount Lanakila Base",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

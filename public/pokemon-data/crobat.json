@@ -30,6 +30,29 @@
     "Inner Focus",
     "Infiltrator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Zubat",
+      "to": "Golbat",
+      "details": [
+        {
+          "min_level": 22,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Golbat",
+      "to": "Crobat",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/169.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/169.gif"
@@ -2163,114 +2186,6 @@
         "name": "Dual Wingbeat",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black 2": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "Black": [
-      {
-        "location": "Giant Chasm Outside",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Giant Chasm Outside",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Giant Chasm Outside",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Giant Chasm Outside",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 13 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Resolution Cave Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Resolution Cave Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Resolution Cave Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Resolution Cave Area",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

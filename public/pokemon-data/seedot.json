@@ -30,6 +30,29 @@
     "Early Bird",
     "Pickpocket"
   ],
+  "evolutionChain": [
+    {
+      "from": "Seedot",
+      "to": "Nuzleaf",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Nuzleaf",
+      "to": "Shiftry",
+      "details": [
+        {
+          "item": "Leaf Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/273.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/273.gif"
@@ -1811,188 +1834,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Eterna Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 203 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 South Towards Jubilife City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 204 North Towards Floaroma Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 210 South Towards Solaceon Town",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Route 102 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 102 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 102 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Route 117 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Route 120 Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

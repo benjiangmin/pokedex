@@ -31,6 +31,29 @@
     "Competitive",
     "Friend Guard"
   ],
+  "evolutionChain": [
+    {
+      "from": "Igglybuff",
+      "to": "Jigglypuff",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Jigglypuff",
+      "to": "Wigglytuff",
+      "details": [
+        {
+          "item": "Moon Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/174.gif"
@@ -2414,83 +2437,6 @@
         "name": "Alluring Voice",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Crystal": [
-      {
-        "location": "Johto Route 34 Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 4 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 6 North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Alola Route 6 South",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

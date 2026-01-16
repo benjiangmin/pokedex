@@ -30,6 +30,19 @@
     "Rattled",
     "Sand Veil"
   ],
+  "evolutionChain": [
+    {
+      "from": "Wiglett",
+      "to": "Wugtrio",
+      "details": [
+        {
+          "min_level": 26,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/961.gif"
@@ -271,6 +284,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

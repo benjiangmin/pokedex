@@ -29,6 +29,29 @@
     "Static",
     "Vital Spirit"
   ],
+  "evolutionChain": [
+    {
+      "from": "Elekid",
+      "to": "Electabuzz",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Electabuzz",
+      "to": "Electivire",
+      "details": [
+        {
+          "held_item": "Electirizer",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/125.gif"
@@ -2706,247 +2729,6 @@
         "name": "Spark",
         "learn_method": "level-up",
         "level_learned": 11
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Red": [
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Power Plant Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 12 Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Blush Mountain Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Blush Mountain Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Blush Mountain Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Mount Hokulani West",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

@@ -29,6 +29,29 @@
     "Pressure",
     "Frisk"
   ],
+  "evolutionChain": [
+    {
+      "from": "Duskull",
+      "to": "Dusclops",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Dusclops",
+      "to": "Dusknoir",
+      "details": [
+        {
+          "held_item": "Reaper Cloth",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/477.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/477.gif"
@@ -2557,6 +2580,5 @@
         "level_learned": 11
       }
     ]
-  },
-  "locations": {}
+  }
 }

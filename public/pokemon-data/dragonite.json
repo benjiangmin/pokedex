@@ -30,6 +30,29 @@
     "Inner Focus",
     "Multiscale"
   ],
+  "evolutionChain": [
+    {
+      "from": "Dratini",
+      "to": "Dragonair",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Dragonair",
+      "to": "Dragonite",
+      "details": [
+        {
+          "min_level": 55,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/149.gif"
@@ -3695,84 +3718,6 @@
         "name": "Substitute",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poni Gauntlet Area",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
       }
     ]
   }

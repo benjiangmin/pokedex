@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Meganium (Mega)"
+    "english": "Meganium Mega"
   },
   "type": [
     "Grass",
@@ -27,6 +27,29 @@
   "weight": 201,
   "height": 2.4,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Chikorita",
+      "to": "Bayleef",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Bayleef",
+      "to": "Meganium",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": null,
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10282.gif"
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Herb Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

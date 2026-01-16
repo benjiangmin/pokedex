@@ -30,6 +30,19 @@
     "Technician",
     "Skill Link"
   ],
+  "evolutionChain": [
+    {
+      "from": "Minccino",
+      "to": "Cinccino",
+      "details": [
+        {
+          "item": "Shiny Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/573.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/573.gif"
@@ -1427,156 +1440,6 @@
         "name": "Laser Focus",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Cold Storage Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 5 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 5 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 16 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 16 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Cold Storage Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Cold Storage Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 5 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 5 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 16 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 16 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 5 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 5 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 16 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 16 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 5 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 5 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 9 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 16 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 16 Area",
-        "method": "Grass Spots",
-        "chance": 1
       }
     ]
   }

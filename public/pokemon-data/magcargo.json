@@ -31,6 +31,19 @@
     "Flame Body",
     "Weak Armor"
   ],
+  "evolutionChain": [
+    {
+      "from": "Slugma",
+      "to": "Magcargo",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/219.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/219.gif"
@@ -2384,117 +2397,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Mt Ember B3f",
-        "method": "Rock Smash",
-        "chance": 5
-      },
-      {
-        "location": "Mt Ember B3f",
-        "method": "Rock Smash",
-        "chance": 4
-      },
-      {
-        "location": "Mt Ember B3f",
-        "method": "Rock Smash",
-        "chance": 1
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Mt Ember B3f",
-        "method": "Rock Smash",
-        "chance": 5
-      },
-      {
-        "location": "Mt Ember B3f",
-        "method": "Rock Smash",
-        "chance": 4
-      },
-      {
-        "location": "Mt Ember B3f",
-        "method": "Rock Smash",
-        "chance": 1
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
-        "chance": 15
       }
     ]
   }

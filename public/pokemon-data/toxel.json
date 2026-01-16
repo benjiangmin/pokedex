@@ -31,6 +31,19 @@
     "Static",
     "Klutz"
   ],
+  "evolutionChain": [
+    {
+      "from": "Toxel",
+      "to": "Toxtricity",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/848.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/848.gif"
@@ -224,6 +237,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

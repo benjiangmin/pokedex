@@ -30,6 +30,19 @@
     "Synchronize",
     "Telepathy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Munna",
+      "to": "Musharna",
+      "details": [
+        {
+          "item": "Moon Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/517.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/517.gif"
@@ -1390,126 +1403,6 @@
         "name": "Expanding Force",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "White": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 10
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Dreamyard Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Dreamyard B1f",
-        "method": "Dark Grass",
-        "chance": 10
       }
     ]
   }

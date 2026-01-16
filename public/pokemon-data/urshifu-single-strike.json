@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Urshifu (Single Strike)"
+    "english": "Urshifu Single Strike"
   },
   "type": [
     "Fighting",
@@ -29,6 +29,21 @@
   "abilities": [
     "Unseen Fist"
   ],
+  "evolutionChain": [
+    {
+      "from": "Kubfu",
+      "to": "Urshifu",
+      "details": [
+        {
+          "trigger": "Tower Of Darkness"
+        },
+        {
+          "trigger": "Tower Of Waters"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/892.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/892.gif"
@@ -772,6 +787,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

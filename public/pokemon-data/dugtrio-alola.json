@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Dugtrio (Alola)"
+    "english": "Dugtrio Alola"
   },
   "type": [
     "Ground",
@@ -31,6 +31,19 @@
     "Tangling Hair",
     "Sand Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Diglett",
+      "to": "Dugtrio",
+      "details": [
+        {
+          "min_level": 26,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10106.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10106.gif"
@@ -1019,156 +1032,6 @@
         "name": "Scorching Sands",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 20
-      },
-      {
-        "location": "Poni Coast Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Resolution Cave Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Vast Poni Canyon Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Vast Poni Canyon Inside",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Vast Poni Canyon Northwest",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 20
-      },
-      {
-        "location": "Poni Coast Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Resolution Cave Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Vast Poni Canyon Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Vast Poni Canyon Inside",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Vast Poni Canyon Northwest",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 20
-      },
-      {
-        "location": "Poni Coast Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Resolution Cave Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Vast Poni Canyon Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Vast Poni Canyon Inside",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Vast Poni Canyon Northwest",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Haina Desert Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Haina Desert Area",
-        "method": "Bubbling Spots",
-        "chance": 20
-      },
-      {
-        "location": "Poni Coast Area",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Resolution Cave Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Vast Poni Canyon Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Vast Poni Canyon Inside",
-        "method": "Bubbling Spots",
-        "chance": 100
-      },
-      {
-        "location": "Vast Poni Canyon Northwest",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

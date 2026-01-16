@@ -29,6 +29,29 @@
     "Static",
     "Plus"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mareep",
+      "to": "Flaaffy",
+      "details": [
+        {
+          "min_level": 15,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Flaaffy",
+      "to": "Ampharos",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/181.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/181.gif"
@@ -2499,6 +2522,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

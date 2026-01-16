@@ -30,6 +30,19 @@
     "Poison Heal",
     "Quick Feet"
   ],
+  "evolutionChain": [
+    {
+      "from": "Shroomish",
+      "to": "Breloom",
+      "details": [
+        {
+          "min_level": 23,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/285.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/285.gif"
@@ -1726,44 +1739,6 @@
         "name": "Pounce",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ruby": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Petalburg Woods Area",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

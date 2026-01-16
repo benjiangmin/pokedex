@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Rillaboom (Gmax)"
+    "english": "Rillaboom Gmax"
   },
   "type": [
     "Grass"
@@ -29,6 +29,29 @@
     "Overgrow",
     "Grassy Surge"
   ],
+  "evolutionChain": [
+    {
+      "from": "Grookey",
+      "to": "Thwackey",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Thwackey",
+      "to": "Rillaboom",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10209.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10209.gif"
@@ -37,6 +60,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Drummer Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

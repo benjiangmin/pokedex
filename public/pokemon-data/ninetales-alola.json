@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Ninetales (Alola)"
+    "english": "Ninetales Alola"
   },
   "type": [
     "Ice",
@@ -30,6 +30,23 @@
     "Snow Cloak",
     "Snow Warning"
   ],
+  "evolutionChain": [
+    {
+      "from": "Vulpix",
+      "to": "Ninetales",
+      "details": [
+        {
+          "item": "Fire Stone",
+          "trigger": "Use Item"
+        },
+        {
+          "item": "Ice Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10104.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10104.gif"
@@ -1012,6 +1029,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

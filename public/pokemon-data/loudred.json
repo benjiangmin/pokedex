@@ -29,6 +29,29 @@
     "Soundproof",
     "Scrappy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Whismur",
+      "to": "Loudred",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Loudred",
+      "to": "Exploud",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/294.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/294.gif"
@@ -2053,170 +2076,6 @@
         "name": "Stomping Tantrum",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet Exterior Snowfall",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Mt Coronet Exterior Blizzard",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Desert Underpass Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Desert Underpass Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Desert Underpass Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

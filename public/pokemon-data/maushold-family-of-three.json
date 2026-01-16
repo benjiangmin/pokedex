@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Maushold (Family Of Three)"
+    "english": "Maushold Family Of Three"
   },
   "type": [
     "Normal"
@@ -30,6 +30,19 @@
     "Cheek Pouch",
     "Technician"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tandemaus",
+      "to": "Maushold",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10257.png",
     "animated": null
@@ -321,6 +334,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

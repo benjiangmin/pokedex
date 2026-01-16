@@ -30,6 +30,33 @@
     "Technician",
     "Unnerve"
   ],
+  "evolutionChain": [
+    {
+      "from": "Meowth",
+      "to": "Persian",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        },
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Meowth",
+      "to": "Perrserker",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/53.gif"
@@ -2905,243 +2932,6 @@
         "name": "Confide",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Silver": [
-      {
-        "location": "Kanto Route 7 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 7 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 7 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Kanto Route 7 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 7 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 7 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Kindle Road Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kindle Road Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Treasure Beach Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Treasure Beach Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Bond Bridge Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Bond Bridge Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Five Isle Meadow Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Five Isle Meadow Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Water Path Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Water Path Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Ruin Valley Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Ruin Valley Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Canyon Entrance Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Canyon Entrance Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sevault Canyon Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sevault Canyon Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Kindle Road Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kindle Road Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Treasure Beach Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Treasure Beach Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Cape Brink Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Bond Bridge Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Bond Bridge Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Five Isle Meadow Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Five Isle Meadow Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Water Path Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Water Path Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Ruin Valley Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Ruin Valley Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Canyon Entrance Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Canyon Entrance Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sevault Canyon Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sevault Canyon Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

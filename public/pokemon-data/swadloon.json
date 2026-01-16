@@ -31,6 +31,29 @@
     "Chlorophyll",
     "Overcoat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sewaddle",
+      "to": "Swadloon",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Swadloon",
+      "to": "Leavanny",
+      "details": [
+        {
+          "min_happiness": 220,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/541.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/541.gif"
@@ -891,296 +914,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Lostlorn Forest Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

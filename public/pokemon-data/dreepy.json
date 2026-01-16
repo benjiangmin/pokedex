@@ -31,6 +31,29 @@
     "Infiltrator",
     "Cursed Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Dreepy",
+      "to": "Drakloak",
+      "details": [
+        {
+          "min_level": 50,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Drakloak",
+      "to": "Dragapult",
+      "details": [
+        {
+          "min_level": 60,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/885.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/885.gif"
@@ -279,6 +302,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

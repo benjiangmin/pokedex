@@ -31,6 +31,29 @@
     "Skill Link",
     "Pickup"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pikipek",
+      "to": "Trumbeak",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Trumbeak",
+      "to": "Toucannon",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/732.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/732.gif"
@@ -552,326 +575,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Plains Center",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Plains East",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Plains Center",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Plains East",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Walk",
-        "chance": 21
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Walk",
-        "chance": 21
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Walk",
-        "chance": 21
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Plains Center",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Plains East",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Walk",
-        "chance": 21
-      },
-      {
-        "location": "Lush Jungle North",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Walk",
-        "chance": 21
-      },
-      {
-        "location": "Lush Jungle South",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos From Bubbling Spot",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Walk",
-        "chance": 21
-      },
-      {
-        "location": "Lush Jungle West",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Poni Grove Area",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Plains Center",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Poni Plains East",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Poni Plains West",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

@@ -28,6 +28,39 @@
   "abilities": [
     "Unaware"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cosmog",
+      "to": "Cosmoem",
+      "details": [
+        {
+          "min_level": 43,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Cosmoem",
+      "to": "Solgaleo",
+      "details": [
+        {
+          "min_level": 53,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Cosmoem",
+      "to": "Lunala",
+      "details": [
+        {
+          "min_level": 53,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/789.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/789.gif"
@@ -71,36 +104,6 @@
         "name": "Splash",
         "learn_method": "level-up",
         "level_learned": 1
-      }
-    ]
-  },
-  "locations": {
-    "Moon": [
-      {
-        "location": "Lake Of The Moone Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Lake Of The Moone Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Lake Of The Sunne Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Lake Of The Sunne Area",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

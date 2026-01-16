@@ -29,6 +29,19 @@
     "Swift Swim",
     "Propeller Tail"
   ],
+  "evolutionChain": [
+    {
+      "from": "Arrokuda",
+      "to": "Barraskewda",
+      "details": [
+        {
+          "min_level": 26,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/847.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/847.gif"
@@ -497,6 +510,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

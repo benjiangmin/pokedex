@@ -29,6 +29,29 @@
     "Blaze",
     "Libero"
   ],
+  "evolutionChain": [
+    {
+      "from": "Scorbunny",
+      "to": "Raboot",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Raboot",
+      "to": "Cinderace",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/813.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/813.gif"
@@ -537,6 +560,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -30,6 +30,29 @@
     "Minus",
     "Clear Body"
   ],
+  "evolutionChain": [
+    {
+      "from": "Klink",
+      "to": "Klang",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Klang",
+      "to": "Klinklang",
+      "details": [
+        {
+          "min_level": 49,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/599.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/599.gif"
@@ -945,200 +968,6 @@
         "name": "Rising Voltage",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "White": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "P2 Laboratory Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Chargestone Cave B2f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Hauoli City Main",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Hauoli City Main",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

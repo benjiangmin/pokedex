@@ -30,6 +30,19 @@
     "Own Tempo",
     "Defiant"
   ],
+  "evolutionChain": [
+    {
+      "from": "Glameow",
+      "to": "Purugly",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/432.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/432.gif"
@@ -1629,30 +1642,6 @@
         "name": "Play Rough",
         "learn_method": "level-up",
         "level_learned": 31
-      }
-    ]
-  },
-  "locations": {
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 229 Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

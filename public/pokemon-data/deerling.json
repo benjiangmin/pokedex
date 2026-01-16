@@ -31,6 +31,19 @@
     "Sap Sipper",
     "Serene Grace"
   ],
+  "evolutionChain": [
+    {
+      "from": "Deerling",
+      "to": "Sawsbuck",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/585.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/585.gif"
@@ -1146,236 +1159,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      }
-    ],
-    "White": [
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Entrance",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Dragonspiral Tower Outside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Weather Institute",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 7 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 6 Weather Institute",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

@@ -29,6 +29,19 @@
     "Ball Fetch",
     "Rattled"
   ],
+  "evolutionChain": [
+    {
+      "from": "Yamper",
+      "to": "Boltund",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/835.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/835.gif"
@@ -250,6 +263,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

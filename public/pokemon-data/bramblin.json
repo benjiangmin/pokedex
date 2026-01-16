@@ -30,6 +30,18 @@
     "Wind Rider",
     "Infiltrator"
   ],
+  "evolutionChain": [
+    {
+      "from": "Bramblin",
+      "to": "Brambleghast",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/946.gif"
@@ -291,6 +303,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

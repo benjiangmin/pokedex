@@ -28,6 +28,19 @@
   "abilities": [
     "Chlorophyll"
   ],
+  "evolutionChain": [
+    {
+      "from": "Cherubi",
+      "to": "Cherrim",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/420.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/420.gif"
@@ -1359,6 +1372,5 @@
         "level_learned": 15
       }
     ]
-  },
-  "locations": {}
+  }
 }

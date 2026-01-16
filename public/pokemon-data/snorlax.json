@@ -30,6 +30,19 @@
     "Thick Fat",
     "Gluttony"
   ],
+  "evolutionChain": [
+    {
+      "from": "Munchlax",
+      "to": "Snorlax",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/143.gif"
@@ -3837,141 +3850,6 @@
         "name": "High Horsepower",
         "learn_method": "level-up",
         "level_learned": 37
-      }
-    ]
-  },
-  "locations": {
-    "Red": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      },
-      {
-        "location": "Kanto Route 16 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      },
-      {
-        "location": "Kanto Route 16 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      },
-      {
-        "location": "Kanto Route 16 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      },
-      {
-        "location": "Kanto Route 16 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      },
-      {
-        "location": "Kanto Route 16 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 12 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      },
-      {
-        "location": "Kanto Route 11 Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Vermilion City Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Vermilion City Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Vermilion City Area",
-        "method": "Pokeflute",
-        "chance": 100
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 7 Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 7 Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Sos Encounter",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 1 South",
-        "method": "Sos Encounter",
-        "chance": 15
       }
     ]
   }

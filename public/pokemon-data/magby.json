@@ -29,6 +29,29 @@
     "Flame Body",
     "Vital Spirit"
   ],
+  "evolutionChain": [
+    {
+      "from": "Magby",
+      "to": "Magmar",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Magmar",
+      "to": "Magmortar",
+      "details": [
+        {
+          "held_item": "Magmarizer",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/240.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/240.gif"
@@ -2334,159 +2357,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Stark Mountain Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 227 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 227 Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Stark Mountain Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Entrance",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Stark Mountain Inside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 227 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 227 Area",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Johto Route 34 Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Virbank Complex Outer",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Virbank Complex Outer",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Virbank Complex Inner",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Virbank Complex Inner",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Virbank Complex Inner",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Virbank Complex Inner",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Walk",
-        "chance": 15
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Walk",
-        "chance": 15
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Walk",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Walk",
-        "chance": 15
       }
     ]
   }

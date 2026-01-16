@@ -31,6 +31,31 @@
     "Unburden",
     "Poison Touch"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sneasel",
+      "to": "Weavile",
+      "details": [
+        {
+          "held_item": "Razor Claw",
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Sneasel",
+      "to": "Sneasler",
+      "details": [
+        {
+          "held_item": "Razor Claw",
+          "time_of_day": "day",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/903.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/903.gif"
@@ -444,6 +469,5 @@
         "level_learned": 11
       }
     ]
-  },
-  "locations": {}
+  }
 }

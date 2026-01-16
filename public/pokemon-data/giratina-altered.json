@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Giratina (Altered)"
+    "english": "Giratina Altered"
   },
   "type": [
     "Ghost",
@@ -30,6 +30,8 @@
     "Pressure",
     "Telepathy"
   ],
+  "evolutionChain": [],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/487.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/487.gif"
@@ -2299,60 +2301,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Sinjoh Ruins Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Sinjoh Ruins Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Ultra Space Ultra Space Wilds Cave",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Ultra Space Ultra Space Wilds Cave",
-        "method": "Only One",
-        "chance": 15
-      }
-    ],
-    "Omega Ruby": [
-      {
-        "location": "Soaring In The Sky Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Alpha Sapphire": [
-      {
-        "location": "Soaring In The Sky Area",
-        "method": "Only One",
-        "chance": 100
       }
     ]
   }

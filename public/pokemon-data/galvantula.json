@@ -31,6 +31,19 @@
     "Unnerve",
     "Swarm"
   ],
+  "evolutionChain": [
+    {
+      "from": "Joltik",
+      "to": "Galvantula",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/596.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/596.gif"
@@ -1460,6 +1473,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

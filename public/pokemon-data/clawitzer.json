@@ -28,6 +28,19 @@
   "abilities": [
     "Mega Launcher"
   ],
+  "evolutionChain": [
+    {
+      "from": "Clauncher",
+      "to": "Clawitzer",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/693.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/693.gif"
@@ -1223,32 +1236,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Ambrette Town Area",
-        "method": "Super Rod",
-        "chance": 35
-      },
-      {
-        "location": "Cyllage City Area",
-        "method": "Super Rod",
-        "chance": 35
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Super Rod",
-        "chance": 35
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Poni Breaker Coast Area",
-        "method": "Bubbling Spots",
-        "chance": 20
       }
     ]
   }

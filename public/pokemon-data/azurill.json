@@ -31,6 +31,29 @@
     "Huge Power",
     "Sap Sipper"
   ],
+  "evolutionChain": [
+    {
+      "from": "Azurill",
+      "to": "Marill",
+      "details": [
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Marill",
+      "to": "Azumarill",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/298.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/298.gif"
@@ -1807,200 +1830,6 @@
         "name": "Alluring Voice",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Great Marsh Area 1",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 2",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 3",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 4",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 6",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Great Marsh Area 1",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 2",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 3",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 4",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Great Marsh Area 6",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Floccesy Ranch Outer",
-        "method": "Surf",
-        "chance": 30
-      },
-      {
-        "location": "Floccesy Ranch Inner",
-        "method": "Surf",
-        "chance": 30
-      },
-      {
-        "location": "Floccesy Ranch Inner",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Surf",
-        "chance": 30
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Floccesy Ranch Outer",
-        "method": "Surf",
-        "chance": 30
-      },
-      {
-        "location": "Floccesy Ranch Inner",
-        "method": "Surf",
-        "chance": 30
-      },
-      {
-        "location": "Floccesy Ranch Inner",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Surf",
-        "chance": 30
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 3 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 22 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 22 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 3 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 22 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 22 Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

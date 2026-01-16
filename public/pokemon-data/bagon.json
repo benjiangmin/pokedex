@@ -29,6 +29,29 @@
     "Rock Head",
     "Sheer Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Bagon",
+      "to": "Shelgon",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Shelgon",
+      "to": "Salamence",
+      "details": [
+        {
+          "min_level": 50,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/371.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/371.gif"
@@ -2025,195 +2048,6 @@
         "name": "Dragon Cheer",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Meteor Falls Backsmall Room",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Meteor Falls Backsmall Room",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Meteor Falls Backsmall Room",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Meteor Falls Backsmall Room",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Meteor Falls Backsmall Room",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Meteor Falls Backsmall Room",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Meteor Falls Backsmall Room",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Meteor Falls Backsmall Room",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Meteor Falls Backsmall Room",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 1
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Yellow Flowers",
-        "chance": 1
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Alola Route 3 South",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kalae Bay Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 3 South",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kalae Bay Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 3 South",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kalae Bay Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 3 South",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kalae Bay Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

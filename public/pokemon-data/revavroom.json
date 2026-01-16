@@ -30,6 +30,19 @@
     "Overcoat",
     "Filter"
   ],
+  "evolutionChain": [
+    {
+      "from": "Varoom",
+      "to": "Revavroom",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/966.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/966.gif"
@@ -346,6 +359,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

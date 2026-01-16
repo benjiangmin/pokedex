@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Aegislash (Shield)"
+    "english": "Aegislash Shield"
   },
   "type": [
     "Steel",
@@ -29,6 +29,29 @@
   "abilities": [
     "Stance Change"
   ],
+  "evolutionChain": [
+    {
+      "from": "Honedge",
+      "to": "Doublade",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Doublade",
+      "to": "Aegislash",
+      "details": [
+        {
+          "item": "Dusk Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/681.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/681.gif"
@@ -824,6 +847,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

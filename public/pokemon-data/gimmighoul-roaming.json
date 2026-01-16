@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Gimmighoul (Roaming)"
+    "english": "Gimmighoul Roaming"
   },
   "type": [
     "Ghost"
@@ -29,6 +29,18 @@
     "Run Away",
     "Run Away"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gimmighoul",
+      "to": "Gholdengo",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10263.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10263.gif"
@@ -130,6 +142,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

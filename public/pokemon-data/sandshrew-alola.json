@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Sandshrew (Alola)"
+    "english": "Sandshrew Alola"
   },
   "type": [
     "Ice",
@@ -30,6 +30,23 @@
     "Snow Cloak",
     "Slush Rush"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sandshrew",
+      "to": "Sandslash",
+      "details": [
+        {
+          "min_level": 22,
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Ice Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10101.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10101.gif"
@@ -1178,47 +1195,6 @@
         "name": "Snowscape",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Moon": [
-      {
-        "location": "Alola Route 14 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mount Lanakila Outside",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 14 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mount Lanakila Base",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Mount Lanakila Outside",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Tapu Village Area",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

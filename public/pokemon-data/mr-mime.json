@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Mr (Mime)"
+    "english": "Mr Mime"
   },
   "type": [
     "Psychic",
@@ -31,6 +31,29 @@
     "Filter",
     "Technician"
   ],
+  "evolutionChain": [
+    {
+      "from": "Mime Jr",
+      "to": "Mr Mime",
+      "details": [
+        {
+          "known_move": "Mimic",
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Mr Mime",
+      "to": "Mr Rime",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/122.gif"
@@ -3486,375 +3509,6 @@
         "name": "Dazzling Gleam",
         "learn_method": "level-up",
         "level_learned": 46
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 218 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 218 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 218 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 222 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 218 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 218 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 218 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Forest",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Forest",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Forest",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Forest",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Sea Route 21 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Safari Zone Zone Forest",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Forest",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Forest",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Safari Zone Zone Forest",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "X": [
-      {
-        "location": "Reflection Cave Unknown Area 305",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 305",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 306",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 306",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 307",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 307",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 308",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 308",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Reflection Cave Unknown Area 305",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 305",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 306",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 306",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 307",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 307",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 308",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Reflection Cave Unknown Area 308",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poke Pelago Poni Island Reached",
-        "method": "Gift",
-        "chance": 3
-      },
-      {
-        "location": "Poke Pelago Ulaula Island Reached",
-        "method": "Gift",
-        "chance": 3
-      },
-      {
-        "location": "Poke Pelago Elite Four Defeated",
-        "method": "Gift",
-        "chance": 2
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
-        "chance": 15
-      },
-      {
-        "location": "Poke Pelago Poni Island Reached",
-        "method": "Gift",
-        "chance": 3
-      },
-      {
-        "location": "Poke Pelago Ulaula Island Reached",
-        "method": "Gift",
-        "chance": 3
-      },
-      {
-        "location": "Poke Pelago Elite Four Defeated",
-        "method": "Gift",
-        "chance": 2
       }
     ]
   }

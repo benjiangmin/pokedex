@@ -31,6 +31,19 @@
     "Forewarn",
     "Hydration"
   ],
+  "evolutionChain": [
+    {
+      "from": "Smoochum",
+      "to": "Jynx",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/238.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/238.gif"
@@ -2287,70 +2300,6 @@
         "name": "Draining Kiss",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Snowpoint Temple 1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Snowpoint Temple 1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Snowpoint Temple 1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Diamond": [
-      {
-        "location": "Lake Acuity Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lake Acuity Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Lake Acuity Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Lake Acuity Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Johto Route 34 Area",
-        "method": "Gift Egg",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Seaward Cave Area",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Seaward Cave Area",
-        "method": "Walk",
-        "chance": 30
       }
     ]
   }

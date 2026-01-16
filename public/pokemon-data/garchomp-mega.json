@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Garchomp (Mega)"
+    "english": "Garchomp Mega"
   },
   "type": [
     "Dragon",
@@ -29,6 +29,29 @@
   "abilities": [
     "Sand Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gible",
+      "to": "Gabite",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Gabite",
+      "to": "Garchomp",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10058.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10058.gif"
@@ -727,6 +750,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

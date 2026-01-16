@@ -30,6 +30,19 @@
     "Natural Cure",
     "Cloud Nine"
   ],
+  "evolutionChain": [
+    {
+      "from": "Swablu",
+      "to": "Altaria",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/333.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/333.gif"
@@ -2166,193 +2179,6 @@
         "name": "Dragon Cheer",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Sinnoh Route 210 West Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 114 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Route 115 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 14 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Abundant Shrine Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

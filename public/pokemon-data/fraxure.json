@@ -30,6 +30,29 @@
     "Mold Breaker",
     "Unnerve"
   ],
+  "evolutionChain": [
+    {
+      "from": "Axew",
+      "to": "Fraxure",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Fraxure",
+      "to": "Haxorus",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/611.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/611.gif"
@@ -1607,86 +1630,6 @@
         "name": "Dragon Cheer",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Victory Road Outside",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Victory Road Outside",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Dark Grass",
-        "chance": 1
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

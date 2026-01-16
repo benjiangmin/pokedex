@@ -30,6 +30,19 @@
     "Keen Eye",
     "Frisk"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sentret",
+      "to": "Furret",
+      "details": [
+        {
+          "min_level": 15,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/162.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/162.gif"
@@ -2693,118 +2706,6 @@
         "name": "Work Up",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Crystal": [
-      {
-        "location": "Johto Route 43 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Route 43 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Johto Route 43 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Johto Route 43 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Johto Route 43 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Johto Route 43 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Route 1 Area",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

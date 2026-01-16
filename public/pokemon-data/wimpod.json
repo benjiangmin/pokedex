@@ -29,6 +29,19 @@
   "abilities": [
     "Wimp Out"
   ],
+  "evolutionChain": [
+    {
+      "from": "Wimpod",
+      "to": "Golisopod",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/767.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/767.gif"
@@ -340,76 +353,6 @@
         "name": "Skitter Smack",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Breaker Coast Area",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Breaker Coast Area",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Wilds Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Dividing Peak Tunnel Area",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Breaker Coast Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Dividing Peak Tunnel Area",
-        "method": "Only One",
-        "chance": 100
-      },
-      {
-        "location": "Poni Breaker Coast Area",
-        "method": "Only One",
-        "chance": 100
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Zigzagoon (Galar)"
+    "english": "Zigzagoon Galar"
   },
   "type": [
     "Dark",
@@ -31,6 +31,30 @@
     "Gluttony",
     "Quick Feet"
   ],
+  "evolutionChain": [
+    {
+      "from": "Zigzagoon",
+      "to": "Linoone",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Linoone",
+      "to": "Obstagoon",
+      "details": [
+        {
+          "min_level": 35,
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10174.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10174.gif"
@@ -347,6 +371,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -29,6 +29,29 @@
     "Torrent",
     "Protean"
   ],
+  "evolutionChain": [
+    {
+      "from": "Froakie",
+      "to": "Frogadier",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Frogadier",
+      "to": "Greninja",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/656.gif"
@@ -957,22 +980,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Aquacorde Town Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Y": [
-      {
-        "location": "Aquacorde Town Area",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

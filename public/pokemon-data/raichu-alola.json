@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Raichu (Alola)"
+    "english": "Raichu Alola"
   },
   "type": [
     "Electric",
@@ -29,6 +29,29 @@
   "abilities": [
     "Surge Surfer"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pichu",
+      "to": "Pikachu",
+      "details": [
+        {
+          "min_happiness": 220,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pikachu",
+      "to": "Raichu",
+      "details": [
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10100.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10100.gif"
@@ -1144,6 +1167,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -29,6 +29,29 @@
     "Torrent",
     "Sniper"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sobble",
+      "to": "Drizzile",
+      "details": [
+        {
+          "min_level": 16,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Drizzile",
+      "to": "Inteleon",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/816.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/816.gif"
@@ -472,6 +495,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -30,6 +30,30 @@
     "Quick Feet",
     "Honey Gather"
   ],
+  "evolutionChain": [
+    {
+      "from": "Teddiursa",
+      "to": "Ursaring",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Ursaring",
+      "to": "Ursaluna",
+      "details": [
+        {
+          "item": "Peat Block",
+          "time_of_day": "full-moon",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/216.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/216.gif"
@@ -2800,341 +2824,6 @@
         "name": "High Horsepower",
         "learn_method": "level-up",
         "level_learned": 34
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Lake Acuity Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Lake Acuity Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Diamond": [
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Acuity Lakefront Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sinnoh Route 211 East Towards Celestic Town",
-        "method": "Walk",
-        "chance": 4
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Johto Route 45 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Mt Silver 1f Top",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Silver 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Silver Mountainside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Mt Silver 3f",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Dark Cave Violet City Entrance",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Dark Cave Blackthorn City Entrance",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Safari Zone Expansion North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Safari Zone Expansion North",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Kanto Altering Cave E",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

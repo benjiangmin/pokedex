@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Malamar (Mega)"
+    "english": "Malamar Mega"
   },
   "type": [
     "Dark",
@@ -27,6 +27,20 @@
   "weight": 69.8,
   "height": 2.9,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Inkay",
+      "to": "Malamar",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up",
+          "turn_upside_down": true
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +49,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Overturning Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

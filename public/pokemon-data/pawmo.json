@@ -31,6 +31,28 @@
     "Natural Cure",
     "Iron Fist"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pawmi",
+      "to": "Pawmo",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pawmo",
+      "to": "Pawmot",
+      "details": [
+        {
+          "trigger": "Other"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/922.gif"
@@ -332,6 +354,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

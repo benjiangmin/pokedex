@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Altaria (Mega)"
+    "english": "Altaria Mega"
   },
   "type": [
     "Dragon",
@@ -29,6 +29,19 @@
   "abilities": [
     "Pixilate"
   ],
+  "evolutionChain": [
+    {
+      "from": "Swablu",
+      "to": "Altaria",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10067.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10067.gif"
@@ -782,6 +795,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

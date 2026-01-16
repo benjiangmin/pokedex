@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Basculegion (Female)"
+    "english": "Basculegion Female"
   },
   "type": [
     "Water",
@@ -31,6 +31,18 @@
     "Adaptability",
     "Mold Breaker"
   ],
+  "evolutionChain": [
+    {
+      "from": "Basculin",
+      "to": "Basculegion",
+      "details": [
+        {
+          "trigger": "Recoil Damage"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10248.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10248.gif"
@@ -342,6 +354,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

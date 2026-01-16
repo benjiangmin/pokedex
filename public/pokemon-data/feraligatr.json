@@ -29,6 +29,29 @@
     "Torrent",
     "Sheer Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Totodile",
+      "to": "Croconaw",
+      "details": [
+        {
+          "min_level": 18,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Croconaw",
+      "to": "Feraligatr",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/160.gif"
@@ -2859,6 +2882,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

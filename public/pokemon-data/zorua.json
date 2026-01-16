@@ -28,6 +28,19 @@
   "abilities": [
     "Illusion"
   ],
+  "evolutionChain": [
+    {
+      "from": "Zorua",
+      "to": "Zoroark",
+      "details": [
+        {
+          "min_level": 30,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/570.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/570.gif"
@@ -1700,50 +1713,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black 2": [
-      {
-        "location": "Driftveil City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Driftveil City Area",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Black": [
-      {
-        "location": "Castelia City Game Freak Hq 1f",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "White": [
-      {
-        "location": "Castelia City Game Freak Hq 1f",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 1 Trainers School",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 1 Trainers School",
-        "method": "Walk",
-        "chance": 30
       }
     ]
   }

@@ -30,6 +30,41 @@
     "Steadfast",
     "Vital Spirit"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tyrogue",
+      "to": "Hitmonlee",
+      "details": [
+        {
+          "min_level": 20,
+          "relative_physical_stats": 1,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Tyrogue",
+      "to": "Hitmonchan",
+      "details": [
+        {
+          "min_level": 20,
+          "relative_physical_stats": -1,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Tyrogue",
+      "to": "Hitmontop",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/236.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/236.gif"
@@ -1673,154 +1708,6 @@
         "name": "Upper Hand",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 208 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 208 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 208 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 208 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 208 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 208 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 208 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 208 Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Sinnoh Route 211 West Towards Eterna City",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Johto Route 34 Area",
-        "method": "Gift Egg",
-        "chance": 100
-      },
-      {
-        "location": "Mt Mortar B1f",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Mt Mortar B1f",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Mt Mortar B1f",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Mt Mortar B1f",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Mt Mortar B1f",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

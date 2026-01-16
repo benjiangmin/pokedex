@@ -30,6 +30,41 @@
     "Iron Fist",
     "Inner Focus"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tyrogue",
+      "to": "Hitmonlee",
+      "details": [
+        {
+          "min_level": 20,
+          "relative_physical_stats": 1,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Tyrogue",
+      "to": "Hitmonchan",
+      "details": [
+        {
+          "min_level": 20,
+          "relative_physical_stats": -1,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Tyrogue",
+      "to": "Hitmontop",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/107.gif"
@@ -2635,43 +2670,6 @@
         "name": "Upper Hand",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Red": [
-      {
-        "location": "Saffron City Fighting Dojo",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Blue": [
-      {
-        "location": "Saffron City Fighting Dojo",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Saffron City Fighting Dojo",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Firered": [
-      {
-        "location": "Saffron City Fighting Dojo",
-        "method": "Gift",
-        "chance": 100
-      }
-    ],
-    "Leafgreen": [
-      {
-        "location": "Saffron City Fighting Dojo",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Meowth (Alola)"
+    "english": "Meowth Alola"
   },
   "type": [
     "Dark"
@@ -30,6 +30,33 @@
     "Technician",
     "Rattled"
   ],
+  "evolutionChain": [
+    {
+      "from": "Meowth",
+      "to": "Persian",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        },
+        {
+          "min_happiness": 160,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Meowth",
+      "to": "Perrserker",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10107.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10107.gif"
@@ -1118,96 +1145,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 1 Hauoli Outskirts",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Alola Route 2 South",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Malie Garden Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 1 Hauoli Outskirts",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Alola Route 2 South",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Malie Garden Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 1 Trainers School",
-        "method": "Walk",
-        "chance": 50
-      },
-      {
-        "location": "Alola Route 2 South",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Malie Garden Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 1 Trainers School",
-        "method": "Walk",
-        "chance": 50
-      },
-      {
-        "location": "Alola Route 2 South",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hauoli City Shopping District",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Malie Garden Area",
-        "method": "Walk",
-        "chance": 20
       }
     ]
   }

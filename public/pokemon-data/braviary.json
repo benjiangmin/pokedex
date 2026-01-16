@@ -31,6 +31,19 @@
     "Sheer Force",
     "Defiant"
   ],
+  "evolutionChain": [
+    {
+      "from": "Rufflet",
+      "to": "Braviary",
+      "details": [
+        {
+          "min_level": 54,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/628.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/628.gif"
@@ -1468,56 +1481,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "White": [
-      {
-        "location": "Village Bridge Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Village Bridge Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 11 Area",
-        "method": "Dark Grass",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 11 Area",
-        "method": "Dark Grass",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 11 Area",
-        "method": "Dark Grass",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 4 Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poni Plains North",
-        "method": "Bubbling Spots",
-        "chance": 30
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Poni Plains North",
-        "method": "Bubbling Spots",
-        "chance": 30
       }
     ]
   }

@@ -31,6 +31,39 @@
     "Magnet Pull",
     "Sand Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Nosepass",
+      "to": "Probopass",
+      "details": [
+        {
+          "location": "Mt Coronet",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Chargestone Cave",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Kalos Route 13",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Blush Mountain",
+          "trigger": "Level Up"
+        },
+        {
+          "location": "Vast Poni Canyon",
+          "trigger": "Level Up"
+        },
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/476.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/476.gif"
@@ -2359,6 +2392,5 @@
         "level_learned": 38
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -31,6 +31,29 @@
     "Chlorophyll",
     "Overcoat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sewaddle",
+      "to": "Swadloon",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Swadloon",
+      "to": "Leavanny",
+      "details": [
+        {
+          "min_happiness": 220,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/540.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/540.gif"
@@ -1066,146 +1089,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Pinwheel Forest Inside",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Dark Grass",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Dark Grass",
-        "chance": 5
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Unova Route 20 Area",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

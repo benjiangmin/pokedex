@@ -30,6 +30,19 @@
     "Solar Power",
     "Early Bird"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sunkern",
+      "to": "Sunflora",
+      "details": [
+        {
+          "item": "Sun Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/192.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/192.gif"
@@ -1988,32 +2001,6 @@
         "name": "Trailblaze",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Grass Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Grass Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 12 Area",
-        "method": "Grass Spots",
-        "chance": 1
       }
     ]
   }

@@ -30,6 +30,19 @@
     "Shed Skin",
     "Sand Veil"
   ],
+  "evolutionChain": [
+    {
+      "from": "Silicobra",
+      "to": "Sandaconda",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/844.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/844.gif"
@@ -553,6 +566,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Staraptor (Mega)"
+    "english": "Staraptor Mega"
   },
   "type": [
     "Fighting",
@@ -27,6 +27,29 @@
   "weight": 50,
   "height": 1.9,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Starly",
+      "to": "Staravia",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Staravia",
+      "to": "Staraptor",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Predator Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

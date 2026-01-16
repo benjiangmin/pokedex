@@ -28,6 +28,28 @@
   "abilities": [
     "Mummy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Yamask",
+      "to": "Cofagrigus",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Yamask",
+      "to": "Runerigus",
+      "details": [
+        {
+          "trigger": "Take Damage"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/563.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/563.gif"
@@ -1333,112 +1355,6 @@
         "name": "Poltergeist",
         "learn_method": "tutor",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle B",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Relic Castle C",
-        "method": "Walk",
-        "chance": 1
       }
     ]
   }

@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Pyroar (Mega)"
+    "english": "Pyroar Mega"
   },
   "type": [
     "Fire",
@@ -27,6 +27,19 @@
   "weight": 93.3,
   "height": 1.5,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Litleo",
+      "to": "Pyroar",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +48,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Royal Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

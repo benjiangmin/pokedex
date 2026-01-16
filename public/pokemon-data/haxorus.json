@@ -30,6 +30,29 @@
     "Mold Breaker",
     "Unnerve"
   ],
+  "evolutionChain": [
+    {
+      "from": "Axew",
+      "to": "Fraxure",
+      "details": [
+        {
+          "min_level": 38,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Fraxure",
+      "to": "Haxorus",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/612.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/612.gif"
@@ -1847,22 +1870,6 @@
         "name": "Dragon Cheer",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black 2": [
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Only One",
-        "chance": 100
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Nature Sanctuary Area",
-        "method": "Only One",
-        "chance": 100
       }
     ]
   }

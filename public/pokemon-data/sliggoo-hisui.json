@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Sliggoo (Hisui)"
+    "english": "Sliggoo Hisui"
   },
   "type": [
     "Steel",
@@ -31,6 +31,30 @@
     "Shell Armor",
     "Gooey"
   ],
+  "evolutionChain": [
+    {
+      "from": "Goomy",
+      "to": "Sliggoo",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Sliggoo",
+      "to": "Goodra",
+      "details": [
+        {
+          "min_level": 50,
+          "needs_overworld_rain": true,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10241.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10241.gif"
@@ -394,6 +418,5 @@
         "level_learned": 34
       }
     ]
-  },
-  "locations": {}
+  }
 }

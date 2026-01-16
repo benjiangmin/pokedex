@@ -30,6 +30,29 @@
     "Blaze",
     "Iron Fist"
   ],
+  "evolutionChain": [
+    {
+      "from": "Chimchar",
+      "to": "Monferno",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Monferno",
+      "to": "Infernape",
+      "details": [
+        {
+          "min_level": 36,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/391.gif"
@@ -2226,22 +2249,6 @@
         "name": "Nasty Plot",
         "learn_method": "level-up",
         "level_learned": 25
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Island Scan",
-        "chance": 100
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 11 Area",
-        "method": "Island Scan",
-        "chance": 100
       }
     ]
   }

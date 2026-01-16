@@ -31,6 +31,19 @@
     "Infiltrator",
     "Telepathy"
   ],
+  "evolutionChain": [
+    {
+      "from": "Noibat",
+      "to": "Noivern",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/715.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/715.gif"
@@ -1476,22 +1489,6 @@
         "name": "Psychic Noise",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ultra Sun": [
-      {
-        "location": "Resolution Cave Area",
-        "method": "Walk",
-        "chance": 15
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Resolution Cave Area",
-        "method": "Walk",
-        "chance": 15
       }
     ]
   }

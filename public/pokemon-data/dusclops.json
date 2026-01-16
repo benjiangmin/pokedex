@@ -29,6 +29,29 @@
     "Pressure",
     "Frisk"
   ],
+  "evolutionChain": [
+    {
+      "from": "Duskull",
+      "to": "Dusclops",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Dusclops",
+      "to": "Dusknoir",
+      "details": [
+        {
+          "held_item": "Reaper Cloth",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/356.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/356.gif"
@@ -2822,291 +2845,6 @@
         "name": "Hex",
         "learn_method": "level-up",
         "level_learned": 11
-      }
-    ]
-  },
-  "locations": {
-    "Platinum": [
-      {
-        "location": "Sendoff Spring Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sendoff Spring Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sendoff Spring Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sendoff Spring Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sendoff Spring Area",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Sendoff Spring Area",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Turnback Cave Pillar 1",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Turnback Cave Pillar 1",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 1",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 1",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 1",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Turnback Cave Pillar 2",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Turnback Cave Pillar 2",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 2",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 2",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 2",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 2",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Turnback Cave Pillar 3",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Turnback Cave Pillar 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Pillar 3",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Turnback Cave Before Pillar 1",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Turnback Cave Before Pillar 1",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Before Pillar 1",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Before Pillar 1",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Before Pillar 1",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Turnback Cave Between Pillars 1 And 2",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Turnback Cave Between Pillars 1 And 2",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Between Pillars 1 And 2",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Between Pillars 1 And 2",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Between Pillars 1 And 2",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Turnback Cave Between Pillars 2 And 3",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Turnback Cave Between Pillars 2 And 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Between Pillars 2 And 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Between Pillars 2 And 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Between Pillars 2 And 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave Between Pillars 2 And 3",
-        "method": "Walk",
-        "chance": 1
-      },
-      {
-        "location": "Turnback Cave After Pillar 3",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Turnback Cave After Pillar 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave After Pillar 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave After Pillar 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave After Pillar 3",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Turnback Cave After Pillar 3",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 224 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 224 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 224 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sinnoh Route 224 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Sky Pillar 1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sky Pillar 1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sky Pillar 3f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sky Pillar 3f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Sky Pillar 5f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Sky Pillar 5f",
-        "method": "Walk",
-        "chance": 5
       }
     ]
   }

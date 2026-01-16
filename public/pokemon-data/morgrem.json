@@ -31,6 +31,29 @@
     "Frisk",
     "Pickpocket"
   ],
+  "evolutionChain": [
+    {
+      "from": "Impidimp",
+      "to": "Morgrem",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Morgrem",
+      "to": "Grimmsnarl",
+      "details": [
+        {
+          "min_level": 42,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/860.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/860.gif"
@@ -544,6 +567,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

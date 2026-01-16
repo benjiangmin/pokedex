@@ -28,6 +28,19 @@
   "abilities": [
     "Mega Launcher"
   ],
+  "evolutionChain": [
+    {
+      "from": "Clauncher",
+      "to": "Clawitzer",
+      "details": [
+        {
+          "min_level": 37,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/692.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/692.gif"
@@ -1068,40 +1081,6 @@
         "name": "Chilling Water",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Ambrette Town Area",
-        "method": "Good Rod",
-        "chance": 60
-      },
-      {
-        "location": "Ambrette Town Area",
-        "method": "Good Rod",
-        "chance": 5
-      },
-      {
-        "location": "Cyllage City Area",
-        "method": "Good Rod",
-        "chance": 60
-      },
-      {
-        "location": "Cyllage City Area",
-        "method": "Good Rod",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Good Rod",
-        "chance": 60
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Good Rod",
-        "chance": 5
       }
     ]
   }

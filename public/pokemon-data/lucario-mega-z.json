@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Lucario (Mega Z)"
+    "english": "Lucario Mega Z"
   },
   "type": [
     "Fighting",
@@ -27,6 +27,20 @@
   "weight": 49.4,
   "height": 1.3,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Riolu",
+      "to": "Lucario",
+      "details": [
+        {
+          "min_happiness": 160,
+          "time_of_day": "day",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +49,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Aura Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

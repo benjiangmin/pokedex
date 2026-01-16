@@ -29,6 +29,29 @@
     "Shell Armor",
     "Rattled"
   ],
+  "evolutionChain": [
+    {
+      "from": "Clamperl",
+      "to": "Huntail",
+      "details": [
+        {
+          "held_item": "Deep Sea Tooth",
+          "trigger": "Trade"
+        }
+      ]
+    },
+    {
+      "from": "Clamperl",
+      "to": "Gorebyss",
+      "details": [
+        {
+          "held_item": "Deep Sea Scale",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/366.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/366.gif"
@@ -1178,228 +1201,6 @@
         "name": "Shell Smash",
         "learn_method": "level-up",
         "level_learned": 50
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Sinnoh Route 219 Area",
-        "method": "Super Rod",
-        "chance": 15
-      },
-      {
-        "location": "Sinnoh Route 221 Area",
-        "method": "Super Rod",
-        "chance": 15
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Sinnoh Route 219 Area",
-        "method": "Super Rod",
-        "chance": 15
-      },
-      {
-        "location": "Sinnoh Route 221 Area",
-        "method": "Super Rod",
-        "chance": 15
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Sea Route 19 Area",
-        "method": "Surf",
-        "chance": 60
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Sea Route 19 Area",
-        "method": "Surf",
-        "chance": 60
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Route 124 Underwater",
-        "method": "Seaweed",
-        "chance": 60
-      },
-      {
-        "location": "Hoenn Route 124 Underwater",
-        "method": "Seaweed",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 126 Underwater",
-        "method": "Seaweed",
-        "chance": 60
-      },
-      {
-        "location": "Hoenn Route 126 Underwater",
-        "method": "Seaweed",
-        "chance": 5
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 124 Underwater",
-        "method": "Seaweed",
-        "chance": 60
-      },
-      {
-        "location": "Hoenn Route 124 Underwater",
-        "method": "Seaweed",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 126 Underwater",
-        "method": "Seaweed",
-        "chance": 60
-      },
-      {
-        "location": "Hoenn Route 126 Underwater",
-        "method": "Seaweed",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 124 Underwater",
-        "method": "Seaweed",
-        "chance": 60
-      },
-      {
-        "location": "Hoenn Route 124 Underwater",
-        "method": "Seaweed",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Route 126 Underwater",
-        "method": "Seaweed",
-        "chance": 60
-      },
-      {
-        "location": "Hoenn Route 126 Underwater",
-        "method": "Seaweed",
-        "chance": 5
-      }
-    ],
-    "Black": [
-      {
-        "location": "Unova Route 4 Area",
-        "method": "Super Rod",
-        "chance": 40
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Route 4 Area",
-        "method": "Super Rod",
-        "chance": 40
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Unova Route 4 Area",
-        "method": "Super Rod",
-        "chance": 40
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Unova Route 4 Area",
-        "method": "Super Rod",
-        "chance": 40
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 12 Area",
-        "method": "Good Rod",
-        "chance": 35
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 12 Area",
-        "method": "Good Rod",
-        "chance": 35
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Super Rod",
-        "chance": 5
-      },
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Bubbling Spots",
-        "chance": 35
-      },
-      {
-        "location": "Hauoli City Beachfront",
-        "method": "Bubbling Spots",
-        "chance": 5
-      },
-      {
-        "location": "Hauoli City Beachfront",
-        "method": "Super Rod",
-        "chance": 5
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Bubbling Spots",
-        "chance": 20
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Bubbling Spots",
-        "chance": 35
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Super Rod",
-        "chance": 5
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Super Rod",
-        "chance": 5
-      },
-      {
-        "location": "Alola Route 15 Main",
-        "method": "Bubbling Spots",
-        "chance": 35
-      },
-      {
-        "location": "Hauoli City Beachfront",
-        "method": "Bubbling Spots",
-        "chance": 5
-      },
-      {
-        "location": "Hauoli City Beachfront",
-        "method": "Super Rod",
-        "chance": 5
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Bubbling Spots",
-        "chance": 20
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Bubbling Spots",
-        "chance": 35
-      },
-      {
-        "location": "Melemele Sea Area",
-        "method": "Super Rod",
-        "chance": 5
       }
     ]
   }

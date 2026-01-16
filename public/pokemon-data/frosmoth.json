@@ -30,6 +30,20 @@
     "Shield Dust",
     "Ice Scales"
   ],
+  "evolutionChain": [
+    {
+      "from": "Snom",
+      "to": "Frosmoth",
+      "details": [
+        {
+          "min_happiness": 160,
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/873.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/873.gif"
@@ -603,6 +617,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

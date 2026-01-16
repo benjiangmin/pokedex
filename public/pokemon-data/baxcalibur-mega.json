@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Baxcalibur (Mega)"
+    "english": "Baxcalibur Mega"
   },
   "type": [
     "Dragon",
@@ -27,6 +27,29 @@
   "weight": 315,
   "height": 2.1,
   "abilities": [],
+  "evolutionChain": [
+    {
+      "from": "Frigibax",
+      "to": "Arctibax",
+      "details": [
+        {
+          "min_level": 35,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Arctibax",
+      "to": "Baxcalibur",
+      "details": [
+        {
+          "min_level": 54,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": null,
     "animated": null
@@ -35,6 +58,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Ice Dragon Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

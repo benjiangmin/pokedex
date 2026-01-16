@@ -30,6 +30,29 @@
     "Sand Veil",
     "Rough Skin"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gible",
+      "to": "Gabite",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Gabite",
+      "to": "Garchomp",
+      "details": [
+        {
+          "min_level": 48,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/443.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/443.gif"
@@ -1901,175 +1924,6 @@
         "name": "Bulldoze",
         "learn_method": "level-up",
         "level_learned": 9
-      }
-    ]
-  },
-  "locations": {
-    "Diamond": [
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Pearl": [
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 4
-      },
-      {
-        "location": "Wayward Cave B1f",
-        "method": "Walk",
-        "chance": 1
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 1
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 5
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 13 Area",
-        "method": "Rough Terrain",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Floccesy Town Area",
-        "method": "Gift",
-        "chance": 100
       }
     ]
   }

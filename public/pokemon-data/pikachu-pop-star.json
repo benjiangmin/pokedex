@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Pikachu (Pop Star)"
+    "english": "Pikachu Pop Star"
   },
   "type": [
     "Electric"
@@ -29,6 +29,29 @@
     "Static",
     "Lightning Rod"
   ],
+  "evolutionChain": [
+    {
+      "from": "Pichu",
+      "to": "Pikachu",
+      "details": [
+        {
+          "min_happiness": 220,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Pikachu",
+      "to": "Raichu",
+      "details": [
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10082.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10082.gif"
@@ -345,6 +368,5 @@
         "level_learned": 29
       }
     ]
-  },
-  "locations": {}
+  }
 }

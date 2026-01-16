@@ -31,6 +31,29 @@
     "Ice Body",
     "Oblivious"
   ],
+  "evolutionChain": [
+    {
+      "from": "Spheal",
+      "to": "Sealeo",
+      "details": [
+        {
+          "min_level": 32,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Sealeo",
+      "to": "Walrein",
+      "details": [
+        {
+          "min_level": 44,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/365.gif"
@@ -1887,46 +1910,6 @@
         "name": "Liquidation",
         "learn_method": "level-up",
         "level_learned": 25
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 4
-      },
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Undella Bay Area",
-        "method": "Surf Spots",
-        "chance": 5
       }
     ]
   }

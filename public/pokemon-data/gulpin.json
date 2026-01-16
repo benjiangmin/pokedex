@@ -30,6 +30,19 @@
     "Sticky Hold",
     "Gluttony"
   ],
+  "evolutionChain": [
+    {
+      "from": "Gulpin",
+      "to": "Swalot",
+      "details": [
+        {
+          "min_level": 26,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/316.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/316.gif"
@@ -2126,80 +2139,6 @@
         "name": "Tera Blast",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 3 Area",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Kanto Route 3 Area",
-        "method": "Walk",
-        "chance": 20
-      }
-    ],
-    "Ruby": [
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Route 110 Area",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Purple Flowers",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 5 Area",
-        "method": "Purple Flowers",
-        "chance": 10
       }
     ]
   }

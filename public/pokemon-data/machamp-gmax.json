@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Machamp (Gmax)"
+    "english": "Machamp Gmax"
   },
   "type": [
     "Fighting"
@@ -30,6 +30,28 @@
     "No Guard",
     "Steadfast"
   ],
+  "evolutionChain": [
+    {
+      "from": "Machop",
+      "to": "Machoke",
+      "details": [
+        {
+          "min_level": 28,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Machoke",
+      "to": "Machamp",
+      "details": [
+        {
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10201.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10201.gif"
@@ -38,6 +60,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Superpower Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

@@ -30,6 +30,19 @@
     "Guts",
     "Sheer Force"
   ],
+  "evolutionChain": [
+    {
+      "from": "Makuhita",
+      "to": "Hariyama",
+      "details": [
+        {
+          "min_level": 24,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/297.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/297.gif"
@@ -2386,151 +2399,6 @@
         "name": "Work Up",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Ruby": [
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Victory Road B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Victory Road B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Victory Road B1f",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Sapphire": [
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Victory Road B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Victory Road B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Victory Road B1f",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "Emerald": [
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Victory Road 1f",
-        "method": "Walk",
-        "chance": 5
-      },
-      {
-        "location": "Hoenn Victory Road B1f",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Hoenn Victory Road B1f",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Hoenn Victory Road B1f",
-        "method": "Walk",
-        "chance": 5
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Route 11 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 11 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Route 11 Area",
-        "method": "Walk",
-        "chance": 10
-      },
-      {
-        "location": "Kalos Route 11 Area",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Bubbling Spots",
-        "chance": 30
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Poni Plains Center",
-        "method": "Bubbling Spots",
-        "chance": 30
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 10
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Poni Plains North",
-        "method": "Walk",
-        "chance": 10
       }
     ]
   }

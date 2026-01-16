@@ -31,6 +31,19 @@
     "Sniper",
     "Pickpocket"
   ],
+  "evolutionChain": [
+    {
+      "from": "Binacle",
+      "to": "Barbaracle",
+      "details": [
+        {
+          "min_level": 39,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/688.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/688.gif"
@@ -1129,102 +1142,6 @@
         "name": "Liquidation",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "X": [
-      {
-        "location": "Ambrette Town Area",
-        "method": "Rock Smash",
-        "chance": 30
-      },
-      {
-        "location": "Ambrette Town Area",
-        "method": "Rock Smash",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Rock Smash",
-        "chance": 30
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Rock Smash",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 12 Area",
-        "method": "Rock Smash",
-        "chance": 30
-      },
-      {
-        "location": "Kalos Route 12 Area",
-        "method": "Rock Smash",
-        "chance": 4
-      },
-      {
-        "location": "Azure Bay Area",
-        "method": "Rock Smash",
-        "chance": 30
-      },
-      {
-        "location": "Azure Bay Area",
-        "method": "Rock Smash",
-        "chance": 4
-      }
-    ],
-    "Y": [
-      {
-        "location": "Ambrette Town Area",
-        "method": "Rock Smash",
-        "chance": 30
-      },
-      {
-        "location": "Ambrette Town Area",
-        "method": "Rock Smash",
-        "chance": 4
-      },
-      {
-        "location": "Cyllage City Area",
-        "method": "Rock Smash",
-        "chance": 30
-      },
-      {
-        "location": "Cyllage City Area",
-        "method": "Rock Smash",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Rock Smash",
-        "chance": 30
-      },
-      {
-        "location": "Kalos Route 8 Area",
-        "method": "Rock Smash",
-        "chance": 4
-      },
-      {
-        "location": "Kalos Route 12 Area",
-        "method": "Rock Smash",
-        "chance": 30
-      },
-      {
-        "location": "Kalos Route 12 Area",
-        "method": "Rock Smash",
-        "chance": 4
-      },
-      {
-        "location": "Azure Bay Area",
-        "method": "Rock Smash",
-        "chance": 30
-      },
-      {
-        "location": "Azure Bay Area",
-        "method": "Rock Smash",
-        "chance": 4
       }
     ]
   }

@@ -30,6 +30,29 @@
     "Intimidate",
     "Reckless"
   ],
+  "evolutionChain": [
+    {
+      "from": "Starly",
+      "to": "Staravia",
+      "details": [
+        {
+          "min_level": 14,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Staravia",
+      "to": "Staraptor",
+      "details": [
+        {
+          "min_level": 34,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-iv",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/398.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/398.gif"
@@ -1493,6 +1516,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

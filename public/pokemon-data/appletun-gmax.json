@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": true,
   "name": {
-    "english": "Appletun (Gmax)"
+    "english": "Appletun Gmax"
   },
   "type": [
     "Grass",
@@ -31,6 +31,39 @@
     "Gluttony",
     "Thick Fat"
   ],
+  "evolutionChain": [
+    {
+      "from": "Applin",
+      "to": "Flapple",
+      "details": [
+        {
+          "item": "Tart Apple",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Applin",
+      "to": "Appletun",
+      "details": [
+        {
+          "item": "Sweet Apple",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Applin",
+      "to": "Dipplin",
+      "details": []
+    },
+    {
+      "from": "Dipplin",
+      "to": "Hydrapple",
+      "details": []
+    }
+  ],
+  "generation": "generation-viii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10217.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10217.gif"
@@ -39,6 +72,5 @@
   "isLegendary": false,
   "isMythical": false,
   "category": "Apple Nectar Pokémon",
-  "moves": {},
-  "locations": {}
+  "moves": {}
 }

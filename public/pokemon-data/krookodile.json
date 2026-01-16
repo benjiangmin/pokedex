@@ -31,6 +31,29 @@
     "Moxie",
     "Anger Point"
   ],
+  "evolutionChain": [
+    {
+      "from": "Sandile",
+      "to": "Krokorok",
+      "details": [
+        {
+          "min_level": 29,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Krokorok",
+      "to": "Krookodile",
+      "details": [
+        {
+          "min_level": 40,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/553.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/553.gif"
@@ -2105,6 +2128,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }

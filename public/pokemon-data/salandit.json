@@ -30,6 +30,20 @@
     "Corrosion",
     "Oblivious"
   ],
+  "evolutionChain": [
+    {
+      "from": "Salandit",
+      "to": "Salazzle",
+      "details": [
+        {
+          "gender": 1,
+          "min_level": 33,
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/757.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/757.gif"
@@ -923,66 +937,6 @@
         "name": "Temper Flare",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 20
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Walk",
-        "chance": 30
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Alola Route 8 Main",
-        "method": "Walk",
-        "chance": 15
-      },
-      {
-        "location": "Lush Jungle East Cave",
-        "method": "Walk",
-        "chance": 30
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Walk",
-        "chance": 30
       }
     ]
   }

@@ -31,6 +31,39 @@
     "Damp",
     "Swift Swim"
   ],
+  "evolutionChain": [
+    {
+      "from": "Poliwag",
+      "to": "Poliwhirl",
+      "details": [
+        {
+          "min_level": 25,
+          "trigger": "Level Up"
+        }
+      ]
+    },
+    {
+      "from": "Poliwhirl",
+      "to": "Poliwrath",
+      "details": [
+        {
+          "item": "Water Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    },
+    {
+      "from": "Poliwhirl",
+      "to": "Politoed",
+      "details": [
+        {
+          "held_item": "Kings Rock",
+          "trigger": "Trade"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/62.gif"
@@ -2601,338 +2634,6 @@
         "name": "Power Up Punch",
         "learn_method": "machine",
         "level_learned": 0
-      }
-    ]
-  },
-  "locations": {
-    "Black": [
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Giant Chasm Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Giant Chasm Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Giant Chasm Forest Cave",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Giant Chasm Forest Cave",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Challengers Cave B2f",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Challengers Cave B2f",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "White": [
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road Unknown Area 53",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 1f Unknown Room",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Giant Chasm Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Giant Chasm Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Giant Chasm Forest Cave",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Giant Chasm Forest Cave",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Challengers Cave B2f",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Challengers Cave B2f",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "Black 2": [
-      {
-        "location": "Giant Chasm Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Giant Chasm Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 71",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 71",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 75",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 75",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 78",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 78",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Relic Passage Relic Castle Entrance",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Relic Passage Relic Castle Entrance",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Clay Tunnel Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Clay Tunnel Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 23 Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 23 Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "White 2": [
-      {
-        "location": "Giant Chasm Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Giant Chasm Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Wellspring Cave Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 71",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 71",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 75",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 75",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 78",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Victory Road 2 Unknown Area 78",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Relic Passage Relic Castle Entrance",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Relic Passage Relic Castle Entrance",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Clay Tunnel Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Clay Tunnel Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      },
-      {
-        "location": "Unova Route 23 Area",
-        "method": "Super Rod Spots",
-        "chance": 4
-      },
-      {
-        "location": "Unova Route 23 Area",
-        "method": "Super Rod Spots",
-        "chance": 1
-      }
-    ],
-    "X": [
-      {
-        "location": "Kalos Victory Road Unknown Area 328",
-        "method": "Super Rod",
-        "chance": 5
-      }
-    ],
-    "Y": [
-      {
-        "location": "Kalos Victory Road Unknown Area 328",
-        "method": "Super Rod",
-        "chance": 5
-      }
-    ],
-    "Sun": [
-      {
-        "location": "Malie Garden Area",
-        "method": "Sos Encounter",
-        "chance": 1
-      }
-    ],
-    "Moon": [
-      {
-        "location": "Malie Garden Area",
-        "method": "Sos Encounter",
-        "chance": 1
-      }
-    ],
-    "Ultra Sun": [
-      {
-        "location": "Malie Garden Area",
-        "method": "Sos Encounter",
-        "chance": 1
-      }
-    ],
-    "Ultra Moon": [
-      {
-        "location": "Malie Garden Area",
-        "method": "Sos Encounter",
-        "chance": 1
       }
     ]
   }

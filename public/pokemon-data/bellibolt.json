@@ -30,6 +30,19 @@
     "Static",
     "Damp"
   ],
+  "evolutionChain": [
+    {
+      "from": "Tadbulb",
+      "to": "Bellibolt",
+      "details": [
+        {
+          "item": "Thunder Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-ix",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/939.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/939.gif"
@@ -281,6 +294,5 @@
         "level_learned": 0
       }
     ]
-  },
-  "locations": {}
+  }
 }
