@@ -1,5 +1,7 @@
 import PokemonEntry from "./PokemonEntry"
 import pokeballLoading from "./Images/pokeballLoadingV4.gif"
+// import ferrothorn from "./Images/ferrothorn.gif"
+// import krokorok from "./Images/krokorok.gif"
 
 export default function DisplayPokemon({ results, loading }) {
     const displayList = results || [];
@@ -21,6 +23,8 @@ export default function DisplayPokemon({ results, loading }) {
                 {loading && <p style={{ textAlign: "center" }}>loading...</p>}
                 {toDisplay.length === 0 && !loading && filler}
                 {toDisplay.length > 0 && toDisplay}
+                {/* <img className="ferrothorn" src={ferrothorn} />
+                <img className="krokorok" src={krokorok} /> */}
             </section>
         </section>
     );

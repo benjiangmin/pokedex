@@ -59,6 +59,7 @@ export default function App() {
                 currentFilter={currentFilter}
                 setCurrentFilter={setCurrentFilter}
                 performSearch={performSearch}
+                prompt={query}
               />
 
               <section className="display-prompt-and-pokemon" >
