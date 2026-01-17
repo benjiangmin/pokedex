@@ -51,6 +51,18 @@ async function fetchAllPokemon() {
         "legends-arceus": "legends arceus", "scarlet-violet": "SV",
     };
 
+    const pokedexToGameMap = {
+        "kanto": ["red", "blue", "yellow", "fire-red", "leaf-green", "lets-go-pikachu", "lets-go-eevee"],
+        "original-johto": ["gold", "silver", "crystal"], "updated-johto": ["heart-gold", "soul-silver"],
+        "hoenn": ["ruby", "sapphire", "emerald", "omega-ruby", "alpha-sapphire"], "original-sinnoh": ["diamond", "pearl"],
+        "extended-sinnoh": ["platinum"], "updated-sinnoh": ["brilliant-diamond", "shining-pearl"],
+        "original-unova": ["black", "white"], "updated-unova": ["black-2", "white-2"], "kalos-central": ["x", "y"],
+        "kalos-coastal": ["x", "y"], "kalos-mountain": ["x", "y"], "original-alola": ["sun", "moon"],
+        "updated-alola": ["ultra-sun", "ultra-moon"], "galar": ["sword", "shield"], "isle-of-armor": ["sword", "shield"],
+        "crown-tundra": ["sword", "shield"], "hisui": ["legends-arceus"], "paldea": ["scarlet", "violet"],
+        "kitakami": ["scarlet", "violet"], "blueberry": ["scarlet", "violet"]
+    };
+
     for (let id = 1; id <= totalCount; id++) {
         console.log(`Processing Species #${id}`);
         try {
@@ -93,7 +105,7 @@ async function fetchAllPokemon() {
                 if (variety.pokemon.name.includes("-totem") || variety.pokemon.name.includes("-cap")) continue;
                 const pokeRes = await fetch(variety.pokemon.url);
                 const pokeData = await pokeRes.json();
-                
+
                 const encountersRes = await fetch(pokeData.location_area_encounters);
                 const encountersData = await encountersRes.json();
 
@@ -104,8 +116,22 @@ async function fetchAllPokemon() {
 
             for (const item of speciesVarietiesData) {
                 const { variety, pokeData, encountersData } = item;
-                const variants = getVariant(pokeData.name);
                 
+                const regionalGames = []
+                speciesData.pokedex_numbers.forEach(entry => {
+                    const pokedexName = entry.pokedex.name
+                    const games = pokedexToGameMap[pokedexName]
+                    if (games) {
+                        games.forEach(game => {
+                            if (!regionalGames.includes(game)) {
+                                regionalGames.push(game)
+                            }
+                        })
+                    }
+                })
+
+                const variants = getVariant(pokeData.name);
+
                 let currentEvoChain = parseEvolutionChain(evoChainData.chain);
 
                 if (variety.is_default) {
@@ -116,8 +142,8 @@ async function fetchAllPokemon() {
                                 currentEvoChain.push({
                                     from: formatPokemonName(pokeData.name),
                                     to: formatPokemonName(other.pokeData.name),
-                                    details: [{ 
-                                        trigger: otherVariants.isMega ? "Mega Evolution" : "Gigantamax" 
+                                    details: [{
+                                        trigger: otherVariants.isMega ? "Mega Evolution" : "Gigantamax"
                                     }]
                                 });
                             }
@@ -172,6 +198,8 @@ async function fetchAllPokemon() {
                     });
                 });
 
+
+
                 const fullPokemonData = {
                     id: id,
                     slug: pokeData.name,
@@ -190,7 +218,7 @@ async function fetchAllPokemon() {
                     color: speciesData.color.name,
                     weight: pokeData.weight / 10,
                     height: pokeData.height / 10,
-                    abilities: pokeData.abilities.map(a => formatStandard(a.ability.name)), 
+                    abilities: pokeData.abilities.map(a => formatStandard(a.ability.name)),
                     evolutionChain: currentEvoChain,
                     generation: speciesData.generation.name,
                     sprites: {
@@ -202,6 +230,7 @@ async function fetchAllPokemon() {
                     isLegendary: speciesData.is_legendary,
                     isMythical: speciesData.is_mythical,
                     category: category,
+                    versions: regionalGames,
                     moves: movesByGeneration,
                     locations: locationDataByVersion
                 };
@@ -211,7 +240,7 @@ async function fetchAllPokemon() {
                 masterList.push({
                     ...fullPokemonData,
                     moves: [...new Set(Object.values(movesByGeneration).flat().map(m => m.name))],
-                    locations: [] 
+                    locations: []
                 });
             }
         } catch (err) {

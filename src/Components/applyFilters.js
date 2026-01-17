@@ -109,6 +109,54 @@ export const applyFilters = (data, rules) => {
             }
         }
 
+        // Generation Check
+        if (rules.generation) {
+            const genMap = {
+                "1": "i", "2": "ii", "3": "iii", "4": "iv", "5": "v",
+                "6": "vi", "7": "vii", "8": "viii", "9": "ix",
+                "i": "i", "ii": "ii", "iii": "iii", "iv": "iv", "v": "v",
+                "vi": "vi", "vii": "vii", "viii": "viii", "ix": "ix"
+            };
+            const input = String(rules.generation).toLowerCase()
+            const romanSuffix = genMap[input]
+
+            if (romanSuffix) {
+                const targetGen = `generation-${romanSuffix}`
+                if (pokemon.generation !== targetGen) {
+                    return false
+                }
+            }
+        }
+
+        // Regional Pokedex Check
+        if (rules.regionalPokedex) {
+            const isInAnyRequestedGame = rules.regionalPokedex.some(requestedGame => {
+                const searchGame = requestedGame.toLowerCase().trim();
+
+                return pokemon.versions.some(v => {
+                    const slug = v.toLowerCase();
+                    return slug === searchGame || slug.replace(/-/g, ' ') === searchGame;
+                });
+            });
+
+            if (!isInAnyRequestedGame) {
+                return false;
+            }
+        }
+
+        // Starter Check
+        if (rules.isStarter) {
+            const starterIDs = [1, 4, 7, 152, 155, 158, 252, 255, 258,
+                387, 390, 393, 495, 498, 501, 650, 653,
+                656, 722, 725, 728, 810, 813, 816, 906,
+                909, 912
+            ]
+            const isStarter = starterIDs.includes(pokemon.id)
+            if (isStarter !== rules.isStarter) {
+                return false
+            }
+        }
+
         return true;
     });
 };

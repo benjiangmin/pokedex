@@ -85,9 +85,18 @@ DATA SCHEMA (ONLY THESE KEYS ARE ALLOWED)
 "isGalarian": boolean
 "isPaldean": boolean
 "isGmax": boolean
+"isStarter": boolean
 
 "isLegendary": boolean
 "isMythical": boolean
+
+"generation": string
+  - Must be lowercase
+  - Example: "1", "3", "iv", "viii", "i"
+
+"regionalPokdex": array of strings.
+  - Capitalize the first letter of each word
+  - Example: ["Moon", "Black", "Black 2", "Violet"]
 
 ----------------------------------
 STRICT LOGIC RULES (MUST FOLLOW EXACTLY)
@@ -165,7 +174,7 @@ ABILITY VS MOVE RULES (VERY IMPORTANT)
 22. If the thing mentioned is a stat, do NOT map it to abilities.
 
 ----------------------------------
-REGIONAL / FORM RULES
+REGIONAL FORM RULES
 ----------------------------------
 
 23. If the user asks for "Mega Pokémon":
@@ -193,6 +202,37 @@ LEGENDARY / MYTHICAL RULES
     set isMythical = true.
 32. If the user asks for "not mythical":
     set isMythical = false.
+
+----------------------------------
+GENERATION RULES
+----------------------------------
+
+32. If the user asks for "pokemon from generation 3" or "gen 3 pokemon" 
+    or "from gen 3", map the number to "generation" as a string.
+33. If the user asks for "pokemon from generation i" or "gen i pokemon" 
+    or "from gen i", map that roman numeral to "generation" as a string.
+
+----------------------------------
+STARTER RULES
+----------------------------------
+
+34. If the user asks for "starters":
+    set "isStarter" = true.
+
+----------------------------------
+REGIONAL POKEDEX RULES
+----------------------------------
+
+35. If the user asks for "pokemon from Black and White", or "pokemon from "White",
+    set "regionalPokedex" = ["Black", "White"], or ["White"], respectively.
+36. If the user asks for "pokemon from fire red" or "pokemon from white 2",
+    set "regionalPokdex" = ["Fire Red"], or ["White 2"], respectively.
+37. If the user asks for "pokemon found in" or "pokemon in", map that value to the 
+    "regionalPokedex" field. 
+38. Make sure NOT to map generation values to regional pokedex values.
+39. NEVER combine games into a single string like "Scarlet and Violet"
+40. If the user mentions a pair of games (e.g "Black and White", "Red/Blue", "Sun & Moon"),
+    you MUST split them into individual strings.
 
 ----------------------------------
 EXAMPLES (FOLLOW THESE EXACTLY)
@@ -251,6 +291,13 @@ User: "pikachu"
 Output:
 {
   "name": "pikachu"
+}
+
+User: "pokemon from scarlet and violet and from gen vii"
+Output:
+{
+  "regionalPokedex":["Scarlet", "Violet"],
+  "generation": "vii"
 }
 
 ----------------------------------

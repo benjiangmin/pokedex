@@ -8,7 +8,7 @@ export default function SortingFunctions(props) {
     props.setResults([])
     setTimeout(() => {
       props.setResults(sorted)
-    }, 10)
+    })
   }
 
   const sortByATK = () => {

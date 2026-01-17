@@ -8,8 +8,8 @@
 import POKEDEX_TEXT from "../Components/Images/POKEDEX_TEXT.png"
 import HelpfulBar from "./HelpfulBar"
 
-import diglett from "../Components/Images/diglett.gif"
-import dugtrio from "../Components/Images/dugtrio.gif"
+// import diglett from "../Components/Images/diglett.gif"
+// import dugtrio from "../Components/Images/dugtrio.gif"
 
 export default function InputBar(props) {
 
@@ -40,14 +40,14 @@ export default function InputBar(props) {
                     <form className="description-form" action={handleSubmit}>
                         <div className="label-group">
                             <label className="enter-description-label">enter description:</label>
-                            <img className="diglett" src={diglett} alt="Diglett" />
-                            <img className="dugtrio" src={dugtrio} alt="Dugtrio" />
+                            {/* <img className="diglett" src={diglett} alt="Diglett" />
+                            <img className="dugtrio" src={dugtrio} alt="Dugtrio" /> */}
                         </div>
                         <input className="enter-description-input"
                             id="description"
                             name="description"
                             type="text"
-                            placeholder="e.g. red pokemon that learn earthquake and are dark type and have an attack over 100 with moxie ahhhhhh"
+                            placeholder="e.g. red pokemon that learn earthquake and are dark type and have an attack over 100 with moxie from gen v ahhhhhh"
                         />
 
                     </form>
