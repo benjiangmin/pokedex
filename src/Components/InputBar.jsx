@@ -12,8 +12,15 @@ export default function InputBar(props) {
 
     function handleSubmit(formData) {
         const description = formData.get("description")
+        
+        // 1. Update the display text
         props.setQuery(description)
+        
+        // 2. Clear any existing stat filters for the new search
         props.setCurrentFilter("")
+        
+        // 3. Trigger the actual AI search logic in App.js
+        props.performSearch(description)
     }
 
     // <section className="pokedex-sprites-container">
@@ -37,6 +44,7 @@ export default function InputBar(props) {
                         name="description"
                         type="text"
                         placeholder="e.g. blue pokemon with a speed greater than 100..."
+                        autoComplete="off" 
                     />
                 </form>
                 <HelpfulBar
