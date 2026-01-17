@@ -88,3 +88,5 @@ export default function App() {
 // 4. have variants have their own descriptions
 // 5. have the digletts and dugtrios come out of their holes on hover
 // 6. fix aegislash
+// 7. fix whatever zygarde is
+// 8. dont display pikachu variants

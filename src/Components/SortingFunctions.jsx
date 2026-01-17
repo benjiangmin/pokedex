@@ -1,4 +1,8 @@
+import { useState } from "react"
+
 export default function SortingFunctions(props) {
+  const [ascending, setAscending] = useState(true)
+
   const statMap = {
     HP: "HP",
     ATK: "Attack",
@@ -12,9 +16,16 @@ export default function SortingFunctions(props) {
     props.setCurrentFilter(filterKey);
     const dataKey = statMap[filterKey];
 
-    const sorted = [...props.results].sort((a, b) => b.base[dataKey] - a.base[dataKey]);
+    const newDirection = !ascending
+    const sorted = [...props.results].sort((a, b) => {
+      return newDirection 
+        ? a.base[dataKey] - b.base[dataKey] 
+        : b.base[dataKey] - a.base[dataKey]; 
+    });
 
-    props.setResults([]); 
+    setAscending(newDirection)
+
+    props.setResults([])
     setTimeout(() => {
       props.setResults(sorted); 
     }, 0); 
