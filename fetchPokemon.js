@@ -94,7 +94,6 @@ async function fetchAllPokemon() {
                 const pokeRes = await fetch(variety.pokemon.url);
                 const pokeData = await pokeRes.json();
                 
-                // Fetch encounters
                 const encountersRes = await fetch(pokeData.location_area_encounters);
                 const encountersData = await encountersRes.json();
 
@@ -196,6 +195,7 @@ async function fetchAllPokemon() {
                     generation: speciesData.generation.name,
                     sprites: {
                         static: pokeData.sprites.front_default,
+                        shiny: pokeData.sprites.front_shiny,
                         animated: pokeData.sprites.other?.showdown?.front_default || pokeData.sprites.front_default
                     },
                     description: desiredEntry,

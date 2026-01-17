@@ -18,7 +18,7 @@ import steel from "../Images/steel.png"
 import water from "../Images/water.png"
 
 import { useParams } from "react-router-dom"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 
 import pokemonData from "../../../public/pokedex-master.json"
 import DetailedStatsBar from "./DetailedStatsBar"
@@ -27,6 +27,8 @@ import PreviousEvolution from "./PreviousEvolution"
 import NextEvolution from "./NextEvolution"
 
 export default function Header() {
+    const [shiny, setShiny] = useState(false)
+
     const { slug } = useParams()
     const pokemon = pokemonData.find(pokemon => pokemon.slug === slug)
 
@@ -47,10 +49,15 @@ export default function Header() {
     const bst = Object.values(pokemon.base).reduce((acc, stat) => acc + stat, 0)
     const generation = (pokemon.generation.split("-")[1]).toUpperCase()
 
+    const currentSprite = shiny ? pokemon.sprites.shiny : pokemon.sprites.static
+    function toggleShiny() {
+        setShiny(!shiny)
+    }
+
     return (
         <section className="header-container">
             <div className="name-index-container">
-                <img src={pokemon.sprites.static} />
+                <img src={currentSprite} />
                 <h3>{pokemon.name.english}</h3>
                 <p>#{pokemon.id}</p>
                 <h4 className="category-text">The {pokemon.category}</h4>
@@ -62,7 +69,7 @@ export default function Header() {
                 <PreviousEvolution pokemon={pokemon} />
             </div>
 
-            <PokemonModel pokemon={pokemon} />
+            <PokemonModel pokemon={pokemon} toggleShiny={toggleShiny} shiny={shiny}/>
 
             <div className="stats-container">
                 <DetailedStatsBar stats={pokemon.base} />
