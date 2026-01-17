@@ -62,16 +62,12 @@ return (
         <div className="three-d-model-container">
             <Canvas
                 shadows
-                dpr={[1, 2]} // Performance optimization
-                camera={{ fov: 35 }} // Let Stage handle position
+                dpr={[1, 2]} 
+                camera={{ fov: 35 }} 
             >
                 <Suspense fallback={null}>
-                    {/* adjustCamera: Centers the camera on the object automatically.
-                        intensity: Light brightness.
-                        environment: Lighting style.
-                    */}
                     <Stage 
-                        adjustCamera={1.5} // Higher number = zoomed further out
+                        adjustCamera={1.5} 
                         intensity={0.5} 
                         environment="city" 
                         preset="rembrandt"
@@ -82,7 +78,6 @@ return (
                     </Stage>
                 </Suspense>
 
-                {/* makeDefault ensures OrbitControls doesn't fight with Stage */}
                 <OrbitControls makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 1.75} />
             </Canvas>
         </div>
