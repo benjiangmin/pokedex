@@ -90,3 +90,4 @@ export default function App() {
 // 6. fix aegislash
 // 7. fix whatever zygarde is
 // 8. dont display pikachu variants
+// 9. see if I can get better 3d models 

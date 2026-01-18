@@ -13,22 +13,27 @@ export default function SortingFunctions(props) {
   };
 
   const handleSort = (filterKey) => {
-    props.setCurrentFilter(filterKey);
     const dataKey = statMap[filterKey];
+    let newDirection;
 
-    const newDirection = !ascending
+    if (props.currentFilter === filterKey) {
+      newDirection = !ascending;
+    } else {
+      newDirection = false;
+      props.setCurrentFilter(filterKey);
+    }
+
     const sorted = [...props.results].sort((a, b) => {
-      return newDirection 
-        ? a.base[dataKey] - b.base[dataKey] 
+      return newDirection
+        ? a.base[dataKey] - b.base[dataKey]  
         : b.base[dataKey] - a.base[dataKey]; 
     });
 
-    setAscending(newDirection)
-
-    props.setResults([])
+    setAscending(newDirection);
+    props.setResults([]);
     setTimeout(() => {
-      props.setResults(sorted); 
-    }, 0); 
+      props.setResults(sorted);
+    }, 0);
   };
 
   return (
@@ -38,15 +43,15 @@ export default function SortingFunctions(props) {
           <button
             key={key}
 
-            className={props.currentFilter === key ? "current-filter" : ""}
+            className={props.currentFilter === key ? `current-filter ${ascending ? "ascending" : "descending"}` : ""}
             onClick={() => handleSort(key)}
           >
-            sort by {
-              key === "SATK" ? "SP.ATTACK" : 
-              key === "SDEF" ? "SP.DEFENSE" : 
-              key === "ATK" ? "ATTACK" : 
-              key === "DEF" ? "DEFENSE" : 
-              key === "SPD" ? "SPEED" : key
+            sort {
+              key === "SATK" ? "SATK" :
+                key === "SDEF" ? "SDEF" :
+                  key === "ATK" ? "ATK" :
+                    key === "DEF" ? "DEF" :
+                      key === "SPD" ? "SPD" : key
             }
           </button>
         ))}
