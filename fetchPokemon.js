@@ -2,7 +2,7 @@ import fs from "fs";
 
 async function fetchAllPokemon() {
     const masterList = [];
-    const totalCount = 1026;
+    const totalCount = 52;
 
     const outputDir = "./public/pokemon-data";
     if (!fs.existsSync(outputDir)) {
@@ -41,6 +41,19 @@ async function fetchAllPokemon() {
         isGmax: slug.includes("-gmax")
     });
 
+    const getVariantSlug = (baseName, variants, speciesVarieties) => {
+        const name = baseName.toLowerCase()
+        let target = name
+
+        if (variants.isAlolan) target = `${name}-alola`
+        else if (variants.isHisuian) target = `${name}-hisui`
+        else if (variants.isGalarian) target = `${name}-galar`
+        else if (variants.isPaldean) target = `${name}-paldea`
+        const exists = speciesVarieties.some(v => v.pokeData.name === target)
+
+        return exists ? target : name
+    };
+
     const generationMapping = {
         "red-blue": "RBY", "yellow": "RBY", "gold-silver": "GSC", "crystal": "GSC",
         "ruby-sapphire": "RSE", "emerald": "RSE", "firered-leafgreen": "FRLG",
@@ -71,23 +84,47 @@ async function fetchAllPokemon() {
             const evoRes = await fetch(speciesData.evolution_chain.url);
             const evoChainData = await evoRes.json();
 
-            const parseEvolutionChain = (chain) => {
+            const parseEvolutionChain = (chain, currentVariants, speciesVarieties) => {
                 let evolutions = [];
+
                 function traverse(node) {
                     node.evolves_to.forEach(evolution => {
-                        const allDetails = evolution.evolution_details.map(detail => {
-                            const cleanedDetail = {};
-                            for (const [key, value] of Object.entries(detail)) {
-                                if (!value) continue;
-                                cleanedDetail[key] = (typeof value === "object" && value.name) ? formatStandard(value.name) : value;
-                            }
-                            return cleanedDetail;
-                        });
-                        evolutions.push({
-                            from: formatPokemonName(node.species.name),
-                            to: formatPokemonName(evolution.species.name),
-                            details: allDetails
-                        });
+                        const fromBase = node.species.name;
+                        const toBase = evolution.species.name;
+
+                        // Generate slugs based on whether the current pokemon is a variant
+                        const fromSlug = getVariantSlug(fromBase, currentVariants, speciesVarieties);
+                        const toSlug = getVariantSlug(toBase, currentVariants, speciesVarieties);
+
+                        const isRegionalMatch = (slug, variants) => {
+                            if (variants.isAlolan) return slug.includes("-alola");
+                            if (variants.isGalarian) return slug.includes("-galar") || slug === "perrserker";
+                            if (variants.isHisuian) return slug.includes("-hisui");
+                            if (variants.isPaldean) return slug.includes("-paldea");
+                            // For standard forms, don't allow regional slugs
+                            return !slug.includes("-alola") && !slug.includes("-galar") && !slug.includes("-hisui") && !slug.includes("-paldea");
+                        };
+
+                        if (fromSlug !== toSlug && isRegionalMatch(toSlug, currentVariants)) {
+                            // Corrected syntax for the .map()
+                            const allDetails = (evolution.evolution_details || []).map(detail => {
+                                const cleanedDetail = {};
+                                for (const [key, value] of Object.entries(detail)) {
+                                    if (!value) continue;
+                                    cleanedDetail[key] = (typeof value === "object" && value.name) ? formatStandard(value.name) : value;
+                                }
+                                return cleanedDetail;
+                            }); // Close map here
+                            evolutions.push({
+                                from: formatPokemonName(fromSlug), // Will show "Rattata (Alola)"
+                                fromSlug: fromSlug,
+                                to: formatPokemonName(toSlug),     // Will show "Raticate (Alola)"
+                                toSlug: toSlug,
+                                details: allDetails
+                            });
+                        }
+
+
                         traverse(evolution);
                     });
                 }
@@ -116,7 +153,7 @@ async function fetchAllPokemon() {
 
             for (const item of speciesVarietiesData) {
                 const { variety, pokeData, encountersData } = item;
-                
+
                 const regionalGames = []
                 speciesData.pokedex_numbers.forEach(entry => {
                     const pokedexName = entry.pokedex.name
@@ -132,7 +169,7 @@ async function fetchAllPokemon() {
 
                 const variants = getVariant(pokeData.name);
 
-                let currentEvoChain = parseEvolutionChain(evoChainData.chain);
+                let currentEvoChain = parseEvolutionChain(evoChainData.chain, variants, speciesVarietiesData);
 
                 if (variety.is_default) {
                     speciesVarietiesData.forEach(other => {
