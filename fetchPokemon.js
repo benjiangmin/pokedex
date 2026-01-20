@@ -13,6 +13,7 @@ async function fetchAllPokemon() {
 
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
+
     for (let id = 1; id <= totalCount; id++) {
         console.log(`Processing Species #${id}`);
         try {
@@ -40,6 +41,7 @@ async function fetchAllPokemon() {
                 
                 let currentEvoChain = parseEvolutionChain(evoChainData.chain);
                 currentEvoChain = injectMegaGmaxEvolutions(currentEvoChain, variety, speciesVarietiesData, baseVarietyObj);
+
 
                 const movesByGeneration = parseMovesByGeneration(pokeData.moves);
                 const locationDataByVersion = parseLocationData(encountersData);

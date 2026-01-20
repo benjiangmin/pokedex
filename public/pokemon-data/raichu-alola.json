@@ -31,18 +31,10 @@
   ],
   "evolutionChain": [
     {
-      "from": "Pichu",
-      "to": "Pikachu",
-      "details": [
-        {
-          "min_happiness": 220,
-          "trigger": "Level Up"
-        }
-      ]
-    },
-    {
       "from": "Pikachu",
-      "to": "Raichu",
+      "fromSlug": "pikachu",
+      "to": "Raichu (Alola)",
+      "toSlug": "raichu-alola",
       "details": [
         {
           "item": "Thunder Stone",
