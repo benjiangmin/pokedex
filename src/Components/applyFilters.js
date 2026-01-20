@@ -14,6 +14,14 @@ export const applyFilters = (data, rules) => {
 
         //Delete the Pikachu cap variants here too, and ash greninja
         if (pokemon.slug.includes("-cap")) return false
+        if (pokemon.slug.includes("-rock-star")) return false
+        if (pokemon.slug.includes("-pop-star")) return false
+        if (pokemon.slug.includes("-phd")) return false
+        if (pokemon.slug.includes("-libre")) return false
+        if (pokemon.slug.includes("-cosplay")) return false
+        if (pokemon.slug.includes("-starter")) return false
+        if (pokemon.slug.includes("-belle")) return false
+
         if (pokemon.slug.includes("-ash")) return false
 
         // Types Check
