@@ -83,15 +83,8 @@ export default function App() {
 // features i need to add:
 // 1. sort by region name (alola, galar) - pretty much just the generation, but make sure 
 //    "pokemon from alola" and "alolan pokemon" are different. one is the generation, the other is the variants.
-<<<<<<< HEAD
 // 3. have the variants have their own evolution line 
 // 4. have variants have their own descriptions
-=======
-// 2. have the sorting button not reset when coming back from a page
-// 3. have the variants have their own evolution line 
-// 4. have variants have their own descriptions
-// be able to access variants from pokemon page
->>>>>>> 326121ad282caa24f5e2c020ca7c177604959e24
 // 6. fix aegislash
 // 7. fix whatever zygarde is
 // 8. dont display pikachu variants
