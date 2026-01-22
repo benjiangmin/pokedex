@@ -88,4 +88,4 @@ export default function App() {
 // 6. fix aegislash
 // 7. fix whatever zygarde is
 // 8. dont display pikachu variants
-//  fix displayed pokemon not rerendering if they get the description of the last one
+//  fix displayed pokemon not rerendering if they fit the description of the last one
