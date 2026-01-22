@@ -30,15 +30,18 @@ function Model({ url }) {
 export default function PokemonModel({ pokemon, toggleShiny, shiny }) {
     const [finalUrl, setFinalUrl] = useState(null)
     const [isLoading, setIsLoading] = useState(true)
+    const [showOverlay, setShowOverlay] = useState(false)
 
     useEffect(() => {
         const checkModels = async () => {
             setIsLoading(true)
-            const baseUrl = `https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/glb`            
-            
+            setShowOverlay(true)
+
+            const baseUrl = `https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/glb`
+
             const currentFolder = getFolder(pokemon, shiny)
             const currentUrl = `${baseUrl}/${currentFolder}/${pokemon.id}.glb`
-            
+
             try {
                 const res = await fetch(currentUrl, { method: 'HEAD' })
                 if (res.ok) {
@@ -54,7 +57,10 @@ export default function PokemonModel({ pokemon, toggleShiny, shiny }) {
             } catch {
                 setFinalUrl(null)
             } finally {
-                setIsLoading(false)
+                setTimeout(() => {
+                    setIsLoading(false)
+                    setShowOverlay(false)
+                }, 600)
             }
         }
 
@@ -66,7 +72,9 @@ export default function PokemonModel({ pokemon, toggleShiny, shiny }) {
     const opacity = shiny ? "1" : 0.5
 
     return (
-        <div className="three-d-model-container">
+        <div className="three-d-model-container" style={{ position: 'relative', overflow: 'hidden' }}>            
+        <div className={`overlay ${showOverlay ? "visible-overlay" : ""}`}/>
+    
             {!finalUrl && !isLoading ? (
                 <div className="fallback">
                     <img
@@ -89,12 +97,12 @@ export default function PokemonModel({ pokemon, toggleShiny, shiny }) {
                 </Canvas>
             )}
 
-            <img 
-                src={shinyIcon} 
-                className="shiny-button" 
-                onClick={toggleShiny} 
+            <img
+                src={shinyIcon}
+                className="shiny-button"
+                onClick={toggleShiny}
                 alt="shiny toggle"
-                style={{opacity:`${opacity}`}}
+                style={{ opacity: `${opacity}` }}
             />
         </div>
     )
