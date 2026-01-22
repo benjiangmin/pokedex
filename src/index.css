@@ -539,6 +539,44 @@ main {
 
 
 
+.variants-container {
+    position: absolute;
+    width: 100%;
+    top: -40px;
+    left: 10px;
+}
+.variants-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: left;
+}
+.variant-card {
+    background-color: rgb(119, 106, 98);
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;    
+    transition: outline 0.1s ease;
+}
+.variant-card > h3 {
+    margin: 0px;
+    font-size: clamp(0.2rem, 1.3vw, 1rem);
+    font-family: "Sour Gummy";
+    font-weight: 200;
+    color: #131212;
+}
+.variant-card:hover {
+    cursor: pointer;
+    outline: 2px solid antiquewhite;
+}
+.active-variant {
+    background-color: #a77551;
+}
+.active-variant > h3 {
+    color: antiquewhite;
+}
+
+
 
 
 .stats-container {

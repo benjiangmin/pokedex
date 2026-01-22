@@ -25,6 +25,7 @@ import DetailedStatsBar from "./DetailedStatsBar"
 import PokemonModel from "./PokemonModel"
 import PreviousEvolution from "./PreviousEvolution"
 import NextEvolution from "./NextEvolution"
+import VariantsBar from "./VariantsBar"
 
 export default function Header() {
     const [shiny, setShiny] = useState(false)
@@ -72,6 +73,7 @@ export default function Header() {
             <PokemonModel pokemon={pokemon} toggleShiny={toggleShiny} shiny={shiny}/>
 
             <div className="stats-container">
+                <VariantsBar pokemon={pokemon} allPokemon={pokemonData}/>
                 <DetailedStatsBar stats={pokemon.base} />
                 <div className="weights-heights-container">
                     <p>introduced in gen {generation}</p>
