@@ -1001,7 +1001,13 @@ main {
     padding-right: 5px;
 }
 .move-details-container {
-
+    font-family: "Sour Gummy";
+    font-size: 1rem;
+    font-weight: 100;
+    color: rgb(245, 229, 209);
+    text-align: right;
+    padding-right: 10px;
+    flex-grow: 1;
 }
 .move-and-level {
     display: flex;
@@ -1010,6 +1016,8 @@ main {
     box-sizing: border-box;
     padding: 5px;
     width: 200px;
+    margin-right: 20px;
+    flex-shrink: 0;
 }
 .move-and-level > p {
     margin: 0px 10px 0px 0px;

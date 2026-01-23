@@ -24,6 +24,8 @@ import special from "../Images/move-special.png"
 import physical from "../Images/move-physical.png"
 import status from "../Images/move-status.png"
 
+import MoveDetails from "./MoveDetails";
+
 export default function MovesLogicEgg({ pokemon }) {
     const typeImages = {
         Bug: bug, Dark: dark, Dragon: dragon, Electric: electric, Fairy: fairy,
@@ -40,6 +42,7 @@ export default function MovesLogicEgg({ pokemon }) {
         .filter(gen => pokemon.moves[gen].some(move => move.learn_method === "egg"));
 
     const [genIndex, setGenIndex] = useState(generations.length - 1);
+    const [activeMove, setActiveMove] = useState(null)
 
     useEffect(() => {
         setGenIndex(generations.length - 1);
@@ -75,6 +78,18 @@ export default function MovesLogicEgg({ pokemon }) {
         setGenIndex((prevIndex) => (prevIndex + 1) % generations.length);
     };
 
+    const showDetails = (moveName) => {
+        if (activeMove === moveName) {
+            setActiveMove(null)
+        } else {
+            setActiveMove(moveName)
+        }
+    }
+
+    const hideDetails = () => {
+        setActiveMove(null)
+    }
+
     return (
         <section className="moves-logic-container">
             <section onClick={handleCycleGen} className="moves-logic-header">
@@ -91,18 +106,21 @@ export default function MovesLogicEgg({ pokemon }) {
                             (m) => m.name.toLowerCase() === move.name.toLowerCase()
                         );
 
-                        return (
-                            <section className="move-row" key={`${currentGenName}-${move.name}-${index}`}>
-                                <section className="move-and-level">
-                                    <h4 style={{ paddingLeft: "20px" }}>{move.name}</h4>
-                                </section>
+                        const isShowing = activeMove == move.name
 
-                                <section className="type-and-category">
+                        return (
+                            <section onMouseLeave={hideDetails} className="move-row" key={`${currentGenName}-${move.name}-${index}`}>
+                                <section className="move-and-level">
+                                    <h4 onClick={() => showDetails(move.name)} style={{ paddingLeft: "20px" }}>{move.name}</h4>
+                                </section>
+                                {isShowing && <MoveDetails move={moveDetails} />}
+
+                                {!isShowing && <section className="type-and-category">
                                     <img className="move-type-icons" src={typeImages[moveDetails?.type]} />
                                     <img className="status-icons" src={categoryImages[moveDetails?.damage_class]} />
-                                </section>
+                                </section>}
 
-                                <section className="power-and-accuracy">
+                                {!isShowing && <section className="power-and-accuracy">
                                     <section className="pow-acc-wrapper">
                                         <p>pow</p>
                                         <h4>{moveDetails?.power || "-"}</h4>
@@ -111,7 +129,7 @@ export default function MovesLogicEgg({ pokemon }) {
                                         <p>acc</p>
                                         <h4>{moveDetails?.accuracy || "-"}</h4>
                                     </section>
-                                </section>
+                                </section>}
                             </section>
                         );
                     })
