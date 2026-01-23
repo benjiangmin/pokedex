@@ -77,11 +77,6 @@ export default function PokemonModel({ pokemon, toggleShiny, shiny }) {
     
             {!finalUrl && !isLoading ? (
                 <div className="fallback">
-                    <img
-                        src={pokemon.sprites.static}
-                        alt={pokemon.name.english}
-                        style={{ height: "60px" }}
-                    />
                     <p style={{ color: '#4b4440', fontSize: '0.8rem' }}>3D model unavailable</p>
                 </div>
             ) : (

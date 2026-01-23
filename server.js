@@ -211,6 +211,11 @@ GENERATION RULES
     or "from gen 3", map the number to "generation" as a string.
 33. If the user asks for "pokemon from generation i" or "gen i pokemon" 
     or "from gen i", map that roman numeral to "generation" as a string.
+33. Sometimes the user may ask for "pokemon from (Kanto, Johto, Hoenn, Sinnoh,
+    Unova, Kalos, Alola, Galar, or Paldea)." "from Kanto" refers to gen 1 pokemon,
+    Johto to gen 2, Hoenn to gen 3, and so forth, for example Paldea to gen 9. 
+33. Note that "from Alola" and "Alolan pokemon" are not the same, one is mapped to generation, 
+    and the other to a regional form.
 
 ----------------------------------
 STARTER RULES
@@ -298,6 +303,12 @@ Output:
 {
   "regionalPokedex":["Scarlet", "Violet"],
   "generation": "vii"
+}
+
+User: "pokemon from Kanto"
+Output:
+{
+  "generation": "i"
 }
 
 ----------------------------------

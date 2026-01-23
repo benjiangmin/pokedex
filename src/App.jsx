@@ -84,9 +84,9 @@ export default function App() {
 
 
 // features i need to add:
-// 1. sort by region name (alola, galar) - pretty much just the generation, but make sure 
-//    "pokemon from alola" and "alolan pokemon" are different. one is the generation, the other is the variants.
 // 3. have the variants have their own evolution line 
 // 4. have variants have their own descriptions
 // 6. fix aegislash
 // 7. fix whatever zygarde is
+// add move details
+// 8. put page online!!!!
