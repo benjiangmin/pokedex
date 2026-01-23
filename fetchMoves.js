@@ -47,7 +47,6 @@ async function fetchAllMoves() {
             }
         }
 
-        // 4. Save to JSON
         fs.writeFileSync("./moves.json", JSON.stringify(allMoves, null, 2));
         console.log("Moves file created successfully!");
 

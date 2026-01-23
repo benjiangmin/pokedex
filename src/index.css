@@ -1000,6 +1000,9 @@ main {
     box-sizing: border-box;
     padding-right: 5px;
 }
+.move-details-container {
+
+}
 .move-and-level {
     display: flex;
     align-items: center;
@@ -1022,7 +1025,12 @@ main {
     margin: 0px;
     font-family: "Sour Gummy";
     font-weight: 200;
-    color: antiquewhite
+    color: antiquewhite;
+    transition: font-weight 0.2s ease
+}
+.move-and-level > h4:hover {
+    cursor: pointer;
+    font-weight: 500;
 }
 .move-type-icons {
     height: 25px;
