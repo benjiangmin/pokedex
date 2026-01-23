@@ -35,6 +35,8 @@ export default function HelpfulBar(props) {
                     setResults={props.setResults}
                     currentFilter={props.currentFilter}
                     setCurrentFilter={props.setCurrentFilter}
+                    ascending={props.ascending}
+                    setAscending={props.setAscending}
                 />
                 <section className="reset-buttons-container">
                     <button onClick={props.resetSearch}>clear search</button>

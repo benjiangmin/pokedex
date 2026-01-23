@@ -1,8 +1,4 @@
-import { useState } from "react"
-
 export default function SortingFunctions(props) {
-  const [ascending, setAscending] = useState(true)
-
   const statMap = {
     HP: "HP",
     ATK: "Attack",
@@ -17,19 +13,20 @@ export default function SortingFunctions(props) {
     let newDirection;
 
     if (props.currentFilter === filterKey) {
-      newDirection = !ascending;
+      newDirection = !props.ascending;
     } else {
-      newDirection = false;
+      newDirection = false; 
       props.setCurrentFilter(filterKey);
     }
 
     const sorted = [...props.results].sort((a, b) => {
       return newDirection
-        ? a.base[dataKey] - b.base[dataKey]  
-        : b.base[dataKey] - a.base[dataKey]; 
+        ? a.base[dataKey] - b.base[dataKey]
+        : b.base[dataKey] - a.base[dataKey];
     });
 
-    setAscending(newDirection);
+    props.setAscending(newDirection);
+    
     props.setResults([]);
     setTimeout(() => {
       props.setResults(sorted);
@@ -42,17 +39,13 @@ export default function SortingFunctions(props) {
         {Object.keys(statMap).map((key) => (
           <button
             key={key}
-
-            className={props.currentFilter === key ? `current-filter ${ascending ? "ascending" : "descending"}` : ""}
+            className={props.currentFilter === key 
+              ? `current-filter ${props.ascending ? "ascending" : "descending"}` 
+              : ""
+            }
             onClick={() => handleSort(key)}
           >
-            sort {
-              key === "SATK" ? "SATK" :
-                key === "SDEF" ? "SDEF" :
-                  key === "ATK" ? "ATK" :
-                    key === "DEF" ? "DEF" :
-                      key === "SPD" ? "SPD" : key
-            }
+            sort {key}
           </button>
         ))}
       </section>

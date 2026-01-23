@@ -59,6 +59,8 @@ export default function InputBar(props) {
                     resetSearch={props.resetSearch}
                     currentFilter={props.currentFilter}
                     setCurrentFilter={props.setCurrentFilter}
+                    ascending={props.ascending}
+                    setAscending={props.setAscending}
                 />
             </section>
         </section>

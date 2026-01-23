@@ -5,10 +5,11 @@ import pokeballLoading from "./Images/pokeballLoadingV4.gif"
 
 export default function DisplayPokemon({ results, loading }) {
     const displayList = results || [];
-    
-    const toDisplay = displayList.map((pokemon, index) => (
-        <PokemonEntry key={pokemon.slug} pokemon={pokemon} index={index} />
-    ));
+
+    const toDisplay = !loading ?
+        displayList.map((pokemon, index) => (
+            <PokemonEntry key={pokemon.slug} pokemon={pokemon} index={index} />
+        )) : []
 
     const filler = (
         <section style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>    

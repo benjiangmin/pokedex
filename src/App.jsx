@@ -13,6 +13,7 @@ export default function App() {
   const [query, setQuery] = useState()
   const [aiResults, setAiResults] = useState(null)
   const [currentFilter, setCurrentFilter] = useState("")
+  const [ascending, setAscending] = useState(true)
   const [loading, setLoading] = useState(false)
 
   const performSearch = async (userPrompt) => {
@@ -58,6 +59,8 @@ export default function App() {
                 resetSearch={handleReset}
                 currentFilter={currentFilter}
                 setCurrentFilter={setCurrentFilter}
+                ascending={ascending}
+                setAscending={setAscending}
                 performSearch={performSearch}
                 prompt={query}
               />
@@ -87,5 +90,3 @@ export default function App() {
 // 4. have variants have their own descriptions
 // 6. fix aegislash
 // 7. fix whatever zygarde is
-// 8. dont display pikachu variants
-//  fix displayed pokemon not rerendering if they fit the description of the last one
