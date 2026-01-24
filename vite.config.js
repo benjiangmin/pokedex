@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: './',
   resolve: {
-    dedupe: ['react', 'react-dom'], // <--- ADD THIS BLOCK
+    dedupe: ['react', 'react-dom'], 
   },
 })
