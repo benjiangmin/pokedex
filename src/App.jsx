@@ -4,7 +4,7 @@ import DisplayPokemon from "./Components/DisplayPokemon"
 import PokemonPage from "./Components/PokemonPage"
 
 import { applyFilters } from "./Components/applyFilters"
-import pokemonData from "../public/pokedex-master.json"
+import pokemonData from "../pokedex-master.json"
 import { useState } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 

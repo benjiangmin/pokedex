@@ -20,7 +20,7 @@ import water from "../Images/water.png"
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 
-import pokemonData from "../../../public/pokedex-master.json"
+import pokemonData from "../../../pokedex-master.json"
 import DetailedStatsBar from "./DetailedStatsBar"
 import PokemonModel from "./PokemonModel"
 import PreviousEvolution from "./PreviousEvolution"

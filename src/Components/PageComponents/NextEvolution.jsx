@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import pokemonData from "../../../public/pokedex-master.json"
+import pokemonData from "../../../pokedex-master.json"
 import rightArrow from "../Images/right.png"
 
 export default function NextEvolution({ pokemon }) {
