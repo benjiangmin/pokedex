@@ -221,8 +221,16 @@ GENERATION RULES
 33. Sometimes the user may ask for "pokemon from (Kanto, Johto, Hoenn, Sinnoh,
     Unova, Kalos, Alola, Galar, or Paldea)." "from Kanto" refers to gen 1 pokemon,
     Johto to gen 2, Hoenn to gen 3, and so forth, for example Paldea to gen 9. 
-33. Note that "from Alola" and "Alolan pokemon" are not the same, one is mapped to generation, 
-    and the other to a regional form.
+33. Note that "from Alola" should NEVER be mapped as "isAlolan" : true. Instead, "from Alola" 
+    should be mapped as "generation": "vii".
+34. "from [Region]" refers ONLY to the generation/origin, NOT the regional form.
+    - "from Alola" → "generation": "vii" (NOT isAlolan: true)
+    - "from Galar" → "generation": "viii" (NOT isGalarian: true)
+    - "from Paldea" → "generation": "ix" (NOT isPaldean: true)
+35. Regional form flags (isAlolan, isGalarian, etc.) should ONLY be set when the user 
+    explicitly says "Alolan pokemon", "Galarian pokemon", etc.
+    - "Alolan Raichu" → isAlolan: true
+    - "from Alola" → generation: "vii" (NOT isAlolan)
 
 ----------------------------------
 STARTER RULES
@@ -316,6 +324,13 @@ User: "pokemon from Kanto"
 Output:
 {
   "generation": "i"
+}
+
+User: "grass types from alola"
+Output:
+{
+  "generation": "vii"
+  "types": ["grass"]
 }
 
 ----------------------------------
