@@ -32,5 +32,324 @@
         ]
       }
     ]
+  },
+  "meowth-galar": {
+    "evolutionChain": [
+      {
+        "from": "Meowth (Galar)",
+        "fromSlug": "meowth-galar",
+        "to": "Perrserker",
+        "toSlug": "perrserker",
+        "details": [
+          { "min_level": 28, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+    "persian": {
+    "evolutionChain": [
+      {
+        "from": "Meowth",
+        "fromSlug": "meowth",
+        "to": "Persian",
+        "toSlug": "persian",
+        "details": [
+          { "min_level": 28, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+    "persian-alola": {
+    "evolutionChain": [
+      {
+        "from": "Meowth (Alola)",
+        "fromSlug": "meowth-alola",
+        "to": "Persian (Alola)",
+        "toSlug": "persian-alola",
+        "details": [
+          { "min_happiness": 160, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+    "perrserker": {
+    "evolutionChain": [
+      {
+        "from": "Meowth (Galar)",
+        "fromSlug": "meowth-galar",
+        "to": "Perrserker",
+        "toSlug": "perrserker",
+        "details": [
+          { "min_level": 28, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+    "rattata": {
+    "evolutionChain": [
+      {
+        "from": "Rattata",
+        "fromSlug": "rattata",
+        "to": "Raticate",
+        "toSlug": "raticate",
+        "details": [
+          { "min_level": 20, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+  "raticate": {
+    "evolutionChain": [
+      {
+        "from": "Rattata",
+        "fromSlug": "rattata",
+        "to": "Raticate",
+        "toSlug": "raticate",
+        "details": [
+          { "min_level": 20, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+  
+    "rattata-alola": {
+    "evolutionChain": [
+      {
+        "from": "Rattata (Alola)",
+        "fromSlug": "rattata-alola",
+        "to": "Raticate (Alola)",
+        "toSlug": "raticate-alola",
+        "details": [
+          { "min_level": 20, "trigger": "Level Up (Night)" }
+        ]
+      }
+    ]
+  },
+    "raticate-alola": {
+    "evolutionChain": [
+      {
+        "from": "Rattata (Alola)",
+        "fromSlug": "rattata-alola",
+        "to": "Raticate (Alola)",
+        "toSlug": "raticate-alola",
+        "details": [
+          { "min_level": 20, "trigger": "Level Up (Night)" }
+        ]
+      }
+    ]
+  },
+  "sandshrew": { "evolutionChain": [{ "from": "Sandshrew", "fromSlug": "sandshrew", "to": "Sandslash", "toSlug": "sandslash", "details": [{ "min_level": 22, "trigger": "Level Up" }] }] },
+  "sandslash": { "evolutionChain": [{ "from": "Sandshrew", "fromSlug": "sandshrew", "to": "Sandslash", "toSlug": "sandslash", "details": [{ "min_level": 22, "trigger": "Level Up" }] }] },
+    "sandshrew-alola": {
+    "evolutionChain": [
+      {
+        "from": "Sandshrew (Alola)",
+        "fromSlug": "sandshrew-alola",
+        "to": "Sandslash (Alola)",
+        "toSlug": "sandslash-alola",
+        "details": [
+          { "item": "Ice Stone", "trigger": "Use Item" }
+        ]
+      }
+    ]
+  },
+    "sandslash-alola": {
+    "evolutionChain": [
+      {
+        "from": "Sandshrew (Alola)",
+        "fromSlug": "sandshrew-alola",
+        "to": "Sandslash (Alola)",
+        "toSlug": "sandslash-alola",
+        "details": [
+          { "item": "Ice Stone", "trigger": "Use Item" }
+        ]
+      }
+    ]
+  },
+  "vulpix": { "evolutionChain": [{ "from": "Vulpix", "fromSlug": "vulpix", "to": "Ninetales", "toSlug": "ninetales", "details": [{ "item": "Fire Stone", "trigger": "Use Item" }] }] },
+  "ninetales": { "evolutionChain": [{ "from": "Vulpix", "fromSlug": "vulpix", "to": "Ninetales", "toSlug": "ninetales", "details": [{ "item": "Fire Stone", "trigger": "Use Item" }] }] },
+    "vulpix-alola": {
+    "evolutionChain": [
+      {
+        "from": "Vulpix (Alola)",
+        "fromSlug": "vulpix-alola",
+        "to": "Ninetales (Alola)",
+        "toSlug": "ninetales-alola",
+        "details": [
+          { "item": "Ice Stone", "trigger": "Use Item" }
+        ]
+      }
+    ]
+  },
+  "ninetales-alola": {
+    "evolutionChain": [
+      {
+        "from": "Vulpix (Alola)",
+        "fromSlug": "vulpix-alola",
+        "to": "Ninetales (Alola)",
+        "toSlug": "ninetales-alola",
+        "details": [
+          { "item": "Ice Stone", "trigger": "Use Item" }
+        ]
+      }
+    ]
+  },
+  "pikachu": { "evolutionChain": [{ "from": "Pikachu", "fromSlug": "pikachu", "to": "Raichu", "toSlug": "raichu", "details": [{ "item": "Thunder Stone", "trigger": "Use Item" }] }, { "from": "Pikachu", "fromSlug": "pikachu", "to": "Raichu (Alola)", "toSlug": "raichu-alola", "details": [{ "item": "Thunder Stone", "trigger": "Use Item", "location": "Alola" }] }] },
+    "raichu-alola": {
+    "evolutionChain": [
+      {
+        "from": "Pikachu",
+        "fromSlug": "pikachu",
+        "to": "Raichu (Alola)",
+        "toSlug": "raichu-alola",
+        "details": [
+          { "item": "Thunder Stone", "trigger": "Use Item", "location": "Alola" }
+        ]
+      }
+    ]
+  },
+   "diglett-alola": {
+    "evolutionChain": [
+      {
+        "from": "Diglett (Alola)",
+        "fromSlug": "diglett-alola",
+        "to": "Dugtrio (Alola)",
+        "toSlug": "dugtrio-alola",
+        "details": [
+          { "min_level": 26, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+   "dugtrio-alola": {
+    "evolutionChain": [
+      {
+        "from": "Diglett (Alola)",
+        "fromSlug": "diglett-alola",
+        "to": "Dugtrio (Alola)",
+        "toSlug": "dugtrio-alola",
+        "details": [
+          { "min_level": 26, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+    "geodude-alola": {
+    "evolutionChain": [
+      {
+        "from": "Geodude (Alola)",
+        "fromSlug": "geodude-alola",
+        "to": "Graveler (Alola)",
+        "toSlug": "graveler-alola",
+        "details": [
+          { "min_level": 25, "trigger": "Level Up" }
+        ]
+      },
+      {
+        "from": "Graveler (Alola)",
+        "fromSlug": "graveler-alola",
+        "to": "Golem (Alola)",
+        "toSlug": "golem-alola",
+        "details": [
+          { "trigger": "Trade" }
+        ]
+      }
+    ]
+  },
+   "graveler-alola": {
+    "evolutionChain": [
+      {
+        "from": "Geodude (Alola)",
+        "fromSlug": "geodude-alola",
+        "to": "Graveler (Alola)",
+        "toSlug": "graveler-alola",
+        "details": [
+          { "min_level": 25, "trigger": "Level Up" }
+        ]
+      },
+      {
+        "from": "Graveler (Alola)",
+        "fromSlug": "graveler-alola",
+        "to": "Golem (Alola)",
+        "toSlug": "golem-alola",
+        "details": [
+          { "trigger": "Trade" }
+        ]
+      }
+    ]
+  },
+  "golem-alola": {
+    "evolutionChain": [
+      {
+        "from": "Geodude (Alola)",
+        "fromSlug": "geodude-alola",
+        "to": "Graveler (Alola)",
+        "toSlug": "graveler-alola",
+        "details": [
+          { "min_level": 25, "trigger": "Level Up" }
+        ]
+      },
+      {
+        "from": "Graveler (Alola)",
+        "fromSlug": "graveler-alola",
+        "to": "Golem (Alola)",
+        "toSlug": "golem-alola",
+        "details": [
+          { "trigger": "Trade" }
+        ]
+      }
+    ]
+  },
+  "grimer-alola": {
+    "evolutionChain": [
+      {
+        "from": "Grimer (Alola)",
+        "fromSlug": "grimer-alola",
+        "to": "Muk (Alola)",
+        "toSlug": "muk-alola",
+        "details": [
+          { "min_level": 38, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+  "muk-alola": {
+    "evolutionChain": [
+      {
+        "from": "Grimer (Alola)",
+        "fromSlug": "grimer-alola",
+        "to": "Muk (Alola)",
+        "toSlug": "muk-alola",
+        "details": [
+          { "min_level": 38, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+  "exeggutor-alola": {
+    "evolutionChain": [
+      {
+        "from": "Exeggcute",
+        "fromSlug": "exeggcute",
+        "to": "Exeggutor (Alola)",
+        "toSlug": "exeggutor-alola",
+        "details": [
+          { "item": "Leaf Stone", "trigger": "Use Item", "location": "Alola"}
+        ]
+      }
+    ]
+  },
+   "marowak-alola": {
+    "evolutionChain": [
+      {
+        "from": "Cubone",
+        "fromSlug": "cubone",
+        "to": "Marowak (Alola)",
+        "toSlug": "marowak-alola",
+        "details": [
+          { "min_level": 28, "trigger": "Level Up (Night)" }
+        ]
+      }
+    ]
   }
 }

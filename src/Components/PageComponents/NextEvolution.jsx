@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import pokemonData from "../../../pokedex-master.json"
+import pokemonData from "../../../pokedex-master.json" 
 import rightArrow from "../Images/right.png"
 
 export default function NextEvolution({ pokemon }) {
@@ -12,14 +12,14 @@ export default function NextEvolution({ pokemon }) {
     return (
         <section className="next-evolution-logic-container">
             {nextEvos.map((evo, idx) => {
-                const nextPokemon = pokemonData.find(p => p.name.english === evo.to)
+                const targetSlug = evo.toSlug || pokemonData.find(p => p.name.english === evo.to)?.slug;
 
                 return (
                     <Link
                         key={idx}
                         className="link-to-evo-container next"
                         style={{ textDecoration: "none" }}
-                        to={`/pokemon/${evo.toSlug}`}
+                        to={`/pokemon/${targetSlug}`}
                     >
                         <section style={{ display: "flex", gap: "3px", justifyContent: "left", alignItems: "center" }}>
                             <p className="next-evolution-link">{`evolves into ${evo.to}`}</p>

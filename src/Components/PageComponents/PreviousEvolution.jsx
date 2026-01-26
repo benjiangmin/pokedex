@@ -1,25 +1,25 @@
 import { Link } from "react-router-dom"
-import pokemonData from "../../../pokedex-master.json";
-
+import pokemonData from "../../../pokedex-master.json" 
 import leftArrow from "../Images/left.png"
 
 export default function PreviousEvolution({ pokemon }) {
     const prevEvo = pokemon.evolutionChain.find(evo => (
         evo.to === pokemon.name.english
     ))
+
     if (!prevEvo) return null
 
-    const prevPokemon = pokemonData.find(p => p.name.english === prevEvo.from)
+    const targetSlug = prevEvo.fromSlug || pokemonData.find(p => p.name.english === prevEvo.from)?.slug;
 
     return (
         <section className="evolution-logic-container">
             <Link
                 className="link-to-evo-container"
                 style={{ textDecoration: "none" }}
-                to={`/pokemon/${prevPokemon?.slug}`}
+                to={`/pokemon/${targetSlug}`}
             >
                 <section style={{ display: "flex", gap: "3px", justifyContent: "right", alignItems: "center" }}>
-                    <img src={leftArrow} className="left-arrow" />
+                    <img src={leftArrow} className="left-arrow" alt="back" />
                     <p className="prev-evolution-link">{`evolves from ${prevEvo.from}`}</p>
                 </section>
                 <div className="prev-evolution-requirements">
