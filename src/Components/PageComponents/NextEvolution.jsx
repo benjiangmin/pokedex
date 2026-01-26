@@ -19,7 +19,6 @@ export default function NextEvolution({ pokemon }) {
                         key={idx}
                         className="link-to-evo-container next"
                         style={{ textDecoration: "none" }}
-                        // Use the toSlug from the evolution object directly!
                         to={`/pokemon/${evo.toSlug}`}
                     >
                         <section style={{ display: "flex", gap: "3px", justifyContent: "left", alignItems: "center" }}>
