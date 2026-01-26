@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import Header from "./PageComponents/Header"
 import InformationBody from "./PageComponents/InformationBody"
 
-export default function PokemonPage() {
+export default function PokemonPage({ allPokemon }) {
     const { slug } = useParams()
 
     const [pokemon, setPokemon] = useState(null)
@@ -15,10 +15,20 @@ export default function PokemonPage() {
         document.body.style.backgroundColor = "#2a2a2a"
 
         setLoading(true)
-        fetch(`/pokemon-data/${slug}.json`)
-            .then(res => res.json())
-            .then(data => {
-                setPokemon(data)
+        Promise.all([
+            fetch(`/pokemon-data/${slug}.json`).then(res => res.json()),
+            fetch(`/pokemon-data/custom-data/custom-data.json`).then(res => res.json())
+        ])
+            .then(([standardData, allCustomData]) => {
+                const override = allCustomData[slug.toLowerCase()] || {}
+                console.log("Merging Override:", override); 
+
+                const mergedPokemon = {
+                    ...standardData,
+                    ...override
+                }
+
+                setPokemon(mergedPokemon)
                 setLoading(false)
             })
             .catch(err => {
@@ -45,7 +55,7 @@ export default function PokemonPage() {
             gap: "40px",
         }}>
             <Link to="/" className="home-button">home</Link>
-            <Header />
+            <Header pokemon={pokemon} allPokemon={allPokemon} />
             <InformationBody pokemon={pokemon} />
         </section>
     )

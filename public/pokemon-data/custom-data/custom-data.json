@@ -1,0 +1,60 @@
+{
+    "meowth": {
+        "evolutionChain": [
+            {
+                "from": "Meowth",
+                "fromSlug": "meowth",
+                "to": "Persian",
+                "toSlug": "persian",
+                "details": [
+                    {
+                        "min_level": 28,
+                        "trigger": "Level Up"
+                    }
+                ]
+            },
+            {
+                "from": "Meowth",
+                "fromSlug": "meowth",
+                "to": "Meowth (Gmax)",
+                "toSlug": "meowth-gmax",
+                "details": [
+                    {
+                        "trigger": "Gigantamax"
+                    }
+                ]
+            }
+        ]
+    },
+    "meowth-alola": {
+        "evolutionChain": [
+            {
+                "from": "Meowth (Alola)",
+                "fromSlug": "meowth-alola",
+                "to": "Persian (Alola)",
+                "toSlug": "persian-alola",
+                "details": [
+                    {
+                        "min_happiness": 160,
+                        "trigger": "Level Up"
+                    }
+                ]
+            }
+        ]
+    },
+    "persian-alola": {
+    "evolutionChain": [
+      { "from": "Meowth (Alola)", "fromSlug": "meowth-alola", "to": "Persian (Alola)", "toSlug": "persian-alola", "details": [{ "min_happiness": 160, "trigger": "Level Up" }] }
+    ]
+    },
+"persian": {
+    "evolutionChain": [
+      { "from": "Meowth", "fromSlug": "meowth", "to": "Persian", "toSlug": "persian", "details": [{ "min_level": 28, "trigger": "Level Up" }] }
+    ]
+  },
+  "perrserker": {
+    "evolutionChain": [
+      { "from": "Meowth (Galar)", "fromSlug": "meowth-galar", "to": "Perrserker", "toSlug": "perrserker", "details": [{ "min_level": 28, "trigger": "Level Up" }] }
+    ]
+  }
+}

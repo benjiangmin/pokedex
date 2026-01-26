@@ -72,7 +72,7 @@ export default function App() {
             </>
           } />
 
-          <Route path="/pokemon/:slug" element={<PokemonPage />} />
+          <Route path="/pokemon/:slug" element={<PokemonPage allPokemon={pokemonData}/>} />
         </Routes>
       </main>
     </BrowserRouter>

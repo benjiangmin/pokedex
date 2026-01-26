@@ -17,21 +17,16 @@ import rock from "../Images/rock.png"
 import steel from "../Images/steel.png"
 import water from "../Images/water.png"
 
-import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
 
-import pokemonData from "../../../pokedex-master.json"
 import DetailedStatsBar from "./DetailedStatsBar"
 import PokemonModel from "./PokemonModel"
 import PreviousEvolution from "./PreviousEvolution"
 import NextEvolution from "./NextEvolution"
 import VariantsBar from "./VariantsBar"
 
-export default function Header() {
+export default function Header({ pokemon, allPokemon }) {
     const [shiny, setShiny] = useState(false)
-
-    const { slug } = useParams()
-    const pokemon = pokemonData.find(pokemon => pokemon.slug === slug)
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -73,7 +68,7 @@ export default function Header() {
             <PokemonModel pokemon={pokemon} toggleShiny={toggleShiny} shiny={shiny}/>
 
             <div className="stats-container">
-                <VariantsBar pokemon={pokemon} allPokemon={pokemonData}/>
+                <VariantsBar pokemon={pokemon} allPokemon={allPokemon}/>
                 <DetailedStatsBar stats={pokemon.base} />
                 <div className="weights-heights-container">
                     <p>introduced in gen {generation}</p>
