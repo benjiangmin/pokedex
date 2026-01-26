@@ -88,4 +88,4 @@ export default function App() {
 // 4. have variants have their own descriptions
 // 6. fix aegislash
 // 7. fix whatever zygarde is
-// 8. put page online!!!!
+// test meowth first for variants
