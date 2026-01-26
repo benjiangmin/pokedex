@@ -3,11 +3,18 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import OpenAI from 'openai';
 
+import path from "path";
+import { fileURLToPath } from 'url';
+
 dotenv.config();
+
+const __fileName = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__fileName);
 
 const app = express();
 app.use(cors()); // This allows your Vite app (port 5173) to talk to this server (port 3001)
 app.use(express.json());
+app.use(express.static(path.join(__dirname, "dist")));
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -343,3 +350,4 @@ const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`AI Server running on ${PORT}`);
 });
+
