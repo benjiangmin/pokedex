@@ -654,36 +654,124 @@
   },
   "slowpoke": {
     "evolutionChain": [
-      { "from": "Slowpoke", "fromSlug": "slowpoke", "to": "Slowbro", "toSlug": "slowbro", "details": [{ "min_level": 37, "trigger": "Level Up" }] },
-      { "from": "Slowpoke", "fromSlug": "slowpoke", "to": "Slowking", "toSlug": "slowking", "details": [{ "item": "King's Rock", "trigger": "Trade" }] }
+      {
+        "from": "Slowpoke",
+        "fromSlug": "slowpoke",
+        "to": "Slowbro",
+        "toSlug": "slowbro",
+        "details": [
+          {
+            "min_level": 37,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Slowpoke",
+        "fromSlug": "slowpoke",
+        "to": "Slowking",
+        "toSlug": "slowking",
+        "details": [
+          {
+            "item": "King's Rock",
+            "trigger": "Trade"
+          }
+        ]
+      }
     ]
   },
   "slowbro": {
     "evolutionChain": [
-      { "from": "Slowpoke", "fromSlug": "slowpoke", "to": "Slowbro", "toSlug": "slowbro", "details": [{ "min_level": 37, "trigger": "Level Up" }] }
+      {
+        "from": "Slowpoke",
+        "fromSlug": "slowpoke",
+        "to": "Slowbro",
+        "toSlug": "slowbro",
+        "details": [
+          {
+            "min_level": 37,
+            "trigger": "Level Up"
+          }
+        ]
+      }
     ]
   },
   "slowking": {
     "evolutionChain": [
-      { "from": "Slowpoke", "fromSlug": "slowpoke", "to": "Slowking", "toSlug": "slowking", "details": [{ "item": "King's Rock", "trigger": "Trade" }] }
+      {
+        "from": "Slowpoke",
+        "fromSlug": "slowpoke",
+        "to": "Slowking",
+        "toSlug": "slowking",
+        "details": [
+          {
+            "item": "King's Rock",
+            "trigger": "Trade"
+          }
+        ]
+      }
     ]
   },
   "slowpoke-galar": {
     "evolutionChain": [
-      { "from": "Slowpoke (Galar)", "fromSlug": "slowpoke-galar", "to": "Slowbro (Galar)", "toSlug": "slowbro-galar", "details": [{ "item": "Galarica Cuff", "trigger": "Use Item" }] },
-      { "from": "Slowpoke (Galar)", "fromSlug": "slowpoke-galar", "to": "Slowking (Galar)", "toSlug": "slowking-galar", "details": [{ "item": "Galarica Wreath", "trigger": "Use Item" }] }
+      {
+        "from": "Slowpoke (Galar)",
+        "fromSlug": "slowpoke-galar",
+        "to": "Slowbro (Galar)",
+        "toSlug": "slowbro-galar",
+        "details": [
+          {
+            "item": "Galarica Cuff",
+            "trigger": "Use Item"
+          }
+        ]
+      },
+      {
+        "from": "Slowpoke (Galar)",
+        "fromSlug": "slowpoke-galar",
+        "to": "Slowking (Galar)",
+        "toSlug": "slowking-galar",
+        "details": [
+          {
+            "item": "Galarica Wreath",
+            "trigger": "Use Item"
+          }
+        ]
+      }
     ],
     "description": "Although this Pokémon is normally always spacing out, its expression occasionally sharpens. This seems to be due to the Galarica seeds it eats."
   },
   "slowbro-galar": {
     "evolutionChain": [
-      { "from": "Slowpoke (Galar)", "fromSlug": "slowpoke-galar", "to": "Slowbro (Galar)", "toSlug": "slowbro-galar", "details": [{ "item": "Galarica Cuff", "trigger": "Use Item" }] }
+      {
+        "from": "Slowpoke (Galar)",
+        "fromSlug": "slowpoke-galar",
+        "to": "Slowbro (Galar)",
+        "toSlug": "slowbro-galar",
+        "details": [
+          {
+            "item": "Galarica Cuff",
+            "trigger": "Use Item"
+          }
+        ]
+      }
     ],
     "description": "A Shellder bite set off a chemical reaction with the spices inside Slowbro’s body, causing Slowbro to become a Poison type."
   },
   "slowking-galar": {
     "evolutionChain": [
-      { "from": "Slowpoke (Galar)", "fromSlug": "slowpoke-galar", "to": "Slowking (Galar)", "toSlug": "slowking-galar", "details": [{ "item": "Galarica Wreath", "trigger": "Use Item" }] }
+      {
+        "from": "Slowpoke (Galar)",
+        "fromSlug": "slowpoke-galar",
+        "to": "Slowking (Galar)",
+        "toSlug": "slowking-galar",
+        "details": [
+          {
+            "item": "Galarica Wreath",
+            "trigger": "Use Item"
+          }
+        ]
+      }
     ],
     "description": "A combination of toxins and the shock of evolution has caused the Shellder on its head to become the dominant intelligence."
   },
@@ -693,62 +781,491 @@
   },
   "farfetchd-galar": {
     "evolutionChain": [
-      { "from": "Farfetch'd (Galar)", "fromSlug": "farfetchd-galar", "to": "Sirfetch'd", "toSlug": "sirfetchd", "details": [{ "trigger": "3 Critical Hits in one battle" }] }
+      {
+        "from": "Farfetch'd (Galar)",
+        "fromSlug": "farfetchd-galar",
+        "to": "Sirfetch'd",
+        "toSlug": "sirfetchd",
+        "details": [
+          {
+            "trigger": "3 Critical Hits in one battle"
+          }
+        ]
+      }
     ],
     "description": "The Farfetch'd of the Galar region are brave warriors, and they wield thick, stout leeks in battle."
   },
   "sirfetchd": {
     "evolutionChain": [
-      { "from": "Farfetch'd (Galar)", "fromSlug": "farfetchd-galar", "to": "Sirfetch'd", "toSlug": "sirfetchd", "details": [{ "trigger": "3 Critical Hits in one battle" }] }
+      {
+        "from": "Farfetch'd (Galar)",
+        "fromSlug": "farfetchd-galar",
+        "to": "Sirfetch'd",
+        "toSlug": "sirfetchd",
+        "details": [
+          {
+            "trigger": "3 Critical Hits in one battle"
+          }
+        ]
+      }
     ],
     "description": "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
   },
   "koffing": {
     "evolutionChain": [
-      { "from": "Koffing", "fromSlug": "koffing", "to": "Weezing", "toSlug": "weezing", "details": [{ "min_level": 35, "trigger": "Level Up" }] },
-      { "from": "Koffing", "fromSlug": "koffing", "to": "Weezing (Galar)", "toSlug": "weezing-galar", "details": [{ "min_level": 35, "trigger": "Level Up", "location": "Galar" }] }
+      {
+        "from": "Koffing",
+        "fromSlug": "koffing",
+        "to": "Weezing",
+        "toSlug": "weezing",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Koffing",
+        "fromSlug": "koffing",
+        "to": "Weezing (Galar)",
+        "toSlug": "weezing-galar",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up",
+            "location": "Galar"
+          }
+        ]
+      }
     ]
   },
   "weezing": {
     "evolutionChain": [
-      { "from": "Koffing", "fromSlug": "koffing", "to": "Weezing", "toSlug": "weezing", "details": [{ "min_level": 35, "trigger": "Level Up" }] }
+      {
+        "from": "Koffing",
+        "fromSlug": "koffing",
+        "to": "Weezing",
+        "toSlug": "weezing",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up"
+          }
+        ]
+      }
     ]
   },
   "weezing-galar": {
     "evolutionChain": [
-      { "from": "Koffing", "fromSlug": "koffing", "to": "Weezing (Galar)", "toSlug": "weezing-galar", "details": [{ "min_level": 35, "trigger": "Level Up", "location": "Galar" }] }
+      {
+        "from": "Koffing",
+        "fromSlug": "koffing",
+        "to": "Weezing (Galar)",
+        "toSlug": "weezing-galar",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up",
+            "location": "Galar"
+          }
+        ]
+      }
     ],
     "description": "It consumes polluted air and poisonous gases for sustenance. The air it exhales after cleaning is incredibly clean."
   },
   "mime-jr": {
     "evolutionChain": [
-      { "from": "Mime Jr.", "fromSlug": "mime-jr", "to": "Mr. Mime", "toSlug": "mr-mime", "details": [{ "known_move": "Mimic", "trigger": "Level Up" }] },
-      { "from": "Mime Jr.", "fromSlug": "mime-jr", "to": "Mr. Mime (Galar)", "toSlug": "mr-mime-galar", "details": [{ "known_move": "Mimic", "trigger": "Level Up", "location": "Galar" }] }
+      {
+        "from": "Mime Jr.",
+        "fromSlug": "mime-jr",
+        "to": "Mr. Mime",
+        "toSlug": "mr-mime",
+        "details": [
+          {
+            "known_move": "Mimic",
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Mime Jr.",
+        "fromSlug": "mime-jr",
+        "to": "Mr. Mime (Galar)",
+        "toSlug": "mr-mime-galar",
+        "details": [
+          {
+            "known_move": "Mimic",
+            "trigger": "Level Up",
+            "location": "Galar"
+          }
+        ]
+      }
     ]
   },
   "mr-mime": {
     "evolutionChain": [
-      { 
-        "from": "Mime Jr.", 
-        "fromSlug": "mime-jr", 
-        "to": "Mr. Mime", 
-        "toSlug": "mr-mime", 
-        "details": [{ "known_move": "Mimic", "trigger": "Level Up" }] 
+      {
+        "from": "Mime Jr.",
+        "fromSlug": "mime-jr",
+        "to": "Mr. Mime",
+        "toSlug": "mr-mime",
+        "details": [
+          {
+            "known_move": "Mimic",
+            "trigger": "Level Up"
+          }
+        ]
       }
     ],
     "description": "It is a master of pantomime. It can create invisible walls by vibrating its fingertips to harden the air."
   },
   "mr-mime-galar": {
     "evolutionChain": [
-      { "from": "Mime Jr.", "fromSlug": "mime-jr", "to": "Mr. Mime (Galar)", "toSlug": "mr-mime-galar", "details": [{ "known_move": "Mimic", "trigger": "Level Up", "location": "Galar" }] },
-      { "from": "Mr. Mime (Galar)", "fromSlug": "mr-mime-galar", "to": "Mr. Rime", "toSlug": "mr-rime", "details": [{ "min_level": 42, "trigger": "Level Up" }] }
+      {
+        "from": "Mime Jr.",
+        "fromSlug": "mime-jr",
+        "to": "Mr. Mime (Galar)",
+        "toSlug": "mr-mime-galar",
+        "details": [
+          {
+            "known_move": "Mimic",
+            "trigger": "Level Up",
+            "location": "Galar"
+          }
+        ]
+      },
+      {
+        "from": "Mr. Mime (Galar)",
+        "fromSlug": "mr-mime-galar",
+        "to": "Mr. Rime",
+        "toSlug": "mr-rime",
+        "details": [
+          {
+            "min_level": 42,
+            "trigger": "Level Up"
+          }
+        ]
+      }
     ],
     "description": "Its talent is tap-dancing. It wiggles its fingers to let out a freezing coldness from the ice patterns on its belly."
   },
   "mr-rime": {
     "evolutionChain": [
-      { "from": "Mr. Mime (Galar)", "fromSlug": "mr-mime-galar", "to": "Mr. Rime", "toSlug": "mr-rime", "details": [{ "min_level": 42, "trigger": "Level Up" }] }
+      {
+        "from": "Mr. Mime (Galar)",
+        "fromSlug": "mr-mime-galar",
+        "to": "Mr. Rime",
+        "toSlug": "mr-rime",
+        "details": [
+          {
+            "min_level": 42,
+            "trigger": "Level Up"
+          }
+        ]
+      }
     ],
     "description": "It’s highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
+  },
+  "corsola": {
+    "evolutionChain": [],
+    "description": "In a corner of the South Sea, many live in clean seas where they can't be seen. If the sea becomes dirty, their beautiful coral colors will fade."
+  },
+  "corsola-galar": {
+    "evolutionChain": [
+      {
+        "from": "Corsola (Galar)",
+        "fromSlug": "corsola-galar",
+        "to": "Cursola",
+        "toSlug": "cursola",
+        "details": [
+          {
+            "min_level": 38,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "Sudden climate change wiped out this ancient Corsola. It absorbs others' life-force through the branches that form its body."
+  },
+  "cursola": {
+    "evolutionChain": [
+      {
+        "from": "Corsola (Galar)",
+        "fromSlug": "corsola-galar",
+        "to": "Cursola",
+        "toSlug": "cursola",
+        "details": [
+          {
+            "min_level": 38,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "Its shell is broken, and its spirit-like body has spilled out. Be cautious—the ectoplasm that surrounds its body will stiffen anyone who touches it."
+  },
+  "zigzagoon": {
+    "evolutionChain": [
+      {
+        "from": "Zigzagoon",
+        "fromSlug": "zigzagoon",
+        "to": "Linoone",
+        "toSlug": "linoone",
+        "details": [
+          {
+            "min_level": 20,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "It walks in zigzag fashion. It is good at finding items in the grass and even in the ground."
+  },
+  "zigzagoon-galar": {
+    "evolutionChain": [
+      {
+        "from": "Zigzagoon (Galar)",
+        "fromSlug": "zigzagoon-galar",
+        "to": "Linoone (Galar)",
+        "toSlug": "linoone-galar",
+        "details": [
+          {
+            "min_level": 20,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Linoone (Galar)",
+        "fromSlug": "linoone-galar",
+        "to": "Obstagoon",
+        "toSlug": "obstagoon",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up",
+            "time": "Night"
+          }
+        ]
+      }
+    ],
+    "description": "Thought to be the oldest form of Zigzagoon, it moves in zigzags and halloos at others to provoke them."
+  },
+  "linoone": {
+    "evolutionChain": [
+      {
+        "from": "Zigzagoon",
+        "fromSlug": "zigzagoon",
+        "to": "Linoone",
+        "toSlug": "linoone",
+        "details": [
+          {
+            "min_level": 20,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "It is exceedingly fast if it only has to run in a straight line. When it spots prey, it delivers a powerful tackle while traveling at speeds over 60 mph."
+  },
+  "linoone-galar": {
+    "evolutionChain": [
+      {
+        "from": "Zigzagoon (Galar)",
+        "fromSlug": "zigzagoon-galar",
+        "to": "Linoone (Galar)",
+        "toSlug": "linoone-galar",
+        "details": [
+          {
+            "min_level": 20,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Linoone (Galar)",
+        "fromSlug": "linoone-galar",
+        "to": "Obstagoon",
+        "toSlug": "obstagoon",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up",
+            "time": "Night"
+          }
+        ]
+      }
+    ],
+    "description": "It uses its long tongue to taunt opponents. Once the fight is on, it delivers devastating tackles."
+  },
+  "obstagoon": {
+    "evolutionChain": [
+      {
+        "from": "Linoone (Galar)",
+        "fromSlug": "linoone-galar",
+        "to": "Obstagoon",
+        "toSlug": "obstagoon",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up",
+            "time": "Night"
+          }
+        ]
+      }
+    ],
+    "description": "It evolved after experiencing numerous fights. Its voice is so loud that it can make an opponent flinch with just a shout."
+  },
+  "darumaka": {
+    "evolutionChain": [
+      {
+        "from": "Darumaka",
+        "fromSlug": "darumaka",
+        "to": "Darmanitan",
+        "toSlug": "darmanitan-standard",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "When its internal fire burns, it cannot stay still. It runs around as if it were a ball of fire."
+  },
+  "darmanitan-standard": {
+    "evolutionChain": [
+      {
+        "from": "Darumaka",
+        "fromSlug": "darumaka",
+        "to": "Darmanitan (Standard)",
+        "toSlug": "darmanitan-standard",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "When one gets injured in a fierce battle, it hardens into a stone-like state. It then meditates to sharpen its mind."
+  },
+  "darumaka-galar": {
+    "evolutionChain": [
+      {
+        "from": "Darumaka (Galar)",
+        "fromSlug": "darumaka-galar",
+        "to": "Darmanitan (Galar)",
+        "toSlug": "darmanitan-galar-standard",
+        "details": [
+          {
+            "item": "Ice Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ],
+    "description": "It has an organ that produces cold air. The colder this organ gets, the more energetic Darumaka becomes."
+  },
+  "darmanitan-galar-standard": {
+    "evolutionChain": [
+      {
+        "from": "Darumaka (Galar)",
+        "fromSlug": "darumaka-galar",
+        "to": "Darmanitan (Galar Standard)",
+        "toSlug": "darmanitan-galar-standard",
+        "details": [
+          {
+            "item": "Ice Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ],
+    "description": "On days when it’s cold, it comes down to villages. It’s known to store food in the snowball on its head."
+  },
+  "yamask": {
+    "evolutionChain": [
+      {
+        "from": "Yamask",
+        "fromSlug": "yamask",
+        "to": "Cofagrigus",
+        "toSlug": "cofagrigus",
+        "details": [
+          {
+            "min_level": 34,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry."
+  },
+  "cofagrigus": {
+    "evolutionChain": [
+      {
+        "from": "Yamask",
+        "fromSlug": "yamask",
+        "to": "Cofagrigus",
+        "toSlug": "cofagrigus",
+        "details": [
+          {
+            "min_level": 34,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "It has been said that they swallow those who get too close and turn them into mummies. They like to eat gold nuggets."
+  },
+  "yamask-galar": {
+    "evolutionChain": [
+      {
+        "from": "Yamask (Galar)",
+        "fromSlug": "yamask-galar",
+        "to": "Runerigus",
+        "toSlug": "runerigus",
+        "details": [
+          {
+            "condition": "Take 49+ HP damage and walk under Stone Bridge",
+            "trigger": "Special"
+          }
+        ]
+      }
+    ],
+    "description": "A clay slab with cursed engravings took possession of a Yamask. The slab is said to be absorbing Yamask's power."
+  },
+  "runerigus": {
+    "evolutionChain": [
+      {
+        "from": "Yamask (Galar)",
+        "fromSlug": "yamask-galar",
+        "to": "Runerigus",
+        "toSlug": "runerigus",
+        "details": [
+          {
+            "condition": "Take 49+ HP damage and walk under Stone Bridge",
+            "trigger": "Special"
+          }
+        ]
+      }
+    ],
+    "description": "A powerful curse was woven into the ancient paintings on its body. It was activated by Yamask's spirit."
+  },
+  "stunfisk-galar": {
+    "description": "Living in mud with high iron content has given it a strong steel body. It has a habit of biting into anything that gets close."
+  },
+  "articuno-galar": {
+    "evolutionChain": [],
+    "description": "Its feather-like blades are composed of psychic energy that can leave an opponent stone-cold immobile. It is known to look down on other living beings with a chilly, haughty attitude."
+  },
+  "zapdos-galar": {
+    "evolutionChain": [],
+    "description": "When its feathers rub together, they produce a sound like the crackling of electricity. Since its wings are vestigial, it focuses on powerful, high-speed kicks that can pulverize boulders."
+  },
+  "moltres-galar": {
+    "evolutionChain": [],
+    "description": "The sinister aura that blazes like fire from its body is enough to consume the spirit of any creature it touches. It is a highly aggressive Pokémon that shows no mercy."
   }
 }

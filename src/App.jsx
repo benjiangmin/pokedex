@@ -94,3 +94,4 @@ export default function App() {
 // 7. fix whatever zygarde is
 // galarians
 // fix mr mime galar naming
+// fix the darmanitan naming and variants
