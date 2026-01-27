@@ -29,7 +29,22 @@
     "Snow Cloak",
     "Snow Warning"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Vulpix",
+      "to": "Ninetales",
+      "details": [
+        {
+          "item": "Fire Stone",
+          "trigger": "Use Item"
+        },
+        {
+          "item": "Ice Stone",
+          "trigger": "Use Item"
+        }
+      ]
+    }
+  ],
   "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10103.png",

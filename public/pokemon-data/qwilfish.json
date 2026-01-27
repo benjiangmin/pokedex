@@ -37,11 +37,18 @@
       "to": "Overqwil",
       "details": [
         {
-          "known_move": "Barb Barrage",
-          "trigger": "Strong Style Move"
+          "min_move_count": 20,
+          "trigger": "Strong Style Move",
+          "used_move": "Barb Barrage"
         },
         {
-          "trigger": "Other"
+          "known_move": "Barb Barrage",
+          "trigger": "Level Up"
+        },
+        {
+          "min_move_count": 20,
+          "trigger": "Use Move",
+          "used_move": "Barb Barrage"
         }
       ]
     }

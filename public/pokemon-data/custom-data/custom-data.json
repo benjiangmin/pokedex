@@ -693,13 +693,13 @@
   },
   "farfetchd-galar": {
     "evolutionChain": [
-      { "from": "Farfetchd (Galar)", "fromSlug": "farfetchd-galar", "to": "Sirfetchd", "toSlug": "sirfetchd", "details": [{ "trigger": "3 Critical Hits in one battle" }] }
+      { "from": "Farfetch'd (Galar)", "fromSlug": "farfetchd-galar", "to": "Sirfetch'd", "toSlug": "sirfetchd", "details": [{ "trigger": "3 Critical Hits in one battle" }] }
     ],
     "description": "The Farfetch'd of the Galar region are brave warriors, and they wield thick, stout leeks in battle."
   },
   "sirfetchd": {
     "evolutionChain": [
-      { "from": "Farfetchd (Galar)", "fromSlug": "farfetchd-galar", "to": "Sirfetchd", "toSlug": "sirfetchd", "details": [{ "trigger": "3 Critical Hits in one battle" }] }
+      { "from": "Farfetch'd (Galar)", "fromSlug": "farfetchd-galar", "to": "Sirfetch'd", "toSlug": "sirfetchd", "details": [{ "trigger": "3 Critical Hits in one battle" }] }
     ],
     "description": "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
   },
@@ -725,6 +725,18 @@
       { "from": "Mime Jr.", "fromSlug": "mime-jr", "to": "Mr. Mime", "toSlug": "mr-mime", "details": [{ "known_move": "Mimic", "trigger": "Level Up" }] },
       { "from": "Mime Jr.", "fromSlug": "mime-jr", "to": "Mr. Mime (Galar)", "toSlug": "mr-mime-galar", "details": [{ "known_move": "Mimic", "trigger": "Level Up", "location": "Galar" }] }
     ]
+  },
+  "mr-mime": {
+    "evolutionChain": [
+      { 
+        "from": "Mime Jr.", 
+        "fromSlug": "mime-jr", 
+        "to": "Mr. Mime", 
+        "toSlug": "mr-mime", 
+        "details": [{ "known_move": "Mimic", "trigger": "Level Up" }] 
+      }
+    ],
+    "description": "It is a master of pantomime. It can create invisible walls by vibrating its fingertips to harden the air."
   },
   "mr-mime-galar": {
     "evolutionChain": [

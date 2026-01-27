@@ -8,13 +8,13 @@ import { parseLocationData } from "./fetchingLogic/locationLogic.js";
 
 async function fetchAllPokemon() {
     const masterList = [];
-    const totalCount = 122; 
+    const totalCount = 1026; 
     const outputDir = "./public/pokemon-data";
-
-    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
     const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-    for (let id = 1; id <= 10; id++) {
+    if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+
+    for (let id = 792; id <= 792; id++) {
         console.log(`Processing Species #${id}`);
 
         await sleep(500);
