@@ -326,6 +326,28 @@
       }
     ]
   },
+  "exeggcute": {
+    "evolutionChain": [
+      {
+        "from": "Exeggcute",
+        "fromSlug": "exeggcute",
+        "to": "Exeggutor",
+        "toSlug": "exeggutor",
+        "details": [
+          { "item": "Leaf Stone", "trigger": "Use Item" }
+        ]
+      },
+            {
+        "from": "Exeggcute",
+        "fromSlug": "exeggcute",
+        "to": "Exeggutor (Alola)",
+        "toSlug": "exeggutor-alola",
+        "details": [
+          { "item": "Leaf Stone", "trigger": "Use Item", "location": "Alola"}
+        ]
+      }
+    ]
+  },
   "exeggutor-alola": {
     "evolutionChain": [
       {
@@ -339,6 +361,17 @@
       }
     ]
   },
+  "cubone": {
+    "evolutionChain": [
+      { "from": "Cubone", "fromSlug": "cubone", "to": "Marowak", "toSlug": "marowak", "details": [{ "min_level": 28, "trigger": "Level Up" }] },
+      { "from": "Cubone", "fromSlug": "cubone", "to": "Marowak (Alola)", "toSlug": "marowak-alola", "details": [{ "min_level": 28, "trigger": "Level Up", "time_of_day": "night", "location": "Alola" }] }
+    ]
+  },
+  "marowak": {
+    "evolutionChain": [
+      { "from": "Cubone", "fromSlug": "cubone", "to": "Marowak", "toSlug": "marowak", "details": [{ "min_level": 28, "trigger": "Level Up" }] }
+    ]
+  },
    "marowak-alola": {
     "evolutionChain": [
       {
@@ -347,7 +380,7 @@
         "to": "Marowak (Alola)",
         "toSlug": "marowak-alola",
         "details": [
-          { "min_level": 28, "trigger": "Level Up (Night)" }
+          { "min_level": 28, "trigger": "Level Up", "location": "Alola", "time_of_day": "Nighttime" }
         ]
       }
     ]
