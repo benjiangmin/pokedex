@@ -719,5 +719,24 @@
       { "from": "Koffing", "fromSlug": "koffing", "to": "Weezing (Galar)", "toSlug": "weezing-galar", "details": [{ "min_level": 35, "trigger": "Level Up", "location": "Galar" }] }
     ],
     "description": "It consumes polluted air and poisonous gases for sustenance. The air it exhales after cleaning is incredibly clean."
+  },
+  "mime-jr": {
+    "evolutionChain": [
+      { "from": "Mime Jr.", "fromSlug": "mime-jr", "to": "Mr. Mime", "toSlug": "mr-mime", "details": [{ "known_move": "Mimic", "trigger": "Level Up" }] },
+      { "from": "Mime Jr.", "fromSlug": "mime-jr", "to": "Mr. Mime (Galar)", "toSlug": "mr-mime-galar", "details": [{ "known_move": "Mimic", "trigger": "Level Up", "location": "Galar" }] }
+    ]
+  },
+  "mr-mime-galar": {
+    "evolutionChain": [
+      { "from": "Mime Jr.", "fromSlug": "mime-jr", "to": "Mr. Mime (Galar)", "toSlug": "mr-mime-galar", "details": [{ "known_move": "Mimic", "trigger": "Level Up", "location": "Galar" }] },
+      { "from": "Mr. Mime (Galar)", "fromSlug": "mr-mime-galar", "to": "Mr. Rime", "toSlug": "mr-rime", "details": [{ "min_level": 42, "trigger": "Level Up" }] }
+    ],
+    "description": "Its talent is tap-dancing. It wiggles its fingers to let out a freezing coldness from the ice patterns on its belly."
+  },
+  "mr-rime": {
+    "evolutionChain": [
+      { "from": "Mr. Mime (Galar)", "fromSlug": "mr-mime-galar", "to": "Mr. Rime", "toSlug": "mr-rime", "details": [{ "min_level": 42, "trigger": "Level Up" }] }
+    ],
+    "description": "It’s highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements."
   }
 }

@@ -33,9 +33,7 @@
   "evolutionChain": [
     {
       "from": "Weedle",
-      "fromSlug": "weedle",
       "to": "Kakuna",
-      "toSlug": "kakuna",
       "details": [
         {
           "min_level": 7,
@@ -45,9 +43,7 @@
     },
     {
       "from": "Kakuna",
-      "fromSlug": "kakuna",
       "to": "Beedrill",
-      "toSlug": "beedrill",
       "details": [
         {
           "min_level": 10,
@@ -1014,7 +1010,81 @@
         "maxLevel": 6
       }
     ],
+    "Red Japan": [
+      {
+        "location": "Kanto Route 2 South Towards Viridian City",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 3,
+        "maxLevel": 3
+      },
+      {
+        "location": "Kanto Route 2 South Towards Viridian City",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 4,
+        "maxLevel": 4
+      },
+      {
+        "location": "Kanto Route 2 South Towards Viridian City",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "location": "Kanto Route 24 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 7,
+        "maxLevel": 7
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 8,
+        "maxLevel": 8
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 4,
+        "maxLevel": 4
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 15,
+        "minLevel": 3,
+        "maxLevel": 3
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
     "Blue": [
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 8,
+        "maxLevel": 8
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 3,
+        "maxLevel": 3
+      }
+    ],
+    "Green Japan": [
       {
         "location": "Kanto Route 25 Area",
         "method": "Walk",

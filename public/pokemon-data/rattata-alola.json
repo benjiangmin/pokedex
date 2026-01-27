@@ -31,7 +31,23 @@
     "Hustle",
     "Thick Fat"
   ],
-  "evolutionChain": [],
+  "evolutionChain": [
+    {
+      "from": "Rattata",
+      "to": "Raticate",
+      "details": [
+        {
+          "min_level": 20,
+          "trigger": "Level Up"
+        },
+        {
+          "min_level": 20,
+          "time_of_day": "night",
+          "trigger": "Level Up"
+        }
+      ]
+    }
+  ],
   "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10091.png",

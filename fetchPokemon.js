@@ -8,14 +8,16 @@ import { parseLocationData } from "./fetchingLogic/locationLogic.js";
 
 async function fetchAllPokemon() {
     const masterList = [];
-    const totalCount = 1026; 
+    const totalCount = 122; 
     const outputDir = "./public/pokemon-data";
 
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+    const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-
-    for (let id = 1; id <= totalCount; id++) {
+    for (let id = 1; id <= 10; id++) {
         console.log(`Processing Species #${id}`);
+
+        await sleep(500);
         try {
             const speciesRes = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`);
             const speciesData = await speciesRes.json();

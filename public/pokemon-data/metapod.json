@@ -31,9 +31,7 @@
   "evolutionChain": [
     {
       "from": "Caterpie",
-      "fromSlug": "caterpie",
       "to": "Metapod",
-      "toSlug": "metapod",
       "details": [
         {
           "min_level": 7,
@@ -43,9 +41,7 @@
     },
     {
       "from": "Metapod",
-      "fromSlug": "metapod",
       "to": "Butterfree",
-      "toSlug": "butterfree",
       "details": [
         {
           "min_level": 10,
@@ -789,7 +785,60 @@
         "maxLevel": 9
       }
     ],
+    "Green Japan": [
+      {
+        "location": "Kanto Route 24 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 8,
+        "maxLevel": 8
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 9,
+        "maxLevel": 9
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 4
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 6,
+        "maxLevel": 6
+      }
+    ],
     "Red": [
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 7,
+        "maxLevel": 7
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 4,
+        "maxLevel": 4
+      }
+    ],
+    "Red Japan": [
       {
         "location": "Kanto Route 25 Area",
         "method": "Walk",

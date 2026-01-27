@@ -22,8 +22,12 @@ export default function App() {
     setLoading(true)
     console.log("Calling OpenAI for:", userPrompt)
 
+    const API_BASE_URL = window.location.hostname === "localhost" 
+    ? "http://localhost:3001" 
+    : "https://pokedex-11k9.onrender.com";
+
     try {
-      const response = await fetch("https://pokedex-11k9.onrender.com/api/search", {
+      const response = await fetch(`${API_BASE_URL}/api/search`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userQuery: userPrompt })

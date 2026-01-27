@@ -8,9 +8,11 @@ export const formatPokemonName = (name) => {
         "type-null": "Type: Null",
         "mime-jr": "Mime Jr.",
         "mr-mime": "Mr. Mime",
+        "mr-mime-galar": "Mr. Mime (Galar)",
         "mr-rime": "Mr. Rime",
         "sirfetchd": "Sirfetch'd",
         "farfetchd": "Farfetch'd",
+        "farfetchd-galar": "Farfetch'd (Galar)",
         "walking-wake": "Walking Wake",
         "iron-leaves": "Iron Leaves",
 

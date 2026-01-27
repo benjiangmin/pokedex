@@ -1,0 +1,2364 @@
+[
+  {
+    "id": 1,
+    "slug": "bulbasaur",
+    "isDefault": true,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Bulbasaur"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 49,
+      "Defense": 49,
+      "Special Attack": 65,
+      "Special Defense": 65,
+      "Speed": 45
+    },
+    "color": "green",
+    "weight": 6.9,
+    "height": 0.7,
+    "abilities": [
+      "Overgrow",
+      "Chlorophyll"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Bulbasaur",
+        "to": "Ivysaur",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Ivysaur",
+        "to": "Venusaur",
+        "details": [
+          {
+            "min_level": 32,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/1.gif"
+    },
+    "description": "While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Seed Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Razor Wind",
+      "Cut",
+      "Vine Whip",
+      "Headbutt",
+      "Tackle",
+      "Growl",
+      "Leech Seed",
+      "Growth",
+      "Razor Leaf",
+      "Solar Beam",
+      "Poison Powder",
+      "Sleep Powder",
+      "Petal Dance",
+      "Toxic",
+      "Double Team",
+      "Defense Curl",
+      "Light Screen",
+      "Skull Bash",
+      "Flash",
+      "Rest",
+      "Snore",
+      "Curse",
+      "Protect",
+      "Mud Slap",
+      "Giga Drain",
+      "Endure",
+      "Charm",
+      "Swagger",
+      "Fury Cutter",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Safeguard",
+      "Sweet Scent",
+      "Synthesis",
+      "Hidden Power",
+      "Sunny Day",
+      "Swords Dance",
+      "Body Slam",
+      "Take Down",
+      "Double Edge",
+      "Mega Drain",
+      "Rage",
+      "Mimic",
+      "Reflect",
+      "Bide",
+      "Substitute",
+      "Strength",
+      "Sludge Bomb",
+      "Rock Smash",
+      "Facade",
+      "Secret Power",
+      "Grass Whistle",
+      "Bullet Seed",
+      "Magical Leaf",
+      "Amnesia",
+      "Nature Power",
+      "Ingrain",
+      "Knock Off",
+      "Natural Gift",
+      "Worry Seed",
+      "Seed Bomb",
+      "Energy Ball",
+      "Leaf Storm",
+      "Captivate",
+      "Grass Knot",
+      "String Shot",
+      "Sludge",
+      "Power Whip",
+      "Venoshock",
+      "Round",
+      "Echoed Voice",
+      "Grass Pledge",
+      "Bind",
+      "Grassy Terrain",
+      "Confide",
+      "Work Up",
+      "False Swipe",
+      "Helping Hand",
+      "Weather Ball",
+      "Grassy Glide",
+      "Acid Spray",
+      "Tera Blast",
+      "Trailblaze",
+      "Outrage"
+    ],
+    "locations": []
+  },
+  {
+    "id": 2,
+    "slug": "ivysaur",
+    "isDefault": true,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Ivysaur"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 60,
+      "Attack": 62,
+      "Defense": 63,
+      "Special Attack": 80,
+      "Special Defense": 80,
+      "Speed": 60
+    },
+    "color": "green",
+    "weight": 13,
+    "height": 1,
+    "abilities": [
+      "Overgrow",
+      "Chlorophyll"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Bulbasaur",
+        "to": "Ivysaur",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Ivysaur",
+        "to": "Venusaur",
+        "details": [
+          {
+            "min_level": 32,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/2.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/2.gif"
+    },
+    "description": "Exposure to sunlight adds to its strength. Sunlight also makes the bud on its back grow larger.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Seed Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Swords Dance",
+      "Cut",
+      "Vine Whip",
+      "Tackle",
+      "Body Slam",
+      "Take Down",
+      "Double Edge",
+      "Growl",
+      "Mega Drain",
+      "Leech Seed",
+      "Growth",
+      "Razor Leaf",
+      "Solar Beam",
+      "Poison Powder",
+      "Sleep Powder",
+      "Toxic",
+      "Rage",
+      "Mimic",
+      "Double Team",
+      "Reflect",
+      "Bide",
+      "Rest",
+      "Substitute",
+      "Strength",
+      "Defense Curl",
+      "Flash",
+      "Snore",
+      "Protect",
+      "Sludge Bomb",
+      "Mud Slap",
+      "Giga Drain",
+      "Endure",
+      "Swagger",
+      "Fury Cutter",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Sweet Scent",
+      "Synthesis",
+      "Hidden Power",
+      "Sunny Day",
+      "Rock Smash",
+      "Facade",
+      "Secret Power",
+      "Bullet Seed",
+      "Knock Off",
+      "Natural Gift",
+      "Worry Seed",
+      "Seed Bomb",
+      "Energy Ball",
+      "Captivate",
+      "Grass Knot",
+      "Headbutt",
+      "String Shot",
+      "Light Screen",
+      "Safeguard",
+      "Venoshock",
+      "Round",
+      "Echoed Voice",
+      "Grass Pledge",
+      "Bind",
+      "Nature Power",
+      "Confide",
+      "Work Up",
+      "Amnesia",
+      "Charm",
+      "False Swipe",
+      "Helping Hand",
+      "Weather Ball",
+      "Magical Leaf",
+      "Leaf Storm",
+      "Power Whip",
+      "Grassy Terrain",
+      "Grassy Glide",
+      "Roar",
+      "Petal Dance",
+      "Curse",
+      "Ingrain",
+      "Acid Spray",
+      "Tera Blast",
+      "Trailblaze",
+      "Outrage"
+    ],
+    "locations": []
+  },
+  {
+    "id": 3,
+    "slug": "venusaur",
+    "isDefault": true,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Venusaur"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 82,
+      "Defense": 83,
+      "Special Attack": 100,
+      "Special Defense": 100,
+      "Speed": 80
+    },
+    "color": "green",
+    "weight": 100,
+    "height": 2,
+    "abilities": [
+      "Overgrow",
+      "Chlorophyll"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Bulbasaur",
+        "to": "Ivysaur",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Ivysaur",
+        "to": "Venusaur",
+        "details": [
+          {
+            "min_level": 32,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Venusaur",
+        "to": "Venusaur (Mega)",
+        "details": [
+          {
+            "trigger": "Mega Evolution"
+          }
+        ]
+      },
+      {
+        "from": "Venusaur",
+        "to": "Venusaur (Gmax)",
+        "details": [
+          {
+            "trigger": "Gigantamax"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/3.gif"
+    },
+    "description": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Seed Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Swords Dance",
+      "Cut",
+      "Vine Whip",
+      "Tackle",
+      "Body Slam",
+      "Take Down",
+      "Double Edge",
+      "Growl",
+      "Hyper Beam",
+      "Mega Drain",
+      "Leech Seed",
+      "Growth",
+      "Razor Leaf",
+      "Solar Beam",
+      "Poison Powder",
+      "Sleep Powder",
+      "Toxic",
+      "Rage",
+      "Mimic",
+      "Double Team",
+      "Reflect",
+      "Bide",
+      "Rest",
+      "Substitute",
+      "Roar",
+      "Strength",
+      "Earthquake",
+      "Defense Curl",
+      "Flash",
+      "Snore",
+      "Protect",
+      "Sludge Bomb",
+      "Mud Slap",
+      "Giga Drain",
+      "Endure",
+      "Swagger",
+      "Fury Cutter",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Sweet Scent",
+      "Synthesis",
+      "Hidden Power",
+      "Sunny Day",
+      "Rock Smash",
+      "Facade",
+      "Secret Power",
+      "Bullet Seed",
+      "Frenzy Plant",
+      "Petal Dance",
+      "Outrage",
+      "Knock Off",
+      "Natural Gift",
+      "Worry Seed",
+      "Seed Bomb",
+      "Energy Ball",
+      "Giga Impact",
+      "Rock Climb",
+      "Captivate",
+      "Grass Knot",
+      "Headbutt",
+      "String Shot",
+      "Block",
+      "Light Screen",
+      "Safeguard",
+      "Venoshock",
+      "Round",
+      "Echoed Voice",
+      "Grass Pledge",
+      "Bulldoze",
+      "Bind",
+      "Nature Power",
+      "Petal Blizzard",
+      "Confide",
+      "Work Up",
+      "Stomping Tantrum",
+      "Amnesia",
+      "Charm",
+      "False Swipe",
+      "Helping Hand",
+      "Weather Ball",
+      "Magical Leaf",
+      "Earth Power",
+      "Leaf Storm",
+      "Power Whip",
+      "Grassy Terrain",
+      "Grassy Glide",
+      "Terrain Pulse",
+      "Curse",
+      "Scary Face",
+      "Ingrain",
+      "Poison Jab",
+      "Acid Spray",
+      "Tera Blast",
+      "Trailblaze"
+    ],
+    "locations": []
+  },
+  {
+    "id": 3,
+    "slug": "venusaur-mega",
+    "isDefault": false,
+    "isMega": true,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Venusaur (Mega)"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 100,
+      "Defense": 123,
+      "Special Attack": 122,
+      "Special Defense": 120,
+      "Speed": 80
+    },
+    "color": "green",
+    "weight": 155.5,
+    "height": 2.4,
+    "abilities": [
+      "Thick Fat"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Bulbasaur",
+        "to": "Ivysaur",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Ivysaur",
+        "to": "Venusaur",
+        "details": [
+          {
+            "min_level": 32,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Venusaur",
+        "to": "Venusaur (Mega)",
+        "details": [
+          {
+            "trigger": "Mega Evolution"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10033.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10033.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10033.gif"
+    },
+    "description": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Seed Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Swords Dance",
+      "Cut",
+      "Vine Whip",
+      "Tackle",
+      "Take Down",
+      "Double Edge",
+      "Growl",
+      "Roar",
+      "Hyper Beam",
+      "Strength",
+      "Leech Seed",
+      "Growth",
+      "Razor Leaf",
+      "Solar Beam",
+      "Poison Powder",
+      "Sleep Powder",
+      "Petal Dance",
+      "Earthquake",
+      "Toxic",
+      "Double Team",
+      "Light Screen",
+      "Flash",
+      "Rest",
+      "Substitute",
+      "Protect",
+      "Sludge Bomb",
+      "Swagger",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Safeguard",
+      "Sweet Scent",
+      "Synthesis",
+      "Hidden Power",
+      "Sunny Day",
+      "Rock Smash",
+      "Facade",
+      "Nature Power",
+      "Frenzy Plant",
+      "Worry Seed",
+      "Energy Ball",
+      "Giga Impact",
+      "Grass Knot",
+      "Venoshock",
+      "Round",
+      "Echoed Voice",
+      "Grass Pledge",
+      "Bulldoze",
+      "Petal Blizzard",
+      "Confide",
+      "Bind",
+      "Snore",
+      "Outrage",
+      "Giga Drain",
+      "Knock Off",
+      "Secret Power",
+      "Block",
+      "Seed Bomb",
+      "Work Up",
+      "Stomping Tantrum",
+      "Headbutt",
+      "Mega Drain",
+      "Reflect",
+      "Amnesia",
+      "Power Whip"
+    ],
+    "locations": []
+  },
+  {
+    "id": 3,
+    "slug": "venusaur-gmax",
+    "isDefault": false,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": true,
+    "name": {
+      "english": "Venusaur (Gmax)"
+    },
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "base": {
+      "HP": 80,
+      "Attack": 82,
+      "Defense": 83,
+      "Special Attack": 100,
+      "Special Defense": 100,
+      "Speed": 80
+    },
+    "color": "green",
+    "weight": 1000,
+    "height": 24,
+    "abilities": [
+      "Overgrow",
+      "Chlorophyll"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Bulbasaur",
+        "to": "Ivysaur",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Ivysaur",
+        "to": "Venusaur",
+        "details": [
+          {
+            "min_level": 32,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Venusaur",
+        "to": "Venusaur (Gmax)",
+        "details": [
+          {
+            "trigger": "Gigantamax"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10195.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10195.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10195.gif"
+    },
+    "description": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Seed Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [],
+    "locations": []
+  },
+  {
+    "id": 4,
+    "slug": "charmander",
+    "isDefault": true,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Charmander"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 39,
+      "Attack": 52,
+      "Defense": 43,
+      "Special Attack": 60,
+      "Special Defense": 50,
+      "Speed": 65
+    },
+    "color": "red",
+    "weight": 8.5,
+    "height": 0.6,
+    "abilities": [
+      "Blaze",
+      "Solar Power"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Charmander",
+        "to": "Charmeleon",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charmeleon",
+        "to": "Charizard",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/4.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/4.gif"
+    },
+    "description": "From the time it is born, a flame burns at the tip of its tail. Its life would end if the flame were to go out.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Lizard Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Mega Punch",
+      "Scratch",
+      "Swords Dance",
+      "Cut",
+      "Mega Kick",
+      "Body Slam",
+      "Take Down",
+      "Double Edge",
+      "Leer",
+      "Growl",
+      "Ember",
+      "Flamethrower",
+      "Submission",
+      "Counter",
+      "Seismic Toss",
+      "Strength",
+      "Dragon Rage",
+      "Fire Spin",
+      "Dig",
+      "Toxic",
+      "Rage",
+      "Mimic",
+      "Double Team",
+      "Reflect",
+      "Bide",
+      "Fire Blast",
+      "Swift",
+      "Skull Bash",
+      "Rest",
+      "Slash",
+      "Substitute",
+      "Fire Punch",
+      "Bite",
+      "Smokescreen",
+      "Defense Curl",
+      "Rock Slide",
+      "Snore",
+      "Protect",
+      "Scary Face",
+      "Belly Drum",
+      "Mud Slap",
+      "Outrage",
+      "Endure",
+      "Swagger",
+      "Fury Cutter",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Dynamic Punch",
+      "Iron Tail",
+      "Hidden Power",
+      "Sunny Day",
+      "Ancient Power",
+      "Rock Smash",
+      "Beat Up",
+      "Facade",
+      "Focus Punch",
+      "Brick Break",
+      "Secret Power",
+      "Overheat",
+      "Aerial Ace",
+      "Dragon Claw",
+      "Dragon Dance",
+      "Metal Claw",
+      "Thunder Punch",
+      "Wing Attack",
+      "False Swipe",
+      "Dragon Breath",
+      "Crunch",
+      "Heat Wave",
+      "Will O Wisp",
+      "Helping Hand",
+      "Weather Ball",
+      "Rock Tomb",
+      "Fling",
+      "Flare Blitz",
+      "Dragon Pulse",
+      "Dragon Rush",
+      "Shadow Claw",
+      "Fire Fang",
+      "Round",
+      "Acrobatics",
+      "Inferno",
+      "Fire Pledge",
+      "Dragon Tail",
+      "Work Up",
+      "Headbutt",
+      "Curse",
+      "Natural Gift",
+      "Captivate",
+      "Hone Claws",
+      "Flame Burst",
+      "Flame Charge",
+      "Echoed Voice",
+      "Incinerate",
+      "Air Cutter",
+      "Confide",
+      "Power Up Punch",
+      "Fury Swipes",
+      "Roar",
+      "Focus Blast",
+      "Breaking Swipe",
+      "Tera Blast",
+      "Temper Flare"
+    ],
+    "locations": []
+  },
+  {
+    "id": 5,
+    "slug": "charmeleon",
+    "isDefault": true,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Charmeleon"
+    },
+    "type": [
+      "Fire"
+    ],
+    "base": {
+      "HP": 58,
+      "Attack": 64,
+      "Defense": 58,
+      "Special Attack": 80,
+      "Special Defense": 65,
+      "Speed": 80
+    },
+    "color": "red",
+    "weight": 19,
+    "height": 1.1,
+    "abilities": [
+      "Blaze",
+      "Solar Power"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Charmander",
+        "to": "Charmeleon",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charmeleon",
+        "to": "Charizard",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/5.gif"
+    },
+    "description": "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Flame Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Mega Punch",
+      "Scratch",
+      "Swords Dance",
+      "Cut",
+      "Mega Kick",
+      "Body Slam",
+      "Take Down",
+      "Double Edge",
+      "Leer",
+      "Growl",
+      "Ember",
+      "Flamethrower",
+      "Submission",
+      "Counter",
+      "Seismic Toss",
+      "Strength",
+      "Dragon Rage",
+      "Fire Spin",
+      "Dig",
+      "Toxic",
+      "Rage",
+      "Mimic",
+      "Double Team",
+      "Reflect",
+      "Bide",
+      "Fire Blast",
+      "Swift",
+      "Skull Bash",
+      "Rest",
+      "Slash",
+      "Substitute",
+      "Fire Punch",
+      "Smokescreen",
+      "Defense Curl",
+      "Rock Slide",
+      "Snore",
+      "Protect",
+      "Scary Face",
+      "Mud Slap",
+      "Endure",
+      "Swagger",
+      "Fury Cutter",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Dynamic Punch",
+      "Iron Tail",
+      "Hidden Power",
+      "Sunny Day",
+      "Rock Smash",
+      "Facade",
+      "Focus Punch",
+      "Brick Break",
+      "Secret Power",
+      "Overheat",
+      "Aerial Ace",
+      "Dragon Claw",
+      "Metal Claw",
+      "Thunder Punch",
+      "Outrage",
+      "False Swipe",
+      "Dragon Breath",
+      "Crunch",
+      "Beat Up",
+      "Heat Wave",
+      "Will O Wisp",
+      "Helping Hand",
+      "Weather Ball",
+      "Rock Tomb",
+      "Dragon Dance",
+      "Fling",
+      "Flare Blitz",
+      "Dragon Pulse",
+      "Shadow Claw",
+      "Fire Fang",
+      "Round",
+      "Acrobatics",
+      "Inferno",
+      "Fire Pledge",
+      "Work Up",
+      "Headbutt",
+      "Curse",
+      "Natural Gift",
+      "Captivate",
+      "Hone Claws",
+      "Flame Burst",
+      "Flame Charge",
+      "Echoed Voice",
+      "Incinerate",
+      "Confide",
+      "Power Up Punch",
+      "Fury Swipes",
+      "Bite",
+      "Roar",
+      "Belly Drum",
+      "Ancient Power",
+      "Dragon Rush",
+      "Focus Blast",
+      "Dragon Tail",
+      "Breaking Swipe",
+      "Tera Blast",
+      "Temper Flare"
+    ],
+    "locations": []
+  },
+  {
+    "id": 6,
+    "slug": "charizard",
+    "isDefault": true,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Charizard"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "base": {
+      "HP": 78,
+      "Attack": 84,
+      "Defense": 78,
+      "Special Attack": 109,
+      "Special Defense": 85,
+      "Speed": 100
+    },
+    "color": "red",
+    "weight": 90.5,
+    "height": 1.7,
+    "abilities": [
+      "Blaze",
+      "Solar Power"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Charmander",
+        "to": "Charmeleon",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charmeleon",
+        "to": "Charizard",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charizard",
+        "to": "Charizard (Mega X)",
+        "details": [
+          {
+            "trigger": "Mega Evolution"
+          }
+        ]
+      },
+      {
+        "from": "Charizard",
+        "to": "Charizard (Mega Y)",
+        "details": [
+          {
+            "trigger": "Mega Evolution"
+          }
+        ]
+      },
+      {
+        "from": "Charizard",
+        "to": "Charizard (Gmax)",
+        "details": [
+          {
+            "trigger": "Gigantamax"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/6.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/6.gif"
+    },
+    "description": "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Flame Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Mega Punch",
+      "Scratch",
+      "Swords Dance",
+      "Cut",
+      "Fly",
+      "Mega Kick",
+      "Body Slam",
+      "Take Down",
+      "Double Edge",
+      "Leer",
+      "Growl",
+      "Ember",
+      "Flamethrower",
+      "Hyper Beam",
+      "Submission",
+      "Counter",
+      "Seismic Toss",
+      "Strength",
+      "Dragon Rage",
+      "Fire Spin",
+      "Earthquake",
+      "Fissure",
+      "Dig",
+      "Toxic",
+      "Rage",
+      "Mimic",
+      "Double Team",
+      "Reflect",
+      "Bide",
+      "Fire Blast",
+      "Swift",
+      "Skull Bash",
+      "Rest",
+      "Slash",
+      "Substitute",
+      "Fire Punch",
+      "Wing Attack",
+      "Roar",
+      "Smokescreen",
+      "Defense Curl",
+      "Rock Slide",
+      "Snore",
+      "Protect",
+      "Scary Face",
+      "Mud Slap",
+      "Endure",
+      "Swagger",
+      "Fury Cutter",
+      "Steel Wing",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Dynamic Punch",
+      "Iron Tail",
+      "Hidden Power",
+      "Sunny Day",
+      "Rock Smash",
+      "Facade",
+      "Focus Punch",
+      "Brick Break",
+      "Secret Power",
+      "Overheat",
+      "Aerial Ace",
+      "Dragon Claw",
+      "Metal Claw",
+      "Heat Wave",
+      "Blast Burn",
+      "Thunder Punch",
+      "Solar Beam",
+      "Outrage",
+      "False Swipe",
+      "Dragon Breath",
+      "Crunch",
+      "Beat Up",
+      "Will O Wisp",
+      "Helping Hand",
+      "Blaze Kick",
+      "Weather Ball",
+      "Rock Tomb",
+      "Dragon Dance",
+      "Fling",
+      "Flare Blitz",
+      "Air Slash",
+      "Dragon Pulse",
+      "Focus Blast",
+      "Giga Impact",
+      "Shadow Claw",
+      "Fire Fang",
+      "Round",
+      "Acrobatics",
+      "Inferno",
+      "Fire Pledge",
+      "Bulldoze",
+      "Work Up",
+      "Heat Crash",
+      "Hurricane",
+      "Mystical Fire",
+      "Brutal Swing",
+      "Breaking Swipe",
+      "Scale Shot",
+      "Dual Wingbeat",
+      "Scorching Sands",
+      "Headbutt",
+      "Curse",
+      "Sandstorm",
+      "Twister",
+      "Air Cutter",
+      "Roost",
+      "Natural Gift",
+      "Defog",
+      "Captivate",
+      "Ominous Wind",
+      "Tailwind",
+      "Hone Claws",
+      "Flame Burst",
+      "Flame Charge",
+      "Echoed Voice",
+      "Sky Drop",
+      "Incinerate",
+      "Dragon Tail",
+      "Confide",
+      "Power Up Punch",
+      "Fury Swipes",
+      "Bite",
+      "Belly Drum",
+      "Ancient Power",
+      "Dragon Rush",
+      "Tera Blast",
+      "Dragon Cheer",
+      "Temper Flare"
+    ],
+    "locations": []
+  },
+  {
+    "id": 6,
+    "slug": "charizard-mega-x",
+    "isDefault": false,
+    "isMega": true,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Charizard (Mega X)"
+    },
+    "type": [
+      "Fire",
+      "Dragon"
+    ],
+    "base": {
+      "HP": 78,
+      "Attack": 130,
+      "Defense": 111,
+      "Special Attack": 130,
+      "Special Defense": 85,
+      "Speed": 100
+    },
+    "color": "red",
+    "weight": 110.5,
+    "height": 1.7,
+    "abilities": [
+      "Tough Claws"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Charmander",
+        "to": "Charmeleon",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charmeleon",
+        "to": "Charizard",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charizard",
+        "to": "Charizard (Mega X)",
+        "details": [
+          {
+            "trigger": "Mega Evolution"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10034.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10034.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10034.gif"
+    },
+    "description": "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Flame Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Fire Punch",
+      "Thunder Punch",
+      "Scratch",
+      "Swords Dance",
+      "Cut",
+      "Wing Attack",
+      "Fly",
+      "Growl",
+      "Roar",
+      "Ember",
+      "Flamethrower",
+      "Hyper Beam",
+      "Strength",
+      "Solar Beam",
+      "Dragon Rage",
+      "Fire Spin",
+      "Earthquake",
+      "Dig",
+      "Toxic",
+      "Double Team",
+      "Smokescreen",
+      "Fire Blast",
+      "Rest",
+      "Rock Slide",
+      "Slash",
+      "Substitute",
+      "Snore",
+      "Protect",
+      "Scary Face",
+      "Outrage",
+      "Swagger",
+      "Steel Wing",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Iron Tail",
+      "Hidden Power",
+      "Sunny Day",
+      "Rock Smash",
+      "Heat Wave",
+      "Will O Wisp",
+      "Facade",
+      "Focus Punch",
+      "Brick Break",
+      "Secret Power",
+      "Blast Burn",
+      "Overheat",
+      "Rock Tomb",
+      "Aerial Ace",
+      "Dragon Claw",
+      "Roost",
+      "Tailwind",
+      "Fling",
+      "Flare Blitz",
+      "Air Slash",
+      "Dragon Pulse",
+      "Focus Blast",
+      "Giga Impact",
+      "Shadow Claw",
+      "Fire Fang",
+      "Hone Claws",
+      "Flame Burst",
+      "Flame Charge",
+      "Round",
+      "Echoed Voice",
+      "Sky Drop",
+      "Incinerate",
+      "Inferno",
+      "Fire Pledge",
+      "Bulldoze",
+      "Dragon Tail",
+      "Confide",
+      "Power Up Punch",
+      "Defog",
+      "Work Up",
+      "Brutal Swing",
+      "Headbutt",
+      "Counter",
+      "Seismic Toss",
+      "Reflect",
+      "Fury Swipes",
+      "Crunch"
+    ],
+    "locations": []
+  },
+  {
+    "id": 6,
+    "slug": "charizard-mega-y",
+    "isDefault": false,
+    "isMega": true,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Charizard (Mega Y)"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "base": {
+      "HP": 78,
+      "Attack": 104,
+      "Defense": 78,
+      "Special Attack": 159,
+      "Special Defense": 115,
+      "Speed": 100
+    },
+    "color": "red",
+    "weight": 100.5,
+    "height": 1.7,
+    "abilities": [
+      "Drought"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Charmander",
+        "to": "Charmeleon",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charmeleon",
+        "to": "Charizard",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charizard",
+        "to": "Charizard (Mega Y)",
+        "details": [
+          {
+            "trigger": "Mega Evolution"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10035.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10035.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10035.gif"
+    },
+    "description": "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Flame Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Fire Punch",
+      "Thunder Punch",
+      "Scratch",
+      "Swords Dance",
+      "Cut",
+      "Wing Attack",
+      "Fly",
+      "Growl",
+      "Roar",
+      "Ember",
+      "Flamethrower",
+      "Hyper Beam",
+      "Strength",
+      "Solar Beam",
+      "Dragon Rage",
+      "Fire Spin",
+      "Earthquake",
+      "Dig",
+      "Toxic",
+      "Double Team",
+      "Smokescreen",
+      "Fire Blast",
+      "Rest",
+      "Rock Slide",
+      "Slash",
+      "Substitute",
+      "Snore",
+      "Protect",
+      "Scary Face",
+      "Outrage",
+      "Swagger",
+      "Steel Wing",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Iron Tail",
+      "Hidden Power",
+      "Sunny Day",
+      "Rock Smash",
+      "Heat Wave",
+      "Will O Wisp",
+      "Facade",
+      "Focus Punch",
+      "Brick Break",
+      "Secret Power",
+      "Blast Burn",
+      "Overheat",
+      "Rock Tomb",
+      "Aerial Ace",
+      "Dragon Claw",
+      "Roost",
+      "Tailwind",
+      "Fling",
+      "Flare Blitz",
+      "Air Slash",
+      "Dragon Pulse",
+      "Focus Blast",
+      "Giga Impact",
+      "Shadow Claw",
+      "Fire Fang",
+      "Hone Claws",
+      "Flame Burst",
+      "Flame Charge",
+      "Round",
+      "Echoed Voice",
+      "Sky Drop",
+      "Incinerate",
+      "Inferno",
+      "Fire Pledge",
+      "Bulldoze",
+      "Dragon Tail",
+      "Confide",
+      "Power Up Punch",
+      "Defog",
+      "Work Up",
+      "Brutal Swing",
+      "Headbutt",
+      "Counter",
+      "Seismic Toss",
+      "Reflect",
+      "Fury Swipes",
+      "Crunch"
+    ],
+    "locations": []
+  },
+  {
+    "id": 6,
+    "slug": "charizard-gmax",
+    "isDefault": false,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": true,
+    "name": {
+      "english": "Charizard (Gmax)"
+    },
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "base": {
+      "HP": 78,
+      "Attack": 84,
+      "Defense": 78,
+      "Special Attack": 109,
+      "Special Defense": 85,
+      "Speed": 100
+    },
+    "color": "red",
+    "weight": 1000,
+    "height": 28,
+    "abilities": [
+      "Blaze",
+      "Solar Power"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Charmander",
+        "to": "Charmeleon",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charmeleon",
+        "to": "Charizard",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Charizard",
+        "to": "Charizard (Gmax)",
+        "details": [
+          {
+            "trigger": "Gigantamax"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10196.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10196.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10196.gif"
+    },
+    "description": "Its wings can carry this Pokémon close to an altitude of 4,600 feet. It blows out fire at very high temperatures.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Flame Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [],
+    "locations": []
+  },
+  {
+    "id": 7,
+    "slug": "squirtle",
+    "isDefault": true,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Squirtle"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 44,
+      "Attack": 48,
+      "Defense": 65,
+      "Special Attack": 50,
+      "Special Defense": 64,
+      "Speed": 43
+    },
+    "color": "blue",
+    "weight": 9,
+    "height": 0.5,
+    "abilities": [
+      "Torrent",
+      "Rain Dish"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Squirtle",
+        "to": "Wartortle",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Wartortle",
+        "to": "Blastoise",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/7.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/7.gif"
+    },
+    "description": "When it feels threatened, it draws its limbs inside its shell and sprays water from its mouth.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Tiny Turtle Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Mega Punch",
+      "Mega Kick",
+      "Tackle",
+      "Body Slam",
+      "Take Down",
+      "Double Edge",
+      "Tail Whip",
+      "Bite",
+      "Water Gun",
+      "Hydro Pump",
+      "Surf",
+      "Ice Beam",
+      "Blizzard",
+      "Bubble Beam",
+      "Submission",
+      "Counter",
+      "Seismic Toss",
+      "Strength",
+      "Dig",
+      "Toxic",
+      "Rage",
+      "Mimic",
+      "Double Team",
+      "Withdraw",
+      "Reflect",
+      "Bide",
+      "Skull Bash",
+      "Bubble",
+      "Rest",
+      "Substitute",
+      "Ice Punch",
+      "Mist",
+      "Defense Curl",
+      "Haze",
+      "Waterfall",
+      "Snore",
+      "Flail",
+      "Protect",
+      "Mud Slap",
+      "Foresight",
+      "Icy Wind",
+      "Endure",
+      "Rollout",
+      "Swagger",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Dynamic Punch",
+      "Rapid Spin",
+      "Iron Tail",
+      "Hidden Power",
+      "Rain Dance",
+      "Mirror Coat",
+      "Rock Smash",
+      "Hail",
+      "Facade",
+      "Focus Punch",
+      "Brick Break",
+      "Yawn",
+      "Refresh",
+      "Secret Power",
+      "Dive",
+      "Mud Sport",
+      "Water Pulse",
+      "Follow Me",
+      "False Swipe",
+      "Whirlpool",
+      "Fake Out",
+      "Helping Hand",
+      "Weather Ball",
+      "Rock Tomb",
+      "Water Spout",
+      "Muddy Water",
+      "Iron Defense",
+      "Gyro Ball",
+      "Brine",
+      "Fling",
+      "Aqua Ring",
+      "Aura Sphere",
+      "Aqua Tail",
+      "Dragon Pulse",
+      "Zen Headbutt",
+      "Aqua Jet",
+      "Round",
+      "Scald",
+      "Shell Smash",
+      "Water Pledge",
+      "Work Up",
+      "Life Dew",
+      "Flip Turn",
+      "Headbutt",
+      "Confusion",
+      "Curse",
+      "Natural Gift",
+      "Captivate",
+      "Confide",
+      "Power Up Punch",
+      "Rock Slide",
+      "Outrage",
+      "Mud Shot",
+      "Liquidation",
+      "Wave Crash",
+      "Tera Blast",
+      "Ice Spinner",
+      "Chilling Water"
+    ],
+    "locations": []
+  },
+  {
+    "id": 8,
+    "slug": "wartortle",
+    "isDefault": true,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Wartortle"
+    },
+    "type": [
+      "Water"
+    ],
+    "base": {
+      "HP": 59,
+      "Attack": 63,
+      "Defense": 80,
+      "Special Attack": 65,
+      "Special Defense": 80,
+      "Speed": 58
+    },
+    "color": "blue",
+    "weight": 22.5,
+    "height": 1,
+    "abilities": [
+      "Torrent",
+      "Rain Dish"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Squirtle",
+        "to": "Wartortle",
+        "details": [
+          {
+            "min_level": 16,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Wartortle",
+        "to": "Blastoise",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/8.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/8.gif"
+    },
+    "description": "It cleverly controls its furry ears and tail to maintain its balance while swimming.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Turtle Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sword",
+      "shield",
+      "scarlet",
+      "violet"
+    ],
+    "moves": [
+      "Mega Punch",
+      "Mega Kick",
+      "Tackle",
+      "Body Slam",
+      "Take Down",
+      "Double Edge",
+      "Tail Whip",
+      "Bite",
+      "Water Gun",
+      "Hydro Pump",
+      "Surf",
+      "Ice Beam",
+      "Blizzard",
+      "Bubble Beam",
+      "Submission",
+      "Counter",
+      "Seismic Toss",
+      "Strength",
+      "Dig",
+      "Toxic",
+      "Rage",
+      "Mimic",
+      "Double Team",
+      "Withdraw",
+      "Reflect",
+      "Bide",
+      "Skull Bash",
+      "Bubble",
+      "Rest",
+      "Substitute",
+      "Ice Punch",
+      "Defense Curl",
+      "Waterfall",
+      "Snore",
+      "Protect",
+      "Mud Slap",
+      "Icy Wind",
+      "Endure",
+      "Rollout",
+      "Swagger",
+      "Attract",
+      "Sleep Talk",
+      "Return",
+      "Frustration",
+      "Dynamic Punch",
+      "Rapid Spin",
+      "Iron Tail",
+      "Hidden Power",
+      "Rain Dance",
+      "Rock Smash",
+      "Hail",
+      "Facade",
+      "Focus Punch",
+      "Brick Break",
+      "Secret Power",
+      "Dive",
+      "Water Pulse",
+      "False Swipe",
+      "Whirlpool",
+      "Helping Hand",
+      "Weather Ball",
+      "Rock Tomb",
+      "Muddy Water",
+      "Iron Defense",
+      "Gyro Ball",
+      "Brine",
+      "Fling",
+      "Aura Sphere",
+      "Aqua Tail",
+      "Dragon Pulse",
+      "Zen Headbutt",
+      "Round",
+      "Scald",
+      "Shell Smash",
+      "Water Pledge",
+      "Work Up",
+      "Flip Turn",
+      "Headbutt",
+      "Curse",
+      "Natural Gift",
+      "Captivate",
+      "Confide",
+      "Power Up Punch",
+      "Rock Slide",
+      "Outrage",
+      "Mist",
+      "Haze",
+      "Flail",
+      "Mirror Coat",
+      "Fake Out",
+      "Yawn",
+      "Water Spout",
+      "Mud Shot",
+      "Aqua Ring",
+      "Aqua Jet",
+      "Liquidation",
+      "Life Dew",
+      "Wave Crash",
+      "Tera Blast",
+      "Ice Spinner",
+      "Chilling Water"
+    ],
+    "locations": []
+  },
+  {
+    "id": 10,
+    "slug": "caterpie",
+    "isDefault": true,
+    "isMega": false,
+    "isAlolan": false,
+    "isHisuian": false,
+    "isGalarian": false,
+    "isPaldean": false,
+    "isGmax": false,
+    "name": {
+      "english": "Caterpie"
+    },
+    "type": [
+      "Bug"
+    ],
+    "base": {
+      "HP": 45,
+      "Attack": 30,
+      "Defense": 35,
+      "Special Attack": 20,
+      "Special Defense": 20,
+      "Speed": 45
+    },
+    "color": "green",
+    "weight": 2.9,
+    "height": 0.3,
+    "abilities": [
+      "Shield Dust",
+      "Run Away"
+    ],
+    "evolutionChain": [
+      {
+        "from": "Caterpie",
+        "to": "Metapod",
+        "details": [
+          {
+            "min_level": 7,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Metapod",
+        "to": "Butterfree",
+        "details": [
+          {
+            "min_level": 10,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "generation": "generation-i",
+    "sprites": {
+      "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png",
+      "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10.png",
+      "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10.gif"
+    },
+    "description": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+    "isLegendary": false,
+    "isMythical": false,
+    "category": "Worm Pokémon",
+    "versions": [
+      "red",
+      "blue",
+      "yellow",
+      "fire-red",
+      "leaf-green",
+      "lets-go-pikachu",
+      "lets-go-eevee",
+      "gold",
+      "silver",
+      "crystal",
+      "heart-gold",
+      "soul-silver",
+      "x",
+      "y",
+      "sun",
+      "moon",
+      "ultra-sun",
+      "ultra-moon",
+      "sword",
+      "shield"
+    ],
+    "moves": [
+      "Tackle",
+      "String Shot",
+      "Snore",
+      "Bug Bite",
+      "Electroweb"
+    ],
+    "locations": []
+  }
+]
