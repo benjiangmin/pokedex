@@ -57,7 +57,8 @@
           }
         ]
       }
-    ]
+    ],
+    "description": "Uhhh kinda looks like where the wild things are."
   },
   "persian": {
     "evolutionChain": [
@@ -616,5 +617,107 @@
       }
     ],
     "description": "This Pokémon sets the bone it holds on fire and dances through the night as a way to mourn its fallen allies."
+  },
+  "ponyta-galar": {
+    "evolutionChain": [
+      {
+        "from": "Ponyta (Galar)",
+        "fromSlug": "ponyta-galar",
+        "to": "Rapidash (Galar)",
+        "toSlug": "rapidash-galar",
+        "details": [
+          {
+            "min_level": 40,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "Its small horn hides a healing power. With a few rubs from this Pokémon’s horn, any slight wound you have will be healed."
+  },
+  "rapidash-galar": {
+    "evolutionChain": [
+      {
+        "from": "Ponyta (Galar)",
+        "fromSlug": "ponyta-galar",
+        "to": "Rapidash (Galar)",
+        "toSlug": "rapidash-galar",
+        "details": [
+          {
+            "min_level": 40,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ],
+    "description": "Brave and prideful, this Pokémon dashes airily through the forest, its steps aided by the psychic power stored in the fur on its fetlocks."
+  },
+  "slowpoke": {
+    "evolutionChain": [
+      { "from": "Slowpoke", "fromSlug": "slowpoke", "to": "Slowbro", "toSlug": "slowbro", "details": [{ "min_level": 37, "trigger": "Level Up" }] },
+      { "from": "Slowpoke", "fromSlug": "slowpoke", "to": "Slowking", "toSlug": "slowking", "details": [{ "item": "King's Rock", "trigger": "Trade" }] }
+    ]
+  },
+  "slowbro": {
+    "evolutionChain": [
+      { "from": "Slowpoke", "fromSlug": "slowpoke", "to": "Slowbro", "toSlug": "slowbro", "details": [{ "min_level": 37, "trigger": "Level Up" }] }
+    ]
+  },
+  "slowking": {
+    "evolutionChain": [
+      { "from": "Slowpoke", "fromSlug": "slowpoke", "to": "Slowking", "toSlug": "slowking", "details": [{ "item": "King's Rock", "trigger": "Trade" }] }
+    ]
+  },
+  "slowpoke-galar": {
+    "evolutionChain": [
+      { "from": "Slowpoke (Galar)", "fromSlug": "slowpoke-galar", "to": "Slowbro (Galar)", "toSlug": "slowbro-galar", "details": [{ "item": "Galarica Cuff", "trigger": "Use Item" }] },
+      { "from": "Slowpoke (Galar)", "fromSlug": "slowpoke-galar", "to": "Slowking (Galar)", "toSlug": "slowking-galar", "details": [{ "item": "Galarica Wreath", "trigger": "Use Item" }] }
+    ],
+    "description": "Although this Pokémon is normally always spacing out, its expression occasionally sharpens. This seems to be due to the Galarica seeds it eats."
+  },
+  "slowbro-galar": {
+    "evolutionChain": [
+      { "from": "Slowpoke (Galar)", "fromSlug": "slowpoke-galar", "to": "Slowbro (Galar)", "toSlug": "slowbro-galar", "details": [{ "item": "Galarica Cuff", "trigger": "Use Item" }] }
+    ],
+    "description": "A Shellder bite set off a chemical reaction with the spices inside Slowbro’s body, causing Slowbro to become a Poison type."
+  },
+  "slowking-galar": {
+    "evolutionChain": [
+      { "from": "Slowpoke (Galar)", "fromSlug": "slowpoke-galar", "to": "Slowking (Galar)", "toSlug": "slowking-galar", "details": [{ "item": "Galarica Wreath", "trigger": "Use Item" }] }
+    ],
+    "description": "A combination of toxins and the shock of evolution has caused the Shellder on its head to become the dominant intelligence."
+  },
+  "farfetchd": {
+    "evolutionChain": [],
+    "description": "The sprig of green onions it holds is its weapon. It is used much like a metal sword."
+  },
+  "farfetchd-galar": {
+    "evolutionChain": [
+      { "from": "Farfetchd (Galar)", "fromSlug": "farfetchd-galar", "to": "Sirfetchd", "toSlug": "sirfetchd", "details": [{ "trigger": "3 Critical Hits in one battle" }] }
+    ],
+    "description": "The Farfetch'd of the Galar region are brave warriors, and they wield thick, stout leeks in battle."
+  },
+  "sirfetchd": {
+    "evolutionChain": [
+      { "from": "Farfetchd (Galar)", "fromSlug": "farfetchd-galar", "to": "Sirfetchd", "toSlug": "sirfetchd", "details": [{ "trigger": "3 Critical Hits in one battle" }] }
+    ],
+    "description": "Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat."
+  },
+  "koffing": {
+    "evolutionChain": [
+      { "from": "Koffing", "fromSlug": "koffing", "to": "Weezing", "toSlug": "weezing", "details": [{ "min_level": 35, "trigger": "Level Up" }] },
+      { "from": "Koffing", "fromSlug": "koffing", "to": "Weezing (Galar)", "toSlug": "weezing-galar", "details": [{ "min_level": 35, "trigger": "Level Up", "location": "Galar" }] }
+    ]
+  },
+  "weezing": {
+    "evolutionChain": [
+      { "from": "Koffing", "fromSlug": "koffing", "to": "Weezing", "toSlug": "weezing", "details": [{ "min_level": 35, "trigger": "Level Up" }] }
+    ]
+  },
+  "weezing-galar": {
+    "evolutionChain": [
+      { "from": "Koffing", "fromSlug": "koffing", "to": "Weezing (Galar)", "toSlug": "weezing-galar", "details": [{ "min_level": 35, "trigger": "Level Up", "location": "Galar" }] }
+    ],
+    "description": "It consumes polluted air and poisonous gases for sustenance. The air it exhales after cleaning is incredibly clean."
   }
 }

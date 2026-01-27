@@ -32,7 +32,7 @@ export default function NextEvolution({ pokemon }) {
                                     {detail.min_level && <span className="requirements-container">lvl {detail.min_level}</span>}
                                     {detail.item && <span className="requirements-container">use {detail.item}</span>}
                                     {detail.held_item && <span className="requirements-container">holding {detail.held_item}</span>}
-                                    {detail.trigger === "Trade" && !detail.held_item && <span className="requirements-container">trade</span>}
+                                    {detail.trigger === "Trade" && !detail.held_item && <span className="requirements-container">(trade)</span>}
                                     {detail.known_move && <span className="requirements-container">knows {detail.known_move}</span>}
                                     {detail.location && <span className="requirements-container">in {detail.location}</span>}
                                     {detail.time_of_day && <span className="requirements-container">({detail.time_of_day})</span>}
