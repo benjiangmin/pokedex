@@ -2,9 +2,10 @@ export const applyFilters = (data, rules) => {
     return data.filter(pokemon => {
         if (rules.name && rules.name.trim() !== "") {
             const searchTerm = rules.name.toLowerCase()
-            const selfMatches = pokemon.name.english.toLowerCase() === searchTerm
+            const selfMatches = pokemon.name.english.toLowerCase().includes(searchTerm)
             const evoLineMatches = pokemon.evolutionChain.some(link => (
-                link.from.toLowerCase() === searchTerm || link.to.toLowerCase() === searchTerm
+                link.from.toLowerCase().includes(searchTerm) || 
+                link.to.toLowerCase().includes(searchTerm)
             ))
 
             if (!selfMatches && !evoLineMatches) {

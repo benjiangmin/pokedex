@@ -6,21 +6,30 @@
         "fromSlug": "meowth",
         "to": "Persian",
         "toSlug": "persian",
-        "details": [{ "min_level": 28, "trigger": "Level Up" }]
+        "details": [
+          {
+            "min_level": 28,
+            "trigger": "Level Up"
+          }
+        ]
       },
       {
         "from": "Meowth",
         "fromSlug": "meowth",
         "to": "Meowth (Gmax)",
         "toSlug": "meowth-gmax",
-        "details": [{ "trigger": "Gigantamax" }]
+        "details": [
+          {
+            "trigger": "Gigantamax"
+          }
+        ]
       }
     ]
   },
-  "meowth-alola": {  
+  "meowth-alola": {
     "evolutionChain": [
       {
-        "from": "Meowth (Alola)", 
+        "from": "Meowth (Alola)",
         "fromSlug": "meowth-alola",
         "to": "Persian (Alola)",
         "toSlug": "persian-alola",
@@ -31,7 +40,8 @@
           }
         ]
       }
-    ]
+    ],
+    "description": "This Pokémon was not originally found in Alola. Human actions caused a surge in their numbers, and they went feral. They’re prideful and crafty."
   },
   "meowth-galar": {
     "evolutionChain": [
@@ -41,12 +51,15 @@
         "to": "Perrserker",
         "toSlug": "perrserker",
         "details": [
-          { "min_level": 28, "trigger": "Level Up" }
+          {
+            "min_level": 28,
+            "trigger": "Level Up"
+          }
         ]
       }
     ]
   },
-    "persian": {
+  "persian": {
     "evolutionChain": [
       {
         "from": "Meowth",
@@ -54,12 +67,15 @@
         "to": "Persian",
         "toSlug": "persian",
         "details": [
-          { "min_level": 28, "trigger": "Level Up" }
+          {
+            "min_level": 28,
+            "trigger": "Level Up"
+          }
         ]
       }
     ]
   },
-    "persian-alola": {
+  "persian-alola": {
     "evolutionChain": [
       {
         "from": "Meowth (Alola)",
@@ -67,12 +83,16 @@
         "to": "Persian (Alola)",
         "toSlug": "persian-alola",
         "details": [
-          { "min_happiness": 160, "trigger": "Level Up" }
+          {
+            "min_happiness": 160,
+            "trigger": "Level Up"
+          }
         ]
       }
-    ]
+    ],
+    "description": "Its round face and smooth coat—softer than the most high-class velvet—have made this a very popular Pokémon in Alola."
   },
-    "perrserker": {
+  "perrserker": {
     "evolutionChain": [
       {
         "from": "Meowth (Galar)",
@@ -80,12 +100,15 @@
         "to": "Perrserker",
         "toSlug": "perrserker",
         "details": [
-          { "min_level": 28, "trigger": "Level Up" }
+          {
+            "min_level": 28,
+            "trigger": "Level Up"
+          }
         ]
       }
     ]
   },
-    "rattata": {
+  "rattata": {
     "evolutionChain": [
       {
         "from": "Rattata",
@@ -93,7 +116,10 @@
         "to": "Raticate",
         "toSlug": "raticate",
         "details": [
-          { "min_level": 20, "trigger": "Level Up" }
+          {
+            "min_level": 20,
+            "trigger": "Level Up"
+          }
         ]
       }
     ]
@@ -106,13 +132,15 @@
         "to": "Raticate",
         "toSlug": "raticate",
         "details": [
-          { "min_level": 20, "trigger": "Level Up" }
+          {
+            "min_level": 20,
+            "trigger": "Level Up"
+          }
         ]
       }
     ]
   },
-  
-    "rattata-alola": {
+  "rattata-alola": {
     "evolutionChain": [
       {
         "from": "Rattata (Alola)",
@@ -120,12 +148,16 @@
         "to": "Raticate (Alola)",
         "toSlug": "raticate-alola",
         "details": [
-          { "min_level": 20, "trigger": "Level Up (Night)" }
+          {
+            "min_level": 20,
+            "trigger": "Level Up (Night)"
+          }
         ]
       }
-    ]
+    ],
+    "description": "It shows no interest in anything that isn’t fresh. If you take it shopping with you, it will help you pick out ingredients."
   },
-    "raticate-alola": {
+  "raticate-alola": {
     "evolutionChain": [
       {
         "from": "Rattata (Alola)",
@@ -133,14 +165,48 @@
         "to": "Raticate (Alola)",
         "toSlug": "raticate-alola",
         "details": [
-          { "min_level": 20, "trigger": "Level Up (Night)" }
+          {
+            "min_level": 20,
+            "trigger": "Level Up (Night)"
+          }
+        ]
+      }
+    ],
+    "description": "This gourmet Pokémon is particular about the taste and freshness of its food. Restaurants where Raticate live have a good reputation."
+  },
+  "sandshrew": {
+    "evolutionChain": [
+      {
+        "from": "Sandshrew",
+        "fromSlug": "sandshrew",
+        "to": "Sandslash",
+        "toSlug": "sandslash",
+        "details": [
+          {
+            "min_level": 22,
+            "trigger": "Level Up"
+          }
         ]
       }
     ]
   },
-  "sandshrew": { "evolutionChain": [{ "from": "Sandshrew", "fromSlug": "sandshrew", "to": "Sandslash", "toSlug": "sandslash", "details": [{ "min_level": 22, "trigger": "Level Up" }] }] },
-  "sandslash": { "evolutionChain": [{ "from": "Sandshrew", "fromSlug": "sandshrew", "to": "Sandslash", "toSlug": "sandslash", "details": [{ "min_level": 22, "trigger": "Level Up" }] }] },
-    "sandshrew-alola": {
+  "sandslash": {
+    "evolutionChain": [
+      {
+        "from": "Sandshrew",
+        "fromSlug": "sandshrew",
+        "to": "Sandslash",
+        "toSlug": "sandslash",
+        "details": [
+          {
+            "min_level": 22,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "sandshrew-alola": {
     "evolutionChain": [
       {
         "from": "Sandshrew (Alola)",
@@ -148,12 +214,16 @@
         "to": "Sandslash (Alola)",
         "toSlug": "sandslash-alola",
         "details": [
-          { "item": "Ice Stone", "trigger": "Use Item" }
+          {
+            "item": "Ice Stone",
+            "trigger": "Use Item"
+          }
         ]
       }
-    ]
+    ],
+    "description": "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can."
   },
-    "sandslash-alola": {
+  "sandslash-alola": {
     "evolutionChain": [
       {
         "from": "Sandshrew (Alola)",
@@ -161,14 +231,48 @@
         "to": "Sandslash (Alola)",
         "toSlug": "sandslash-alola",
         "details": [
-          { "item": "Ice Stone", "trigger": "Use Item" }
+          {
+            "item": "Ice Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ],
+    "description": "This is Sandslash’s form after adaptation to a frigid environment. The cold air emitted by its body sharpens its icy spikes."
+  },
+  "vulpix": {
+    "evolutionChain": [
+      {
+        "from": "Vulpix",
+        "fromSlug": "vulpix",
+        "to": "Ninetales",
+        "toSlug": "ninetales",
+        "details": [
+          {
+            "item": "Fire Stone",
+            "trigger": "Use Item"
+          }
         ]
       }
     ]
   },
-  "vulpix": { "evolutionChain": [{ "from": "Vulpix", "fromSlug": "vulpix", "to": "Ninetales", "toSlug": "ninetales", "details": [{ "item": "Fire Stone", "trigger": "Use Item" }] }] },
-  "ninetales": { "evolutionChain": [{ "from": "Vulpix", "fromSlug": "vulpix", "to": "Ninetales", "toSlug": "ninetales", "details": [{ "item": "Fire Stone", "trigger": "Use Item" }] }] },
-    "vulpix-alola": {
+  "ninetales": {
+    "evolutionChain": [
+      {
+        "from": "Vulpix",
+        "fromSlug": "vulpix",
+        "to": "Ninetales",
+        "toSlug": "ninetales",
+        "details": [
+          {
+            "item": "Fire Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "vulpix-alola": {
     "evolutionChain": [
       {
         "from": "Vulpix (Alola)",
@@ -176,10 +280,14 @@
         "to": "Ninetales (Alola)",
         "toSlug": "ninetales-alola",
         "details": [
-          { "item": "Ice Stone", "trigger": "Use Item" }
+          {
+            "item": "Ice Stone",
+            "trigger": "Use Item"
+          }
         ]
       }
-    ]
+    ],
+    "description": "It exhales air colder than -58 degrees Fahrenheit. Elderly people in Alola call this Pokémon by an older name—Keokeo."
   },
   "ninetales-alola": {
     "evolutionChain": [
@@ -189,13 +297,45 @@
         "to": "Ninetales (Alola)",
         "toSlug": "ninetales-alola",
         "details": [
-          { "item": "Ice Stone", "trigger": "Use Item" }
+          {
+            "item": "Ice Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ],
+    "description": "The reason it guides people all the way down to the mountain’s base is that it wants them to hurry up and leave."
+  },
+  "pikachu": {
+    "evolutionChain": [
+      {
+        "from": "Pikachu",
+        "fromSlug": "pikachu",
+        "to": "Raichu",
+        "toSlug": "raichu",
+        "details": [
+          {
+            "item": "Thunder Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      },
+      {
+        "from": "Pikachu",
+        "fromSlug": "pikachu",
+        "to": "Raichu (Alola)",
+        "toSlug": "raichu-alola",
+        "details": [
+          {
+            "item": "Thunder Stone",
+            "trigger": "Use Item",
+            "location": "Alola"
+          }
         ]
       }
     ]
   },
-  "pikachu": { "evolutionChain": [{ "from": "Pikachu", "fromSlug": "pikachu", "to": "Raichu", "toSlug": "raichu", "details": [{ "item": "Thunder Stone", "trigger": "Use Item" }] }, { "from": "Pikachu", "fromSlug": "pikachu", "to": "Raichu (Alola)", "toSlug": "raichu-alola", "details": [{ "item": "Thunder Stone", "trigger": "Use Item", "location": "Alola" }] }] },
-    "raichu-alola": {
+  "raichu-alola": {
     "evolutionChain": [
       {
         "from": "Pikachu",
@@ -203,12 +343,17 @@
         "to": "Raichu (Alola)",
         "toSlug": "raichu-alola",
         "details": [
-          { "item": "Thunder Stone", "trigger": "Use Item", "location": "Alola" }
+          {
+            "item": "Thunder Stone",
+            "trigger": "Use Item",
+            "location": "Alola"
+          }
         ]
       }
-    ]
+    ],
+    "description": "It uses psychokinesis to control electricity. It hops aboard its own tail, using psychic power to lift the tail and move about while riding it."
   },
-   "diglett-alola": {
+  "diglett-alola": {
     "evolutionChain": [
       {
         "from": "Diglett (Alola)",
@@ -216,12 +361,16 @@
         "to": "Dugtrio (Alola)",
         "toSlug": "dugtrio-alola",
         "details": [
-          { "min_level": 26, "trigger": "Level Up" }
+          {
+            "min_level": 26,
+            "trigger": "Level Up"
+          }
         ]
       }
-    ]
+    ],
+    "description": "Its head sports an altered form of whiskers made of metal. When in communication with its comrades, its whiskers wobble to and fro."
   },
-   "dugtrio-alola": {
+  "dugtrio-alola": {
     "evolutionChain": [
       {
         "from": "Diglett (Alola)",
@@ -229,12 +378,16 @@
         "to": "Dugtrio (Alola)",
         "toSlug": "dugtrio-alola",
         "details": [
-          { "min_level": 26, "trigger": "Level Up" }
+          {
+            "min_level": 26,
+            "trigger": "Level Up"
+          }
         ]
       }
-    ]
+    ],
+    "description": "Its shining gold hair provides it with protection. It’s reputed that keeping any of its fallen hairs will bring bad luck."
   },
-    "geodude-alola": {
+  "geodude-alola": {
     "evolutionChain": [
       {
         "from": "Geodude (Alola)",
@@ -242,7 +395,10 @@
         "to": "Graveler (Alola)",
         "toSlug": "graveler-alola",
         "details": [
-          { "min_level": 25, "trigger": "Level Up" }
+          {
+            "min_level": 25,
+            "trigger": "Level Up"
+          }
         ]
       },
       {
@@ -251,12 +407,15 @@
         "to": "Golem (Alola)",
         "toSlug": "golem-alola",
         "details": [
-          { "trigger": "Trade" }
+          {
+            "trigger": "Trade"
+          }
         ]
       }
-    ]
+    ],
+    "description": "Its body is a magnetic stone. Iron sand attaches firmly to the portions of its body that are particularly magnetic."
   },
-   "graveler-alola": {
+  "graveler-alola": {
     "evolutionChain": [
       {
         "from": "Geodude (Alola)",
@@ -264,7 +423,10 @@
         "to": "Graveler (Alola)",
         "toSlug": "graveler-alola",
         "details": [
-          { "min_level": 25, "trigger": "Level Up" }
+          {
+            "min_level": 25,
+            "trigger": "Level Up"
+          }
         ]
       },
       {
@@ -273,10 +435,13 @@
         "to": "Golem (Alola)",
         "toSlug": "golem-alola",
         "details": [
-          { "trigger": "Trade" }
+          {
+            "trigger": "Trade"
+          }
         ]
       }
-    ]
+    ],
+    "description": "When it comes rolling down a mountain path, anything in its way gets zapped by electricity and sent flying."
   },
   "golem-alola": {
     "evolutionChain": [
@@ -286,7 +451,10 @@
         "to": "Graveler (Alola)",
         "toSlug": "graveler-alola",
         "details": [
-          { "min_level": 25, "trigger": "Level Up" }
+          {
+            "min_level": 25,
+            "trigger": "Level Up"
+          }
         ]
       },
       {
@@ -295,10 +463,13 @@
         "to": "Golem (Alola)",
         "toSlug": "golem-alola",
         "details": [
-          { "trigger": "Trade" }
+          {
+            "trigger": "Trade"
+          }
         ]
       }
-    ]
+    ],
+    "description": "It fires rocks charged with electricity. Even if the rock isn’t fired that accurately, just grazing an opponent will cause numbness and fainting."
   },
   "grimer-alola": {
     "evolutionChain": [
@@ -308,10 +479,14 @@
         "to": "Muk (Alola)",
         "toSlug": "muk-alola",
         "details": [
-          { "min_level": 38, "trigger": "Level Up" }
+          {
+            "min_level": 38,
+            "trigger": "Level Up"
+          }
         ]
       }
-    ]
+    ],
+    "description": "Smells like shit."
   },
   "muk-alola": {
     "evolutionChain": [
@@ -321,10 +496,14 @@
         "to": "Muk (Alola)",
         "toSlug": "muk-alola",
         "details": [
-          { "min_level": 38, "trigger": "Level Up" }
+          {
+            "min_level": 38,
+            "trigger": "Level Up"
+          }
         ]
       }
-    ]
+    ],
+    "description": "The garbage it eats causes continuous chemical changes in its body, which produce its exceedingly vivid coloration."
   },
   "exeggcute": {
     "evolutionChain": [
@@ -334,16 +513,23 @@
         "to": "Exeggutor",
         "toSlug": "exeggutor",
         "details": [
-          { "item": "Leaf Stone", "trigger": "Use Item" }
+          {
+            "item": "Leaf Stone",
+            "trigger": "Use Item"
+          }
         ]
       },
-            {
+      {
         "from": "Exeggcute",
         "fromSlug": "exeggcute",
         "to": "Exeggutor (Alola)",
         "toSlug": "exeggutor-alola",
         "details": [
-          { "item": "Leaf Stone", "trigger": "Use Item", "location": "Alola"}
+          {
+            "item": "Leaf Stone",
+            "trigger": "Use Item",
+            "location": "Alola"
+          }
         ]
       }
     ]
@@ -356,23 +542,63 @@
         "to": "Exeggutor (Alola)",
         "toSlug": "exeggutor-alola",
         "details": [
-          { "item": "Leaf Stone", "trigger": "Use Item", "location": "Alola"}
+          {
+            "item": "Leaf Stone",
+            "trigger": "Use Item",
+            "location": "Alola"
+          }
+        ]
+      }
+    ],
+    "description": "As it grew taller and taller, it outgrew its reliance on psychic powers, while within it awakened the power of the sleeping dragon."
+  },
+  "cubone": {
+    "evolutionChain": [
+      {
+        "from": "Cubone",
+        "fromSlug": "cubone",
+        "to": "Marowak",
+        "toSlug": "marowak",
+        "details": [
+          {
+            "min_level": 28,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Cubone",
+        "fromSlug": "cubone",
+        "to": "Marowak (Alola)",
+        "toSlug": "marowak-alola",
+        "details": [
+          {
+            "min_level": 28,
+            "trigger": "Level Up",
+            "time_of_day": "night",
+            "location": "Alola"
+          }
         ]
       }
     ]
   },
-  "cubone": {
-    "evolutionChain": [
-      { "from": "Cubone", "fromSlug": "cubone", "to": "Marowak", "toSlug": "marowak", "details": [{ "min_level": 28, "trigger": "Level Up" }] },
-      { "from": "Cubone", "fromSlug": "cubone", "to": "Marowak (Alola)", "toSlug": "marowak-alola", "details": [{ "min_level": 28, "trigger": "Level Up", "time_of_day": "night", "location": "Alola" }] }
-    ]
-  },
   "marowak": {
     "evolutionChain": [
-      { "from": "Cubone", "fromSlug": "cubone", "to": "Marowak", "toSlug": "marowak", "details": [{ "min_level": 28, "trigger": "Level Up" }] }
+      {
+        "from": "Cubone",
+        "fromSlug": "cubone",
+        "to": "Marowak",
+        "toSlug": "marowak",
+        "details": [
+          {
+            "min_level": 28,
+            "trigger": "Level Up"
+          }
+        ]
+      }
     ]
   },
-   "marowak-alola": {
+  "marowak-alola": {
     "evolutionChain": [
       {
         "from": "Cubone",
@@ -380,9 +606,15 @@
         "to": "Marowak (Alola)",
         "toSlug": "marowak-alola",
         "details": [
-          { "min_level": 28, "trigger": "Level Up", "location": "Alola", "time_of_day": "Nighttime" }
+          {
+            "min_level": 28,
+            "trigger": "Level Up",
+            "location": "Alola",
+            "time_of_day": "Nighttime"
+          }
         ]
       }
-    ]
+    ],
+    "description": "This Pokémon sets the bone it holds on fire and dances through the night as a way to mourn its fallen allies."
   }
 }
