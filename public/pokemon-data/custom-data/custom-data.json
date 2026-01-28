@@ -1645,5 +1645,793 @@
   },
   "urshifu-rapid-strike-gmax": {
     "description": "As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won’t even twitch."
+  },
+  "growlithe": {
+    "evolutionChain": [
+      {
+        "from": "Growlithe",
+        "fromSlug": "growlithe",
+        "to": "Arcanine",
+        "toSlug": "arcanine",
+        "details": [
+          {
+            "item": "Fire Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "growlithe-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Growlithe (Hisui)",
+        "fromSlug": "growlithe-hisui",
+        "to": "Arcanine (Hisui)",
+        "toSlug": "arcanine-hisui",
+        "details": [
+          {
+            "item": "Fire Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "arcanine": {
+    "evolutionChain": [
+      {
+        "from": "Growlithe",
+        "fromSlug": "growlithe",
+        "to": "Arcanine",
+        "toSlug": "arcanine",
+        "details": [
+          {
+            "item": "Fire Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "arcanine-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Growlithe (Hisui)",
+        "fromSlug": "growlithe-hisui",
+        "to": "Arcanine (Hisui)",
+        "toSlug": "arcanine-hisui",
+        "details": [
+          {
+            "item": "Fire Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "voltorb": {
+    "evolutionChain": [
+      {
+        "from": "Voltorb",
+        "fromSlug": "voltorb",
+        "to": "Electrode",
+        "toSlug": "electrode",
+        "details": [
+          {
+            "min_level": 30,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "electrode": {
+    "evolutionChain": [
+      {
+        "from": "Voltorb",
+        "fromSlug": "voltorb",
+        "to": "Electrode",
+        "toSlug": "electrode",
+        "details": [
+          {
+            "min_level": 30,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "voltorb-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Voltorb (Hisui)",
+        "fromSlug": "voltorb-hisui",
+        "to": "Electrode (Hisui)",
+        "toSlug": "electrode-hisui",
+        "details": [
+          {
+            "item": "Leaf Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "electrode-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Voltorb (Hisui)",
+        "fromSlug": "voltorb-hisui",
+        "to": "Electrode (Hisui)",
+        "toSlug": "electrode-hisui",
+        "details": [
+          {
+            "item": "Leaf Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "quilava": {
+    "evolutionChain": [
+      {
+        "from": "Cyndaquil",
+        "fromSlug": "cyndaquil",
+        "to": "Quilava",
+        "toSlug": "quilava",
+        "details": [
+          {
+            "min_level": 14,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Quilava",
+        "fromSlug": "quilava",
+        "to": "Typhlosion",
+        "toSlug": "typhlosion",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+            {
+        "from": "Quilava",
+        "fromSlug": "quilava",
+        "to": "Typhlosion (Hisui)",
+        "toSlug": "typhlosion-hisui",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up",
+            "location": "Hisui"
+          }
+        ]
+      }
+    ]
+  },
+  "typhlosion-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Cyndaquil",
+        "fromSlug": "cyndaquil",
+        "to": "Quilava",
+        "toSlug": "quilava",
+        "details": [
+          {
+            "min_level": 14,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Quilava",
+        "fromSlug": "quilava",
+        "to": "Typhlosion (Hisui)",
+        "toSlug": "typhlosion-hisui",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up",
+            "location": "Hisui"
+          }
+        ]
+      }
+    ]
+  },
+  "qwilfish": {
+    "evolutionChain": []
+  },
+  "qwilfish-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Qwilfish (Hisui)",
+        "fromSlug": "qwilfish-hisui",
+        "to": "Overqwil",
+        "toSlug": "overqwil",
+        "details": [
+          {
+            "trigger": "Use Move",
+            "condition": "Use Barb Barrage in Strong Style 20 times"
+          }
+        ]
+      }
+    ]
+  },
+  "overqwil": {
+    "evolutionChain": [
+      {
+        "from": "Qwilfish (Hisui)",
+        "fromSlug": "qwilfish-hisui",
+        "to": "Overqwil",
+        "toSlug": "overqwil",
+        "details": [
+          {
+            "trigger": "Use Move",
+            "condition": "Use Barb Barrage in Strong Style 20 times"
+          }
+        ]
+      }
+    ]
+  },
+  "sneasel": {
+    "evolutionChain": [
+      {
+        "from": "Sneasel",
+        "fromSlug": "sneasel",
+        "to": "Weavile",
+        "toSlug": "weavile",
+        "details": [
+          {
+            "item": "Razor Claw",
+            "trigger": "Level Up",
+            "time_of_day": "night"
+          }
+        ]
+      }
+    ]
+  },
+  "weavile": {
+    "evolutionChain": [
+      {
+        "from": "Sneasel",
+        "fromSlug": "sneasel",
+        "to": "Weavile",
+        "toSlug": "weavile",
+        "details": [
+          {
+            "item": "Razor Claw",
+            "trigger": "Level Up",
+            "time_of_day": "night"
+          }
+        ]
+      }
+    ]
+  },
+  "sneasel-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Sneasel (Hisui)",
+        "fromSlug": "sneasel-hisui",
+        "to": "Sneasler",
+        "toSlug": "sneasler",
+        "details": [
+          {
+            "item": "Razor Claw",
+            "trigger": "Use Item",
+            "time_of_day": "day"
+          }
+        ]
+      }
+    ]
+  },
+  "sneasler": {
+    "evolutionChain": [
+      {
+        "from": "Sneasel (Hisui)",
+        "fromSlug": "sneasel-hisui",
+        "to": "Sneasler",
+        "toSlug": "sneasler",
+        "details": [
+          {
+            "item": "Razor Claw",
+            "trigger": "Use Item",
+            "time_of_day": "day"
+          }
+        ]
+      }
+    ]
+  },
+  "dewott": {
+    "evolutionChain": [
+      {
+        "from": "Oshawott",
+        "fromSlug": "oshawott",
+        "to": "Dewott",
+        "toSlug": "dewott",
+        "details": [
+          { "min_level": 17, "trigger": "Level Up" }
+        ]
+      },
+      {
+        "from": "Dewott",
+        "fromSlug": "dewott",
+        "to": "Samurott",
+        "toSlug": "samurott",
+        "details": [
+          { "min_level": 36, "trigger": "Level Up" }
+        ]
+      },
+      {
+        "from": "Dewott",
+        "fromSlug": "dewott",
+        "to": "Samurott (Hisui)",
+        "toSlug": "samurott-hisui",
+        "details": [
+          { "min_level": 36, "trigger": "Level Up", "location": "Hisui" }
+        ]
+      }
+    ]
+  },
+  "samurott": {
+    "evolutionChain": [
+      {
+        "from": "Oshawott",
+        "fromSlug": "oshawott",
+        "to": "Dewott",
+        "toSlug": "dewott",
+        "details": [
+          {
+            "min_level": 17,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Dewott",
+        "fromSlug": "dewott",
+        "to": "Samurott",
+        "toSlug": "samurott",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "samurott-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Oshawott",
+        "fromSlug": "oshawott",
+        "to": "Dewott",
+        "toSlug": "dewott",
+        "details": [
+          {
+            "min_level": 17,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Dewott",
+        "fromSlug": "dewott",
+        "to": "Samurott (Hisui)",
+        "toSlug": "samurott-hisui",
+        "details": [
+          {
+            "min_level": 36,
+            "trigger": "Level Up",
+            "location": "Hisui"
+          }
+        ]
+      }
+    ]
+  },
+  "petilil": {
+    "evolutionChain": [
+      {
+        "from": "Petilil",
+        "fromSlug": "petilil",
+        "to": "Lilligant",
+        "toSlug": "lilligant",
+        "details": [
+          {
+            "item": "Sun Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      },
+      {
+        "from": "Petilil",
+        "fromSlug": "petilil",
+        "to": "Lilligant (Hisui)",
+        "toSlug": "lilligant-hisui",
+        "details": [
+          {
+            "item": "Sun Stone",
+            "trigger": "Use Item",
+            "location": "Hisui"
+          }
+        ]
+      }
+    ]
+  },
+  "lilligant": {
+    "evolutionChain": [
+      {
+        "from": "Petilil",
+        "fromSlug": "petilil",
+        "to": "Lilligant",
+        "toSlug": "lilligant",
+        "details": [
+          {
+            "item": "Sun Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "lilligant-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Petilil",
+        "fromSlug": "petilil",
+        "to": "Lilligant (Hisui)",
+        "toSlug": "lilligant-hisui",
+        "details": [
+          {
+            "item": "Sun Stone",
+            "trigger": "Use Item",
+            "location": "Hisui"
+          }
+        ]
+      }
+    ]
+  },
+  "zorua": {
+    "evolutionChain": [
+      {
+        "from": "Zorua",
+        "fromSlug": "zorua",
+        "to": "Zoroark",
+        "toSlug": "zoroark",
+        "details": [
+          {
+            "min_level": 30,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "zoroark": {
+    "evolutionChain": [
+      {
+        "from": "Zorua",
+        "fromSlug": "zorua",
+        "to": "Zoroark",
+        "toSlug": "zoroark",
+        "details": [
+          {
+            "min_level": 30,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "zorua-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Zorua (Hisui)",
+        "fromSlug": "zorua-hisui",
+        "to": "Zoroark (Hisui)",
+        "toSlug": "zoroark-hisui",
+        "details": [
+          {
+            "min_level": 30,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "zoroark-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Zorua (Hisui)",
+        "fromSlug": "zorua-hisui",
+        "to": "Zoroark (Hisui)",
+        "toSlug": "zoroark-hisui",
+        "details": [
+          {
+            "min_level": 30,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "rufflet": {
+    "evolutionChain": [
+      {
+        "from": "Rufflet",
+        "fromSlug": "rufflet",
+        "to": "Braviary",
+        "toSlug": "braviary",
+        "details": [
+          {
+            "min_level": 54,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Rufflet",
+        "fromSlug": "rufflet",
+        "to": "Braviary (Hisui)",
+        "toSlug": "braviary-hisui",
+        "details": [
+          {
+            "min_level": 54,
+            "trigger": "Level Up",
+            "location": "Hisui"
+          }
+        ]
+      }
+    ]
+  },
+  "braviary": {
+    "evolutionChain": [
+      {
+        "from": "Rufflet",
+        "fromSlug": "rufflet",
+        "to": "Braviary",
+        "toSlug": "braviary",
+        "details": [
+          {
+            "min_level": 54,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "braviary-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Rufflet",
+        "fromSlug": "rufflet",
+        "to": "Braviary (Hisui)",
+        "toSlug": "braviary-hisui",
+        "details": [
+          {
+            "min_level": 54,
+            "trigger": "Level Up",
+            "location": "Hisui"
+          }
+        ]
+      }
+    ]
+  },
+  "goomy": {
+    "evolutionChain": [
+      {
+        "from": "Goomy",
+        "fromSlug": "goomy",
+        "to": "Sliggoo",
+        "toSlug": "sliggoo",
+        "details": [
+          { "min_level": 40, "trigger": "Level Up" }
+        ]
+      },
+      {
+        "from": "Goomy",
+        "fromSlug": "goomy",
+        "to": "Sliggoo (Hisui)",
+        "toSlug": "sliggoo-hisui",
+        "details": [
+          { "min_level": 40, "trigger": "Level Up", "location": "Hisui" }
+        ]
+      }
+    ]
+  },
+  "sliggoo": {
+    "evolutionChain": [
+      {
+        "from": "Goomy",
+        "fromSlug": "goomy",
+        "to": "Sliggoo",
+        "toSlug": "sliggoo",
+        "details": [
+          { "min_level": 40, "trigger": "Level Up" }
+        ]
+      },
+      {
+        "from": "Sliggoo",
+        "fromSlug": "sliggoo",
+        "to": "Goodra",
+        "toSlug": "goodra",
+        "details": [
+          { "min_level": 50, "trigger": "Level Up", "needs_overworld_rain": true }
+        ]
+      }
+    ]
+  },
+  "sliggoo-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Goomy",
+        "fromSlug": "goomy",
+        "to": "Sliggoo (Hisui)",
+        "toSlug": "sliggoo-hisui",
+        "details": [
+          { "min_level": 40, "trigger": "Level Up", "location": "Hisui" }
+        ]
+      },
+      {
+        "from": "Sliggoo (Hisui)",
+        "fromSlug": "sliggoo-hisui",
+        "to": "Goodra (Hisui)",
+        "toSlug": "goodra-hisui",
+        "details": [
+          { "min_level": 50, "trigger": "Level Up", "location": "Hisui", "needs_overworld_rain": true }
+        ]
+      }
+    ]
+  },
+  "goodra": {
+    "evolutionChain": [
+      {
+        "from": "Sliggoo",
+        "fromSlug": "sliggoo",
+        "to": "Goodra",
+        "toSlug": "goodra",
+        "details": [
+          { "min_level": 50, "trigger": "Level Up", "needs_overworld_rain": true }
+        ]
+      }
+    ]
+  },
+  "goodra-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Sliggoo (Hisui)",
+        "fromSlug": "sliggoo-hisui",
+        "to": "Goodra (Hisui)",
+        "toSlug": "goodra-hisui",
+        "details": [
+          { "min_level": 50, "trigger": "Level Up", "location": "Hisui", "needs_overworld_rain": true }
+        ]
+      }
+    ]
+  },
+  "bergmite": {
+    "evolutionChain": [
+      {
+        "from": "Bergmite",
+        "fromSlug": "bergmite",
+        "to": "Avalugg",
+        "toSlug": "avalugg",
+        "details": [
+          {
+            "min_level": 37,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Bergmite",
+        "fromSlug": "bergmite",
+        "to": "Avalugg (Hisui)",
+        "toSlug": "avalugg-hisui",
+        "details": [
+          {
+            "min_level": 37,
+            "trigger": "Level Up",
+            "location": "Hisui"
+          }
+        ]
+      }
+    ]
+  },
+  "avalugg": {
+    "evolutionChain": [
+      {
+        "from": "Bergmite",
+        "fromSlug": "bergmite",
+        "to": "Avalugg",
+        "toSlug": "avalugg",
+        "details": [
+          {
+            "min_level": 37,
+            "trigger": "Level Up"
+          }
+        ]
+      }
+    ]
+  },
+  "avalugg-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Bergmite",
+        "fromSlug": "bergmite",
+        "to": "Avalugg (Hisui)",
+        "toSlug": "avalugg-hisui",
+        "details": [
+          {
+            "min_level": 37,
+            "trigger": "Level Up",
+            "location": "Hisui"
+          }
+        ]
+      }
+    ]
+  },
+  "dartrix": {
+    "evolutionChain": [
+      {
+        "from": "Rowlet",
+        "fromSlug": "rowlet",
+        "to": "Dartrix",
+        "toSlug": "dartrix",
+        "details": [
+          { "min_level": 17, "trigger": "Level Up" }
+        ]
+      },
+      {
+        "from": "Dartrix",
+        "fromSlug": "dartrix",
+        "to": "Decidueye",
+        "toSlug": "decidueye",
+        "details": [
+          { "min_level": 34, "trigger": "Level Up" }
+        ]
+      },
+      {
+        "from": "Dartrix",
+        "fromSlug": "dartrix",
+        "to": "Decidueye (Hisui)",
+        "toSlug": "decidueye-hisui",
+        "details": [
+          { "min_level": 34, "trigger": "Level Up", "location": "Hisui" }
+        ]
+      }
+    ]
+  },
+  "decidueye": {
+    "evolutionChain": [
+      {
+        "from": "Dartrix",
+        "fromSlug": "dartrix",
+        "to": "Decidueye",
+        "toSlug": "decidueye",
+        "details": [
+          { "min_level": 34, "trigger": "Level Up" }
+        ]
+      }
+    ]
+  },
+  "decidueye-hisui": {
+    "evolutionChain": [
+      {
+        "from": "Dartrix",
+        "fromSlug": "dartrix",
+        "to": "Decidueye (Hisui)",
+        "toSlug": "decidueye-hisui",
+        "details": [
+          { "min_level": 34, "trigger": "Level Up", "location": "Hisui" }
+        ]
+      }
+    ]
   }
 }
