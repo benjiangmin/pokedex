@@ -71,8 +71,13 @@ DATA SCHEMA (ONLY THESE KEYS ARE ALLOWED)
 
 "minWeight": integer
 "maxWeight": integer
-  - Weight is measured in hectograms
-  - Example: 100 = 10kg
+  - Weight is measured in kilograms
+  - Always convert user-specified units (lbs, kgs) into kilograms.
+
+"minHeight": integer
+"maxHeight": integer
+  - Height is measured in meters
+  - Always convert user-specified units (feet, meters) into meters.
 
 "color": string
   - Must be lowercase
@@ -142,16 +147,31 @@ STAT RULES
     set maxStats.Speed = 50.
 13. If the user mentions specific stats (HP, Attack, etc.),
     map them to minStats or maxStats accordingly.
+13. If the user asks for "strong" Pokemon:
+    set both minStats.Attack AND minStats.SpecialAttack to 90.
 14. Stats are NEVER mapped to abilities.
 
 ----------------------------------
 WEIGHT RULES
 ----------------------------------
+- If the user asks for "heavy" Pokémon: set minWeight = 200.
+- If the user asks for "light" Pokémon: set maxWeight = 2.
+- For specific weight requests, convert to Kilograms (Decimal). 
+- IMPORTANT: 1kg = 1.0. Do NOT multiply by 10 or 100.
+- If the user says "10kg", set minWeight = 10.
+- If the user says "50lbs", divide by 2.2 and set minWeight = 22.7.
+- If no unit is specified, assume kg.
 
-15. If the user asks for "heavy" Pokémon:
-    set minWeight = 2500.
-16. If the user asks for "light" Pokémon (in terms of weight):
-    set maxWeight = 10.
+----------------------------------
+HEIGHT RULES
+----------------------------------
+- If the user asks for "tall" Pokémon: set minHeight = 2.5.
+- If the user asks for "short" Pokémon: set maxHeight = 0.5.
+- For specific height requests, convert to Meters (Decimal).
+- IMPORTANT: 1 meter = 1.0. 
+- If the user says "2m", set minHeight = 2.0.
+- If the user says "6ft", divide by 3.28 and set minHeight = 1.8.
+- If no unit is specified, assume meters.
 
 ----------------------------------
 COLOR RULES

@@ -1390,5 +1390,158 @@
   },
   "diancie-mega": {
     "description": "It's like pink and crystally and cool and stuff."
+  },
+  "honedge": {
+    "evolutionChain": [
+      {
+        "from": "Honedge",
+        "fromSlug": "honedge",
+        "to": "Doublade",
+        "toSlug": "doublade",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Doublade",
+        "fromSlug": "doublade",
+        "to": "Aegislash",
+        "toSlug": "aegislash-shield",
+        "details": [
+          {
+            "item": "Dusk Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "doublade": {
+    "evolutionChain": [
+      {
+        "from": "Honedge",
+        "fromSlug": "honedge",
+        "to": "Doublade",
+        "toSlug": "doublade",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Doublade",
+        "fromSlug": "doublade",
+        "to": "Aegislash (Shield)",
+        "toSlug": "aegislash-shield",
+        "details": [
+          {
+            "item": "Dusk Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "aegislash-shield": {
+    "evolutionChain": [
+      {
+        "from": "Honedge",
+        "fromSlug": "honedge",
+        "to": "Doublade",
+        "toSlug": "doublade",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Doublade",
+        "fromSlug": "doublade",
+        "to": "Aegislash (Shield)",
+        "toSlug": "aegislash-shield",
+        "details": [
+          {
+            "item": "Dusk Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ],
+    "description": "In this defensive stance, Aegislash uses its steel body and a force field of spectral power to reduce the damage of any attack."
+  },
+  "aegislash-blade": {
+    "evolutionChain": [
+      {
+        "from": "Honedge",
+        "fromSlug": "honedge",
+        "to": "Doublade",
+        "toSlug": "doublade",
+        "details": [
+          {
+            "min_level": 35,
+            "trigger": "Level Up"
+          }
+        ]
+      },
+      {
+        "from": "Doublade",
+        "fromSlug": "doublade",
+        "to": "Aegislash (Blade)",
+        "toSlug": "aegislash-blade",
+        "details": [
+          {
+            "item": "Dusk Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ],
+    "description": "This stance is dedicated to offense. It can cleave any opponent with the strength and weight of its steel blade."
+  },
+  "zygarde-50": {
+    "evolutionChain": [],
+    "description": "This is Zygarde’s form when it has gathered 50% of its cells. It wipes out all those who oppose it, showing not a shred of mercy."
+  },
+  "zygarde-10": {
+    "description": "This is Zygarde’s form when about 10% of its cells have been gathered. It runs across the land at speeds greater than 60 mph."
+  },
+  "zygarde-complete": {
+    "evolutionChain": [
+      {
+        "from": "Zygarde (Complete)",
+        "fromSlug": "zygarde-complete",
+        "to": "Zygarde (Mega)",
+        "toSlug": "zygarde-mega",
+        "details": [
+          {
+            "trigger": "Mega Evolution"
+          }
+        ]
+      }
+    ],
+    "description": "This is Zygarde’s 100% form. It has enough power to overwhelm even Xerneas or Yveltal."
+  },
+  "zygarde-mega": {
+    "evolutionChain": [
+      {
+        "from": "Zygarde (Complete)",
+        "fromSlug": "zygarde-complete",
+        "to": "Zygarde (Mega)",
+        "toSlug": "zygarde-mega",
+        "details": [
+          {
+            "trigger": "Mega Evolution"
+          }
+        ]
+      }
+    ],
+    "description": "DAMN THATS A BIG CANNON!"
   }
 }

@@ -4,7 +4,7 @@ export const applyFilters = (data, rules) => {
             const searchTerm = rules.name.toLowerCase()
             const selfMatches = pokemon.name.english.toLowerCase().includes(searchTerm)
             const evoLineMatches = pokemon.evolutionChain.some(link => (
-                link.from.toLowerCase().includes(searchTerm) || 
+                link.from.toLowerCase().includes(searchTerm) ||
                 link.to.toLowerCase().includes(searchTerm)
             ))
 
@@ -67,6 +67,14 @@ export const applyFilters = (data, rules) => {
         }
         if (rules.maxWeight) {
             if (pokemon.weight > rules.maxWeight) return false
+        }
+
+        // Height Check (minimum/maxiumum)
+        if (rules.minHeight) {
+            if (pokemon.height < rules.minHeight) return false
+        }
+        if (rules.maxHeight) {
+            if (pokemon.height > rules.maxHeight) return false
         }
 
         // Color Check

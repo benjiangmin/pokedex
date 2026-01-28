@@ -88,7 +88,10 @@ export default function App() {
 
 
 // features i need to add:
-// 3. have the variants have their own evolution line 
-// 4. have variants have their own descriptions
-// 6. fix aegislash
-// 7. fix whatever zygarde is
+// 4. have gmax have their own descriptions
+// fix minioir
+// add information page!
+//fix logo
+// find out how to get better location data
+//spacing for name in pokemon page (gets kinda squished)
+
