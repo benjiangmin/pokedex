@@ -110,7 +110,7 @@ export default function MovesLogicLevelUp({ pokemon }) {
                         const isShowing = activeMove === move.name
 
                         return (
-                            <section onMouseLeave={hideDetails} className="move-row" key={`${currentGenName}-${move.name}-${index}`}>
+                            <section className="move-row" key={`${currentGenName}-${move.name}-${index}`}>
                                 <section className="move-and-level">
                                     <p>{move.level_learned}</p>
                                     <h4 onClick={() => showDetails(move.name)} >{move.name}</h4>

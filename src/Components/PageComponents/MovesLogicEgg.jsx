@@ -109,7 +109,7 @@ export default function MovesLogicEgg({ pokemon }) {
                         const isShowing = activeMove == move.name
 
                         return (
-                            <section onMouseLeave={hideDetails} className="move-row" key={`${currentGenName}-${move.name}-${index}`}>
+                            <section className="move-row" key={`${currentGenName}-${move.name}-${index}`}>
                                 <section className="move-and-level">
                                     <h4 onClick={() => showDetails(move.name)} style={{ paddingLeft: "20px" }}>{move.name}</h4>
                                 </section>

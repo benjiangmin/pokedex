@@ -8,16 +8,15 @@ import { parseLocationData } from "./fetchingLogic/locationLogic.js";
 
 async function fetchAllPokemon() {
     const masterList = [];
-    const totalCount = 1026; 
+    const totalCount = 1026;
     const outputDir = "./public/pokemon-data";
     const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-    for (let id = 792; id <= 792; id++) {
+    for (let id = 9; id <= 9; id++) {
         console.log(`Processing Species #${id}`);
 
-        await sleep(500);
         try {
             const speciesRes = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}`);
             const speciesData = await speciesRes.json();
@@ -40,7 +39,7 @@ async function fetchAllPokemon() {
 
             for (const item of speciesVarietiesData) {
                 const { variety, pokeData, encountersData } = item;
-                
+
                 let currentEvoChain = parseEvolutionChain(evoChainData.chain);
                 currentEvoChain = injectMegaGmaxEvolutions(currentEvoChain, variety, speciesVarietiesData, baseVarietyObj);
 
@@ -75,7 +74,8 @@ async function fetchAllPokemon() {
                         static: pokeData.sprites.front_default,
                         shiny: pokeData.sprites.front_shiny,
                         animated: pokeData.sprites.other?.showdown?.front_default || pokeData.sprites.front_default,
-                        background: pokeData.sprites.other?.dream_world.front_default
+                        background: pokeData.sprites.other?.dream_world.front_default,
+                        backup_background: pokeData.sprites.other?.['official-artwork'].front_default
                     },
                     description,
                     isLegendary: speciesData.is_legendary,
@@ -89,6 +89,10 @@ async function fetchAllPokemon() {
                 fs.writeFileSync(`${outputDir}/${pokeData.name}.json`, JSON.stringify(fullPokemonData, null, 2));
                 masterList.push({
                     ...fullPokemonData,
+                    sprites: {
+                        static: fullPokemonData.sprites.static,
+                        animated: fullPokemonData.sprites.animated
+                    },
                     moves: [...new Set(Object.values(movesByGeneration).flat().map(m => m.name))],
                     locations: []
                 });
