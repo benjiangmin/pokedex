@@ -88,7 +88,7 @@ export default function App() {
 
 
 // features i need to add:
-// 4. have gmax have their own descriptions
+// fix urshifu
 // fix minioir
 // add information page!
 //fix logo
