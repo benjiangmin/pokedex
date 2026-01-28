@@ -28,4 +28,4 @@ export default function InformationBody(props) {
             </section>
         </section>
     )
-}
+} 
