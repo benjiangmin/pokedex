@@ -578,9 +578,9 @@ main {
 }
 .variant-card > h3 {
     margin: 0px;
-    font-size: clamp(0.2rem, 1.3vw, 1rem);
+    font-size: clamp(0.2rem, 0.9vw, 1rem);
     font-family: "Sour Gummy";
-    font-weight: 200;
+    font-weight: 300;
     color: #131212;
 }
 .variant-card:hover {
@@ -630,11 +630,12 @@ main {
     align-items: center;
     margin: 0px;
 }
-.statbar-label > h3 {
+.statbar-label > h4 {
     margin: 5px 0px;
     font-size: clamp(0.8rem, 1.1vw, 1.3rem);
     color: rgb(228, 213, 195);
-    font-weight: 200;
+    font-weight: 100;
+    text-align: center;
 }
 .statbar-label > p {
     color: rgb(146, 136, 123);

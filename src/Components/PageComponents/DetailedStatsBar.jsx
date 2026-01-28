@@ -20,7 +20,7 @@ export default function DetailedStatsBar({ stats }) {
                 return (
                     <div key={name} className="statbars-row">
                         <div className="statbar-label">
-                            <h3>{name}</h3>
+                            <h4>{name}</h4>
                             <p>{stat}</p>
                         </div>
                         <div className="bar-background">
