@@ -74,7 +74,8 @@ async function fetchAllPokemon() {
                     sprites: {
                         static: pokeData.sprites.front_default,
                         shiny: pokeData.sprites.front_shiny,
-                        animated: pokeData.sprites.other?.showdown?.front_default || pokeData.sprites.front_default
+                        animated: pokeData.sprites.other?.showdown?.front_default || pokeData.sprites.front_default,
+                        background: pokeData.sprites.other?.dream_world.front_default
                     },
                     description,
                     isLegendary: speciesData.is_legendary,
