@@ -95,5 +95,5 @@ export default function App() {
 // find out how to get better location data
 //spacing for name in pokemon page (gets kinda squished)
 // Paldean
-// Hisuian
+//Fix freaking alolan != from alola
 
