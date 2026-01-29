@@ -7,6 +7,7 @@
 // import X from "../Components/Images/unown-x.gif"
 import POKEDEX_TEXT from "../Components/Images/POKEDEX_TEXT.png"
 import HelpfulBar from "./HelpfulBar"
+import background from "./Images/maybeBackground.png"
 
 // import diglett from "../Components/Images/diglett.gif"
 // import dugtrio from "../Components/Images/dugtrio.gif"
@@ -36,7 +37,7 @@ export default function InputBar(props) {
         <section className={`inputbar ${smallerInputbar}`}>
             <section className="inputbar-display">
                 <img className="pokedex-text-img" src={POKEDEX_TEXT} />
-                <section style={{ position: "relative", width: "100%" }}>
+                <section className="form-stuff" style={{ position: "relative", width: "100%" }}>
                     <form className="description-form" action={handleSubmit}>
                         <div className="label-group">
                             <label className="enter-description-label">enter description:</label>
@@ -61,8 +62,10 @@ export default function InputBar(props) {
                     setCurrentFilter={props.setCurrentFilter}
                     ascending={props.ascending}
                     setAscending={props.setAscending}
-                />
+                    />
             </section>
+
+            {/* <img className="main-background"src={background} /> */}
         </section>
     )
 }
