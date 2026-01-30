@@ -1,16 +1,14 @@
-// import P from "../Components/Images/unown-p.gif"
-// import O from "../Components/Images/unown-o.gif"
-// import K from "../Components/Images/unown-k.gif"
-// import E from "../Components/Images/unown-e.gif"
-// import D from "../Components/Images/unown-d.gif"
-// import E_SHINY from "../Components/Images/unown-e-shiny.gif"
-// import X from "../Components/Images/unown-x.gif"
+import P from "../Components/Images/unown-p.gif"
+import O from "../Components/Images/unown-o.gif"
+import K from "../Components/Images/unown-k.gif"
+import E from "../Components/Images/unown-e.gif"
+import D from "../Components/Images/unown-d.gif"
+import E_SHINY from "../Components/Images/unown-e-shiny.gif"
+import X from "../Components/Images/unown-x.gif"
 import POKEDEX_TEXT from "../Components/Images/POKEDEX_TEXT.png"
 import HelpfulBar from "./HelpfulBar"
-import background from "./Images/maybeBackground.png"
+import background from "./Images/possibleBackground.png"
 
-// import diglett from "../Components/Images/diglett.gif"
-// import dugtrio from "../Components/Images/dugtrio.gif"
 
 export default function InputBar(props) {
 
@@ -22,27 +20,24 @@ export default function InputBar(props) {
         props.performSearch(description)
     }
 
-    // <section className="pokedex-sprites-container">
-    //     <img src={P}/>
-    //     <img src={O}/>
-    //     <img src={K}/>
-    //     <img src={E}/>
-    //     <img src={D}/>
-    //     <img src={E_SHINY}/>
-    //     <img src={X}/>
-    // </section>
 
     const smallerInputbar = props.prompt?.length > 0 ? "smaller-inputbar" : ""
     return (
         <section className={`inputbar ${smallerInputbar}`}>
             <section className="inputbar-display">
-                <img className="pokedex-text-img" src={POKEDEX_TEXT} />
+                <section className="pokedex-sprites-container">
+                    <img src={P} />
+                    <img src={O} />
+                    <img src={K} />
+                    <img src={E} />
+                    <img src={D} />
+                    <img src={E_SHINY} />
+                    <img src={X} />
+                </section>
                 <section className="form-stuff" style={{ position: "relative", width: "100%" }}>
                     <form className="description-form" action={handleSubmit}>
                         <div className="label-group">
                             <label className="enter-description-label">enter description:</label>
-                            {/* <img className="diglett" src={diglett} alt="Diglett" />
-                            <img className="dugtrio" src={dugtrio} alt="Dugtrio" /> */}
                         </div>
                         <input className="enter-description-input"
                             id="description"
@@ -62,10 +57,10 @@ export default function InputBar(props) {
                     setCurrentFilter={props.setCurrentFilter}
                     ascending={props.ascending}
                     setAscending={props.setAscending}
-                    />
+                />
             </section>
-
-            {/* <img className="main-background"src={background} /> */}
+            <img className="main-background" src={background} />
+            <section className="green-bar"></section>
         </section>
     )
 }

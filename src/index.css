@@ -21,15 +21,28 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 30px;
     transition: width 0.2s ease;
     position: relative;
 }
 .main-background {
     position: absolute;
-    bottom: 0px;
     width: 100%;
+    bottom: 0px;
+    z-index: 1;
 }
+.green-bar {
+    background: linear-gradient(
+        to top,
+        rgb(100, 160, 100) 20%,
+        rgba(87, 165, 87, 0)
+    );
+    position: absolute;
+    height: 20px;
+    width: 100%;
+    z-index: 0;
+    bottom: 0px;
+}
+
 .smaller-inputbar {
     width: 35%;
 }
@@ -42,40 +55,27 @@ main {
     align-items: center;
     justify-content: flex-end;
     overflow: hidden;
-    box-sizing: border-box;
 }
 .label-group {
     position: relative;
-}
-.diglett {
-    position: absolute;
-    left: -40px;
-    bottom: -10px;
-}
-.dugtrio {
-    position: absolute;
-    right: -55px;
-    bottom: -10px;
 }
 .form-stuff {
     z-index: 1000;
 }
 .description-form {
     box-sizing: border-box;
-    padding: 0px 100px;
+    padding: 0px 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.pokedex-sprites-container {
+}
 .pokedex-sprites-container > img {
     margin: 0px;
-    height: clamp(20px, 3.8vw, 65px);
-}
-.pokedex-sprites-container > img:hover {
-    height: clamp(25px, 4.2vw, 75px);
-    cursor: pointer;
+    height: clamp(20px, 4.8vw, 100px);
 }
 .pokedex-text-img {
     height: clamp(30px, 4vw, 100px)
