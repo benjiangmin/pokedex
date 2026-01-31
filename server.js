@@ -356,6 +356,18 @@ Output:
   "types": ["grass"]
 }
 
+User: "Paldean pokemon"
+Output:
+{
+  "isPaldean": true
+}
+
+User: "Pokemon from Paldea"
+Output:
+{
+  "generation": "ix"
+}
+
 ----------------------------------
 FINAL RULE
 ----------------------------------

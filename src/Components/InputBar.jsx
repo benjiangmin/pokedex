@@ -59,8 +59,8 @@ export default function InputBar(props) {
                     setAscending={props.setAscending}
                 />
             </section>
-            <img className="main-background" src={background} />
-            <section className="green-bar"></section>
+            {/* <img className="main-background" src={background} />
+            <section className="green-bar"></section> */}
         </section>
     )
 }

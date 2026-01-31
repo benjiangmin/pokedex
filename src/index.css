@@ -143,8 +143,18 @@ main {
     justify-content: center;
     color:rgb(48, 45, 43);
     box-sizing: border-box;
-    padding: 0px 40px;
-    overflow: hidden;
+    padding: 20px 40px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+
+    /* Hide scrollbar for IE/Edge */
+    -ms-overflow-style: none;
+}
+
+/* Hide scrollbar for Chrome, Safari, Opera */
+.promptbar-display::-webkit-scrollbar {
+    display: none;
 }
 .animate-slide {    
     transform: translateY(-150%);

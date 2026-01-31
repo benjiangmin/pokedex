@@ -1634,10 +1634,80 @@
   "duraludon-gmax": {
     "description": "The hardness of its cells is exceptional, even among Steel types. It also has a body structure that’s resistant to earthquakes."
   },
+  "kubfu": {
+    "evolutionChain": [
+      {
+        "from": "Kubfu",
+        "fromSlug": "kubfu",
+        "to": "Urshifu (Single Strike)",
+        "toSlug": "urshifu-single-strike",
+        "details": [
+          {
+            "item": "Scroll Of Darkness",
+            "trigger": "Use Item"
+          }
+        ]
+      },
+      {
+        "from": "Kubfu",
+        "fromSlug": "kubfu",
+        "to": "Urshifu (Rapid Strike)",
+        "toSlug": "urshifu-rapid-strike",
+        "details": [
+          {
+            "item": "Scroll Of Waters",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
   "urshifu-single-strike": {
+    "evolutionChain": [
+      {
+        "from": "Kubfu",
+        "fromSlug": "kubfu",
+        "to": "Urshifu (Single Strike)",
+        "toSlug": "urshifu-single-strike",
+        "details": [
+          {
+            "item": "Scroll Of Darkness",
+            "trigger": "Use Item"
+          }
+        ]
+      },
+      {
+        "from": "Urshifu (Single Strike)",
+        "fromSlug": "urshifu-single-strike",
+        "to": "Urshifu (Single Strike Gmax)",
+        "toSlug": "urshifu-single-strike-gmax",
+        "details": []
+      }
+    ],
     "description": "This form of Urshifu is a strong believer in the one-hit KO. Its strategy is to leap in close to foes and land a devastating blow with a hardened fist."
   },
   "urshifu-rapid-strike": {
+    "evolutionChain": [
+      {
+        "from": "Kubfu",
+        "fromSlug": "kubfu",
+        "to": "Urshifu (Rapid Strike)",
+        "toSlug": "urshifu-rapid-strike",
+        "details": [
+          {
+            "item": "Scroll Of Waters",
+            "trigger": "Use Item"
+          }
+        ]
+      },
+      {
+        "from": "Urshifu (Rapid Strike)",
+        "fromSlug": "urshifu-rapid-strike",
+        "to": "Urshifu (Single Rapid Gmax)",
+        "toSlug": "urshifu-single-strike-gmax",
+        "details": []
+      }
+    ],
     "description": "It’s believed that this Pokémon modeled its fighting style on the flow of a river—sometimes rapid, sometimes calm."
   },
   "urshifu-single-strike-gmax": {
@@ -2513,5 +2583,17 @@
   },
   "bounsweet": {
     "description": "This is my gremlin ahhh girlfriend's favorite Pokemon I guess."
+  },
+  "tauros": {
+    "description": "This Pokémon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself."
+  },
+  "tauros-paldea-combat-breed": {
+    "description": "This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition."
+  },
+  "tauros-paldea-blaze-breed": {
+    "description": "People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined."
+  },
+  "tauros-paldea-aqua-breed": {
+    "description": "It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily."
   }
 }
