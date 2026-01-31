@@ -24,25 +24,6 @@ main {
     transition: width 0.2s ease;
     position: relative;
 }
-.main-background {
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    z-index: 1;
-}
-.green-bar {
-    background: linear-gradient(
-        to top,
-        rgb(100, 160, 100) 20%,
-        rgba(87, 165, 87, 0)
-    );
-    position: absolute;
-    height: 20px;
-    width: 100%;
-    z-index: 0;
-    bottom: 0px;
-}
-
 .smaller-inputbar {
     width: 35%;
 }
@@ -57,18 +38,17 @@ main {
     overflow: hidden;
     box-sizing: border-box;
     padding: 0px 30px;
+    z-index: 1000;
 }
 .label-group {
     position: relative;
 }
 .form-stuff {
-    z-index: 1000;
     background-color: rgb(88, 74, 67);
     border-radius: 30px 30px 0px 0px;
     box-sizing: border-box;
     padding: 15px 15px 70px 15px;
     position: relative;
-    overflow: hidden;   
     background: linear-gradient(
         to top,
         rgba(121, 94, 81, 0) 0%,
@@ -84,18 +64,22 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .abc-container {
     display: flex;
-    gap: 15px;
+    position: absolute;
+    z-index: -500;
+    opacity: 0.3;
 }
 .abc-container > img {
     margin: 0px;
     padding: 0px;
-    height: 35px;
+    height: 300px;
 }
 .pokedex-sprites-container {
     padding: 20px;
+    margin-bottom: 25px;
 }
 .pokedex-sprites-container > img {
     margin: 0px;
@@ -120,7 +104,7 @@ main {
     border: 5px solid rgb(247, 231, 216);
     color: rgb(70, 66, 60);
     background-color: rgb(253, 246, 239);
-    transition: border 0.2s ease
+    transition: border 0.2s ease;
 }
 .enter-description-input::placeholder {
     color: lightgray;

@@ -27,11 +27,6 @@ export default function InputBar(props) {
     return (
         <section className={`inputbar ${smallerInputbar}`}>
             <section className="inputbar-display">
-                {/* <section className="abc-container">
-                    <img src={A} />
-                    <img src={B} />
-                    <img src={C} />
-                </section> */}
                 <section className="pokedex-sprites-container">
                     <img src={P} />
                     <img src={O} />
@@ -43,6 +38,11 @@ export default function InputBar(props) {
                 </section>
                 <section className="form-stuff" style={{ position: "relative", width: "100%" }}>
                     <form className="description-form" action={handleSubmit}>
+                        <section className="abc-container">
+                            <img src={A} />
+                            <img src={B} />
+                            <img src={C} />
+                        </section>
 
                         <input className="enter-description-input"
                             id="description"
