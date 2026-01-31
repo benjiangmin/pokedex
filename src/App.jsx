@@ -89,8 +89,8 @@ export default function App() {
 
 // features i need to add:
 // fix minioir
+// add website icon
 // add information page!
-//fix logo
 // find out how to get better location data
-//spacing for name in pokemon page (gets kinda squished)
+// fix sorting button spacing
 
