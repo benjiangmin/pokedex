@@ -88,7 +88,6 @@ export default function App() {
 
 
 // features i need to add:
-// fix urshifu
 // fix minioir
 // add information page!
 //fix logo

@@ -5,9 +5,11 @@ import E from "../Components/Images/unown-e.gif"
 import D from "../Components/Images/unown-d.gif"
 import E_SHINY from "../Components/Images/unown-e-shiny.gif"
 import X from "../Components/Images/unown-x.gif"
-import POKEDEX_TEXT from "../Components/Images/POKEDEX_TEXT.png"
+
+import A from "../Components/Images/unown-a.png"
+import B from "../Components/Images/unown-b.png"
+import C from "../Components/Images/unown-c.png"
 import HelpfulBar from "./HelpfulBar"
-import background from "./Images/possibleBackground.png"
 
 
 export default function InputBar(props) {
@@ -25,6 +27,11 @@ export default function InputBar(props) {
     return (
         <section className={`inputbar ${smallerInputbar}`}>
             <section className="inputbar-display">
+                {/* <section className="abc-container">
+                    <img src={A} />
+                    <img src={B} />
+                    <img src={C} />
+                </section> */}
                 <section className="pokedex-sprites-container">
                     <img src={P} />
                     <img src={O} />
@@ -36,9 +43,7 @@ export default function InputBar(props) {
                 </section>
                 <section className="form-stuff" style={{ position: "relative", width: "100%" }}>
                     <form className="description-form" action={handleSubmit}>
-                        <div className="label-group">
-                            <label className="enter-description-label">enter description:</label>
-                        </div>
+
                         <input className="enter-description-input"
                             id="description"
                             name="description"

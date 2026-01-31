@@ -55,34 +55,54 @@ main {
     align-items: center;
     justify-content: flex-end;
     overflow: hidden;
+    box-sizing: border-box;
+    padding: 0px 30px;
 }
 .label-group {
     position: relative;
 }
 .form-stuff {
     z-index: 1000;
+    background-color: rgb(88, 74, 67);
+    border-radius: 30px 30px 0px 0px;
+    box-sizing: border-box;
+    padding: 15px 15px 70px 15px;
+    position: relative;
+    overflow: hidden;   
+    background: linear-gradient(
+        to top,
+        rgba(121, 94, 81, 0) 0%,
+        rgb(94, 81, 74) 40%
+    );
 }
+
 .description-form {
     box-sizing: border-box;
-    padding: 0px 50px;
+    padding: 0px 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.abc-container {
+    display: flex;
+    gap: 15px;
+}
+.abc-container > img {
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+}
 .pokedex-sprites-container {
+    padding: 20px;
 }
 .pokedex-sprites-container > img {
     margin: 0px;
     height: clamp(20px, 4.8vw, 100px);
 }
-.pokedex-text-img {
-    height: clamp(30px, 4vw, 100px)
-}
 .enter-description-label {
     font-size: clamp(0.6rem, 0.8rem, 4rem);
-    padding-top: clamp(20px, 2vw, 60px);
     padding-bottom: 5px;
     color: rgb(218, 203, 183);
     display: flex;
@@ -100,7 +120,6 @@ main {
     border: 5px solid rgb(247, 231, 216);
     color: rgb(70, 66, 60);
     background-color: rgb(253, 246, 239);
-    margin: 0px;
     transition: border 0.2s ease
 }
 .enter-description-input::placeholder {
@@ -151,8 +170,6 @@ main {
     /* Hide scrollbar for IE/Edge */
     -ms-overflow-style: none;
 }
-
-/* Hide scrollbar for Chrome, Safari, Opera */
 .promptbar-display::-webkit-scrollbar {
     display: none;
 }
