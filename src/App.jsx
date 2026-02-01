@@ -90,7 +90,6 @@ export default function App() {
 // features i need to add:
 // fix minioir
 // add website icon
-// add information page!
 // find out how to get better location data
 // fix sorting button spacing
 

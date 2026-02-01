@@ -1204,7 +1204,6 @@ main {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     opacity: 0.96;
     position: relative;
 }
@@ -1230,12 +1229,6 @@ main {
     font-family: "Sour Gummy";
     color: #524b46;
 }
-.overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vh;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 50000;
+.section-container > img {
+    height: 60px;
 }
