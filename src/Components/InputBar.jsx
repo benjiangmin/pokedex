@@ -9,8 +9,9 @@ import X from "../Components/Images/unown-x.gif"
 import A from "../Components/Images/unown-a.png"
 import B from "../Components/Images/unown-b.png"
 import C from "../Components/Images/unown-c.png"
-import HelpfulBar from "./HelpfulBar"
 
+import HelpfulBar from "./HelpfulBar"
+import HelpPopup from "./HelpPopup"
 
 export default function InputBar(props) {
 
@@ -64,6 +65,8 @@ export default function InputBar(props) {
                     setAscending={props.setAscending}
                 />
             </section>
+
+            
         </section>
     )
 }

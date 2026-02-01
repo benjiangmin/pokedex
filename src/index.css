@@ -98,19 +98,19 @@ main {
     height: clamp(30px, 6vw, 60px);
     padding: 0px 15px 0px 15px;
     font-family: "Sour Gummy";
-    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: 500;
     border-radius: 15px;
-    border: 3px solid rgb(247, 231, 216);
-    color: rgb(70, 66, 60);
-    background-color: rgb(253, 246, 239);
+    border: 3px solid rgb(46, 38, 31);
+    color: rgb(44, 42, 40);
+    background-color: rgb(248, 241, 231);    
     transition: border 0.2s ease;
 }
 .enter-description-input::placeholder {
-    color: lightgray;
+    color: rgb(211, 202, 194);
 }
 .enter-description-input:hover {
-    border: 3px solid rgb(94, 81, 74)
+    border: 3px solid rgb(146, 100, 74)
 }
 .enter-description-input:focus {
     outline: none;

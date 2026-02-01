@@ -206,16 +206,22 @@ REGIONAL FORM RULES
 
 23. If the user asks for "Mega Pokémon":
     set isMega = true.
+-   If the user asks for "...that are not Mega", make sure to set isMega = false.
 24. If the user asks for "Alolan Pokémon":
     set isAlolan = true.
+-   If the user asks for "...that are not Alolan", make sure to set isAlolan = false.
 25. If the user asks for "Hisuian Pokémon":
     set isHisuian = true.
+-   If the user asks for "...that are not Hisuian", make sure to set isHisuian = false.
 26. If the user asks for "Galarian Pokémon":
     set isGalarian = true.
+-   If the user asks for "...that are not Galarian", make sure to set isGalarian = false.
 27. If the user asks for "Paldean Pokémon":
     set isPaldean = true.
+-   If the user asks for "...that are not Paldean", make sure to set isPaldean = false.
 28. If the user asks for "Gigantamax Pokémon" or "Gmax Pokémon":
     set isGmax = true.
+-   If the user asks for "...that are not gigantamax", make sure to set isGmax = false.
 
 ----------------------------------
 LEGENDARY / MYTHICAL RULES
@@ -366,6 +372,13 @@ User: "Pokemon from Paldea"
 Output:
 {
   "generation": "ix"
+}
+
+User: "Pokemon that are not gmax or mega"
+Output:
+{
+  "isGmax": false,
+  "isMega": false
 }
 
 ----------------------------------
