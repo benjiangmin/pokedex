@@ -111,7 +111,7 @@ main {
 }
 .enter-description-input:hover {
     background-color: rgb(211, 202, 194);
-    color: rgb(255, 255, 255);
+    color: rgb(97, 85, 74);
 }
 .enter-description-input:focus {
     outline: none;
@@ -1195,17 +1195,31 @@ main {
 }
 .popup {
     position: absolute;
-    z-index: 3000;
+    z-index: 6000;
 }
 .popup-container {
-    background-color: rgb(206, 182, 168);
+    background-color: rgb(59, 56, 54);
+    border: 7px solid black;
     margin: 30px;
     border-radius: 20px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     opacity: 0.96;
-    position: relative;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6000;
+
+    height: 50%;
+    width: 50%;
+    overflow: auto;
+
+    scrollbar-width: none;
+}
+.popup-container::-webkit-scrollbar {
+    display: none; 
 }
 .close-button {
     position: absolute;
@@ -1221,14 +1235,28 @@ main {
     flex-direction: column;
 }
 .section-container > h2 {
+    color: antiquewhite;
     margin: 0px;
     font-weight: 300;
 }
 .section-container > p {
     margin: 0px;
     font-family: "Sour Gummy";
-    color: #524b46;
+    color: #a59e9a;
 }
-.section-container > img {
+.line {
     height: 60px;
 }
+.example-image {
+    background-color: rgb(82, 70, 65);
+    padding: 3px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.main-overlay {
+    position: fixed;   
+    inset: 0;          
+    background-color: rgba(63, 58, 55, 0.5); 
+    z-index: 5000;   
+}
+

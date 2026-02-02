@@ -11,13 +11,8 @@ import B from "../Components/Images/unown-b.png"
 import C from "../Components/Images/unown-c.png"
 
 import HelpfulBar from "./HelpfulBar"
-import HelpPopup from "./HelpPopup"
-
-import { useState } from "react"
 
 export default function InputBar(props) {
-    const [showPopup, setShowPopup] = useState(false)
-
     function handleSubmit(formData) {
         const description = formData.get("description")
 
@@ -27,13 +22,12 @@ export default function InputBar(props) {
     }
 
     function handleClick() {
-        setShowPopup(true)
+        props.setShowPopup(true)
     }
 
     const smallerInputbar = props.prompt?.length > 0 ? "smaller-inputbar" : ""
     return (
         <section className={`inputbar ${smallerInputbar}`}>
-            {showPopup && <div className="overlay" onClick={() => setShowPopup(false)} />}
             <section className="inputbar-display">
                 <section className="pokedex-sprites-container">
                     <img src={P} />
@@ -74,9 +68,6 @@ export default function InputBar(props) {
             </section>
 
             <button onClick={handleClick}className="how-to-use-button">how to use</button>
-            <section className="popup">
-                {showPopup && <HelpPopup setShowPopup={setShowPopup}/>}
-            </section>
         </section>
     )
 }

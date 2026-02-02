@@ -1,6 +1,6 @@
 {
   "id": 774,
-  "slug": "minior-orange-meteor",
+  "slug": "minior-core",
   "isDefault": false,
   "isMega": false,
   "isAlolan": false,
@@ -9,7 +9,7 @@
   "isPaldean": false,
   "isGmax": false,
   "name": {
-    "english": "Minior (Orange Meteor)"
+    "english": "Minior (Core)"
   },
   "type": [
     "Rock",
@@ -17,14 +17,14 @@
   ],
   "base": {
     "HP": 60,
-    "Attack": 60,
-    "Defense": 100,
-    "Special Attack": 60,
-    "Special Defense": 100,
-    "Speed": 60
+    "Attack": 100,
+    "Defense": 60,
+    "Special Attack": 100,
+    "Special Defense": 60,
+    "Speed": 120
   },
   "color": "brown",
-  "weight": 40,
+  "weight": 0.3,
   "height": 0.3,
   "abilities": [
     "Shields Down"
@@ -32,11 +32,11 @@
   "evolutionChain": [],
   "generation": "generation-vii",
   "sprites": {
-    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10130.png",
-    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/774-orange-meteor.png",
-    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10130.gif",
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10136.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10136.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10136.gif",
     "background": null,
-    "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10130.png"
+    "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10136.png"
   },
   "description": "Although its outer shell is uncommonly durable, the shock of falling to the ground smashes the shell to smithereens.",
   "isLegendary": false,

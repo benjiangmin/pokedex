@@ -8,6 +8,7 @@ import pokemonData from "../public/pokedex-master.json"
 import { useState } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
+import HelpPopup from "./Components/HelpPopup"
 
 export default function App() {
   const [query, setQuery] = useState()
@@ -15,6 +16,8 @@ export default function App() {
   const [currentFilter, setCurrentFilter] = useState("")
   const [ascending, setAscending] = useState(true)
   const [loading, setLoading] = useState(false)
+  const [showPopup, setShowPopup] = useState(false)
+
 
   const performSearch = async (userPrompt) => {
     if (!userPrompt) return;
@@ -22,9 +25,9 @@ export default function App() {
     setLoading(true)
     console.log("Calling OpenAI for:", userPrompt)
 
-    const API_BASE_URL = window.location.hostname === "localhost" 
-    ? "http://localhost:3001" 
-    : "https://pokedex-11k9.onrender.com";
+    const API_BASE_URL = window.location.hostname === "localhost"
+      ? "http://localhost:3001"
+      : "https://pokedex-11k9.onrender.com";
 
     try {
       const response = await fetch(`${API_BASE_URL}/api/search`, {
@@ -56,6 +59,16 @@ export default function App() {
         <Routes>
           <Route path="/" element={
             <>
+              {showPopup && (
+                <>
+                  <div
+                    className="main-overlay"
+                    onClick={() => setShowPopup(false)}
+                  />
+                  <HelpPopup setShowPopup={setShowPopup} />
+                </>
+              )}
+
               <InputBar
                 setQuery={setQuery}
                 results={aiResults}
@@ -67,6 +80,8 @@ export default function App() {
                 setAscending={setAscending}
                 performSearch={performSearch}
                 prompt={query}
+                showPopup={showPopup}
+                setShowPopup={setShowPopup}
               />
 
               <section className="display-prompt-and-pokemon" >
@@ -76,7 +91,7 @@ export default function App() {
             </>
           } />
 
-          <Route path="/pokemon/:slug" element={<PokemonPage allPokemon={pokemonData}/>} />
+          <Route path="/pokemon/:slug" element={<PokemonPage allPokemon={pokemonData} />} />
         </Routes>
       </main>
     </BrowserRouter>
@@ -88,8 +103,6 @@ export default function App() {
 
 
 // features i need to add:
-// fix minioir
-// add website icon
 // find out how to get better location data
 // fix sorting button spacing
 
