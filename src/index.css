@@ -47,7 +47,7 @@ main {
     background-color: rgb(88, 74, 67);
     border-radius: 20px 20px 0px 0px;
     box-sizing: border-box;
-    padding: 4px 2px 30px 2px;
+    padding: 4px 2px 20px 2px;
     position: relative;
     background: linear-gradient(
         to top,
@@ -360,6 +360,11 @@ main {
     cursor: pointer;
     background-color: rgb(85, 80, 74);
 }
+.sorting-buttons-section > p {
+    margin: 0px 0px 3px 25px;
+    font-size: 0.7rem;
+    color: antiquewhite;
+}
 .sorting-buttons-container {
     background-color: rgb(78, 73, 68);
     border-radius: 30px;
@@ -373,7 +378,6 @@ main {
     aspect-ratio: 1/1;
     width: clamp(10px, 4vw, 80px);
     box-sizing: border-box;
-    padding: 14px;
     border-radius: 27%;
     border: none;
     background-color: rgb(218, 203, 183);

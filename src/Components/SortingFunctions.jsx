@@ -34,7 +34,8 @@ export default function SortingFunctions(props) {
   };
 
   return (
-    <section style={{ display: "flex", justifyContent: "center" }}>
+    <section className="sorting-buttons-section">
+      <p>sort by</p>
       <section className="sorting-buttons-container">
         {Object.keys(statMap).map((key) => (
           <button
@@ -45,7 +46,7 @@ export default function SortingFunctions(props) {
             }
             onClick={() => handleSort(key)}
           >
-            sort {key}
+            {key}
           </button>
         ))}
       </section>
