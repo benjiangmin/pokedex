@@ -426,6 +426,7 @@ main {
     border: 8px solid black;
     transition: border 0.3s ease;
     position: relative;
+    z-index: 1000;
 }
 .three-d-model-container:hover {
     cursor: pointer;
@@ -629,71 +630,86 @@ main {
     height: clamp(150px, 25vw, 500px);
     width: clamp(200px, 47vw, 1300px);
     border-radius: 0px 30px 30px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     box-sizing: border-box;
-    padding-right: 20px;
+    padding-right: 50px;
+    padding-left: 5px;
     position: relative;
 }
 .statbars-container {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    box-sizing: border-box;
-    padding-left: 20px;
 }
 .statbars-row {
     display: flex;
     align-items: center;
-    width: 100%;
 }
 .statbar-label {
-    width: clamp(40px, 45vw, 200px);
+    width: clamp(40px, 12vw, 200px);
+    height: 2vw;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin: 0px;
+    position: relative;
 }
 .statbar-label > h4 {
-    margin: 5px 0px;
-    font-size: clamp(0.8rem, 1.1vw, 1.3rem);
+    margin: 0px 20px 0px 0px;
     color: rgb(228, 213, 195);
-    font-weight: 100;
-    text-align: center;
+    font-size: clamp(0.5rem, 1.2vw, 1.5rem);
+    font-weight: 0px;
+    text-align: right;
+    width: 100%;
 }
 .statbar-label > p {
-    color: rgb(146, 136, 123);
-    font-size: 0.7rem;
-    margin: 0px 3px;
+    color: rgb(241, 235, 226);
+    background-color: rgb(37, 36, 34);
+    font-size: clamp(0.3rem, 0.5vw, 0.7rem);
+    box-sizing: border-box;
+    padding: 2px;
+    border-radius: 5px;
+    width: 35px;
+    text-align: center;
+    margin: 0px 3px 0px 30px;
+    position: absolute;
+    right: -42px;
 }
 .bar-background {
     flex-grow: 1;
-    height: 50%;
+    height: 70%;
     overflow: hidden;
 }
 .bar-fill {
     height: 100%;
     background-color: rgb(141, 185, 127);
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
     border-radius: 5px;
 
     transition: width 0.8s cubic-bezier(0.25, 1, 0.5, 1)
 }
 .weights-heights-container {
     display: flex;
+    padding:3px 10px 3px 20px;
+    border-radius: 0px 10px 10px 0px;
     gap: 20px;
-    width: 100%;
-    box-sizing: border-box;
-    padding-left: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: -3px;
+    background-color: #b6ab9e;
 }
 .weights-heights-container > p {
-    margin: 15px 0px 0px 0px;
+    margin: 0px;
     color: rgb(128, 121, 113);
+    font-family: "Sour Gummy";
+}
+.description-container {
+    background-color: rgb(202, 188, 171);
+    margin: 10px 0px 0px 0px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 0.8rem;
     font-family: "Sour Gummy";
 }
 

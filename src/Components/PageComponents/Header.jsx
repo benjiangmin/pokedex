@@ -76,6 +76,9 @@ export default function Header({ pokemon, allPokemon }) {
                     <p>{pokemon.weight} kg/{toPounds} lb</p>
                     <p>{pokemon.height} m/{toFeet} ft</p>
                 </div>
+                {/* <section className="description-container">
+                    {pokemon.description}
+                </section> */}
                 <NextEvolution pokemon={pokemon} />
             </div>
 
