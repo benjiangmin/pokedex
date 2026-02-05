@@ -562,6 +562,7 @@ main {
     box-sizing: border-box;
     position: absolute;
     width: 100%;
+    left: -10px;
     top: calc(100% + 1px); 
 }
 .right-arrow {
@@ -659,13 +660,13 @@ main {
     color: rgb(228, 213, 195);
     font-size: clamp(0.5rem, 1.2vw, 1.5rem);
     font-weight: 0px;
-    text-align: right;
+    text-align: center;
     width: 100%;
+    font-family: "Sour Gummy";
 }
 .statbar-label > p {
-    color: rgb(241, 235, 226);
-    background-color: rgb(37, 36, 34);
-    font-size: clamp(0.3rem, 0.5vw, 0.7rem);
+    color: rgb(255, 255, 255);
+    font-size: clamp(0.3rem, 0.8vw, 0.7rem);
     box-sizing: border-box;
     padding: 2px;
     border-radius: 5px;
@@ -673,7 +674,7 @@ main {
     text-align: center;
     margin: 0px 3px 0px 30px;
     position: absolute;
-    right: -42px;
+    right: -35px;
 }
 .bar-background {
     flex-grow: 1;
@@ -690,17 +691,18 @@ main {
 }
 .weights-heights-container {
     display: flex;
-    padding:3px 10px 3px 20px;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px;
+    padding: 5px 10px;
     gap: 20px;
     position: absolute;
-    bottom: 20px;
-    left: -3px;
-    background-color: #b6ab9e;
+    top: 20px;
+    left: 20px;
+    border: 2px solid rgb(105, 95, 86);
+    background-color: #645d59;
 }
 .weights-heights-container > p {
     margin: 0px;
-    color: rgb(128, 121, 113);
+    color: rgb(170, 162, 152);
     font-family: "Sour Gummy";
 }
 .description-container {
