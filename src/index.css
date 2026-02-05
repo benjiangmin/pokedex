@@ -668,7 +668,6 @@ main {
     color: rgb(255, 255, 255);
     font-size: clamp(0.3rem, 0.8vw, 0.7rem);
     box-sizing: border-box;
-    padding: 2px;
     border-radius: 5px;
     width: 35px;
     text-align: center;
@@ -691,14 +690,13 @@ main {
 }
 .weights-heights-container {
     display: flex;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
     padding: 5px 10px;
     gap: 20px;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    bottom: 20px;
+    left: -2px;
     border: 2px solid rgb(105, 95, 86);
-    background-color: #645d59;
 }
 .weights-heights-container > p {
     margin: 0px;
@@ -707,12 +705,11 @@ main {
 }
 .description-container {
     background-color: rgb(202, 188, 171);
-    margin: 10px 0px 0px 0px;
-    box-sizing: border-box;
-    padding: 10px;
-    border-radius: 0px 15px 15px 0px;
     font-size: 0.8rem;
     font-family: "Sour Gummy";
+    position: absolute;
+    top: 0px;
+    width: 50%;
 }
 
 
