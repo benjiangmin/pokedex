@@ -44,7 +44,7 @@ export default function HelpPopop({ setShowPopup }) {
                 <h2>Some more notes...</h2>
                 <p>
                     this site does cost some money to keep running, and since I'm a broke ahh college student, I'm using a free plan on Render
-                    to keep my backend up. this means the first search may take some time to boot up (around a minute). after your initial search,
+                    to keep my backend up. this means <span style={{color:"red"}}>the first search may take some time to boot up (around a minute).</span> after your initial search,
                     though, it should work pretty fast! if I see that people are actually using this, then I'll buy the paid service ig.
                 </p>
                 <img className="line" src={line} />

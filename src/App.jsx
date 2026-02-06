@@ -105,5 +105,4 @@ export default function App() {
 // features i need to add:
 // find out how to get better location data
 // fix display prompt
-// add capability for "heaviest", "tallest", "fastest", etc.
 // search for moves
