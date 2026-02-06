@@ -106,5 +106,4 @@ export default function App() {
 // find out how to get better location data
 // fix display prompt
 // add capability for "heaviest", "tallest", "fastest", etc.
-// regidrago issue
 // search for moves

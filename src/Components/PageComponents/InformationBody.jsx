@@ -21,9 +21,6 @@ export default function InformationBody(props) {
 
     return (
         <section className="information-body-container">
-            <section className="description-container">
-                {props.pokemon.description}
-            </section>
             <section className="information-left">
                 <TypeLogic pokemon={props.pokemon} />
                 <AbilitiesLogic pokemon={props.pokemon} />

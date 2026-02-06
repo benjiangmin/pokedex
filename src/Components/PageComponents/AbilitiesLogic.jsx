@@ -12,7 +12,7 @@ export default function AbilitiesLogic({ pokemon }) {
                 return (
                     <div key={ability} className="ability-row">
                         <h3>{ability}</h3>
-                        <p>{abilityDetails.description}</p>
+                        <p>{abilityDetails?.description}</p>
                     </div>
                 )
             })}

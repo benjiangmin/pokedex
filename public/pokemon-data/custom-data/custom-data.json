@@ -2605,5 +2605,97 @@
   },
   "terapagos-stellar": {
     "description": "Dis a W pokemern - leo wang"
+  },
+"eevee": {
+    "evolutionChain": [
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Vaporeon",
+        "toSlug": "vaporeon",
+        "details": [{ "item": "Water Stone", "trigger": "Use Item" }]
+      },
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Jolteon",
+        "toSlug": "jolteon",
+        "details": [{ "item": "Thunder Stone", "trigger": "Use Item" }]
+      },
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Flareon",
+        "toSlug": "flareon",
+        "details": [{ "item": "Fire Stone", "trigger": "Use Item" }]
+      },
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Espeon",
+        "toSlug": "espeon",
+        "details": [{ "time_of_day": "day", "min_happiness": 160, "trigger": "Level Up" }]
+      },
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Umbreon",
+        "toSlug": "umbreon",
+        "details": [{ "time_of_day": "night", "min_happiness": 160, "trigger": "Level Up" }]
+      },
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Leafeon",
+        "toSlug": "leafeon",
+        "details": [{ "item": "Leaf Stone", "trigger": "Use Item" }]
+      },
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Glaceon",
+        "toSlug": "glaceon",
+        "details": [{ "item": "Ice Stone", "trigger": "Use Item" }]
+      },
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Sylveon",
+        "toSlug": "sylveon",
+        "details": [{ "known_move_type": "Fairy", "min_happiness": 160, "trigger": "Level Up" }]
+      }
+    ]
+  },
+  "leafeon": {
+    "evolutionChain": [
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Leafeon",
+        "toSlug": "leafeon",
+        "details": [
+          {
+            "item": "Leaf Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
+  },
+  "glaceon": {
+    "evolutionChain": [
+      {
+        "from": "Eevee",
+        "fromSlug": "eevee",
+        "to": "Glaceon",
+        "toSlug": "glaceon",
+        "details": [
+          {
+            "item": "Ice Stone",
+            "trigger": "Use Item"
+          }
+        ]
+      }
+    ]
   }
 }

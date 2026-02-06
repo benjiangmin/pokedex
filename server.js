@@ -141,21 +141,21 @@ TYPE RULES
 STAT RULES
 ----------------------------------
 
-11. If the user asks for "fast" Pokémon:
-    set minStats.Speed = 100.
-12. If the user asks for "slow" Pokémon or "trick room" Pokémon:
+11. If the user asks for "fast" or "fastest" Pokémon:
+    set minStats.Speed = 130.
+12. If the user asks for "slow" or "slowest" Pokémon or "trick room" Pokémon:
     set maxStats.Speed = 50.
 13. If the user mentions specific stats (HP, Attack, etc.),
     map them to minStats or maxStats accordingly.
 13. If the user asks for "strong" Pokemon:
-    set both minStats.Attack AND minStats.SpecialAttack to 90.
+    set both minStats.Attack AND minStats.SpecialAttack to 120.
 14. Stats are NEVER mapped to abilities.
 
 ----------------------------------
 WEIGHT RULES
 ----------------------------------
-- If the user asks for "heavy" Pokémon: set minWeight = 200.
-- If the user asks for "light" Pokémon: set maxWeight = 2.
+- If the user asks for "heavy" or "heaviest" Pokémon: set minWeight = 200.
+- If the user asks for "light" or "lightest" Pokémon: set maxWeight = 2.
 - For specific weight requests, convert to Kilograms (Decimal). 
 - IMPORTANT: 1kg = 1.0. Do NOT multiply by 10 or 100.
 - If the user says "10kg", set minWeight = 10.
@@ -165,8 +165,8 @@ WEIGHT RULES
 ----------------------------------
 HEIGHT RULES
 ----------------------------------
-- If the user asks for "tall" Pokémon: set minHeight = 2.5.
-- If the user asks for "short" Pokémon: set maxHeight = 0.5.
+- If the user asks for "tall" or "tallest" or "biggest" or "largest" Pokémon: set minHeight = 2.5.
+- If the user asks for "short" or "shortest" or "smallest" Pokémon: set maxHeight = 0.6.
 - For specific height requests, convert to Meters (Decimal).
 - IMPORTANT: 1 meter = 1.0. 
 - If the user says "2m", set minHeight = 2.0.
