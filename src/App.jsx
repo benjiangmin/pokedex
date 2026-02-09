@@ -17,7 +17,8 @@ export default function App() {
   const [ascending, setAscending] = useState(true)
   const [loading, setLoading] = useState(false)
   const [showPopup, setShowPopup] = useState(false)
-
+  const [showMega, setShowMega] = useState(true)
+  const [showGmax, setShowGmax] = useState(true)
 
   const performSearch = async (userPrompt) => {
     if (!userPrompt) return;
@@ -82,11 +83,20 @@ export default function App() {
                 prompt={query}
                 showPopup={showPopup}
                 setShowPopup={setShowPopup}
+                showMega={showMega}
+                setShowMega={setShowMega}
+                showGmax={showGmax}
+                setShowGmax={setShowGmax}
               />
 
               <section className="display-prompt-and-pokemon" >
                 <DisplayPrompt prompt={query} results={aiResults} />
-                <DisplayPokemon results={aiResults} loading={loading} />
+                <DisplayPokemon 
+                  results={aiResults} 
+                  loading={loading} 
+                  showGmax={showGmax}
+                  showMega={showMega}
+                />
               </section>
             </>
           } />
@@ -106,3 +116,4 @@ export default function App() {
 // find out how to get better location data
 // fix display prompt
 // search for moves
+// show mega, show gmax, show regional variant buttons

@@ -41,6 +41,23 @@ export default function HelpfulBar(props) {
                 <section className="reset-buttons-container">
                     <button onClick={props.resetSearch}>clear search</button>
                     <button onClick={sortByID}>reset filters</button>
+
+                    <label>
+                        <input 
+                            type="checkbox" 
+                            checked={props.showMega} 
+                            onChange={() => props.setShowMega(!props.showMega)}
+                        />
+                        show mega
+                    </label>
+                    <label>
+                        <input 
+                            type="checkbox"
+                            checked={props.showGmax}
+                            onChange={() => props.setShowGmax(!props.showGmax)}
+                        />
+                        show gmax
+                    </label>
                 </section>
             </section>
         </section>

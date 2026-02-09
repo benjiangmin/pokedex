@@ -3,14 +3,18 @@ import PokemonEntry from "./PokemonEntry";
 import pokeballLoading from "./Images/pokeballLoadingV4.gif";
 import pokeballLoadingStillFrame from "./Images/frame_00_delay-0.12s.gif";
 
-export default function DisplayPokemon({ results, loading }) {
+export default function DisplayPokemon({ results, loading, showGmax, showMega }) {
     const [isHovering, setIsHovering] = useState(false);
     
     const displayList = results || [];
     const pokeball = isHovering ? pokeballLoading : pokeballLoadingStillFrame;
 
     const toDisplay = !loading
-        ? displayList.map((pokemon, index) => (
+        ? displayList.filter(pokemon => {
+            if (!showMega && pokemon.isMega) return false;
+            if (!showGmax && pokemon.isGmax) return false;
+            return true;
+        }).map((pokemon, index) => (
               <PokemonEntry key={pokemon.slug} pokemon={pokemon} index={index} />
           ))
         : [];
