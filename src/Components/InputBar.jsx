@@ -64,6 +64,10 @@ export default function InputBar(props) {
                     setCurrentFilter={props.setCurrentFilter}
                     ascending={props.ascending}
                     setAscending={props.setAscending}
+                    showMega={props.showMega}
+                    setShowMega={props.setShowMega}
+                    showGmax={props.showGmax}
+                    setShowGmax={props.setShowGmax}
                 />
             </section>
 

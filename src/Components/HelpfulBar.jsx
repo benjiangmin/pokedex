@@ -12,7 +12,7 @@ export default function HelpfulBar(props) {
                 setDelayedShow(false);
             }, 500);
 
-            return () => clearTimeout(timer); 
+            return () => clearTimeout(timer);
         }
     }, [props.results]);
 
@@ -38,26 +38,37 @@ export default function HelpfulBar(props) {
                     ascending={props.ascending}
                     setAscending={props.setAscending}
                 />
-                <section className="reset-buttons-container">
-                    <button onClick={props.resetSearch}>clear search</button>
-                    <button onClick={sortByID}>reset filters</button>
-
-                    <label>
-                        <input 
-                            type="checkbox" 
-                            checked={props.showMega} 
-                            onChange={() => props.setShowMega(!props.showMega)}
-                        />
-                        show mega
-                    </label>
-                    <label>
-                        <input 
-                            type="checkbox"
-                            checked={props.showGmax}
-                            onChange={() => props.setShowGmax(!props.showGmax)}
-                        />
-                        show gmax
-                    </label>
+                <section className="choose-what-gets-displayed-container">
+                    <section className="reset-buttons-container">
+                        <button onClick={props.resetSearch}>clear search</button>
+                        <button onClick={sortByID}>reset filters</button>
+                    </section>
+                    <section className="checkbox-variants-container">
+                        <label className="toggle-label">
+                            <input
+                                type="checkbox"
+                                className="toggle-input"
+                                checked={props.showMega}
+                                onChange={() => props.setShowMega(!props.showMega)}
+                            />
+                            <span className="toggle-track">
+                                <span className="toggle-thumb" />
+                            </span>
+                            show mega
+                        </label>
+                        <label className="toggle-label">
+                            <input
+                                type="checkbox"
+                                className="toggle-input"
+                                checked={props.showGmax}
+                                onChange={() => props.setShowGmax(!props.showGmax)}
+                            />
+                            <span className="toggle-track">
+                                <span className="toggle-thumb" />
+                            </span>
+                            show gmax
+                        </label>
+                    </section>
                 </section>
             </section>
         </section>

@@ -110,7 +110,7 @@ main {
     color: rgb(211, 202, 194);
 }
 .enter-description-input:hover {
-    background-color: rgb(211, 202, 194);
+    background-color: rgb(240, 234, 229);
     color: rgb(255, 255, 255);
 }
 .enter-description-input:focus {
@@ -338,15 +338,79 @@ main {
     transform: translateY(0);
     pointer-events: all;
 }
+.choose-what-gets-displayed-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 .reset-buttons-container {
-
+    display: flex;
+    gap: 10px;
 }
 .reset-buttons-container > button {
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(109, 99, 93);
+    font-family: "Sour Gummy";
+    font-weight: 100;
+    color: antiquewhite;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.checkbox-variants-container {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: antiquewhite;
+}
 
+.toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.toggle-input {
+    display: none;
+}
+
+.toggle-track {
+    width: 36px;
+    height: 20px;
+    background: #555;
+    border-radius: 999px;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.toggle-thumb {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    background: white;
+    border-radius: 50%;
+    transition: transform 0.2s ease;
+}
+
+.toggle-input:checked + .toggle-track {
+    background: #e4ac6c;
+}
+
+.toggle-input:checked + .toggle-track .toggle-thumb {
+    transform: translateX(16px);
 }
 .reset-buttons-container > button:hover {
     cursor: pointer;
-    background-color: rgb(85, 80, 74);
+    background-color: rgb(199, 191, 181);
+    color: rgb(255, 255, 255);
 }
 .sorting-buttons-section > p {
     margin: 0px 0px 3px 25px;
