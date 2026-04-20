@@ -54,7 +54,7 @@ export default function HelpPopop({ setShowPopup }) {
                 <h2>Thanks to:</h2>
                 <p>
                     thanks to PokeAPI of course, as well as that one github with the 3d models. and to whoever thinks that this app might be helpful!
-                    contact me if you have any search capability suggestions or just in general! i'd love to hear it.
+                    contact me (mercedesBENz5519@gmail.com) (I made the email a long time ago and thought it was cool since my name is ben...) if you have any search capability suggestions or just in general! i'd love to hear it.
                 </p>
             </section>
         </section>
