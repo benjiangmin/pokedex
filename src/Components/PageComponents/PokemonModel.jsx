@@ -37,7 +37,7 @@ export default function PokemonModel({ pokemon, toggleShiny, shiny }) {
             setIsLoading(true)
             setShowOverlay(true)
 
-            const baseUrl = `https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/glb`
+            const baseUrl = `https://raw.githubusercontent.com/Pokemon-3D-api/assets/main/models/opt`
 
             const currentFolder = getFolder(pokemon, shiny)
             const currentUrl = `${baseUrl}/${currentFolder}/${pokemon.id}.glb`
