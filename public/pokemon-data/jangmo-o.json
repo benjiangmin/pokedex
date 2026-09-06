@@ -36,8 +36,10 @@
       "to": "Hakamo-o",
       "details": [
         {
-          "min_level": 35,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 35
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Kommo-o",
       "details": [
         {
-          "min_level": 45,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 45
         }
       ]
     }
@@ -1210,6 +1214,164 @@
     ]
   },
   "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 19,
+        "maxLevel": 24
+      },
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
     "Sun": [
       {
         "location": "Vast Poni Canyon Outside",

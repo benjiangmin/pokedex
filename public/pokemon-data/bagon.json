@@ -35,8 +35,10 @@
       "to": "Shelgon",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Salamence",
       "details": [
         {
-          "min_level": 50,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 50
         }
       ]
     }
@@ -3587,6 +3591,24 @@
         "maxLevel": 25
       }
     ],
+    "Omega Ruby": [
+      {
+        "location": "Meteor Falls Backsmall Room",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 20,
+        "maxLevel": 20
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Meteor Falls Backsmall Room",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 20,
+        "maxLevel": 20
+      }
+    ],
     "X": [
       {
         "location": "Kalos Route 8 Area",
@@ -3645,6 +3667,159 @@
         "chance": 1,
         "minLevel": 15,
         "maxLevel": 15
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Tunnel To The Top Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Tunnel To The Top Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
       }
     ],
     "Sun": [
@@ -3709,6 +3884,24 @@
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 18
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Outer Area",
+        "method": "Hidden Grotto",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Outer Area",
+        "method": "Hidden Grotto",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

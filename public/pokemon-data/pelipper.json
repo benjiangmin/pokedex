@@ -37,8 +37,10 @@
       "to": "Pelipper",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     }
@@ -4898,6 +4900,13 @@
         "chance": 10,
         "minLevel": 40,
         "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 22 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 44
       }
     ],
     "White 2": [
@@ -4970,6 +4979,13 @@
         "chance": 10,
         "minLevel": 40,
         "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 22 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 44
       }
     ],
     "Black": [
@@ -5016,6 +5032,1026 @@
         "chance": 5,
         "minLevel": 25,
         "maxLevel": 55
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 9 Main",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 41,
+        "maxLevel": 44
+      },
+      {
+        "location": "Galar Route 9 Main",
+        "method": "Overworld Water",
+        "chance": 40,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 38,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 38,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 9 Main",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 41,
+        "maxLevel": 44
+      },
+      {
+        "location": "Galar Route 9 Main",
+        "method": "Overworld Water",
+        "chance": 40,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 38,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 38,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ],
     "Sun": [

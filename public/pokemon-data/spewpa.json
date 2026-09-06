@@ -35,8 +35,10 @@
       "to": "Spewpa",
       "details": [
         {
-          "min_level": 9,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 9
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Vivillon",
       "details": [
         {
-          "min_level": 12,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 12
         }
       ]
     }
@@ -206,5 +210,24 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "X": [
+      {
+        "location": "Kalos Berry Fields Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 15
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Berry Fields Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 15
+      }
+    ]
+  }
 }

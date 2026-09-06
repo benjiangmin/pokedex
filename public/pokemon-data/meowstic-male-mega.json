@@ -1,0 +1,76 @@
+{
+  "id": 678,
+  "slug": "meowstic-male-mega",
+  "isDefault": false,
+  "isMega": true,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Meowstic (Male Mega)"
+  },
+  "type": [
+    "Psychic"
+  ],
+  "base": {
+    "HP": 74,
+    "Attack": 48,
+    "Defense": 76,
+    "Special Attack": 143,
+    "Special Defense": 101,
+    "Speed": 124
+  },
+  "color": "blue",
+  "weight": 10.1,
+  "height": 0.8,
+  "abilities": [
+    "Trace"
+  ],
+  "evolutionChain": [
+    {
+      "from": "Espurr",
+      "to": "Meowstic",
+      "details": [
+        {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
+        }
+      ]
+    },
+    {
+      "from": "Meowstic (Male)",
+      "to": "Meowstic (Male Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    }
+  ],
+  "generation": "generation-vi",
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10314.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10314.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10314.png",
+    "background": null,
+    "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10314.png"
+  },
+  "description": "The defensive instinct of the males is strong. It’s when they’re protecting themselves or their partners that they unleash their full power.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Constraint Pokémon",
+  "versions": [
+    "x",
+    "y",
+    "sword",
+    "shield",
+    "scarlet",
+    "violet"
+  ],
+  "moves": {},
+  "locations": {}
+}

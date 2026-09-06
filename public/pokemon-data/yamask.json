@@ -34,8 +34,10 @@
       "to": "Cofagrigus",
       "details": [
         {
-          "min_level": 34,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 34
         }
       ]
     },
@@ -44,8 +46,11 @@
       "to": "Runerigus",
       "details": [
         {
-          "min_damage_taken": 49,
-          "trigger": "Take Damage"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Take Damage",
+          "base_form": "Yamask Galar",
+          "min_damage_taken": 49
         }
       ]
     }
@@ -2336,6 +2341,24 @@
         "chance": 4,
         "minLevel": 30,
         "maxLevel": 30
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Ballonlea Gym",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Ballonlea Gym",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
       }
     ]
   }

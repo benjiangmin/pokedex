@@ -36,8 +36,18 @@
       "to": "Rapidash",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 40
+        },
+        {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 40,
-          "trigger": "Level Up"
+          "base_form": "Ponyta Galar",
+          "evolved_form": "Rapidash Galar"
         }
       ]
     }
@@ -318,5 +328,94 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Shield": [
+      {
+        "location": "Glimwood Tangle Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 34,
+        "maxLevel": 36
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Old Cemetery Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Snowslide Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Snowslide Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Path To The Peak Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Path To The Peak Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den R",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den R",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den O",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den O",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ]
+  }
 }

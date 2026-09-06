@@ -36,8 +36,10 @@
       "to": "Kakuna",
       "details": [
         {
-          "min_level": 7,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 7
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Beedrill",
       "details": [
         {
-          "min_level": 10,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 10
         }
       ]
     },
@@ -3503,6 +3507,34 @@
     ],
     "Soulsilver": [
       {
+        "location": "Ilex Forest Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 6,
+        "maxLevel": 8
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 12,
+        "maxLevel": 15
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 30
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 25,
+        "maxLevel": 28
+      },
+      {
         "location": "Kanto Route 2 South Towards Viridian City",
         "method": "Walk",
         "chance": 5,
@@ -3538,6 +3570,31 @@
         "maxLevel": 7
       }
     ],
+    "Heartgold": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 12,
+        "maxLevel": 15
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 30
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 6
+      }
+    ],
     "Black": [
       {
         "location": "Unova Route 12 Area",
@@ -3563,6 +3620,24 @@
         "chance": 100,
         "minLevel": 14,
         "maxLevel": 14
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Key Lair 3f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Inner Area",
+        "method": "Hidden Grotto",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

@@ -37,8 +37,10 @@
       "to": "Trumbeak",
       "details": [
         {
-          "min_level": 14,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 14
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Toucannon",
       "details": [
         {
-          "min_level": 28,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 28
         }
       ]
     }
@@ -844,7 +848,7 @@
       },
       {
         "location": "Alola Route 8 Main",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 17,
         "maxLevel": 20
@@ -923,7 +927,7 @@
       },
       {
         "location": "Alola Route 8 Main",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 17,
         "maxLevel": 20

@@ -37,8 +37,10 @@
       "to": "Piloswine",
       "details": [
         {
-          "min_level": 33,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 33
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Mamoswine",
       "details": [
         {
-          "known_move": "Ancient Power",
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Ancient Power"
         }
       ]
     }
@@ -3394,6 +3398,126 @@
         "chance": 5,
         "minLevel": 47,
         "maxLevel": 47
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Slippery Slope Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slippery Slope Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Snowslide Slope Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den K",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Slippery Slope Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slippery Slope Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Snowslide Slope Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den K",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

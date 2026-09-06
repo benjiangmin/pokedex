@@ -35,8 +35,10 @@
       "to": "Cosmoem",
       "details": [
         {
-          "min_level": 43,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 43
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Solgaleo",
       "details": [
         {
-          "min_level": 53,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 53
         }
       ]
     },
@@ -55,8 +59,10 @@
       "to": "Lunala",
       "details": [
         {
-          "min_level": 53,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 53
         }
       ]
     }
@@ -1540,10 +1546,19 @@
     ]
   },
   "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 70,
+        "maxLevel": 70
+      }
+    ],
     "Sun": [
       {
         "location": "Altar Of The Sunne Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 55,
         "maxLevel": 55
@@ -1554,13 +1569,6 @@
         "location": "Mahalo Trail Area",
         "method": "Gift",
         "chance": 100,
-        "minLevel": 60,
-        "maxLevel": 60
-      },
-      {
-        "location": "Mahalo Trail Area",
-        "method": "Only One",
-        "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
       }

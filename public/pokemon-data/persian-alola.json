@@ -36,12 +36,18 @@
       "to": "Persian",
       "details": [
         {
-          "min_level": 28,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 28
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
-          "trigger": "Level Up"
+          "base_form": "Meowth Alola",
+          "evolved_form": "Persian Alola"
         }
       ]
     },
@@ -50,8 +56,11 @@
       "to": "Perrserker",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 28,
-          "trigger": "Level Up"
+          "base_form": "Meowth Galar"
         }
       ]
     }
@@ -1638,10 +1647,28 @@
     ]
   },
   "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Malie Garden Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 25,
         "maxLevel": 28
@@ -1650,7 +1677,7 @@
     "Ultra Moon": [
       {
         "location": "Malie Garden Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 25,
         "maxLevel": 28

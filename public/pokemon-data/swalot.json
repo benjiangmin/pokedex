@@ -36,8 +36,10 @@
       "to": "Swalot",
       "details": [
         {
-          "min_level": 26,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 26
         }
       ]
     }
@@ -3541,5 +3543,24 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "X": [
+      {
+        "location": "Friend Safari Poison",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Poison",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ]
+  }
 }

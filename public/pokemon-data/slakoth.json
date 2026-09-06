@@ -34,8 +34,10 @@
       "to": "Vigoroth",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     },
@@ -44,8 +46,10 @@
       "to": "Slaking",
       "details": [
         {
-          "min_level": 36,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
         }
       ]
     }
@@ -3762,6 +3766,38 @@
         "chance": 20,
         "minLevel": 10,
         "maxLevel": 10
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 14
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 15,
+        "maxLevel": 18
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 14
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 15,
+        "maxLevel": 18
       }
     ],
     "Ruby": [

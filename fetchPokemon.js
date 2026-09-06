@@ -14,7 +14,7 @@ async function fetchAllPokemon() {
 
     if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
-    for (let id = 9; id <= 9; id++) {
+    for (let id = 1; id <= totalCount; id++) {
         console.log(`Processing Species #${id}`);
 
         try {

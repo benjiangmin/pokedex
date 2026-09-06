@@ -36,8 +36,10 @@
       "to": "Hattrem",
       "details": [
         {
-          "min_level": 32,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 32
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Hatterene",
       "details": [
         {
-          "min_level": 42,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 42
         }
       ]
     }
@@ -526,5 +530,490 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frigid Sea Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 62,
+        "maxLevel": 62
+      },
+      {
+        "location": "Three Point Pass Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frostpoint Field Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Snowslide Slope Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Snowslide Slope Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den J",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den J",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frigid Sea Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 62,
+        "maxLevel": 62
+      },
+      {
+        "location": "Three Point Pass Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frostpoint Field Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Snowslide Slope Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Snowslide Slope Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den J",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den J",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Glimwood Tangle Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 34,
+        "maxLevel": 36
+      },
+      {
+        "location": "Watchtower Ruins Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Watchtower Ruins Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den K",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den K",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Glimwood Tangle Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 34,
+        "maxLevel": 36
+      },
+      {
+        "location": "Watchtower Ruins Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Watchtower Ruins Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den K",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den K",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ]
+  }
 }

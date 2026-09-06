@@ -35,8 +35,10 @@
       "to": "Wartortle",
       "details": [
         {
-          "min_level": 16,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 16
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Blastoise",
       "details": [
         {
-          "min_level": 36,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
         }
       ]
     },
@@ -66,7 +70,7 @@
     "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10197.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10197.gif",
     "background": null,
-    "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/10197.png"
+    "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10197.png"
   },
   "description": "The rocket cannons on its shell fire jets of water capable of punching holes through thick steel.",
   "isLegendary": false,
@@ -93,5 +97,38 @@
     "violet"
   ],
   "moves": {},
-  "locations": {}
+  "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

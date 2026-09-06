@@ -37,8 +37,10 @@
       "to": "Swadloon",
       "details": [
         {
-          "min_level": 20,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 20
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Leavanny",
       "details": [
         {
-          "min_happiness": 220,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 220
         }
       ]
     }
@@ -2253,6 +2257,13 @@
         "chance": 4,
         "minLevel": 24,
         "maxLevel": 24
+      },
+      {
+        "location": "Lostlorn Forest Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 20,
+        "minLevel": 20,
+        "maxLevel": 24
       }
     ],
     "White 2": [
@@ -2275,6 +2286,13 @@
         "method": "Grass Spots",
         "chance": 4,
         "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Lostlorn Forest Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 20,
+        "minLevel": 20,
         "maxLevel": 24
       }
     ],

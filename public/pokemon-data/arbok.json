@@ -36,8 +36,10 @@
       "to": "Arbok",
       "details": [
         {
-          "min_level": 22,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 22
         }
       ]
     }
@@ -4384,7 +4386,7 @@
         "maxLevel": 10
       },
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4467,9 +4469,27 @@
         "maxLevel": 44
       }
     ],
+    "X": [
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 25
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 25
+      }
+    ],
     "Heartgold": [
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4492,6 +4512,15 @@
         "chance": 100,
         "minLevel": 22,
         "maxLevel": 22
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Key Lair Roof",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 33
       }
     ]
   }

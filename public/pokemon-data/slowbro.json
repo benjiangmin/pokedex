@@ -37,12 +37,18 @@
       "to": "Slowbro",
       "details": [
         {
-          "min_level": 37,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
         },
         {
+          "version_group": "The Isle Of Armor",
+          "is_default": true,
           "item": "Galarica Cuff",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Slowpoke Galar",
+          "evolved_form": "Slowbro Galar"
         }
       ]
     },
@@ -51,12 +57,18 @@
       "to": "Slowking",
       "details": [
         {
-          "held_item": "Kings Rock",
-          "trigger": "Trade"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Trade",
+          "held_item": "Kings Rock"
         },
         {
+          "version_group": "The Isle Of Armor",
+          "is_default": true,
           "item": "Galarica Wreath",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Slowpoke Galar",
+          "evolved_form": "Slowking Galar"
         }
       ]
     },
@@ -5818,11 +5830,32 @@
         "maxLevel": 50
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
       }
     ],
     "Soulsilver": [
@@ -5855,11 +5888,32 @@
         "maxLevel": 50
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
       }
     ],
     "Blue": [
@@ -5890,6 +5944,80 @@
         "chance": 25,
         "minLevel": 23,
         "maxLevel": 23
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Seafoam Islands 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Seafoam Islands 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ],
     "Green Japan": [
@@ -6186,10 +6314,28 @@
         "maxLevel": 70
       }
     ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
     "Sun": [
       {
         "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 15,
         "maxLevel": 18
@@ -6198,7 +6344,7 @@
     "Moon": [
       {
         "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 15,
         "maxLevel": 18
@@ -6207,7 +6353,7 @@
     "Ultra Sun": [
       {
         "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 15,
         "maxLevel": 18
@@ -6216,7 +6362,7 @@
     "Ultra Moon": [
       {
         "location": "Kalae Bay Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 15,
         "maxLevel": 18

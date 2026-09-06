@@ -36,8 +36,10 @@
       "to": "Snorlax",
       "details": [
         {
-          "min_happiness": 160,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 160
         }
       ]
     },
@@ -92,5 +94,84 @@
     "violet"
   ],
   "moves": {},
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Galar Wild Area Max Dens Area",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Wild Area Max Dens Area",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Slippery Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Foot Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Slippery Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Foot Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

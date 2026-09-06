@@ -34,8 +34,10 @@
       "to": "Eelektrik",
       "details": [
         {
-          "min_level": 39,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 39
         }
       ]
     },
@@ -44,6 +46,8 @@
       "to": "Eelektross",
       "details": [
         {
+          "version_group": "Black White",
+          "is_default": true,
           "item": "Thunder Stone",
           "trigger": "Use Item"
         }
@@ -411,6 +415,94 @@
         "chance": 5,
         "minLevel": 37,
         "maxLevel": 37
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Cave South Of Pacifidlog",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Route 132",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Fallarbor",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Fortree",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave South East Of Route 129",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave West Of Rustburo",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Cave South Of Pacifidlog",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Route 132",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Fallarbor",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Fortree",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave South East Of Route 129",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave West Of Rustburo",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

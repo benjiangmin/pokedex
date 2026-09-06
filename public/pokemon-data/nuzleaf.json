@@ -37,8 +37,10 @@
       "to": "Nuzleaf",
       "details": [
         {
-          "min_level": 14,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 14
         }
       ]
     },
@@ -47,6 +49,8 @@
       "to": "Shiftry",
       "details": [
         {
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
           "item": "Leaf Stone",
           "trigger": "Use Item"
         }
@@ -3998,10 +4002,233 @@
         "maxLevel": 57
       }
     ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 48,
+        "maxLevel": 48
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 48,
+        "maxLevel": 48
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 5 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 16,
+        "maxLevel": 18
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 27,
+        "maxLevel": 29
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 15,
+        "minLevel": 30,
+        "maxLevel": 35
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 7,
+        "maxLevel": 9
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den J",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den J",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Crag",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -4010,10 +4237,28 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Crag",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Dark",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Dark",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

@@ -36,8 +36,10 @@
       "to": "Vanillish",
       "details": [
         {
-          "min_level": 35,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 35
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Vanilluxe",
       "details": [
         {
-          "min_level": 47,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 47
         }
       ]
     }
@@ -1918,10 +1922,508 @@
         "maxLevel": 47
       }
     ],
+    "Sword": [
+      {
+        "location": "Galar Route 8 Steamdrift Way",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Galar Route 10 Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Galar Route 10 Near Station",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 46
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 36,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 8 Steamdrift Way",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Galar Route 10 Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Galar Route 10 Near Station",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 44,
+        "maxLevel": 49
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 36,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld Water",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frigid Sea Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frigid Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld Water",
+        "chance": 24,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Overworld Water",
+        "chance": 19,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Overworld Water",
+        "chance": 19,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Snowslide Slope Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Three Point Pass Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld Water",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frigid Sea Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frigid Sea Area",
+        "method": "Overworld Water",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld Water",
+        "chance": 24,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Overworld Water",
+        "chance": 19,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Overworld Water",
+        "chance": 19,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Snowslide Slope Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Three Point Pass Area",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 65
+      }
+    ],
     "Sun": [
       {
         "location": "Mount Lanakila Outside",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 42,
         "maxLevel": 45
@@ -1930,7 +2432,7 @@
     "Moon": [
       {
         "location": "Mount Lanakila Outside",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 42,
         "maxLevel": 45
@@ -1939,7 +2441,7 @@
     "Ultra Sun": [
       {
         "location": "Mount Lanakila Outside",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 47,
         "maxLevel": 50
@@ -1948,7 +2450,7 @@
     "Ultra Moon": [
       {
         "location": "Mount Lanakila Outside",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 47,
         "maxLevel": 50

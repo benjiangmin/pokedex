@@ -26,15 +26,19 @@
   "color": "white",
   "weight": 29.6,
   "height": 2.6,
-  "abilities": [],
+  "abilities": [
+    "Snow Warning"
+  ],
   "evolutionChain": [
     {
       "from": "Snorunt",
       "to": "Glalie",
       "details": [
         {
-          "min_level": 42,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 42
         }
       ]
     },
@@ -43,9 +47,11 @@
       "to": "Froslass",
       "details": [
         {
-          "gender": 1,
+          "version_group": "Diamond Pearl",
+          "is_default": true,
           "item": "Dawn Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "gender": 1
         }
       ]
     },
@@ -61,8 +67,8 @@
   ],
   "generation": "generation-iv",
   "sprites": {
-    "static": null,
-    "shiny": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10285.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10285.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10285.gif",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10285.png"

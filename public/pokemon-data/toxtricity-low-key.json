@@ -37,8 +37,10 @@
       "to": "Toxtricity",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     }
@@ -802,5 +804,94 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frostpoint Field Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Three Point Pass Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Three Point Pass Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den S",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den S",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den L",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den L",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den I",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

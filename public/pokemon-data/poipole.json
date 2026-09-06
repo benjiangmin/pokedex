@@ -34,8 +34,10 @@
       "to": "Naganadel",
       "details": [
         {
-          "known_move": "Dragon Pulse",
-          "trigger": "Level Up"
+          "version_group": "Ultra Sun Ultra Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Dragon Pulse"
         }
       ]
     }
@@ -438,6 +440,24 @@
     ]
   },
   "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Ultra Megalopolis Area",

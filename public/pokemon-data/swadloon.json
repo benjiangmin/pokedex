@@ -37,8 +37,10 @@
       "to": "Swadloon",
       "details": [
         {
-          "min_level": 20,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 20
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Leavanny",
       "details": [
         {
-          "min_happiness": 220,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 220
         }
       ]
     }
@@ -1714,6 +1718,24 @@
         "chance": 4,
         "minLevel": 24,
         "maxLevel": 24
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Grass",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Grass",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

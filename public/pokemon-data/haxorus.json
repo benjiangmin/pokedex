@@ -36,8 +36,10 @@
       "to": "Fraxure",
       "details": [
         {
-          "min_level": 38,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 38
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Haxorus",
       "details": [
         {
-          "min_level": 48,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 48
         }
       ]
     }
@@ -2833,7 +2837,7 @@
     "Black 2": [
       {
         "location": "Nature Sanctuary Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 60,
         "maxLevel": 60
@@ -2842,9 +2846,97 @@
     "White 2": [
       {
         "location": "Nature Sanctuary Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 60,
+        "maxLevel": 60
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Axews Eye Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Axews Eye Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
         "maxLevel": 60
       }
     ]

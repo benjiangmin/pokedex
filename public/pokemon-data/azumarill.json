@@ -37,8 +37,10 @@
       "to": "Marill",
       "details": [
         {
-          "min_happiness": 160,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 160
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Azumarill",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     }
@@ -4342,6 +4346,13 @@
         "chance": 1,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Friend Safari Water",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -4372,6 +4383,259 @@
         "chance": 1,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Friend Safari Water",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 21,
+        "maxLevel": 21
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 21,
+        "maxLevel": 21
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 21,
+        "maxLevel": 21
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 21,
+        "maxLevel": 21
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ]
   }

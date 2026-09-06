@@ -37,8 +37,10 @@
       "to": "Skiploom",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Jumpluff",
       "details": [
         {
-          "min_level": 27,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 27
         }
       ]
     }
@@ -3219,11 +3223,25 @@
         "maxLevel": 26
       },
       {
-        "location": "Johto Safari Zone Zone Meadow",
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
       }
     ],
     "Soulsilver": [
@@ -3235,11 +3253,34 @@
         "maxLevel": 26
       },
       {
-        "location": "Johto Safari Zone Zone Meadow",
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Pyrite Town Duel Square",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

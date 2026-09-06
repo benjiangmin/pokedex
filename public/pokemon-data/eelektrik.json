@@ -34,8 +34,10 @@
       "to": "Eelektrik",
       "details": [
         {
-          "min_level": 39,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 39
         }
       ]
     },
@@ -44,6 +46,8 @@
       "to": "Eelektross",
       "details": [
         {
+          "version_group": "Black White",
+          "is_default": true,
           "item": "Thunder Stone",
           "trigger": "Use Item"
         }

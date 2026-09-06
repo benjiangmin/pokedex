@@ -36,8 +36,10 @@
       "to": "Weepinbell",
       "details": [
         {
-          "min_level": 21,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 21
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Victreebel",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Leaf Stone",
           "trigger": "Use Item"
         }
@@ -3405,6 +3409,13 @@
         "chance": 4,
         "minLevel": 14,
         "maxLevel": 14
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
       }
     ],
     "Soulsilver": [
@@ -3449,6 +3460,13 @@
         "chance": 4,
         "minLevel": 14,
         "maxLevel": 14
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
       }
     ],
     "Blue": [
@@ -3625,6 +3643,43 @@
         "maxLevel": 48
       }
     ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 14 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 15 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      }
+    ],
     "Green Japan": [
       {
         "location": "Kanto Route 12 Area",
@@ -3718,6 +3773,13 @@
         "chance": 10,
         "minLevel": 47,
         "maxLevel": 47
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 24,
+        "maxLevel": 24
       }
     ],
     "Y": [
@@ -3769,6 +3831,22 @@
         "chance": 10,
         "minLevel": 47,
         "maxLevel": 47
+      },
+      {
+        "location": "Kalos Route 19 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 24,
+        "maxLevel": 24
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Key Lair Roof",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 32,
+        "maxLevel": 32
       }
     ]
   }

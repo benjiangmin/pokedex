@@ -36,9 +36,11 @@
       "to": "Salazzle",
       "details": [
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "gender": 1,
-          "min_level": 33,
-          "trigger": "Level Up"
+          "min_level": 33
         }
       ]
     }
@@ -1401,6 +1403,224 @@
     ]
   },
   "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
     "Ultra Moon": [
       {
         "location": "Heahea Beach Area",
@@ -1411,14 +1631,14 @@
       },
       {
         "location": "Lush Jungle East Cave",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 41,
         "maxLevel": 44
       },
       {
         "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 16,
         "maxLevel": 19
@@ -1427,17 +1647,301 @@
     "Ultra Sun": [
       {
         "location": "Lush Jungle East Cave",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 41,
         "maxLevel": 44
       },
       {
         "location": "Wela Volcano Park Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 16,
         "maxLevel": 19
+      }
+    ],
+    "Shield": [
+      {
+        "location": "East Lake Axewell Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den G",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den B",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dusty Bowl Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den G",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Stony Wilderness Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den G",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dusty Bowl Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dusty Bowl Max Den G",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

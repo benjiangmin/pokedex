@@ -36,8 +36,10 @@
       "to": "Gabite",
       "details": [
         {
-          "min_level": 24,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 24
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Garchomp",
       "details": [
         {
-          "min_level": 48,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 48
         }
       ]
     }
@@ -3014,7 +3018,7 @@
     "Sun": [
       {
         "location": "Haina Desert Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 28,
         "maxLevel": 31
@@ -3030,7 +3034,7 @@
     "Moon": [
       {
         "location": "Haina Desert Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 28,
         "maxLevel": 31
@@ -3046,7 +3050,7 @@
     "Ultra Sun": [
       {
         "location": "Haina Desert Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 32,
         "maxLevel": 35
@@ -3062,7 +3066,7 @@
     "Ultra Moon": [
       {
         "location": "Haina Desert Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 32,
         "maxLevel": 35
@@ -3073,6 +3077,131 @@
         "chance": 10,
         "minLevel": 32,
         "maxLevel": 35
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Dragon",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Dragon",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

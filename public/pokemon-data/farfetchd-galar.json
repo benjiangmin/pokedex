@@ -35,7 +35,10 @@
       "to": "Sirfetch'd",
       "details": [
         {
-          "trigger": "Three Critical Hits"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Three Critical Hits",
+          "base_form": "Farfetchd Galar"
         }
       ]
     }
@@ -349,5 +352,136 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Galar Route 5 Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 19,
+        "maxLevel": 21
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "North Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dusty Bowl Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ]
+  }
 }

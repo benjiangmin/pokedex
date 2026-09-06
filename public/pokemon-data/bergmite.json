@@ -36,8 +36,18 @@
       "to": "Avalugg",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 37,
-          "trigger": "Level Up"
+          "region": "Hisui",
+          "evolved_form": "Avalugg Hisui"
         }
       ]
     }
@@ -1641,6 +1651,13 @@
         "chance": 10,
         "minLevel": 40,
         "maxLevel": 40
+      },
+      {
+        "location": "Friend Safari Ice",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -1699,6 +1716,301 @@
         "chance": 10,
         "minLevel": 40,
         "maxLevel": 40
+      },
+      {
+        "location": "Friend Safari Ice",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 9 Circhester Bay",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Galar Route 9 Outer Spikemuth",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 44
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Cap Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den G",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den G",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 9 Circhester Bay",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Galar Route 9 Outer Spikemuth",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 44
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Cap Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den G",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den G",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Frigid Sea Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Three Point Pass Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Frigid Sea Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Three Point Pass Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
       }
     ]
   }

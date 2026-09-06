@@ -36,8 +36,10 @@
       "to": "Shelgon",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Salamence",
       "details": [
         {
-          "min_level": 50,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 50
         }
       ]
     },
@@ -4189,10 +4193,96 @@
     ]
   },
   "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Path To The Peak Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 68,
+        "maxLevel": 68
+      },
+      {
+        "location": "Tunnel To The Top Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 68,
+        "maxLevel": 68
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 3 South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 9,
         "maxLevel": 12
@@ -4201,7 +4291,7 @@
     "Moon": [
       {
         "location": "Alola Route 3 South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 9,
         "maxLevel": 12
@@ -4210,7 +4300,7 @@
     "Ultra Sun": [
       {
         "location": "Alola Route 3 South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 9,
         "maxLevel": 12
@@ -4219,10 +4309,19 @@
     "Ultra Moon": [
       {
         "location": "Alola Route 3 South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 9,
         "maxLevel": 12
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle Dome 1f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
       }
     ]
   }

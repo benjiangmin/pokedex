@@ -36,8 +36,10 @@
       "to": "Kakuna",
       "details": [
         {
-          "min_level": 7,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 7
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Beedrill",
       "details": [
         {
-          "min_level": 10,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 10
         }
       ]
     }
@@ -754,6 +758,13 @@
         "maxLevel": 6
       },
       {
+        "location": "Ilex Forest Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 3,
+        "maxLevel": 5
+      },
+      {
         "location": "National Park Area",
         "method": "Walk",
         "chance": 20,
@@ -766,6 +777,20 @@
         "chance": 10,
         "minLevel": 12,
         "maxLevel": 12
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 7,
+        "maxLevel": 18
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 24,
+        "maxLevel": 36
       },
       {
         "location": "Unknown All Bugs Area",
@@ -836,6 +861,22 @@
         "chance": 20,
         "minLevel": 3,
         "maxLevel": 3
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 7,
+        "maxLevel": 18
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 24,
+        "maxLevel": 36
       }
     ],
     "Red": [
@@ -1009,6 +1050,52 @@
         "method": "Walk",
         "chance": 10,
         "minLevel": 6,
+        "maxLevel": 6
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 2 South Towards Viridian City",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Kanto Route 2 North Towards Pewter City",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 8
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 6
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 2 South Towards Viridian City",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Kanto Route 2 North Towards Pewter City",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 8
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
         "maxLevel": 6
       }
     ],

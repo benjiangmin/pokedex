@@ -35,8 +35,10 @@
       "to": "Braixen",
       "details": [
         {
-          "min_level": 16,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 16
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Delphox",
       "details": [
         {
-          "min_level": 36,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
         }
       ]
     }
@@ -1626,5 +1630,24 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "X": [
+      {
+        "location": "Friend Safari Fire",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Fire",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ]
+  }
 }

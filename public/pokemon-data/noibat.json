@@ -37,8 +37,10 @@
       "to": "Noivern",
       "details": [
         {
-          "min_level": 48,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 48
         }
       ]
     }
@@ -1855,6 +1857,364 @@
     ]
   },
   "locations": {
+    "X": [
+      {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Ceiling Ambush",
+        "chance": 22,
+        "minLevel": 57,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Ceiling Ambush",
+        "chance": 22,
+        "minLevel": 57,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Ceiling Ambush",
+        "chance": 22,
+        "minLevel": 57,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Ceiling Ambush",
+        "chance": 22,
+        "minLevel": 57,
+        "maxLevel": 59
+      },
+      {
+        "location": "Terminus Cave 1f",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B1f Left",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B1f Right",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B2f",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave Zygardes Chamber",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Friend Safari Dragon",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Ceiling Ambush",
+        "chance": 22,
+        "minLevel": 57,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Ceiling Ambush",
+        "chance": 22,
+        "minLevel": 57,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Ceiling Ambush",
+        "chance": 22,
+        "minLevel": 57,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Ceiling Ambush",
+        "chance": 22,
+        "minLevel": 57,
+        "maxLevel": 59
+      },
+      {
+        "location": "Terminus Cave 1f",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B1f Left",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B1f Right",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B2f",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave Zygardes Chamber",
+        "method": "Ceiling Ambush",
+        "chance": 20,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Friend Safari Dragon",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 29
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld Flying",
+        "chance": 60,
+        "minLevel": 27,
+        "maxLevel": 29
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld Flying",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Galar Mine No 2 Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 24
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Overworld Flying",
+        "chance": 60,
+        "minLevel": 26,
+        "maxLevel": 29
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Overworld Flying",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 29
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld Flying",
+        "chance": 60,
+        "minLevel": 27,
+        "maxLevel": 29
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld Flying",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Galar Mine No 2 Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 20,
+        "maxLevel": 24
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Overworld Flying",
+        "chance": 60,
+        "minLevel": 26,
+        "maxLevel": 29
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Overworld Flying",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Alola Route 5 Area",
@@ -1885,6 +2245,150 @@
         "chance": 30,
         "minLevel": 8,
         "maxLevel": 11
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Frostpoint Field Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frostpoint Field Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dyna Tree Hill Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dyna Tree Hill Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den U",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den U",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den M",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Frostpoint Field Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frostpoint Field Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dyna Tree Hill Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dyna Tree Hill Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den U",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den U",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den M",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den M",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ]
   }

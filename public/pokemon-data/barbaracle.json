@@ -37,8 +37,10 @@
       "to": "Barbaracle",
       "details": [
         {
-          "min_level": 39,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 39
         }
       ]
     },
@@ -2083,10 +2085,382 @@
     ]
   },
   "locations": {
+    "Sword": [
+      {
+        "location": "Galar Route 9 Circhester Bay",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 9 Circhester Bay",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Waterfall",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -2095,9 +2469,143 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Waterfall",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
+        "maxLevel": 60
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Rock",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Rock",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
         "maxLevel": 60
       }
     ]

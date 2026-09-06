@@ -35,8 +35,10 @@
       "to": "Haunter",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     },
@@ -45,6 +47,8 @@
       "to": "Gengar",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "trigger": "Trade"
         }
       ]
@@ -5317,10 +5321,70 @@
         "maxLevel": 17
       }
     ],
+    "Sword": [
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
     "Sun": [
       {
         "location": "Thrifty Megamart Abandoned Site",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 29,
         "maxLevel": 32
@@ -5329,7 +5393,7 @@
     "Moon": [
       {
         "location": "Thrifty Megamart Abandoned Site",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 29,
         "maxLevel": 32
@@ -5338,7 +5402,7 @@
     "Ultra Sun": [
       {
         "location": "Thrifty Megamart Abandoned Site",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 31,
         "maxLevel": 34
@@ -5347,10 +5411,47 @@
     "Ultra Moon": [
       {
         "location": "Thrifty Megamart Abandoned Site",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 31,
         "maxLevel": 34
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Slippery Slope Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Old Cemetery Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Foot Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den P",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

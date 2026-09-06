@@ -37,8 +37,10 @@
       "to": "Houndoom",
       "details": [
         {
-          "min_level": 24,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 24
         }
       ]
     },
@@ -3877,6 +3879,38 @@
         "maxLevel": 22
       }
     ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Alola Route 12 Area",
@@ -3884,6 +3918,15 @@
         "chance": 20,
         "minLevel": 29,
         "maxLevel": 32
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Realgam Tower Colosseum",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 48,
+        "maxLevel": 48
       }
     ]
   }

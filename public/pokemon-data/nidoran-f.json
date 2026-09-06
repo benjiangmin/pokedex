@@ -36,8 +36,10 @@
       "to": "Nidorina",
       "details": [
         {
-          "min_level": 16,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 16
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Nidoqueen",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Moon Stone",
           "trigger": "Use Item"
         }
@@ -4048,21 +4052,21 @@
         "maxLevel": 12
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4092,21 +4096,21 @@
         "maxLevel": 13
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4213,6 +4217,13 @@
         "chance": 5,
         "minLevel": 30,
         "maxLevel": 30
+      },
+      {
+        "location": "Kanto Underground Path Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
       }
     ],
     "Leafgreen": [
@@ -4259,6 +4270,66 @@
         "maxLevel": 22
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 22 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 22 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      }
+    ],
     "Red": [
       {
         "location": "Kanto Route 22 Area",
@@ -4287,6 +4358,13 @@
         "chance": 5,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "Kanto Underground Path Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 2,
+        "maxLevel": 100
       }
     ],
     "Blue": [
@@ -4338,6 +4416,13 @@
         "chance": 20,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "Kanto Underground Path Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 2,
+        "maxLevel": 100
       }
     ],
     "Red Japan": [
@@ -4419,6 +4504,305 @@
         "chance": 20,
         "minLevel": 25,
         "maxLevel": 25
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 11 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 11 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld",
+        "chance": 21,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den K",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den K",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den K",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den H",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld",
+        "chance": 26,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den K",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den K",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Unova Route 2 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Unova Route 2 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

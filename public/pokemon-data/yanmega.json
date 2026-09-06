@@ -37,8 +37,10 @@
       "to": "Yanmega",
       "details": [
         {
-          "known_move": "Ancient Power",
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Ancient Power"
         }
       ]
     }
@@ -2922,7 +2924,7 @@
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Cliff",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -2931,7 +2933,7 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Cliff",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60

@@ -36,6 +36,8 @@
       "to": "Delcatty",
       "details": [
         {
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
           "item": "Moon Stone",
           "trigger": "Use Item"
         }
@@ -2770,6 +2772,15 @@
         "location": "Castelia City Area",
         "method": "Grass Spots",
         "chance": 4,
+        "minLevel": 18,
+        "maxLevel": 18
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Lab Bf1",
+        "method": "Snag",
+        "chance": 100,
         "minLevel": 18,
         "maxLevel": 18
       }

@@ -36,8 +36,18 @@
       "to": "Sliggoo",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 40
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 40,
-          "trigger": "Level Up"
+          "region": "Hisui",
+          "evolved_form": "Sliggoo Hisui"
         }
       ]
     },
@@ -46,9 +56,20 @@
       "to": "Goodra",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 50,
+          "needs_overworld_rain": true
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 50,
           "needs_overworld_rain": true,
-          "trigger": "Level Up"
+          "base_form": "Sliggoo Hisui",
+          "evolved_form": "Goodra Hisui"
         }
       ]
     }
@@ -1405,38 +1426,182 @@
         "maxLevel": 31
       }
     ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 17 Northeast",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 31,
         "maxLevel": 34
       },
       {
         "location": "Alola Route 17 West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 31,
         "maxLevel": 34
       },
       {
         "location": "Lush Jungle North",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 18,
         "maxLevel": 21
       },
       {
         "location": "Lush Jungle South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 18,
         "maxLevel": 21
       },
       {
         "location": "Lush Jungle West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 18,
         "maxLevel": 21
@@ -1445,35 +1610,35 @@
     "Moon": [
       {
         "location": "Alola Route 17 Northeast",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 31,
         "maxLevel": 34
       },
       {
         "location": "Alola Route 17 West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 31,
         "maxLevel": 34
       },
       {
         "location": "Lush Jungle North",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 18,
         "maxLevel": 21
       },
       {
         "location": "Lush Jungle South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 18,
         "maxLevel": 21
       },
       {
         "location": "Lush Jungle West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 18,
         "maxLevel": 21
@@ -1482,35 +1647,35 @@
     "Ultra Sun": [
       {
         "location": "Alola Route 17 Northeast",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 36
       },
       {
         "location": "Alola Route 17 West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 36
       },
       {
         "location": "Lush Jungle North",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Lush Jungle South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Lush Jungle West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 19,
         "maxLevel": 22
@@ -1519,35 +1684,35 @@
     "Ultra Moon": [
       {
         "location": "Alola Route 17 Northeast",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 36
       },
       {
         "location": "Alola Route 17 West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 36
       },
       {
         "location": "Lush Jungle North",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Lush Jungle South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Lush Jungle West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 19,
         "maxLevel": 22

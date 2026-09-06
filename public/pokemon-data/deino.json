@@ -35,8 +35,10 @@
       "to": "Zweilous",
       "details": [
         {
-          "min_level": 50,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 50
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Hydreigon",
       "details": [
         {
-          "min_level": 64,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 64
         }
       ]
     }
@@ -2445,6 +2449,52 @@
         "chance": 1,
         "minLevel": 40,
         "maxLevel": 40
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dusty Bowl Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
       }
     ],
     "Sun": [

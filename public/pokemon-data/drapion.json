@@ -37,8 +37,10 @@
       "to": "Drapion",
       "details": [
         {
-          "min_level": 40,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 40
         }
       ]
     }
@@ -3557,6 +3559,180 @@
     ]
   },
   "locations": {
+    "Diamond": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      }
+    ],
     "X": [
       {
         "location": "Kalos Route 19 Area",
@@ -3585,6 +3761,13 @@
         "chance": 10,
         "minLevel": 48,
         "maxLevel": 48
+      },
+      {
+        "location": "Friend Safari Poison",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -3615,12 +3798,661 @@
         "chance": 10,
         "minLevel": 48,
         "maxLevel": 48
+      },
+      {
+        "location": "Friend Safari Poison",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 8 Main",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 38,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 24,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 24,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "East Lake Axewell Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "North Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "North Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "North Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "North Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 8 Main",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 38,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 24,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 24,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "East Lake Axewell Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "North Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "North Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "North Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "North Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ],
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Crag",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -3629,7 +4461,7 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Crag",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60

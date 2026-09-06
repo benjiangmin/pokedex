@@ -36,8 +36,10 @@
       "to": "Swellow",
       "details": [
         {
-          "min_level": 22,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 22
         }
       ]
     }
@@ -2593,6 +2595,38 @@
     ]
   },
   "locations": {
+    "Heartgold": [
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 21,
+        "maxLevel": 25
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 21,
+        "maxLevel": 25
+      }
+    ],
     "Ruby": [
       {
         "location": "Petalburg Woods Area",
@@ -2807,6 +2841,42 @@
         "chance": 5,
         "minLevel": 8,
         "maxLevel": 8
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 8 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 7
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 8 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 7
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Hoenn Route 104 North Oras",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 3,
+        "maxLevel": 3
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Hoenn Route 104 North Oras",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 3,
+        "maxLevel": 3
       }
     ]
   }

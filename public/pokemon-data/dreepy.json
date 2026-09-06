@@ -37,8 +37,10 @@
       "to": "Drakloak",
       "details": [
         {
-          "min_level": 50,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 50
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Dragapult",
       "details": [
         {
-          "min_level": 60,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 60
         }
       ]
     }
@@ -312,5 +316,322 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Slippery Slope Max Den E",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Slippery Slope Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Slippery Slope Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Old Cemetery Max Den A",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Old Cemetery Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Old Cemetery Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Foot Max Den E",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Foot Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Foot Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den P",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den P",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den P",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Slippery Slope Max Den E",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Slippery Slope Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Slippery Slope Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Old Cemetery Max Den A",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Old Cemetery Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Old Cemetery Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Foot Max Den E",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Foot Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Foot Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den P",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den P",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den P",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ]
+  }
 }

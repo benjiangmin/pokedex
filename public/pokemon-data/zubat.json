@@ -36,8 +36,10 @@
       "to": "Golbat",
       "details": [
         {
-          "min_level": 22,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 22
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Crobat",
       "details": [
         {
-          "min_happiness": 160,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 160
         }
       ]
     }
@@ -6304,63 +6308,63 @@
         "maxLevel": 22
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -6775,63 +6779,63 @@
         "maxLevel": 22
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Savannah",
+        "location": "Johto Safari Zone Savannah",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -8101,6 +8105,304 @@
         "maxLevel": 6
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Seafoam Islands 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rock Tunnel 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Rock Tunnel B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Victory Road 1 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Digletts Cave Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kanto Victory Road 1 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Victory Road 1 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Seafoam Islands 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rock Tunnel 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Rock Tunnel B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Victory Road 1 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Digletts Cave Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kanto Victory Road 1 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Victory Road 1 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      }
+    ],
     "Red Japan": [
       {
         "location": "Seafoam Islands 1f",
@@ -8863,35 +9165,35 @@
         "maxLevel": 36
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Surf",
         "chance": 30,
         "minLevel": 5,
         "maxLevel": 35
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 20,
         "minLevel": 26,
         "maxLevel": 26
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 10,
         "minLevel": 28,
         "maxLevel": 28
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 10,
         "minLevel": 30,
         "maxLevel": 30
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 5,
         "minLevel": 32,
@@ -8913,6 +9215,90 @@
       },
       {
         "location": "Shoal Cave B1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Shoal Cave B1f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Shoal Cave B3f",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Shoal Cave B3f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Shoal Cave B3f",
         "method": "Walk",
         "chance": 10,
         "minLevel": 30,
@@ -9313,35 +9699,35 @@
         "maxLevel": 36
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Surf",
         "chance": 30,
         "minLevel": 5,
         "maxLevel": 35
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 20,
         "minLevel": 26,
         "maxLevel": 26
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 10,
         "minLevel": 28,
         "maxLevel": 28
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 10,
         "minLevel": 30,
         "maxLevel": 30
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 5,
         "minLevel": 32,
@@ -9363,6 +9749,90 @@
       },
       {
         "location": "Shoal Cave B1f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Shoal Cave B1f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Shoal Cave B3f",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Shoal Cave B3f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Shoal Cave B3f",
         "method": "Walk",
         "chance": 10,
         "minLevel": 30,
@@ -9763,35 +10233,35 @@
         "maxLevel": 36
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 20,
         "minLevel": 26,
         "maxLevel": 26
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 10,
         "minLevel": 28,
         "maxLevel": 28
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 10,
         "minLevel": 30,
         "maxLevel": 30
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Walk",
         "chance": 5,
         "minLevel": 32,
         "maxLevel": 32
       },
       {
-        "location": "Shoal Cave Area",
+        "location": "Shoal Cave High Tide",
         "method": "Surf",
         "chance": 30,
         "minLevel": 5,
@@ -9819,46 +10289,456 @@
         "maxLevel": 30
       },
       {
-        "location": "Hoenn Altering Cave A",
+        "location": "Shoal Cave B1f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Hoenn Altering Cave Area",
         "method": "Walk",
         "chance": 20,
         "minLevel": 10,
         "maxLevel": 10
       },
       {
-        "location": "Hoenn Altering Cave A",
+        "location": "Hoenn Altering Cave Area",
         "method": "Walk",
         "chance": 20,
         "minLevel": 12,
         "maxLevel": 12
       },
       {
-        "location": "Hoenn Altering Cave A",
+        "location": "Hoenn Altering Cave Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 8,
         "maxLevel": 8
       },
       {
-        "location": "Hoenn Altering Cave A",
+        "location": "Hoenn Altering Cave Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 14,
         "maxLevel": 14
       },
       {
-        "location": "Hoenn Altering Cave A",
+        "location": "Hoenn Altering Cave Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Hoenn Altering Cave A",
+        "location": "Hoenn Altering Cave Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 6,
         "maxLevel": 6
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Shoal Cave B3f",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Shoal Cave B3f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Shoal Cave B3f",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Meteor Falls Area",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 9,
+        "maxLevel": 9
+      },
+      {
+        "location": "Meteor Falls Back",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Meteor Falls B1f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Meteor Falls Backsmall Room",
+        "method": "Horde",
+        "chance": 95,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Granite Cave 1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 6,
+        "maxLevel": 6
+      },
+      {
+        "location": "Granite Cave B1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 6,
+        "maxLevel": 6
+      },
+      {
+        "location": "Granite Cave B2f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 6,
+        "maxLevel": 6
+      },
+      {
+        "location": "Seafloor Cavern Area",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin Entrance",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin 1f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin B1f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin B2f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin B3f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Hoenn Victory Road 1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hoenn Victory Road B1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Shoal Cave High Tide",
+        "method": "Horde",
+        "chance": 40,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Shoal Cave B1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Scorched Slab B1f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 14
+      },
+      {
+        "location": "Scorched Slab B2f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 14
+      },
+      {
+        "location": "Scorched Slab B3f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 14
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Shoal Cave B3f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 17,
+        "maxLevel": 17
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Meteor Falls Area",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 9,
+        "maxLevel": 9
+      },
+      {
+        "location": "Meteor Falls Back",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Meteor Falls B1f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Meteor Falls Backsmall Room",
+        "method": "Horde",
+        "chance": 95,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Granite Cave 1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 6,
+        "maxLevel": 6
+      },
+      {
+        "location": "Granite Cave B1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 6,
+        "maxLevel": 6
+      },
+      {
+        "location": "Granite Cave B2f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 6,
+        "maxLevel": 6
+      },
+      {
+        "location": "Seafloor Cavern Area",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin Entrance",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin 1f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin B1f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin B2f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cave Of Origin B3f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Hoenn Victory Road 1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hoenn Victory Road B1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Shoal Cave High Tide",
+        "method": "Horde",
+        "chance": 40,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Shoal Cave B1f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Scorched Slab B1f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 14
+      },
+      {
+        "location": "Scorched Slab B2f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 14
+      },
+      {
+        "location": "Scorched Slab B3f",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 14
+      },
+      {
+        "location": "Shoal Cave Low Tide",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Shoal Cave B2f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Shoal Cave B3f",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 17,
+        "maxLevel": 17
       }
     ],
     "Black 2": [
@@ -9998,6 +10878,13 @@
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Connecting Cave Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 8,
+        "maxLevel": 8
       }
     ],
     "Y": [
@@ -10021,6 +10908,367 @@
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Connecting Cave Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 8,
+        "maxLevel": 8
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Lakeside Cave Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Tunnel To The Top Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Tunnel To The Top Area",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Max Den B",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frostpoint Field Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dyna Tree Hill Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dyna Tree Hill Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den K",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den K",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den U",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den U",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den M",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den M",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den B",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den H",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Lakeside Cave Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Tunnel To The Top Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Tunnel To The Top Area",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Max Den B",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frostpoint Field Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dyna Tree Hill Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dyna Tree Hill Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den K",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den K",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den U",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den U",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den M",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den M",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den B",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den H",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ],
     "Sun": [
@@ -10212,7 +11460,7 @@
       },
       {
         "location": "Seaward Cave Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 15,
         "maxLevel": 18
@@ -10298,7 +11546,7 @@
       },
       {
         "location": "Seaward Cave Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 15,
         "maxLevel": 18
@@ -10351,6 +11599,15 @@
         "chance": 4,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Pokespot Cave",
+        "method": "Pokespot",
+        "chance": 50,
+        "minLevel": 10,
+        "maxLevel": 21
       }
     ]
   }

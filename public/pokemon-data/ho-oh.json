@@ -4654,7 +4654,7 @@
     "Gold": [
       {
         "location": "Bell Tower Roof",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
@@ -4663,7 +4663,7 @@
     "Silver": [
       {
         "location": "Bell Tower Roof",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 70,
         "maxLevel": 70
@@ -4672,7 +4672,7 @@
     "Crystal": [
       {
         "location": "Bell Tower Roof",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 60,
         "maxLevel": 60
@@ -4681,7 +4681,7 @@
     "Heartgold": [
       {
         "location": "Bell Tower Roof",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 45,
         "maxLevel": 45
@@ -4690,7 +4690,7 @@
     "Soulsilver": [
       {
         "location": "Bell Tower Roof",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 70,
         "maxLevel": 70
@@ -4699,7 +4699,7 @@
     "Emerald": [
       {
         "location": "Navel Rock Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 70,
         "maxLevel": 70
@@ -4708,7 +4708,7 @@
     "Firered": [
       {
         "location": "Navel Rock Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 70,
         "maxLevel": 70
@@ -4717,7 +4717,16 @@
     "Leafgreen": [
       {
         "location": "Navel Rock Area",
-        "method": "Only One",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 70,
+        "maxLevel": 70
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
         "chance": 100,
         "minLevel": 70,
         "maxLevel": 70
@@ -4726,14 +4735,14 @@
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Cliff",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 60,
         "maxLevel": 60
       },
       {
         "location": "Ultra Space Ultra Space Wilds Cliff",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -4742,10 +4751,19 @@
     "Omega Ruby": [
       {
         "location": "Sea Mauville Inside",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 50,
         "maxLevel": 50
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Mt Battle 100f",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 70,
+        "maxLevel": 70
       }
     ]
   }

@@ -34,8 +34,10 @@
       "to": "Metapod",
       "details": [
         {
-          "min_level": 7,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 7
         }
       ]
     },
@@ -44,8 +46,10 @@
       "to": "Butterfree",
       "details": [
         {
-          "min_level": 10,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 10
         }
       ]
     }
@@ -611,11 +615,39 @@
         "maxLevel": 5
       },
       {
+        "location": "Ilex Forest Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 3,
+        "maxLevel": 5
+      },
+      {
         "location": "National Park Area",
         "method": "Walk",
         "chance": 20,
         "minLevel": 10,
         "maxLevel": 10
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 9,
+        "maxLevel": 18
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 36
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Headbutt",
+        "chance": 50,
+        "minLevel": 25,
+        "maxLevel": 28
       },
       {
         "location": "Kanto Route 2 South Towards Viridian City",
@@ -674,6 +706,22 @@
         "chance": 10,
         "minLevel": 12,
         "maxLevel": 12
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 9,
+        "maxLevel": 18
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 36
       }
     ],
     "Blue": [
@@ -872,6 +920,24 @@
         "maxLevel": 6
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 6
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 6
+      }
+    ],
     "White": [
       {
         "location": "Unova Route 12 Area",
@@ -895,6 +961,234 @@
         "chance": 4,
         "minLevel": 4,
         "maxLevel": 4
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 9
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
       }
     ],
     "Sun": [

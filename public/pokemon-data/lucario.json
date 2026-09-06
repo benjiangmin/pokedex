@@ -37,9 +37,11 @@
       "to": "Lucario",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
-          "time_of_day": "day",
-          "trigger": "Level Up"
+          "time_of_day": "day"
         }
       ]
     },
@@ -4277,10 +4279,158 @@
         "maxLevel": 32
       }
     ],
+    "Sword": [
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 39,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 67,
+        "maxLevel": 67
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 67,
+        "maxLevel": 67
+      }
+    ],
     "Sun": [
       {
         "location": "Poni Grove Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 52,
         "maxLevel": 55
@@ -4289,7 +4439,7 @@
     "Moon": [
       {
         "location": "Poni Grove Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 52,
         "maxLevel": 55
@@ -4298,7 +4448,7 @@
     "Ultra Sun": [
       {
         "location": "Poni Grove Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 52,
         "maxLevel": 55
@@ -4307,10 +4457,56 @@
     "Ultra Moon": [
       {
         "location": "Poni Grove Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 52,
         "maxLevel": 55
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

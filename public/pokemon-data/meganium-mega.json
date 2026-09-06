@@ -26,15 +26,19 @@
   "color": "green",
   "weight": 201,
   "height": 2.4,
-  "abilities": [],
+  "abilities": [
+    "Mega Sol"
+  ],
   "evolutionChain": [
     {
       "from": "Chikorita",
       "to": "Bayleef",
       "details": [
         {
-          "min_level": 16,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 16
         }
       ]
     },
@@ -43,8 +47,10 @@
       "to": "Meganium",
       "details": [
         {
-          "min_level": 32,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 32
         }
       ]
     },
@@ -60,8 +66,8 @@
   ],
   "generation": "generation-ii",
   "sprites": {
-    "static": null,
-    "shiny": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10282.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10282.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10282.gif",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10282.png"

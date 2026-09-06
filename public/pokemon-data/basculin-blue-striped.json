@@ -36,8 +36,11 @@
       "to": "Basculegion",
       "details": [
         {
-          "min_damage_taken": 294,
-          "trigger": "Recoil Damage"
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Recoil Damage",
+          "base_form": "Basculin White Striped",
+          "min_damage_taken": 294
         }
       ]
     }
@@ -45,7 +48,7 @@
   "generation": "generation-v",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10016.png",
-    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/550-blue-striped.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10016.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10016.gif",
     "background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10016.svg",
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10016.png"
@@ -3820,7 +3823,7 @@
         "maxLevel": 45
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Outside",
         "method": "Good Rod",
         "chance": 60,
         "minLevel": 45,
@@ -3892,7 +3895,7 @@
         "maxLevel": 55
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Outside",
         "method": "Super Rod",
         "chance": 35,
         "minLevel": 55,
@@ -3904,6 +3907,476 @@
         "chance": 35,
         "minLevel": 55,
         "maxLevel": 55
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Bubbling Spots",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld Water",
+        "chance": 26,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frigid Sea Area",
+        "method": "Bubbling Spots",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Bubbling Spots",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld Water",
+        "chance": 33,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Bubbling Spots",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Overworld Water",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Overworld Water",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Snowslide Slope Area",
+        "method": "Bubbling Spots",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den P",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den P",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den P",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Foot Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Foot Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Foot Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den N",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den N",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den N",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Bubbling Spots",
+        "chance": 35,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Bubbling Spots",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld Water",
+        "chance": 65,
+        "minLevel": 40,
+        "maxLevel": 43
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld Water",
+        "chance": 65,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Bubbling Spots",
+        "chance": 2,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Bubbling Spots",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "West Lake Axewell Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "West Lake Axewell Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "East Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den G",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Lake Of Outrage Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Lake Of Outrage Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

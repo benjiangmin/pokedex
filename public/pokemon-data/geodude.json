@@ -37,8 +37,18 @@
       "to": "Graveler",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 25,
-          "trigger": "Level Up"
+          "base_form": "Geodude Alola",
+          "evolved_form": "Graveler Alola"
         }
       ]
     },
@@ -47,7 +57,16 @@
       "to": "Golem",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "trigger": "Trade"
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Trade",
+          "base_form": "Graveler Alola",
+          "evolved_form": "Golem Alola"
         }
       ]
     }
@@ -5146,13 +5165,6 @@
         "chance": 20,
         "minLevel": 21,
         "maxLevel": 21
-      },
-      {
-        "location": "Team Rocket Hq Area",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 21,
-        "maxLevel": 21
       }
     ],
     "Heartgold": [
@@ -5353,29 +5365,36 @@
         "maxLevel": 24
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
         "location": "Team Rocket Hq Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 21,
         "maxLevel": 21
@@ -5593,25 +5612,39 @@
         "maxLevel": 24
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 21,
+        "maxLevel": 21
       }
     ],
     "Gold": [
@@ -5750,7 +5783,7 @@
       },
       {
         "location": "Team Rocket Hq Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 21,
         "maxLevel": 21
@@ -5899,7 +5932,7 @@
       },
       {
         "location": "Team Rocket Hq Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 21,
         "maxLevel": 21
@@ -6048,7 +6081,7 @@
       },
       {
         "location": "Team Rocket Hq Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 21,
         "maxLevel": 21
@@ -7345,6 +7378,164 @@
         "maxLevel": 30
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Mt Moon 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rock Tunnel 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Rock Tunnel B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Victory Road 1 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Victory Road 1 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Victory Road 1 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Mt Moon 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rock Tunnel 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Rock Tunnel B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Victory Road 1 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Victory Road 1 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Victory Road 1 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      }
+    ],
     "Red Japan": [
       {
         "location": "Mt Moon 1f",
@@ -7990,6 +8181,168 @@
         "chance": 10,
         "minLevel": 30,
         "maxLevel": 30
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Granite Cave 1f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 6,
+        "maxLevel": 6
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Granite Cave 1f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 6,
+        "maxLevel": 6
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 18 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Terminus Cave 1f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Terminus Cave B1f Left",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Terminus Cave B1f Right",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Terminus Cave B2f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Terminus Cave Zygardes Chamber",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 18 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Terminus Cave 1f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Terminus Cave B1f Left",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Terminus Cave B1f Right",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Terminus Cave B2f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Terminus Cave Zygardes Chamber",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
       }
     ]
   }

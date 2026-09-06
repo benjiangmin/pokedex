@@ -37,8 +37,10 @@
       "to": "Palpitoad",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Seismitoad",
       "details": [
         {
-          "min_level": 36,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
         }
       ]
     }
@@ -2445,6 +2449,662 @@
         "method": "Surf Spots",
         "chance": 4,
         "minLevel": 50,
+        "maxLevel": 60
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 7 Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 36,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den H",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 7 Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 36,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den H",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
         "maxLevel": 60
       }
     ]

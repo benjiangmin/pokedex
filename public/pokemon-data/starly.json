@@ -36,8 +36,10 @@
       "to": "Staravia",
       "details": [
         {
-          "min_level": 14,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 14
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Staraptor",
       "details": [
         {
-          "min_level": 34,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 34
         }
       ]
     }
@@ -3042,6 +3046,56 @@
         "chance": 1,
         "minLevel": 11,
         "maxLevel": 11
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 11 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 12,
+        "maxLevel": 12
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 11 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 12,
+        "maxLevel": 12
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Pewter City Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 5,
+        "maxLevel": 9
+      },
+      {
+        "location": "Pewter City Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 8,
+        "maxLevel": 12
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Pewter City Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 5,
+        "maxLevel": 9
+      },
+      {
+        "location": "Pewter City Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 8,
+        "maxLevel": 12
       }
     ]
   }

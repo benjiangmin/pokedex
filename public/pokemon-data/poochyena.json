@@ -36,8 +36,10 @@
       "to": "Mightyena",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     }
@@ -3653,6 +3655,47 @@
         "chance": 5,
         "minLevel": 4,
         "maxLevel": 4
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 103 Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 2,
+        "maxLevel": 2
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 103 Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 2,
+        "maxLevel": 2
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Gateon Port Lighthouse Top",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ]
   }

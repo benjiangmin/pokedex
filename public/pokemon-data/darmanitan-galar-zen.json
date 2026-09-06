@@ -36,12 +36,18 @@
       "to": "Darmanitan",
       "details": [
         {
-          "min_level": 35,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 35
         },
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Ice Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Darumaka Galar",
+          "evolved_form": "Darmanitan Galar Standard"
         }
       ]
     }

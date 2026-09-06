@@ -36,28 +36,40 @@
       "to": "Probopass",
       "details": [
         {
-          "location": "Mt Coronet",
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "trigger": "Level Up",
+          "location": "Mt Coronet"
         },
         {
-          "location": "Chargestone Cave",
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "trigger": "Level Up",
+          "location": "Chargestone Cave"
         },
         {
-          "location": "Kalos Route 13",
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "trigger": "Level Up",
+          "location": "Kalos Route 13"
         },
         {
-          "location": "Blush Mountain",
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "trigger": "Level Up",
+          "location": "Blush Mountain"
         },
         {
-          "location": "Vast Poni Canyon",
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "trigger": "Level Up",
+          "location": "Vast Poni Canyon"
         },
         {
+          "version_group": "Scarlet Violet",
+          "is_default": true,
           "item": "Thunder Stone",
           "trigger": "Use Item"
+        },
+        {
+          "version_group": "Omega Ruby Alpha Sapphire",
+          "trigger": "Level Up",
+          "location": "New Mauville"
         }
       ]
     }
@@ -3831,6 +3843,13 @@
         "chance": 5,
         "minLevel": 57,
         "maxLevel": 57
+      },
+      {
+        "location": "Unova Route 6 Hidden Grotto Mistralton Cave",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 29
       }
     ],
     "White 2": [
@@ -3924,6 +3943,63 @@
         "chance": 5,
         "minLevel": 57,
         "maxLevel": 57
+      },
+      {
+        "location": "Unova Route 6 Hidden Grotto Mistralton Cave",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 29
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 10 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Friend Safari Rock",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 10 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Friend Safari Rock",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
       }
     ],
     "Sun": [
@@ -3960,6 +4036,43 @@
         "chance": 15,
         "minLevel": 21,
         "maxLevel": 24
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Realgam Tower Colosseum",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Pokespot Cave",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Pokespot Rock",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Pokespot Oasis",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Pyrite Town Colosseum",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
       }
     ]
   }

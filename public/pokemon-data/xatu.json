@@ -37,8 +37,10 @@
       "to": "Xatu",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     }
@@ -3908,10 +3910,452 @@
         "maxLevel": 31
       }
     ],
+    "Sword": [
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 50,
+        "minLevel": 30,
+        "maxLevel": 35
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 50,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 50,
+        "minLevel": 30,
+        "maxLevel": 35
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 50,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Akala Outskirts Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 21,
         "maxLevel": 24
@@ -3920,10 +4364,143 @@
     "Ultra Moon": [
       {
         "location": "Akala Outskirts Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 21,
         "maxLevel": 24
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Pewter City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 100
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Pewter City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 16,
+        "maxLevel": 100
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Pewter City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 16,
+        "maxLevel": 100
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Island West Of Dewford Town",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island West Of Route 104",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island Route 124",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island South Of Route 134",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island South Of Pacifidlog",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain South East Of Route 129",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Island West Of Dewford Town",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island West Of Route 104",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island Route 124",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island South Of Route 134",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island South Of Pacifidlog",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain South East Of Route 129",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Psychic",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Psychic",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

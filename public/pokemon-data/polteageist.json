@@ -35,7 +35,15 @@
       "to": "Polteageist",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Cracked Pot",
+          "trigger": "Use Item"
+        },
+        {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "item": "Chipped Pot",
           "trigger": "Use Item"
         }
       ]
@@ -565,5 +573,168 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Old Cemetery Max Den B",
+        "method": "Max Raid",
+        "chance": 51,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den D",
+        "method": "Max Raid",
+        "chance": 51,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den L",
+        "method": "Max Raid",
+        "chance": 51,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Old Cemetery Max Den B",
+        "method": "Max Raid",
+        "chance": 51,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den D",
+        "method": "Max Raid",
+        "chance": 51,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den L",
+        "method": "Max Raid",
+        "chance": 51,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 39,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

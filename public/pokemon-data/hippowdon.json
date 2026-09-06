@@ -35,8 +35,10 @@
       "to": "Hippowdon",
       "details": [
         {
-          "min_level": 34,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 34
         }
       ]
     }
@@ -2850,10 +2852,126 @@
         "maxLevel": 51
       }
     ],
+    "Sword": [
+      {
+        "location": "Galar Route 8 Main",
+        "method": "Walk",
+        "chance": 8,
+        "minLevel": 38,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den C",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den H",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 8 Main",
+        "method": "Walk",
+        "chance": 8,
+        "minLevel": 38,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den H",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -2862,7 +2980,7 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60

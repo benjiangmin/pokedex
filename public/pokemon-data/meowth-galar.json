@@ -36,12 +36,18 @@
       "to": "Persian",
       "details": [
         {
-          "min_level": 28,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 28
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
-          "trigger": "Level Up"
+          "base_form": "Meowth Alola",
+          "evolved_form": "Persian Alola"
         }
       ]
     },
@@ -50,8 +56,11 @@
       "to": "Perrserker",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 28,
-          "trigger": "Level Up"
+          "base_form": "Meowth Galar"
         }
       ]
     }
@@ -64,7 +73,7 @@
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10161.png"
   },
-  "description": "It loves to collect shiny things. If it’s in a good mood, it might even let its Trainer have a look at its hoard of treasures.",
+  "description": "It washes its face regularly to keep the coin on its forehead spotless. It doesn’t get along with Galarian Meowth.",
   "isLegendary": false,
   "isMythical": false,
   "category": "Scratch Cat Pokémon",
@@ -761,5 +770,298 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Overworld",
+        "chance": 23,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Walk",
+        "chance": 35,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Giants Seat Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Seat Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den H",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dusty Bowl Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Overworld",
+        "chance": 23,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Walk",
+        "chance": 35,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Giants Seat Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Seat Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den H",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dusty Bowl Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Snowslide Slope Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Snowslide Slope Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Path To The Peak Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Path To The Peak Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Snowslide Slope Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Snowslide Slope Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Path To The Peak Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Path To The Peak Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ]
+  }
 }

@@ -36,8 +36,10 @@
       "to": "Gothorita",
       "details": [
         {
-          "min_level": 32,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 32
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Gothitelle",
       "details": [
         {
-          "min_level": 41,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 41
         }
       ]
     }
@@ -2891,6 +2895,122 @@
         "chance": 4,
         "minLevel": 40,
         "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Snowslide Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Snowslide Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Path To The Peak Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Path To The Peak Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den R",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den R",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Ballimere Lake Max Den O",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den O",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 13,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 13,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den K",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den K",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
       }
     ]
   }

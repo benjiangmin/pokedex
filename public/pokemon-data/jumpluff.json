@@ -37,8 +37,10 @@
       "to": "Skiploom",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Jumpluff",
       "details": [
         {
-          "min_level": 27,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 27
         }
       ]
     }
@@ -3284,5 +3288,38 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      }
+    ]
+  }
 }

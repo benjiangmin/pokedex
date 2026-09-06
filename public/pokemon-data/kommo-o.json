@@ -37,8 +37,10 @@
       "to": "Hakamo-o",
       "details": [
         {
-          "min_level": 35,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 35
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Kommo-o",
       "details": [
         {
-          "min_level": 45,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 45
         }
       ]
     }
@@ -1706,6 +1710,43 @@
     ]
   },
   "locations": {
+    "Sword": [
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
     "Ultra Moon": [
       {
         "location": "Heahea Beach Area",
@@ -1716,7 +1757,7 @@
       },
       {
         "location": "Vast Poni Canyon Outside",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 43,
         "maxLevel": 46
@@ -1725,7 +1766,7 @@
     "Sun": [
       {
         "location": "Vast Poni Canyon Outside",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 41,
         "maxLevel": 44
@@ -1734,7 +1775,7 @@
     "Moon": [
       {
         "location": "Vast Poni Canyon Outside",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 41,
         "maxLevel": 44
@@ -1743,10 +1784,33 @@
     "Ultra Sun": [
       {
         "location": "Vast Poni Canyon Outside",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 43,
         "maxLevel": 46
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

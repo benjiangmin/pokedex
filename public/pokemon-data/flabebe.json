@@ -35,8 +35,10 @@
       "to": "Floette",
       "details": [
         {
-          "min_level": 19,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 19
         }
       ]
     },
@@ -45,8 +47,11 @@
       "to": "Florges",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
           "item": "Shiny Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Floette"
         }
       ]
     }

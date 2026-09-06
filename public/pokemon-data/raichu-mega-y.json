@@ -25,15 +25,19 @@
   "color": "yellow",
   "weight": 26,
   "height": 1,
-  "abilities": [],
+  "abilities": [
+    "No Guard"
+  ],
   "evolutionChain": [
     {
       "from": "Pichu",
       "to": "Pikachu",
       "details": [
         {
-          "min_happiness": 220,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 220
         }
       ]
     },
@@ -42,8 +46,20 @@
       "to": "Raichu",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Thunder Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Pikachu"
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "item": "Thunder Stone",
+          "trigger": "Use Item",
+          "region": "Alola",
+          "base_form": "Pikachu",
+          "evolved_form": "Raichu Alola"
         }
       ]
     },
@@ -59,9 +75,9 @@
   ],
   "generation": "generation-i",
   "sprites": {
-    "static": null,
-    "shiny": null,
-    "animated": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10305.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10305.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10305.png",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10305.png"
   },

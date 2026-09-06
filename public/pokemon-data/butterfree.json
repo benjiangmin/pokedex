@@ -36,8 +36,10 @@
       "to": "Metapod",
       "details": [
         {
-          "min_level": 7,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 7
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Butterfree",
       "details": [
         {
-          "min_level": 10,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 10
         }
       ]
     },
@@ -3942,6 +3946,34 @@
     ],
     "Heartgold": [
       {
+        "location": "Ilex Forest Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 6,
+        "maxLevel": 8
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 12,
+        "maxLevel": 15
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 30
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 25,
+        "maxLevel": 28
+      },
+      {
         "location": "Kanto Route 2 South Towards Viridian City",
         "method": "Walk",
         "chance": 5,
@@ -3977,6 +4009,31 @@
         "maxLevel": 7
       }
     ],
+    "Soulsilver": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 12,
+        "maxLevel": 15
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 30
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 6
+      }
+    ],
     "White": [
       {
         "location": "Unova Route 12 Area",
@@ -3986,10 +4043,564 @@
         "maxLevel": 50
       }
     ],
+    "Sword": [
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Overworld Flying",
+        "chance": 75,
+        "minLevel": 8,
+        "maxLevel": 11
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Overworld Flying",
+        "chance": 75,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld Flying",
+        "chance": 75,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld Flying",
+        "chance": 75,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slumbering Weald Deep",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 47
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "Shield": [
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Overworld Flying",
+        "chance": 75,
+        "minLevel": 8,
+        "maxLevel": 11
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Overworld Flying",
+        "chance": 75,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld Flying",
+        "chance": 75,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld Flying",
+        "chance": 75,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slumbering Weald Deep",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 47
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Slippery Slope Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Crown Shrine Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Crown Shrine Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Foot Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Foot Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Slippery Slope Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Crown Shrine Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Crown Shrine Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Foot Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Foot Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 5 Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 13,
         "maxLevel": 16
@@ -4003,14 +4614,14 @@
       },
       {
         "location": "Lush Jungle South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 18,
         "maxLevel": 21
       },
       {
         "location": "Melemele Meadow Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 9,
         "maxLevel": 12
@@ -4026,7 +4637,7 @@
     "Moon": [
       {
         "location": "Alola Route 5 Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 13,
         "maxLevel": 16
@@ -4040,14 +4651,14 @@
       },
       {
         "location": "Lush Jungle South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 18,
         "maxLevel": 21
       },
       {
         "location": "Melemele Meadow Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 9,
         "maxLevel": 12
@@ -4063,7 +4674,7 @@
     "Ultra Sun": [
       {
         "location": "Alola Route 5 Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 13,
         "maxLevel": 16
@@ -4077,28 +4688,28 @@
       },
       {
         "location": "Lush Jungle North",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Lush Jungle South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Lush Jungle West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Melemele Meadow Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 9,
         "maxLevel": 12
@@ -4114,7 +4725,7 @@
     "Ultra Moon": [
       {
         "location": "Alola Route 5 Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 13,
         "maxLevel": 16
@@ -4128,28 +4739,28 @@
       },
       {
         "location": "Lush Jungle North",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Lush Jungle South",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Lush Jungle West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 19,
         "maxLevel": 22
       },
       {
         "location": "Melemele Meadow Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 10,
         "maxLevel": 12
@@ -4160,6 +4771,42 @@
         "chance": 1,
         "minLevel": 10,
         "maxLevel": 12
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Key Lair 4f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Bug",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Bug",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Inner Area",
+        "method": "Hidden Grotto",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

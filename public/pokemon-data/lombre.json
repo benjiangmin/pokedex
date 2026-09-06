@@ -37,8 +37,10 @@
       "to": "Lombre",
       "details": [
         {
-          "min_level": 14,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 14
         }
       ]
     },
@@ -47,6 +49,8 @@
       "to": "Ludicolo",
       "details": [
         {
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
           "item": "Water Stone",
           "trigger": "Use Item"
         }
@@ -3874,21 +3878,28 @@
         "maxLevel": 50
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Pokemon Village Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 50,
         "minLevel": 57,
-        "maxLevel": 57
+        "maxLevel": 59
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 15,
         "minLevel": 58,
         "maxLevel": 58
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 1,
         "minLevel": 59,
@@ -4002,31 +4013,233 @@
         "maxLevel": 50
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Pokemon Village Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 25
+      },
+      {
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 50,
         "minLevel": 57,
-        "maxLevel": 57
+        "maxLevel": 59
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 15,
         "minLevel": 58,
         "maxLevel": 58
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 1,
         "minLevel": 59,
         "maxLevel": 59
       }
     ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 5 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 16,
+        "maxLevel": 18
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 27,
+        "maxLevel": 29
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 15,
+        "minLevel": 30,
+        "maxLevel": 35
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 14,
+        "maxLevel": 15
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den J",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den J",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Waterfall",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -4035,10 +4248,28 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Waterfall",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Unova Route 3 Hidden Grotto Pond",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Unova Route 3 Hidden Grotto Pond",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

@@ -183,6 +183,15 @@
     ]
   },
   "locations": {
+    "Platinum": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
     "Diamond": [
       {
         "location": "Sinnoh Route 218 Area",
@@ -349,7 +358,14 @@
         "maxLevel": 45
       },
       {
-        "location": "Johto Safari Zone Zone Wetland",
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -442,7 +458,14 @@
         "maxLevel": 45
       },
       {
-        "location": "Johto Safari Zone Zone Wetland",
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -995,6 +1018,108 @@
         "maxLevel": 12
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Pokemon Mansion 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Pokemon Mansion 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      }
+    ],
     "Emerald": [
       {
         "location": "Desert Underpass Area",
@@ -1155,6 +1280,13 @@
         "chance": 5,
         "minLevel": 47,
         "maxLevel": 47
+      },
+      {
+        "location": "Giant Chasm Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 49
       }
     ],
     "White 2": [
@@ -1213,6 +1345,13 @@
         "chance": 5,
         "minLevel": 47,
         "maxLevel": 47
+      },
+      {
+        "location": "Giant Chasm Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 49
       }
     ],
     "X": [
@@ -1236,6 +1375,13 @@
         "chance": 10,
         "minLevel": 50,
         "maxLevel": 50
+      },
+      {
+        "location": "Friend Safari Normal",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -1259,26 +1405,353 @@
         "chance": 10,
         "minLevel": 50,
         "maxLevel": 50
+      },
+      {
+        "location": "Friend Safari Normal",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Galar Wild Area Max Dens Area",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Galar Wild Area Max Dens Area",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 95,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 95,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ],
     "Ultra Sun": [
       {
         "location": "Alola Route 9 Main",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 29,
         "maxLevel": 29
       },
       {
         "location": "Alola Route 9 Police Station",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 29,
         "maxLevel": 29
       },
       {
         "location": "Konikoni City Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 29,
         "maxLevel": 29
@@ -1301,21 +1774,21 @@
     "Ultra Moon": [
       {
         "location": "Alola Route 9 Main",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 29,
         "maxLevel": 29
       },
       {
         "location": "Alola Route 9 Police Station",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 29,
         "maxLevel": 29
       },
       {
         "location": "Konikoni City Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 29,
         "maxLevel": 29
@@ -1351,6 +1824,38 @@
         "chance": 10,
         "minLevel": 25,
         "maxLevel": 28
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Island Route 132",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Route 132",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Island Route 132",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Route 132",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

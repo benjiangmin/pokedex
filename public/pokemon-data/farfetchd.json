@@ -37,7 +37,10 @@
       "to": "Sirfetch'd",
       "details": [
         {
-          "trigger": "Three Critical Hits"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Three Critical Hits",
+          "base_form": "Farfetchd Galar"
         }
       ]
     }
@@ -4341,21 +4344,28 @@
         "maxLevel": 25
       },
       {
-        "location": "Johto Safari Zone Zone Wetland",
+        "location": "Johto Safari Zone Wetland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Wetland",
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Wetland",
+        "location": "Johto Safari Zone Wetland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4392,21 +4402,28 @@
         "maxLevel": 24
       },
       {
-        "location": "Johto Safari Zone Zone Wetland",
+        "location": "Johto Safari Zone Wetland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Wetland",
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Wetland",
+        "location": "Johto Safari Zone Wetland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4452,6 +4469,74 @@
         "maxLevel": 31
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      }
+    ],
+    "Red": [
+      {
+        "location": "Vermilion City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 100
+      }
+    ],
+    "Blue": [
+      {
+        "location": "Vermilion City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 100
+      }
+    ],
+    "Firered": [
+      {
+        "location": "Vermilion City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Vermilion City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
+      }
+    ],
     "X": [
       {
         "location": "Kalos Route 22 Area",
@@ -4466,6 +4551,13 @@
         "chance": 10,
         "minLevel": 26,
         "maxLevel": 26
+      },
+      {
+        "location": "Friend Safari Flying",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -4482,6 +4574,31 @@
         "chance": 10,
         "minLevel": 26,
         "maxLevel": 26
+      },
+      {
+        "location": "Friend Safari Flying",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle 1f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 36,
+        "maxLevel": 36
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ]
   }

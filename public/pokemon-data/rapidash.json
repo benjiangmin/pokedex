@@ -36,8 +36,18 @@
       "to": "Rapidash",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 40
+        },
+        {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 40,
-          "trigger": "Level Up"
+          "base_form": "Ponyta Galar",
+          "evolved_form": "Rapidash Galar"
         }
       ]
     }
@@ -3533,6 +3543,13 @@
         "chance": 10,
         "minLevel": 42,
         "maxLevel": 42
+      },
+      {
+        "location": "Pewter City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 100
       }
     ],
     "Silver": [
@@ -3549,6 +3566,13 @@
         "chance": 10,
         "minLevel": 42,
         "maxLevel": 42
+      },
+      {
+        "location": "Pewter City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 100
       }
     ],
     "Crystal": [
@@ -3625,6 +3649,24 @@
         "chance": 4,
         "minLevel": 43,
         "maxLevel": 43
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
       }
     ],
     "Firered": [
@@ -3717,6 +3759,15 @@
         "chance": 10,
         "minLevel": 59,
         "maxLevel": 59
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle 3f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
       }
     ]
   }

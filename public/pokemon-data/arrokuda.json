@@ -35,8 +35,10 @@
       "to": "Barraskewda",
       "details": [
         {
-          "min_level": 26,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 26
         }
       ]
     }
@@ -490,5 +492,714 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Bubbling Spots",
+        "chance": 5,
+        "minLevel": 4,
+        "maxLevel": 6
+      },
+      {
+        "location": "Hulbury Area",
+        "method": "Bubbling Spots",
+        "chance": 50,
+        "minLevel": 20,
+        "maxLevel": 24
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Bubbling Spots",
+        "chance": 50,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Bubbling Spots",
+        "chance": 50,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld Water",
+        "chance": 65,
+        "minLevel": 40,
+        "maxLevel": 43
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld Water",
+        "chance": 65,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Galar Route 2 Lake",
+        "method": "Overworld Water",
+        "chance": 70,
+        "minLevel": 38,
+        "maxLevel": 40
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "West Lake Axewell Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "West Lake Axewell Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den G",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Bubbling Spots",
+        "chance": 5,
+        "minLevel": 4,
+        "maxLevel": 6
+      },
+      {
+        "location": "Hulbury Area",
+        "method": "Bubbling Spots",
+        "chance": 50,
+        "minLevel": 20,
+        "maxLevel": 24
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Bubbling Spots",
+        "chance": 50,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Bubbling Spots",
+        "chance": 50,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld Water",
+        "chance": 65,
+        "minLevel": 40,
+        "maxLevel": 43
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld Water",
+        "chance": 65,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Galar Route 2 Lake",
+        "method": "Overworld Water",
+        "chance": 70,
+        "minLevel": 38,
+        "maxLevel": 40
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "West Lake Axewell Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "West Lake Axewell Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "North Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "North Lake Miloch Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den G",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Bubbling Spots",
+        "chance": 20,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Bubbling Spots",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld Water",
+        "chance": 45,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld Water",
+        "chance": 45,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Overworld Water",
+        "chance": 45,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Overworld Water",
+        "chance": 45,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Bubbling Spots",
+        "chance": 20,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Bubbling Spots",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld Water",
+        "chance": 45,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld Water",
+        "chance": 45,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Overworld Water",
+        "chance": 45,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Overworld Water",
+        "chance": 45,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ]
+  }
 }

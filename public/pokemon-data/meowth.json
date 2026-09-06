@@ -36,12 +36,18 @@
       "to": "Persian",
       "details": [
         {
-          "min_level": 28,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 28
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
-          "trigger": "Level Up"
+          "base_form": "Meowth Alola",
+          "evolved_form": "Persian Alola"
         }
       ]
     },
@@ -50,8 +56,11 @@
       "to": "Perrserker",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 28,
-          "trigger": "Level Up"
+          "base_form": "Meowth Galar"
         }
       ]
     },
@@ -73,7 +82,7 @@
     "background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/52.svg",
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png"
   },
-  "description": "It loves to collect shiny things. If it’s in a good mood, it might even let its Trainer have a look at its hoard of treasures.",
+  "description": "It washes its face regularly to keep the coin on its forehead spotless. It doesn’t get along with Galarian Meowth.",
   "isLegendary": false,
   "isMythical": false,
   "category": "Scratch Cat Pokémon",
@@ -4724,6 +4733,47 @@
     ]
   },
   "locations": {
+    "Diamond": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
     "Crystal": [
       {
         "location": "Johto Route 35 Area",
@@ -5415,6 +5465,76 @@
         "chance": 10,
         "minLevel": 20,
         "maxLevel": 20
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 24 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 7,
+        "maxLevel": 12
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 9,
+        "maxLevel": 14
+      }
+    ],
+    "Emerald": [
+      {
+        "location": "Hoenn Battle Frontier Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Phenac City Prestige Precept Center",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Turffield Gym",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Turffield Gym",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ]
   }

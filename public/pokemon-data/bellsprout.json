@@ -36,8 +36,10 @@
       "to": "Weepinbell",
       "details": [
         {
-          "min_level": 21,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 21
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Victreebel",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Leaf Stone",
           "trigger": "Use Item"
         }
@@ -3955,25 +3959,32 @@
         "maxLevel": 14
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Wasteland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
       }
     ],
     "Soulsilver": [
@@ -4055,25 +4066,32 @@
         "maxLevel": 14
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Wasteland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
       }
     ],
     "Blue": [
@@ -4565,6 +4583,85 @@
         "maxLevel": 44
       }
     ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 1 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Kanto Route 2 South Towards Viridian City",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 14 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 15 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Kanto Route 24 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 7,
+        "maxLevel": 12
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 9,
+        "maxLevel": 14
+      },
+      {
+        "location": "Kanto Route 2 North Towards Pewter City",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 8
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 6
+      }
+    ],
     "Green Japan": [
       {
         "location": "Kanto Route 12 Area",
@@ -4747,6 +4844,24 @@
         "chance": 5,
         "minLevel": 14,
         "maxLevel": 14
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 14 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 16,
+        "maxLevel": 16
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 14 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 16,
+        "maxLevel": 16
       }
     ],
     "Sun": [

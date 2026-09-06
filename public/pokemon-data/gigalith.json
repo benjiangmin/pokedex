@@ -36,8 +36,10 @@
       "to": "Boldore",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Gigalith",
       "details": [
         {
+          "version_group": "Black White",
+          "is_default": true,
           "trigger": "Trade"
         }
       ]
@@ -1838,5 +1842,277 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Black 2": [
+      {
+        "location": "Unova Route 7 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 35,
+        "maxLevel": 35
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Unova Route 7 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 35,
+        "maxLevel": 35
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 51
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

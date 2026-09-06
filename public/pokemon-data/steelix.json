@@ -37,8 +37,10 @@
       "to": "Steelix",
       "details": [
         {
-          "held_item": "Metal Coat",
-          "trigger": "Trade"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Trade",
+          "held_item": "Metal Coat"
         }
       ]
     },
@@ -4660,6 +4662,13 @@
         "chance": 1,
         "minLevel": 23,
         "maxLevel": 23
+      },
+      {
+        "location": "Olivine City Gym",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 1,
+        "maxLevel": 100
       }
     ],
     "Soulsilver": [
@@ -4676,6 +4685,13 @@
         "chance": 1,
         "minLevel": 23,
         "maxLevel": 23
+      },
+      {
+        "location": "Olivine City Gym",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 1,
+        "maxLevel": 100
       }
     ],
     "Black 2": [
@@ -4764,6 +4780,332 @@
         "chance": 4,
         "minLevel": 57,
         "maxLevel": 57
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Seat Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den H",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Seat Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Seat Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den H",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

@@ -36,8 +36,18 @@
       "to": "Dugtrio",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 26
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 26,
-          "trigger": "Level Up"
+          "base_form": "Diglett Alola",
+          "evolved_form": "Dugtrio Alola"
         }
       ]
     }
@@ -3882,6 +3892,29 @@
         "maxLevel": 50
       }
     ],
+    "Yellow": [
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 100
+      },
+      {
+        "location": "Digletts Cave Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Digletts Cave Area",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 31,
+        "maxLevel": 31
+      }
+    ],
     "Red": [
       {
         "location": "Digletts Cave Area",
@@ -3899,22 +3932,6 @@
       }
     ],
     "Blue": [
-      {
-        "location": "Digletts Cave Area",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 29,
-        "maxLevel": 29
-      },
-      {
-        "location": "Digletts Cave Area",
-        "method": "Walk",
-        "chance": 1,
-        "minLevel": 31,
-        "maxLevel": 31
-      }
-    ],
-    "Yellow": [
       {
         "location": "Digletts Cave Area",
         "method": "Walk",
@@ -3981,15 +3998,15 @@
         "location": "Digletts Cave Area",
         "method": "Walk",
         "chance": 5,
-        "minLevel": 24,
-        "maxLevel": 24
+        "minLevel": 16,
+        "maxLevel": 16
       },
       {
         "location": "Digletts Cave Area",
         "method": "Walk",
         "chance": 5,
-        "minLevel": 16,
-        "maxLevel": 16
+        "minLevel": 24,
+        "maxLevel": 24
       },
       {
         "location": "Digletts Cave Area",
@@ -4077,6 +4094,24 @@
         "maxLevel": 29
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Digletts Cave Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Digletts Cave Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      }
+    ],
     "Red Japan": [
       {
         "location": "Digletts Cave Area",
@@ -4130,6 +4165,20 @@
         "chance": 10,
         "minLevel": 28,
         "maxLevel": 28
+      },
+      {
+        "location": "Kalos Route 13 Area",
+        "method": "Ground Ambush",
+        "chance": 40,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Friend Safari Ground",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -4153,6 +4202,252 @@
         "chance": 10,
         "minLevel": 28,
         "maxLevel": 28
+      },
+      {
+        "location": "Kalos Route 13 Area",
+        "method": "Ground Ambush",
+        "chance": 40,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Friend Safari Ground",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 6 Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 29,
+        "maxLevel": 33
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld Dirt",
+        "chance": 60,
+        "minLevel": 31,
+        "maxLevel": 34
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld Dirt",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 6 Area",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 29,
+        "maxLevel": 33
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld Dirt",
+        "chance": 50,
+        "minLevel": 31,
+        "maxLevel": 34
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld Dirt",
+        "chance": 50,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ],
     "Ultra Sun": [
@@ -4171,6 +4466,15 @@
         "chance": 30,
         "minLevel": 41,
         "maxLevel": 44
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle Dome Bf1",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
       }
     ]
   }

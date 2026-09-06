@@ -36,8 +36,10 @@
       "to": "Swellow",
       "details": [
         {
-          "min_level": 22,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 22
         }
       ]
     }
@@ -2590,7 +2592,7 @@
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Cliff",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -2599,10 +2601,19 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Cliff",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle Dome Exterior",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 43,
+        "maxLevel": 43
       }
     ]
   }

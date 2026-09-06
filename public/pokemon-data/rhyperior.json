@@ -37,8 +37,10 @@
       "to": "Rhydon",
       "details": [
         {
-          "min_level": 42,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 42
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Rhyperior",
       "details": [
         {
-          "held_item": "Protector",
-          "trigger": "Trade"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Trade",
+          "held_item": "Protector"
         }
       ]
     }
@@ -4656,5 +4660,182 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den H",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den H",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

@@ -37,8 +37,18 @@
       "to": "Electrode",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "item": "Leaf Stone",
+          "trigger": "Use Item",
+          "base_form": "Voltorb Hisui",
+          "evolved_form": "Electrode Hisui"
         }
       ]
     }

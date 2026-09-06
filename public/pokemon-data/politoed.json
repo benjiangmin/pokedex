@@ -36,8 +36,10 @@
       "to": "Poliwhirl",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Poliwrath",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Water Stone",
           "trigger": "Use Item"
         }
@@ -56,8 +60,10 @@
       "to": "Politoed",
       "details": [
         {
-          "held_item": "Kings Rock",
-          "trigger": "Trade"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Trade",
+          "held_item": "Kings Rock"
         }
       ]
     }
@@ -3654,10 +3660,102 @@
         "maxLevel": 50
       }
     ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 32,
+        "maxLevel": 32
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den I",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
     "Sun": [
       {
         "location": "Malie Garden Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 1,
         "minLevel": 24,
         "maxLevel": 27
@@ -3666,7 +3764,7 @@
     "Moon": [
       {
         "location": "Malie Garden Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 1,
         "minLevel": 24,
         "maxLevel": 27
@@ -3675,7 +3773,7 @@
     "Ultra Sun": [
       {
         "location": "Malie Garden Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 1,
         "minLevel": 25,
         "maxLevel": 28
@@ -3684,7 +3782,7 @@
     "Ultra Moon": [
       {
         "location": "Malie Garden Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 1,
         "minLevel": 25,
         "maxLevel": 28

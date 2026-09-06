@@ -36,9 +36,11 @@
       "to": "Chansey",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
           "held_item": "Oval Stone",
-          "time_of_day": "day",
-          "trigger": "Level Up"
+          "time_of_day": "day"
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Blissey",
       "details": [
         {
-          "min_happiness": 160,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 160
         }
       ]
     }
@@ -6370,6 +6374,20 @@
   "locations": {
     "Diamond": [
       {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      },
+      {
         "location": "Sinnoh Route 209 Area",
         "method": "Walk",
         "chance": 4,
@@ -6393,6 +6411,20 @@
     ],
     "Pearl": [
       {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      },
+      {
         "location": "Sinnoh Route 209 Area",
         "method": "Walk",
         "chance": 4,
@@ -6415,6 +6447,13 @@
       }
     ],
     "Platinum": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
       {
         "location": "Sinnoh Route 209 Area",
         "method": "Walk",
@@ -6442,6 +6481,430 @@
         "chance": 1,
         "minLevel": 21,
         "maxLevel": 21
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Kanto Victory Road 1 1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Route 5 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 11,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 6 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 11,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 27
+      },
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 14 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 15 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Digletts Cave Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Mansion 1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 2f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 3f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion B1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 12 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Mt Moon 1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Kanto Victory Road 1 1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Route 5 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 11,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 6 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 11,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 27
+      },
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kanto Route 13 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 14 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 15 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Digletts Cave Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Mansion 1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 2f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 3f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion B1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ],
     "Gold": [
@@ -6541,6 +7004,13 @@
         "chance": 1,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
       }
     ],
     "Soulsilver": [
@@ -6571,6 +7041,13 @@
         "chance": 1,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
       }
     ],
     "Red": [
@@ -6748,31 +7225,4253 @@
         "maxLevel": 26
       }
     ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Courageous Cavern Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 19,
+        "maxLevel": 24
+      },
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Warm Up Tunnel Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Warm Up Tunnel Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Courageous Cavern Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Warm Up Tunnel Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Warm Up Tunnel Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den J",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Road Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den G",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 6,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 7,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 12 Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 26,
         "maxLevel": 29
       },
       {
         "location": "Blush Mountain Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 26,
         "maxLevel": 29
       },
       {
         "location": "Mount Hokulani Main",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 25,
         "maxLevel": 28
       },
       {
         "location": "Poni Grove Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 52,
         "maxLevel": 55
@@ -6781,28 +11480,28 @@
     "Moon": [
       {
         "location": "Alola Route 12 Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 26,
         "maxLevel": 29
       },
       {
         "location": "Blush Mountain Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 26,
         "maxLevel": 29
       },
       {
         "location": "Mount Hokulani Main",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 25,
         "maxLevel": 28
       },
       {
         "location": "Poni Grove Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 52,
         "maxLevel": 55
@@ -6824,6 +11523,33 @@
         "chance": 20,
         "minLevel": 54,
         "maxLevel": 57
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle 6f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 39
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Normal",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Normal",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

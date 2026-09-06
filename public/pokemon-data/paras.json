@@ -37,8 +37,10 @@
       "to": "Parasect",
       "details": [
         {
-          "min_level": 24,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 24
         }
       ]
     }
@@ -3757,6 +3759,180 @@
     ]
   },
   "locations": {
+    "Diamond": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      }
+    ],
     "Gold": [
       {
         "location": "Ilex Forest Area",
@@ -3835,6 +4011,20 @@
         "maxLevel": 6
       },
       {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 34
+      },
+      {
         "location": "Mt Moon 1f",
         "method": "Walk",
         "chance": 5,
@@ -3849,21 +4039,28 @@
         "maxLevel": 12
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -3886,6 +4083,20 @@
         "maxLevel": 6
       },
       {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 17
+      },
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 34
+      },
+      {
         "location": "Mt Moon 1f",
         "method": "Walk",
         "chance": 5,
@@ -3900,21 +4111,28 @@
         "maxLevel": 12
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4165,6 +4383,52 @@
         "chance": 10,
         "minLevel": 23,
         "maxLevel": 23
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Mt Moon 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Mt Moon 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
+      },
+      {
+        "location": "Mt Moon B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 10
       }
     ],
     "Red Japan": [
@@ -4431,6 +4695,33 @@
         "chance": 10,
         "minLevel": 19,
         "maxLevel": 22
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Key Lair 1f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Bug",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Bug",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

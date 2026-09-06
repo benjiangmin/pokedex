@@ -36,8 +36,10 @@
       "to": "Ursaring",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -46,9 +48,11 @@
       "to": "Ursaluna",
       "details": [
         {
+          "version_group": "Legends Arceus",
+          "is_default": true,
           "item": "Peat Block",
-          "time_of_day": "full-moon",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "time_of_day": "full-moon"
         }
       ]
     }
@@ -4522,6 +4526,15 @@
         "chance": 10,
         "minLevel": 52,
         "maxLevel": 52
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Snagem Hideout 2f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 45,
+        "maxLevel": 45
       }
     ]
   }

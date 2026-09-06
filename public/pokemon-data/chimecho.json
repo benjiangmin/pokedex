@@ -34,9 +34,11 @@
       "to": "Chimecho",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 220,
-          "time_of_day": "night",
-          "trigger": "Level Up"
+          "time_of_day": "night"
         }
       ]
     },
@@ -4337,6 +4339,38 @@
         "chance": 10,
         "minLevel": 59,
         "maxLevel": 59
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
       }
     ]
   }

@@ -26,15 +26,19 @@
   "color": "red",
   "weight": 180.3,
   "height": 1.8,
-  "abilities": [],
+  "abilities": [
+    "Mold Breaker"
+  ],
   "evolutionChain": [
     {
       "from": "Tepig",
       "to": "Pignite",
       "details": [
         {
-          "min_level": 17,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 17
         }
       ]
     },
@@ -43,8 +47,10 @@
       "to": "Emboar",
       "details": [
         {
-          "min_level": 36,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
         }
       ]
     },
@@ -60,8 +66,8 @@
   ],
   "generation": "generation-v",
   "sprites": {
-    "static": null,
-    "shiny": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10286.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10286.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10286.gif",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10286.png"

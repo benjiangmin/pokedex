@@ -36,8 +36,10 @@
       "to": "Amoonguss",
       "details": [
         {
-          "min_level": 39,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 39
         }
       ]
     }
@@ -1937,7 +1939,7 @@
       },
       {
         "location": "Unova Route 10 Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
@@ -1995,7 +1997,7 @@
       },
       {
         "location": "Unova Route 10 Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
@@ -2053,7 +2055,7 @@
       },
       {
         "location": "Unova Route 11 Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 47,
         "maxLevel": 47
@@ -2074,7 +2076,7 @@
       },
       {
         "location": "Unova Route 22 Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 47,
         "maxLevel": 47
@@ -2095,10 +2097,38 @@
       },
       {
         "location": "Unova Route 23 Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 56,
         "maxLevel": 56
+      },
+      {
+        "location": "Unova Route 22 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 40,
+        "maxLevel": 44
+      },
+      {
+        "location": "Abundant Shrine Hidden Grotto Near Youngster",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 35,
+        "maxLevel": 39
+      },
+      {
+        "location": "Abundant Shrine Hidden Grotto Shrine",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 35,
+        "maxLevel": 39
+      },
+      {
+        "location": "Pinwheel Forest Hidden Grotto Inner Area",
+        "method": "Hidden Grotto",
+        "chance": 56,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ],
     "White 2": [
@@ -2118,7 +2148,7 @@
       },
       {
         "location": "Unova Route 11 Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 47,
         "maxLevel": 47
@@ -2139,7 +2169,7 @@
       },
       {
         "location": "Unova Route 22 Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 47,
         "maxLevel": 47
@@ -2160,10 +2190,38 @@
       },
       {
         "location": "Unova Route 23 Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 56,
         "maxLevel": 56
+      },
+      {
+        "location": "Unova Route 22 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 40,
+        "maxLevel": 44
+      },
+      {
+        "location": "Abundant Shrine Hidden Grotto Near Youngster",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 35,
+        "maxLevel": 39
+      },
+      {
+        "location": "Abundant Shrine Hidden Grotto Shrine",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 35,
+        "maxLevel": 39
+      },
+      {
+        "location": "Pinwheel Forest Hidden Grotto Inner Area",
+        "method": "Hidden Grotto",
+        "chance": 56,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ],
     "X": [
@@ -2308,6 +2366,392 @@
         "chance": 10,
         "minLevel": 50,
         "maxLevel": 50
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ]
   }

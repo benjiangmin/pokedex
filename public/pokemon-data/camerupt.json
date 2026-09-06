@@ -37,8 +37,10 @@
       "to": "Camerupt",
       "details": [
         {
-          "min_level": 33,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 33
         }
       ]
     },
@@ -3716,6 +3718,24 @@
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Ground",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Ground",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

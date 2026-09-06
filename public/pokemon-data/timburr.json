@@ -36,8 +36,10 @@
       "to": "Gurdurr",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Conkeldurr",
       "details": [
         {
+          "version_group": "Black White",
+          "is_default": true,
           "trigger": "Trade"
         }
       ]
@@ -2770,6 +2774,252 @@
         "chance": 10,
         "minLevel": 18,
         "maxLevel": 18
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Mine Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Rolling Fields Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Mine Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Rolling Fields Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ]
   }

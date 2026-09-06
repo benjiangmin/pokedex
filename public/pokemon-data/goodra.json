@@ -36,8 +36,18 @@
       "to": "Sliggoo",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 40
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 40,
-          "trigger": "Level Up"
+          "region": "Hisui",
+          "evolved_form": "Sliggoo Hisui"
         }
       ]
     },
@@ -46,9 +56,20 @@
       "to": "Goodra",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 50,
+          "needs_overworld_rain": true
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 50,
           "needs_overworld_rain": true,
-          "trigger": "Level Up"
+          "base_form": "Sliggoo Hisui",
+          "evolved_form": "Goodra Hisui"
         }
       ]
     }
@@ -1962,5 +1983,59 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Shield": [
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

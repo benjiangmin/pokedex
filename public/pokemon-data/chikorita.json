@@ -35,8 +35,10 @@
       "to": "Bayleef",
       "details": [
         {
-          "min_level": 16,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 16
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Meganium",
       "details": [
         {
-          "min_level": 32,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 32
         }
       ]
     }
@@ -3684,6 +3688,15 @@
         "chance": 100,
         "minLevel": 10,
         "maxLevel": 10
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Mt Battle Lobby",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ]
   }

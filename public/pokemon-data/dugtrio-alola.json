@@ -37,8 +37,18 @@
       "to": "Dugtrio",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 26
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 26,
-          "trigger": "Level Up"
+          "base_form": "Diglett Alola",
+          "evolved_form": "Dugtrio Alola"
         }
       ]
     }
@@ -1392,6 +1402,24 @@
     ]
   },
   "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
     "Sun": [
       {
         "location": "Haina Desert Area",

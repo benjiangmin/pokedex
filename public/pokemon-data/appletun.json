@@ -37,6 +37,8 @@
       "to": "Flapple",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Tart Apple",
           "trigger": "Use Item"
         }
@@ -47,6 +49,8 @@
       "to": "Appletun",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Sweet Apple",
           "trigger": "Use Item"
         }
@@ -55,12 +59,26 @@
     {
       "from": "Applin",
       "to": "Dipplin",
-      "details": []
+      "details": [
+        {
+          "version_group": "The Teal Mask",
+          "is_default": true,
+          "item": "Syrupy Apple",
+          "trigger": "Use Item"
+        }
+      ]
     },
     {
       "from": "Dipplin",
       "to": "Hydrapple",
-      "details": []
+      "details": [
+        {
+          "version_group": "The Indigo Disk",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Dragon Cheer"
+        }
+      ]
     },
     {
       "from": "Appletun",
@@ -671,5 +689,108 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Berry Trees",
+        "chance": 10,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Berry Trees",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Dappled Grove Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den J",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

@@ -35,12 +35,18 @@
       "to": "Slowbro",
       "details": [
         {
-          "min_level": 37,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
         },
         {
+          "version_group": "The Isle Of Armor",
+          "is_default": true,
           "item": "Galarica Cuff",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Slowpoke Galar",
+          "evolved_form": "Slowbro Galar"
         }
       ]
     },
@@ -49,12 +55,18 @@
       "to": "Slowking",
       "details": [
         {
-          "held_item": "Kings Rock",
-          "trigger": "Trade"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Trade",
+          "held_item": "Kings Rock"
         },
         {
+          "version_group": "The Isle Of Armor",
+          "is_default": true,
           "item": "Galarica Wreath",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Slowpoke Galar",
+          "evolved_form": "Slowking Galar"
         }
       ]
     },

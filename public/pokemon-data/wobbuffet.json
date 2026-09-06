@@ -35,8 +35,10 @@
       "to": "Wobbuffet",
       "details": [
         {
-          "min_level": 15,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 15
         }
       ]
     }
@@ -700,6 +702,13 @@
         "chance": 5,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "Goldenrod City Game Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
     "Heartgold": [
@@ -739,14 +748,21 @@
         "maxLevel": 49
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -790,14 +806,21 @@
         "maxLevel": 49
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -982,6 +1005,13 @@
         "chance": 10,
         "minLevel": 22,
         "maxLevel": 22
+      },
+      {
+        "location": "Friend Safari Psychic",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -1012,6 +1042,269 @@
         "chance": 10,
         "minLevel": 22,
         "maxLevel": 22
+      },
+      {
+        "location": "Friend Safari Psychic",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 5 Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 19,
+        "maxLevel": 21
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 29
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 55,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 55,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 45,
+        "minLevel": 29,
+        "maxLevel": 31
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 45,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 55,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 55,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 5 Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 19,
+        "maxLevel": 21
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 29
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 55,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 55,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 45,
+        "minLevel": 29,
+        "maxLevel": 31
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 45,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 58
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 55,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 55,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

@@ -36,9 +36,11 @@
       "to": "Gumshoos",
       "details": [
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 20,
-          "time_of_day": "day",
-          "trigger": "Level Up"
+          "time_of_day": "day"
         }
       ]
     }
@@ -930,7 +932,7 @@
     "Ultra Sun": [
       {
         "location": "Alola Route 8 Main",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 17,
         "maxLevel": 20
@@ -1051,7 +1053,7 @@
     "Ultra Moon": [
       {
         "location": "Alola Route 8 Main",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 17,
         "maxLevel": 20

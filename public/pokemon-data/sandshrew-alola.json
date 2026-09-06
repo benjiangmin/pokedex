@@ -36,12 +36,18 @@
       "to": "Sandslash",
       "details": [
         {
-          "min_level": 22,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 22
         },
         {
+          "version_group": "The Isle Of Armor",
+          "is_default": true,
           "item": "Ice Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Sandshrew Alola",
+          "evolved_form": "Sandslash Alola"
         }
       ]
     }
@@ -1632,6 +1638,33 @@
     ]
   },
   "locations": {
+    "Lets Go Pikachu": [
+      {
+        "location": "Celadon City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 27
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
     "Moon": [
       {
         "location": "Alola Route 14 Area",

@@ -37,8 +37,18 @@
       "to": "Braviary",
       "details": [
         {
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 54
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 54,
-          "trigger": "Level Up"
+          "region": "Hisui",
+          "evolved_form": "Braviary Hisui"
         }
       ]
     }
@@ -2171,6 +2181,171 @@
         "maxLevel": 47
       }
     ],
+    "Sword": [
+      {
+        "location": "Galar Route 8 Main",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 39,
+        "maxLevel": 41
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den G",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 19,
+        "maxLevel": 24
+      },
+      {
+        "location": "Potbottom Desert Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Road Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Loop Lagoon Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Workout Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 3 North",
@@ -2208,6 +2383,42 @@
         "chance": 30,
         "minLevel": 10,
         "maxLevel": 13
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Mountain North Of Lilycove",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Mountain North Of Lilycove",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Flying",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Flying",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

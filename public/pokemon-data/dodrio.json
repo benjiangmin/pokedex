@@ -37,8 +37,10 @@
       "to": "Dodrio",
       "details": [
         {
-          "min_level": 31,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 31
         }
       ]
     }
@@ -3281,6 +3283,110 @@
     ]
   },
   "locations": {
+    "Crystal": [
+      {
+        "location": "Blackthorn City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 100
+      },
+      {
+        "location": "Mt Silver Outside",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "Kanto Route 27 Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 28 Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 43,
+        "maxLevel": 43
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Blackthorn City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 100
+      },
+      {
+        "location": "Mt Silver Outside",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "Kanto Route 26 Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 28 Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Blackthorn City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 100
+      },
+      {
+        "location": "Mt Silver Outside",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "Kanto Route 27 Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 28 Area",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      }
+    ],
     "Gold": [
       {
         "location": "Mt Silver Outside",
@@ -3327,73 +3433,50 @@
         "maxLevel": 43
       }
     ],
-    "Crystal": [
+    "Lets Go Pikachu": [
       {
-        "location": "Mt Silver Outside",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 43,
-        "maxLevel": 43
+        "location": "Kanto Route 16 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
       },
       {
-        "location": "Kanto Route 27 Area",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 30,
-        "maxLevel": 30
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
       },
       {
-        "location": "Kanto Route 28 Area",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 43,
-        "maxLevel": 43
+        "location": "Kanto Route 18 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
       }
     ],
-    "Heartgold": [
+    "Lets Go Eevee": [
       {
-        "location": "Mt Silver Outside",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 43,
-        "maxLevel": 43
+        "location": "Kanto Route 16 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
       },
       {
-        "location": "Kanto Route 26 Area",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 30,
-        "maxLevel": 30
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
       },
       {
-        "location": "Kanto Route 28 Area",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 43,
-        "maxLevel": 43
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Mt Silver Outside",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 43,
-        "maxLevel": 43
-      },
-      {
-        "location": "Kanto Route 27 Area",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 30,
-        "maxLevel": 30
-      },
-      {
-        "location": "Kanto Route 28 Area",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 43,
-        "maxLevel": 43
+        "location": "Kanto Route 18 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
       }
     ],
     "Yellow": [
@@ -3515,6 +3598,15 @@
         "chance": 1,
         "minLevel": 31,
         "maxLevel": 31
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle 1f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 34,
+        "maxLevel": 34
       }
     ]
   }

@@ -35,8 +35,10 @@
       "to": "Pikachu",
       "details": [
         {
-          "min_happiness": 220,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 220
         }
       ]
     },
@@ -45,8 +47,20 @@
       "to": "Raichu",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Thunder Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Pikachu"
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "item": "Thunder Stone",
+          "trigger": "Use Item",
+          "region": "Alola",
+          "base_form": "Pikachu",
+          "evolved_form": "Raichu Alola"
         }
       ]
     }
@@ -672,11 +686,6 @@
       },
       {
         "name": "Facade",
-        "learn_method": "machine",
-        "level_learned": 0
-      },
-      {
-        "name": "Follow Me",
         "learn_method": "machine",
         "level_learned": 0
       },
@@ -3570,6 +3579,150 @@
         "maxLevel": 5
       }
     ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Alola Route 1 East",
@@ -3618,6 +3771,52 @@
         "chance": 5,
         "minLevel": 5,
         "maxLevel": 8
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
       }
     ]
   }

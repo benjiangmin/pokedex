@@ -35,8 +35,10 @@
       "to": "Croconaw",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Feraligatr",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     }
@@ -3820,5 +3824,29 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Colosseum": [
+      {
+        "location": "Snagem Hideout 1f",
+        "method": "Snag Rematch",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Shadow Pokemon Lab Bf2",
+        "method": "Snag Rematch",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Phenac City South Exit",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ]
+  }
 }

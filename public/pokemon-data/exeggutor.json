@@ -36,8 +36,18 @@
       "to": "Exeggutor",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Leaf Stone",
           "trigger": "Use Item"
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "item": "Leaf Stone",
+          "trigger": "Use Item",
+          "region": "Alola",
+          "evolved_form": "Exeggutor Alola"
         }
       ]
     }
@@ -3767,5 +3777,279 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Insular Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Insular Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle Dome 2f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      }
+    ]
+  }
 }

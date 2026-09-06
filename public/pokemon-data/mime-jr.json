@@ -37,8 +37,18 @@
       "to": "Mr. Mime",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Mimic"
+        },
+        {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "known_move": "Mimic",
-          "trigger": "Level Up"
+          "region": "Galar",
+          "evolved_form": "Mr Mime Galar"
         }
       ]
     },
@@ -47,8 +57,11 @@
       "to": "Mr. Rime",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 42,
-          "trigger": "Level Up"
+          "base_form": "Mr Mime Galar"
         }
       ]
     }
@@ -3954,6 +3967,20 @@
   "locations": {
     "Diamond": [
       {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      },
+      {
         "location": "Sinnoh Route 209 Area",
         "method": "Walk",
         "chance": 10,
@@ -3972,6 +3999,449 @@
         "method": "Walk",
         "chance": 4,
         "minLevel": 20,
+        "maxLevel": 20
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "X": [
+      {
+        "location": "Reflection Cave Unknown Area 305",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      },
+      {
+        "location": "Reflection Cave Unknown Area 306",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      },
+      {
+        "location": "Reflection Cave Unknown Area 307",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      },
+      {
+        "location": "Reflection Cave Unknown Area 308",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      }
+    ],
+    "Y": [
+      {
+        "location": "Reflection Cave Unknown Area 305",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      },
+      {
+        "location": "Reflection Cave Unknown Area 306",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      },
+      {
+        "location": "Reflection Cave Unknown Area 307",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      },
+      {
+        "location": "Reflection Cave Unknown Area 308",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 11,
+        "maxLevel": 11
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Walk",
+        "chance": 19,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frigid Sea Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Snowslide Slope Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Three Point Pass Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Snowslide Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Snowslide Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Path To The Peak Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Path To The Peak Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den R",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den R",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den O",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den O",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Walk",
+        "chance": 19,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frigid Sea Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Old Cemetery Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Snowslide Slope Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Three Point Pass Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Snowslide Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Snowslide Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Path To The Peak Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Path To The Peak Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den R",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den R",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den O",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den O",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
         "maxLevel": 20
       }
     ],

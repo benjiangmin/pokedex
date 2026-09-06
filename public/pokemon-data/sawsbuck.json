@@ -37,8 +37,10 @@
       "to": "Sawsbuck",
       "details": [
         {
-          "min_level": 34,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 34
         }
       ]
     }
@@ -2236,6 +2238,24 @@
         "chance": 4,
         "minLevel": 58,
         "maxLevel": 58
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Grass",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Grass",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

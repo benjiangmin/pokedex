@@ -37,8 +37,10 @@
       "to": "Skiploom",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Jumpluff",
       "details": [
         {
-          "min_level": 27,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 27
         }
       ]
     }
@@ -3887,21 +3891,21 @@
         "maxLevel": 24
       },
       {
-        "location": "Johto Safari Zone Zone Meadow",
+        "location": "Johto Safari Zone Meadow",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Meadow",
+        "location": "Johto Safari Zone Meadow",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Meadow",
+        "location": "Johto Safari Zone Meadow",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -3980,21 +3984,21 @@
         "maxLevel": 24
       },
       {
-        "location": "Johto Safari Zone Zone Meadow",
+        "location": "Johto Safari Zone Meadow",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Meadow",
+        "location": "Johto Safari Zone Meadow",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Meadow",
+        "location": "Johto Safari Zone Meadow",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4185,6 +4189,33 @@
         "chance": 30,
         "minLevel": 5,
         "maxLevel": 15
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Route 7 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 7,
+        "maxLevel": 7
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 7 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 7,
+        "maxLevel": 7
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Pokespot Oasis",
+        "method": "Pokespot",
+        "chance": 50,
+        "minLevel": 10,
+        "maxLevel": 20
       }
     ]
   }

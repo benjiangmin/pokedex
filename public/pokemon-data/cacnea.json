@@ -35,8 +35,10 @@
       "to": "Cacturne",
       "details": [
         {
-          "min_level": 32,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 32
         }
       ]
     }
@@ -3906,6 +3908,24 @@
         "chance": 1,
         "minLevel": 22,
         "maxLevel": 22
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Desert",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 35
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Desert",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 35
       }
     ]
   }

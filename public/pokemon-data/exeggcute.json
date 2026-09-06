@@ -36,8 +36,18 @@
       "to": "Exeggutor",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Leaf Stone",
           "trigger": "Use Item"
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "item": "Leaf Stone",
+          "trigger": "Use Item",
+          "region": "Alola",
+          "evolved_form": "Exeggutor Alola"
         }
       ]
     }
@@ -4273,6 +4283,828 @@
     ]
   },
   "locations": {
+    "Diamond": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "New Bark Town Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "New Bark Town Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 29 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Johto Route 29 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 50,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 30 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Johto Route 30 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 31 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Johto Route 31 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 5,
+        "maxLevel": 6
+      },
+      {
+        "location": "Violet City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 32 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 32 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 6,
+        "maxLevel": 7
+      },
+      {
+        "location": "Johto Route 34 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 9,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 34 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 12
+      },
+      {
+        "location": "Johto Route 35 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 11
+      },
+      {
+        "location": "Johto Route 35 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 14
+      },
+      {
+        "location": "National Park Area",
+        "method": "Headbutt",
+        "chance": 50,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "National Park Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 12
+      },
+      {
+        "location": "National Park Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Johto Route 36 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 36 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 6,
+        "maxLevel": 7
+      },
+      {
+        "location": "Johto Route 37 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 12,
+        "maxLevel": 14
+      },
+      {
+        "location": "Johto Route 37 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 17
+      },
+      {
+        "location": "Ecruteak City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 12,
+        "maxLevel": 14
+      },
+      {
+        "location": "Ecruteak City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 17
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 50,
+        "minLevel": 18,
+        "maxLevel": 25
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 14
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 15
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 16,
+        "maxLevel": 17
+      },
+      {
+        "location": "Johto Route 43 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Johto Route 43 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 18
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 19
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 18
+      },
+      {
+        "location": "Johto Route 48 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Johto Route 48 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kanto Route 26 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 29
+      },
+      {
+        "location": "Kanto Route 26 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 31,
+        "maxLevel": 32
+      },
+      {
+        "location": "Kanto Route 27 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 29
+      },
+      {
+        "location": "Kanto Route 27 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 31,
+        "maxLevel": 32
+      },
+      {
+        "location": "Safari Zone Gate Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Safari Zone Gate Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 19
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "New Bark Town Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "New Bark Town Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 29 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Johto Route 29 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 50,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Cherrygrove City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 30 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Johto Route 30 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 31 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Johto Route 31 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 5,
+        "maxLevel": 6
+      },
+      {
+        "location": "Violet City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 32 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 32 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 6,
+        "maxLevel": 7
+      },
+      {
+        "location": "Johto Route 34 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 9,
+        "maxLevel": 10
+      },
+      {
+        "location": "Johto Route 34 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 12
+      },
+      {
+        "location": "Johto Route 35 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 11
+      },
+      {
+        "location": "Johto Route 35 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 14
+      },
+      {
+        "location": "National Park Area",
+        "method": "Headbutt",
+        "chance": 50,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "National Park Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 10,
+        "maxLevel": 12
+      },
+      {
+        "location": "National Park Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Johto Route 36 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 4,
+        "maxLevel": 5
+      },
+      {
+        "location": "Johto Route 36 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 6,
+        "maxLevel": 7
+      },
+      {
+        "location": "Johto Route 37 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 12,
+        "maxLevel": 14
+      },
+      {
+        "location": "Johto Route 37 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 17
+      },
+      {
+        "location": "Ecruteak City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 12,
+        "maxLevel": 14
+      },
+      {
+        "location": "Ecruteak City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 17
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 50,
+        "minLevel": 18,
+        "maxLevel": 25
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 14
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 15
+      },
+      {
+        "location": "Johto Route 39 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 16,
+        "maxLevel": 17
+      },
+      {
+        "location": "Johto Route 43 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Johto Route 43 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 18
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Lake Of Rage Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 19
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Johto Route 47 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 18
+      },
+      {
+        "location": "Johto Route 48 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Johto Route 48 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kanto Route 26 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 29
+      },
+      {
+        "location": "Kanto Route 26 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 31,
+        "maxLevel": 32
+      },
+      {
+        "location": "Kanto Route 27 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 29
+      },
+      {
+        "location": "Kanto Route 27 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 31,
+        "maxLevel": 32
+      },
+      {
+        "location": "Safari Zone Gate Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Safari Zone Gate Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 17,
+        "maxLevel": 19
+      }
+    ],
     "Crystal": [
       {
         "location": "Johto Route 29 Area",
@@ -5035,6 +5867,24 @@
         "maxLevel": 10
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      }
+    ],
     "Red": [
       {
         "location": "Kanto Safari Zone Middle",
@@ -5462,6 +6312,13 @@
         "chance": 10,
         "minLevel": 26,
         "maxLevel": 26
+      },
+      {
+        "location": "Azure Bay Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 14,
+        "maxLevel": 14
       }
     ],
     "Y": [
@@ -5485,6 +6342,409 @@
         "chance": 10,
         "minLevel": 26,
         "maxLevel": 26
+      },
+      {
+        "location": "Azure Bay Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 14,
+        "maxLevel": 14
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Insular Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Insular Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld",
+        "chance": 16,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ],
     "Sun": [

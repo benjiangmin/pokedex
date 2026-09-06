@@ -35,8 +35,10 @@
       "to": "Pikachu",
       "details": [
         {
-          "min_happiness": 220,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 220
         }
       ]
     },
@@ -45,8 +47,20 @@
       "to": "Raichu",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Thunder Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Pikachu"
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "item": "Thunder Stone",
+          "trigger": "Use Item",
+          "region": "Alola",
+          "base_form": "Pikachu",
+          "evolved_form": "Raichu Alola"
         }
       ]
     }
@@ -1513,5 +1527,60 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Saffron City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Saffron City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ]
+  }
 }

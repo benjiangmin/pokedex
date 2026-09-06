@@ -37,8 +37,11 @@
       "to": "Cursola",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 38,
-          "trigger": "Level Up"
+          "base_form": "Corsola Galar"
         }
       ]
     }
@@ -4917,6 +4920,13 @@
         "chance": 15,
         "minLevel": 30,
         "maxLevel": 35
+      },
+      {
+        "location": "Pacifidlog Town Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 21,
+        "maxLevel": 100
       }
     ],
     "Sapphire": [
@@ -4933,6 +4943,13 @@
         "chance": 15,
         "minLevel": 30,
         "maxLevel": 35
+      },
+      {
+        "location": "Pacifidlog Town Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 21,
+        "maxLevel": 100
       }
     ],
     "Emerald": [
@@ -4997,6 +5014,13 @@
         "chance": 30,
         "minLevel": 35,
         "maxLevel": 45
+      },
+      {
+        "location": "Unova Route 18 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 38,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ],
     "White 2": [
@@ -5013,6 +5037,13 @@
         "chance": 30,
         "minLevel": 35,
         "maxLevel": 45
+      },
+      {
+        "location": "Unova Route 18 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 38,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ],
     "X": [
@@ -5022,6 +5053,13 @@
         "chance": 60,
         "minLevel": 35,
         "maxLevel": 35
+      },
+      {
+        "location": "Friend Safari Rock",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -5031,6 +5069,13 @@
         "chance": 60,
         "minLevel": 35,
         "maxLevel": 35
+      },
+      {
+        "location": "Friend Safari Rock",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Sun": [
@@ -5193,6 +5238,15 @@
         "chance": 4,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ]
   }

@@ -36,8 +36,10 @@
       "to": "Lickilicky",
       "details": [
         {
-          "known_move": "Rollout",
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Rollout"
         }
       ]
     }
@@ -5320,21 +5322,28 @@
         "maxLevel": 26
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -5357,25 +5366,114 @@
         "maxLevel": 26
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      }
+    ],
+    "Red": [
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 23,
+        "maxLevel": 100
+      }
+    ],
+    "Blue": [
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 23,
+        "maxLevel": 100
+      }
+    ],
+    "Firered": [
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 100
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 100
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
+      },
+      {
+        "location": "Cerulean Cave B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 51,
+        "maxLevel": 56
       }
     ],
     "Yellow": [
@@ -5502,6 +5600,13 @@
         "maxLevel": 59
       },
       {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
         "location": "Kalos Victory Road Unknown Area 324",
         "method": "Walk",
         "chance": 10,
@@ -5514,6 +5619,13 @@
         "chance": 5,
         "minLevel": 59,
         "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
       },
       {
         "location": "Kalos Victory Road Unknown Area 326",
@@ -5530,6 +5642,13 @@
         "maxLevel": 59
       },
       {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
         "location": "Kalos Victory Road Unknown Area 328",
         "method": "Walk",
         "chance": 10,
@@ -5542,6 +5661,13 @@
         "chance": 5,
         "minLevel": 59,
         "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -5560,6 +5686,13 @@
         "maxLevel": 59
       },
       {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
         "location": "Kalos Victory Road Unknown Area 324",
         "method": "Walk",
         "chance": 10,
@@ -5572,6 +5705,13 @@
         "chance": 5,
         "minLevel": 59,
         "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
       },
       {
         "location": "Kalos Victory Road Unknown Area 326",
@@ -5588,6 +5728,13 @@
         "maxLevel": 59
       },
       {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
         "location": "Kalos Victory Road Unknown Area 328",
         "method": "Walk",
         "chance": 10,
@@ -5600,6 +5747,259 @@
         "chance": 5,
         "minLevel": 59,
         "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ],
     "Ultra Sun": [
@@ -5618,6 +6018,15 @@
         "chance": 20,
         "minLevel": 58,
         "maxLevel": 61
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle 6f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 38,
+        "maxLevel": 38
       }
     ]
   }

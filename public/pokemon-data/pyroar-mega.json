@@ -26,20 +26,24 @@
   "color": "brown",
   "weight": 93.3,
   "height": 1.5,
-  "abilities": [],
+  "abilities": [
+    "Fire Mane"
+  ],
   "evolutionChain": [
     {
       "from": "Litleo",
       "to": "Pyroar",
       "details": [
         {
-          "min_level": 35,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 35
         }
       ]
     },
     {
-      "from": "Pyroar",
+      "from": "Pyroar (Male)",
       "to": "Pyroar (Mega)",
       "details": [
         {
@@ -50,9 +54,9 @@
   ],
   "generation": "generation-vi",
   "sprites": {
-    "static": null,
-    "shiny": null,
-    "animated": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10295.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10295.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10295.png",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10295.png"
   },

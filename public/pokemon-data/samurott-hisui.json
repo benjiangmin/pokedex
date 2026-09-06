@@ -36,8 +36,10 @@
       "to": "Dewott",
       "details": [
         {
-          "min_level": 17,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 17
         }
       ]
     },
@@ -46,8 +48,18 @@
       "to": "Samurott",
       "details": [
         {
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 36,
-          "trigger": "Level Up"
+          "region": "Hisui",
+          "evolved_form": "Samurott Hisui"
         }
       ]
     }

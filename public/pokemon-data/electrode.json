@@ -36,8 +36,18 @@
       "to": "Electrode",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "item": "Leaf Stone",
+          "trigger": "Use Item",
+          "base_form": "Voltorb Hisui",
+          "evolved_form": "Electrode Hisui"
         }
       ]
     }
@@ -3494,11 +3504,18 @@
         "maxLevel": 64
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 34,
         "maxLevel": 34
+      },
+      {
+        "location": "Cinnabar Island Cinnabar Lab",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 100
       }
     ],
     "Leafgreen": [
@@ -3524,11 +3541,18 @@
         "maxLevel": 64
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 34,
         "maxLevel": 34
+      },
+      {
+        "location": "Cinnabar Island Cinnabar Lab",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 100
       }
     ],
     "Heartgold": [
@@ -3555,7 +3579,7 @@
       },
       {
         "location": "Team Rocket Hq Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 23,
         "maxLevel": 23
@@ -3582,6 +3606,13 @@
         "chance": 5,
         "minLevel": 46,
         "maxLevel": 46
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 23,
+        "maxLevel": 23
       }
     ],
     "Red": [
@@ -3600,11 +3631,18 @@
         "maxLevel": 55
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 43,
         "maxLevel": 43
+      },
+      {
+        "location": "Cinnabar Island Cinnabar Lab",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 100
       }
     ],
     "Blue": [
@@ -3623,11 +3661,18 @@
         "maxLevel": 55
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 43,
         "maxLevel": 43
+      },
+      {
+        "location": "Cinnabar Island Cinnabar Lab",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 100
       }
     ],
     "Red Japan": [
@@ -3646,8 +3691,8 @@
         "maxLevel": 55
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 43,
         "maxLevel": 43
@@ -3669,8 +3714,8 @@
         "maxLevel": 55
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 43,
         "maxLevel": 43
@@ -3678,11 +3723,43 @@
     ],
     "Yellow": [
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 43,
         "maxLevel": 43
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
       }
     ],
     "Ruby": [
@@ -3695,21 +3772,14 @@
       },
       {
         "location": "New Mauville Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 30,
         "maxLevel": 30
       },
       {
         "location": "Team Magma Hideout Area",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 30,
-        "maxLevel": 30
-      },
-      {
-        "location": "Liberty Garden Lighthouse Basement",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 30,
         "maxLevel": 30
@@ -3725,14 +3795,14 @@
       },
       {
         "location": "Team Aqua Hideout Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 30,
         "maxLevel": 30
       },
       {
         "location": "Team Magma Hideout Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 30,
         "maxLevel": 30
@@ -3748,21 +3818,21 @@
       },
       {
         "location": "New Mauville Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 30,
         "maxLevel": 30
       },
       {
         "location": "Team Aqua Hideout Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 30,
         "maxLevel": 30
       },
       {
         "location": "Team Magma Hideout Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 30,
         "maxLevel": 30
@@ -3771,7 +3841,7 @@
     "Sun": [
       {
         "location": "New Mauville Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 30,
         "maxLevel": 30
@@ -3791,6 +3861,13 @@
         "chance": 10,
         "minLevel": 38,
         "maxLevel": 38
+      },
+      {
+        "location": "Friend Safari Electric",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -3807,12 +3884,19 @@
         "chance": 10,
         "minLevel": 38,
         "maxLevel": 38
+      },
+      {
+        "location": "Friend Safari Electric",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Gold": [
       {
         "location": "Team Rocket Hq Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 23,
         "maxLevel": 23
@@ -3821,7 +3905,7 @@
     "Silver": [
       {
         "location": "Team Rocket Hq Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 23,
         "maxLevel": 23
@@ -3830,16 +3914,7 @@
     "Crystal": [
       {
         "location": "Team Rocket Hq Area",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 23,
-        "maxLevel": 23
-      }
-    ],
-    "Platinum": [
-      {
-        "location": "Team Rocket Hq Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 23,
         "maxLevel": 23
@@ -3848,7 +3923,7 @@
     "Ultra Sun": [
       {
         "location": "Team Rockets Castle Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 60,
         "maxLevel": 60
@@ -3857,7 +3932,7 @@
     "Ultra Moon": [
       {
         "location": "Team Rockets Castle Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 60,
         "maxLevel": 60
@@ -3866,7 +3941,7 @@
     "Alpha Sapphire": [
       {
         "location": "Team Aqua Hideout Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
@@ -3875,7 +3950,7 @@
     "Omega Ruby": [
       {
         "location": "Team Magma Hideout Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40

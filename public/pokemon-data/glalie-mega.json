@@ -34,8 +34,10 @@
       "to": "Glalie",
       "details": [
         {
-          "min_level": 42,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 42
         }
       ]
     },
@@ -44,9 +46,11 @@
       "to": "Froslass",
       "details": [
         {
-          "gender": 1,
+          "version_group": "Diamond Pearl",
+          "is_default": true,
           "item": "Dawn Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "gender": 1
         }
       ]
     },

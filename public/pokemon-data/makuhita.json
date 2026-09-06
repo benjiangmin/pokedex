@@ -36,8 +36,10 @@
       "to": "Hariyama",
       "details": [
         {
-          "min_level": 24,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 24
         }
       ]
     }
@@ -4855,6 +4857,13 @@
         "chance": 10,
         "minLevel": 36,
         "maxLevel": 36
+      },
+      {
+        "location": "Rustboro City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
       }
     ],
     "Sapphire": [
@@ -4948,6 +4957,13 @@
         "chance": 10,
         "minLevel": 36,
         "maxLevel": 36
+      },
+      {
+        "location": "Rustboro City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
       }
     ],
     "Emerald": [
@@ -5043,6 +5059,24 @@
         "maxLevel": 36
       }
     ],
+    "Omega Ruby": [
+      {
+        "location": "Granite Cave 1f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 6,
+        "maxLevel": 6
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Granite Cave 1f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 6,
+        "maxLevel": 6
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 2 North",
@@ -5133,6 +5167,24 @@
         "chance": 30,
         "minLevel": 7,
         "maxLevel": 10
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Phenac City Mayors House",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Onbs 2f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
       }
     ]
   }

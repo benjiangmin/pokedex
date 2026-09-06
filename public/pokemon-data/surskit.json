@@ -36,8 +36,10 @@
       "to": "Masquerain",
       "details": [
         {
-          "min_level": 22,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 22
         }
       ]
     }
@@ -3027,6 +3029,52 @@
         "maxLevel": 25
       }
     ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Johto Safari Zone Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Johto Safari Zone Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
     "Sun": [
       {
         "location": "Brooklet Hill North",
@@ -3145,6 +3193,15 @@
         "chance": 40,
         "minLevel": 14,
         "maxLevel": 17
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Pokespot Oasis",
+        "method": "Pokespot",
+        "chance": 15,
+        "minLevel": 10,
+        "maxLevel": 20
       }
     ]
   }

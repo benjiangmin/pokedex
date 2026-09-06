@@ -37,8 +37,10 @@
       "to": "Seadra",
       "details": [
         {
-          "min_level": 32,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 32
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Kingdra",
       "details": [
         {
-          "held_item": "Dragon Scale",
-          "trigger": "Trade"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Trade",
+          "held_item": "Dragon Scale"
         }
       ]
     }
@@ -3469,6 +3473,66 @@
         "chance": 4,
         "minLevel": 60,
         "maxLevel": 70
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

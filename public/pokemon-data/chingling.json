@@ -34,9 +34,11 @@
       "to": "Chimecho",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 220,
-          "time_of_day": "night",
-          "trigger": "Level Up"
+          "time_of_day": "night"
         }
       ]
     }
@@ -3943,6 +3945,13 @@
         "chance": 10,
         "minLevel": 45,
         "maxLevel": 45
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
       }
     ],
     "Soulsilver": [
@@ -4323,6 +4332,13 @@
         "chance": 10,
         "minLevel": 45,
         "maxLevel": 45
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
       }
     ],
     "X": [

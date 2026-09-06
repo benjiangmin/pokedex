@@ -36,6 +36,8 @@
       "to": "Delcatty",
       "details": [
         {
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
           "item": "Moon Stone",
           "trigger": "Use Item"
         }
@@ -3843,6 +3845,13 @@
         "chance": 1,
         "minLevel": 8,
         "maxLevel": 8
+      },
+      {
+        "location": "Fortree City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
       }
     ],
     "Sapphire": [
@@ -3859,6 +3868,13 @@
         "chance": 1,
         "minLevel": 8,
         "maxLevel": 8
+      },
+      {
+        "location": "Fortree City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
       }
     ],
     "Emerald": [
@@ -3875,6 +3891,24 @@
         "chance": 1,
         "minLevel": 8,
         "maxLevel": 8
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Hoenn Route 116 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 4,
+        "maxLevel": 4
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Hoenn Route 116 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 4,
+        "maxLevel": 4
       }
     ],
     "White 2": [

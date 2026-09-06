@@ -35,8 +35,10 @@
       "to": "Doublade",
       "details": [
         {
-          "min_level": 35,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 35
         }
       ]
     },
@@ -45,6 +47,8 @@
       "to": "Aegislash",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
           "item": "Dusk Stone",
           "trigger": "Use Item"
         }

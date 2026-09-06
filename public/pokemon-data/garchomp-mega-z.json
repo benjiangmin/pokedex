@@ -25,15 +25,19 @@
   "color": "blue",
   "weight": 99,
   "height": 1.9,
-  "abilities": [],
+  "abilities": [
+    "Levitate"
+  ],
   "evolutionChain": [
     {
       "from": "Gible",
       "to": "Gabite",
       "details": [
         {
-          "min_level": 24,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 24
         }
       ]
     },
@@ -42,8 +46,10 @@
       "to": "Garchomp",
       "details": [
         {
-          "min_level": 48,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 48
         }
       ]
     },
@@ -59,11 +65,11 @@
   ],
   "generation": "generation-iv",
   "sprites": {
-    "static": null,
-    "shiny": null,
-    "animated": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10309.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10309.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10309.png",
     "background": null,
-    "backup_background": null
+    "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10309.png"
   },
   "description": "Soars across the heavens at blinding speed—a magnificent sight! It has a feral disposition. Utmost caution is required if one meets a Garchomp out in the wilds.",
   "isLegendary": false,

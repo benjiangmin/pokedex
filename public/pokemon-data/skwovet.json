@@ -35,8 +35,10 @@
       "to": "Greedent",
       "details": [
         {
-          "min_level": 24,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 24
         }
       ]
     }
@@ -490,5 +492,928 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Galar Route 1 Area",
+        "method": "Overworld",
+        "chance": 50,
+        "minLevel": 3,
+        "maxLevel": 6
+      },
+      {
+        "location": "Galar Route 1 Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 2,
+        "maxLevel": 5
+      },
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Overworld",
+        "chance": 38,
+        "minLevel": 5,
+        "maxLevel": 7
+      },
+      {
+        "location": "Galar Route 3 East",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 8,
+        "maxLevel": 13
+      },
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Galar Route 5 Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 16,
+        "maxLevel": 18
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 11,
+        "maxLevel": 15
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Berry Trees",
+        "chance": 35,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Berry Trees",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Berry Trees",
+        "chance": 50,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Berry Trees",
+        "chance": 50,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Walk",
+        "chance": 50,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Berry Trees",
+        "chance": 50,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Berry Trees",
+        "chance": 50,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Pokemon Center",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 1 Area",
+        "method": "Overworld",
+        "chance": 50,
+        "minLevel": 3,
+        "maxLevel": 6
+      },
+      {
+        "location": "Galar Route 1 Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 2,
+        "maxLevel": 5
+      },
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Overworld",
+        "chance": 38,
+        "minLevel": 5,
+        "maxLevel": 7
+      },
+      {
+        "location": "Galar Route 3 East",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 8,
+        "maxLevel": 13
+      },
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Galar Route 5 Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 16,
+        "maxLevel": 18
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 11,
+        "maxLevel": 15
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Berry Trees",
+        "chance": 35,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Berry Trees",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Berry Trees",
+        "chance": 50,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Berry Trees",
+        "chance": 50,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Overworld",
+        "chance": 40,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Walk",
+        "chance": 50,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Berry Trees",
+        "chance": 50,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Berry Trees",
+        "chance": 50,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Pokemon Center",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Walk",
+        "chance": 19,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Slippery Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Foot Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Foot Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Walk",
+        "chance": 19,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Berry Trees",
+        "chance": 80,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Slippery Slope Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den E",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Foot Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Foot Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 19,
+        "maxLevel": 24
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 19,
+        "maxLevel": 24
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Berry Trees",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Area 2",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Berry Trees",
+        "chance": 70,
+        "minLevel": 60,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

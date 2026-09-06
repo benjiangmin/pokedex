@@ -36,8 +36,10 @@
       "to": "Ambipom",
       "details": [
         {
-          "known_move": "Double Hit",
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Double Hit"
         }
       ]
     }
@@ -3537,6 +3539,24 @@
         "chance": 15,
         "minLevel": 54,
         "maxLevel": 57
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Accumula Town Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Accumula Town Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
       }
     ]
   }

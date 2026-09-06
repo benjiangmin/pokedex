@@ -35,8 +35,10 @@
       "to": "Haunter",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     },
@@ -45,6 +47,8 @@
       "to": "Gengar",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "trigger": "Trade"
         }
       ]
@@ -4682,6 +4686,13 @@
         "chance": 4,
         "minLevel": 16,
         "maxLevel": 16
+      },
+      {
+        "location": "Snowpoint City North West House",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 100
       }
     ],
     "Pearl": [
@@ -4894,6 +4905,13 @@
         "chance": 4,
         "minLevel": 16,
         "maxLevel": 16
+      },
+      {
+        "location": "Snowpoint City North West House",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 100
       }
     ],
     "Platinum": [
@@ -5001,6 +5019,13 @@
         "chance": 10,
         "minLevel": 47,
         "maxLevel": 47
+      },
+      {
+        "location": "Snowpoint City North West House",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 100
       }
     ],
     "Crystal": [
@@ -5053,14 +5078,14 @@
         "maxLevel": 19
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -5076,14 +5101,14 @@
         "maxLevel": 19
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -6136,6 +6161,66 @@
         "maxLevel": 52
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      }
+    ],
     "Red Japan": [
       {
         "location": "Pokemon Tower 3f",
@@ -6534,6 +6619,420 @@
         "chance": 10,
         "minLevel": 58,
         "maxLevel": 58
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 8 Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 15,
+        "minLevel": 30,
+        "maxLevel": 35
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 31
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 34,
+        "maxLevel": 34
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 8 Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 15,
+        "minLevel": 30,
+        "maxLevel": 35
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Walk",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 31
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 34,
+        "maxLevel": 34
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      },
+      {
+        "location": "Slippery Slope Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Slippery Slope Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Old Cemetery Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Old Cemetery Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Foot Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Foot Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den P",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den P",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ],
     "Sun": [

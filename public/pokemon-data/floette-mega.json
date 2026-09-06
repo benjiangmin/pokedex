@@ -25,15 +25,19 @@
   "color": "white",
   "weight": 100.8,
   "height": 0.2,
-  "abilities": [],
+  "abilities": [
+    "Fairy Aura"
+  ],
   "evolutionChain": [
     {
       "from": "Flabebe",
       "to": "Floette",
       "details": [
         {
-          "min_level": 19,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 19
         }
       ]
     },
@@ -42,8 +46,11 @@
       "to": "Florges",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
           "item": "Shiny Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Floette"
         }
       ]
     },
@@ -59,9 +66,9 @@
   ],
   "generation": "generation-vi",
   "sprites": {
-    "static": null,
-    "shiny": null,
-    "animated": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10296.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10296.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10296.png",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10296.png"
   },

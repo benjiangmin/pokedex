@@ -36,8 +36,10 @@
       "to": "Weepinbell",
       "details": [
         {
-          "min_level": 21,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 21
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Victreebel",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Leaf Stone",
           "trigger": "Use Item"
         }
@@ -3003,5 +3007,15 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      }
+    ]
+  }
 }

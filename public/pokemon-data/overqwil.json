@@ -37,18 +37,25 @@
       "to": "Overqwil",
       "details": [
         {
-          "min_move_count": 20,
+          "version_group": "Legends Arceus",
           "trigger": "Strong Style Move",
-          "used_move": "Barb Barrage"
+          "base_form": "Qwilfish Hisui",
+          "used_move": "Barb Barrage",
+          "min_move_count": 20
         },
         {
+          "version_group": "Scarlet Violet",
+          "is_default": true,
+          "trigger": "Level Up",
           "known_move": "Barb Barrage",
-          "trigger": "Level Up"
+          "base_form": "Qwilfish Hisui"
         },
         {
-          "min_move_count": 20,
+          "version_group": "Legends Za",
           "trigger": "Use Move",
-          "used_move": "Barb Barrage"
+          "base_form": "Qwilfish Hisui",
+          "used_move": "Barb Barrage",
+          "min_move_count": 20
         }
       ]
     }

@@ -36,8 +36,18 @@
       "to": "Linoone",
       "details": [
         {
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 20
+        },
+        {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 20,
-          "trigger": "Level Up"
+          "base_form": "Zigzagoon Galar",
+          "evolved_form": "Linoone Galar"
         }
       ]
     },
@@ -46,9 +56,12 @@
       "to": "Obstagoon",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 35,
           "time_of_day": "night",
-          "trigger": "Level Up"
+          "base_form": "Linoone Galar"
         }
       ]
     }
@@ -3913,6 +3926,13 @@
         "chance": 10,
         "minLevel": 8,
         "maxLevel": 8
+      },
+      {
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
       }
     ],
     "Soulsilver": [
@@ -4090,6 +4110,13 @@
         "chance": 10,
         "minLevel": 8,
         "maxLevel": 8
+      },
+      {
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
       }
     ],
     "Ruby": [
@@ -4243,6 +4270,24 @@
         "chance": 10,
         "minLevel": 27,
         "maxLevel": 27
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
       }
     ]
   }

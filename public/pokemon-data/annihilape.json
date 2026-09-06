@@ -37,8 +37,10 @@
       "to": "Primeape",
       "details": [
         {
-          "min_level": 28,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 28
         }
       ]
     },
@@ -47,9 +49,11 @@
       "to": "Annihilape",
       "details": [
         {
-          "min_move_count": 20,
+          "version_group": "Scarlet Violet",
+          "is_default": true,
           "trigger": "Use Move",
-          "used_move": "Rage Fist"
+          "used_move": "Rage Fist",
+          "min_move_count": 20
         }
       ]
     }

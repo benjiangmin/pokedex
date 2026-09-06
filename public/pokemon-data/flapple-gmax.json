@@ -37,6 +37,8 @@
       "to": "Flapple",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Tart Apple",
           "trigger": "Use Item"
         }
@@ -47,6 +49,8 @@
       "to": "Appletun",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Sweet Apple",
           "trigger": "Use Item"
         }
@@ -55,12 +59,26 @@
     {
       "from": "Applin",
       "to": "Dipplin",
-      "details": []
+      "details": [
+        {
+          "version_group": "The Teal Mask",
+          "is_default": true,
+          "item": "Syrupy Apple",
+          "trigger": "Use Item"
+        }
+      ]
     },
     {
       "from": "Dipplin",
       "to": "Hydrapple",
-      "details": []
+      "details": [
+        {
+          "version_group": "The Indigo Disk",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Dragon Cheer"
+        }
+      ]
     },
     {
       "from": "Flapple",
@@ -91,5 +109,40 @@
     "violet"
   ],
   "moves": {},
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Galar Wild Area Max Dens Area",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Max Den E",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Wild Area Max Dens Area",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 60,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

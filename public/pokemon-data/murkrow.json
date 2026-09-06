@@ -37,6 +37,8 @@
       "to": "Honchkrow",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
           "item": "Dusk Stone",
           "trigger": "Use Item"
         }
@@ -4243,25 +4245,39 @@
         "maxLevel": 29
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
       }
     ],
     "Soulsilver": [
@@ -4280,25 +4296,39 @@
         "maxLevel": 29
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
       }
     ],
     "Firered": [
@@ -4410,6 +4440,38 @@
         "maxLevel": 58
       }
     ],
+    "X": [
+      {
+        "location": "Kalos Route 15 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kalos Route 16 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 18,
+        "maxLevel": 18
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 15 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kalos Route 16 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 18,
+        "maxLevel": 18
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Hauoli Cemetery Area",
@@ -4486,6 +4548,33 @@
         "chance": 2,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Shadow Pokemon Lab Bf1",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 43,
+        "maxLevel": 43
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Inner Area",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Inner Area",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

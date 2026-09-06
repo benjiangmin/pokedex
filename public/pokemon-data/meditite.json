@@ -36,8 +36,10 @@
       "to": "Medicham",
       "details": [
         {
-          "min_level": 37,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
         }
       ]
     }
@@ -4787,6 +4789,20 @@
         "chance": 10,
         "minLevel": 22,
         "maxLevel": 22
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 43,
+        "maxLevel": 43
       }
     ],
     "Soulsilver": [
@@ -4880,6 +4896,20 @@
         "chance": 10,
         "minLevel": 22,
         "maxLevel": 22
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 43,
+        "maxLevel": 43
       }
     ],
     "Ruby": [
@@ -4928,6 +4958,38 @@
         "maxLevel": 38
       }
     ],
+    "Omega Ruby": [
+      {
+        "location": "Mt Pyre Outside",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Mt Pyre Summit",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mt Pyre Outside",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Mt Pyre Summit",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
     "X": [
       {
         "location": "Connecting Cave Area",
@@ -4949,6 +5011,13 @@
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -4972,6 +5041,31 @@
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Pyrite Cave Bf1",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 33
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Pyrite Town Dukings House",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
       }
     ]
   }

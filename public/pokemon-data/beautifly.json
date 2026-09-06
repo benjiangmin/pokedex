@@ -36,8 +36,10 @@
       "to": "Silcoon",
       "details": [
         {
-          "min_level": 7,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 7
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Beautifly",
       "details": [
         {
-          "min_level": 10,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 10
         }
       ]
     },
@@ -56,8 +60,10 @@
       "to": "Cascoon",
       "details": [
         {
-          "min_level": 7,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 7
         }
       ]
     },
@@ -66,8 +72,10 @@
       "to": "Dustox",
       "details": [
         {
-          "min_level": 10,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 10
         }
       ]
     }
@@ -2677,6 +2685,42 @@
         "chance": 4,
         "minLevel": 23,
         "maxLevel": 23
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 32
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 25,
+        "maxLevel": 32
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Bug",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Bug",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

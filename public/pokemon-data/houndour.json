@@ -37,8 +37,10 @@
       "to": "Houndoom",
       "details": [
         {
-          "min_level": 24,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 24
         }
       ]
     }
@@ -4209,6 +4211,13 @@
         "chance": 4,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Johto Safari Zone Savannah",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
       }
     ],
     "Soulsilver": [
@@ -4218,6 +4227,13 @@
         "chance": 4,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Johto Safari Zone Savannah",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
       }
     ],
     "Emerald": [
@@ -4234,48 +4250,6 @@
         "chance": 1,
         "minLevel": 39,
         "maxLevel": 39
-      },
-      {
-        "location": "Hoenn Altering Cave D",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 16,
-        "maxLevel": 16
-      },
-      {
-        "location": "Hoenn Altering Cave D",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 18,
-        "maxLevel": 18
-      },
-      {
-        "location": "Hoenn Altering Cave D",
-        "method": "Walk",
-        "chance": 10,
-        "minLevel": 14,
-        "maxLevel": 14
-      },
-      {
-        "location": "Hoenn Altering Cave D",
-        "method": "Walk",
-        "chance": 10,
-        "minLevel": 20,
-        "maxLevel": 20
-      },
-      {
-        "location": "Hoenn Altering Cave D",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 22,
-        "maxLevel": 22
-      },
-      {
-        "location": "Hoenn Altering Cave D",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 12,
-        "maxLevel": 12
       }
     ],
     "Firered": [
@@ -4387,6 +4361,13 @@
         "chance": 10,
         "minLevel": 20,
         "maxLevel": 20
+      },
+      {
+        "location": "Kalos Route 10 Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 11,
+        "maxLevel": 11
       }
     ],
     "Ultra Sun": [
@@ -4403,6 +4384,15 @@
         "chance": 2,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Lab Outside",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 17
       }
     ]
   }

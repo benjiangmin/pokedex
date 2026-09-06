@@ -36,13 +36,19 @@
       "to": "Raticate",
       "details": [
         {
-          "min_level": 20,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 20
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 20,
           "time_of_day": "night",
-          "trigger": "Level Up"
+          "base_form": "Rattata Alola",
+          "evolved_form": "Raticate Alola"
         }
       ]
     }
@@ -4382,42 +4388,49 @@
         "maxLevel": 22
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4545,46 +4558,239 @@
         "maxLevel": 22
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 7 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 27
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 27
+      },
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Pokemon Mansion 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 7 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 27
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 27
+      },
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Sea Route 21 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Pokemon Mansion 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ],
     "Yellow": [
@@ -5358,6 +5564,15 @@
         "chance": 100,
         "minLevel": 20,
         "maxLevel": 20
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle 1f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 34,
+        "maxLevel": 34
       }
     ]
   }

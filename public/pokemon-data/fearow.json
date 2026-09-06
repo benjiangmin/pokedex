@@ -36,8 +36,10 @@
       "to": "Fearow",
       "details": [
         {
-          "min_level": 20,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 20
         }
       ]
     }
@@ -3260,42 +3262,63 @@
         "maxLevel": 7
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Johto Safari Zone Desert",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Desert",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Wasteland",
+        "location": "Johto Safari Zone Wasteland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Wasteland",
+        "location": "Johto Safari Zone Wasteland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Wasteland",
+        "location": "Johto Safari Zone Wasteland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -3381,46 +3404,197 @@
         "maxLevel": 7
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Johto Safari Zone Desert",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Desert",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Wasteland",
+        "location": "Johto Safari Zone Wasteland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Wasteland",
+        "location": "Johto Safari Zone Wasteland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Wasteland",
+        "location": "Johto Safari Zone Wasteland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 3 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 4 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 22 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 3 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 4 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 22
+      },
+      {
+        "location": "Kanto Route 9 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 22 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 41,
+        "maxLevel": 46
+      },
+      {
+        "location": "Kanto Route 23 Area",
+        "method": "Overworld Flying",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 56
       }
     ],
     "Yellow": [
@@ -4194,6 +4368,24 @@
         "maxLevel": 60
       }
     ],
+    "X": [
+      {
+        "location": "Kalos Victory Road Outside",
+        "method": "Sky Ambush",
+        "chance": 77,
+        "minLevel": 57,
+        "maxLevel": 59
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Victory Road Outside",
+        "method": "Sky Ambush",
+        "chance": 77,
+        "minLevel": 57,
+        "maxLevel": 59
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 10 Area",
@@ -4327,7 +4519,7 @@
       },
       {
         "location": "Alola Route 17 West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 33,
         "maxLevel": 36

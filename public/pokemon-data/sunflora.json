@@ -36,6 +36,8 @@
       "to": "Sunflora",
       "details": [
         {
+          "version_group": "Gold Silver",
+          "is_default": true,
           "item": "Sun Stone",
           "trigger": "Use Item"
         }
@@ -3045,6 +3047,22 @@
         "chance": 4,
         "minLevel": 50,
         "maxLevel": 50
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Snagem Hideout 1f",
+        "method": "Snag Rematch",
+        "chance": 100,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Realgam Tower Area",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 45,
+        "maxLevel": 45
       }
     ]
   }

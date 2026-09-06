@@ -37,8 +37,10 @@
       "to": "Dodrio",
       "details": [
         {
-          "min_level": 31,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 31
         }
       ]
     }
@@ -3427,25 +3429,32 @@
         "maxLevel": 4
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
       }
     ],
     "Soulsilver": [
@@ -3499,25 +3508,32 @@
         "maxLevel": 4
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
       }
     ],
     "Red": [
@@ -3901,6 +3917,52 @@
         "maxLevel": 26
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 31,
+        "maxLevel": 36
+      },
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      }
+    ],
     "Red Japan": [
       {
         "location": "Kanto Route 16 Area",
@@ -4149,6 +4211,66 @@
         "maxLevel": 25
       }
     ],
+    "Omega Ruby": [
+      {
+        "location": "Hoenn Safari Zone Nwmach Bike Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Hoenn Safari Zone Neacro Bike Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Hoenn Safari Zone Sw",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Hoenn Safari Zone Se",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Hoenn Safari Zone Nwmach Bike Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Hoenn Safari Zone Neacro Bike Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Hoenn Safari Zone Sw",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Hoenn Safari Zone Se",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
     "X": [
       {
         "location": "Kalos Route 5 Area",
@@ -4163,6 +4285,13 @@
         "chance": 10,
         "minLevel": 10,
         "maxLevel": 10
+      },
+      {
+        "location": "Friend Safari Flying",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -4179,6 +4308,13 @@
         "chance": 10,
         "minLevel": 10,
         "maxLevel": 10
+      },
+      {
+        "location": "Friend Safari Flying",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

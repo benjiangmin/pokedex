@@ -37,8 +37,10 @@
       "to": "Parasect",
       "details": [
         {
-          "min_level": 24,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 24
         }
       ]
     }
@@ -3433,6 +3435,36 @@
         "maxLevel": 48
       }
     ],
+    "Yellow": [
+      {
+        "location": "Kanto Route 18 Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 100
+      },
+      {
+        "location": "Cerulean Cave 1f",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 54,
+        "maxLevel": 54
+      },
+      {
+        "location": "Kanto Safari Zone Middle",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Kanto Safari Zone Middle",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 32,
+        "maxLevel": 32
+      }
+    ],
     "Red": [
       {
         "location": "Cerulean Cave 1f",
@@ -3491,29 +3523,6 @@
         "chance": 5,
         "minLevel": 25,
         "maxLevel": 25
-      }
-    ],
-    "Yellow": [
-      {
-        "location": "Cerulean Cave 1f",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 54,
-        "maxLevel": 54
-      },
-      {
-        "location": "Kanto Safari Zone Middle",
-        "method": "Walk",
-        "chance": 10,
-        "minLevel": 27,
-        "maxLevel": 27
-      },
-      {
-        "location": "Kanto Safari Zone Middle",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 32,
-        "maxLevel": 32
       }
     ],
     "Firered": [
@@ -3660,6 +3669,13 @@
         "chance": 4,
         "minLevel": 47,
         "maxLevel": 47
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
       }
     ],
     "Soulsilver": [
@@ -3690,6 +3706,13 @@
         "chance": 4,
         "minLevel": 47,
         "maxLevel": 47
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
       }
     ],
     "Red Japan": [

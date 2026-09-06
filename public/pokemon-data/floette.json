@@ -35,8 +35,10 @@
       "to": "Floette",
       "details": [
         {
-          "min_level": 19,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 19
         }
       ]
     },
@@ -45,8 +47,11 @@
       "to": "Florges",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
           "item": "Shiny Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Floette"
         }
       ]
     },
@@ -1298,6 +1303,24 @@
         "chance": 20,
         "minLevel": 33,
         "maxLevel": 36
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Fairy",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Fairy",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

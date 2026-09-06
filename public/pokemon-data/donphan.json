@@ -35,8 +35,10 @@
       "to": "Donphan",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     }
@@ -3610,6 +3612,66 @@
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 33
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Mountain North Of Lilycove",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain West Of Route 104",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain South Of Route 131",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain North East Of Route 125",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Mountain North Of Lilycove",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain West Of Route 104",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain South Of Route 131",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain North East Of Route 125",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

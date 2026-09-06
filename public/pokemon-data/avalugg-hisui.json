@@ -37,8 +37,18 @@
       "to": "Avalugg",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 37,
-          "trigger": "Level Up"
+          "region": "Hisui",
+          "evolved_form": "Avalugg Hisui"
         }
       ]
     }

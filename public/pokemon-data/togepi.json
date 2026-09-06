@@ -36,8 +36,10 @@
       "to": "Togetic",
       "details": [
         {
-          "min_happiness": 160,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 160
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Togekiss",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
           "item": "Shiny Stone",
           "trigger": "Use Item"
         }
@@ -4392,6 +4396,158 @@
         "chance": 100,
         "minLevel": 1,
         "maxLevel": 1
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
+      },
+      {
+        "location": "Rolling Fields Max Den I",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
+      },
+      {
+        "location": "Rolling Fields Max Den I",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Phenac City Card E Room",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Outskirt Stand Inside",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Fairy",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Fairy",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

@@ -35,8 +35,10 @@
       "to": "Archeops",
       "details": [
         {
-          "min_level": 37,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
         }
       ]
     }
@@ -2357,6 +2359,38 @@
     ]
   },
   "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Giants Foot Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Giants Foot Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Giants Foot Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 8 Fossil Restoration Center",
@@ -2391,6 +2425,42 @@
         "chance": 100,
         "minLevel": 15,
         "maxLevel": 15
+      }
+    ],
+    "Black": [
+      {
+        "location": "Nacrene City Nacrene Museum",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
+      }
+    ],
+    "White": [
+      {
+        "location": "Nacrene City Nacrene Museum",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Nacrene City Nacrene Museum",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Nacrene City Nacrene Museum",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
       }
     ]
   }

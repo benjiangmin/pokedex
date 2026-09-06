@@ -36,8 +36,18 @@
       "to": "Dugtrio",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 26
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 26,
-          "trigger": "Level Up"
+          "base_form": "Diglett Alola",
+          "evolved_form": "Dugtrio Alola"
         }
       ]
     }
@@ -3996,6 +4006,13 @@
         "chance": 5,
         "minLevel": 13,
         "maxLevel": 13
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 43,
+        "maxLevel": 43
       }
     ],
     "Soulsilver": [
@@ -4040,6 +4057,13 @@
         "chance": 5,
         "minLevel": 13,
         "maxLevel": 13
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 43,
+        "maxLevel": 43
       }
     ],
     "Red": [
@@ -4288,13 +4312,6 @@
         "location": "Digletts Cave Area",
         "method": "Walk",
         "chance": 30,
-        "minLevel": 4,
-        "maxLevel": 4
-      },
-      {
-        "location": "Digletts Cave Area",
-        "method": "Walk",
-        "chance": 30,
         "minLevel": 3,
         "maxLevel": 3
       },
@@ -4302,8 +4319,8 @@
         "location": "Digletts Cave Area",
         "method": "Walk",
         "chance": 30,
-        "minLevel": 8,
-        "maxLevel": 8
+        "minLevel": 4,
+        "maxLevel": 4
       },
       {
         "location": "Digletts Cave Area",
@@ -4311,6 +4328,13 @@
         "chance": 30,
         "minLevel": 6,
         "maxLevel": 6
+      },
+      {
+        "location": "Digletts Cave Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 8,
+        "maxLevel": 8
       },
       {
         "location": "Digletts Cave Area",
@@ -4330,15 +4354,15 @@
         "location": "Digletts Cave Area",
         "method": "Walk",
         "chance": 10,
-        "minLevel": 32,
-        "maxLevel": 32
+        "minLevel": 24,
+        "maxLevel": 24
       },
       {
         "location": "Digletts Cave Area",
         "method": "Walk",
         "chance": 10,
-        "minLevel": 24,
-        "maxLevel": 24
+        "minLevel": 32,
+        "maxLevel": 32
       }
     ],
     "Firered": [
@@ -4457,6 +4481,24 @@
         "maxLevel": 22
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Digletts Cave Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Digletts Cave Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      }
+    ],
     "Red Japan": [
       {
         "location": "Digletts Cave Area",
@@ -4571,6 +4613,122 @@
         "chance": 5,
         "minLevel": 22,
         "maxLevel": 22
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Galar Mine Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld Dirt",
+        "chance": 80,
+        "minLevel": 8,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld Dirt",
+        "chance": 80,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Galar Mine Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld Dirt",
+        "chance": 80,
+        "minLevel": 8,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld Dirt",
+        "chance": 80,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
       }
     ]
   }

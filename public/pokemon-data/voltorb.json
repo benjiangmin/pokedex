@@ -36,8 +36,18 @@
       "to": "Electrode",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "item": "Leaf Stone",
+          "trigger": "Use Item",
+          "base_form": "Voltorb Hisui",
+          "evolved_form": "Electrode Hisui"
         }
       ]
     }
@@ -3168,10 +3178,132 @@
         "chance": 20,
         "minLevel": 29,
         "maxLevel": 29
+      }
+    ],
+    "Gold": [
+      {
+        "location": "Olivine City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 17,
+        "maxLevel": 17
       },
       {
         "location": "Team Rocket Hq Area",
-        "method": "Only One",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 23,
+        "maxLevel": 23
+      }
+    ],
+    "Silver": [
+      {
+        "location": "Olivine City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 23,
+        "maxLevel": 23
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Olivine City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 23,
+        "maxLevel": 23
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Olivine City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 1,
+        "maxLevel": 100
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 23,
+        "maxLevel": 23
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Olivine City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 1,
+        "maxLevel": 100
+      },
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Team Rocket Hq Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 23,
         "maxLevel": 23
@@ -3200,22 +3332,22 @@
         "maxLevel": 17
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 20,
         "minLevel": 21,
         "maxLevel": 21
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 23,
         "maxLevel": 23
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
@@ -3244,73 +3376,25 @@
         "maxLevel": 17
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 20,
         "minLevel": 21,
         "maxLevel": 21
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 23,
         "maxLevel": 23
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
-      }
-    ],
-    "Gold": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 30,
-        "minLevel": 17,
-        "maxLevel": 17
-      },
-      {
-        "location": "Team Rocket Hq Area",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 23,
-        "maxLevel": 23
-      }
-    ],
-    "Silver": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 30,
-        "minLevel": 17,
-        "maxLevel": 17
-      },
-      {
-        "location": "Team Rocket Hq Area",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 23,
-        "maxLevel": 23
-      }
-    ],
-    "Crystal": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 30,
-        "minLevel": 17,
-        "maxLevel": 17
-      },
-      {
-        "location": "Team Rocket Hq Area",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 23,
-        "maxLevel": 23
       }
     ],
     "Firered": [
@@ -3336,14 +3420,14 @@
         "maxLevel": 17
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 20,
         "minLevel": 22,
         "maxLevel": 22
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 25,
@@ -3373,43 +3457,18 @@
         "maxLevel": 17
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 20,
         "minLevel": 22,
         "maxLevel": 22
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 25,
         "maxLevel": 25
-      }
-    ],
-    "Heartgold": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 17,
-        "maxLevel": 17
-      },
-      {
-        "location": "Team Rocket Hq Area",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 23,
-        "maxLevel": 23
-      }
-    ],
-    "Soulsilver": [
-      {
-        "location": "Kanto Route 10 Area",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 17,
-        "maxLevel": 17
       }
     ],
     "Red Japan": [
@@ -3435,22 +3494,22 @@
         "maxLevel": 17
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 20,
         "minLevel": 21,
         "maxLevel": 21
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 23,
         "maxLevel": 23
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
@@ -3479,22 +3538,22 @@
         "maxLevel": 17
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 20,
         "minLevel": 21,
         "maxLevel": 21
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 23,
         "maxLevel": 23
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
@@ -3502,25 +3561,43 @@
     ],
     "Yellow": [
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 33
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 37,
         "maxLevel": 37
       },
       {
-        "location": "Power Plant Area",
-        "method": "Only One",
+        "location": "Kanto Power Plant Area",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
       }
     ],
     "Ruby": [
@@ -3596,7 +3673,7 @@
       },
       {
         "location": "New Mauville Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 25,
         "maxLevel": 25
@@ -3675,7 +3752,7 @@
       },
       {
         "location": "New Mauville Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 25,
         "maxLevel": 25
@@ -3754,7 +3831,7 @@
       },
       {
         "location": "New Mauville Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 25,
         "maxLevel": 25
@@ -3763,28 +3840,51 @@
     "Omega Ruby": [
       {
         "location": "New Mauville Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Horde",
+        "chance": 65,
+        "minLevel": 12,
+        "maxLevel": 12
       }
     ],
     "Alpha Sapphire": [
       {
         "location": "New Mauville Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "New Mauville Area",
+        "method": "Horde",
+        "chance": 65,
+        "minLevel": 12,
+        "maxLevel": 12
       }
     ],
     "Sun": [
       {
         "location": "New Mauville Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 25,
         "maxLevel": 25
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Pokespot Cave",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 19,
+        "maxLevel": 19
       }
     ]
   }

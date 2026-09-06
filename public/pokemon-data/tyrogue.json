@@ -36,9 +36,11 @@
       "to": "Hitmonlee",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 20,
-          "relative_physical_stats": 1,
-          "trigger": "Level Up"
+          "relative_physical_stats": 1
         }
       ]
     },
@@ -47,9 +49,11 @@
       "to": "Hitmonchan",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 20,
-          "relative_physical_stats": -1,
-          "trigger": "Level Up"
+          "relative_physical_stats": -1
         }
       ]
     },
@@ -58,8 +62,10 @@
       "to": "Hitmontop",
       "details": [
         {
-          "min_level": 20,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 20
         }
       ]
     }
@@ -3000,6 +3006,550 @@
         "chance": 100,
         "minLevel": 10,
         "maxLevel": 10
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 3 East",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 14
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "South Lake Miloch Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Area 3",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Area 3",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 11
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "North Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "North Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dusty Bowl Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 3 East",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 10,
+        "maxLevel": 14
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 13,
+        "maxLevel": 15
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "South Lake Miloch Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Area 3",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Area 3",
+        "method": "Overworld",
+        "chance": 15,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 7,
+        "maxLevel": 11
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "North Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "North Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dusty Bowl Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frostpoint Field Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Snowslide Slope Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den J",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ]
   }

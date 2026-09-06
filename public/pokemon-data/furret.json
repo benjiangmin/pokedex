@@ -36,8 +36,10 @@
       "to": "Furret",
       "details": [
         {
-          "min_level": 15,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 15
         }
       ]
     }
@@ -4232,6 +4234,20 @@
         "chance": 4,
         "minLevel": 6,
         "maxLevel": 6
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
       }
     ],
     "Soulsilver": [
@@ -4241,6 +4257,29 @@
         "chance": 4,
         "minLevel": 6,
         "maxLevel": 6
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Wetland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Pyrite Town Entrance",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 33
       }
     ]
   }

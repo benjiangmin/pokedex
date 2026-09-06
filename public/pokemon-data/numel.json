@@ -37,8 +37,10 @@
       "to": "Camerupt",
       "details": [
         {
-          "min_level": 33,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 33
         }
       ]
     }
@@ -3840,6 +3842,38 @@
         "maxLevel": 16
       }
     ],
+    "Omega Ruby": [
+      {
+        "location": "Fiery Path Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 8,
+        "maxLevel": 8
+      },
+      {
+        "location": "Hoenn Route 112 Area",
+        "method": "Horde",
+        "chance": 65,
+        "minLevel": 8,
+        "maxLevel": 8
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Fiery Path Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 8,
+        "maxLevel": 8
+      },
+      {
+        "location": "Hoenn Route 112 Area",
+        "method": "Horde",
+        "chance": 65,
+        "minLevel": 8,
+        "maxLevel": 8
+      }
+    ],
     "White 2": [
       {
         "location": "Reversal Mountain Unknown Area 48",
@@ -3931,6 +3965,15 @@
         "chance": 20,
         "minLevel": 31,
         "maxLevel": 31
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Lab Bf1",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 14
       }
     ]
   }

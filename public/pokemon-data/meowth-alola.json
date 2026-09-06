@@ -36,12 +36,18 @@
       "to": "Persian",
       "details": [
         {
-          "min_level": 28,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 28
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
-          "trigger": "Level Up"
+          "base_form": "Meowth Alola",
+          "evolved_form": "Persian Alola"
         }
       ]
     },
@@ -50,8 +56,11 @@
       "to": "Perrserker",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 28,
-          "trigger": "Level Up"
+          "base_form": "Meowth Galar"
         }
       ]
     }
@@ -64,7 +73,7 @@
     "background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10107.svg",
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10107.png"
   },
-  "description": "It loves to collect shiny things. If it’s in a good mood, it might even let its Trainer have a look at its hoard of treasures.",
+  "description": "It washes its face regularly to keep the coin on its forehead spotless. It doesn’t get along with Galarian Meowth.",
   "isLegendary": false,
   "isMythical": false,
   "category": "Scratch Cat Pokémon",
@@ -1563,6 +1572,33 @@
     ]
   },
   "locations": {
+    "Lets Go Eevee": [
+      {
+        "location": "Cinnabar Island Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 1 Hauoli Outskirts",

@@ -36,8 +36,10 @@
       "to": "Dottler",
       "details": [
         {
-          "min_level": 10,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 10
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Orbeetle",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     }
@@ -97,5 +101,588 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Galar Route 1 Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 2,
+        "maxLevel": 5
+      },
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 4,
+        "maxLevel": 6
+      },
+      {
+        "location": "Giants Cap Area 2",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Area 2",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Area 3",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 29,
+        "maxLevel": 32
+      },
+      {
+        "location": "Giants Cap Area 3",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Galar Route 2 Lakeside",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 43
+      },
+      {
+        "location": "Galar Route 2 Lakeside",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 40
+      },
+      {
+        "location": "Galar Wild Area Max Dens Area",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Rolling Fields Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 1 Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 2,
+        "maxLevel": 5
+      },
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 4,
+        "maxLevel": 6
+      },
+      {
+        "location": "Giants Cap Area 2",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Area 2",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Area 3",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 29,
+        "maxLevel": 32
+      },
+      {
+        "location": "Giants Cap Area 3",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Overworld",
+        "chance": 20,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Galar Route 2 Lakeside",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 40,
+        "maxLevel": 43
+      },
+      {
+        "location": "Galar Route 2 Lakeside",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 40
+      },
+      {
+        "location": "Galar Wild Area Max Dens Area",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 17,
+        "maxLevel": 17
+      },
+      {
+        "location": "Rolling Fields Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den G",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 19,
+        "maxLevel": 24
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 19,
+        "maxLevel": 24
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 19,
+        "maxLevel": 24
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 19,
+        "maxLevel": 24
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ]
+  }
 }

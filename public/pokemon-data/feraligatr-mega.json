@@ -26,15 +26,19 @@
   "color": "blue",
   "weight": 108.8,
   "height": 2.3,
-  "abilities": [],
+  "abilities": [
+    "Dragonize"
+  ],
   "evolutionChain": [
     {
       "from": "Totodile",
       "to": "Croconaw",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     },
@@ -43,8 +47,10 @@
       "to": "Feraligatr",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -60,8 +66,8 @@
   ],
   "generation": "generation-ii",
   "sprites": {
-    "static": null,
-    "shiny": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10283.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10283.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10283.gif",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10283.png"

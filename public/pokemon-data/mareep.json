@@ -35,8 +35,10 @@
       "to": "Flaaffy",
       "details": [
         {
-          "min_level": 15,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 15
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Ampharos",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     }
@@ -3349,6 +3353,13 @@
         "chance": 100,
         "minLevel": 1,
         "maxLevel": 1
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 43,
+        "maxLevel": 43
       }
     ],
     "Soulsilver": [
@@ -3393,6 +3404,13 @@
         "chance": 100,
         "minLevel": 1,
         "maxLevel": 1
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 43,
+        "maxLevel": 43
       }
     ],
     "Emerald": [
@@ -3409,48 +3427,6 @@
         "chance": 10,
         "minLevel": 36,
         "maxLevel": 36
-      },
-      {
-        "location": "Hoenn Altering Cave B",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 7,
-        "maxLevel": 7
-      },
-      {
-        "location": "Hoenn Altering Cave B",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 9,
-        "maxLevel": 9
-      },
-      {
-        "location": "Hoenn Altering Cave B",
-        "method": "Walk",
-        "chance": 10,
-        "minLevel": 5,
-        "maxLevel": 5
-      },
-      {
-        "location": "Hoenn Altering Cave B",
-        "method": "Walk",
-        "chance": 10,
-        "minLevel": 11,
-        "maxLevel": 11
-      },
-      {
-        "location": "Hoenn Altering Cave B",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 13,
-        "maxLevel": 13
-      },
-      {
-        "location": "Hoenn Altering Cave B",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 3,
-        "maxLevel": 3
       }
     ],
     "Firered": [
@@ -3559,6 +3535,24 @@
         "maxLevel": 5
       }
     ],
+    "X": [
+      {
+        "location": "Kalos Route 12 Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 13,
+        "maxLevel": 13
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Route 12 Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 13,
+        "maxLevel": 13
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Paniola Ranch Area",
@@ -3575,6 +3569,24 @@
         "chance": 30,
         "minLevel": 12,
         "maxLevel": 15
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Phenac City Card E Room",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 37
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Lab Outside",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 17
       }
     ]
   }

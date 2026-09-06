@@ -17,7 +17,7 @@
   ],
   "base": {
     "HP": 60,
-    "Attack": 140,
+    "Attack": 100,
     "Defense": 105,
     "Special Attack": 130,
     "Special Defense": 105,
@@ -26,13 +26,17 @@
   "color": "purple",
   "weight": 80,
   "height": 2.3,
-  "abilities": [],
+  "abilities": [
+    "Huge Power"
+  ],
   "evolutionChain": [
     {
       "from": "Staryu",
       "to": "Starmie",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Water Stone",
           "trigger": "Use Item"
         }
@@ -50,8 +54,8 @@
   ],
   "generation": "generation-i",
   "sprites": {
-    "static": null,
-    "shiny": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10280.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10280.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10280.gif",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10280.png"

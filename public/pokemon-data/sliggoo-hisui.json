@@ -37,8 +37,18 @@
       "to": "Sliggoo",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 40
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 40,
-          "trigger": "Level Up"
+          "region": "Hisui",
+          "evolved_form": "Sliggoo Hisui"
         }
       ]
     },
@@ -47,9 +57,20 @@
       "to": "Goodra",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 50,
+          "needs_overworld_rain": true
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 50,
           "needs_overworld_rain": true,
-          "trigger": "Level Up"
+          "base_form": "Sliggoo Hisui",
+          "evolved_form": "Goodra Hisui"
         }
       ]
     }

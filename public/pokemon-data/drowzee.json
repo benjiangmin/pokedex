@@ -36,8 +36,10 @@
       "to": "Hypno",
       "details": [
         {
-          "min_level": 26,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 26
         }
       ]
     }
@@ -4896,14 +4898,14 @@
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4947,14 +4949,14 @@
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -5104,6 +5106,24 @@
         "maxLevel": 34
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      }
+    ],
     "Red Japan": [
       {
         "location": "Kanto Route 11 Area",
@@ -5240,6 +5260,24 @@
         "chance": 20,
         "minLevel": 7,
         "maxLevel": 10
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Psychic",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Psychic",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

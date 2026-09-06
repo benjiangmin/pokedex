@@ -37,8 +37,18 @@
       "to": "Mr. Mime",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Mimic"
+        },
+        {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "known_move": "Mimic",
-          "trigger": "Level Up"
+          "region": "Galar",
+          "evolved_form": "Mr Mime Galar"
         }
       ]
     },
@@ -47,8 +57,11 @@
       "to": "Mr. Rime",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 42,
-          "trigger": "Level Up"
+          "base_form": "Mr Mime Galar"
         }
       ]
     }
@@ -5947,6 +5960,24 @@
         "maxLevel": 31
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 13,
+        "maxLevel": 18
+      }
+    ],
     "Gold": [
       {
         "location": "Kanto Sea Route 21 Area",
@@ -5961,6 +5992,13 @@
         "chance": 4,
         "minLevel": 30,
         "maxLevel": 30
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
     "Silver": [
@@ -5977,6 +6015,13 @@
         "chance": 4,
         "minLevel": 30,
         "maxLevel": 30
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
     "Crystal": [
@@ -6011,18 +6056,32 @@
         "maxLevel": 28
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
     "Soulsilver": [
@@ -6041,18 +6100,77 @@
         "maxLevel": 28
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      },
+      {
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "Red": [
+      {
+        "location": "Kanto Route 2 North Towards Pewter City",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 8,
+        "maxLevel": 100
+      }
+    ],
+    "Blue": [
+      {
+        "location": "Kanto Route 2 North Towards Pewter City",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 8,
+        "maxLevel": 100
+      }
+    ],
+    "Yellow": [
+      {
+        "location": "Kanto Route 2 North Towards Pewter City",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 9,
+        "maxLevel": 100
+      }
+    ],
+    "Firered": [
+      {
+        "location": "Kanto Route 2 North Towards Pewter City",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
+      }
+    ],
+    "Leafgreen": [
+      {
+        "location": "Kanto Route 2 North Towards Pewter City",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
       }
     ],
     "X": [
@@ -6171,10 +6289,46 @@
         "maxLevel": 23
       }
     ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Spikemuth Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Spikemuth Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 6,
         "maxLevel": 9
@@ -6204,7 +6358,7 @@
     "Ultra Moon": [
       {
         "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 6,
         "maxLevel": 9
@@ -6229,6 +6383,33 @@
         "chance": 2,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle Dome Exterior",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 42,
+        "maxLevel": 42
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ]
   }

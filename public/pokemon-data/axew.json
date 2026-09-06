@@ -36,8 +36,10 @@
       "to": "Fraxure",
       "details": [
         {
-          "min_level": 38,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 38
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Haxorus",
       "details": [
         {
-          "min_level": 48,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 48
         }
       ]
     }
@@ -2711,6 +2715,13 @@
         "chance": 1,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Connecting Cave Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 8,
+        "maxLevel": 8
       }
     ],
     "Y": [
@@ -2734,6 +2745,115 @@
         "chance": 1,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Connecting Cave Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 8,
+        "maxLevel": 8
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 6 Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 29,
+        "maxLevel": 33
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 29,
+        "maxLevel": 31
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 6 Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 29,
+        "maxLevel": 33
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
       }
     ],
     "Sun": [

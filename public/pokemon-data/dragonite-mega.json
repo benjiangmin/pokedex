@@ -25,16 +25,20 @@
   },
   "color": "brown",
   "weight": 290,
-  "height": 5.5,
-  "abilities": [],
+  "height": 2.2,
+  "abilities": [
+    "Multiscale"
+  ],
   "evolutionChain": [
     {
       "from": "Dratini",
       "to": "Dragonair",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -43,8 +47,10 @@
       "to": "Dragonite",
       "details": [
         {
-          "min_level": 55,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 55
         }
       ]
     },
@@ -61,7 +67,7 @@
   "generation": "generation-i",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10281.png",
-    "shiny": null,
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10281.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10281.gif",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10281.png"

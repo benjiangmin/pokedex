@@ -36,8 +36,10 @@
       "to": "Magcargo",
       "details": [
         {
-          "min_level": 38,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 38
         }
       ]
     }
@@ -3622,6 +3624,24 @@
         "maxLevel": 16
       }
     ],
+    "Omega Ruby": [
+      {
+        "location": "Fiery Path Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 8,
+        "maxLevel": 8
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Fiery Path Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 8,
+        "maxLevel": 8
+      }
+    ],
     "Firered": [
       {
         "location": "Mt Ember B1f",
@@ -3948,6 +3968,13 @@
         "chance": 4,
         "minLevel": 28,
         "maxLevel": 28
+      },
+      {
+        "location": "Friend Safari Fire",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -3964,6 +3991,22 @@
         "chance": 4,
         "minLevel": 28,
         "maxLevel": 28
+      },
+      {
+        "location": "Friend Safari Fire",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Pyrite Town Duel Square",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

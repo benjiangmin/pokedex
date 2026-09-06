@@ -35,12 +35,18 @@
       "to": "Darmanitan",
       "details": [
         {
-          "min_level": 35,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 35
         },
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Ice Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Darumaka Galar",
+          "evolved_form": "Darmanitan Galar Standard"
         }
       ]
     }
@@ -2561,5 +2567,52 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Island West Of Route 104",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island Route 114",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain North Of Mossdeep",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Island West Of Route 104",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island Route 114",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain North Of Mossdeep",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ]
+  }
 }

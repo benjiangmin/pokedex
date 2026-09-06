@@ -36,8 +36,10 @@
       "to": "Granbull",
       "details": [
         {
-          "min_level": 23,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 23
         }
       ]
     }
@@ -4766,6 +4768,33 @@
         "chance": 20,
         "minLevel": 41,
         "maxLevel": 44
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Shadow Pokemon Lab Bf2",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 43,
+        "maxLevel": 43
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Unova Route 2 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Unova Route 2 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

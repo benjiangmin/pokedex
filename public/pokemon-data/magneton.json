@@ -37,8 +37,10 @@
       "to": "Magneton",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -47,28 +49,40 @@
       "to": "Magnezone",
       "details": [
         {
-          "location": "Mt Coronet",
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "trigger": "Level Up",
+          "location": "Mt Coronet"
         },
         {
-          "location": "Chargestone Cave",
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "trigger": "Level Up",
+          "location": "Chargestone Cave"
         },
         {
-          "location": "Kalos Route 13",
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "trigger": "Level Up",
+          "location": "Kalos Route 13"
         },
         {
-          "location": "Blush Mountain",
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "trigger": "Level Up",
+          "location": "Blush Mountain"
         },
         {
-          "location": "Vast Poni Canyon",
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "trigger": "Level Up",
+          "location": "Vast Poni Canyon"
         },
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Thunder Stone",
           "trigger": "Use Item"
+        },
+        {
+          "version_group": "Omega Ruby Alpha Sapphire",
+          "trigger": "Level Up",
+          "location": "New Mauville"
         }
       ]
     }
@@ -3987,14 +4001,14 @@
         "maxLevel": 46
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 32,
         "maxLevel": 32
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 35,
@@ -4010,14 +4024,14 @@
         "maxLevel": 46
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 32,
         "maxLevel": 32
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 35,
@@ -4047,14 +4061,14 @@
         "maxLevel": 55
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 31,
         "maxLevel": 31
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 34,
@@ -4084,14 +4098,14 @@
         "maxLevel": 55
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 31,
         "maxLevel": 31
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 34,
@@ -4135,14 +4149,28 @@
         "maxLevel": 47
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Kanto Power Plant Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 19,
+        "maxLevel": 100
+      },
+      {
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4186,14 +4214,28 @@
         "maxLevel": 47
       },
       {
-        "location": "Johto Safari Zone Zone Peak",
+        "location": "Kanto Power Plant Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 19,
+        "maxLevel": 100
+      },
+      {
+        "location": "Johto Safari Zone Peak",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4209,14 +4251,14 @@
         "maxLevel": 46
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 32,
         "maxLevel": 32
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 35,
@@ -4232,14 +4274,14 @@
         "maxLevel": 46
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 32,
         "maxLevel": 32
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 35,
@@ -4248,18 +4290,45 @@
     ],
     "Yellow": [
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 15,
         "minLevel": 33,
         "maxLevel": 33
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 38,
         "maxLevel": 38
+      }
+    ],
+    "Crystal": [
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 16,
+        "maxLevel": 100
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
       }
     ],
     "Ruby": [
@@ -4335,6 +4404,13 @@
         "chance": 10,
         "minLevel": 38,
         "maxLevel": 38
+      },
+      {
+        "location": "Friend Safari Steel",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -4351,6 +4427,366 @@
         "chance": 10,
         "minLevel": 38,
         "maxLevel": 38
+      },
+      {
+        "location": "Friend Safari Steel",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Challenge Road Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Training Lowlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Brawlers Cave Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Key Lair 4f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

@@ -36,14 +36,25 @@
       "to": "Meowstic",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     },
     {
       "from": "Meowstic (Male)",
-      "to": "Meowstic (Mega)",
+      "to": "Meowstic (Male Mega)",
+      "details": [
+        {
+          "trigger": "Mega Evolution"
+        }
+      ]
+    },
+    {
+      "from": "Meowstic (Male)",
+      "to": "Meowstic (Female Mega)",
       "details": [
         {
           "trigger": "Mega Evolution"
@@ -2140,5 +2151,87 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Galar Route 7 Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 45,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Walk",
+        "chance": 45,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Watchtower Ruins Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stony Wilderness Max Den K",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den K",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Soothing Wetlands Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Training Lowlands Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

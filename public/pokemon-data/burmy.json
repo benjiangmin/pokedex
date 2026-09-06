@@ -35,9 +35,11 @@
       "to": "Wormadam",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
           "gender": 1,
-          "min_level": 20,
-          "trigger": "Level Up"
+          "min_level": 20
         }
       ]
     },
@@ -46,9 +48,11 @@
       "to": "Mothim",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
           "gender": 2,
-          "min_level": 20,
-          "trigger": "Level Up"
+          "min_level": 20
         }
       ]
     }
@@ -391,6 +395,485 @@
     ]
   },
   "locations": {
+    "Diamond": [
+      {
+        "location": "Valley Windworks Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fuego Ironworks Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 South Towards Floaroma Town",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 206 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 South Towards Solaceon Town",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 211 East Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 215 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Floaroma Meadow Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Valley Windworks Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fuego Ironworks Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 South Towards Floaroma Town",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 206 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 South Towards Solaceon Town",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 211 East Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 215 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Floaroma Meadow Area",
+        "method": "Honey Tree",
+        "chance": 20,
+        "minLevel": 5,
+        "maxLevel": 15
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Valley Windworks Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fuego Ironworks Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 South Towards Floaroma Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 206 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 South Towards Solaceon Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 211 East Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 215 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Floaroma Meadow Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 21,
+        "maxLevel": 25
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Johto Route 38 Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 21,
+        "maxLevel": 25
+      }
+    ],
     "X": [
       {
         "location": "Kalos Route 3 Area",
@@ -398,6 +881,13 @@
         "chance": 10,
         "minLevel": 5,
         "maxLevel": 5
+      },
+      {
+        "location": "Kalos Berry Fields Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 15
       }
     ],
     "Y": [
@@ -407,6 +897,13 @@
         "chance": 10,
         "minLevel": 5,
         "maxLevel": 5
+      },
+      {
+        "location": "Kalos Berry Fields Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 15
       }
     ]
   }

@@ -35,8 +35,10 @@
       "to": "Pikachu",
       "details": [
         {
-          "min_happiness": 220,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 220
         }
       ]
     },
@@ -45,8 +47,20 @@
       "to": "Raichu",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Thunder Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Pikachu"
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "item": "Thunder Stone",
+          "trigger": "Use Item",
+          "region": "Alola",
+          "base_form": "Pikachu",
+          "evolved_form": "Raichu Alola"
         }
       ]
     },

@@ -36,9 +36,11 @@
       "to": "Wyrdeer",
       "details": [
         {
-          "min_move_count": 20,
+          "version_group": "Legends Arceus",
+          "is_default": true,
           "trigger": "Agile Style Move",
-          "used_move": "Psyshield Bash"
+          "used_move": "Psyshield Bash",
+          "min_move_count": 20
         }
       ]
     }
@@ -4423,7 +4425,21 @@
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4446,7 +4462,21 @@
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4483,48 +4513,6 @@
         "chance": 1,
         "minLevel": 39,
         "maxLevel": 39
-      },
-      {
-        "location": "Hoenn Altering Cave H",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 22,
-        "maxLevel": 22
-      },
-      {
-        "location": "Hoenn Altering Cave H",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 24,
-        "maxLevel": 24
-      },
-      {
-        "location": "Hoenn Altering Cave H",
-        "method": "Walk",
-        "chance": 10,
-        "minLevel": 20,
-        "maxLevel": 20
-      },
-      {
-        "location": "Hoenn Altering Cave H",
-        "method": "Walk",
-        "chance": 10,
-        "minLevel": 26,
-        "maxLevel": 26
-      },
-      {
-        "location": "Hoenn Altering Cave H",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 28,
-        "maxLevel": 28
-      },
-      {
-        "location": "Hoenn Altering Cave H",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 18,
-        "maxLevel": 18
       }
     ],
     "Firered": [
@@ -4645,6 +4633,40 @@
         "chance": 10,
         "minLevel": 58,
         "maxLevel": 58
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Snagem Hideout 1f",
+        "method": "Snag Rematch",
+        "chance": 100,
+        "minLevel": 43,
+        "maxLevel": 43
+      },
+      {
+        "location": "The Under Subway",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 43,
+        "maxLevel": 43
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Mountain West Of Route 104",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Mountain West Of Route 104",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

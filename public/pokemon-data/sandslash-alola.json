@@ -36,12 +36,18 @@
       "to": "Sandslash",
       "details": [
         {
-          "min_level": 22,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 22
         },
         {
+          "version_group": "The Isle Of Armor",
+          "is_default": true,
           "item": "Ice Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Sandshrew Alola",
+          "evolved_form": "Sandslash Alola"
         }
       ]
     }
@@ -1431,5 +1437,24 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ]
+  }
 }

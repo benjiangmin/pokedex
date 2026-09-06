@@ -35,8 +35,10 @@
       "to": "Doublade",
       "details": [
         {
-          "min_level": 35,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 35
         }
       ]
     },
@@ -45,6 +47,8 @@
       "to": "Aegislash",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
           "item": "Dusk Stone",
           "trigger": "Use Item"
         }
@@ -1301,5 +1305,52 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

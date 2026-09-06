@@ -36,8 +36,10 @@
       "to": "Corvisquire",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Corviknight",
       "details": [
         {
-          "min_level": 38,
-          "trigger": "Level Up"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 38
         }
       ]
     }
@@ -511,5 +515,234 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Sword": [
+      {
+        "location": "Galar Route 1 Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 3,
+        "maxLevel": 6
+      },
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 5,
+        "maxLevel": 7
+      },
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 4,
+        "maxLevel": 6
+      },
+      {
+        "location": "Galar Route 3 East",
+        "method": "Walk",
+        "chance": 35,
+        "minLevel": 8,
+        "maxLevel": 13
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 1 Area",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 3,
+        "maxLevel": 6
+      },
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 5,
+        "maxLevel": 7
+      },
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Walk",
+        "chance": 25,
+        "minLevel": 4,
+        "maxLevel": 6
+      },
+      {
+        "location": "Galar Route 3 East",
+        "method": "Walk",
+        "chance": 35,
+        "minLevel": 8,
+        "maxLevel": 13
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Overworld",
+        "chance": 30,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "Slumbering Weald Main",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 2,
+        "maxLevel": 3
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Cap Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ]
+  }
 }

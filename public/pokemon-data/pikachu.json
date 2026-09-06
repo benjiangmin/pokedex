@@ -35,8 +35,10 @@
       "to": "Pikachu",
       "details": [
         {
-          "min_happiness": 220,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 220
         }
       ]
     },
@@ -45,8 +47,20 @@
       "to": "Raichu",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Thunder Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Pikachu"
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "item": "Thunder Stone",
+          "trigger": "Use Item",
+          "region": "Alola",
+          "base_form": "Pikachu",
+          "evolved_form": "Raichu Alola"
         }
       ]
     },
@@ -4185,6 +4199,22 @@
         "maxLevel": 5
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Pallet Town Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 6
+      }
+    ],
     "Gold": [
       {
         "location": "Kanto Route 2 South Towards Viridian City",
@@ -4210,6 +4240,13 @@
         "chance": 4,
         "minLevel": 4,
         "maxLevel": 4
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
       }
     ],
     "Red": [
@@ -4228,14 +4265,14 @@
         "maxLevel": 5
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 15,
         "minLevel": 20,
         "maxLevel": 20
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 24,
@@ -4258,14 +4295,14 @@
         "maxLevel": 5
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 15,
         "minLevel": 20,
         "maxLevel": 20
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 24,
@@ -4288,25 +4325,32 @@
         "maxLevel": 5
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 22,
         "maxLevel": 22
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 24,
         "maxLevel": 24
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 4,
         "minLevel": 26,
         "maxLevel": 26
+      },
+      {
+        "location": "Kanto Pokecenter Area",
+        "method": "Colosseum Bonus Disc Jpn",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ],
     "Leafgreen": [
@@ -4325,25 +4369,32 @@
         "maxLevel": 5
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 22,
         "maxLevel": 22
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 24,
         "maxLevel": 24
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 4,
         "minLevel": 26,
         "maxLevel": 26
+      },
+      {
+        "location": "Kanto Pokecenter Area",
+        "method": "Colosseum Bonus Disc Jpn",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ],
     "Heartgold": [
@@ -4360,6 +4411,13 @@
         "chance": 1,
         "minLevel": 7,
         "maxLevel": 7
+      },
+      {
+        "location": "Saffron City Magnet Train Station",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 2,
+        "maxLevel": 100
       }
     ],
     "Soulsilver": [
@@ -4376,6 +4434,22 @@
         "chance": 1,
         "minLevel": 7,
         "maxLevel": 7
+      },
+      {
+        "location": "Saffron City Magnet Train Station",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 2,
+        "maxLevel": 100
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 6
       }
     ],
     "Red Japan": [
@@ -4394,14 +4468,14 @@
         "maxLevel": 5
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 15,
         "minLevel": 20,
         "maxLevel": 20
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 24,
@@ -4424,14 +4498,14 @@
         "maxLevel": 5
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 15,
         "minLevel": 20,
         "maxLevel": 20
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 24,
@@ -4466,6 +4540,13 @@
         "chance": 1,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Hoenn Pokecenter Area",
+        "method": "Colosseum Bonus Disc Jpn",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ],
     "Sapphire": [
@@ -4496,6 +4577,13 @@
         "chance": 1,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Hoenn Pokecenter Area",
+        "method": "Colosseum Bonus Disc Jpn",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ],
     "Emerald": [
@@ -4526,6 +4614,13 @@
         "chance": 1,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Hoenn Pokecenter Area",
+        "method": "Colosseum Bonus Disc Jpn",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ],
     "X": [
@@ -4556,6 +4651,13 @@
         "chance": 1,
         "minLevel": 4,
         "maxLevel": 4
+      },
+      {
+        "location": "Friend Safari Electric",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -4586,6 +4688,13 @@
         "chance": 1,
         "minLevel": 4,
         "maxLevel": 4
+      },
+      {
+        "location": "Friend Safari Electric",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Omega Ruby": [
@@ -4648,10 +4757,634 @@
         "maxLevel": 20
       }
     ],
+    "Sword": [
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Area 3",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Area 3",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Meetup Spot Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Mirror Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Mirror Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Area 2",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Area 3",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Area 3",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Meetup Spot Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Motostoke Riverbank Max Den B",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Cap Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Mirror Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Mirror Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Hammerlocke Hills Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 10,
+        "maxLevel": 15
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Soothing Wetlands Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Fields Of Honor Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Sea Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Alola Route 1 East",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 2,
         "maxLevel": 3
@@ -4667,7 +5400,7 @@
     "Ultra Moon": [
       {
         "location": "Alola Route 1 East",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 2,
         "maxLevel": 3
@@ -4683,14 +5416,14 @@
     "Sun": [
       {
         "location": "Alola Route 1 West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 3,
         "maxLevel": 5
       },
       {
         "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 5,
         "maxLevel": 8
@@ -4699,17 +5432,26 @@
     "Moon": [
       {
         "location": "Alola Route 1 West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 3,
         "maxLevel": 5
       },
       {
         "location": "Hauoli City Shopping District",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 5,
         "maxLevel": 8
+      }
+    ],
+    "Blue Japan": [
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 12,
+        "maxLevel": 12
       }
     ]
   }

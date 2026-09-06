@@ -36,8 +36,10 @@
       "to": "Banette",
       "details": [
         {
-          "min_level": 37,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
         }
       ]
     },
@@ -4208,6 +4210,56 @@
         "maxLevel": 34
       }
     ],
+    "X": [
+      {
+        "location": "Pokemon Village Area",
+        "method": "Trash Can Ambush",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 50
+      }
+    ],
+    "Y": [
+      {
+        "location": "Pokemon Village Area",
+        "method": "Trash Can Ambush",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 50
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Poke Pelago Poni Island Reached",
@@ -4238,6 +4290,15 @@
         "chance": 2,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle Bf1",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 37
       }
     ]
   }

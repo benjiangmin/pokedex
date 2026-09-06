@@ -35,12 +35,18 @@
       "to": "Ninetales",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Fire Stone",
           "trigger": "Use Item"
         },
         {
+          "version_group": "The Isle Of Armor",
+          "is_default": true,
           "item": "Ice Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Vulpix Alola",
+          "evolved_form": "Ninetales Alola"
         }
       ]
     }
@@ -1507,6 +1513,33 @@
     ]
   },
   "locations": {
+    "Lets Go Eevee": [
+      {
+        "location": "Celadon City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 27
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 14 Area",

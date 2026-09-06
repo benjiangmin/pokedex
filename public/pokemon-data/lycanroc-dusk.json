@@ -34,19 +34,31 @@
       "to": "Lycanroc",
       "details": [
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 25,
           "time_of_day": "day",
-          "trigger": "Level Up"
+          "base_form": "Rockruff",
+          "evolved_form": "Lycanroc Midday"
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 25,
           "time_of_day": "night",
-          "trigger": "Level Up"
+          "base_form": "Rockruff",
+          "evolved_form": "Lycanroc Midnight"
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 25,
           "time_of_day": "dusk",
-          "trigger": "Level Up"
+          "base_form": "Rockruff Own Tempo",
+          "evolved_form": "Lycanroc Dusk"
         }
       ]
     }
@@ -1046,5 +1058,38 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ]
+  }
 }

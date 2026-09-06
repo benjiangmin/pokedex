@@ -35,8 +35,10 @@
       "to": "Dragonair",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Dragonite",
       "details": [
         {
-          "min_level": 55,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 55
         }
       ]
     }
@@ -4474,6 +4478,13 @@
         "chance": 30,
         "minLevel": 40,
         "maxLevel": 40
+      },
+      {
+        "location": "Goldenrod City Game Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ],
     "Silver": [
@@ -4511,6 +4522,13 @@
         "chance": 30,
         "minLevel": 40,
         "maxLevel": 40
+      },
+      {
+        "location": "Goldenrod City Game Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ],
     "Crystal": [
@@ -4587,18 +4605,32 @@
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
         "method": "Super Rod",
         "chance": 10,
         "minLevel": 36,
         "maxLevel": 36
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Super Rod",
         "chance": 10,
         "minLevel": 37,
         "maxLevel": 37
+      },
+      {
+        "location": "Goldenrod City Game Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
     "Soulsilver": [
@@ -4631,18 +4663,50 @@
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
+        "method": "Good Rod",
+        "chance": 10,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
         "method": "Super Rod",
         "chance": 10,
         "minLevel": 36,
         "maxLevel": 36
       },
       {
-        "location": "Johto Safari Zone Zone Swamp",
+        "location": "Johto Safari Zone Swamp",
         "method": "Super Rod",
         "chance": 10,
         "minLevel": 37,
         "maxLevel": 37
+      },
+      {
+        "location": "Goldenrod City Game Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld Water",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Route 10 Area",
+        "method": "Overworld Water",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
       }
     ],
     "Red": [
@@ -4673,6 +4737,13 @@
         "chance": 25,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
       }
     ],
     "Blue": [
@@ -4703,6 +4774,13 @@
         "chance": 25,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 24,
+        "maxLevel": 24
       }
     ],
     "Yellow": [
@@ -4763,6 +4841,13 @@
         "chance": 15,
         "minLevel": 15,
         "maxLevel": 25
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
       }
     ],
     "Leafgreen": [
@@ -4793,6 +4878,13 @@
         "chance": 15,
         "minLevel": 15,
         "maxLevel": 25
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 24,
+        "maxLevel": 24
       }
     ],
     "Red Japan": [
@@ -4823,6 +4915,13 @@
         "chance": 25,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 18
       }
     ],
     "Green Japan": [
@@ -4853,6 +4952,13 @@
         "chance": 25,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 24,
+        "maxLevel": 24
       }
     ],
     "Black": [
@@ -4956,6 +5062,192 @@
         "chance": 5,
         "minLevel": 40,
         "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Bubbling Spots",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld Water",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Bubbling Spots",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld Water",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Path To The Peak Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Three Point Pass Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Bed Max Den G",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Frigid Sea Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den Q",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
       }
     ],
     "Sun": [

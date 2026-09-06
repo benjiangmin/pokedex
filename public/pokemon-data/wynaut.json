@@ -35,8 +35,10 @@
       "to": "Wobbuffet",
       "details": [
         {
-          "min_level": 15,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 15
         }
       ]
     }
@@ -643,6 +645,13 @@
         "chance": 100,
         "minLevel": 5,
         "maxLevel": 5
+      },
+      {
+        "location": "Mirage Island Area",
+        "method": "Walk",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 50
       }
     ],
     "Sapphire": [
@@ -722,6 +731,13 @@
         "chance": 100,
         "minLevel": 5,
         "maxLevel": 5
+      },
+      {
+        "location": "Mirage Island Area",
+        "method": "Walk",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 50
       }
     ],
     "Emerald": [
@@ -801,6 +817,13 @@
         "chance": 100,
         "minLevel": 5,
         "maxLevel": 5
+      },
+      {
+        "location": "Mirage Island Area",
+        "method": "Walk",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 50
       }
     ],
     "Omega Ruby": [
@@ -819,6 +842,52 @@
         "chance": 100,
         "minLevel": 1,
         "maxLevel": 1
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Motostoke Riverbank Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den B",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
       }
     ]
   }

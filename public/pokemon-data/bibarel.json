@@ -37,8 +37,10 @@
       "to": "Bibarel",
       "details": [
         {
-          "min_level": 15,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 15
         }
       ]
     }
@@ -2935,11 +2937,25 @@
         "maxLevel": 25
       },
       {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
         "location": "Great Marsh Area 2",
         "method": "Walk",
         "chance": 20,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
       },
       {
         "location": "Great Marsh Area 3",
@@ -2949,11 +2965,25 @@
         "maxLevel": 23
       },
       {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
         "location": "Great Marsh Area 4",
         "method": "Walk",
         "chance": 20,
         "minLevel": 23,
         "maxLevel": 23
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
       },
       {
         "location": "Great Marsh Area 5",
@@ -2963,11 +2993,25 @@
         "maxLevel": 21
       },
       {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
         "location": "Great Marsh Area 6",
         "method": "Walk",
         "chance": 20,
         "minLevel": 21,
         "maxLevel": 21
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
       },
       {
         "location": "Sendoff Spring Area",
@@ -3126,11 +3170,25 @@
         "maxLevel": 25
       },
       {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
         "location": "Great Marsh Area 2",
         "method": "Walk",
         "chance": 20,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
       },
       {
         "location": "Great Marsh Area 3",
@@ -3140,11 +3198,25 @@
         "maxLevel": 23
       },
       {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
         "location": "Great Marsh Area 4",
         "method": "Walk",
         "chance": 20,
         "minLevel": 23,
         "maxLevel": 23
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
       },
       {
         "location": "Great Marsh Area 5",
@@ -3154,11 +3226,25 @@
         "maxLevel": 21
       },
       {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
         "location": "Great Marsh Area 6",
         "method": "Walk",
         "chance": 20,
         "minLevel": 21,
         "maxLevel": 21
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
       },
       {
         "location": "Sendoff Spring Area",
@@ -3559,6 +3645,13 @@
         "chance": 10,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Friend Safari Water",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -3575,6 +3668,31 @@
         "chance": 10,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Friend Safari Water",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Unova Route 3 Hidden Grotto Pond",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Unova Route 3 Hidden Grotto Pond",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

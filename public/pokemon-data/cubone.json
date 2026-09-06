@@ -36,13 +36,19 @@
       "to": "Marowak",
       "details": [
         {
-          "min_level": 28,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 28
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 28,
           "time_of_day": "night",
-          "trigger": "Level Up"
+          "region": "Alola",
+          "evolved_form": "Marowak Alola"
         }
       ]
     }
@@ -4701,6 +4707,13 @@
         "chance": 30,
         "minLevel": 12,
         "maxLevel": 12
+      },
+      {
+        "location": "Goldenrod City Game Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
     "Heartgold": [
@@ -4726,14 +4739,14 @@
         "maxLevel": 12
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4763,18 +4776,106 @@
         "maxLevel": 12
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Desert",
+        "location": "Johto Safari Zone Desert",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Rock Tunnel 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Rock Tunnel B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Rock Tunnel 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Rock Tunnel B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Pokemon Tower 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 5f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
+      },
+      {
+        "location": "Pokemon Tower 6f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 27,
+        "maxLevel": 32
       }
     ],
     "Red": [
@@ -5297,6 +5398,318 @@
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Warm Up Tunnel Area",
+        "method": "Overworld",
+        "chance": 32,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Warm Up Tunnel Area",
+        "method": "Overworld",
+        "chance": 32,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Warm Up Tunnel Area",
+        "method": "Overworld",
+        "chance": 32,
+        "minLevel": 16,
+        "maxLevel": 21
+      },
+      {
+        "location": "Warm Up Tunnel Area",
+        "method": "Overworld",
+        "chance": 32,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Potbottom Desert Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stepping Stone Sea Max Den I",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 35,
+        "maxLevel": 40
       }
     ],
     "Sun": [

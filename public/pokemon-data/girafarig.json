@@ -37,8 +37,10 @@
       "to": "Farigiraf",
       "details": [
         {
-          "known_move": "Twin Beam",
-          "trigger": "Level Up"
+          "version_group": "Scarlet Violet",
+          "is_default": true,
+          "trigger": "Level Up",
+          "known_move": "Twin Beam"
         }
       ]
     }
@@ -4691,21 +4693,28 @@
         "maxLevel": 20
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4728,21 +4737,28 @@
         "maxLevel": 20
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Plains",
+        "location": "Johto Safari Zone Plains",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4897,6 +4913,42 @@
         "chance": 5,
         "minLevel": 59,
         "maxLevel": 59
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Mountain South Of Route 131",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Mountain South Of Route 131",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Psychic",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Psychic",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

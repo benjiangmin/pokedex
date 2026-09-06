@@ -35,8 +35,16 @@
       "to": "Quilava",
       "details": [
         {
-          "min_level": 14,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 14
+        },
+        {
+          "version_group": "Legends Arceus",
+          "trigger": "Level Up",
+          "min_level": 17,
+          "region": "Hisui"
         }
       ]
     },
@@ -45,8 +53,18 @@
       "to": "Typhlosion",
       "details": [
         {
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 36,
-          "trigger": "Level Up"
+          "region": "Hisui",
+          "evolved_form": "Typhlosion Hisui"
         }
       ]
     }
@@ -3527,6 +3545,15 @@
         "chance": 100,
         "minLevel": 12,
         "maxLevel": 12
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Mt Battle Lobby",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ]
   }

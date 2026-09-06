@@ -37,7 +37,32 @@
       "to": "Gourgeist",
       "details": [
         {
-          "trigger": "Trade"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Trade",
+          "base_form": "Pumpkaboo Average",
+          "evolved_form": "Gourgeist Average"
+        },
+        {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Trade",
+          "base_form": "Pumpkaboo Small",
+          "evolved_form": "Gourgeist Small"
+        },
+        {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Trade",
+          "base_form": "Pumpkaboo Large",
+          "evolved_form": "Gourgeist Large"
+        },
+        {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Trade",
+          "base_form": "Pumpkaboo Super",
+          "evolved_form": "Gourgeist Super"
         }
       ]
     }
@@ -45,7 +70,7 @@
   "generation": "generation-vi",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10029.png",
-    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/710-super.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10029.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10029.gif",
     "background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/10029.svg",
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10029.png"
@@ -1624,6 +1649,108 @@
         "chance": 1,
         "minLevel": 36,
         "maxLevel": 36
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 29,
+        "maxLevel": 31
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Max Den E",
+        "method": "Max Raid",
+        "chance": 1,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 1,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Main",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 29,
+        "maxLevel": 31
+      },
+      {
+        "location": "Hammerlocke Hills Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dappled Grove Max Den E",
+        "method": "Max Raid",
+        "chance": 1,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 1,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ]
   }

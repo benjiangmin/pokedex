@@ -35,8 +35,11 @@
       "to": "Vaporeon",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Water Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
         }
       ]
     },
@@ -45,8 +48,11 @@
       "to": "Jolteon",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Thunder Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
         }
       ]
     },
@@ -55,8 +61,11 @@
       "to": "Flareon",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Fire Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
         }
       ]
     },
@@ -65,9 +74,12 @@
       "to": "Espeon",
       "details": [
         {
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
           "time_of_day": "day",
-          "trigger": "Level Up"
+          "base_form": "Eevee"
         }
       ]
     },
@@ -76,9 +88,12 @@
       "to": "Umbreon",
       "details": [
         {
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
           "time_of_day": "night",
-          "trigger": "Level Up"
+          "base_form": "Eevee"
         }
       ]
     },
@@ -87,20 +102,46 @@
       "to": "Leafeon",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "trigger": "Level Up",
           "location": "Eterna Forest",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Black White",
+          "trigger": "Level Up",
           "location": "Pinwheel Forest",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "X Y",
+          "trigger": "Level Up",
           "location": "Kalos Route 20",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Leaf Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
+        },
+        {
+          "version_group": "Omega Ruby Alpha Sapphire",
+          "trigger": "Level Up",
+          "location": "Petalburg Woods",
+          "near_special_rock": true,
+          "base_form": "Eevee"
+        },
+        {
+          "version_group": "Sun Moon",
+          "trigger": "Level Up",
+          "location": "Lush Jungle",
+          "near_special_rock": true,
+          "base_form": "Eevee"
         }
       ]
     },
@@ -109,20 +150,46 @@
       "to": "Glaceon",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "trigger": "Level Up",
           "location": "Sinnoh Route 217",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Black White",
+          "trigger": "Level Up",
           "location": "Twist Mountain",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "X Y",
+          "trigger": "Level Up",
           "location": "Frost Cavern",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Ice Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
+        },
+        {
+          "version_group": "Omega Ruby Alpha Sapphire",
+          "trigger": "Level Up",
+          "location": "Shoal Cave",
+          "near_special_rock": true,
+          "base_form": "Eevee"
+        },
+        {
+          "version_group": "Sun Moon",
+          "trigger": "Level Up",
+          "location": "Mount Lanakila",
+          "near_special_rock": true,
+          "base_form": "Eevee"
         }
       ]
     },
@@ -131,14 +198,19 @@
       "to": "Sylveon",
       "details": [
         {
+          "version_group": "X Y",
+          "trigger": "Level Up",
           "known_move_type": "Fairy",
           "min_affection": 2,
-          "trigger": "Level Up"
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "known_move_type": "Fairy",
           "min_happiness": 160,
-          "trigger": "Level Up"
+          "base_form": "Eevee"
         }
       ]
     }
@@ -1894,5 +1966,112 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Giants Bed Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 8,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 11,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Giants Bed Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 63,
+        "maxLevel": 63
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 8,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 11,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

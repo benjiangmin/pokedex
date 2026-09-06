@@ -36,8 +36,10 @@
       "to": "Medicham",
       "details": [
         {
-          "min_level": 37,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
         }
       ]
     },
@@ -4930,10 +4932,28 @@
         "maxLevel": 44
       }
     ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Wasteland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Wasteland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -4942,10 +4962,28 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Outer Area",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Outer Area",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

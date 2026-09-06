@@ -36,8 +36,10 @@
       "to": "Purugly",
       "details": [
         {
-          "min_level": 38,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 38
         }
       ]
     }
@@ -2784,6 +2786,66 @@
         "chance": 10,
         "minLevel": 50,
         "maxLevel": 50
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Island East Of Shoal Cave",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Forest North Of Lilycove",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Forest North Of Route 124",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Forest West Of Route 114",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Island East Of Shoal Cave",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Forest North Of Lilycove",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Forest North Of Route 124",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Forest West Of Route 114",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

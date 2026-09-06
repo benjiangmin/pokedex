@@ -34,19 +34,31 @@
       "to": "Lycanroc",
       "details": [
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 25,
           "time_of_day": "day",
-          "trigger": "Level Up"
+          "base_form": "Rockruff",
+          "evolved_form": "Lycanroc Midday"
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 25,
           "time_of_day": "night",
-          "trigger": "Level Up"
+          "base_form": "Rockruff",
+          "evolved_form": "Lycanroc Midnight"
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 25,
           "time_of_day": "dusk",
-          "trigger": "Level Up"
+          "base_form": "Rockruff Own Tempo",
+          "evolved_form": "Lycanroc Dusk"
         }
       ]
     }
@@ -54,7 +66,7 @@
   "generation": "generation-vii",
   "sprites": {
     "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10151.png",
-    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/744-own-tempo.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10151.png",
     "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/10151.gif",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10151.png"
@@ -841,5 +853,38 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Road Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ]
+  }
 }

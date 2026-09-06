@@ -34,8 +34,10 @@
       "to": "Cofagrigus",
       "details": [
         {
-          "min_level": 34,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 34
         }
       ]
     },
@@ -44,8 +46,11 @@
       "to": "Runerigus",
       "details": [
         {
-          "min_damage_taken": 49,
-          "trigger": "Take Damage"
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Take Damage",
+          "base_form": "Yamask Galar",
+          "min_damage_taken": 49
         }
       ]
     }
@@ -2227,6 +2232,56 @@
         "chance": 4,
         "minLevel": 50,
         "maxLevel": 50
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Cave South Of Pacifidlog",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Route 124",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Cave South Of Pacifidlog",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Route 124",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

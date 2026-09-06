@@ -36,8 +36,18 @@
       "to": "Muk",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 38
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 38,
-          "trigger": "Level Up"
+          "base_form": "Grimer Alola",
+          "evolved_form": "Muk Alola"
         }
       ]
     }
@@ -4893,28 +4903,28 @@
         "maxLevel": 28
       },
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Surf",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Surf",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Surf",
         "chance": 10,
         "minLevel": 17,
@@ -5000,28 +5010,28 @@
         "maxLevel": 28
       },
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
         "maxLevel": 17
       },
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Surf",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Surf",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Marshland",
+        "location": "Johto Safari Zone Marshland",
         "method": "Surf",
         "chance": 10,
         "minLevel": 17,
@@ -5030,14 +5040,14 @@
     ],
     "Yellow": [
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 33
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 5,
         "minLevel": 37,
@@ -5119,6 +5129,43 @@
         "chance": 20,
         "minLevel": 38,
         "maxLevel": 38
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Pokemon Mansion 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ],
     "Red": [
@@ -5331,6 +5378,15 @@
         "maxLevel": 14
       }
     ],
+    "Alpha Sapphire": [
+      {
+        "location": "Fiery Path Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 8,
+        "maxLevel": 8
+      }
+    ],
     "Black 2": [
       {
         "location": "Castelia Sewers Area",
@@ -5529,6 +5585,15 @@
         "chance": 5,
         "minLevel": 17,
         "maxLevel": 17
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Phenac City Stadium",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 23,
+        "maxLevel": 23
       }
     ]
   }

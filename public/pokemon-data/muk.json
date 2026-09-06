@@ -36,8 +36,18 @@
       "to": "Muk",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 38
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 38,
-          "trigger": "Level Up"
+          "base_form": "Grimer Alola",
+          "evolved_form": "Muk Alola"
         }
       ]
     }
@@ -4510,6 +4520,20 @@
         "chance": 4,
         "minLevel": 30,
         "maxLevel": 30
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 48,
+        "maxLevel": 48
       }
     ],
     "Soulsilver": [
@@ -4554,18 +4578,32 @@
         "chance": 4,
         "minLevel": 30,
         "maxLevel": 30
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Marshland",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 48,
+        "maxLevel": 48
       }
     ],
     "Yellow": [
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 4,
         "minLevel": 33,
         "maxLevel": 33
       },
       {
-        "location": "Power Plant Area",
+        "location": "Kanto Power Plant Area",
         "method": "Walk",
         "chance": 1,
         "minLevel": 37,
@@ -4605,6 +4643,50 @@
         "chance": 10,
         "minLevel": 41,
         "maxLevel": 41
+      },
+      {
+        "location": "Cinnabar Island Cinnabar Lab",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 100
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Power Plant Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Pokemon Mansion 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion 3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Pokemon Mansion B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ],
     "Red": [
@@ -4813,6 +4895,13 @@
         "chance": 4,
         "minLevel": 5,
         "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 9 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 39
       }
     ],
     "White 2": [
@@ -4857,6 +4946,31 @@
         "chance": 4,
         "minLevel": 5,
         "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 9 Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 10,
+        "minLevel": 35,
+        "maxLevel": 39
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Poison",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Poison",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

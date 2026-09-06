@@ -35,8 +35,10 @@
       "to": "Zweilous",
       "details": [
         {
-          "min_level": 50,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 50
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Hydreigon",
       "details": [
         {
-          "min_level": 64,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 64
         }
       ]
     }
@@ -3183,5 +3187,70 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "X": [
+      {
+        "location": "Kalos Victory Road Outside",
+        "method": "Sky Ambush",
+        "chance": 5,
+        "minLevel": 59,
+        "maxLevel": 59
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Victory Road Outside",
+        "method": "Sky Ambush",
+        "chance": 5,
+        "minLevel": 59,
+        "maxLevel": 59
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 68,
+        "maxLevel": 68
+      }
+    ],
+    "Sword": [
+      {
+        "location": "West Lake Axewell Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den I",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den B",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den D",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ]
+  }
 }

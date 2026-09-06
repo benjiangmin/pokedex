@@ -37,8 +37,10 @@
       "to": "Marill",
       "details": [
         {
-          "min_happiness": 160,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 160
         }
       ]
     },
@@ -47,8 +49,10 @@
       "to": "Azumarill",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     }
@@ -3051,47 +3055,10 @@
       {
         "location": "Great Marsh Area 1",
         "method": "Walk",
-        "chance": 1,
-        "minLevel": 24,
-        "maxLevel": 24
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
       },
-      {
-        "location": "Great Marsh Area 2",
-        "method": "Walk",
-        "chance": 1,
-        "minLevel": 24,
-        "maxLevel": 24
-      },
-      {
-        "location": "Great Marsh Area 3",
-        "method": "Walk",
-        "chance": 1,
-        "minLevel": 22,
-        "maxLevel": 22
-      },
-      {
-        "location": "Great Marsh Area 4",
-        "method": "Walk",
-        "chance": 1,
-        "minLevel": 22,
-        "maxLevel": 22
-      },
-      {
-        "location": "Great Marsh Area 5",
-        "method": "Walk",
-        "chance": 4,
-        "minLevel": 20,
-        "maxLevel": 20
-      },
-      {
-        "location": "Great Marsh Area 6",
-        "method": "Walk",
-        "chance": 1,
-        "minLevel": 20,
-        "maxLevel": 20
-      }
-    ],
-    "Pearl": [
       {
         "location": "Great Marsh Area 1",
         "method": "Walk",
@@ -3102,7 +3069,21 @@
       {
         "location": "Great Marsh Area 2",
         "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
         "chance": 1,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
         "minLevel": 24,
         "maxLevel": 24
       },
@@ -3116,7 +3097,21 @@
       {
         "location": "Great Marsh Area 4",
         "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
         "chance": 1,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
         "minLevel": 22,
         "maxLevel": 22
       },
@@ -3130,9 +3125,139 @@
       {
         "location": "Great Marsh Area 6",
         "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
         "chance": 1,
         "minLevel": 20,
         "maxLevel": 20
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 4,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 1,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
       }
     ],
     "Black 2": [
@@ -3239,6 +3364,168 @@
         "chance": 10,
         "minLevel": 7,
         "maxLevel": 7
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Savannah",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Savannah",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Fields Of Honor Max Den C",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den B",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Forest Of Focus Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Insular Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ]
   }

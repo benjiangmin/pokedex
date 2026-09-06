@@ -35,8 +35,10 @@
       "to": "Ursaring",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -45,9 +47,11 @@
       "to": "Ursaluna",
       "details": [
         {
+          "version_group": "Legends Arceus",
+          "is_default": true,
           "item": "Peat Block",
-          "time_of_day": "full-moon",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "time_of_day": "full-moon"
         }
       ]
     }

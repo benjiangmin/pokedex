@@ -34,6 +34,8 @@
       "to": "Mismagius",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
           "item": "Dusk Stone",
           "trigger": "Use Item"
         }
@@ -4344,21 +4346,28 @@
         "maxLevel": 45
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4416,21 +4425,28 @@
         "maxLevel": 45
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Forest",
+        "location": "Johto Safari Zone Forest",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4608,6 +4624,15 @@
         "chance": 2,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Pyrite Town Duel Square",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

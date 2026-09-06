@@ -36,8 +36,10 @@
       "to": "Hariyama",
       "details": [
         {
-          "min_level": 24,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 24
         }
       ]
     }
@@ -3891,6 +3893,13 @@
         "chance": 10,
         "minLevel": 23,
         "maxLevel": 23
+      },
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -3907,6 +3916,13 @@
         "chance": 10,
         "minLevel": 23,
         "maxLevel": 23
+      },
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Sun": [
@@ -3943,6 +3959,24 @@
         "chance": 20,
         "minLevel": 54,
         "maxLevel": 57
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Outer Area",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Outer Area",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ]
   }

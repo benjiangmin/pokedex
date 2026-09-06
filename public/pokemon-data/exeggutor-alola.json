@@ -36,8 +36,18 @@
       "to": "Exeggutor",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Leaf Stone",
           "trigger": "Use Item"
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "item": "Leaf Stone",
+          "trigger": "Use Item",
+          "region": "Alola",
+          "evolved_form": "Exeggutor Alola"
         }
       ]
     }
@@ -1576,6 +1586,38 @@
     ]
   },
   "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
     "Sun": [
       {
         "location": "Exeggutor Island Area",
@@ -1586,7 +1628,7 @@
       },
       {
         "location": "Exeggutor Island Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
@@ -1602,7 +1644,7 @@
       },
       {
         "location": "Exeggutor Island Area",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 40,
         "maxLevel": 40
@@ -1624,6 +1666,24 @@
         "chance": 20,
         "minLevel": 42,
         "maxLevel": 45
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Indigo Plateau Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Indigo Plateau Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
       }
     ]
   }

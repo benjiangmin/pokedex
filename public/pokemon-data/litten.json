@@ -35,8 +35,10 @@
       "to": "Torracat",
       "details": [
         {
-          "min_level": 17,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 17
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Incineroar",
       "details": [
         {
-          "min_level": 34,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 34
         }
       ]
     }
@@ -1157,6 +1161,24 @@
     ]
   },
   "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Alola Route 1 West",

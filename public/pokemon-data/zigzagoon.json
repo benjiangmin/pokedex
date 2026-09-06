@@ -36,8 +36,18 @@
       "to": "Linoone",
       "details": [
         {
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 20
+        },
+        {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 20,
-          "trigger": "Level Up"
+          "base_form": "Zigzagoon Galar",
+          "evolved_form": "Linoone Galar"
         }
       ]
     },
@@ -46,9 +56,12 @@
       "to": "Obstagoon",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 35,
           "time_of_day": "night",
-          "trigger": "Level Up"
+          "base_form": "Linoone Galar"
         }
       ]
     }
@@ -3792,6 +3805,20 @@
         "chance": 10,
         "minLevel": 20,
         "maxLevel": 20
+      },
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Johto Safari Zone Savannah",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
       }
     ],
     "Soulsilver": [
@@ -3976,6 +4003,20 @@
         "chance": 10,
         "minLevel": 20,
         "maxLevel": 20
+      },
+      {
+        "location": "Johto Safari Zone Plains",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "location": "Johto Safari Zone Savannah",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
       }
     ],
     "Ruby": [
@@ -4318,6 +4359,122 @@
         "maxLevel": 26
       }
     ],
+    "Omega Ruby": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 3,
+        "maxLevel": 3
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Horde",
+        "chance": 95,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 102 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 103 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 116 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 4,
+        "maxLevel": 4
+      },
+      {
+        "location": "Hoenn Route 117 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 7,
+        "maxLevel": 7
+      },
+      {
+        "location": "Hoenn Route 104 North Oras",
+        "method": "Horde",
+        "chance": 95,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 104 South Oras",
+        "method": "Horde",
+        "chance": 95,
+        "minLevel": 2,
+        "maxLevel": 2
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 3,
+        "maxLevel": 3
+      },
+      {
+        "location": "Hoenn Route 101 Area",
+        "method": "Horde",
+        "chance": 95,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 102 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 103 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 116 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 4,
+        "maxLevel": 4
+      },
+      {
+        "location": "Hoenn Route 117 Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 7,
+        "maxLevel": 7
+      },
+      {
+        "location": "Hoenn Route 104 North Oras",
+        "method": "Horde",
+        "chance": 95,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 104 South Oras",
+        "method": "Horde",
+        "chance": 95,
+        "minLevel": 2,
+        "maxLevel": 2
+      }
+    ],
     "Emerald": [
       {
         "location": "Hoenn Route 101 Area",
@@ -4420,6 +4577,24 @@
         "chance": 5,
         "minLevel": 4,
         "maxLevel": 4
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Isle Of Armor Caves Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ]
   }

@@ -26,16 +26,20 @@
   "color": "blue",
   "weight": 8,
   "height": 1.2,
-  "abilities": [],
+  "abilities": [
+    "Levitate"
+  ],
   "evolutionChain": [
     {
       "from": "Chingling",
       "to": "Chimecho",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 220,
-          "time_of_day": "night",
-          "trigger": "Level Up"
+          "time_of_day": "night"
         }
       ]
     },
@@ -51,9 +55,9 @@
   ],
   "generation": "generation-iii",
   "sprites": {
-    "static": null,
-    "shiny": null,
-    "animated": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10306.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10306.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10306.png",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10306.png"
   },

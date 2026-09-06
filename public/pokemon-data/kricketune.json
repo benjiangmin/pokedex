@@ -35,8 +35,10 @@
       "to": "Kricketune",
       "details": [
         {
-          "min_level": 10,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 10
         }
       ]
     }
@@ -2847,6 +2849,24 @@
         "maxLevel": 17
       }
     ],
+    "Heartgold": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 30
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 27,
+        "maxLevel": 30
+      }
+    ],
     "Black": [
       {
         "location": "Dreamyard Area",
@@ -2919,6 +2939,80 @@
         "chance": 4,
         "minLevel": 50,
         "maxLevel": 50
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Forest South Of Route 111",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain North Of Lilycove",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain West Of Route 104",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain South Of Route 131",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain North East Of Route 125",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Forest South Of Route 111",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain North Of Lilycove",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain West Of Route 104",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain South Of Route 131",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain North East Of Route 125",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

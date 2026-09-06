@@ -35,8 +35,10 @@
       "to": "Dusclops",
       "details": [
         {
-          "min_level": 37,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Dusknoir",
       "details": [
         {
-          "held_item": "Reaper Cloth",
-          "trigger": "Trade"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Trade",
+          "held_item": "Reaper Cloth"
         }
       ]
     }
@@ -4601,6 +4605,331 @@
         "chance": 4,
         "minLevel": 30,
         "maxLevel": 30
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 48,
+        "maxLevel": 48
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 38,
+        "maxLevel": 38
+      },
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 48,
+        "maxLevel": 48
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 6 Area",
+        "method": "Walk",
+        "chance": 18,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Dusty Bowl Area",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 26,
+        "maxLevel": 29
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 42,
+        "maxLevel": 47
+      },
+      {
+        "location": "Giants Mirror Area 2",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 6 Area",
+        "method": "Walk",
+        "chance": 18,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 28
+      },
+      {
+        "location": "Giants Cap Main",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 33,
+        "maxLevel": 38
+      },
+      {
+        "location": "Giants Seat Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 26,
+        "maxLevel": 29
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 11,
+        "maxLevel": 14
+      },
+      {
+        "location": "Watchtower Ruins Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "South Lake Miloch Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Mirror Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Onbs 3f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 19,
+        "maxLevel": 19
       }
     ]
   }

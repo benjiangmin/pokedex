@@ -36,8 +36,10 @@
       "to": "Ninjask",
       "details": [
         {
-          "min_level": 20,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 20
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Shedinja",
       "details": [
         {
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
           "trigger": "Shed"
         }
       ]
@@ -2645,6 +2649,24 @@
         "maxLevel": 14
       }
     ],
+    "Heartgold": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 36
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 26,
+        "maxLevel": 36
+      }
+    ],
     "Ruby": [
       {
         "location": "Hoenn Route 116 Area",
@@ -2693,6 +2715,24 @@
         "maxLevel": 7
       }
     ],
+    "Omega Ruby": [
+      {
+        "location": "Hoenn Route 116 Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 4,
+        "maxLevel": 4
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Hoenn Route 116 Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 4,
+        "maxLevel": 4
+      }
+    ],
     "X": [
       {
         "location": "Kalos Route 6 Area",
@@ -2700,6 +2740,13 @@
         "chance": 10,
         "minLevel": 12,
         "maxLevel": 12
+      },
+      {
+        "location": "Friend Safari Ground",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -2709,6 +2756,227 @@
         "chance": 10,
         "minLevel": 12,
         "maxLevel": 12
+      },
+      {
+        "location": "Friend Safari Ground",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 5 Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 18
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 7,
+        "maxLevel": 11
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 5 Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 18
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 7,
+        "maxLevel": 11
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dappled Grove Max Den B",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den H",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ]
   }

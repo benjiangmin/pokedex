@@ -4983,19 +4983,12 @@
         "chance": 5,
         "minLevel": 35,
         "maxLevel": 55
-      },
-      {
-        "location": "Union Cave B2f",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 20,
-        "maxLevel": 20
       }
     ],
     "Gold": [
       {
         "location": "Union Cave B2f",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 20,
         "maxLevel": 20
@@ -5004,7 +4997,7 @@
     "Silver": [
       {
         "location": "Union Cave B2f",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 20,
         "maxLevel": 20
@@ -5013,7 +5006,7 @@
     "Crystal": [
       {
         "location": "Union Cave B2f",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 20,
         "maxLevel": 20
@@ -5022,24 +5015,163 @@
     "Heartgold": [
       {
         "location": "Union Cave B2f",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 20,
         "maxLevel": 20
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Surf",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Surf",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Union Cave B2f",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 37,
+        "maxLevel": 37
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 36
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 41,
+        "maxLevel": 41
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 15
+      },
+      {
+        "location": "Johto Safari Zone Rocky Beach",
+        "method": "Surf",
+        "chance": 10,
+        "minLevel": 16,
+        "maxLevel": 16
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Overworld Water Special",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Kanto Sea Route 20 Area",
+        "method": "Overworld Water Special",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Kanto Sea Route 19 Area",
+        "method": "Overworld Water Special",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
+      },
+      {
+        "location": "Kanto Sea Route 20 Area",
+        "method": "Overworld Water Special",
+        "chance": 100,
+        "minLevel": 37,
+        "maxLevel": 42
       }
     ],
     "Firered": [
@@ -5131,6 +5263,13 @@
         "chance": 1,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Friend Safari Ice",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -5154,6 +5293,13 @@
         "chance": 1,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Friend Safari Ice",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Red": [
@@ -5201,20 +5347,572 @@
         "maxLevel": 15
       }
     ],
-    "Soulsilver": [
+    "Sword": [
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
-        "method": "Surf",
-        "chance": 10,
-        "minLevel": 15,
-        "maxLevel": 15
+        "location": "Galar Route 9 Circhester Bay",
+        "method": "Bubbling Spots",
+        "chance": 1,
+        "minLevel": 39,
+        "maxLevel": 43
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
-        "method": "Surf",
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Galar Route 2 Lake",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 55,
+        "maxLevel": 55
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
         "chance": 10,
-        "minLevel": 16,
-        "maxLevel": 16
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den G",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 9 Circhester Bay",
+        "method": "Bubbling Spots",
+        "chance": 1,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 56,
+        "maxLevel": 56
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Galar Route 2 Lake",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 55,
+        "maxLevel": 55
+      },
+      {
+        "location": "West Lake Axewell Max Den B",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den F",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den G",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Cap Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Dusty Bowl Max Den F",
+        "method": "Max Raid",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Frigid Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Frigid Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den O",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Max Den Q",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Frigid Sea Max Den N",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ],
     "Ultra Sun": [
@@ -5307,6 +6005,15 @@
         "chance": 7,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle Dome 1f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 44,
+        "maxLevel": 44
       }
     ]
   }

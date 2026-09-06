@@ -36,8 +36,18 @@
       "to": "Sliggoo",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 40
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 40,
-          "trigger": "Level Up"
+          "region": "Hisui",
+          "evolved_form": "Sliggoo Hisui"
         }
       ]
     },
@@ -46,9 +56,20 @@
       "to": "Goodra",
       "details": [
         {
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 50,
+          "needs_overworld_rain": true
+        },
+        {
+          "version_group": "Legends Arceus",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 50,
           "needs_overworld_rain": true,
-          "trigger": "Level Up"
+          "base_form": "Sliggoo Hisui",
+          "evolved_form": "Goodra Hisui"
         }
       ]
     }
@@ -1327,6 +1348,13 @@
         "chance": 1,
         "minLevel": 48,
         "maxLevel": 48
+      },
+      {
+        "location": "Friend Safari Dragon",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -1378,12 +1406,77 @@
         "chance": 1,
         "minLevel": 48,
         "maxLevel": 48
+      },
+      {
+        "location": "Friend Safari Dragon",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 2,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Rolling Fields Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Axews Eye Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ],
     "Sun": [
       {
         "location": "Exeggutor Island Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 40,
         "maxLevel": 43
@@ -1392,7 +1485,7 @@
     "Moon": [
       {
         "location": "Exeggutor Island Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 40,
         "maxLevel": 43
@@ -1401,7 +1494,7 @@
     "Ultra Sun": [
       {
         "location": "Exeggutor Island Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 42,
         "maxLevel": 45
@@ -1410,10 +1503,54 @@
     "Ultra Moon": [
       {
         "location": "Exeggutor Island Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 10,
         "minLevel": 42,
         "maxLevel": 45
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Loop Lagoon Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Workout Sea Max Den F",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Sea Max Den A",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
       }
     ]
   }

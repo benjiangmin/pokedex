@@ -26,15 +26,19 @@
   "color": "green",
   "weight": 90,
   "height": 1.6,
-  "abilities": [],
+  "abilities": [
+    "Bulletproof"
+  ],
   "evolutionChain": [
     {
       "from": "Chespin",
       "to": "Quilladin",
       "details": [
         {
-          "min_level": 16,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 16
         }
       ]
     },
@@ -43,8 +47,10 @@
       "to": "Chesnaught",
       "details": [
         {
-          "min_level": 36,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
         }
       ]
     },
@@ -60,9 +66,9 @@
   ],
   "generation": "generation-vi",
   "sprites": {
-    "static": null,
-    "shiny": null,
-    "animated": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10292.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10292.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10292.png",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10292.png"
   },

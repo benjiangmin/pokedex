@@ -36,8 +36,10 @@
       "to": "Lumineon",
       "details": [
         {
-          "min_level": 31,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 31
         }
       ]
     }
@@ -3145,7 +3147,7 @@
     "Ultra Sun": [
       {
         "location": "Alola Route 15 Main",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 32,
         "maxLevel": 35
@@ -3168,7 +3170,7 @@
     "Ultra Moon": [
       {
         "location": "Alola Route 15 Main",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 32,
         "maxLevel": 35
@@ -3191,7 +3193,7 @@
     "Sun": [
       {
         "location": "Poni Wilds Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 40,
         "maxLevel": 43
@@ -3207,7 +3209,7 @@
     "Moon": [
       {
         "location": "Poni Wilds Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 40,
         "maxLevel": 43

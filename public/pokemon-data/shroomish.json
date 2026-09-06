@@ -36,8 +36,10 @@
       "to": "Breloom",
       "details": [
         {
-          "min_level": 23,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 23
         }
       ]
     }
@@ -2820,6 +2822,226 @@
     ]
   },
   "locations": {
+    "Diamond": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 26,
+        "maxLevel": 26
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 1",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 2",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 3",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 4",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Great Marsh Area 5",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "location": "Great Marsh Area 6",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 28,
+        "maxLevel": 28
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 5,
+        "maxLevel": 7
+      },
+      {
+        "location": "Johto Safari Zone Savannah",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 5,
+        "maxLevel": 7
+      },
+      {
+        "location": "Johto Safari Zone Savannah",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      }
+    ],
     "Ruby": [
       {
         "location": "Petalburg Woods Area",
@@ -2866,6 +3088,33 @@
         "chance": 5,
         "minLevel": 6,
         "maxLevel": 6
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 3,
+        "maxLevel": 3
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Petalburg Woods Area",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 3,
+        "maxLevel": 3
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Lab Bf1",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ]
   }

@@ -36,8 +36,10 @@
       "to": "Zebstrika",
       "details": [
         {
-          "min_level": 27,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 27
         }
       ]
     }
@@ -1850,6 +1852,13 @@
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 33
+      },
+      {
+        "location": "Unova Route 3 Hidden Grotto Dark Grass",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ],
     "White 2": [
@@ -1908,6 +1917,13 @@
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 33
+      },
+      {
+        "location": "Unova Route 3 Hidden Grotto Dark Grass",
+        "method": "Hidden Grotto",
+        "chance": 5,
+        "minLevel": 55,
+        "maxLevel": 59
       }
     ],
     "Black": [
@@ -1968,6 +1984,98 @@
         "chance": 10,
         "minLevel": 33,
         "maxLevel": 33
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Island West Of Dewford Town",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island West Of Route 104",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island Route 124",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island South Of Route 134",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain South Of Route 129",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Island West Of Dewford Town",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island West Of Route 104",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island Route 124",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Island South Of Route 134",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Mountain South Of Route 129",
+        "method": "Walk",
+        "chance": 60,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Electric",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Electric",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

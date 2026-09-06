@@ -35,8 +35,10 @@
       "to": "Haunter",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     },
@@ -45,6 +47,8 @@
       "to": "Gengar",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "trigger": "Trade"
         }
       ]

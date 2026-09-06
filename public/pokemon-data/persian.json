@@ -36,12 +36,18 @@
       "to": "Persian",
       "details": [
         {
-          "min_level": 28,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 28
         },
         {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
-          "trigger": "Level Up"
+          "base_form": "Meowth Alola",
+          "evolved_form": "Persian Alola"
         }
       ]
     },
@@ -50,8 +56,11 @@
       "to": "Perrserker",
       "details": [
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 28,
-          "trigger": "Level Up"
+          "base_form": "Meowth Galar"
         }
       ]
     }
@@ -4660,6 +4669,15 @@
     ]
   },
   "locations": {
+    "Lets Go Pikachu": [
+      {
+        "location": "Vermilion City Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 32,
+        "maxLevel": 32
+      }
+    ],
     "Silver": [
       {
         "location": "Kanto Route 7 Area",
@@ -4955,6 +4973,42 @@
         "chance": 1,
         "minLevel": 52,
         "maxLevel": 52
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Island Route 124",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Island Route 124",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

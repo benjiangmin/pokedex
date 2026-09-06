@@ -35,8 +35,10 @@
       "to": "Donphan",
       "details": [
         {
-          "min_level": 25,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 25
         }
       ]
     }
@@ -3499,6 +3501,33 @@
         "chance": 20,
         "minLevel": 15,
         "maxLevel": 15
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Pokespot Oasis",
+        "method": "Pokespot",
+        "chance": 35,
+        "minLevel": 10,
+        "maxLevel": 20
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Ground",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Ground",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

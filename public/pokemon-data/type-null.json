@@ -34,8 +34,10 @@
       "to": "Silvally",
       "details": [
         {
-          "min_happiness": 160,
-          "trigger": "Level Up"
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_happiness": 160
         }
       ]
     }
@@ -809,6 +811,24 @@
     ]
   },
   "locations": {
+    "Sword": [
+      {
+        "location": "Galar Battle Tower Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Battle Tower Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 50,
+        "maxLevel": 50
+      }
+    ],
     "Sun": [
       {
         "location": "Aether Paradise 2f",

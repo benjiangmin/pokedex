@@ -25,15 +25,19 @@
   "color": "blue",
   "weight": 180,
   "height": 3,
-  "abilities": [],
+  "abilities": [
+    "Eelevate"
+  ],
   "evolutionChain": [
     {
       "from": "Tynamo",
       "to": "Eelektrik",
       "details": [
         {
-          "min_level": 39,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 39
         }
       ]
     },
@@ -42,6 +46,8 @@
       "to": "Eelektross",
       "details": [
         {
+          "version_group": "Black White",
+          "is_default": true,
           "item": "Thunder Stone",
           "trigger": "Use Item"
         }
@@ -59,9 +65,9 @@
   ],
   "generation": "generation-v",
   "sprites": {
-    "static": null,
-    "shiny": null,
-    "animated": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10290.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10290.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10290.png",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10290.png"
   },

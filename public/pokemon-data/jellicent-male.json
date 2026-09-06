@@ -1,0 +1,3015 @@
+{
+  "id": 593,
+  "slug": "jellicent-male",
+  "isDefault": true,
+  "isMega": false,
+  "isAlolan": false,
+  "isHisuian": false,
+  "isGalarian": false,
+  "isPaldean": false,
+  "isGmax": false,
+  "name": {
+    "english": "Jellicent (Male)"
+  },
+  "type": [
+    "Water",
+    "Ghost"
+  ],
+  "base": {
+    "HP": 100,
+    "Attack": 60,
+    "Defense": 70,
+    "Special Attack": 85,
+    "Special Defense": 105,
+    "Speed": 60
+  },
+  "color": "white",
+  "weight": 135,
+  "height": 2.2,
+  "abilities": [
+    "Water Absorb",
+    "Cursed Body",
+    "Damp"
+  ],
+  "evolutionChain": [
+    {
+      "from": "Frillish",
+      "to": "Jellicent",
+      "details": [
+        {
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 40
+        }
+      ]
+    }
+  ],
+  "generation": "generation-v",
+  "sprites": {
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/593.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/593.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/593.gif",
+    "background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/593.svg",
+    "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/593.png"
+  },
+  "description": "Whenever a full moon hangs in the night sky, schools of Jellicent gather near the surface of the sea, waiting for their prey to appear.",
+  "isLegendary": false,
+  "isMythical": false,
+  "category": "Floating Pokémon",
+  "versions": [
+    "black",
+    "white",
+    "black-2",
+    "white-2",
+    "ultra-sun",
+    "ultra-moon",
+    "sword",
+    "shield"
+  ],
+  "moves": {
+    "BW2": [
+      {
+        "name": "Bind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Spite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pain Split",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Magic Coat",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 69
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 45
+      }
+    ],
+    "ORAS": [
+      {
+        "name": "Bind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Spite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pain Split",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Magic Coat",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Secret Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 69
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "USUM": [
+      {
+        "name": "Bind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Spite",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Pain Split",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Magic Coat",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 69
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Shock Wave",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "tutor",
+        "level_learned": 0
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "SWSH": [
+      {
+        "name": "Poison Sting",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Gun",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 43
+      },
+      {
+        "name": "Hydro Pump",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 28
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Acid Armor",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Snore",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Destiny Bond",
+        "learn_method": "level-up",
+        "level_learned": 48
+      },
+      {
+        "name": "Icy Wind",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Drain",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Endure",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 16
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Whirlpool",
+        "learn_method": "level-up",
+        "level_learned": 36
+      },
+      {
+        "name": "Whirlpool",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Imprison",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 54
+      },
+      {
+        "name": "Muddy Water",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 12
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 24
+      },
+      {
+        "name": "Brine",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 20
+      },
+      {
+        "name": "Hex",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Poltergeist",
+        "learn_method": "tutor",
+        "level_learned": 0
+      }
+    ],
+    "BW": [
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dive",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 69
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 45
+      }
+    ],
+    "XY": [
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Flash",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 69
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ],
+    "SM": [
+      {
+        "name": "Hydro Pump",
+        "learn_method": "level-up",
+        "level_learned": 53
+      },
+      {
+        "name": "Surf",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ice Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Blizzard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble Beam",
+        "learn_method": "level-up",
+        "level_learned": 13
+      },
+      {
+        "name": "Hyper Beam",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Absorb",
+        "learn_method": "level-up",
+        "level_learned": 5
+      },
+      {
+        "name": "Toxic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psychic",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Night Shade",
+        "learn_method": "level-up",
+        "level_learned": 9
+      },
+      {
+        "name": "Double Team",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Recover",
+        "learn_method": "level-up",
+        "level_learned": 17
+      },
+      {
+        "name": "Waterfall",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dream Eater",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Bubble",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Rest",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Substitute",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Protect",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sludge Bomb",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Swagger",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Attract",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Sleep Talk",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Return",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Frustration",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Safeguard",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hidden Power",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "level-up",
+        "level_learned": 37
+      },
+      {
+        "name": "Rain Dance",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Psych Up",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Shadow Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hail",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Will O Wisp",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Facade",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Taunt",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Spout",
+        "learn_method": "level-up",
+        "level_learned": 69
+      },
+      {
+        "name": "Water Sport",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Water Pulse",
+        "learn_method": "level-up",
+        "level_learned": 22
+      },
+      {
+        "name": "Brine",
+        "learn_method": "level-up",
+        "level_learned": 32
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 1
+      },
+      {
+        "name": "Wring Out",
+        "learn_method": "level-up",
+        "level_learned": 61
+      },
+      {
+        "name": "Dark Pulse",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Energy Ball",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Giga Impact",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Trick Room",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Ominous Wind",
+        "learn_method": "level-up",
+        "level_learned": 27
+      },
+      {
+        "name": "Sludge Wave",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Round",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Scald",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Hex",
+        "learn_method": "level-up",
+        "level_learned": 45
+      },
+      {
+        "name": "Confide",
+        "learn_method": "machine",
+        "level_learned": 0
+      },
+      {
+        "name": "Dazzling Gleam",
+        "learn_method": "machine",
+        "level_learned": 0
+      }
+    ]
+  },
+  "locations": {
+    "Black": [
+      {
+        "location": "Driftveil City Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 10,
+        "maxLevel": 30
+      },
+      {
+        "location": "P2 Laboratory Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 4 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 18 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 17 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      }
+    ],
+    "White": [
+      {
+        "location": "Driftveil City Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 10,
+        "maxLevel": 30
+      },
+      {
+        "location": "P2 Laboratory Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 4 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 18 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 17 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "P2 Laboratory Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 50,
+        "maxLevel": 60
+      },
+      {
+        "location": "Undella Bay Area",
+        "method": "Surf Spots",
+        "chance": 60,
+        "minLevel": 25,
+        "maxLevel": 40
+      },
+      {
+        "location": "Undella Bay Area",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 4 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 13 Area",
+        "method": "Surf Spots",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 18 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 50,
+        "maxLevel": 60
+      },
+      {
+        "location": "Undella Town Area",
+        "method": "Surf Spots",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 17 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 50,
+        "maxLevel": 60
+      },
+      {
+        "location": "Virbank City Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Humilau City Area",
+        "method": "Surf Spots",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 45
+      },
+      {
+        "location": "Virbank Complex Outer",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Seaside Cave 1f",
+        "method": "Surf Spots",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 21 Area",
+        "method": "Surf Spots",
+        "chance": 60,
+        "minLevel": 30,
+        "maxLevel": 45
+      }
+    ],
+    "White 2": [
+      {
+        "location": "P2 Laboratory Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 50,
+        "maxLevel": 60
+      },
+      {
+        "location": "Undella Bay Area",
+        "method": "Surf Spots",
+        "chance": 60,
+        "minLevel": 25,
+        "maxLevel": 40
+      },
+      {
+        "location": "Undella Bay Area",
+        "method": "Static",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 4 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 20
+      },
+      {
+        "location": "Unova Route 13 Area",
+        "method": "Surf Spots",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 18 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 50,
+        "maxLevel": 60
+      },
+      {
+        "location": "Undella Town Area",
+        "method": "Surf Spots",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 17 Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 50,
+        "maxLevel": 60
+      },
+      {
+        "location": "Virbank City Area",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Humilau City Area",
+        "method": "Surf Spots",
+        "chance": 60,
+        "minLevel": 35,
+        "maxLevel": 45
+      },
+      {
+        "location": "Virbank Complex Outer",
+        "method": "Surf Spots",
+        "chance": 4,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Seaside Cave 1f",
+        "method": "Surf Spots",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 40
+      },
+      {
+        "location": "Unova Route 21 Area",
+        "method": "Surf Spots",
+        "chance": 60,
+        "minLevel": 30,
+        "maxLevel": 45
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 9 Main",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 41,
+        "maxLevel": 44
+      },
+      {
+        "location": "Galar Route 9 Main",
+        "method": "Overworld Water",
+        "chance": 5,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Galar Route 9 Outer Spikemuth",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 40,
+        "maxLevel": 44
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 16,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 16,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 9 Main",
+        "method": "Overworld",
+        "chance": 35,
+        "minLevel": 41,
+        "maxLevel": 44
+      },
+      {
+        "location": "Galar Route 9 Main",
+        "method": "Overworld Water",
+        "chance": 5,
+        "minLevel": 39,
+        "maxLevel": 43
+      },
+      {
+        "location": "Galar Route 9 Outer Spikemuth",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 40,
+        "maxLevel": 44
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Bridge Field Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "East Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 16,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 16,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "North Lake Miloch Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "South Lake Miloch Main",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 46,
+        "maxLevel": 46
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Max Den E",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Watchtower Ruins Max Den C",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stony Wilderness Max Den F",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Mirror Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Challenge Beach Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Insular Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Loop Lagoon Area",
+        "method": "Wanderer Water",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Stepping Stone Sea Main",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Workout Sea Area",
+        "method": "Overworld Water",
+        "chance": 1,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Challenge Beach Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Courageous Cavern Max Den D",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 25,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Stepping Stone Sea Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 65,
+        "maxLevel": 65
+      }
+    ]
+  }
+}

@@ -35,8 +35,10 @@
       "to": "Floatzel",
       "details": [
         {
-          "min_level": 26,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 26
         }
       ]
     }
@@ -3781,14 +3783,21 @@
         "maxLevel": 59
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 30,
         "minLevel": 57,
         "maxLevel": 57
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 4,
         "minLevel": 59,
@@ -3807,6 +3816,20 @@
         "chance": 4,
         "minLevel": 59,
         "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Friend Safari Water",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -3951,14 +3974,21 @@
         "maxLevel": 59
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 30,
         "minLevel": 57,
         "maxLevel": 57
       },
       {
-        "location": "Kalos Victory Road Unknown Area 327",
+        "location": "Kalos Victory Road Outside",
         "method": "Surf",
         "chance": 4,
         "minLevel": 59,
@@ -3977,12 +4007,44 @@
         "chance": 4,
         "minLevel": 59,
         "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 29,
+        "maxLevel": 29
+      },
+      {
+        "location": "Friend Safari Water",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Swamp",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 44,
+        "maxLevel": 44
       }
     ],
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Waterfall",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -3991,7 +4053,7 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Waterfall",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60

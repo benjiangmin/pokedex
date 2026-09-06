@@ -36,8 +36,10 @@
       "to": "Nuzleaf",
       "details": [
         {
-          "min_level": 14,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 14
         }
       ]
     },
@@ -46,6 +48,8 @@
       "to": "Shiftry",
       "details": [
         {
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
           "item": "Leaf Stone",
           "trigger": "Use Item"
         }
@@ -3255,6 +3259,52 @@
         "maxLevel": 21
       }
     ],
+    "Heartgold": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Headbutt",
+        "chance": 15,
+        "minLevel": 5,
+        "maxLevel": 7
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Viridian Forest Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 3,
+        "maxLevel": 4
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Headbutt",
+        "chance": 5,
+        "minLevel": 5,
+        "maxLevel": 7
+      },
+      {
+        "location": "Johto Safari Zone Meadow",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 45,
+        "maxLevel": 45
+      }
+    ],
     "Ruby": [
       {
         "location": "Hoenn Route 102 Area",
@@ -3306,6 +3356,124 @@
         "chance": 1,
         "minLevel": 25,
         "maxLevel": 25
+      },
+      {
+        "location": "Rustboro City Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 4,
+        "maxLevel": 100
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Hoenn Route 102 Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 2,
+        "maxLevel": 2
+      },
+      {
+        "location": "Hoenn Route 114 Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 9,
+        "maxLevel": 9
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Galar Route 2 Main",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 4,
+        "maxLevel": 6
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 11,
+        "maxLevel": 15
+      },
+      {
+        "location": "Dappled Grove Area",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 8,
+        "maxLevel": 14
+      },
+      {
+        "location": "West Lake Axewell Area",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Galar Route 2 Lakeside",
+        "method": "Walk",
+        "chance": 20,
+        "minLevel": 37,
+        "maxLevel": 40
+      },
+      {
+        "location": "Dappled Grove Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dappled Grove Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dappled Grove Max Den D",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Dappled Grove Max Den E",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den C",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Stony Wilderness Max Den J",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Cipher Lab Outside",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 17,
+        "maxLevel": 17
       }
     ]
   }

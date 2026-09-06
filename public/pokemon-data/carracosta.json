@@ -37,8 +37,10 @@
       "to": "Carracosta",
       "details": [
         {
-          "min_level": 37,
-          "trigger": "Level Up"
+          "version_group": "Black White",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
         }
       ]
     }
@@ -2168,5 +2170,24 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Frigid Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 67,
+        "maxLevel": 67
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Frigid Sea Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 67,
+        "maxLevel": 67
+      }
+    ]
+  }
 }

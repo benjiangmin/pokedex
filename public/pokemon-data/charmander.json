@@ -35,8 +35,10 @@
       "to": "Charmeleon",
       "details": [
         {
-          "min_level": 16,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 16
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Charizard",
       "details": [
         {
-          "min_level": 36,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
         }
       ]
     }
@@ -4690,6 +4694,80 @@
         "maxLevel": 5
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Rock Tunnel 1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Rock Tunnel B1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 3 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 8
+      },
+      {
+        "location": "Kanto Route 4 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 7,
+        "maxLevel": 12
+      },
+      {
+        "location": "Kanto Route 24 Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 14
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Rock Tunnel 1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Rock Tunnel B1f",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 18,
+        "maxLevel": 23
+      },
+      {
+        "location": "Kanto Route 3 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 8
+      },
+      {
+        "location": "Kanto Route 4 Area",
+        "method": "Overworld Special",
+        "chance": 100,
+        "minLevel": 7,
+        "maxLevel": 12
+      },
+      {
+        "location": "Kanto Route 24 Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 14
+      }
+    ],
     "Yellow": [
       {
         "location": "Kanto Route 24 Area",
@@ -4733,6 +4811,80 @@
         "chance": 100,
         "minLevel": 12,
         "maxLevel": 12
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Postwick Leons Room",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Postwick Leons Room",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Lake Of Outrage Max Den C",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Hammerlocke Hills Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ]
   }

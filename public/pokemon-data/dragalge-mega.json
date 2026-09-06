@@ -26,15 +26,19 @@
   "color": "brown",
   "weight": 100.3,
   "height": 2.1,
-  "abilities": [],
+  "abilities": [
+    "Regenerator"
+  ],
   "evolutionChain": [
     {
       "from": "Skrelp",
       "to": "Dragalge",
       "details": [
         {
-          "min_level": 48,
-          "trigger": "Level Up"
+          "version_group": "X Y",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 48
         }
       ]
     },
@@ -50,9 +54,9 @@
   ],
   "generation": "generation-vi",
   "sprites": {
-    "static": null,
-    "shiny": null,
-    "animated": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10299.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10299.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10299.png",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10299.png"
   },

@@ -37,8 +37,10 @@
       "to": "Breloom",
       "details": [
         {
-          "min_level": 23,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 23
         }
       ]
     }
@@ -3740,5 +3742,60 @@
       }
     ]
   },
-  "locations": {}
+  "locations": {
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Wasteland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Wasteland",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 46,
+        "maxLevel": 46
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Black 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Inner Area",
+        "method": "Hidden Grotto",
+        "chance": 19,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ],
+    "White 2": [
+      {
+        "location": "Pinwheel Forest Hidden Grotto Inner Area",
+        "method": "Hidden Grotto",
+        "chance": 19,
+        "minLevel": 55,
+        "maxLevel": 59
+      }
+    ]
+  }
 }

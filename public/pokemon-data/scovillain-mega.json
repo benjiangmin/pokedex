@@ -26,13 +26,17 @@
   "color": "green",
   "weight": 22,
   "height": 1.2,
-  "abilities": [],
+  "abilities": [
+    "Spicy Spray"
+  ],
   "evolutionChain": [
     {
       "from": "Capsakid",
       "to": "Scovillain",
       "details": [
         {
+          "version_group": "Scarlet Violet",
+          "is_default": true,
           "item": "Fire Stone",
           "trigger": "Use Item"
         }
@@ -50,9 +54,9 @@
   ],
   "generation": "generation-ix",
   "sprites": {
-    "static": null,
-    "shiny": null,
-    "animated": null,
+    "static": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10320.png",
+    "shiny": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/10320.png",
+    "animated": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10320.png",
     "background": null,
     "backup_background": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10320.png"
   },

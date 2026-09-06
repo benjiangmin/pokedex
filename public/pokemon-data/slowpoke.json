@@ -37,12 +37,18 @@
       "to": "Slowbro",
       "details": [
         {
-          "min_level": 37,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 37
         },
         {
+          "version_group": "The Isle Of Armor",
+          "is_default": true,
           "item": "Galarica Cuff",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Slowpoke Galar",
+          "evolved_form": "Slowbro Galar"
         }
       ]
     },
@@ -51,12 +57,18 @@
       "to": "Slowking",
       "details": [
         {
-          "held_item": "Kings Rock",
-          "trigger": "Trade"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Trade",
+          "held_item": "Kings Rock"
         },
         {
+          "version_group": "The Isle Of Armor",
+          "is_default": true,
           "item": "Galarica Wreath",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Slowpoke Galar",
+          "evolved_form": "Slowking Galar"
         }
       ]
     }
@@ -5588,21 +5600,21 @@
         "maxLevel": 20
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -5695,21 +5707,21 @@
         "maxLevel": 20
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 16,
         "maxLevel": 16
       },
       {
-        "location": "Johto Safari Zone Zone Rocky Beach",
+        "location": "Johto Safari Zone Rocky Beach",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -6907,6 +6919,80 @@
         "maxLevel": 35
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Seafoam Islands 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Seafoam Islands 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      }
+    ],
     "Red Japan": [
       {
         "location": "Seafoam Islands 1f",
@@ -7146,6 +7232,13 @@
         "chance": 10,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Azure Bay Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 13,
+        "maxLevel": 13
       }
     ],
     "Y": [
@@ -7197,6 +7290,31 @@
         "chance": 10,
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "location": "Azure Bay Area",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 13,
+        "maxLevel": 13
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ],
     "Sun": [
@@ -7373,6 +7491,38 @@
         "chance": 2,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Cave South Of Pacifidlog",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Fallarbor",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Cave South Of Pacifidlog",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 36,
+        "maxLevel": 38
+      },
+      {
+        "location": "Mirage Spot Cave North Of Fallarbor",
+        "method": "Walk",
+        "chance": 40,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

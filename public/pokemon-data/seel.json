@@ -36,8 +36,10 @@
       "to": "Dewgong",
       "details": [
         {
-          "min_level": 34,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 34
         }
       ]
     }
@@ -4373,6 +4375,13 @@
         "chance": 5,
         "minLevel": 29,
         "maxLevel": 29
+      },
+      {
+        "location": "Cinnabar Island Cinnabar Lab",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 100
       }
     ],
     "Blue": [
@@ -4438,6 +4447,87 @@
         "chance": 5,
         "minLevel": 29,
         "maxLevel": 29
+      },
+      {
+        "location": "Cinnabar Island Cinnabar Lab",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 28,
+        "maxLevel": 100
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Seafoam Islands 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Seafoam Islands 1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B1f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B2f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B3f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
+      },
+      {
+        "location": "Seafoam Islands B4f",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 39,
+        "maxLevel": 44
       }
     ],
     "Red Japan": [
@@ -4754,6 +4844,13 @@
         "chance": 10,
         "minLevel": 47,
         "maxLevel": 47
+      },
+      {
+        "location": "Cinnabar Island Cinnabar Lab",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
       }
     ],
     "Leafgreen": [
@@ -4889,6 +4986,13 @@
         "chance": 10,
         "minLevel": 47,
         "maxLevel": 47
+      },
+      {
+        "location": "Cinnabar Island Cinnabar Lab",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 100
       }
     ],
     "Black": [
@@ -5083,6 +5187,15 @@
         "chance": 4,
         "minLevel": 49,
         "maxLevel": 55
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Phenac City Stadium",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 23,
+        "maxLevel": 23
       }
     ]
   }

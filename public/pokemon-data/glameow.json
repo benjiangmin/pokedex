@@ -36,8 +36,10 @@
       "to": "Purugly",
       "details": [
         {
-          "min_level": 38,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 38
         }
       ]
     }
@@ -2849,6 +2851,24 @@
         "chance": 20,
         "minLevel": 40,
         "maxLevel": 40
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Mirage Spot Forest East Of Mossdeep",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Mirage Spot Forest East Of Mossdeep",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 36,
+        "maxLevel": 38
       }
     ]
   }

@@ -36,9 +36,11 @@
       "to": "Vespiquen",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
           "gender": 1,
-          "min_level": 21,
-          "trigger": "Level Up"
+          "min_level": 21
         }
       ]
     }
@@ -506,6 +508,751 @@
     ]
   },
   "locations": {
+    "Diamond": [
+      {
+        "location": "Valley Windworks Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fuego Ironworks Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 South Towards Floaroma Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 206 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 South Towards Solaceon Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 211 East Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 215 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Floaroma Meadow Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Valley Windworks Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fuego Ironworks Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 South Towards Floaroma Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 206 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 South Towards Solaceon Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 211 East Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 215 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Floaroma Meadow Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Valley Windworks Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Eterna Forest Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Fuego Ironworks Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 South Towards Floaroma Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 205 East Towards Eterna City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 206 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 207 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 208 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 209 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 South Towards Solaceon Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 210 West Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 211 East Towards Celestic Town",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 North Towards Hearthome City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 212 East Towards Pastoria City",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 213 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 214 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 215 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 218 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 221 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Sinnoh Route 222 Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      },
+      {
+        "location": "Floaroma Meadow Area",
+        "method": "Honey Tree",
+        "chance": 40,
+        "minLevel": 5,
+        "maxLevel": 15
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 34
+      },
+      {
+        "location": "Cerulean City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "Cerulean City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Vermilion City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "Vermilion City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Celadon City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 17
+      },
+      {
+        "location": "Celadon City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Kanto Route 5 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "Kanto Route 5 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 6 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "Kanto Route 6 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 7 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 17
+      },
+      {
+        "location": "Kanto Route 7 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 16,
+        "maxLevel": 17
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 18,
+        "maxLevel": 19
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 14
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 27
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 29,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Headbutt",
+        "chance": 50,
+        "minLevel": 10,
+        "maxLevel": 14
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 14
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "National Park Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 27,
+        "maxLevel": 34
+      },
+      {
+        "location": "Cerulean City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "Cerulean City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Vermilion City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "Vermilion City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Celadon City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 17
+      },
+      {
+        "location": "Celadon City Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Kanto Route 5 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "Kanto Route 5 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 6 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 11,
+        "maxLevel": 13
+      },
+      {
+        "location": "Kanto Route 6 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 7 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 17
+      },
+      {
+        "location": "Kanto Route 7 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 18,
+        "maxLevel": 20
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 16,
+        "maxLevel": 17
+      },
+      {
+        "location": "Kanto Route 8 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 18,
+        "maxLevel": 19
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 14
+      },
+      {
+        "location": "Kanto Route 11 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 16
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 26,
+        "maxLevel": 27
+      },
+      {
+        "location": "Kanto Route 16 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 29,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Headbutt",
+        "chance": 50,
+        "minLevel": 10,
+        "maxLevel": 14
+      },
+      {
+        "location": "Kanto Route 25 Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 13,
+        "maxLevel": 14
+      }
+    ],
     "Black": [
       {
         "location": "Unova Route 12 Area",
@@ -566,6 +1313,13 @@
         "chance": 10,
         "minLevel": 22,
         "maxLevel": 22
+      },
+      {
+        "location": "Lostlorn Forest Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 20,
+        "maxLevel": 24
       }
     ],
     "White 2": [
@@ -596,6 +1350,13 @@
         "chance": 10,
         "minLevel": 22,
         "maxLevel": 22
+      },
+      {
+        "location": "Lostlorn Forest Hidden Grotto",
+        "method": "Hidden Grotto",
+        "chance": 75,
+        "minLevel": 20,
+        "maxLevel": 24
       }
     ],
     "X": [
@@ -626,6 +1387,20 @@
         "chance": 10,
         "minLevel": 8,
         "maxLevel": 8
+      },
+      {
+        "location": "Friend Safari Bug",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kalos Berry Fields Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 15
       }
     ],
     "Y": [
@@ -656,6 +1431,532 @@
         "chance": 10,
         "minLevel": 8,
         "maxLevel": 8
+      },
+      {
+        "location": "Friend Safari Bug",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      },
+      {
+        "location": "Kalos Berry Fields Area",
+        "method": "Berry Trees",
+        "chance": 100,
+        "minLevel": 14,
+        "maxLevel": 15
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 43,
+        "maxLevel": 48
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Walk",
+        "chance": 30,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 40,
+        "maxLevel": 45
+      },
+      {
+        "location": "Honeycalm Island Area",
+        "method": "Overworld",
+        "chance": 82,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den A",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den B",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den C",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den D",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den E",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 55,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Honeycalm Island Max Den F",
+        "method": "Max Raid",
+        "chance": 49,
+        "minLevel": 45,
+        "maxLevel": 50
+      }
+    ],
+    "Sword": [
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Main",
+        "method": "Overworld",
+        "chance": 60,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 7,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Area 2",
+        "method": "Overworld",
+        "chance": 25,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "South Lake Miloch Max Den A",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den I",
+        "method": "Max Raid",
+        "chance": 35,
+        "minLevel": 15,
+        "maxLevel": 20
       }
     ]
   }

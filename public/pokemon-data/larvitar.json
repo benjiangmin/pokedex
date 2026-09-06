@@ -36,8 +36,10 @@
       "to": "Pupitar",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -46,8 +48,10 @@
       "to": "Tyranitar",
       "details": [
         {
-          "min_level": 55,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 55
         }
       ]
     }
@@ -4252,6 +4256,13 @@
         "chance": 4,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 40,
+        "maxLevel": 40
       }
     ],
     "Heartgold": [
@@ -4361,7 +4372,14 @@
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4475,7 +4493,14 @@
         "maxLevel": 15
       },
       {
-        "location": "Johto Safari Zone Zone Mountain",
+        "location": "Johto Safari Zone Mountain",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 42,
+        "maxLevel": 42
+      },
+      {
+        "location": "Johto Safari Zone Mountain",
         "method": "Walk",
         "chance": 10,
         "minLevel": 17,
@@ -4514,6 +4539,110 @@
         "maxLevel": 20
       }
     ],
+    "Y": [
+      {
+        "location": "Terminus Cave 1f",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Terminus Cave B1f Left",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Terminus Cave B1f Right",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Terminus Cave B2f",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      },
+      {
+        "location": "Terminus Cave Zygardes Chamber",
+        "method": "Horde",
+        "chance": 5,
+        "minLevel": 24,
+        "maxLevel": 24
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 50,
+        "maxLevel": 52
+      },
+      {
+        "location": "Lake Of Outrage Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den H",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Giants Seat Max Den B",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 20,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Stony Wilderness Max Den L",
+        "method": "Max Raid",
+        "chance": 40,
+        "minLevel": 35,
+        "maxLevel": 40
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Roaring Sea Caves Area",
+        "method": "Overworld",
+        "chance": 10,
+        "minLevel": 60,
+        "maxLevel": 65
+      }
+    ],
     "Ultra Sun": [
       {
         "location": "Digletts Tunnel Area",
@@ -4530,6 +4659,15 @@
         "chance": 10,
         "minLevel": 20,
         "maxLevel": 23
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Pyrite Town Dukings House",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
       }
     ]
   }

@@ -35,8 +35,10 @@
       "to": "Loudred",
       "details": [
         {
-          "min_level": 20,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 20
         }
       ]
     },
@@ -45,8 +47,10 @@
       "to": "Exploud",
       "details": [
         {
-          "min_level": 40,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 40
         }
       ]
     }
@@ -3924,6 +3928,24 @@
         "maxLevel": 38
       }
     ],
+    "Omega Ruby": [
+      {
+        "location": "Rusturf Tunnel Area",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Rusturf Tunnel Area",
+        "method": "Horde",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
     "X": [
       {
         "location": "Connecting Cave Area",
@@ -3945,6 +3967,13 @@
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Connecting Cave Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 7,
+        "maxLevel": 7
       }
     ],
     "Y": [
@@ -3968,6 +3997,129 @@
         "chance": 10,
         "minLevel": 15,
         "maxLevel": 15
+      },
+      {
+        "location": "Connecting Cave Area",
+        "method": "Horde",
+        "chance": 60,
+        "minLevel": 7,
+        "maxLevel": 7
+      }
+    ],
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 56,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 56,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 56,
+        "minLevel": 13,
+        "maxLevel": 18
+      },
+      {
+        "location": "Brawlers Cave Area",
+        "method": "Overworld",
+        "chance": 56,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Soothing Wetlands Max Den E",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Courageous Cavern Max Den F",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 60,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Training Lowlands Max Den D",
+        "method": "Max Raid",
+        "chance": 30,
+        "minLevel": 25,
+        "maxLevel": 30
       }
     ]
   }

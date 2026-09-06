@@ -34,8 +34,10 @@
       "to": "Vigoroth",
       "details": [
         {
-          "min_level": 18,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 18
         }
       ]
     },
@@ -44,8 +46,10 @@
       "to": "Slaking",
       "details": [
         {
-          "min_level": 36,
-          "trigger": "Level Up"
+          "version_group": "Ruby Sapphire",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 36
         }
       ]
     }
@@ -3948,6 +3952,24 @@
         "chance": 5,
         "minLevel": 57,
         "maxLevel": 57
+      }
+    ],
+    "Heartgold": [
+      {
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
+      }
+    ],
+    "Soulsilver": [
+      {
+        "location": "Johto Safari Zone Peak",
+        "method": "Walk",
+        "chance": 10,
+        "minLevel": 47,
+        "maxLevel": 47
       }
     ],
     "Sun": [

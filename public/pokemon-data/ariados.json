@@ -37,8 +37,10 @@
       "to": "Ariados",
       "details": [
         {
-          "min_level": 22,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 22
         }
       ]
     }
@@ -3325,6 +3327,59 @@
         "chance": 4,
         "minLevel": 7,
         "maxLevel": 7
+      },
+      {
+        "location": "Viridian Forest Area",
+        "method": "Headbutt",
+        "chance": 10,
+        "minLevel": 5,
+        "maxLevel": 7
+      }
+    ],
+    "Omega Ruby": [
+      {
+        "location": "Sky Pillar 1f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Sky Pillar 3f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Sky Pillar 5f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      }
+    ],
+    "Alpha Sapphire": [
+      {
+        "location": "Sky Pillar 1f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Sky Pillar 3f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
+      },
+      {
+        "location": "Sky Pillar 5f",
+        "method": "Horde",
+        "chance": 35,
+        "minLevel": 23,
+        "maxLevel": 23
       }
     ],
     "Black": [
@@ -3357,6 +3412,150 @@
         "chance": 5,
         "minLevel": 49,
         "maxLevel": 49
+      }
+    ],
+    "X": [
+      {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Ceiling Ambush",
+        "chance": 33,
+        "minLevel": 58,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Ceiling Ambush",
+        "chance": 33,
+        "minLevel": 58,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Ceiling Ambush",
+        "chance": 33,
+        "minLevel": 58,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Ceiling Ambush",
+        "chance": 33,
+        "minLevel": 58,
+        "maxLevel": 59
+      },
+      {
+        "location": "Terminus Cave 1f",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B1f Left",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B1f Right",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B2f",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave Zygardes Chamber",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Friend Safari Poison",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Kalos Victory Road Unknown Area 322",
+        "method": "Ceiling Ambush",
+        "chance": 33,
+        "minLevel": 58,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 324",
+        "method": "Ceiling Ambush",
+        "chance": 33,
+        "minLevel": 58,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 326",
+        "method": "Ceiling Ambush",
+        "chance": 33,
+        "minLevel": 58,
+        "maxLevel": 59
+      },
+      {
+        "location": "Kalos Victory Road Unknown Area 328",
+        "method": "Ceiling Ambush",
+        "chance": 33,
+        "minLevel": 58,
+        "maxLevel": 59
+      },
+      {
+        "location": "Terminus Cave 1f",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B1f Left",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B1f Right",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave B2f",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Terminus Cave Zygardes Chamber",
+        "method": "Ceiling Ambush",
+        "chance": 80,
+        "minLevel": 44,
+        "maxLevel": 46
+      },
+      {
+        "location": "Friend Safari Poison",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Sun": [
@@ -3457,7 +3656,7 @@
       },
       {
         "location": "Alola Route 17 West",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 33,
         "maxLevel": 36
@@ -3512,6 +3711,15 @@
         "chance": 20,
         "minLevel": 33,
         "maxLevel": 36
+      }
+    ],
+    "Colosseum": [
+      {
+        "location": "Shadow Pokemon Lab Bf2",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 43,
+        "maxLevel": 43
       }
     ]
   }

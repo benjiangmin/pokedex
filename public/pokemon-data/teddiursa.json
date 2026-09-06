@@ -36,8 +36,10 @@
       "to": "Ursaring",
       "details": [
         {
-          "min_level": 30,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 30
         }
       ]
     },
@@ -46,9 +48,11 @@
       "to": "Ursaluna",
       "details": [
         {
+          "version_group": "Legends Arceus",
+          "is_default": true,
           "item": "Peat Block",
-          "time_of_day": "full-moon",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "time_of_day": "full-moon"
         }
       ]
     }
@@ -4628,48 +4632,6 @@
         "chance": 10,
         "minLevel": 36,
         "maxLevel": 36
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 10,
-        "maxLevel": 10
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 20,
-        "minLevel": 12,
-        "maxLevel": 12
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 10,
-        "minLevel": 8,
-        "maxLevel": 8
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 10,
-        "minLevel": 14,
-        "maxLevel": 14
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 16,
-        "maxLevel": 16
-      },
-      {
-        "location": "Hoenn Altering Cave E",
-        "method": "Walk",
-        "chance": 5,
-        "minLevel": 6,
-        "maxLevel": 6
       }
     ],
     "Firered": [
@@ -4758,6 +4720,33 @@
         "chance": 5,
         "minLevel": 18,
         "maxLevel": 18
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Pokemon Hq Lab Outside",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 11,
+        "maxLevel": 11
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Normal",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Normal",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

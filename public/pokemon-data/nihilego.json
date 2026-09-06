@@ -937,24 +937,28 @@
     ]
   },
   "locations": {
+    "The Crown Tundra Sword": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 70,
+        "maxLevel": 70
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Max Lair Area",
+        "method": "Dynamax Adventure",
+        "chance": 100,
+        "minLevel": 70,
+        "maxLevel": 70
+      }
+    ],
     "Sun": [
       {
         "location": "Digletts Tunnel Area",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 55,
-        "maxLevel": 55
-      },
-      {
-        "location": "Digletts Tunnel Area",
         "method": "Walk",
-        "chance": 100,
-        "minLevel": 55,
-        "maxLevel": 55
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Only One",
         "chance": 100,
         "minLevel": 55,
         "maxLevel": 55
@@ -970,21 +974,7 @@
     "Moon": [
       {
         "location": "Digletts Tunnel Area",
-        "method": "Only One",
-        "chance": 100,
-        "minLevel": 55,
-        "maxLevel": 55
-      },
-      {
-        "location": "Digletts Tunnel Area",
         "method": "Walk",
-        "chance": 100,
-        "minLevel": 55,
-        "maxLevel": 55
-      },
-      {
-        "location": "Wela Volcano Park Area",
-        "method": "Only One",
         "chance": 100,
         "minLevel": 55,
         "maxLevel": 55
@@ -1000,7 +990,7 @@
     "Ultra Sun": [
       {
         "location": "Ultra Space Ultra Deep Sea",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 60,
         "maxLevel": 60
@@ -1009,7 +999,7 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Ultra Deep Sea",
-        "method": "Only One",
+        "method": "Static",
         "chance": 100,
         "minLevel": 60,
         "maxLevel": 60

@@ -36,8 +36,11 @@
       "to": "Vaporeon",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Water Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
         }
       ]
     },
@@ -46,8 +49,11 @@
       "to": "Jolteon",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Thunder Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
         }
       ]
     },
@@ -56,8 +62,11 @@
       "to": "Flareon",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
           "item": "Fire Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
         }
       ]
     },
@@ -66,9 +75,12 @@
       "to": "Espeon",
       "details": [
         {
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
           "time_of_day": "day",
-          "trigger": "Level Up"
+          "base_form": "Eevee"
         }
       ]
     },
@@ -77,9 +89,12 @@
       "to": "Umbreon",
       "details": [
         {
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_happiness": 160,
           "time_of_day": "night",
-          "trigger": "Level Up"
+          "base_form": "Eevee"
         }
       ]
     },
@@ -88,20 +103,46 @@
       "to": "Leafeon",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "trigger": "Level Up",
           "location": "Eterna Forest",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Black White",
+          "trigger": "Level Up",
           "location": "Pinwheel Forest",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "X Y",
+          "trigger": "Level Up",
           "location": "Kalos Route 20",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Leaf Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
+        },
+        {
+          "version_group": "Omega Ruby Alpha Sapphire",
+          "trigger": "Level Up",
+          "location": "Petalburg Woods",
+          "near_special_rock": true,
+          "base_form": "Eevee"
+        },
+        {
+          "version_group": "Sun Moon",
+          "trigger": "Level Up",
+          "location": "Lush Jungle",
+          "near_special_rock": true,
+          "base_form": "Eevee"
         }
       ]
     },
@@ -110,20 +151,46 @@
       "to": "Glaceon",
       "details": [
         {
+          "version_group": "Diamond Pearl",
+          "trigger": "Level Up",
           "location": "Sinnoh Route 217",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Black White",
+          "trigger": "Level Up",
           "location": "Twist Mountain",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "X Y",
+          "trigger": "Level Up",
           "location": "Frost Cavern",
-          "trigger": "Level Up"
+          "near_special_rock": true,
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
           "item": "Ice Stone",
-          "trigger": "Use Item"
+          "trigger": "Use Item",
+          "base_form": "Eevee"
+        },
+        {
+          "version_group": "Omega Ruby Alpha Sapphire",
+          "trigger": "Level Up",
+          "location": "Shoal Cave",
+          "near_special_rock": true,
+          "base_form": "Eevee"
+        },
+        {
+          "version_group": "Sun Moon",
+          "trigger": "Level Up",
+          "location": "Mount Lanakila",
+          "near_special_rock": true,
+          "base_form": "Eevee"
         }
       ]
     },
@@ -132,14 +199,19 @@
       "to": "Sylveon",
       "details": [
         {
+          "version_group": "X Y",
+          "trigger": "Level Up",
           "known_move_type": "Fairy",
           "min_affection": 2,
-          "trigger": "Level Up"
+          "base_form": "Eevee"
         },
         {
+          "version_group": "Sword Shield",
+          "is_default": true,
+          "trigger": "Level Up",
           "known_move_type": "Fairy",
           "min_happiness": 160,
-          "trigger": "Level Up"
+          "base_form": "Eevee"
         }
       ]
     },
@@ -3780,6 +3852,93 @@
     ]
   },
   "locations": {
+    "Diamond": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      },
+      {
+        "location": "Hearthome City Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Pearl": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 18,
+        "maxLevel": 18
+      },
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 16,
+        "maxLevel": 16
+      },
+      {
+        "location": "Hearthome City Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      }
+    ],
+    "Platinum": [
+      {
+        "location": "Trophy Garden Area",
+        "method": "Walk",
+        "chance": 5,
+        "minLevel": 22,
+        "maxLevel": 22
+      },
+      {
+        "location": "Hearthome City Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Pallet Town Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 17 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 33,
+        "maxLevel": 38
+      }
+    ],
     "Black 2": [
       {
         "location": "Castelia City Area",
@@ -3847,6 +4006,13 @@
         "chance": 10,
         "minLevel": 20,
         "maxLevel": 20
+      },
+      {
+        "location": "Friend Safari Normal",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Y": [
@@ -3870,6 +4036,13 @@
         "chance": 10,
         "minLevel": 20,
         "maxLevel": 20
+      },
+      {
+        "location": "Friend Safari Normal",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ],
     "Red": [
@@ -3942,6 +4115,13 @@
         "chance": 100,
         "minLevel": 20,
         "maxLevel": 20
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
     "Silver": [
@@ -3951,6 +4131,13 @@
         "chance": 100,
         "minLevel": 20,
         "maxLevel": 20
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
     "Crystal": [
@@ -3969,6 +4156,13 @@
         "chance": 100,
         "minLevel": 5,
         "maxLevel": 5
+      },
+      {
+        "location": "Celadon City Prize Corner",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
     "Soulsilver": [
@@ -3978,33 +4172,343 @@
         "chance": 100,
         "minLevel": 5,
         "maxLevel": 5
-      }
-    ],
-    "Diamond": [
+      },
       {
-        "location": "Hearthome City Area",
+        "location": "Celadon City Prize Corner",
         "method": "Gift",
         "chance": 100,
-        "minLevel": 5,
-        "maxLevel": 5
+        "minLevel": 15,
+        "maxLevel": 15
       }
     ],
-    "Pearl": [
+    "Sword": [
       {
-        "location": "Hearthome City Area",
+        "location": "Galar Route 4 Area",
+        "method": "Overworld",
+        "chance": 1,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Meetup Spot Area",
         "method": "Gift",
         "chance": 100,
-        "minLevel": 5,
-        "maxLevel": 5
-      }
-    ],
-    "Platinum": [
+        "minLevel": 10,
+        "maxLevel": 10
+      },
       {
-        "location": "Hearthome City Area",
-        "method": "Gift",
-        "chance": 100,
-        "minLevel": 20,
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
         "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "Shield": [
+      {
+        "location": "Galar Route 4 Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 14,
+        "maxLevel": 16
+      },
+      {
+        "location": "Meetup Spot Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
+      },
+      {
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Rolling Fields Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "East Lake Axewell Max Den C",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Motostoke Riverbank Max Den A",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 10,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Bridge Field Max Den E",
+        "method": "Max Raid",
+        "chance": 15,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Sword": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 21,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
+      }
+    ],
+    "The Crown Tundra Shield": [
+      {
+        "location": "Ballimere Lake Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Frostpoint Field Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Wanderer",
+        "chance": 100,
+        "minLevel": 60,
+        "maxLevel": 60
+      },
+      {
+        "location": "Giants Bed Area",
+        "method": "Overworld",
+        "chance": 5,
+        "minLevel": 60,
+        "maxLevel": 65
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 15,
+        "maxLevel": 20
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 50,
+        "minLevel": 25,
+        "maxLevel": 30
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 45,
+        "minLevel": 35,
+        "maxLevel": 40
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 21,
+        "minLevel": 45,
+        "maxLevel": 50
+      },
+      {
+        "location": "Ballimere Lake Max Den K",
+        "method": "Max Raid",
+        "chance": 4,
+        "minLevel": 55,
+        "maxLevel": 60
       }
     ],
     "Sun": [
@@ -4125,6 +4629,15 @@
         "chance": 100,
         "minLevel": 1,
         "maxLevel": 1
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Pokemon Hq Lab Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 10,
+        "maxLevel": 10
       }
     ]
   }

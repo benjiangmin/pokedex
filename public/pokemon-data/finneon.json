@@ -36,8 +36,10 @@
       "to": "Lumineon",
       "details": [
         {
-          "min_level": 31,
-          "trigger": "Level Up"
+          "version_group": "Diamond Pearl",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 31
         }
       ]
     }
@@ -3574,7 +3576,7 @@
       },
       {
         "location": "Hano Beach Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 22,
         "maxLevel": 25
@@ -3639,7 +3641,7 @@
       },
       {
         "location": "Hano Beach Area",
-        "method": "Sos Encounter",
+        "method": "Sos",
         "chance": 15,
         "minLevel": 22,
         "maxLevel": 25

@@ -36,8 +36,10 @@
       "to": "Primeape",
       "details": [
         {
-          "min_level": 28,
-          "trigger": "Level Up"
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 28
         }
       ]
     },
@@ -46,9 +48,11 @@
       "to": "Annihilape",
       "details": [
         {
-          "min_move_count": 20,
+          "version_group": "Scarlet Violet",
+          "is_default": true,
           "trigger": "Use Move",
-          "used_move": "Rage Fist"
+          "used_move": "Rage Fist",
+          "min_move_count": 20
         }
       ]
     }
@@ -5343,6 +5347,22 @@
         "maxLevel": 41
       }
     ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Kanto Route 3 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 3,
+        "maxLevel": 8
+      },
+      {
+        "location": "Kanto Route 4 Area",
+        "method": "Overworld",
+        "chance": 100,
+        "minLevel": 7,
+        "maxLevel": 12
+      }
+    ],
     "Red": [
       {
         "location": "Kanto Route 5 Area",
@@ -5605,6 +5625,24 @@
         "chance": 30,
         "minLevel": 9,
         "maxLevel": 12
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Fighting",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

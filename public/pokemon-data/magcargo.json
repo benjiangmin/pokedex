@@ -37,8 +37,10 @@
       "to": "Magcargo",
       "details": [
         {
-          "min_level": 38,
-          "trigger": "Level Up"
+          "version_group": "Gold Silver",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 38
         }
       ]
     }
@@ -3832,7 +3834,7 @@
     "Ultra Sun": [
       {
         "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
@@ -3841,10 +3843,37 @@
     "Ultra Moon": [
       {
         "location": "Ultra Space Wilds Cave",
-        "method": "Only One",
+        "method": "Static",
         "chance": 15,
         "minLevel": 60,
         "maxLevel": 60
+      }
+    ],
+    "Xd": [
+      {
+        "location": "Citadark Isle 3f",
+        "method": "Snag",
+        "chance": 100,
+        "minLevel": 38,
+        "maxLevel": 38
+      }
+    ],
+    "X": [
+      {
+        "location": "Friend Safari Rock",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
+      }
+    ],
+    "Y": [
+      {
+        "location": "Friend Safari Rock",
+        "method": "Walk",
+        "chance": 33,
+        "minLevel": 30,
+        "maxLevel": 30
       }
     ]
   }

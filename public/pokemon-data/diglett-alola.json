@@ -37,8 +37,18 @@
       "to": "Dugtrio",
       "details": [
         {
+          "version_group": "Red Blue",
+          "is_default": true,
+          "trigger": "Level Up",
+          "min_level": 26
+        },
+        {
+          "version_group": "Sun Moon",
+          "is_default": true,
+          "trigger": "Level Up",
           "min_level": 26,
-          "trigger": "Level Up"
+          "base_form": "Diglett Alola",
+          "evolved_form": "Dugtrio Alola"
         }
       ]
     }
@@ -1332,6 +1342,24 @@
     ]
   },
   "locations": {
+    "The Isle Of Armor Sword": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      }
+    ],
+    "The Isle Of Armor Shield": [
+      {
+        "location": "Fields Of Honor Area",
+        "method": "Gift",
+        "chance": 100,
+        "minLevel": 20,
+        "maxLevel": 20
+      }
+    ],
     "Sun": [
       {
         "location": "Alola Route 5 Area",
@@ -1520,6 +1548,24 @@
         "chance": 35,
         "minLevel": 8,
         "maxLevel": 11
+      }
+    ],
+    "Lets Go Pikachu": [
+      {
+        "location": "Lavender Town Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
+      }
+    ],
+    "Lets Go Eevee": [
+      {
+        "location": "Lavender Town Area",
+        "method": "Npc Trade",
+        "chance": 100,
+        "minLevel": 25,
+        "maxLevel": 25
       }
     ]
   }
